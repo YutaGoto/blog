@@ -119,11 +119,11 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `Gatsby Starter Blog`,
-        short_name: `GatsbyJS`,
-        start_url: `/`,
-        background_color: `#ffffff`,
-        theme_color: `#663399`,
+        name: `.ごっちの日記`,
+        short_name: `.ごっちの日記`,
+        start_url: `/blog`,
+        background_color: `#f5f5f5`,
+        theme_color: `#1d72aa`,
         display: `minimal-ui`,
         icon: `src/images/icon.png`, // This path is relative to the root of the site.
       },

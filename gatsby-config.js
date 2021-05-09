@@ -17,7 +17,7 @@ module.exports = {
       },
     ],
   },
-  pathPrefix: "/reponame",
+  pathPrefix: "/blog",
   plugins: [
     `gatsby-plugin-image`,
     {

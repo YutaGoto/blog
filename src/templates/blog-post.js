@@ -3,7 +3,7 @@ import { Link, graphql } from "gatsby"
 
 import Bio from "../components/bio"
 import Layout from "../components/layout"
-import SEO from "../components/seo"
+import Seo from "../components/seo"
 
 const BlogPostTemplate = ({ data, location }) => {
   const post = data.markdownRemark
@@ -12,53 +12,48 @@ const BlogPostTemplate = ({ data, location }) => {
 
   return (
     <Layout location={location} title={siteTitle}>
-      <SEO
+      <Seo
         title={post.frontmatter.title}
         description={post.frontmatter.description || post.excerpt}
       />
-      <article
-        className="blog-post"
-        itemScope
-        itemType="http://schema.org/Article"
-      >
-        <header>
-          <h1 itemProp="headline">{post.frontmatter.title}</h1>
-          <p>{post.frontmatter.date}</p>
-        </header>
-        <section
-          dangerouslySetInnerHTML={{ __html: post.html }}
-          itemProp="articleBody"
-        />
-        <hr />
-        <footer>
+      <div className="columns">
+        <div className="column is-three-quarters">
+          <div className="content">
+            <article
+              className="blog-post"
+              itemScope
+              itemType="http://schema.org/Article"
+            >
+              <h1 itemProp="headline">{post.frontmatter.title}</h1>
+              <p>
+                <small>{post.frontmatter.date}</small>
+              </p>
+              <section
+                dangerouslySetInnerHTML={{ __html: post.html }}
+                itemProp="articleBody"
+              />
+            </article>
+          </div>
+        </div>
+        <div className="column">
           <Bio />
-        </footer>
-      </article>
-      <nav className="blog-post-nav">
-        <ul
-          style={{
-            display: `flex`,
-            flexWrap: `wrap`,
-            justifyContent: `space-between`,
-            listStyle: `none`,
-            padding: 0,
-          }}
-        >
-          <li>
-            {previous && (
-              <Link to={previous.fields.slug} rel="prev">
-                ← {previous.frontmatter.title}
-              </Link>
-            )}
-          </li>
-          <li>
-            {next && (
-              <Link to={next.fields.slug} rel="next">
-                {next.frontmatter.title} →
-              </Link>
-            )}
-          </li>
-        </ul>
+        </div>
+      </div>
+      <nav className="pagination is-centered" role="navigation">
+        {previous && (
+          <Link
+            to={previous.fields.slug}
+            rel="prev"
+            className="pagination-previous"
+          >
+            ← {previous.frontmatter.title}
+          </Link>
+        )}
+        {next && (
+          <Link to={next.fields.slug} rel="next" className="pagination-next">
+            {next.frontmatter.title} →
+          </Link>
+        )}
       </nav>
     </Layout>
   )

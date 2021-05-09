@@ -1,64 +1,57 @@
 import * as React from "react"
 import { Link, graphql } from "gatsby"
-
 import Bio from "../components/bio"
 import Layout from "../components/layout"
-import SEO from "../components/seo"
+import Seo from "../components/seo"
 
 const BlogIndex = ({ data, location }) => {
   const siteTitle = data.site.siteMetadata?.title || `Title`
   const posts = data.allMarkdownRemark.nodes
 
-  if (posts.length === 0) {
-    return (
-      <Layout location={location} title={siteTitle}>
-        <SEO title="All posts" />
-        <Bio />
-        <p>
-          No blog posts found. Add markdown posts to "content/blog" (or the
-          directory you specified for the "gatsby-source-filesystem" plugin in
-          gatsby-config.js).
-        </p>
-      </Layout>
-    )
-  }
-
   return (
     <Layout location={location} title={siteTitle}>
-      <SEO title="All posts" />
-      <Bio />
-      <ol style={{ listStyle: `none` }}>
-        {posts.map(post => {
-          const title = post.frontmatter.title || post.fields.slug
+      <Seo title="All posts" />
+      <div className="columns">
+        <div className="column is-three-quarters">
+          {posts.map(post => {
+            const title = post.frontmatter.title || post.fields.slug
 
-          return (
-            <li key={post.fields.slug}>
-              <article
-                className="post-list-item"
-                itemScope
-                itemType="http://schema.org/Article"
-              >
-                <header>
-                  <h2>
-                    <Link to={post.fields.slug} itemProp="url">
-                      <span itemProp="headline">{title}</span>
-                    </Link>
-                  </h2>
-                  <small>{post.frontmatter.date}</small>
-                </header>
-                <section>
-                  <p
-                    dangerouslySetInnerHTML={{
-                      __html: post.frontmatter.description || post.excerpt,
-                    }}
-                    itemProp="description"
-                  />
-                </section>
-              </article>
-            </li>
-          )
-        })}
-      </ol>
+            return (
+              <div className="box mb-10" key={post.fields.slug}>
+                <Link
+                  to={post.fields.slug}
+                  itemProp="url"
+                  className="has-text-black"
+                >
+                  <article
+                    className="media"
+                    itemScope
+                    itemType="http://schema.org/Article"
+                  >
+                    <div className="content">
+                      <p>
+                        <strong>{title}</strong>{" "}
+                        <small>{post.frontmatter.date}</small>
+                        <br />
+                        <div
+                          dangerouslySetInnerHTML={{
+                            __html:
+                              post.frontmatter.description || post.excerpt,
+                          }}
+                          itemProp="description"
+                        />
+                      </p>
+                    </div>
+                  </article>
+                </Link>
+              </div>
+            )
+          })}
+        </div>
+        <div className="column">
+          <Bio />
+        </div>
+      </div>
     </Layout>
   )
 }

@@ -1,16 +1,23 @@
 module.exports = {
   siteMetadata: {
-    title: `Gatsby Starter Blog`,
+    title: `.ごっちの日記`,
     author: {
-      name: `Kyle Mathews`,
-      summary: `who lives and works in San Francisco building useful things.`,
+      name: `Yuta Goto`,
     },
-    description: `A starter blog demonstrating what Gatsby can do.`,
-    siteUrl: `https://gatsbystarterblogsource.gatsbyjs.io/`,
-    social: {
-      twitter: `kylemathews`,
-    },
+    description: `.ごっちのつれづれなる日記`,
+    siteUrl: `https://yutagoto.github.io/`,
+    social: [
+      {
+        name: `twitter`,
+        url: `https://twitter.com/gggooottto`,
+      },
+      {
+        name: `github`,
+        url: `https://github.com/YutaGoto`,
+      },
+    ],
   },
+  pathPrefix: "/reponame",
   plugins: [
     `gatsby-plugin-image`,
     {
@@ -118,7 +125,7 @@ module.exports = {
         background_color: `#ffffff`,
         theme_color: `#663399`,
         display: `minimal-ui`,
-        icon: `src/images/gatsby-icon.png`, // This path is relative to the root of the site.
+        icon: `src/images/icon.png`, // This path is relative to the root of the site.
       },
     },
     `gatsby-plugin-react-helmet`,
@@ -126,5 +133,8 @@ module.exports = {
     // this (optional) plugin enables Progressive Web App + Offline functionality
     // To learn more, visit: https://gatsby.dev/offline
     // `gatsby-plugin-offline`,
+    `gatsby-plugin-fontawesome-css`,
+    `gatsby-plugin-twitter`,
+    `gatsby-plugin-sass`,
   ],
 }

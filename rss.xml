@@ -1,4 +1,37 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[.ごっちの日記]]></title><description><![CDATA[.ごっちのつれづれなる日記]]></description><link>https://yutagoto.github.io</link><generator>GatsbyJS</generator><lastBuildDate>Mon, 10 May 2021 14:55:50 GMT</lastBuildDate><item><title><![CDATA[ブログを移行しました]]></title><description><![CDATA[こんにちは、.ごっちです。 ブログをMediumからここに移動します。
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[.ごっちの日記]]></title><description><![CDATA[.ごっちのつれづれなる日記]]></description><link>https://yutagoto.github.io</link><generator>GatsbyJS</generator><lastBuildDate>Mon, 10 May 2021 15:59:43 GMT</lastBuildDate><item><title><![CDATA[esa7th Anniversary とのこと]]></title><description><![CDATA[esa7th Anniversary とのこと といってもポスト時点では 1 日過ぎていますが、とてもめでたいです\( ⁰⊖⁰)/。 去年も同じようなことを書きました。 esa 6th Anniversary とのこと esaが個人で使ったり mitakarb…]]></description><link>https://yutagoto.github.io/20210511-esa7th-tonokoto/</link><guid isPermaLink="false">https://yutagoto.github.io/20210511-esa7th-tonokoto/</guid><pubDate>Tue, 11 May 2021 01:00:00 GMT</pubDate><content:encoded>&lt;h1&gt;esa7th Anniversary とのこと&lt;/h1&gt;
+&lt;p&gt;といってもポスト時点では 1 日過ぎていますが、とてもめでたいです\( ⁰⊖⁰)/。&lt;/p&gt;
+&lt;p&gt;去年も同じようなことを書きました。 &lt;a href=&quot;https://yutagoto.github.io/blog/20200511-esa-6th-anniversary-%E3%81%A8%E3%81%AE%E3%81%93%E3%81%A8/&quot;&gt;esa 6th Anniversary とのこと&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;esaが個人で使ったり &lt;a href=&quot;https://mitakarb.doorkeeper.jp/&quot;&gt;mitakarb&lt;/a&gt; で使ったりしています。esa日記もちまちま続いています。  &lt;a href=&quot;https://yutagoto.github.io/blog/20190514-esa%E3%81%A7%E6%97%A5%E8%A8%98%E3%82%92%E3%81%A4%E3%81%91%E3%81%A6%E3%81%84%E3%82%8B/&quot;&gt;esaで日記をつけている&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;おかげさまで個人のポストも増えてきました。去年の倍くらいにですかね。esa日記や日々解いているAtCoderの問題の振り返りを残しているだけあってめちゃくちゃ記事数が伸びています。&lt;/p&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 503px; &quot;
+    &gt;
+      &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 63.92405063291139%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAANCAYAAACpUE5eAAAACXBIWXMAAAsTAAALEwEAmpwYAAACRUlEQVQ4y3VSTWsTQRgeMBEKenA9CJ4URU/R/yB40X/gRTzqwYteVSikVCGxWtugoBZvlQYaTWKTCn78AP9AbTDUJulumuwmu7O7M7P7yEx2N9sWB4Z3Z/fdZ56Pl5x5/RUX3n/H5ZUf2BrakCsIQwgRwHYodrs6TGsM3RiAUgrD6MN1XdUXhuGRTWYWN5BdqON0aRMt00kAuRAKqL3Txf7QQm+vD0pd6ArQw/8WOfa8CpJfhbbcQMuaAsY3pld8DpUCoXYQBKoyxlQlmYUayHwZ2nITLYseAIxgjvwsq+qLzkjdS44XKpgpVqC9rGI78RDgnKPT3YNu7CvvPM9T3slqOw50w4Dv+6p/zCiav36COi7IicI6zpfquPp2EyOfRZwAxjl2/nbQ6+lwKVVgNKq2bR8I58HGQ1y/cQ6ztVmQk8UKLr5p4OyrGv5EoYhILhUBhj6H7nhgIpDmqffSr8HQBOdCnW+vPkHu0mPc/ZQHyRQ/Kw9PLTWwnUpZ8nQZB2UcDuMKMA5K+iYTF5GX+sDB+pffGIwoSFaGMvcRWqmZpCyCCRPJTKc+LI+p6osg+h7ANC0VShxQEkr2RR2kUJ2kfEiy7XOYLlM1zVCCeJ4/SRjAVr+F/MoztDvtiOHTMrTUYMcMB66P9oii53jJCMXjJJPmjKvnW+U7uHkth3vl+yAZOdjza9CWpoOdZihBpWS5JTMJKEdKAfKJ3Ef1d8hdWcTctw8RQylZAh6SPJYJ0wnLru0l7CSgZY2m/glgt+cAAfAPiQOmA1bOkP8AAAAASUVORK5CYII=&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;esa7th&quot;
+        title=&quot;esa7th&quot;
+        src=&quot;/blog/static/98e47973fc459e533971cdc1bd71bf2b/a4078/esa7th.png&quot;
+        srcset=&quot;/blog/static/98e47973fc459e533971cdc1bd71bf2b/c26ae/esa7th.png 158w,
+/blog/static/98e47973fc459e533971cdc1bd71bf2b/6bdcf/esa7th.png 315w,
+/blog/static/98e47973fc459e533971cdc1bd71bf2b/a4078/esa7th.png 503w&quot;
+        sizes=&quot;(max-width: 503px) 100vw, 503px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;↑画像: 地味に去年とUIが変わっていることに気がついた&lt;/p&gt;
+&lt;p&gt;そんな感じに個人esaを運用していますが、今年はDiscordに記念サーバーが立ち上がりました！&lt;/p&gt;
+&lt;blockquote class=&quot;twitter-tweet&quot;&gt;&lt;p lang=&quot;ja&quot; dir=&quot;ltr&quot;&gt;【お知らせ】 diary/2021/05/10/esaが誕生7周年 :tada: :birthday: :esa2: &lt;a href=&quot;https://t.co/OO6gRljTDL&quot;&gt;https://t.co/OO6gRljTDL&lt;/a&gt; &lt;a href=&quot;https://twitter.com/hashtag/esa_io?src=hash&amp;amp;ref_src=twsrc%5Etfw&quot;&gt;#esa_io&lt;/a&gt; &lt;a href=&quot;https://twitter.com/hashtag/%EF%BE%84%EF%BE%89%EF%BD%BA%EF%BE%84?src=hash&amp;amp;ref_src=twsrc%5Etfw&quot;&gt;#ﾄﾉｺﾄ&lt;/a&gt;&lt;/p&gt;&amp;mdash; esa_io (@esa_io) &lt;a href=&quot;https://twitter.com/esa_io/status/1391623368017776643?ref_src=twsrc%5Etfw&quot;&gt;May 10, 2021&lt;/a&gt;&lt;/blockquote&gt;
+&lt;p&gt;といっても特段パーティをするわけでもなくゆるゆるとおしゃべりをするという内容でした。めちゃくちゃ楽しかったです！&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;これからも個人、コミュニティともによろしくお願いします！&lt;/p&gt;
+&lt;blockquote class=&quot;twitter-tweet&quot; data-conversation=&quot;none&quot;&gt;&lt;p lang=&quot;ja&quot; dir=&quot;ltr&quot;&gt;ケーキを作って各家庭に届けてくださったのは今年も &lt;a href=&quot;https://twitter.com/bonsweets?ref_src=twsrc%5Etfw&quot;&gt;@bonsweets&lt;/a&gt; さん&amp;quot;(\( ⁰⊖⁰)/)&amp;quot;&lt;br&gt;かわいくておいしいケーキありがとうございます🎂 &lt;a href=&quot;https://t.co/hTz9gjDYHJ&quot;&gt;pic.twitter.com/hTz9gjDYHJ&lt;/a&gt;&lt;/p&gt;&amp;mdash; taea🐶 (@ken_c_lo) &lt;a href=&quot;https://twitter.com/ken_c_lo/status/1391648347212050434?ref_src=twsrc%5Etfw&quot;&gt;May 10, 2021&lt;/a&gt;&lt;/blockquote&gt;
+&lt;p&gt;esaケーキおいしそう。。。&lt;/p&gt;</content:encoded></item><item><title><![CDATA[ブログを移行しました]]></title><description><![CDATA[こんにちは、.ごっちです。 ブログをMediumからここに移動します。
 Mediumもだいぶスッキリしていて好きでしたが、(個人的には)Markdownで書きたかったので移行したという感じです。 過去分もいちおう移行していますが、TwitterEmbed…]]></description><link>https://yutagoto.github.io/20210510-move-blog-service/</link><guid isPermaLink="false">https://yutagoto.github.io/20210510-move-blog-service/</guid><pubDate>Mon, 10 May 2021 01:00:00 GMT</pubDate><content:encoded>&lt;p&gt;こんにちは、.ごっちです。&lt;/p&gt;
 &lt;p&gt;ブログを&lt;a href=&quot;https://medium.com/@gggooottto&quot;&gt;Medium&lt;/a&gt;からここに移動します。
 Mediumもだいぶスッキリしていて好きでしたが、(個人的には)Markdownで書きたかったので移行したという感じです。&lt;/p&gt;
@@ -526,17 +559,16 @@ AtCoder is a…]]></description><link>https://yutagoto.github.io/20200808-ほぼ
 &lt;p&gt;タイミングを見て、聴講生なり通信制なりでもう一度講義を受けたいと考えたお話しでした。&lt;/p&gt;</content:encoded></item><item><title><![CDATA[esa 6th Anniversary とのこと]]></title><description><![CDATA[といってもポスト時点では 1 日過ぎていますが、とてもめでたいです( ⁰⊖⁰)/。 個人 esa を使い始めてからまだ 1 年ちょっととそこまで長く使っているわけではないですが、今ではもう必需といっても過言ではない状態にまでなっています。 ぼくの esa…]]></description><link>https://yutagoto.github.io/20200511-esa-6th-anniversary-とのこと/</link><guid isPermaLink="false">https://yutagoto.github.io/20200511-esa-6th-anniversary-とのこと/</guid><pubDate>Mon, 11 May 2020 09:00:00 GMT</pubDate><content:encoded>&lt;p&gt;といってもポスト時点では 1 日過ぎていますが、とてもめでたいです( ⁰⊖⁰)/。&lt;/p&gt;
 &lt;p&gt;個人 esa を使い始めてからまだ 1 年ちょっととそこまで長く使っているわけではないですが、今ではもう必需といっても過言ではない状態にまでなっています。&lt;/p&gt;
 &lt;p&gt;ぼくの esa の使い方の一つに関しては
-&lt;a href=&quot;https://medium.com/@gggooottto/esa%E3%81%A7%E6%97%A5%E8%A8%98%E3%82%92%E3%81%A4%E3%81%91%E3%81%A6%E3%81%84%E3%82%8B-3cea3c7e438f&quot;&gt;&lt;strong&gt;esa で日記をつけている&lt;/strong&gt;
-&lt;em&gt;こんにちは、.ごっちです。&lt;/em&gt;medium.com&lt;/a&gt;&lt;/p&gt;
+&lt;a href=&quot;https://yutagoto.github.io/blog/20190514-esa%E3%81%A7%E6%97%A5%E8%A8%98%E3%82%92%E3%81%A4%E3%81%91%E3%81%A6%E3%81%84%E3%82%8B/&quot;&gt;&lt;strong&gt;esa で日記をつけている&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;にあるとおりです。&lt;/p&gt;
 &lt;p&gt;今では記事数がもうすぐで 700 になろうかというところまで来ています。思っていたよりもドキュメントを残しています。。&lt;/p&gt;
 &lt;p&gt;&lt;img src=&quot;https://cdn-images-1.medium.com/max/2000/1*lvtADKAGlzVidec5Ih05Eg.png&quot;&gt;&lt;/p&gt;
 &lt;p&gt;開発系のストックも増えてきて、いくつかは dev.to にポストできているので、このあたりは続けていきたいです。&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;https://cdn-images-1.medium.com/max/2000/1*bNiYQpg39ReougKYESJ2rA.png&quot;&gt;
-&lt;a href=&quot;https://dev.to/yutagoto/omniauth-github-on-rails-2d0n&quot;&gt;&lt;strong&gt;Omniauth GitHub on Rails&lt;/strong&gt;
+&lt;p&gt;&lt;img src=&quot;https://cdn-images-1.medium.com/max/2000/1*bNiYQpg39ReougKYESJ2rA.png&quot;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://dev.to/yutagoto/omniauth-github-on-rails-2d0n&quot;&gt;&lt;strong&gt;Omniauth GitHub on Rails&lt;/strong&gt;
 &lt;em&gt;This README would normally document whatever steps are necessary to get the application up and running. Things you may…&lt;/em&gt;dev.to&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;AtCoder も始めてしまったので勉強ログも残せていけたらと考えてます。&lt;/p&gt;
-&lt;iframe src=&quot;https://medium.com/media/06057ca4fbb55ab920c6796a1219a930&quot; frameborder=0&gt;&lt;/iframe&gt;
+&lt;blockquote class=&quot;twitter-tweet&quot;&gt;&lt;p lang=&quot;ja&quot; dir=&quot;ltr&quot;&gt;yougotoさんのAtCoder Beginner Contest 167での成績：10331位&lt;br&gt;パフォーマンス：97相当&lt;br&gt;レーティング：5&lt;br&gt;段級位：17 級&lt;a href=&quot;https://twitter.com/hashtag/AtCoder?src=hash&amp;amp;ref_src=twsrc%5Etfw&quot;&gt;#AtCoder&lt;/a&gt; &lt;a href=&quot;https://t.co/u3RmS7jX1K&quot;&gt;https://t.co/u3RmS7jX1K&lt;/a&gt;&lt;br&gt;初心者です🔰&lt;/p&gt;&amp;mdash; .ごっち (@gggooottto) &lt;a href=&quot;https://twitter.com/gggooottto/status/1259487595408445440?ref_src=twsrc%5Etfw&quot;&gt;May 10, 2020&lt;/a&gt;&lt;/blockquote&gt;
 &lt;p&gt;—&lt;/p&gt;
 &lt;p&gt;気がつけば UI が更新されていたり、バグ報告からの修正が早かったり、( ⁰⊖⁰)/が可愛かったりなのでこれからも使い続ける予定です！今後もよろしくおねがいします。&lt;/p&gt;
 &lt;p&gt;( ⁰⊖⁰)/&lt;/p&gt;
@@ -1304,20 +1336,19 @@ RubyKaigi 2018, 5/31…6/2, Sendai, Miyagi, Japanrubykaigi.org&lt;/a&gt;&lt;/p&g
 &lt;p&gt;表計算アプリでできていた文字列検索とかは、esa に検索機能があるからそれでいいじゃん！みたいな気持ちになっています。&lt;/p&gt;
 &lt;p&gt;—&lt;/p&gt;
 &lt;p&gt;esa で日記をつけていたときの運用でぶち当たった問題がありました。&lt;/p&gt;
-&lt;iframe src=&quot;https://medium.com/media/b5fdb3988ad4fa23b6f099066d197836&quot; frameborder=0&gt;&lt;/iframe&gt;
+&lt;blockquote class=&quot;twitter-tweet&quot;&gt;&lt;p lang=&quot;ja&quot; dir=&quot;ltr&quot;&gt;esaで日記をつける運用を始めて、`Templates/日記/%{Year}/%{month}/%{day}/%{me}:日記`というテンプレを作ったが、日付が変わった瞬間に日記を書き始めようとすると日付がズレてしまうのでう〜んとなってる\( ⁰⊖⁰)/&lt;/p&gt;&amp;mdash; .ごっち (@gggooottto) &lt;a href=&quot;https://twitter.com/gggooottto/status/1113286862649454592?ref_src=twsrc%5Etfw&quot;&gt;April 3, 2019&lt;/a&gt;&lt;/blockquote&gt;
 &lt;p&gt;これは、 日記のテンプレディレクトリを Templates/日記/%{Year}/%{month}/%{day}/%{me}:日記で作って、 5 月 13 日の日記を普段寝る前の 5 月 14 日 0 時 15 分 ころから書き始めようとすると、esa のディレクトリが 2019/05/14 になってしまい、手でディレクトリの数字を直さなければいけませんでした。(直さずに投稿して、次の日に直すことも何回かありました)&lt;/p&gt;
 &lt;p&gt;仕事の日報とか会議議事録とかは日中にドキュメントを作り始めるはずなので特に問題は発生しないですが、日記は一日が終わる(終わった)ときに書き始めるので、たまにこういう問題が起きるのです。&lt;/p&gt;
 &lt;p&gt;それが、今日こんなリプが届き、、&lt;/p&gt;
-&lt;iframe src=&quot;https://medium.com/media/c9bbb14226d2f46d3a161e4bdc6fc0c2&quot; frameborder=0&gt;&lt;/iframe&gt;
+&lt;blockquote class=&quot;twitter-tweet&quot;&gt;&lt;p lang=&quot;ja&quot; dir=&quot;ltr&quot;&gt;お待たせいたしました。テンプレート変数の評価のタイミングを時間単位でずらせるようにました。例えば以下のように書けば2時間前の時刻で年月日を埋め込めます。&lt;br&gt;&lt;br&gt;Templates/日記/%{Year:-2h}/%{month:-2h}/%{day:-2h}/%{me}:日記&lt;/p&gt;&amp;mdash; esa_io (@esa_io) &lt;a href=&quot;https://twitter.com/esa_io/status/1127897412201107456?ref_src=twsrc%5Etfw&quot;&gt;May 13, 2019&lt;/a&gt;&lt;/blockquote&gt;
 &lt;p&gt;実装されました！！！めっちゃありがとうございます！！！&lt;/p&gt;
-&lt;iframe src=&quot;https://medium.com/media/b203731f3c7815b201d8c43b79b54071&quot; frameborder=0&gt;&lt;/iframe&gt;
+&lt;blockquote class=&quot;twitter-tweet&quot;&gt;&lt;p lang=&quot;ja&quot; dir=&quot;ltr&quot;&gt;おおおぉ！感動\( ⁰⊖⁰)/！ &lt;a href=&quot;https://t.co/EhuZANUdBA&quot;&gt;pic.twitter.com/EhuZANUdBA&lt;/a&gt;&lt;/p&gt;&amp;mdash; .ごっち (@gggooottto) &lt;a href=&quot;https://twitter.com/gggooottto/status/1127953833705873409?ref_src=twsrc%5Etfw&quot;&gt;May 13, 2019&lt;/a&gt;&lt;/blockquote&gt;
 &lt;p&gt;Templates/日記/%{Year:-4h}/%{month:-4h}/%{day:-4h}/%{me}:日記でテンプレを更新し、やってみた結果です。嬉しい。。。これでミスがなくなります。。&lt;/p&gt;
 &lt;p&gt;詳しい使い方は以下のリンクに書いてあります！
-&lt;a href=&quot;https://docs.esa.io/posts/254&quot;&gt;&lt;strong&gt;ProTip/2018/03/14/テンプレート変数の拡張&lt;/strong&gt;
-&lt;em&gt;day} や %{month} など、時間に関係する全てのテンプレート変数は、以下のような記述で日付をずらすことが出来ます。 年・月・日・時間の加減 時刻の加減 %{day:+2h} =&gt; 2 時間後の日 %{month:+2h} =&gt;…&lt;/em&gt;docs.esa.io&lt;/a&gt;&lt;/p&gt;
+&lt;a href=&quot;https://docs.esa.io/posts/254&quot;&gt;&lt;strong&gt;ProTip/2018/03/14/テンプレート変数の拡張&lt;/strong&gt; &lt;em&gt;day} や %{month} など、時間に関係する全てのテンプレート変数は、以下のような記述で日付をずらすことが出来ます。 年・月・日・時間の加減 時刻の加減 %{day:+2h} =&gt; 2 時間後の日 %{month:+2h} =&gt;…&lt;/em&gt;docs.esa.io&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;言っても esa 日記をつけ始めてからまだ 1 ヶ月、個人 esa も 4 ヶ月くらいなのでまだまだ使い倒しが足りないですが、esa 日記だけは 1 年くらい使い続けようと思いました。&lt;/p&gt;
 &lt;p&gt;ぽっとつぶやいてから 1 ヶ月くらいで企画実装反映までやってくださるスピード感にも感動しました。&lt;/p&gt;
-&lt;p&gt;( ⁰⊖⁰)/&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Splatoon2のステージ情報を取得するコマンドを作っている 続き]]></title><description><![CDATA[こんにちは、.ごっちです。 前にこんなのを作ってたのですが、それの続きです。
+&lt;p&gt;\( ⁰⊖⁰)/&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Splatoon2のステージ情報を取得するコマンドを作っている 続き]]></title><description><![CDATA[こんにちは、.ごっちです。 前にこんなのを作ってたのですが、それの続きです。
 Splatoon2 のステージ情報を取得するコマンドを作っている
 こんにちは、.ごっちです。medium.com 作ったもの YutaGoto/ika2cli
 Contribute to…]]></description><link>https://yutagoto.github.io/20190510-splatoon2のステージ情報を取得するコマンドを作っている-続き/</link><guid isPermaLink="false">https://yutagoto.github.io/20190510-splatoon2のステージ情報を取得するコマンドを作っている-続き/</guid><pubDate>Fri, 10 May 2019 09:00:00 GMT</pubDate><content:encoded>&lt;p&gt;こんにちは、.ごっちです。&lt;/p&gt;

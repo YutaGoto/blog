@@ -26,7 +26,7 @@ description: "esaで日記をつけている"
 
 esa で日記をつけていたときの運用でぶち当たった問題がありました。
 
-<iframe src="https://medium.com/media/b5fdb3988ad4fa23b6f099066d197836" frameborder=0></iframe>
+<blockquote class="twitter-tweet"><p lang="ja" dir="ltr">esaで日記をつける運用を始めて、`Templates/日記/%{Year}/%{month}/%{day}/%{me}:日記`というテンプレを作ったが、日付が変わった瞬間に日記を書き始めようとすると日付がズレてしまうのでう〜んとなってる\( ⁰⊖⁰)/</p>&mdash; .ごっち (@gggooottto) <a href="https://twitter.com/gggooottto/status/1113286862649454592?ref_src=twsrc%5Etfw">April 3, 2019</a></blockquote>
 
 これは、 日記のテンプレディレクトリを Templates/日記/%{Year}/%{month}/%{day}/%{me}:日記で作って、 5 月 13 日の日記を普段寝る前の 5 月 14 日 0 時 15 分 ころから書き始めようとすると、esa のディレクトリが 2019/05/14 になってしまい、手でディレクトリの数字を直さなければいけませんでした。(直さずに投稿して、次の日に直すことも何回かありました)
 
@@ -34,20 +34,19 @@ esa で日記をつけていたときの運用でぶち当たった問題があ�
 
 それが、今日こんなリプが届き、、
 
-<iframe src="https://medium.com/media/c9bbb14226d2f46d3a161e4bdc6fc0c2" frameborder=0></iframe>
+<blockquote class="twitter-tweet"><p lang="ja" dir="ltr">お待たせいたしました。テンプレート変数の評価のタイミングを時間単位でずらせるようにました。例えば以下のように書けば2時間前の時刻で年月日を埋め込めます。<br><br>Templates/日記/%{Year:-2h}/%{month:-2h}/%{day:-2h}/%{me}:日記</p>&mdash; esa_io (@esa_io) <a href="https://twitter.com/esa_io/status/1127897412201107456?ref_src=twsrc%5Etfw">May 13, 2019</a></blockquote>
 
 実装されました！！！めっちゃありがとうございます！！！
 
-<iframe src="https://medium.com/media/b203731f3c7815b201d8c43b79b54071" frameborder=0></iframe>
+<blockquote class="twitter-tweet"><p lang="ja" dir="ltr">おおおぉ！感動\( ⁰⊖⁰)/！ <a href="https://t.co/EhuZANUdBA">pic.twitter.com/EhuZANUdBA</a></p>&mdash; .ごっち (@gggooottto) <a href="https://twitter.com/gggooottto/status/1127953833705873409?ref_src=twsrc%5Etfw">May 13, 2019</a></blockquote>
 
 Templates/日記/%{Year:-4h}/%{month:-4h}/%{day:-4h}/%{me}:日記でテンプレを更新し、やってみた結果です。嬉しい。。。これでミスがなくなります。。
 
 詳しい使い方は以下のリンクに書いてあります！
-[**ProTip/2018/03/14/テンプレート変数の拡張**
-*day} や %{month} など、時間に関係する全てのテンプレート変数は、以下のような記述で日付をずらすことが出来ます。 年・月・日・時間の加減 時刻の加減 %{day:+2h} => 2 時間後の日 %{month:+2h} =>…*docs.esa.io](https://docs.esa.io/posts/254)
+[**ProTip/2018/03/14/テンプレート変数の拡張** *day} や %{month} など、時間に関係する全てのテンプレート変数は、以下のような記述で日付をずらすことが出来ます。 年・月・日・時間の加減 時刻の加減 %{day:+2h} => 2 時間後の日 %{month:+2h} =>…*docs.esa.io](https://docs.esa.io/posts/254)
 
 言っても esa 日記をつけ始めてからまだ 1 ヶ月、個人 esa も 4 ヶ月くらいなのでまだまだ使い倒しが足りないですが、esa 日記だけは 1 年くらい使い続けようと思いました。
 
 ぽっとつぶやいてから 1 ヶ月くらいで企画実装反映までやってくださるスピード感にも感動しました。
 
-\( ⁰⊖⁰)/
+\\( ⁰⊖⁰)/

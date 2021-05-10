@@ -9,8 +9,7 @@ description: "esa 6th Anniversary とのこと"
 個人 esa を使い始めてからまだ 1 年ちょっととそこまで長く使っているわけではないですが、今ではもう必需といっても過言ではない状態にまでなっています。
 
 ぼくの esa の使い方の一つに関しては
-[**esa で日記をつけている**
-*こんにちは、.ごっちです。*medium.com](https://medium.com/@gggooottto/esa%E3%81%A7%E6%97%A5%E8%A8%98%E3%82%92%E3%81%A4%E3%81%91%E3%81%A6%E3%81%84%E3%82%8B-3cea3c7e438f)
+[**esa で日記をつけている**](https://yutagoto.github.io/blog/20190514-esa%E3%81%A7%E6%97%A5%E8%A8%98%E3%82%92%E3%81%A4%E3%81%91%E3%81%A6%E3%81%84%E3%82%8B/)
 
 にあるとおりです。
 
@@ -21,12 +20,13 @@ description: "esa 6th Anniversary とのこと"
 開発系のストックも増えてきて、いくつかは dev.to にポストできているので、このあたりは続けていきたいです。
 
 ![](https://cdn-images-1.medium.com/max/2000/1*bNiYQpg39ReougKYESJ2rA.png)
+
 [**Omniauth GitHub on Rails**
 *This README would normally document whatever steps are necessary to get the application up and running. Things you may…*dev.to](https://dev.to/yutagoto/omniauth-github-on-rails-2d0n)
 
 AtCoder も始めてしまったので勉強ログも残せていけたらと考えてます。
 
-<iframe src="https://medium.com/media/06057ca4fbb55ab920c6796a1219a930" frameborder=0></iframe>
+<blockquote class="twitter-tweet"><p lang="ja" dir="ltr">yougotoさんのAtCoder Beginner Contest 167での成績：10331位<br>パフォーマンス：97相当<br>レーティング：5<br>段級位：17 級<a href="https://twitter.com/hashtag/AtCoder?src=hash&amp;ref_src=twsrc%5Etfw">#AtCoder</a> <a href="https://t.co/u3RmS7jX1K">https://t.co/u3RmS7jX1K</a><br>初心者です🔰</p>&mdash; .ごっち (@gggooottto) <a href="https://twitter.com/gggooottto/status/1259487595408445440?ref_src=twsrc%5Etfw">May 10, 2020</a></blockquote>
 
 —
 

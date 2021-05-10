@@ -1,5 +1,11 @@
 import * as React from "react"
 import { Link, graphql } from "gatsby"
+import {
+  FacebookShareButton,
+  FacebookIcon,
+  TwitterShareButton,
+  TwitterIcon,
+} from "react-share"
 
 import Bio from "../components/bio"
 import Layout from "../components/layout"
@@ -7,6 +13,7 @@ import Seo from "../components/seo"
 
 const BlogPostTemplate = ({ data, location }) => {
   const post = data.markdownRemark
+  const siteMetadata = data.site.siteMetadata
   const siteTitle = data.site.siteMetadata?.title || `Title`
   const { previous, next } = data
 
@@ -33,6 +40,18 @@ const BlogPostTemplate = ({ data, location }) => {
                 itemProp="articleBody"
               />
             </article>
+            <div className="columns">
+              <div className="column is-half">
+                <div class="mt-5 mb-5">
+                  <TwitterShareButton url={`${siteMetadata.siteUrl}/blog${post.fields.slug}`} title={post.frontmatter.title} className="m-2">
+                    <TwitterIcon size="32" round />
+                  </TwitterShareButton>
+                  <FacebookShareButton url={`${siteMetadata.siteUrl}/blog${post.fields.slug}`} title={post.frontmatter.title} className="m-2">
+                    <FacebookIcon size="32" round />
+                  </FacebookShareButton>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
         <div className="column">
@@ -44,13 +63,13 @@ const BlogPostTemplate = ({ data, location }) => {
           <Link
             to={previous.fields.slug}
             rel="prev"
-            className="pagination-previous"
+            className="pagination-previous is-link is-light"
           >
             ← {previous.frontmatter.title}
           </Link>
         )}
         {next && (
-          <Link to={next.fields.slug} rel="next" className="pagination-next">
+          <Link to={next.fields.slug} rel="next" className="pagination-next is-link is-light">
             {next.frontmatter.title} →
           </Link>
         )}
@@ -70,12 +89,16 @@ export const pageQuery = graphql`
     site {
       siteMetadata {
         title
+        siteUrl
       }
     }
     markdownRemark(id: { eq: $id }) {
       id
       excerpt(pruneLength: 160)
       html
+      fields {
+        slug
+      }
       frontmatter {
         title
         date(formatString: "MMMM DD, YYYY")

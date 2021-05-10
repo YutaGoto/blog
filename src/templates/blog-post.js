@@ -43,10 +43,10 @@ const BlogPostTemplate = ({ data, location }) => {
             <div className="columns">
               <div className="column is-half">
                 <div class="mt-5 mb-5">
-                  <TwitterShareButton url={`${siteMetadata.siteUrl}/blog${post.fields.slug}`} title={post.frontmatter.title} className="m-2">
+                  <TwitterShareButton url={`${siteMetadata.siteUrl}/blog${post.fields.slug}`} title={`${post.frontmatter.title} - .ごっちの日記`} className="m-2">
                     <TwitterIcon size="32" round />
                   </TwitterShareButton>
-                  <FacebookShareButton url={`${siteMetadata.siteUrl}/blog${post.fields.slug}`} title={post.frontmatter.title} className="m-2">
+                  <FacebookShareButton url={`${siteMetadata.siteUrl}/blog${post.fields.slug}`} title={`${post.frontmatter.title} - .ごっちの日記`} className="m-2">
                     <FacebookIcon size="32" round />
                   </FacebookShareButton>
                 </div>

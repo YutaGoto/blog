@@ -5,16 +5,19 @@ description: "What3Idolsなるものを作った"
 ---
 
 この記事はアイドルマスター Advent Calendar 2020 の 23 日目の記事です。
+
 [**アイドルマスター Advent Calendar 2020 - Adventar**
 *アイドルマスターシリーズの Advent Calendar です アイマスに関係する内容であればなんでも大丈夫です 今年の Advent Calendar でも、アイマスですよ！ アイマス！ 過去のアイドルマスター Advent Calendar…*adventar.org](https://adventar.org/calendars/4976)
 
 こんにちは、.ごっちです。
 
 2020/12/05 にアイマスハッカソン 2020 ONLINE！というイベントがありました。
+
 [**アイマスハッカソン 2020 ONLINE！ (2020/12/05 10:00〜)**
 *プロデューサーの皆さん、お疲れ様です。 今年もアイマスハッカソンやっていきましょう！！ 今回はコロナの影響もあり初のオンラインハッカソンです！…*imas.connpass.com](https://imas.connpass.com/event/194308/)
 
 去年はスタッフ業をしていたんですが、今年は一般参加 P として参加しました。
+
 [**アイマスハッカソンでミリシタの UI を作ったお話**
 *この記事はアイドルマスター Advent Calendar 2019 の 8 日目の記事です。*medium.com](https://medium.com/@gggooottto/%E3%82%A2%E3%82%A4%E3%83%9E%E3%82%B9%E3%83%8F%E3%83%83%E3%82%AB%E3%82%BD%E3%83%B3%E3%81%A7%E3%83%9F%E3%83%AA%E3%82%B7%E3%82%BF%E3%81%AEui%E3%82%92%E4%BD%9C%E3%81%A3%E3%81%9F%E3%81%8A%E8%A9%B1-77d68d167155)
 
@@ -52,9 +55,9 @@ What3Idols です。
 
 ただ下図を見てもらえればわかりますが、全体の 8 割以上が海です。したがって、せっかく 3 人のアイドルを選択したとしても、ほとんど海にピンがささるという結果になります。。
 
-<iframe src="https://medium.com/media/d2f0066f7e315184f5b77d2ca561d34e" frameborder=0></iframe>
+<iframe src="https://www.google.com/maps/d/embed?mid=14O4R_KALvqGAGol77x5yO998eAdfs_S5&hl=en_US" width="640" height="480"></iframe>
 
-<iframe src="https://medium.com/media/7c71b840af969fea1806edaf0e713c6f" frameborder=0></iframe>
+<blockquote class="twitter-tweet"><p lang="ja" dir="ltr">昨日のアイマスハッカソンで作ったやつ。データ700万件生成が完了したので試しにいろいろやってみたら日本の陸地にピンがなかなか刺さらない。。 <a href="https://t.co/eipAMSHpDp">pic.twitter.com/eipAMSHpDp</a></p>&mdash; .ごっち (@gggooottto) <a href="https://twitter.com/gggooottto/status/1335431498497839104?ref_src=twsrc%5Etfw">December 6, 2020</a></blockquote>
 
 ## 今後
 

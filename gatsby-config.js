@@ -3,6 +3,7 @@ module.exports = {
     title: `.ごっちの日記`,
     author: {
       name: `Yuta Goto`,
+      summary: `エンジニアです。`,
     },
     description: `.ごっちのつれづれなる日記`,
     siteUrl: `https://yutagoto.github.io/`,

@@ -52,7 +52,7 @@ const Bio = () => {
             <p>
               <strong>{author.name}</strong>
               <br />
-              エンジニアです
+              {author.summary}
             </p>
           </div>
           <nav className="level is-mobile">

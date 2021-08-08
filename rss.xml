@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[.ごっちの日記]]></title><description><![CDATA[.ごっちのつれづれなる日記]]></description><link>https://yutagoto.github.io</link><generator>GatsbyJS</generator><lastBuildDate>Sun, 27 Jun 2021 11:21:02 GMT</lastBuildDate><item><title><![CDATA[GCPでMinecraft マルチサーバー管理している]]></title><description><![CDATA[こんにちは、.ごっちです。 ちょっと前(2021年4月くらい)から友人にお願いされてMinecraft(Java Edition)のサーバーの面倒をみることになりました。
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[.ごっちの日記]]></title><description><![CDATA[.ごっちのつれづれなる日記]]></description><link>https://yutagoto.github.io</link><generator>GatsbyJS</generator><lastBuildDate>Sun, 08 Aug 2021 08:51:14 GMT</lastBuildDate><item><title><![CDATA[GCPでMinecraft マルチサーバー管理している]]></title><description><![CDATA[こんにちは、.ごっちです。 ちょっと前(2021年4月くらい)から友人にお願いされてMinecraft(Java Edition)のサーバーの面倒をみることになりました。
 もともとはConoHa VPSのMinecraft…]]></description><link>https://yutagoto.github.io/20210627-minecraft-server-admin/</link><guid isPermaLink="false">https://yutagoto.github.io/20210627-minecraft-server-admin/</guid><pubDate>Sun, 27 Jun 2021 20:30:00 GMT</pubDate><content:encoded>&lt;span class=&quot;gatsby-resp-image-wrapper&quot; style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 630px; &quot;&gt;
       &lt;span class=&quot;gatsby-resp-image-background-image&quot; style=&quot;padding-bottom: 18.9873417721519%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAECAYAAACOXx+WAAAACXBIWXMAAAsTAAALEwEAmpwYAAABT0lEQVQY0wFEAbv+AIuEg+thXFuhjYaF5nZwb/eOiIb2iIKAyoJ9e++OiIb1XVlX746Hhe1bV1b/ZmJg4ZyVk/mFfnzshH99+Xp0c/ORioj0cWxr901JSPePiYf/AJ2WlP+ak5H/mpOQ/5OMivyQiof8mJKP/5GLif+el5T/SkZF8pqTkfE1MjGhaWVjuaignv+PiYf/iYOA/JCJh/2knJn9dnFv/xAPD+p1cG7/ACwqK/9JRkbqWlVV/2BcXP9MSEj/REFB+lpWVv94c3L/WVVV9mdiYvV8d3bkY19f3WVhYf9qZWX/WVRU/2FdXf9bVlb/Uk5OmAAAAFQ7Nzj/AA4MD2UAAAApDAsPZgwLDm8XFRhwAAAAR1dVVdtyb2//Xlxc8VtZWPdoZmX/VFJS+HBtbf9MSkrdBQQIZg8NEWcODA9rKSczByAeHQsPDhFqwfibON5FgzoAAAAASUVORK5CYII=&apos;); background-size: cover; display: block;&quot;&gt;&lt;/span&gt;
   &lt;img class=&quot;gatsby-resp-image-image&quot; alt=&quot;Minecraft Java&quot; title=&quot;Minecraft Java&quot; src=&quot;/blog/static/11f0946a3a67d86dc715e54d2609b7bd/f058b/minecraft.png&quot; srcset=&quot;/blog/static/11f0946a3a67d86dc715e54d2609b7bd/c26ae/minecraft.png 158w,
@@ -1401,7 +1401,19 @@ RubyKaigi 2018, 5/31…6/2, Sendai, Miyagi, Japanrubykaigi.org&lt;/a&gt;&lt;/p&g
 &lt;li&gt;【 #RubyKaigi 2018 】 #Ruby で SmartHR を助けて 【全文書き起こし】, &lt;a href=&quot;http://blog.shojimiyata.com/entry/2018/06/01/112424&quot;&gt;http://blog.shojimiyata.com/entry/2018/06/01/112424&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;RubyKaigi2018 に行ってきたメモ 6/1(2 日目), &lt;a href=&quot;https://qiita.com/kazuya_onuma/items/d0944266f03d9ecc8f15&quot;&gt;https://qiita.com/kazuya_onuma/items/d0944266f03d9ecc8f15&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;Ruby developers meeting at RubyKaigi2018 Ruby Committers vs the World, &lt;a href=&quot;https://docs.google.com/document/d/1Skh54Fq_nkpycZAS4_03tsafrtABDWxIx2-CKc-QIOY/edit?usp=sharing&quot;&gt;https://docs.google.com/document/d/1Skh54Fq&lt;em&gt;nkpycZAS4&lt;/em&gt;03tsafrtABDWxIx2-CKc-QIOY/edit?usp=sharing&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</content:encoded></item><item><title><![CDATA[rubykaigi 2018 に来ている day1]]></title><description><![CDATA[こんにちは、ごっちです。 rubykaigi に来ております。初参加です。 RubyKaigi 2018, 5/31…6/2, Sendai, Miyagi, Japan #rubykaigi
+&lt;/ul&gt;</content:encoded></item><item><title><![CDATA[Ruby, Pythonクイズ]]></title><description><![CDATA[こんにちは、 .ごっちです。 RubyKaigi2019 のクックパッドのブースやそれに触発された okinawa.rb に触発されてクイズを作ってみました。
+RubyKaigi 2019 Cookpad Daily Ruby Puzzles…]]></description><link>https://yutagoto.github.io/20190601-ruby-pythonクイズ/</link><guid isPermaLink="false">https://yutagoto.github.io/20190601-ruby-pythonクイズ/</guid><pubDate>Sat, 01 Jun 2019 09:00:00 GMT</pubDate><content:encoded>&lt;p&gt;こんにちは、 .ごっちです。&lt;/p&gt;
+&lt;p&gt;RubyKaigi2019 のクックパッドのブースやそれに触発された okinawa.rb に触発されてクイズを作ってみました。
+&lt;a href=&quot;https://techlife.cookpad.com/entry/2019/04/25/122520&quot;&gt;&lt;strong&gt;RubyKaigi 2019 Cookpad Daily Ruby Puzzles の正解と解説 - クックパッド開発者ブログ&lt;/strong&gt;
+&lt;em&gt;Ruby 開発チームの遠藤です。RubyKaigi 2019 が無事に終わりました。すばらしい会議に関わったすべてのみなさんに感謝します。 開催前に記事を書いたとおり、クックパッドからはのべ 7…&lt;/em&gt;techlife.cookpad.com&lt;/a&gt;&lt;/p&gt;
+&lt;iframe src=&quot;https://medium.com/media/dcb73e1ba314f617389bffc99d4b4b2d&quot; frameborder=0&gt;&lt;/iframe&gt;
+&lt;p&gt;で作った問題が ↓ です。&lt;/p&gt;
+&lt;iframe src=&quot;https://medium.com/media/e7ffa35122a8f5898cbb756c88ce617c&quot; frameborder=0&gt;&lt;/iframe&gt;
+&lt;p&gt;気が向いたので Python 編も作りました。&lt;/p&gt;
+&lt;iframe src=&quot;https://medium.com/media/a2ed55b3637fcdd8f8d0382bebf69434&quot; frameborder=0&gt;&lt;/iframe&gt;
+&lt;h2&gt;所感&lt;/h2&gt;
+&lt;p&gt;そもそも言語の仕様を網羅していないとおもしろい問題をつくるのも難しいなーと思いました。しんぷるに Rails でアプリケーションを書くだけでは思いつかないので、いろいろ調べたりほかのクイズを参考にしたりしました。。&lt;/p&gt;
+&lt;p&gt;Python のクイズはそもそも言語としての仕様が結構固いので、作るのも難しいですね。。&lt;/p&gt;</content:encoded></item><item><title><![CDATA[rubykaigi 2018 に来ている day1]]></title><description><![CDATA[こんにちは、ごっちです。 rubykaigi に来ております。初参加です。 RubyKaigi 2018, 5/31…6/2, Sendai, Miyagi, Japan #rubykaigi
 RubyKaigi 2018, 5/31…6/2, Sendai, Miyagi…]]></description><link>https://yutagoto.github.io/20190601-rubykaigi-に来ている-day1/</link><guid isPermaLink="false">https://yutagoto.github.io/20190601-rubykaigi-に来ている-day1/</guid><pubDate>Sat, 01 Jun 2019 09:00:00 GMT</pubDate><content:encoded>&lt;p&gt;こんにちは、ごっちです。&lt;/p&gt;
 &lt;h1&gt;rubykaigi に来ております。初参加です。&lt;/h1&gt;
 &lt;p&gt;&lt;a href=&quot;http://rubykaigi.org/2018&quot;&gt;&lt;strong&gt;&lt;em&gt;RubyKaigi 2018, 5/31…6/2, Sendai, Miyagi, Japan&lt;/em&gt; #rubykaigi&lt;/strong&gt;
@@ -1435,19 +1447,7 @@ RubyKaigi 2018, 5/31…6/2, Sendai, Miyagi, Japanrubykaigi.org&lt;/a&gt;&lt;/p&g
 &lt;li&gt;RubyKaigi 2018 で Deep Learning Programming on Ruby というタイトルで発表してきました, &lt;a href=&quot;http://blog.hatappi.me/entry/2018/05/31/221419&quot;&gt;http://blog.hatappi.me/entry/2018/05/31/221419&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;Ruby 3.0 の未来へ―、言語設計者のまつもと氏が示す 3 つの方向性と Ruby 哲学, &lt;a href=&quot;http://hrnabi.com/2015/05/12/7035/&quot;&gt;http://hrnabi.com/2015/05/12/7035/&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;pocke/iro.vim, &lt;a href=&quot;https://github.com/pocke/iro.vim&quot;&gt;https://github.com/pocke/iro.vim&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</content:encoded></item><item><title><![CDATA[Ruby, Pythonクイズ]]></title><description><![CDATA[こんにちは、 .ごっちです。 RubyKaigi2019 のクックパッドのブースやそれに触発された okinawa.rb に触発されてクイズを作ってみました。
-RubyKaigi 2019 Cookpad Daily Ruby Puzzles…]]></description><link>https://yutagoto.github.io/20190601-ruby-pythonクイズ/</link><guid isPermaLink="false">https://yutagoto.github.io/20190601-ruby-pythonクイズ/</guid><pubDate>Sat, 01 Jun 2019 09:00:00 GMT</pubDate><content:encoded>&lt;p&gt;こんにちは、 .ごっちです。&lt;/p&gt;
-&lt;p&gt;RubyKaigi2019 のクックパッドのブースやそれに触発された okinawa.rb に触発されてクイズを作ってみました。
-&lt;a href=&quot;https://techlife.cookpad.com/entry/2019/04/25/122520&quot;&gt;&lt;strong&gt;RubyKaigi 2019 Cookpad Daily Ruby Puzzles の正解と解説 - クックパッド開発者ブログ&lt;/strong&gt;
-&lt;em&gt;Ruby 開発チームの遠藤です。RubyKaigi 2019 が無事に終わりました。すばらしい会議に関わったすべてのみなさんに感謝します。 開催前に記事を書いたとおり、クックパッドからはのべ 7…&lt;/em&gt;techlife.cookpad.com&lt;/a&gt;&lt;/p&gt;
-&lt;iframe src=&quot;https://medium.com/media/dcb73e1ba314f617389bffc99d4b4b2d&quot; frameborder=0&gt;&lt;/iframe&gt;
-&lt;p&gt;で作った問題が ↓ です。&lt;/p&gt;
-&lt;iframe src=&quot;https://medium.com/media/e7ffa35122a8f5898cbb756c88ce617c&quot; frameborder=0&gt;&lt;/iframe&gt;
-&lt;p&gt;気が向いたので Python 編も作りました。&lt;/p&gt;
-&lt;iframe src=&quot;https://medium.com/media/a2ed55b3637fcdd8f8d0382bebf69434&quot; frameborder=0&gt;&lt;/iframe&gt;
-&lt;h2&gt;所感&lt;/h2&gt;
-&lt;p&gt;そもそも言語の仕様を網羅していないとおもしろい問題をつくるのも難しいなーと思いました。しんぷるに Rails でアプリケーションを書くだけでは思いつかないので、いろいろ調べたりほかのクイズを参考にしたりしました。。&lt;/p&gt;
-&lt;p&gt;Python のクイズはそもそも言語としての仕様が結構固いので、作るのも難しいですね。。&lt;/p&gt;</content:encoded></item><item><title><![CDATA[esaで日記をつけている]]></title><description><![CDATA[こんにちは、.ごっちです。 今年の 4 月から日記の運用を GoogleSpreadSheet から esa に乗り換えました。 大学のときに LibreOffice でつけ始めて、社会人になってから GoogleSpreadSheet…]]></description><link>https://yutagoto.github.io/20190514-esaで日記をつけている/</link><guid isPermaLink="false">https://yutagoto.github.io/20190514-esaで日記をつけている/</guid><pubDate>Tue, 14 May 2019 09:00:00 GMT</pubDate><content:encoded>&lt;p&gt;こんにちは、.ごっちです。&lt;/p&gt;
+&lt;/ul&gt;</content:encoded></item><item><title><![CDATA[esaで日記をつけている]]></title><description><![CDATA[こんにちは、.ごっちです。 今年の 4 月から日記の運用を GoogleSpreadSheet から esa に乗り換えました。 大学のときに LibreOffice でつけ始めて、社会人になってから GoogleSpreadSheet…]]></description><link>https://yutagoto.github.io/20190514-esaで日記をつけている/</link><guid isPermaLink="false">https://yutagoto.github.io/20190514-esaで日記をつけている/</guid><pubDate>Tue, 14 May 2019 09:00:00 GMT</pubDate><content:encoded>&lt;p&gt;こんにちは、.ごっちです。&lt;/p&gt;
 &lt;p&gt;今年の 4 月から日記の運用を GoogleSpreadSheet から esa に乗り換えました。&lt;/p&gt;
 &lt;p&gt;大学のときに LibreOffice でつけ始めて、社会人になってから GoogleSpreadSheet に乗り換えた過去があります。&lt;/p&gt;
 &lt;p&gt;&lt;img src=&quot;https://cdn-images-1.medium.com/max/2000/1*_de_f5bBGBwwIWRD2hP4IQ.png&quot;&gt;&lt;/p&gt;

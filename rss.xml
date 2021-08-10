@@ -1,18 +1,18 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[.ごっちの日記]]></title><description><![CDATA[.ごっちのつれづれなる日記]]></description><link>https://yutagoto.github.io</link><generator>GatsbyJS</generator><lastBuildDate>Sun, 08 Aug 2021 11:26:34 GMT</lastBuildDate><item><title><![CDATA[GCPでMinecraft マルチサーバー管理している]]></title><description><![CDATA[こんにちは、.ごっちです。 ちょっと前(2021年4月くらい)から友人にお願いされてMinecraft(Java Edition)のサーバーの面倒をみることになりました。
-もともとはConoHa VPSのMinecraft…]]></description><link>https://yutagoto.github.io/20210627-minecraft-server-admin/</link><guid isPermaLink="false">https://yutagoto.github.io/20210627-minecraft-server-admin/</guid><pubDate>Sun, 27 Jun 2021 20:30:00 GMT</pubDate><content:encoded>&lt;span class=&quot;gatsby-resp-image-wrapper&quot; style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 630px; &quot;&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[.ごっちの日記]]></title><description><![CDATA[.ごっちのつれづれなる日記]]></description><link>https://yutagoto.github.io</link><generator>GatsbyJS</generator><lastBuildDate>Tue, 10 Aug 2021 03:37:35 GMT</lastBuildDate><item><title><![CDATA[GCPでMinecraft マルチサーバー管理している]]></title><description><![CDATA[こんにちは、.ごっちです。 ちょっと前(2021 年 4 月くらい)から友人にお願いされてMinecraft(Java Edition)のサーバーの面倒をみることになりました。
+もともとはConoHa VPS の Minecraft…]]></description><link>https://yutagoto.github.io/20210627-minecraft-server-admin/</link><guid isPermaLink="false">https://yutagoto.github.io/20210627-minecraft-server-admin/</guid><pubDate>Sun, 27 Jun 2021 20:30:00 GMT</pubDate><content:encoded>&lt;span class=&quot;gatsby-resp-image-wrapper&quot; style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 630px; &quot;&gt;
       &lt;span class=&quot;gatsby-resp-image-background-image&quot; style=&quot;padding-bottom: 18.9873417721519%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAECAYAAACOXx+WAAAACXBIWXMAAAsTAAALEwEAmpwYAAABT0lEQVQY0wFEAbv+AIuEg+thXFuhjYaF5nZwb/eOiIb2iIKAyoJ9e++OiIb1XVlX746Hhe1bV1b/ZmJg4ZyVk/mFfnzshH99+Xp0c/ORioj0cWxr901JSPePiYf/AJ2WlP+ak5H/mpOQ/5OMivyQiof8mJKP/5GLif+el5T/SkZF8pqTkfE1MjGhaWVjuaignv+PiYf/iYOA/JCJh/2knJn9dnFv/xAPD+p1cG7/ACwqK/9JRkbqWlVV/2BcXP9MSEj/REFB+lpWVv94c3L/WVVV9mdiYvV8d3bkY19f3WVhYf9qZWX/WVRU/2FdXf9bVlb/Uk5OmAAAAFQ7Nzj/AA4MD2UAAAApDAsPZgwLDm8XFRhwAAAAR1dVVdtyb2//Xlxc8VtZWPdoZmX/VFJS+HBtbf9MSkrdBQQIZg8NEWcODA9rKSczByAeHQsPDhFqwfibON5FgzoAAAAASUVORK5CYII=&apos;); background-size: cover; display: block;&quot;&gt;&lt;/span&gt;
   &lt;img class=&quot;gatsby-resp-image-image&quot; alt=&quot;Minecraft Java&quot; title=&quot;Minecraft Java&quot; src=&quot;/blog/static/11f0946a3a67d86dc715e54d2609b7bd/f058b/minecraft.png&quot; srcset=&quot;/blog/static/11f0946a3a67d86dc715e54d2609b7bd/c26ae/minecraft.png 158w,
 /blog/static/11f0946a3a67d86dc715e54d2609b7bd/6bdcf/minecraft.png 315w,
 /blog/static/11f0946a3a67d86dc715e54d2609b7bd/f058b/minecraft.png 630w,
 /blog/static/11f0946a3a67d86dc715e54d2609b7bd/40601/minecraft.png 945w,
-/blog/static/11f0946a3a67d86dc715e54d2609b7bd/121b3/minecraft.png 1070w&quot; sizes=&quot;(max-width: 630px) 100vw, 630px&quot; style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot; loading=&quot;lazy&quot;&gt;
+/blog/static/11f0946a3a67d86dc715e54d2609b7bd/121b3/minecraft.png 1070w&quot; sizes=&quot;(max-width: 630px) 100vw, 630px&quot; style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot; loading=&quot;lazy&quot; decoding=&quot;async&quot;&gt;
     &lt;/span&gt;
 &lt;p&gt;こんにちは、.ごっちです。&lt;/p&gt;
-&lt;p&gt;ちょっと前(2021年4月くらい)から友人にお願いされて&lt;a href=&quot;https://www.minecraft.net/ja-jp&quot;&gt;Minecraft&lt;/a&gt;(Java Edition)のサーバーの面倒をみることになりました。
-もともとは&lt;a href=&quot;https://www.conoha.jp/vps/function/minecraft/&quot;&gt;ConoHa VPSのMinecraftプラン&lt;/a&gt;を使っていたとのことでしたが、もろもろ事情があって作れないか？とのことでした。
-同じくConoHa VPSサーバーを使ってもよかったんですが、クラウドの勉強も兼ねて&lt;a href=&quot;https://cloud.google.com/&quot;&gt;GCP&lt;/a&gt;上で環境を整えることにしました。&lt;/p&gt;
-&lt;h2&gt;GCEたてる&lt;/h2&gt;
-&lt;p&gt;さくっと作りたかったので&lt;a href=&quot;https://cloud.google.com/compute&quot;&gt;Google Compute Engine&lt;/a&gt;上にUbuntu(18.04)をいれてサーバーを立てました。スペックは以下の通り&lt;/p&gt;
+&lt;p&gt;ちょっと前(2021 年 4 月くらい)から友人にお願いされて&lt;a href=&quot;https://www.minecraft.net/ja-jp&quot;&gt;Minecraft&lt;/a&gt;(Java Edition)のサーバーの面倒をみることになりました。
+もともとは&lt;a href=&quot;https://www.conoha.jp/vps/function/minecraft/&quot;&gt;ConoHa VPS の Minecraft プラン&lt;/a&gt;を使っていたとのことでしたが、もろもろ事情があって作れないか？とのことでした。
+同じく ConoHa VPS サーバーを使ってもよかったんですが、クラウドの勉強も兼ねて&lt;a href=&quot;https://cloud.google.com/&quot;&gt;GCP&lt;/a&gt;上で環境を整えることにしました。&lt;/p&gt;
+&lt;h2&gt;GCE たてる&lt;/h2&gt;
+&lt;p&gt;さくっと作りたかったので&lt;a href=&quot;https://cloud.google.com/compute&quot;&gt;Google Compute Engine&lt;/a&gt;上に Ubuntu(18.04)をいれてサーバーを立てました。スペックは以下の通り&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;
 &lt;p&gt;マシンタイプ: e2-standard-2（vCPU x 2、メモリ 8 GB）&lt;/p&gt;
@@ -28,22 +28,22 @@
 &lt;/li&gt;
 &lt;li&gt;ブートディスク: 10GB&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;複数人で同時に遊ぶ前提もあるので、そこそこなマシンタイプになっています。たぶん20人くらいまで同時にプレイしても問題ないはずです。まだそういう状況になっていないので本当に耐えられるのかは未検証ですが、6－7人同時接続プレイはほぼ問題なく動作しました。&lt;/p&gt;
+&lt;p&gt;複数人で同時に遊ぶ前提もあるので、そこそこなマシンタイプになっています。たぶん 20 人くらいまで同時にプレイしても問題ないはずです。まだそういう状況になっていないので本当に耐えられるのかは未検証ですが、6－7 人同時接続プレイはほぼ問題なく動作しました。&lt;/p&gt;
 &lt;h3&gt;サーバーの細かな設定&lt;/h3&gt;
-&lt;p&gt;http, https通信は不要なのでファイアウォールの設定から塞いでおきます。Minecraftにつなげるために 25565番ポートを開けておきます。VPCネットワークのファイアウォールルールでルールを作って、そのタグを付与させます。&lt;/p&gt;
+&lt;p&gt;http, https 通信は不要なのでファイアウォールの設定から塞いでおきます。Minecraft につなげるために 25565 番ポートを開けておきます。VPC ネットワークのファイアウォールルールでルールを作って、そのタグを付与させます。&lt;/p&gt;
 &lt;span class=&quot;gatsby-resp-image-wrapper&quot; style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 430px; &quot;&gt;
       &lt;span class=&quot;gatsby-resp-image-background-image&quot; style=&quot;padding-bottom: 182.91139240506325%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAlCAYAAABCr8kFAAAACXBIWXMAAAsTAAALEwEAmpwYAAADjklEQVRIx51Wy47URhT1d0RD2IQkPMIiikSyyMAnIFizyB8gQZJdhBRFSOxZsEqk8Bpgg8QqjBgGzQwQEhZ09yINSAz9mrbd7We7bJftE53qqVF71M8p6aqq7PKpc+89t8rGkYtv8LmyCo5fruLE5SqOXaoo4/zkjxV89VMNR3/Ywmdn/8KR84+Hdm6f7T43vvjFw7ErHg7/bOPbqw6Wrzk4caWPb35zcOqqg69/dXDqmo8vL1TwyXerOHT6KZaWn2BpeQ2HTq/h0zPrql/6/oky48aj/3D9YQ33n1u4s2FiZdPC7Wdt3Fpv4+5GF3+sfsSfa03ce9nDyqsebr+wsPKqj7t/27i51cXv603VP3jt4f6/Low3/2zi+bNVsAkhARQAEoTODoRvQXgmgl4bSWBDuCZcs4HEt+FbLZiN96i9foHOdh3DVsDwgwE8P0CSSsisQF4AWQ7kgBoXu30qc8hs1AplaZYjlZl6TzN830e/31f4UkqEYYg4jjEYDJRFUYQ0TYf7FwV043h0rlsJ0PM81Go11Ot1VKtVVCoVNd/Z2SmBTDNDCIEgCNQHeZ4rluPaODbjmpEkKYSI9xi+ffuuBDzq2iQ3S4Ce58K2rd0sC7TbbeXi9vY2ms0mer3e3GAKMIwSBKFQmc2yDFEkFAjH++Mzj+tGvZWi+iFBIskwgm2b2NrcQCyiA8XR8AcZnEAqhkEYoWO6iCUQihxhlCGKc/We/VwMA9+D5zpqEqcFLC+D5UrYu33Pk2iYiQKdC5DZTFMJrkvTBDJNIMQAsRggk8niLrMqWA1srBJmmULn89EKmTspSZKoj9kIwAzz2aKCLpWe4wxjyNpttVpwXbcEtgioQVaaISuFNaxLcVF2CpDVQWa6lnU8DwI2rJQwBN3WpWdZlgI+MEO6p2NGdp1ORwFOOp5mbWToAUFYv5rdpDZTNnpnAtG63S5M01Ra1KcNjZ7MzVAv4EcEYSyZefZUAXW5X+STQI3RRcMyTKe6OyueJUAyIUtderMYjb2kRl8wy8w4pUOR27a9lyiuocT4jDGdJK0SQ7pLUH19kq1OFt8zptTstASVZLOoXKa6rJnoy55s2E+TyMwYEoSVwltPn0J6I70ZE0ebmWV9wPKvgVocDYWOITdhwpiUmYD6I51VzYbzA8WQRu3RXUqDTDimfEYlMrewdQx5YjcajT1h7z+55wYcJ5tFLicN+D98axK9hMrGMAAAAABJRU5ErkJggg==&apos;); background-size: cover; display: block;&quot;&gt;&lt;/span&gt;
   &lt;img class=&quot;gatsby-resp-image-image&quot; alt=&quot;Firewall role&quot; title=&quot;Firewall role&quot; src=&quot;/blog/static/f8ca64c15f9b4a9618cc2e6c729f2063/05ed2/firewall.png&quot; srcset=&quot;/blog/static/f8ca64c15f9b4a9618cc2e6c729f2063/c26ae/firewall.png 158w,
 /blog/static/f8ca64c15f9b4a9618cc2e6c729f2063/6bdcf/firewall.png 315w,
-/blog/static/f8ca64c15f9b4a9618cc2e6c729f2063/05ed2/firewall.png 430w&quot; sizes=&quot;(max-width: 430px) 100vw, 430px&quot; style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot; loading=&quot;lazy&quot;&gt;
+/blog/static/f8ca64c15f9b4a9618cc2e6c729f2063/05ed2/firewall.png 430w&quot; sizes=&quot;(max-width: 430px) 100vw, 430px&quot; style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot; loading=&quot;lazy&quot; decoding=&quot;async&quot;&gt;
     &lt;/span&gt;
 &lt;h2&gt;環境構築&lt;/h2&gt;
-&lt;p&gt;公式Wikiにあるチュートリアルの通りに進めました。かなり親切だと思います。&lt;/p&gt;
+&lt;p&gt;公式 Wiki にあるチュートリアルの通りに進めました。かなり親切だと思います。&lt;/p&gt;
 &lt;p&gt;&lt;a href=&quot;https://minecraft.fandom.com/ja/wiki/%E3%83%81%E3%83%A5%E3%83%BC%E3%83%88%E3%83%AA%E3%82%A2%E3%83%AB/%E3%82%B5%E3%83%BC%E3%83%90%E3%83%BC%E3%81%AE%E3%82%BB%E3%83%83%E3%83%88%E3%82%A2%E3%83%83%E3%83%97&quot;&gt;https://minecraft.fandom.com/ja/wiki/%E3%83%81%E3%83%A5%E3%83%BC%E3%83%88%E3%83%AA%E3%82%A2%E3%83%AB/%E3%82%B5%E3%83%BC%E3%83%90%E3%83%BC%E3%81%AE%E3%82%BB%E3%83%83%E3%83%88%E3%82%A2%E3%83%83%E3%83%97&lt;/a&gt;&lt;/p&gt;
 &lt;h2&gt;ワールドの引っ越し&lt;/h2&gt;
-&lt;p&gt;もともと運用されていたConoHa上にあるワールドデータをGCE上に移動させます。&lt;/p&gt;
-&lt;p&gt;ConoHaにあるワールドデータを&lt;code class=&quot;language-text&quot;&gt;tar.gz&lt;/code&gt;に固めて自身の端末にダウンロードします。そのファイルをGoogleCloudStorageで作ったバケットにアップロードします。&lt;/p&gt;
-&lt;p&gt;GoogleCloudStorageのバケットにアップロードしたファイルをGCEにダウンロードして展開します。初回起動時に自動生成されたワールドデータは削除しておきます。&lt;/p&gt;
+&lt;p&gt;もともと運用されていた ConoHa 上にあるワールドデータを GCE 上に移動させます。&lt;/p&gt;
+&lt;p&gt;ConoHa にあるワールドデータを&lt;code class=&quot;language-text&quot;&gt;tar.gz&lt;/code&gt;に固めて自身の端末にダウンロードします。そのファイルを GoogleCloudStorage で作ったバケットにアップロードします。&lt;/p&gt;
+&lt;p&gt;GoogleCloudStorage のバケットにアップロードしたファイルを GCE にダウンロードして展開します。初回起動時に自動生成されたワールドデータは削除しておきます。&lt;/p&gt;
 &lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;sh&quot;&gt;&lt;pre class=&quot;language-sh&quot;&gt;&lt;code class=&quot;language-sh&quot;&gt;minecraft $ rm -rf world # 現ワールドを消す
 minecraft $ gsutil cp gs://バケット名/ファイル名.tar.gz . # GCEからGCSに繋げられるようにサービスアカウントの設定をしておく
 minecraft $ tar -zxvf ファイル名.tar.gz
@@ -54,26 +54,26 @@ minecraft $ cp 展開したworldディレクトリ名 world&lt;/code&gt;&lt;/pre
 &lt;h2&gt;追加機能&lt;/h2&gt;
 &lt;p&gt;せっかく自由に管理できる状態なので、より安心して遊びやすくしていきます。&lt;/p&gt;
 &lt;h3&gt;ワールドデータのバックアップ&lt;/h3&gt;
-&lt;p&gt;不慮の事故でデータやサーバが損失したとしても もとに戻せるようにバックアップをサーバ起動時にとっておきます。起動と同時(&lt;code class=&quot;language-text&quot;&gt;crontab&lt;/code&gt; で設定します)にディレクトリを圧縮してGCSにアップロードするスクリプトを実行しているだけです。&lt;/p&gt;
+&lt;p&gt;不慮の事故でデータやサーバが損失したとしても もとに戻せるようにバックアップをサーバ起動時にとっておきます。起動と同時(&lt;code class=&quot;language-text&quot;&gt;crontab&lt;/code&gt; で設定します)にディレクトリを圧縮して GCS にアップロードするスクリプトを実行しているだけです。&lt;/p&gt;
 &lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;sh&quot;&gt;&lt;pre class=&quot;language-sh&quot;&gt;&lt;code class=&quot;language-sh&quot;&gt;#!/bin/bash
 cd ~/minecraft
 tar czf world.tar.gz world
 gsutil cp -R ~/minecraft/world.tar.gz gs://バケット名/$(date &amp;quot;+%Y%m%d%H%M%S&amp;quot;)-world.tar.gz
 rm world.tar.gz
 cd ~&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-&lt;p&gt;バックアップデータも永遠に保持する必要もないので(保持していたらその期間分お金が発生してしまいますし)、GCSのライフサイクルの設定で5日間経過したら削除するようにしました。&lt;/p&gt;
+&lt;p&gt;バックアップデータも永遠に保持する必要もないので(保持していたらその期間分お金が発生してしまいますし)、GCS のライフサイクルの設定で 5 日間経過したら削除するようにしました。&lt;/p&gt;
 &lt;span class=&quot;gatsby-resp-image-wrapper&quot; style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 630px; &quot;&gt;
       &lt;span class=&quot;gatsby-resp-image-background-image&quot; style=&quot;padding-bottom: 86.0759493670886%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAARCAYAAADdRIy+AAAACXBIWXMAAAsTAAALEwEAmpwYAAACgElEQVQ4y5WTS24TQRCGfQx2iA1ig4IiWLBjzU1YcQAEAQELTsAFkFjxEAtECAskgngskLCQSBxsj50Ze2Y8Ho973s8f/eW0YxMiwUil6p6u/rrq7+rWhdsezt9ysXnXxsaWg40tF5v3HFx5OMW5mwOcvf7hL7aLMzf6uHzfxdUHDq49cnFpy8bFOzZaj19+x9P3A2y3I7z66uL5RwsvPo3xZKeDZ7sWtr94ePPZPbLJ0r/+FuBtW2GnrfDuh5LxdluhNT7sIQ19HH8VgBplqgA0+N+v1XeBIAGm0yn2Owfo9gwYg6HY3n4HKoxQN0BVNwurGtT1wvR86asGrWAeoSgqJEkM13Uxm80QhiEcx5GxUgpN0yDPc5RlIZvSvEKSVTLm2lqGoVIoikImq4t1XYvXa1VVSVZJDszjBkHcIM6w3KetVRSlBDITZuh5Ezj2GKPRCCPLwmQywXg8hm3bsCxLPLOnZwyl4mEa3NIZeZ6HX78OsN/pwTh0Bc5Nvu8LlEaQ4xwD6RmXZdkxUJeZJAl8f4qpP4M5co7mC1gcx6JnFEWn3q7mLIHUiqURotRcJGBJpmlKJiyX62VZrgGotdZ7WTIH1IGwbrcrkF6vh+FwKJB+vy//6HkIy+V4MBjIYeyAE0Aa9SDEMAwYRh+Wacp8b+8nLMuUktlSvAiCtByrjDUgg7MsXbRJ3SBKCiRpjryoECYFmn94OGslz+dzgVKTOC0wUzmSrECa5gjCBZhx1JFe25qGOjvqsLgQJeA4juRygmAmpbE/+Y8HpmkqMfpVnaohb5rGlqGPolg2s89UGIpeXGMsPTXl2onGXn06q8+PmwjUUGalm/jPHtSX8hvf//88utW3KgAAAABJRU5ErkJggg==&apos;); background-size: cover; display: block;&quot;&gt;&lt;/span&gt;
   &lt;img class=&quot;gatsby-resp-image-image&quot; alt=&quot;Lifecycle&quot; title=&quot;Lifecycle&quot; src=&quot;/blog/static/04471b79ace2c9533a2c445362fe5f0c/f058b/lifecycle.png&quot; srcset=&quot;/blog/static/04471b79ace2c9533a2c445362fe5f0c/c26ae/lifecycle.png 158w,
 /blog/static/04471b79ace2c9533a2c445362fe5f0c/6bdcf/lifecycle.png 315w,
 /blog/static/04471b79ace2c9533a2c445362fe5f0c/f058b/lifecycle.png 630w,
-/blog/static/04471b79ace2c9533a2c445362fe5f0c/c5bb3/lifecycle.png 680w&quot; sizes=&quot;(max-width: 630px) 100vw, 630px&quot; style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot; loading=&quot;lazy&quot;&gt;
+/blog/static/04471b79ace2c9533a2c445362fe5f0c/c5bb3/lifecycle.png 680w&quot; sizes=&quot;(max-width: 630px) 100vw, 630px&quot; style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot; loading=&quot;lazy&quot; decoding=&quot;async&quot;&gt;
     &lt;/span&gt;
-&lt;h3&gt;Discordから起動・停止できるように&lt;/h3&gt;
-&lt;p&gt;24時間起動させておく必要はないので、遊びたくなったら起動・終わったら停止がDiscordからできるようにつくります。サーバが起動したらMinecraftも自動で起動するようにしておきます。(&lt;code class=&quot;language-text&quot;&gt;crontab&lt;/code&gt; で設定します)&lt;/p&gt;
-&lt;p&gt;Pythonのスクリプトをサクッと書きました。&lt;/p&gt;
+&lt;h3&gt;Discord から起動・停止できるように&lt;/h3&gt;
+&lt;p&gt;24 時間起動させておく必要はないので、遊びたくなったら起動・終わったら停止が Discord からできるようにつくります。サーバが起動したら Minecraft も自動で起動するようにしておきます。(&lt;code class=&quot;language-text&quot;&gt;crontab&lt;/code&gt; で設定します)&lt;/p&gt;
+&lt;p&gt;Python のスクリプトをサクッと書きました。&lt;/p&gt;
 &lt;p&gt;&lt;a href=&quot;https://qiita.com/thinceller/items/6bc7d28a04a8da75e818&quot;&gt;Qiita&lt;/a&gt;の記事が大変参考になりました。&lt;/p&gt;
-&lt;p&gt;いまはheroku上に24時間 Free Dynosでぶいぶい起動させていますが、ゆくゆくは&lt;a href=&quot;https://blog.discord.com/slash-commands-are-here-8db0a385d9e6&quot;&gt;スラッシュコマンド&lt;/a&gt;で実装し直したいと考えています。Herokuを脱却してできればCloudRunとかにのせたいと企んでいます。&lt;/p&gt;
+&lt;p&gt;いまは heroku 上に 24 時間 Free Dynos でぶいぶい起動させていますが、ゆくゆくは&lt;a href=&quot;https://blog.discord.com/slash-commands-are-here-8db0a385d9e6&quot;&gt;スラッシュコマンド&lt;/a&gt;で実装し直したいと考えています。Heroku を脱却してできれば CloudRun とかにのせたいと企んでいます。&lt;/p&gt;
 &lt;p&gt;使い勝手は以下の画像のようになっています。&lt;/p&gt;
 &lt;span class=&quot;gatsby-resp-image-wrapper&quot; style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 630px; &quot;&gt;
       &lt;span class=&quot;gatsby-resp-image-background-image&quot; style=&quot;padding-bottom: 52.53164556962025%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAALCAYAAAB/Ca1DAAAACXBIWXMAABYlAAAWJQFJUiTwAAAB9UlEQVQoz3WSS2sTURiG+x/UrkxrYmnTSjWTc+ZcZjKZTGaS5kJSbUEtLXVli6ILV4oI0qVIwbU/Q0ToxRbqwn/jUl0UHslJbEOri4fv5Vze8328Z2JOv2dS/GBSnnJN/OZq+deIcX2Rn1wpn3JLv0JbH2kTfBs7Jor2I+3OXcJ0kyBZw9N9yqY3oo9nVv6LMBm+iZAmRpqqYyKMItKkhdIRJkzxgw6eHpgtI0wb3wYjwjH9l6GZb6vnHaqwi6jusLL0iLX1NzSWd5kR75j1P7CgXiNMgjR1hCNFmswhdB1pas5MjsyGhjak0VS0ujHrG31WV+u0Woos88gySdaskDUjd0ZG28zIXeb1DlmzhgrsWYdnI5dtnxvyM9Nyj4Lep6APKOhD8uqAvNp3a3k12Ntj2j/muvhGTp6Q10fcNlsoa/Bt7bzDgvpEMfzCbPidm/aEKfGVnDhyDPSUOHTkBlXuu4cH5MQxi3rbGcpxwzt2kyRdoBIrwshD6XlsUMTaWYxdRFsPbUsjvDFKLhg3shkbWVcySvY5WeUejaXHBOkL5uRLiuotJf1glOQggOQfxJdD8W2DarbFcu8h99ee0F15RrmyjRc+RQR9fFNxF4Z/7TLDQMZTDmKiJKHWaNPs9Gi2O9TqCWkjxUY1N4Zv47N6UV/kD2d7jG7VJ74lAAAAAElFTkSuQmCC&apos;); background-size: cover; display: block;&quot;&gt;&lt;/span&gt;
@@ -82,7 +82,7 @@ cd ~&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 /blog/static/88a08dd0ef8897478dde669ac35d27bd/f058b/discord.png 630w,
 /blog/static/88a08dd0ef8897478dde669ac35d27bd/40601/discord.png 945w,
 /blog/static/88a08dd0ef8897478dde669ac35d27bd/78612/discord.png 1260w,
-/blog/static/88a08dd0ef8897478dde669ac35d27bd/0f882/discord.png 1584w&quot; sizes=&quot;(max-width: 630px) 100vw, 630px&quot; style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot; loading=&quot;lazy&quot;&gt;
+/blog/static/88a08dd0ef8897478dde669ac35d27bd/0f882/discord.png 1584w&quot; sizes=&quot;(max-width: 630px) 100vw, 630px&quot; style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot; loading=&quot;lazy&quot; decoding=&quot;async&quot;&gt;
     &lt;/span&gt;
 &lt;p&gt;停止しわすれたときのために自動でシャットダウンする機能もつくりたいとも考えてますが、いい感じの実装が思いついていないです。&lt;/p&gt;
 &lt;h3&gt;料金通知&lt;/h3&gt;
@@ -94,19 +94,19 @@ cd ~&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 /blog/static/09be84d3d74452b4d8757055d671780e/6bdcf/yosan.png 315w,
 /blog/static/09be84d3d74452b4d8757055d671780e/f058b/yosan.png 630w,
 /blog/static/09be84d3d74452b4d8757055d671780e/40601/yosan.png 945w,
-/blog/static/09be84d3d74452b4d8757055d671780e/6d74e/yosan.png 1085w&quot; sizes=&quot;(max-width: 630px) 100vw, 630px&quot; style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot; loading=&quot;lazy&quot;&gt;
+/blog/static/09be84d3d74452b4d8757055d671780e/6d74e/yosan.png 1085w&quot; sizes=&quot;(max-width: 630px) 100vw, 630px&quot; style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot; loading=&quot;lazy&quot; decoding=&quot;async&quot;&gt;
     &lt;/span&gt;
-&lt;p&gt;課金データはBigQueryに出力できるのでやっておきます。&lt;/p&gt;
+&lt;p&gt;課金データは BigQuery に出力できるのでやっておきます。&lt;/p&gt;
 &lt;span class=&quot;gatsby-resp-image-wrapper&quot; style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 630px; &quot;&gt;
       &lt;span class=&quot;gatsby-resp-image-background-image&quot; style=&quot;padding-bottom: 91.13924050632912%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAASCAYAAABb0P4QAAAACXBIWXMAAA7DAAAOwwHHb6hkAAACgklEQVQ4y5WTTW4TQRCFfQqQOEJ2EISQsnDIAXIVJNYgEcElAIkrsGeDFIFYJMQ4RmIRiJPY02PPmLHnt+enZz5U7YxJCIjQ0nPZ3V2vq149d9aeeKw9drn/fMrtpxPWdybcezblzs6EW48UNx6OLW5eE53Xbz7wdu+U918m7B4qPn712T10eddT7A489r8n9E40B8OUT8f/RidZ+GA0aZIxnydEUUahNdQ5VR7bSFMAhuusjnwUVcMkKHFmBc6sJIgbqrohL0tSrcm0RhcFVV1j6pq6AVM3VKa2MKZZoRNFEWVZMvM9hqcOo7GDMx7hqRnOqcvEmTL3F5wdj5gqj8BboBzFyckQpVzquraVNU2zrDBNU0soB2HakGpDHEWk8xwdlpTakMcleVJSpBU6LIijhDavJWvRybLMHqRZiqscXFexCEOuu9rKVhomSUJVVZz5Do6r0FqT57mt2BjzK5plNNVyr0VLuKpQkuViGIaIntKKQB5p9ZEOBEVR2HuyL50FQWDv/VFDuSCQJDmM4xjHEQlclFIW7XfZl5yL2q0qlEQ5lCgajkcj+9Krly+4u77O1tYDNrtdNje7dLtdNjY22N7ettXJatteEbYVip+SrELnJaaGb8Mxe/s9ep8HHPQO2T/oMxgM6Pf7HB0dXSFaEaofFVFqKMqKySwjjHPCWOPNS/IKC11CnDXX+6fEibZkM9+nyHVrBmmGujY0LRqznPL55H+f7qpCrTObKIRBML/qs7/47SLZpSmL7+TVeRDge1N838PzPCu6WER8KnGxWBCe20oGKL/FZpJ/ibD1YZppprOIMF7aRxJbC/0LlwiXBjbkRYU/z4mSgv9dF+X4CTDcR6NeL5G/AAAAAElFTkSuQmCC&apos;); background-size: cover; display: block;&quot;&gt;&lt;/span&gt;
   &lt;img class=&quot;gatsby-resp-image-image&quot; alt=&quot;Kakin Export&quot; title=&quot;Kakin Export&quot; src=&quot;/blog/static/9d435522f36d0d0fdd90df0bcd589e08/f058b/kakin.png&quot; srcset=&quot;/blog/static/9d435522f36d0d0fdd90df0bcd589e08/c26ae/kakin.png 158w,
 /blog/static/9d435522f36d0d0fdd90df0bcd589e08/6bdcf/kakin.png 315w,
 /blog/static/9d435522f36d0d0fdd90df0bcd589e08/f058b/kakin.png 630w,
 /blog/static/9d435522f36d0d0fdd90df0bcd589e08/40601/kakin.png 945w,
-/blog/static/9d435522f36d0d0fdd90df0bcd589e08/84ee5/kakin.png 1076w&quot; sizes=&quot;(max-width: 630px) 100vw, 630px&quot; style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot; loading=&quot;lazy&quot;&gt;
+/blog/static/9d435522f36d0d0fdd90df0bcd589e08/84ee5/kakin.png 1076w&quot; sizes=&quot;(max-width: 630px) 100vw, 630px&quot; style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot; loading=&quot;lazy&quot; decoding=&quot;async&quot;&gt;
     &lt;/span&gt;
-&lt;p&gt;あとは定期的にBigQueryを叩いて、(普段 仕事でも使う)Slackに通知が飛ぶように仕向けます。&lt;/p&gt;
-&lt;p&gt;実行自体はCloudFunctionで定期的な実行フラグはSchedulerで間をつなぐのはPub/Subでやっています。&lt;/p&gt;
+&lt;p&gt;あとは定期的に BigQuery を叩いて、(普段 仕事でも使う)Slack に通知が飛ぶように仕向けます。&lt;/p&gt;
+&lt;p&gt;実行自体は CloudFunction で定期的な実行フラグは Scheduler で間をつなぐのは Pub/Sub でやっています。&lt;/p&gt;
 &lt;p&gt;いまのところその予算を超えるような使い方をしていないのでかなり平和で安く運用できています。&lt;/p&gt;
 &lt;span class=&quot;gatsby-resp-image-wrapper&quot; style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 630px; &quot;&gt;
       &lt;span class=&quot;gatsby-resp-image-background-image&quot; style=&quot;padding-bottom: 34.177215189873415%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAHCAYAAAAIy204AAAACXBIWXMAABYlAAAWJQFJUiTwAAABPUlEQVQoz12RTVLDMAyFc5FSaJMmoflxEju2E+eHtJ0u2HMA1uxgx5ITwIoDcBIu9hiJ0CldaOSRpe89y97D4zOeXj9QKo1xf0Q7TEiERCokCmkQJwJ+lGC5DnHtR//yZY3Ce3n7xPvXNzJRYne8h2561E0H40a4YQdpHLKy5pqyDqYdYLuRMwlXuoGyv3frcAsvCCP4mwC3WYlu3ENIA6lbWDfyYF7WqHQLN+7YfXe3R89xOMFI2LiBX+It/QiLVYhtXvGAqDQ3klPd9iiVZRFyVNUNw5O8YnfUSyshM1mhEG5zeDdBzDughn46oFAWyjgGkkOCEIAc5rPYYrXhmas583nOJ2A6A//cNf3EYH5a3aC2HaRpIaRGnAr+AJq9DI8uSClKBC82LRSDCBynBWfaI9WDODmBzn/2PH4A0R7fp6mxAYAAAAAASUVORK5CYII=&apos;); background-size: cover; display: block;&quot;&gt;&lt;/span&gt;
@@ -114,19 +114,19 @@ cd ~&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 /blog/static/185656b2500832e99a791ad23583d1c3/6bdcf/slack.png 315w,
 /blog/static/185656b2500832e99a791ad23583d1c3/f058b/slack.png 630w,
 /blog/static/185656b2500832e99a791ad23583d1c3/40601/slack.png 945w,
-/blog/static/185656b2500832e99a791ad23583d1c3/84ee5/slack.png 1076w&quot; sizes=&quot;(max-width: 630px) 100vw, 630px&quot; style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot; loading=&quot;lazy&quot;&gt;
+/blog/static/185656b2500832e99a791ad23583d1c3/84ee5/slack.png 1076w&quot; sizes=&quot;(max-width: 630px) 100vw, 630px&quot; style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot; loading=&quot;lazy&quot; decoding=&quot;async&quot;&gt;
     &lt;/span&gt;
 &lt;p&gt;小数が適切に処理されていないのは見逃してほしいです。。&lt;/p&gt;
 &lt;h2&gt;今後&lt;/h2&gt;
-&lt;p&gt;&lt;a href=&quot;https://cloud.google.com/game-servers&quot;&gt;Game Servers&lt;/a&gt;というKubernetes上でもろもろ管理・スケールできるものもあるんですが、ソシャゲでスペック調整いるとか24時間管理するものとかでもないのでいったん見送っています。&lt;/p&gt;
-&lt;p&gt;すぐに環境を用意できて削除することもできることが分かったので、突発企画で建築コンペやダイヤ発掘レース・マルチでエンダードラゴン討伐TAなどもできそうだなーとか思っています。要望があれば作ります。&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://cloud.google.com/game-servers&quot;&gt;Game Servers&lt;/a&gt;という Kubernetes 上でもろもろ管理・スケールできるものもあるんですが、ソシャゲでスペック調整いるとか 24 時間管理するものとかでもないのでいったん見送っています。&lt;/p&gt;
+&lt;p&gt;すぐに環境を用意できて削除することもできることが分かったので、突発企画で建築コンペやダイヤ発掘レース・マルチでエンダードラゴン討伐 TA などもできそうだなーとか思っています。要望があれば作ります。&lt;/p&gt;
 &lt;p&gt;前述した実装しきれていない部分もあるので時間を見つけて着手していきます。&lt;/p&gt;
-&lt;p&gt;こんな感じのことをやっていると、Minecraftそのものをプレイする時間がなくなってきます(´・ω・｀)&lt;/p&gt;
+&lt;p&gt;こんな感じのことをやっていると、Minecraft そのものをプレイする時間がなくなってきます(´・ω・｀)&lt;/p&gt;
 &lt;blockquote class=&quot;twitter-tweet&quot;&gt;&lt;p lang=&quot;ja&quot; dir=&quot;ltr&quot;&gt;いじいじ &lt;a href=&quot;https://t.co/NrUuYzdn4O&quot;&gt;pic.twitter.com/NrUuYzdn4O&lt;/a&gt;&lt;/p&gt;&amp;mdash; .ごっち (@gggooottto) &lt;a href=&quot;https://twitter.com/gggooottto/status/1383101215953752065?ref_src=twsrc%5Etfw&quot;&gt;April 16, 2021&lt;/a&gt;&lt;/blockquote&gt;</content:encoded></item><item><title><![CDATA[esa7th Anniversary とのこと]]></title><description><![CDATA[といってもポスト時点では 1 日過ぎていますが、とてもめでたいです\( ⁰⊖⁰)/。
-去年も同じようなことを書きました。 esa 6th Anniversary とのこと esaが個人で使ったり mitakarb で使ったりしています。esa日記もちまちま続いています。  esa…]]></description><link>https://yutagoto.github.io/20210511-esa7th-tonokoto/</link><guid isPermaLink="false">https://yutagoto.github.io/20210511-esa7th-tonokoto/</guid><pubDate>Tue, 11 May 2021 01:00:00 GMT</pubDate><content:encoded>&lt;p&gt;といってもポスト時点では 1 日過ぎていますが、とてもめでたいです\( ⁰⊖⁰)/。
+去年も同じようなことを書きました。 esa 6th Anniversary とのこと esa が個人で使ったり mitakarb で使ったりしています。esa…]]></description><link>https://yutagoto.github.io/20210511-esa7th-tonokoto/</link><guid isPermaLink="false">https://yutagoto.github.io/20210511-esa7th-tonokoto/</guid><pubDate>Tue, 11 May 2021 01:00:00 GMT</pubDate><content:encoded>&lt;p&gt;といってもポスト時点では 1 日過ぎていますが、とてもめでたいです\( ⁰⊖⁰)/。
 去年も同じようなことを書きました。 &lt;a href=&quot;https://yutagoto.github.io/blog/20200511-esa-6th-anniversary-%E3%81%A8%E3%81%AE%E3%81%93%E3%81%A8/&quot;&gt;esa 6th Anniversary とのこと&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;esaが個人で使ったり &lt;a href=&quot;https://mitakarb.doorkeeper.jp/&quot;&gt;mitakarb&lt;/a&gt; で使ったりしています。esa日記もちまちま続いています。  &lt;a href=&quot;https://yutagoto.github.io/blog/20190514-esa%E3%81%A7%E6%97%A5%E8%A8%98%E3%82%92%E3%81%A4%E3%81%91%E3%81%A6%E3%81%84%E3%82%8B/&quot;&gt;esaで日記をつけている&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;おかげさまで個人のポストも増えてきました。去年の倍くらいにですかね。esa日記や日々解いているAtCoderの問題の振り返りを残しているだけあってめちゃくちゃ記事数が伸びています。&lt;/p&gt;
+&lt;p&gt;esa が個人で使ったり &lt;a href=&quot;https://mitakarb.doorkeeper.jp/&quot;&gt;mitakarb&lt;/a&gt; で使ったりしています。esa 日記もちまちま続いています。 &lt;a href=&quot;https://yutagoto.github.io/blog/20190514-esa%E3%81%A7%E6%97%A5%E8%A8%98%E3%82%92%E3%81%A4%E3%81%91%E3%81%A6%E3%81%84%E3%82%8B/&quot;&gt;esa で日記をつけている&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;おかげさまで個人のポストも増えてきました。去年の倍くらいにですかね。esa 日記や日々解いている AtCoder の問題の振り返りを残しているだけあってめちゃくちゃ記事数が伸びています。&lt;/p&gt;
 &lt;p&gt;&lt;span
       class=&quot;gatsby-resp-image-wrapper&quot;
       style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 503px; &quot;
@@ -146,20 +146,21 @@ cd ~&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
         sizes=&quot;(max-width: 503px) 100vw, 503px&quot;
         style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
         loading=&quot;lazy&quot;
+        decoding=&quot;async&quot;
       /&gt;
     &lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;↑画像: 地味に去年とUIが変わっていることに気がついた&lt;/p&gt;
-&lt;p&gt;そんな感じに個人esaを運用していますが、今年はDiscordに記念サーバーが立ち上がりました！&lt;/p&gt;
+&lt;p&gt;↑ 画像: 地味に去年と UI が変わっていることに気がついた&lt;/p&gt;
+&lt;p&gt;そんな感じに個人 esa を運用していますが、今年は Discord に記念サーバーが立ち上がりました！&lt;/p&gt;
 &lt;blockquote class=&quot;twitter-tweet&quot;&gt;&lt;p lang=&quot;ja&quot; dir=&quot;ltr&quot;&gt;【お知らせ】 diary/2021/05/10/esaが誕生7周年 :tada: :birthday: :esa2: &lt;a href=&quot;https://t.co/OO6gRljTDL&quot;&gt;https://t.co/OO6gRljTDL&lt;/a&gt; &lt;a href=&quot;https://twitter.com/hashtag/esa_io?src=hash&amp;amp;ref_src=twsrc%5Etfw&quot;&gt;#esa_io&lt;/a&gt; &lt;a href=&quot;https://twitter.com/hashtag/%EF%BE%84%EF%BE%89%EF%BD%BA%EF%BE%84?src=hash&amp;amp;ref_src=twsrc%5Etfw&quot;&gt;#ﾄﾉｺﾄ&lt;/a&gt;&lt;/p&gt;&amp;mdash; esa_io (@esa_io) &lt;a href=&quot;https://twitter.com/esa_io/status/1391623368017776643?ref_src=twsrc%5Etfw&quot;&gt;May 10, 2021&lt;/a&gt;&lt;/blockquote&gt;
 &lt;p&gt;といっても特段パーティをするわけでもなくゆるゆるとおしゃべりをするという内容でした。めちゃくちゃ楽しかったです！&lt;/p&gt;
 &lt;hr&gt;
 &lt;p&gt;これからも個人、コミュニティともによろしくお願いします！&lt;/p&gt;
 &lt;blockquote class=&quot;twitter-tweet&quot; data-conversation=&quot;none&quot;&gt;&lt;p lang=&quot;ja&quot; dir=&quot;ltr&quot;&gt;ケーキを作って各家庭に届けてくださったのは今年も &lt;a href=&quot;https://twitter.com/bonsweets?ref_src=twsrc%5Etfw&quot;&gt;@bonsweets&lt;/a&gt; さん&amp;quot;(\( ⁰⊖⁰)/)&amp;quot;&lt;br&gt;かわいくておいしいケーキありがとうございます🎂 &lt;a href=&quot;https://t.co/hTz9gjDYHJ&quot;&gt;pic.twitter.com/hTz9gjDYHJ&lt;/a&gt;&lt;/p&gt;&amp;mdash; taea🐶 (@ken_c_lo) &lt;a href=&quot;https://twitter.com/ken_c_lo/status/1391648347212050434?ref_src=twsrc%5Etfw&quot;&gt;May 10, 2021&lt;/a&gt;&lt;/blockquote&gt;
-&lt;p&gt;esaケーキおいしそう。。。&lt;/p&gt;</content:encoded></item><item><title><![CDATA[ブログを移行しました]]></title><description><![CDATA[こんにちは、.ごっちです。 ブログをMediumからここに移動します。
-Mediumもだいぶスッキリしていて好きでしたが、(個人的には)Markdownで書きたかったので移行したという感じです。 過去分もいちおう移行していますが、TwitterEmbed…]]></description><link>https://yutagoto.github.io/20210510-move-blog-service/</link><guid isPermaLink="false">https://yutagoto.github.io/20210510-move-blog-service/</guid><pubDate>Mon, 10 May 2021 01:00:00 GMT</pubDate><content:encoded>&lt;p&gt;こんにちは、.ごっちです。&lt;/p&gt;
+&lt;p&gt;esa ケーキおいしそう。。。&lt;/p&gt;</content:encoded></item><item><title><![CDATA[ブログを移行しました]]></title><description><![CDATA[こんにちは、.ごっちです。 ブログをMediumからここに移動します。
+Medium もだいぶスッキリしていて好きでしたが、(個人的には)Markdown で書きたかったので移行したという感じです。 過去分もいちおう移行していますが、TwitterEmbed…]]></description><link>https://yutagoto.github.io/20210510-move-blog-service/</link><guid isPermaLink="false">https://yutagoto.github.io/20210510-move-blog-service/</guid><pubDate>Mon, 10 May 2021 01:00:00 GMT</pubDate><content:encoded>&lt;p&gt;こんにちは、.ごっちです。&lt;/p&gt;
 &lt;p&gt;ブログを&lt;a href=&quot;https://medium.com/@gggooottto&quot;&gt;Medium&lt;/a&gt;からここに移動します。
-Mediumもだいぶスッキリしていて好きでしたが、(個人的には)Markdownで書きたかったので移行したという感じです。&lt;/p&gt;
-&lt;p&gt;過去分もいちおう移行していますが、TwitterEmbedなどはすべて対応しきれていないので、時間を作って手を入れていく予定です。&lt;/p&gt;
+Medium もだいぶスッキリしていて好きでしたが、(個人的には)Markdown で書きたかったので移行したという感じです。&lt;/p&gt;
+&lt;p&gt;過去分もいちおう移行していますが、TwitterEmbed などはすべて対応しきれていないので、時間を作って手を入れていく予定です。&lt;/p&gt;
 &lt;p&gt;移行したてなのでほぼなにもない状況ですが、これからもよろしくお願いいたします。&lt;/p&gt;</content:encoded></item><item><title><![CDATA[リングフィットアドベンチャー 2周目完走したので感想]]></title><description><![CDATA[2019 年の 10 月末に始めて 2020 年 6 月 17 日に 1 周目完走して、そして 2021 年 3 月 25 日に 2 周目（エクストラモード）を完走したのでその感想です。 リングフィットアドベンチャー Any%完走したので感想 medium.com…]]></description><link>https://yutagoto.github.io/20210429-リングフィットアドベンチャー-2周目完走したので感想/</link><guid isPermaLink="false">https://yutagoto.github.io/20210429-リングフィットアドベンチャー-2周目完走したので感想/</guid><pubDate>Thu, 29 Apr 2021 12:03:00 GMT</pubDate><content:encoded>&lt;p&gt;&lt;img src=&quot;https://cdn-images-1.medium.com/max/2000/0*M3ZJvLHN2sOmTNtK.png&quot;&gt;&lt;/p&gt;
 &lt;p&gt;2019 年の 10 月末に始めて 2020 年 6 月 17 日に 1 周目完走して、そして 2021 年 3 月 25 日に 2 周目（エクストラモード）を完走したのでその感想です。&lt;/p&gt;
 &lt;blockquote class=&quot;twitter-tweet&quot;&gt;&lt;p lang=&quot;ja&quot; dir=&quot;ltr&quot;&gt;やったー！！！！！！！！！！！！！！！！！第２章！！完！！！！！！ &lt;a href=&quot;https://twitter.com/hashtag/%E3%83%AA%E3%83%B3%E3%82%B0%E3%83%95%E3%82%A3%E3%83%83%E3%83%88%E3%82%A2%E3%83%89%E3%83%99%E3%83%B3%E3%83%81%E3%83%A3%E3%83%BC?src=hash&amp;amp;ref_src=twsrc%5Etfw&quot;&gt;#リングフィットアドベンチャー&lt;/a&gt; &lt;a href=&quot;https://twitter.com/hashtag/RingFitAdventure?src=hash&amp;amp;ref_src=twsrc%5Etfw&quot;&gt;#RingFitAdventure&lt;/a&gt; &lt;a href=&quot;https://twitter.com/hashtag/NintendoSwitch?src=hash&amp;amp;ref_src=twsrc%5Etfw&quot;&gt;#NintendoSwitch&lt;/a&gt; &lt;a href=&quot;https://t.co/pTABsjWBCo&quot;&gt;pic.twitter.com/pTABsjWBCo&lt;/a&gt;&lt;/p&gt;&amp;mdash; .ごっち (@gggooottto) &lt;a href=&quot;https://twitter.com/gggooottto/status/1375020302954942467?ref_src=twsrc%5Etfw&quot;&gt;March 25, 2021&lt;/a&gt;&lt;/blockquote&gt;
@@ -547,9 +548,7 @@ CryptoZombie をやる shinjuku-mokumoku 会において 試して学ぶ スマ�
 &lt;iframe src=&quot;https://medium.com/media/af90ea1d9e28fc1f009046a6b619acb2&quot; frameborder=0&gt;&lt;/iframe&gt;
 &lt;h2&gt;ジャンプロープチャレンジとは&lt;/h2&gt;
 &lt;blockquote&gt;
-&lt;p&gt;&lt;em&gt;『ジャンプロープ チャレンジ』は、Stay at Home 期間に、少しでも運動不足の解消に役立つことを願って、在宅勤務の中で、短期間に、Unity を使って開発したシンプルな運動ツールです。 Nintendo Switch を使って、運動不足やリモートワークの合間の手軽な運動として「毎日 100 回、なわとびチャレンジ」をお試しください。&lt;/em&gt;
-&lt;a href=&quot;https://www.nintendo.co.jp/switch/ayv2a/&quot;&gt;&lt;strong&gt;ジャンプロープ チャレンジ | Nintendo Switch | 任天堂&lt;/strong&gt;
-&lt;em&gt;なわがなくても「なわとび」ができる。2020 年 6 月 16 日（火）配信開始、Nintendo Switch『ジャンプロープ チャレンジ』の公式サイトです。&lt;/em&gt;www.nintendo.co.jp&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;『ジャンプロープ チャレンジ』は、Stay at Home 期間に、少しでも運動不足の解消に役立つことを願って、在宅勤務の中で、短期間に、Unity を使って開発したシンプルな運動ツールです。 Nintendo Switch を使って、運動不足やリモートワークの合間の手軽な運動として「毎日 100 回、なわとびチャレンジ」をお試しください。&lt;/em&gt; &gt; &lt;a href=&quot;https://www.nintendo.co.jp/switch/ayv2a/&quot;&gt;&lt;strong&gt;ジャンプロープ チャレンジ | Nintendo Switch | 任天堂&lt;/strong&gt; &gt; &lt;em&gt;なわがなくても「なわとび」ができる。2020 年 6 月 16 日（火）配信開始、Nintendo Switch『ジャンプロープ チャレンジ』の公式サイトです。&lt;/em&gt;www.nintendo.co.jp&lt;/a&gt;&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;p&gt;Joy-Con を使った縄跳びツールのようなものです。実際はジャンプしなくても手首をふるだけでもチャレンジすることは可能です。
 もともとは期間限定の配信（2020 年 9 月末まで）だったのですが、期間を決めないということになったので今からでもチャレンジを開始することが可能です。&lt;/p&gt;
@@ -606,10 +605,10 @@ IM@S ENGINEERS ON@IR!!!! 2020 (2020/09/26 14:00〜)
 &lt;p&gt;ついでに Steep を導入して型チェックも書いてみました。&lt;/p&gt;
 &lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;# sig/gotch_birthday.rbs
 module GotchBirthday
-  def self.birthday: -&amp;gt; Date
-  def self.birthday?: (?Date) -&amp;gt; bool
-  def self.years_old: (?Date) -&amp;gt; Integer
-  def self.days_after_birthday: (?Date) -&amp;gt; Integer                       end&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+  def self.birthday: -&gt; Date
+  def self.birthday?: (?Date) -&gt; bool
+  def self.years_old: (?Date) -&gt; Integer
+  def self.days_after_birthday: (?Date) -&gt; Integer                       end&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;p&gt;引数の型に?があるの( (?Date)の部分)はその引数が任意であるということを指しています。&lt;/p&gt;
 &lt;p&gt;bundle exec steep check を実行するととくにエラーもなく終了します。&lt;/p&gt;
 &lt;p&gt;—&lt;/p&gt;
@@ -795,7 +794,7 @@ AtCoder is a…]]></description><link>https://yutagoto.github.io/20200808-ほぼ
   background: #4a3311;
 }
 .envelope-cover:before {
-  content: &amp;quot;&amp;quot;;
+  content: &quot;&quot;;
   position: absolute;
   top: 0;
   right: 100%;
@@ -805,7 +804,7 @@ AtCoder is a…]]></description><link>https://yutagoto.github.io/20200808-ほぼ
   border-top: 110px solid #4a3311;
 }
 .envelope-cover:after {
-  content: &amp;quot;&amp;quot;;
+  content: &quot;&quot;;
   position: absolute;
   top: 0;
   left: 100%;
@@ -1135,18 +1134,18 @@ im@sparql を TypeScript でたたいてみる
 &lt;p&gt;チュートリアルに則って言語は Nodejs を使います。あとは SlackApp を新規で作成したり開発用の環境変数を用意したり作業用の Slack のワークスペースを用意したりします。&lt;/p&gt;
 &lt;h2&gt;実装&lt;/h2&gt;
 &lt;p&gt;ざっくりコード ↓&lt;/p&gt;
-&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;const fetch = require(&amp;#39;node-fetch&amp;#39;);
-const { App } = require(&amp;#39;@slack/bolt&amp;#39;);
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;const fetch = require(&apos;node-fetch&apos;);
+const { App } = require(&apos;@slack/bolt&apos;);
 
 const app = new App({
   token: process.env.SLACK_BOT_TOKEN,
   signingSecret: process.env.SLACK_SIGNING_SECRET
 });
 
-app.command(&amp;#39;/imasparql&amp;#39;, async ({ command, ack, say }) =&amp;gt; {
+app.command(&apos;/imasparql&apos;, async ({ command, ack, say }) =&gt; {
   ack();
 
-  const url = &amp;quot;https://sparql.crssnky.xyz/spql/imas/query?query=&amp;quot; + encodeURIComponent(command.text.replace(&amp;quot;`&amp;quot;, &amp;quot;&amp;quot;).replace(&amp;quot;`&amp;quot;, &amp;quot;&amp;quot;));
+  const url = &quot;https://sparql.crssnky.xyz/spql/imas/query?query=&quot; + encodeURIComponent(command.text.replace(&quot;`&quot;, &quot;&quot;).replace(&quot;`&quot;, &quot;&quot;));
 
   fetch(url).then(function(response) {
     return response.json();
@@ -1157,9 +1156,9 @@ app.command(&amp;#39;/imasparql&amp;#39;, async ({ command, ack, say }) =&amp;gt
 
 });
 
-(async () =&amp;gt; {
+(async () =&gt; {
   await app.start(process.env.PORT || 3000);
-  console.log(&amp;#39;⚡️ Bolt app is running!&amp;#39;);
+  console.log(&apos;⚡️ Bolt app is running!&apos;);
 })();&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;h2&gt;実際の動き&lt;/h2&gt;
 &lt;iframe src=&quot;https://medium.com/media/2ae35e3645829c32cacfd50d67423204&quot; frameborder=0&gt;&lt;/iframe&gt;
@@ -1174,15 +1173,15 @@ app.command(&amp;#39;/imasparql&amp;#39;, async ({ command, ack, say }) =&amp;gt
 &lt;p&gt;—&lt;/p&gt;
 &lt;p&gt;&lt;img src=&quot;https://cdn-images-1.medium.com/max/4400/1*BGBbLNQ3EwT8NOPUc7M3og.png&quot;&gt;&lt;/p&gt;
 &lt;p&gt;ちなみに Twitter の動画にあったこれは&lt;/p&gt;
-&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;PREFIX schema: &amp;lt;http://schema.org/&amp;gt;
-PREFIX rdf: &amp;lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#&amp;gt;
-PREFIX imas: &amp;lt;https://sparql.crssnky.xyz/imasrdf/URIs/imas-schema.ttl#&amp;gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;PREFIX schema: &amp;lt;http://schema.org/&gt;
+PREFIX rdf: &amp;lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#&gt;
+PREFIX imas: &amp;lt;https://sparql.crssnky.xyz/imasrdf/URIs/imas-schema.ttl#&gt;
 SELECT (sample(?n) as ?name)
 WHERE {
   ?s rdf:type imas:Idol;
      schema:name|imas:nameKana ?on;
      schema:name ?n;
-  FILTER(CONTAINS(str(?on), &amp;#39;あまみ&amp;#39;)).
+  FILTER(CONTAINS(str(?on), &apos;あまみ&apos;)).
 }group by(?n)&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;p&gt;で取得できます。&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Hello World! Ktor]]></title><description><![CDATA[こんにちは、.ごっちです。 ちょっと前から気になっていた Kotlin をこの土日で触っていたので、備忘録で環境構築のことについて書きます。 Kotlin なので Android…]]></description><link>https://yutagoto.github.io/20190819-hello-world-ktor/</link><guid isPermaLink="false">https://yutagoto.github.io/20190819-hello-world-ktor/</guid><pubDate>Mon, 19 Aug 2019 09:00:00 GMT</pubDate><content:encoded>&lt;p&gt;こんにちは、.ごっちです。&lt;/p&gt;
 &lt;p&gt;ちょっと前から気になっていた Kotlin をこの土日で触っていたので、備忘録で環境構築のことについて書きます。&lt;/p&gt;
@@ -1216,22 +1215,22 @@ WHERE {
 &lt;p&gt;このように表示されたら問題なしです。ここまでできれば一旦環境はできあがり！&lt;/p&gt;
 &lt;h2&gt;ちょっといじる&lt;/h2&gt;
 &lt;p&gt;ひとまずページを追加したいので、 application.tk にある routing を増やします。&lt;/p&gt;
-&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;get(&amp;quot;/about&amp;quot;) {
-    val user = User(&amp;quot;.ごっち&amp;quot;, &amp;quot;test@example.com&amp;quot;)
-    call.respond(FreeMarkerContent(&amp;quot;about.ftl&amp;quot;, mapOf(&amp;quot;user&amp;quot; to user), &amp;quot;e&amp;quot;))
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;get(&quot;/about&quot;) {
+    val user = User(&quot;.ごっち&quot;, &quot;test@example.com&quot;)
+    call.respond(FreeMarkerContent(&quot;about.ftl&quot;, mapOf(&quot;user&quot; to user), &quot;e&quot;))
 }&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;p&gt;上のコードの User はファイルの最下部にとりま定義しておきます(型定義しているあたり Kotlin ぽくてよい?)&lt;/p&gt;
 &lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;data class User(var name: String, var email: String)&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;p&gt;routing だけ増やしてもしょうがないので、template ファイルも追加します。&lt;/p&gt;
-&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;&amp;lt;#-- resouces/templates/about.ftl --&amp;gt;
-&amp;lt;#-- @ftlvariable name=&amp;quot;data&amp;quot; type=&amp;quot;com.example.IndexData&amp;quot; --&amp;gt;
-&amp;lt;html&amp;gt;
-    &amp;lt;body&amp;gt;
-        &amp;lt;h2&amp;gt;Hello ${user.name}!&amp;lt;/h2&amp;gt;
-        &amp;lt;p&amp;gt;Your email address is ${user.email}&amp;lt;/p&amp;gt;
-        &amp;lt;p&amp;gt;This System works with Ktor that made with Kotlin!&amp;lt;/p&amp;gt;
-    &amp;lt;/body&amp;gt;
-&amp;lt;/html&amp;gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;&amp;lt;#-- resouces/templates/about.ftl --&gt;
+&amp;lt;#-- @ftlvariable name=&quot;data&quot; type=&quot;com.example.IndexData&quot; --&gt;
+&amp;lt;html&gt;
+    &amp;lt;body&gt;
+        &amp;lt;h2&gt;Hello ${user.name}!&amp;lt;/h2&gt;
+        &amp;lt;p&gt;Your email address is ${user.email}&amp;lt;/p&gt;
+        &amp;lt;p&gt;This System works with Ktor that made with Kotlin!&amp;lt;/p&gt;
+    &amp;lt;/body&gt;
+&amp;lt;/html&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;p&gt;Freemarker 用のファイルになっているらしいです。
 &lt;a href=&quot;https://freemarker.apache.org/&quot;&gt;&lt;strong&gt;What is Apache FreeMarker™?&lt;/strong&gt;
 &lt;em&gt;Apache FreeMarker™ is a template engine: a Java library to generate text output (HTML web pages, e-mails, configuration…&lt;/em&gt;freemarker.apache.org&lt;/a&gt;&lt;/p&gt;
@@ -1252,12 +1251,12 @@ jobs:
     steps:
       - checkout
       - restore_cache:
-          key: circleci-hello-ktor-{{ checksum &amp;quot;build.gradle&amp;quot; }}
+          key: circleci-hello-ktor-{{ checksum &quot;build.gradle&quot; }}
       - run: ./gradlew dependencies
       - save_cache:
           paths:
             - ~/.gradle
-          key: circleci-hello-ktor-{{ checksum &amp;quot;build.gradle&amp;quot; }}
+          key: circleci-hello-ktor-{{ checksum &quot;build.gradle&quot; }}
       - run: ./gradlew build
       - run: ./gradlew test
 
@@ -1508,39 +1507,39 @@ _はじめに _ [urfave/cli](https://github.com/urfave/cli) を使ってちょ�
 &lt;em&gt;Test data generator using imas https://github.com/imas/rubimas - YutaGoto/faker-rubimas&lt;/em&gt;github.com&lt;/a&gt;&lt;/p&gt;
 &lt;h2&gt;使い方&lt;/h2&gt;
 &lt;p&gt;メソッドを呼び出すたびにそのメソッド名にちなんだ文字列か配列が帰ってきます。&lt;/p&gt;
-&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;require &amp;#39;faker/rubimas&amp;#39;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;require &apos;faker/rubimas&apos;
 
 Faker::Rubimas.name
-# =&amp;gt; &amp;quot;望月杏奈&amp;quot;
+# =&gt; &quot;望月杏奈&quot;
 
 Faker::Rubimas.favorite
-# =&amp;gt; &amp;quot;ハト&amp;quot;
+# =&gt; &quot;ハト&quot;
 
 Faker::Rubimas.hobby
-# =&amp;gt; &amp;quot;登山&amp;quot;
+# =&gt; &quot;登山&quot;
 
 Faker::Rubimas.talent
-# =&amp;gt; &amp;quot;ポーカーフェイス&amp;quot;
+# =&gt; &quot;ポーカーフェイス&quot;
 
 Faker::Rubimas.idol_type
-# =&amp;gt; &amp;quot;Princess&amp;quot;
+# =&gt; &quot;Princess&quot;
 
 Faker::Rubimas.color
-# =&amp;gt; &amp;quot;#ffe43f&amp;quot;
+# =&gt; &quot;#ffe43f&quot;
 
 Faker::Rubimas.cv
-# =&amp;gt; &amp;quot;長谷川明子&amp;quot;
+# =&gt; &quot;長谷川明子&quot;
 
 Faker::Rubimas.unit_name
-# =&amp;gt; &amp;quot;クレシェンドブルー&amp;quot;
+# =&gt; &quot;クレシェンドブルー&quot;
 
 Faker::Rubimas.unit_member_names
-# =&amp;gt; [&amp;quot;天海春香&amp;quot;, &amp;quot;周防桃子&amp;quot;, &amp;quot;福田のり子&amp;quot;, &amp;quot;松田亜利沙&amp;quot;, &amp;quot;横山奈緒&amp;quot;]&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+# =&gt; [&quot;天海春香&quot;, &quot;周防桃子&quot;, &quot;福田のり子&quot;, &quot;松田亜利沙&quot;, &quot;横山奈緒&quot;]&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;h2&gt;苦戦した点&lt;/h2&gt;
 &lt;p&gt;hobby を持っていないアイドルがいて、ほかのメソッドと同じように書いてたらたまにエラーになってしまうという現象がありました。気づくのに地味に時間がかかりました。。&lt;/p&gt;
-&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;requrie &amp;#39;rubimas&amp;#39;
-p Rubimas.find_by_name(&amp;quot;ジュリア&amp;quot;).hobbies
-# =&amp;gt; nil&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;requrie &apos;rubimas&apos;
+p Rubimas.find_by_name(&quot;ジュリア&quot;).hobbies
+# =&gt; nil&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;p&gt;なので、hobby の部分だけ作りが違います。。。&lt;/p&gt;
 &lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;def name
   sample_idol.name.full
@@ -1616,16 +1615,16 @@ ruby trunk changesruby-trunk-changes.hatenablog.com&lt;/a&gt;&lt;/p&gt;
 &lt;a href=&quot;https://bugs.ruby-lang.org/issues/11107&quot;&gt;&lt;strong&gt;Bug #11107: Syntax error is raised by “p -&gt;() do a(1) do end end”, but not by “p -&gt;() do a 1 do end…&lt;/strong&gt;
 &lt;em&gt;Redmine&lt;/em&gt;bugs.ruby-lang.org&lt;/a&gt;&lt;/p&gt;
 &lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;# NG Cases
-p -&amp;gt;() do a(1) do end end
-p -&amp;gt;() do a() do end end
-p 1, -&amp;gt;() do a(1) do end end
+p -&gt;() do a(1) do end end
+p -&gt;() do a() do end end
+p 1, -&gt;() do a(1) do end end
 
 # OK Cases
-p -&amp;gt;() do a 1 do end end
-p -&amp;gt;() do a do end end
-p -&amp;gt;() { a(1) do end }
-p -&amp;gt;() do a(1) {} end
-p -&amp;gt;() { a(1) { } }&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+p -&gt;() do a 1 do end end
+p -&gt;() do a do end end
+p -&gt;() { a(1) do end }
+p -&gt;() do a(1) {} end
+p -&gt;() { a(1) { } }&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;p&gt;ぱっと見なにがなんだかわからんが….&lt;/p&gt;
 &lt;p&gt;parser は魔境だよ！&lt;/p&gt;
 &lt;h2&gt;RubykaigiA RSpec&lt;/h2&gt;
@@ -1903,8 +1902,8 @@ before_script:
 idol:
   script:
     - TODAY=`date +%m-%d`
-    - SPURL=&amp;quot;https://sparql.crssnky.xyz/spql/imas/query?query=PREFIX%20schema%3A%20%3Chttp%3A%2F%2Fschema.org%2F%3ESELECT%20(sample(%3Fo)%20as%20%3Fdate)%20(sample(%3Fn)%20as%20%3Fname)%20WHERE%20%7B%20%3Fsub%20schema%3AbirthDate%20%3Fo%3B%20schema%3Aname%7Cschema%3AalternateName%20%3Fn%3BFILTER(regex(str(%3Fo)%2C%20%22$TODAY%22%20)).%7Dgroup%20by(%3Fn)order%20by(%3Fname)&amp;quot;
-    - IDOLS=`curl -s $SPURL | jq &amp;quot;.results.bindings | map(.name.value)&amp;quot; | jq -r &amp;#39;join(&amp;quot; &amp;quot;)&amp;#39;`
+    - SPURL=&quot;https://sparql.crssnky.xyz/spql/imas/query?query=PREFIX%20schema%3A%20%3Chttp%3A%2F%2Fschema.org%2F%3ESELECT%20(sample(%3Fo)%20as%20%3Fdate)%20(sample(%3Fn)%20as%20%3Fname)%20WHERE%20%7B%20%3Fsub%20schema%3AbirthDate%20%3Fo%3B%20schema%3Aname%7Cschema%3AalternateName%20%3Fn%3BFILTER(regex(str(%3Fo)%2C%20%22$TODAY%22%20)).%7Dgroup%20by(%3Fn)order%20by(%3Fname)&quot;
+    - IDOLS=`curl -s $SPURL | jq &quot;.results.bindings | map(.name.value)&quot; | jq -r &apos;join(&quot; &quot;)&apos;`
     - echo $IDOLS&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;p&gt;設定の構文は travis ci に似ているような気がします。&lt;/p&gt;
 &lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;# .travisci.yml の場合
@@ -1914,8 +1913,8 @@ before_install:
   - sudo apt-get install -y curl jq
 script:
   - TODAY=`date +%m-%d`
-  - SPURL=&amp;quot;[https://sparql.crssnky.xyz/spql/imas/query?query=PREFIX%20schema%3A%20%3Chttp%3A%2F%2Fschema.org%2F%3ESELECT%20(sample(%3Fo)%20as%20%3Fdate)%20(sample(%3Fn)%20as%20%3Fname)%20WHERE%20%7B%20%3Fsub%20schema%3AbirthDate%20%3Fo%3B%20schema%3Aname%7Cschema%3AalternateName%20%3Fn%3BFILTER(regex(str(%3Fo)%2C%20%22$TODAY%22%20)).%7Dgroup%20by(%3Fn)order%20by(%3Fname)](https://sparql.crssnky.xyz/spql/imas/query?query=PREFIX%20schema%3A%20%3Chttp%3A%2F%2Fschema.org%2F%3ESELECT%20(sample(%3Fo)%20as%20%3Fdate)%20(sample(%3Fn)%20as%20%3Fname)%20WHERE%20%7B%20%3Fsub%20schema%3AbirthDate%20%3Fo%3B%20schema%3Aname%7Cschema%3AalternateName%20%3Fn%3BFILTER(regex(str(%3Fo)%2C%20%22$TODAY%22%20)).%7Dgroup%20by(%3Fn)order%20by(%3Fname))&amp;quot;
-  - IDOLS=`curl -s $SPURL | jq &amp;quot;.results.bindings | map(.name.value)&amp;quot; | jq -r &amp;#39;join(&amp;quot; &amp;quot;)&amp;#39;`
+  - SPURL=&quot;[https://sparql.crssnky.xyz/spql/imas/query?query=PREFIX%20schema%3A%20%3Chttp%3A%2F%2Fschema.org%2F%3ESELECT%20(sample(%3Fo)%20as%20%3Fdate)%20(sample(%3Fn)%20as%20%3Fname)%20WHERE%20%7B%20%3Fsub%20schema%3AbirthDate%20%3Fo%3B%20schema%3Aname%7Cschema%3AalternateName%20%3Fn%3BFILTER(regex(str(%3Fo)%2C%20%22$TODAY%22%20)).%7Dgroup%20by(%3Fn)order%20by(%3Fname)](https://sparql.crssnky.xyz/spql/imas/query?query=PREFIX%20schema%3A%20%3Chttp%3A%2F%2Fschema.org%2F%3ESELECT%20(sample(%3Fo)%20as%20%3Fdate)%20(sample(%3Fn)%20as%20%3Fname)%20WHERE%20%7B%20%3Fsub%20schema%3AbirthDate%20%3Fo%3B%20schema%3Aname%7Cschema%3AalternateName%20%3Fn%3BFILTER(regex(str(%3Fo)%2C%20%22$TODAY%22%20)).%7Dgroup%20by(%3Fn)order%20by(%3Fname))&quot;
+  - IDOLS=`curl -s $SPURL | jq &quot;.results.bindings | map(.name.value)&quot; | jq -r &apos;join(&quot; &quot;)&apos;`
   - echo $IDOLS&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;p&gt;—&lt;/p&gt;
 &lt;p&gt;文法チェックはブラウザ上でできるので、その部分はかなり強い気がしています。&lt;/p&gt;
@@ -1978,23 +1977,23 @@ IDE and text editor integrations for…]]></description><link>https://yutagoto.g
 &lt;h2&gt;誕生日検索&lt;/h2&gt;
 &lt;p&gt;この検索はすでに CircleCI でもたたいたとおりなので、ちょっと改変するだけでおわります。&lt;/p&gt;
 &lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;# query.sparql
-PREFIX schema: &amp;lt;[http://schema.org/](http://schema.org/)&amp;gt;
-PREFIX imas: &amp;lt;[https://sparql.crssnky.xyz/imasrdf/URIs/imas-schema.ttl#](https://sparql.crssnky.xyz/imasrdf/URIs/imas-schema.ttl#)&amp;gt;
+PREFIX schema: &amp;lt;[http://schema.org/](http://schema.org/)&gt;
+PREFIX imas: &amp;lt;[https://sparql.crssnky.xyz/imasrdf/URIs/imas-schema.ttl#](https://sparql.crssnky.xyz/imasrdf/URIs/imas-schema.ttl#)&gt;
 SELECT (sample(?n) as ?name)
 WHERE {
   ?sub schema:birthDate ?o;
        schema:name ?n;
-  FILTER(regex(str(?o), &amp;#39;02-11&amp;#39; )).
+  FILTER(regex(str(?o), &apos;02-11&apos; )).
 }group by(?n)&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;p&gt;?o(birthDate)に 02-11 が含まれる data を取得してきます。出力はその data の name の部分になります。&lt;/p&gt;
 &lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;{
-  &amp;quot;head&amp;quot;: {
-    &amp;quot;vars&amp;quot;: [ &amp;quot;name&amp;quot; ]
+  &quot;head&quot;: {
+    &quot;vars&quot;: [ &quot;name&quot; ]
   } ,
-  &amp;quot;results&amp;quot;: {
-    &amp;quot;bindings&amp;quot;: [
+  &quot;results&quot;: {
+    &quot;bindings&quot;: [
       {
-        &amp;quot;name&amp;quot;: { &amp;quot;type&amp;quot;: &amp;quot;literal&amp;quot; , &amp;quot;xml:lang&amp;quot;: &amp;quot;ja&amp;quot; , &amp;quot;value&amp;quot;: &amp;quot;浅野風香&amp;quot; }
+        &quot;name&quot;: { &quot;type&quot;: &quot;literal&quot; , &quot;xml:lang&quot;: &quot;ja&quot; , &quot;value&quot;: &quot;浅野風香&quot; }
       }
     ]
   }
@@ -2002,52 +2001,52 @@ WHERE {
 &lt;p&gt;あとはこれをいい感じに TypeScript で加工するだけです。&lt;/p&gt;
 &lt;h2&gt;名前検索&lt;/h2&gt;
 &lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;# query.sparql
-PREFIX schema: &amp;lt;[http://schema.org/](http://schema.org/)&amp;gt;
-PREFIX imas: &amp;lt;[https://sparql.crssnky.xyz/imasrdf/URIs/imas-schema.ttl#](https://sparql.crssnky.xyz/imasrdf/URIs/imas-schema.ttl#)&amp;gt;
+PREFIX schema: &amp;lt;[http://schema.org/](http://schema.org/)&gt;
+PREFIX imas: &amp;lt;[https://sparql.crssnky.xyz/imasrdf/URIs/imas-schema.ttl#](https://sparql.crssnky.xyz/imasrdf/URIs/imas-schema.ttl#)&gt;
 SELECT (sample(?n) as ?name)
 WHERE {
   ?s schema:name|imas:nameKana ?on;
      schema:name ?n;
-  FILTER(CONTAINS(str(?on), &amp;#39;あまみ&amp;#39;)).
+  FILTER(CONTAINS(str(?on), &apos;あまみ&apos;)).
 }group by(?n)&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;p&gt;?on(name or nameKana) に あまみ が含まれているデータを取得します。出力は上に同じくそのデータの name の部分だけです。&lt;/p&gt;
 &lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;{
-  &amp;quot;head&amp;quot;: {
-    &amp;quot;vars&amp;quot;: [ &amp;quot;name&amp;quot; ]
+  &quot;head&quot;: {
+    &quot;vars&quot;: [ &quot;name&quot; ]
   } ,
-  &amp;quot;results&amp;quot;: {
-    &amp;quot;bindings&amp;quot;: [
+  &quot;results&quot;: {
+    &quot;bindings&quot;: [
       {
-        &amp;quot;name&amp;quot;: { &amp;quot;type&amp;quot;: &amp;quot;literal&amp;quot; , &amp;quot;xml:lang&amp;quot;: &amp;quot;ja&amp;quot; , &amp;quot;value&amp;quot;: &amp;quot;天海春香&amp;quot; }
+        &quot;name&quot;: { &quot;type&quot;: &quot;literal&quot; , &quot;xml:lang&quot;: &quot;ja&quot; , &quot;value&quot;: &quot;天海春香&quot; }
       }
     ]
   }
 }&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;p&gt;ただこの Query にはバグが潜んでいて、 imas:nameKana や schema:name にはアイドル名以外にも系列があるので、そこは直さなければいけない部分です。&lt;/p&gt;
 &lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;# query.sparql
-PREFIX schema: &amp;lt;[http://schema.org/](http://schema.org/)&amp;gt;
-PREFIX imas: &amp;lt;[https://sparql.crssnky.xyz/imasrdf/URIs/imas-schema.ttl#](https://sparql.crssnky.xyz/imasrdf/URIs/imas-schema.ttl#)&amp;gt;
+PREFIX schema: &amp;lt;[http://schema.org/](http://schema.org/)&gt;
+PREFIX imas: &amp;lt;[https://sparql.crssnky.xyz/imasrdf/URIs/imas-schema.ttl#](https://sparql.crssnky.xyz/imasrdf/URIs/imas-schema.ttl#)&gt;
 SELECT (sample(?n) as ?name)
 WHERE {
   ?s schema:name|imas:nameKana ?on;
      schema:name ?n;
-  FILTER(CONTAINS(str(?on), &amp;#39;夕美&amp;#39;)).
+  FILTER(CONTAINS(str(?on), &apos;夕美&apos;)).
 }group by(?n)&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;p&gt;—&lt;/p&gt;
 &lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;{
-  &amp;quot;head&amp;quot;: {
-    &amp;quot;vars&amp;quot;: [ &amp;quot;name&amp;quot; ]
+  &quot;head&quot;: {
+    &quot;vars&quot;: [ &quot;name&quot; ]
   } ,
-  &amp;quot;results&amp;quot;: {
-    &amp;quot;bindings&amp;quot;: [
+  &quot;results&quot;: {
+    &quot;bindings&quot;: [
       {
-        &amp;quot;name&amp;quot;: { &amp;quot;type&amp;quot;: &amp;quot;literal&amp;quot; , &amp;quot;xml:lang&amp;quot;: &amp;quot;ja&amp;quot; , &amp;quot;value&amp;quot;: &amp;quot;相葉夕美&amp;quot; }
+        &quot;name&quot;: { &quot;type&quot;: &quot;literal&quot; , &quot;xml:lang&quot;: &quot;ja&quot; , &quot;value&quot;: &quot;相葉夕美&quot; }
       } ,
       {
-        &amp;quot;name&amp;quot;: { &amp;quot;type&amp;quot;: &amp;quot;literal&amp;quot; , &amp;quot;xml:lang&amp;quot;: &amp;quot;ja&amp;quot; , &amp;quot;value&amp;quot;: &amp;quot;夕美が思うお花みたいに綺麗なアイドル&amp;quot; }
+        &quot;name&quot;: { &quot;type&quot;: &quot;literal&quot; , &quot;xml:lang&quot;: &quot;ja&quot; , &quot;value&quot;: &quot;夕美が思うお花みたいに綺麗なアイドル&quot; }
       } ,
       {
-        &amp;quot;name&amp;quot;: { &amp;quot;type&amp;quot;: &amp;quot;literal&amp;quot; , &amp;quot;xml:lang&amp;quot;: &amp;quot;ja&amp;quot; , &amp;quot;value&amp;quot;: &amp;quot;夕美が一緒にお花のお世話をしたいアイドル&amp;quot; }
+        &quot;name&quot;: { &quot;type&quot;: &quot;literal&quot; , &quot;xml:lang&quot;: &quot;ja&quot; , &quot;value&quot;: &quot;夕美が一緒にお花のお世話をしたいアイドル&quot; }
       }
     ]
   }
@@ -2090,8 +2089,8 @@ before_install:
   - sudo apt-get install -y curl jq
 script:
   - TODAY=`date +%m-%d`
-  - SPURL=&amp;quot;https://sparql.crssnky.xyz/spql/imas/query?query=PREFIX%20schema%3A%20%3Chttp%3A%2F%2Fschema.org%2F%3ESELECT%20(sample(%3Fo)%20as%20%3Fdate)%20(sample(%3Fn)%20as%20%3Fname)%20WHERE%20%7B%20%3Fsub%20schema%3AbirthDate%20%3Fo%3B%20schema%3Aname%7Cschema%3AalternateName%20%3Fn%3BFILTER(regex(str(%3Fo)%2C%20%22$TODAY%22%20)).%7Dgroup%20by(%3Fn)order%20by(%3Fname)&amp;quot;
-  - IDOLS=`curl -s $SPURL | jq &amp;quot;.results.bindings | map(.name.value)&amp;quot; | jq -r &amp;#39;join(&amp;quot; &amp;quot;)&amp;#39;`
+  - SPURL=&quot;https://sparql.crssnky.xyz/spql/imas/query?query=PREFIX%20schema%3A%20%3Chttp%3A%2F%2Fschema.org%2F%3ESELECT%20(sample(%3Fo)%20as%20%3Fdate)%20(sample(%3Fn)%20as%20%3Fname)%20WHERE%20%7B%20%3Fsub%20schema%3AbirthDate%20%3Fo%3B%20schema%3Aname%7Cschema%3AalternateName%20%3Fn%3BFILTER(regex(str(%3Fo)%2C%20%22$TODAY%22%20)).%7Dgroup%20by(%3Fn)order%20by(%3Fname)&quot;
+  - IDOLS=`curl -s $SPURL | jq &quot;.results.bindings | map(.name.value)&quot; | jq -r &apos;join(&quot; &quot;)&apos;`
   - echo $IDOLS&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;p&gt;shell の部分は circleci orbs の部分となにも変わっていないですし、使っている機能もなにも変えていません。。。()&lt;/p&gt;
 &lt;p&gt;ci の設定をする練習くらいにはなったような気がしています。&lt;/p&gt;
@@ -2304,7 +2303,7 @@ jobs:
             apt-get install -y sudo
       - todays-imas-idol/slack-notification-todays-imas-idol:
           slack_username: CiecleCI
-          slack_icon: &amp;quot;:ciecleci:&amp;quot;
+          slack_icon: &quot;:ciecleci:&quot;
 
 workflows:
   main:
@@ -2539,7 +2538,7 @@ Web やアプリから SPARQL で検索・利用可能なエンドポイント&l
 &lt;p&gt;—&lt;/p&gt;
 &lt;h2&gt;ざっとコードをみてみる&lt;/h2&gt;
 &lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;version: 2.1
-description: &amp;gt;
+description: &gt;
   このOrbは本日誕生日のアイドルをCircleCI上に出力します。
   このOrbはim@sparqlをしようしています。 [https://sparql.crssnky.xyz/imas/](https://sparql.crssnky.xyz/imas/)
   このOrbのリポジトリは [https://github.com/YutaGoto/todays-imas-idol-orb](https://github.com/YutaGoto/todays-imas-idol-orb) です。
@@ -2578,8 +2577,8 @@ commands:
           name: 今日のアイドル
           command: |
             TODAY=`date +%m-%d`
-            SPURL=&amp;quot;[https://sparql.crssnky.xyz/spql/imas/query?query=PREFIX%20schema%3A%20%3Chttp%3A%2F%2Fschema.org%2F%3ESELECT%20(sample(%3Fo)%20as%20%3Fdate)%20(sample(%3Fn)%20as%20%3Fname)%20WHERE%20%7B%20%3Fsub%20schema%3AbirthDate%20%3Fo%3B%20schema%3Aname%7Cschema%3AalternateName%20%3Fn%3BFILTER(regex(str(%3Fo)%2C%20%22$TODAY%22%20)).%7Dgroup%20by(%3Fn)order%20by(%3Fname)](https://sparql.crssnky.xyz/spql/imas/query?query=PREFIX%20schema%3A%20%3Chttp%3A%2F%2Fschema.org%2F%3ESELECT%20(sample(%3Fo)%20as%20%3Fdate)%20(sample(%3Fn)%20as%20%3Fname)%20WHERE%20%7B%20%3Fsub%20schema%3AbirthDate%20%3Fo%3B%20schema%3Aname%7Cschema%3AalternateName%20%3Fn%3BFILTER(regex(str(%3Fo)%2C%20%22$TODAY%22%20)).%7Dgroup%20by(%3Fn)order%20by(%3Fname))&amp;quot;
-            curl -s $SPURL | jq &amp;quot;.results.bindings[].name.value&amp;quot;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+            SPURL=&quot;[https://sparql.crssnky.xyz/spql/imas/query?query=PREFIX%20schema%3A%20%3Chttp%3A%2F%2Fschema.org%2F%3ESELECT%20(sample(%3Fo)%20as%20%3Fdate)%20(sample(%3Fn)%20as%20%3Fname)%20WHERE%20%7B%20%3Fsub%20schema%3AbirthDate%20%3Fo%3B%20schema%3Aname%7Cschema%3AalternateName%20%3Fn%3BFILTER(regex(str(%3Fo)%2C%20%22$TODAY%22%20)).%7Dgroup%20by(%3Fn)order%20by(%3Fname)](https://sparql.crssnky.xyz/spql/imas/query?query=PREFIX%20schema%3A%20%3Chttp%3A%2F%2Fschema.org%2F%3ESELECT%20(sample(%3Fo)%20as%20%3Fdate)%20(sample(%3Fn)%20as%20%3Fname)%20WHERE%20%7B%20%3Fsub%20schema%3AbirthDate%20%3Fo%3B%20schema%3Aname%7Cschema%3AalternateName%20%3Fn%3BFILTER(regex(str(%3Fo)%2C%20%22$TODAY%22%20)).%7Dgroup%20by(%3Fn)order%20by(%3Fname))&quot;
+            curl -s $SPURL | jq &quot;.results.bindings[].name.value&quot;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;p&gt;こいつの commands でやっていることは curl と jq をインストールして、簡単な shell 芸人していい感じに出力をするだけです。&lt;/p&gt;
 &lt;p&gt;URL はすでに im@sparql の当サイトお誕生日お祝い編にパスとパラメータがあったので、あとはいい感じに置換すれば OK みたいな状態でした。&lt;/p&gt;
 &lt;p&gt;date コマンドの出力フォーマットを指定できることを初めて知りましたｗ。&lt;/p&gt;
@@ -2680,7 +2679,7 @@ commands:
     steps:
       - run:
           name: hello world
-          command: &amp;quot;echo &amp;#39;hello orbs, &amp;lt;&amp;lt; parameters.username &amp;gt;&amp;gt;！&amp;#39;&amp;quot;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+          command: &quot;echo &apos;hello orbs, &amp;lt;&amp;lt; parameters.username &gt;&gt;！&apos;&quot;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;p&gt;これでみなさんもこのコマンドを使うことができます！使い所がまったくないですが。。&lt;/p&gt;
 &lt;p&gt;次に Rails でよく使うのをつくろうかと思ったけど、Ruby ですばらしいものがすでにあるので、一旦放置。テストコマンドの共通化はこのブログを書いているときに思いつきました&lt;/p&gt;
 &lt;p&gt;Wish List に名言 BOT があったので、それをつくろうかなと考えてました。
@@ -3111,13 +3110,13 @@ BowerNotInstalled: Bower not installed, read instruction here - http://bower.io/
 &lt;p&gt;できてねぇし。&lt;/p&gt;
 &lt;p&gt;そういえば、そもそもこの Dockerfile で bower をインストールするようなコマンドなかったから RUN npm install -g bower を書いたら動くんじゃね？&lt;/p&gt;
 &lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;Step 5/9 : RUN npm install -g bower
- ---&amp;gt; Running in 373df8845c53
+ ---&gt; Running in 373df8845c53
 /bin/sh: 1: npm: not found
-ERROR: Service &amp;#39;web&amp;#39; failed to build: The command &amp;#39;/bin/sh -c npm install -g bower&amp;#39; returned a non-zero code: 127&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+ERROR: Service &apos;web&apos; failed to build: The command &apos;/bin/sh -c npm install -g bower&apos; returned a non-zero code: 127&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;p&gt;npm からか。&lt;/p&gt;
 &lt;p&gt;じゃあ、npm をインストールするために RUN apt-get install npm も書いてやるよ&lt;/p&gt;
 &lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;Step 4/11 : RUN apt-get install npm
- ---&amp;gt; Running in eca5880bfdbf
+ ---&gt; Running in eca5880bfdbf
 Reading package lists...
 Building dependency tree...
 Reading state information...
@@ -3127,7 +3126,7 @@ The following extra packages will be installed:
 Need to get 6462 kB of archives.
 After this operation, 20.0 MB of additional disk space will be used.
 Do you want to continue? [Y/n] Abort.
-ERROR: Service &amp;#39;web&amp;#39; failed to build: The command &amp;#39;/bin/sh -c apt-get install npm&amp;#39; returned a non-zero code: 1&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+ERROR: Service &apos;web&apos; failed to build: The command &apos;/bin/sh -c apt-get install npm&apos; returned a non-zero code: 1&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;p&gt;回答できずに終了はさすがにこまる。&lt;/p&gt;
 &lt;p&gt;とりあえず、オプションをつけるか。 RUN apt-get install -y nodejs npm で実行。ついでに nodejs も入れる。&lt;/p&gt;
 &lt;p&gt;っで無事に通過するという。よかったよかった。&lt;/p&gt;
@@ -3141,35 +3140,35 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 # Application definition
 
 INSTALLED_APPS = [
-    &amp;#39;blogs.apps.BlogsConfig&amp;#39;,
-    &amp;#39;django.contrib.admin&amp;#39;,
-    &amp;#39;django.contrib.auth&amp;#39;,
-    &amp;#39;django.contrib.contenttypes&amp;#39;,
-    &amp;#39;django.contrib.sessions&amp;#39;,
-    &amp;#39;django.contrib.messages&amp;#39;,
-    &amp;#39;django.contrib.staticfiles&amp;#39;,
-    &amp;#39;djangobower&amp;#39;,
+    &apos;blogs.apps.BlogsConfig&apos;,
+    &apos;django.contrib.admin&apos;,
+    &apos;django.contrib.auth&apos;,
+    &apos;django.contrib.contenttypes&apos;,
+    &apos;django.contrib.sessions&apos;,
+    &apos;django.contrib.messages&apos;,
+    &apos;django.contrib.staticfiles&apos;,
+    &apos;djangobower&apos;,
 ]
 
 
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/1.11/howto/static-files/
 
-STATIC_ROOT = os.path.join(BASE_DIR, &amp;#39;static&amp;#39;)
+STATIC_ROOT = os.path.join(BASE_DIR, &apos;static&apos;)
 
-STATIC_URL = &amp;#39;/static/&amp;#39;
+STATIC_URL = &apos;/static/&apos;
 
-BOWER_COMPONENTS_ROOT = os.path.join(BASE_DIR, &amp;#39;components&amp;#39;)
+BOWER_COMPONENTS_ROOT = os.path.join(BASE_DIR, &apos;components&apos;)
 
 STATICFILES_FINDERS = (
-    # &amp;#39;django.contrib.staticfiles.finders.FileSystemFinder&amp;#39;,
-    # &amp;#39;django.contrib.staticfiles.finders.AppDirectoriesFinder&amp;#39;,
-    &amp;#39;djangobower.finders.BowerFinder&amp;#39;,
+    # &apos;django.contrib.staticfiles.finders.FileSystemFinder&apos;,
+    # &apos;django.contrib.staticfiles.finders.AppDirectoriesFinder&apos;,
+    &apos;djangobower.finders.BowerFinder&apos;,
 )
 
 BOWER_INSTALLED_APPS = (
-    &amp;#39;jquery&amp;#39;,
-    &amp;#39;Rin&amp;#39;,
+    &apos;jquery&apos;,
+    &apos;Rin&apos;,
 )&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;p&gt;もろもろ DB 情報も書いてあるけど割愛して、こんな感じ。&lt;/p&gt;
 &lt;p&gt;よし、jQuery とか入れていくぞ！&lt;/p&gt;
@@ -3195,8 +3194,8 @@ bower jquery#*                download https://github.com/jquery/jquery-dist/arc
 bower Rin#*                    extract archive.tar.gz
 bower jquery#*                 extract archive.tar.gz
 bower Rin#*               invalid-meta for:/tmp/2727f3e897b68080dc4d7e018b3a3224/bower/236fe879dd62a6a3981a6ff632138c1b-6-70Yt9E/bower.json
-bower Rin#*               invalid-meta The &amp;quot;name&amp;quot; is recommended to be lowercase, can contain digits, dots, dashes
-bower Rin#*               invalid-meta The &amp;quot;main&amp;quot; field cannot contain minified files
+bower Rin#*               invalid-meta The &quot;name&quot; is recommended to be lowercase, can contain digits, dots, dashes
+bower Rin#*               invalid-meta The &quot;main&quot; field cannot contain minified files
 bower Rin#*                   resolved https://github.com/raryosu/Rin.git#3.3.7
 bower jquery#*                resolved https://github.com/jquery/jquery-dist.git#3.2.1
 bower Honoka#^3.3.7            install Honoka#3.3.7
@@ -3248,22 +3247,22 @@ jquery#3.2.1 bower_components/jquery&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;h2&gt;詰まった点&lt;/h2&gt;
 &lt;p&gt;といってもなかったというと嘘ですね。はい。Detail ビューのタグの呼び出しに苦戦してました。&lt;/p&gt;
 &lt;p&gt;Python コードでしくじってただけです。&lt;/p&gt;
-&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;&amp;lt;h1&amp;gt;{{ post.title }}&amp;lt;/h1&amp;gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;&amp;lt;h1&gt;{{ post.title }}&amp;lt;/h1&gt;
 
-&amp;lt;div&amp;gt;
-    &amp;lt;h2&amp;gt;Tags&amp;lt;/h2&amp;gt;
-    &amp;lt;ul&amp;gt;
-        &amp;lt;!-- all() じゃなかった --&amp;gt;
+&amp;lt;div&gt;
+    &amp;lt;h2&gt;Tags&amp;lt;/h2&gt;
+    &amp;lt;ul&gt;
+        &amp;lt;!-- all() じゃなかった --&gt;
         {% for tag in post.tags.all %}
-            &amp;lt;li&amp;gt;{{ tag.name }}&amp;lt;/li&amp;gt;
+            &amp;lt;li&gt;{{ tag.name }}&amp;lt;/li&gt;
         {% endfor %}
-    &amp;lt;/ul&amp;gt;
-&amp;lt;/div&amp;gt;
+    &amp;lt;/ul&gt;
+&amp;lt;/div&gt;
 
-&amp;lt;div&amp;gt;
-    &amp;lt;h2&amp;gt;Body&amp;lt;/h2&amp;gt;
+&amp;lt;div&gt;
+    &amp;lt;h2&gt;Body&amp;lt;/h2&gt;
     {{ post.body }}
-&amp;lt;/div&amp;gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&amp;lt;/div&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;p&gt;post から tags を呼び出すのはすでに models.py で定義しているので中間テーブルから参照する必要はないですね。&lt;/p&gt;
 &lt;p&gt;今日はここまで。&lt;/p&gt;
 &lt;h2&gt;References&lt;/h2&gt;
@@ -3305,7 +3304,7 @@ class Post(models.Model):
     body = models.TextField(max_length = 1000)
     # モデルで through を使うときはこんな感じに書くようです。
     # PostsTagを通じてTagと紐づかせます。
-    tags = models.ManyToManyField(Tag, through=&amp;#39;PostsTag&amp;#39;)
+    tags = models.ManyToManyField(Tag, through=&apos;PostsTag&apos;)
 
     def __str__(self):
         return self.title
@@ -3326,10 +3325,10 @@ class PostsTagInline(admin.TabularInline):
 class PostAdmin(admin.ModelAdmin):
     # Postと同時にTagも編集できるようにInlineを設定する
     inlines = [PostsTagInline]
-    list_display = (&amp;#39;title&amp;#39;, &amp;#39;_tags&amp;#39;) # ListViewでタグリストも表示できるようにする
+    list_display = (&apos;title&apos;, &apos;_tags&apos;) # ListViewでタグリストも表示できるようにする
 
     def _tags(self, post):
-        return &amp;#39;,&amp;#39;.join([tag.name for tag in post.tags.all()])
+        return &apos;,&apos;.join([tag.name for tag in post.tags.all()])
 
 class TagAdmin(admin.ModelAdmin):
     inlines = [PostsTagInline]
@@ -3390,16 +3389,16 @@ admin.site.register(Tag, TagAdmin)&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 from redis import Redis
 
 app = Flask(__name__)
-redis = Redis(host=&amp;#39;redis&amp;#39;, port=6379)
+redis = Redis(host=&apos;redis&apos;, port=6379)
 
-@app.route(&amp;#39;/&amp;#39;)
+@app.route(&apos;/&apos;)
 
 def hello():
-	count = redis.incr(&amp;#39;hits&amp;#39;)
-	return &amp;#39;Hello from Docker! I have been seen {} times.\n&amp;#39;.format(count)
+	count = redis.incr(&apos;hits&apos;)
+	return &apos;Hello from Docker! I have been seen {} times.\n&apos;.format(count)
 
-if __name__ == &amp;#39;__main__&amp;#39;:
-	app.run(host=&amp;#39;0.0.0.0&amp;#39;, debug=True)&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+if __name__ == &apos;__main__&apos;:
+	app.run(host=&apos;0.0.0.0&apos;, debug=True)&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;h2&gt;requirements.txt&lt;/h2&gt;
 &lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;flask
 redis&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
@@ -3408,21 +3407,21 @@ redis&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 ADD . /code
 WORKDIR /code
 RUN pip install -r requirements.txt
-CMD [&amp;quot;python&amp;quot;, &amp;quot;app.py&amp;quot;]&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+CMD [&quot;python&quot;, &quot;app.py&quot;]&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;h2&gt;docker-compose.yml&lt;/h2&gt;
-&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;version: &amp;#39;2&amp;#39;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;version: &apos;2&apos;
 services:
   web:
     build: .
     ports:
-     - &amp;quot;5000:5000&amp;quot;
+     - &quot;5000:5000&quot;
     volumes:
      - .:/code
   redis:
-    image: &amp;quot;redis:alpine&amp;quot;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+    image: &quot;redis:alpine&quot;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;h2&gt;サーバーの起動&lt;/h2&gt;
 &lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;$ docker-compose up
-Creating network &amp;quot;pythondocker_default&amp;quot; with the default driver
+Creating network &quot;pythondocker_default&quot; with the default driver
 Building web
 Step 1/5 : FROM python:3.6.1-alpine
 3.6.1-alpine: Pulling from library/python
@@ -3436,7 +3435,7 @@ redis_1  | 1:C 21 May 08:05:21.279 # Warning: no config file specified, using th
 ...
 redis_1  | 1:M 21 May 08:05:21.283 # WARNING: The TCP backlog setting of 511 cannot be enforced because /proc/sys/net/core/somaxconn is set to the lower value of 128.
 redis_1  | 1:M 21 May 08:05:21.283 # Server started, Redis version 3.2.9
-redis_1  | 1:M 21 May 08:05:21.283 # WARNING you have Transparent Huge Pages (THP) support enabled in your kernel. This will create latency and memory usage issues with Redis. To fix this issue run the command &amp;#39;echo never &amp;gt; /sys/kernel/mm/transparent_hugepage/enabled&amp;#39; as root, and add it to your /etc/rc.local in order to retain the setting after a reboot. Redis must be restarted after THP is disabled.
+redis_1  | 1:M 21 May 08:05:21.283 # WARNING you have Transparent Huge Pages (THP) support enabled in your kernel. This will create latency and memory usage issues with Redis. To fix this issue run the command &apos;echo never &gt; /sys/kernel/mm/transparent_hugepage/enabled&apos; as root, and add it to your /etc/rc.local in order to retain the setting after a reboot. Redis must be restarted after THP is disabled.
 redis_1  | 1:M 21 May 08:05:21.283 * The server is now ready to accept connections on port 6379
 web_1    |  * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
 web_1    |  * Restarting with stat
@@ -3472,10 +3471,10 @@ RUN pip install -r requirements.txt
 ADD . /code/&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;h2&gt;requirements.txt&lt;/h2&gt;
 &lt;p&gt;Dockerfile に RUN pip install -r requirements.txt とあるので、ここに Django のバージョンなど、必要な情報を書きます。&lt;/p&gt;
-&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;Django&amp;gt;=1.8,&amp;lt;2.0
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;Django&gt;=1.8,&amp;lt;2.0
 psycopg2&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;h2&gt;docker-compose.yml&lt;/h2&gt;
-&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;version: &amp;#39;2&amp;#39;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;version: &apos;2&apos;
 services:
   db:
     image: postgres
@@ -3485,13 +3484,13 @@ services:
     volumes:
       - .:/code
     ports:
-      - &amp;quot;8000:8000&amp;quot;
+      - &quot;8000:8000&quot;
     depends_on:
       - db&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;h2&gt;プロジェクトの新規作成&lt;/h2&gt;
 &lt;p&gt;一通り下準備ができたので、プロジェクトを作ります。今回のプロジェクト名は django_docker とします。&lt;/p&gt;
 &lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;$ docker-compose run web django-admin.py startproject django_docker .
-Creating network &amp;quot;djangodocker_default&amp;quot; with the default driver
+Creating network &quot;djangodocker_default&quot; with the default driver
 Pulling db (postgres:latest)...
 latest: Pulling from library/postgres
 10a267c67f42: Pull complete
@@ -3504,12 +3503,12 @@ Dockerfile django_docker docker-compose.yml manage.py requirements.txt&lt;/code&
 &lt;p&gt;Django のデフォルトでは SQlite が入るのですが、今回は PostgreSQL をしようします。&lt;/p&gt;
 &lt;p&gt;django_docker/settings.py の DATABASES の部分を以下のように編集します。&lt;/p&gt;
 &lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;DATABASES = {
-    &amp;#39;default&amp;#39;: {
-         &amp;#39;ENGINE&amp;#39;: &amp;#39;django.db.backends.postgresql&amp;#39;,
-         &amp;#39;NAME&amp;#39;: &amp;#39;postgres&amp;#39;,
-         &amp;#39;USER&amp;#39;: &amp;#39;postgres&amp;#39;,
-         &amp;#39;HOST&amp;#39;: &amp;#39;db&amp;#39;,
-         &amp;#39;PORT&amp;#39;: 5432,
+    &apos;default&apos;: {
+         &apos;ENGINE&apos;: &apos;django.db.backends.postgresql&apos;,
+         &apos;NAME&apos;: &apos;postgres&apos;,
+         &apos;USER&apos;: &apos;postgres&apos;,
+         &apos;HOST&apos;: &apos;db&apos;,
+         &apos;PORT&apos;: 5432,
     }
 }&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;h2&gt;Django の起動&lt;/h2&gt;
@@ -3518,7 +3517,7 @@ Dockerfile django_docker docker-compose.yml manage.py requirements.txt&lt;/code&
 djangodocker_db_1 is up-to-date
 Creating djangodocker_web_1
 Attaching to djangodocker_db_1, djangodocker_web_1
-db_1   | The files belonging to this database system will be owned by user &amp;quot;postgres&amp;quot;.
+db_1   | The files belonging to this database system will be owned by user &quot;postgres&quot;.
 db_1   | This user must also own the server process.
 ...
 web_1  | Performing system checks...
@@ -3526,9 +3525,9 @@ web_1  |
 web_1  | System check identified no issues (0 silenced).
 web_1  |
 web_1  | You have 13 unapplied migration(s). Your project may not work properly until you apply the migrations for app(s): admin, auth, contenttypes, sessions.
-web_1  | Run &amp;#39;python manage.py migrate&amp;#39; to apply them.
+web_1  | Run &apos;python manage.py migrate&apos; to apply them.
 web_1  | May 19, 2017 - 08:09:36
-web_1  | Django version 1.11.1, using settings &amp;#39;composeexample.settings&amp;#39;
+web_1  | Django version 1.11.1, using settings &apos;composeexample.settings&apos;
 web_1  | Starting development server at http://0.0.0.0:8000/
 web_1  | Quit the server with CONTROL-C.&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;p&gt;となれば起動成功です。 &lt;a href=&quot;http://localhost:8000&quot;&gt;http://localhost:8000&lt;/a&gt; にアクセスしましょう。&lt;/p&gt;
@@ -3560,21 +3559,21 @@ COPY src/ /var/www/html/&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
   build:
     .
   ports:
-    - &amp;quot;9000:80&amp;quot; volumes: - ./src/:/var/www/html:rw&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+    - &quot;9000:80&quot; volumes: - ./src/:/var/www/html:rw&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;h2&gt;src/index.php&lt;/h2&gt;
-&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;&amp;lt;html&amp;gt;
-  &amp;lt;head&amp;gt;
-    &amp;lt;title&amp;gt;index.php&amp;lt;/title&amp;gt;
-  &amp;lt;/head&amp;gt;
-  &amp;lt;body&amp;gt;
-    &amp;lt;h1&amp;gt;Hello World!&amp;lt;/h1&amp;gt;
-    &amp;lt;p&amp;gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;&amp;lt;html&gt;
+  &amp;lt;head&gt;
+    &amp;lt;title&gt;index.php&amp;lt;/title&gt;
+  &amp;lt;/head&gt;
+  &amp;lt;body&gt;
+    &amp;lt;h1&gt;Hello World!&amp;lt;/h1&gt;
+    &amp;lt;p&gt;
       &amp;lt;?php
-        echo &amp;quot;I Am Running PHP &amp;quot; . phpversion() . &amp;quot; With Apache And Docker&amp;quot;;
-      ?&amp;gt;
-    &amp;lt;/p&amp;gt;
-  &amp;lt;/body&amp;gt;
-&amp;lt;/html&amp;gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+        echo &quot;I Am Running PHP &quot; . phpversion() . &quot; With Apache And Docker&quot;;
+      ?&gt;
+    &amp;lt;/p&gt;
+  &amp;lt;/body&gt;
+&amp;lt;/html&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;h2&gt;動かしてみる&lt;/h2&gt;
 &lt;p&gt;もろもろ準備が整ったので、実際にうごかしてみます。&lt;/p&gt;
 &lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;$ docker-compose up
@@ -3584,11 +3583,11 @@ Step 1/2 : FROM php:7-apache
 ...
 Creating phpdocker_web_1
 Attaching to phpdocker_web_1
-web_1  | AH00558: apache2: Could not reliably determine the server&amp;#39;s fully qualified domain name, using 172.17.0.2. Set the &amp;#39;ServerName&amp;#39; directive globally to suppress this message
-web_1  | AH00558: apache2: Could not reliably determine the server&amp;#39;s fully qualified domain name, using 172.17.0.2. Set the &amp;#39;ServerName&amp;#39; directive globally to suppress this message
+web_1  | AH00558: apache2: Could not reliably determine the server&apos;s fully qualified domain name, using 172.17.0.2. Set the &apos;ServerName&apos; directive globally to suppress this message
+web_1  | AH00558: apache2: Could not reliably determine the server&apos;s fully qualified domain name, using 172.17.0.2. Set the &apos;ServerName&apos; directive globally to suppress this message
 web_1  | [Tue May 16 07:42:26.292180 2017] [mpm_prefork:notice] [pid 1] AH00163: Apache/2.4.10 (Debian) PHP/7.1.5 configured -- resuming normal operations
-web_1  | [Tue May 16 07:42:26.292308 2017] [core:notice] [pid 1] AH00094: Command line: &amp;#39;apache2 -D FOREGROUND&amp;#39;
-web_1  | 172.17.0.1 - - [16/May/2017:07:43:02 +0000] &amp;quot;GET / HTTP/1.1&amp;quot; 200 400 &amp;quot;-&amp;quot; &amp;quot;Mozilla/5.0 (Windows NT 10.0; WOW64; rv:53.0) Gecko/20100101 Firefox/53.0&amp;quot;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+web_1  | [Tue May 16 07:42:26.292308 2017] [core:notice] [pid 1] AH00094: Command line: &apos;apache2 -D FOREGROUND&apos;
+web_1  | 172.17.0.1 - - [16/May/2017:07:43:02 +0000] &quot;GET / HTTP/1.1&quot; 200 400 &quot;-&quot; &quot;Mozilla/5.0 (Windows NT 10.0; WOW64; rv:53.0) Gecko/20100101 Firefox/53.0&quot;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;p&gt;こんな感じにログが吐き出されれば動いているかと思います。&lt;/p&gt;
 &lt;p&gt;っで、実際に &lt;a href=&quot;http://localhost:9000&quot;&gt;http://localhost:9000&lt;/a&gt; にアクセスしてみると、&lt;/p&gt;
 &lt;p&gt;&lt;img src=&quot;https://cdn-images-1.medium.com/max/3600/0*2KNorsm5cDyq345w.PNG&quot;&gt;&lt;/p&gt;
@@ -3620,23 +3619,23 @@ ADD . /myapp&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;h2&gt;Gemfile&lt;/h2&gt;
 &lt;p&gt;Gemfile を用意します。その中で Rails のバージョンも指定しますよ。&lt;/p&gt;
 &lt;p&gt;コマンドか何かで Gemfile ファイルを作って、以下を記述します。&lt;/p&gt;
-&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;source &amp;#39;https://rubygems.org&amp;#39;
-gem &amp;#39;rails&amp;#39;, &amp;#39;5.1.0&amp;#39;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;source &apos;https://rubygems.org&apos;
+gem &apos;rails&apos;, &apos;5.1.0&apos;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;p&gt;Rails 5.1.0 を使おうと思います。ついてに Gemfile.lock ファイルもコマンドか何かで作っておきます。&lt;/p&gt;
 &lt;h2&gt;docker-compose.yml&lt;/h2&gt;
 &lt;p&gt;docker-compose.yml を用意します。 もろもろ設定やコマンドを記述します。&lt;/p&gt;
 &lt;p&gt;コマンドか何かで docker-compose.yml ファイルを作って、以下を記述します。&lt;/p&gt;
-&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;version: &amp;#39;2&amp;#39;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;version: &apos;2&apos;
 services:
   db:
     image: postgres
   web:
     build: .
-    command: bundle exec rails s -p 3000 -b &amp;#39;0.0.0.0&amp;#39;
+    command: bundle exec rails s -p 3000 -b &apos;0.0.0.0&apos;
     volumes:
       - .:/myapp
     ports:
-      - &amp;quot;3000:3000&amp;quot;
+      - &quot;3000:3000&quot;
     depends_on:
       - db&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;h2&gt;rails new&lt;/h2&gt;
@@ -3652,7 +3651,7 @@ services:
   encoding: utf8
   charset: utf8
   timeout: 5000
-  pool: &amp;lt;%= ENV.fetch(&amp;quot;RAILS_MAX_THREADS&amp;quot;) { 5 } %&amp;gt;
+  pool: &amp;lt;%= ENV.fetch(&quot;RAILS_MAX_THREADS&quot;) { 5 } %&gt;
 
 development:
   &amp;lt;&amp;lt;: *default
@@ -3670,9 +3669,9 @@ development:
 myapp_db_1 is up-to-date
 myapp_web_1 is up-to-date
 Attaching to myapp_db_1, myapp_web_1
-web_1  | =&amp;gt; Booting Puma
-web_1  | =&amp;gt; Rails 5.1.0 application starting in development on [http://0.0.0.0:3000](http://0.0.0.0:3000)
-web_1  | =&amp;gt; Run `rails server -h` for more startup options&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+web_1  | =&gt; Booting Puma
+web_1  | =&gt; Rails 5.1.0 application starting in development on [http://0.0.0.0:3000](http://0.0.0.0:3000)
+web_1  | =&gt; Run `rails server -h` for more startup options&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;p&gt;こんな感じで動いていそうであれば成功です。&lt;/p&gt;
 &lt;h2&gt;DB の作成&lt;/h2&gt;
 &lt;p&gt;今の状態ではテーブルは何もないけれども、作っておきます。&lt;/p&gt;
@@ -3704,13 +3703,13 @@ web_1  | =&amp;gt; Run `rails server -h` for more startup options&lt;/code&gt;&l
 &lt;p&gt;公式の&lt;a href=&quot;https://docs.docker.com/docker-for-windows/&quot;&gt;Get started with Docker for Windows&lt;/a&gt;を参考にダウンロードしてくる。 bash でチャレンジしてみようとも思ったけれどもなんかうまくいかずに終わってしまったので、パッケージングされているものを使いました。&lt;/p&gt;
 &lt;p&gt;ダウンロードしてぽちぽち設定すれば終わりますね。&lt;/p&gt;
 &lt;p&gt;コマンドプロンプトで&lt;/p&gt;
-&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;&amp;gt; docker --version
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;&gt; docker --version
 Docker version 17.03.0-ce, build 60ccb22
 
-&amp;gt; docker-compose --version
+&gt; docker-compose --version
 docker-compose version 1.11.2, build dfed245
 
-PS C:\Users\username&amp;gt; docker --version Docker version 17.03.0-ce, build 60ccb22 PS C:\Users\username&amp;gt; docker-compose --version docker-compose version 1.11.2, build dfed245&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+PS C:\Users\username&gt; docker --version Docker version 17.03.0-ce, build 60ccb22 PS C:\Users\username&gt; docker-compose --version docker-compose version 1.11.2, build dfed245&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;p&gt;それぞれ実行できれば OK！&lt;/p&gt;
 &lt;h2&gt;Mastodon を clone してくる&lt;/h2&gt;
 &lt;p&gt;まぁ、&lt;a href=&quot;https://github.com/tootsuite/mastodon&quot;&gt;Github&lt;/a&gt;から.zip をダウンロードするなりで大丈夫です。カンタンカンタン&lt;/p&gt;
@@ -3725,8 +3724,8 @@ LOCAL_HTTPS=false&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;p&gt;まぁ、localhost だけで確認するだけなので、https アクセスはいらないですよね。&lt;/p&gt;
 &lt;h2&gt;一度 Build する&lt;/h2&gt;
 &lt;p&gt;コマンドプロンプトで&lt;/p&gt;
-&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;&amp;gt; docker-compose build
-reating network &amp;quot;mastodon_default&amp;quot; with the default driver
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;&gt; docker-compose build
+reating network &quot;mastodon_default&quot; with the default driver
 Pulling redis (redis:alpine)...
 alpine: Pulling from library/redis
 627beaf3eaaf: Pull complete
@@ -3740,31 +3739,31 @@ adf925aa1ad1: Pull complete
 &lt;h2&gt;鍵を生成する&lt;/h2&gt;
 &lt;p&gt;.env.production の PAPERCLIP&lt;em&gt;SECRET, SECRET&lt;/em&gt;KEY&lt;em&gt;BASE, OTP&lt;/em&gt;SECRET が空欄だったはずなので、そのキーを生成します。&lt;/p&gt;
 &lt;p&gt;コマンドプロンプトで&lt;/p&gt;
-&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;&amp;gt; docker-compose run --rm web rake secret
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;&gt; docker-compose run --rm web rake secret
 key-string&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;p&gt;を 3 度実行する。それぞれの出力結果を PAPERCLIP&lt;em&gt;SECRET, SECRET&lt;/em&gt;KEY&lt;em&gt;BASE, OTP&lt;/em&gt;SECRET の右辺に張り付ける。&lt;/p&gt;
 &lt;h2&gt;データベースを作成する&lt;/h2&gt;
 &lt;p&gt;データベースを作成する。&lt;/p&gt;
-&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;&amp;gt; docker-compose run --rm web rails db:migrate&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;&gt; docker-compose run --rm web rails db:migrate&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;h2&gt;アセットファイルに作成&lt;/h2&gt;
 &lt;p&gt;CSS や画像を作成します。&lt;/p&gt;
-&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;&amp;gt; docker-compose run --rm web rails assets:precompile&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;&gt; docker-compose run --rm web rails assets:precompile&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;p&gt;これも時間がかかるので、ゲームしながら待つ。&lt;/p&gt;
 &lt;h2&gt;実際に起動する&lt;/h2&gt;
-&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;&amp;gt; docker-compose up
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;&gt; docker-compose up
 mastodon_redis_1 is up-to-date
 mastodon_db_1 is up-to-date
 Starting mastodon_sidekiq_1
 Starting mastodon_streaming_1
 Starting mastodon_web_1
 Attaching to mastodon_redis_1, mastodon_db_1, mastodon_sidekiq_1, mastodon_web_1, mastodon_streaming_1
-db_1         | The files belonging to this database system will be owned by user &amp;quot;postgres&amp;quot;.
+db_1         | The files belonging to this database system will be owned by user &quot;postgres&quot;.
 db_1         | This user must also own the server process.&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;p&gt;しばらくして&lt;/p&gt;
-&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;web_1        | =&amp;gt; Booting Puma
-web_1        | =&amp;gt; Rails 5.0.2 application starting in production on [http://0.0.0.0:3000](http://0.0.0.0:3000)
-web_1        | =&amp;gt; Run `rails server -h` for more startup options
-sidekiq_1    | 2017-05-10T10:24:25.207Z 1 TID-grch3btb4 INFO: Booting Sidekiq 5.0.0 with redis options {:url=&amp;gt;&amp;quot;redis://redis:6379/0&amp;quot;}&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;web_1        | =&gt; Booting Puma
+web_1        | =&gt; Rails 5.0.2 application starting in production on [http://0.0.0.0:3000](http://0.0.0.0:3000)
+web_1        | =&gt; Run `rails server -h` for more startup options
+sidekiq_1    | 2017-05-10T10:24:25.207Z 1 TID-grch3btb4 INFO: Booting Sidekiq 5.0.0 with redis options {:url=&gt;&quot;redis://redis:6379/0&quot;}&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;p&gt;が確認出来たら、 &lt;a href=&quot;http://localhost:3000/&quot;&gt;http://localhost:3000&lt;/a&gt; にアクセスして確認する&lt;/p&gt;
 &lt;p&gt;&lt;img src=&quot;https://cdn-images-1.medium.com/max/4000/0*-mByBUVzw5XdHNtC.PNG&quot;&gt;&lt;/p&gt;
 &lt;p&gt;なんかおかしいんですけど、、、、CSS と画像がきちんと当たってないんですけど。。。&lt;/p&gt;
@@ -3817,12 +3816,12 @@ Experimental: false
 
 If you would like to use Docker as a non-root user, you should now consider
 
-adding your user to the &amp;quot;docker&amp;quot; group with something like:
+adding your user to the &quot;docker&quot; group with something like:
 sudo usermod -aG docker pi
 
 Remember that you will have to log out and back in for this to take effect!
 
-WARNING: Adding a user to the &amp;quot;docker&amp;quot; group will grant the ability to run
+WARNING: Adding a user to the &quot;docker&quot; group will grant the ability to run
 
 containers which can be used to obtain root privileges on the
 docker host.
@@ -3832,7 +3831,7 @@ $ sudo systemctl start docker
 $ sudo usermod -aG docker pi&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;p&gt;なんやかんやでうまくやってくれました。&lt;/p&gt;
 &lt;p&gt;次に、 Docker-Compose をインストール！&lt;/p&gt;
-&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;$ curl -L https://github.com/docker/compose/releases/download/1.7.1/run.sh &amp;gt; docker-compose
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;$ curl -L https://github.com/docker/compose/releases/download/1.7.1/run.sh &gt; docker-compose
 % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
 Dload  Upload   Total   Spent    Left  Speed
 100   582    0   582    0     0    867      0 --:--:-- --:--:-- --:--:--   867
@@ -3841,17 +3840,17 @@ $ sudo mv docker-compose /usr/local/bin/docker-compose
 $ sudo chmod +x /usr/local/bin/docker-compose
 $ sudo vi /usr/local/bin/docker-compose
 ===== IMAGE行を以下に書き換え =====
-IMAGE=&amp;quot;t0rx/rpi-docker-compose:latest&amp;quot;
+IMAGE=&quot;t0rx/rpi-docker-compose:latest&quot;
 ===== IMAGE行を以上に書き換え =====
 $ docker-compose --version
-Unable to find image &amp;#39;t0rx/rpi-docker-compose:latest&amp;#39; locally
+Unable to find image &apos;t0rx/rpi-docker-compose:latest&apos; locally
 latest: Pulling from t0rx/rpi-docker-compose
 ...&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;h2&gt;RaspberryPi に Mastodon を入れる！！&lt;/h2&gt;
 &lt;p&gt;clone してきます&lt;/p&gt;
 &lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;$ cd /var/lib/
 $ sudo git clone [https://github.com/gilir/rpi-mastdon.git](https://github.com/gilir/rpi-mastdon.git)
-Cloning into &amp;#39;rpi-mastdon&amp;#39;...
+Cloning into &apos;rpi-mastdon&apos;...
 ...
 $ cd rpi-mastodon&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;p&gt;初期設定します。&lt;/p&gt;
@@ -3929,15 +3928,15 @@ $ sudo docker-compose up -d&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 Migrating to CreateAccounts (20160220174730)
 == 20160220174730 CreateAccounts: migrating ===================================
 -- create_table(:accounts, {})
--&amp;gt; 0.4249s
--- add_index(:accounts, [:username, :domain], {:unique=&amp;gt;true})
--&amp;gt; 0.1557s
+-&gt; 0.4249s
+-- add_index(:accounts, [:username, :domain], {:unique=&gt;true})
+-&gt; 0.1557s
 == 20160220174730 CreateAccounts: migrated (0.6253s) ==========================
 ...
 Migrating to AddLanguageToStatuses (20170414132105)
 == 20170414132105 AddLanguageToStatuses: migrating ============================
--- add_column(:statuses, :language, :string, {:null=&amp;gt;false, :default=&amp;gt;&amp;quot;en&amp;quot;})
--&amp;gt; 0.6564s
+-- add_column(:statuses, :language, :string, {:null=&gt;false, :default=&gt;&quot;en&quot;})
+-&gt; 0.6564s
 == 20170414132105 AddLanguageToStatuses: migrated (0.6777s) ===================&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;p&gt;なかなか時間がかかったけども、なんとか実行終わり。&lt;/p&gt;
 &lt;h2&gt;Precompile する&lt;/h2&gt;
@@ -4128,72 +4127,72 @@ bot.reply(message, selectHelloTalk);
 &lt;p&gt;おみくじできます。おみくじの回答とはまったく関係のないものも含まれていますが、そこはご愛嬌です。&lt;/p&gt;
 &lt;p&gt;&lt;img src=&quot;https://cdn-images-1.medium.com/max/2000/0*AYAK6AZ3G3OQGi7q.PNG&quot;&gt;&lt;/p&gt;
 &lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;controller.hears([‘じゃんけん’], ‘direct_message,direct_mention,mention’, function (bot, message) {function sayAiko(convo) {
-    convo.say(&amp;#39;あいこですね。また遊びましょう！:wink:&amp;#39;);
+    convo.say(&apos;あいこですね。また遊びましょう！:wink:&apos;);
 }
 
 function sayWin(convo) {
-    convo.say(&amp;#39;私の勝ちです！じゃんけん強いのがばれましたね:muscle:。また遊びましょう！:blush:&amp;#39;);
+    convo.say(&apos;私の勝ちです！じゃんけん強いのがばれましたね:muscle:。また遊びましょう！:blush:&apos;);
 }
 
 function sayLose(convo) {
-    convo.say(&amp;#39;あなたの勝ちです！:congratulations:あなたはお強いのですね:sushi:。また遊びましょう！:hugging_face:&amp;#39;);
+    convo.say(&apos;あなたの勝ちです！:congratulations:あなたはお強いのですね:sushi:。また遊びましょう！:hugging_face:&apos;);
 }
 
-bot.reply(message, &amp;#39;じゃんけんですか？いいですね！:fist::v::hand:&amp;#39;);
+bot.reply(message, &apos;じゃんけんですか？いいですね！:fist::v::hand:&apos;);
 bot.startConversation(message, function (err, convo) {
-    var jankenRPS = [&amp;quot;r&amp;quot;, &amp;quot;s&amp;quot;, &amp;quot;p&amp;quot;];
+    var jankenRPS = [&quot;r&quot;, &quot;s&quot;, &quot;p&quot;];
     var selectJanken = jankenRPS[Math.floor(Math.random() * jankenRPS.length)];
-    convo.ask(&amp;#39;じゃんけーん... `グー` `チョキ` `パー`&amp;#39;, [
+    convo.ask(&apos;じゃんけーん... `グー` `チョキ` `パー`&apos;, [
         {
-            pattern: &amp;#39;グー&amp;#39;,
+            pattern: &apos;グー&apos;,
             callback: function (response, convo) {
-                if (selectJanken === &amp;quot;r&amp;quot;) {
-                    convo.say(&amp;quot;グー！&amp;quot;);
+                if (selectJanken === &quot;r&quot;) {
+                    convo.say(&quot;グー！&quot;);
                     sayAiko(convo);
-                } else if (selectJanken === &amp;quot;s&amp;quot;) {
-                    convo.say(&amp;quot;チョキ！&amp;quot;);
+                } else if (selectJanken === &quot;s&quot;) {
+                    convo.say(&quot;チョキ！&quot;);
                     sayLose(convo);
-                } else if (selectJanken === &amp;quot;p&amp;quot;) {
-                    convo.say(&amp;quot;パー！&amp;quot;);
+                } else if (selectJanken === &quot;p&quot;) {
+                    convo.say(&quot;パー！&quot;);
                     sayWin(convo);
                 } else {
-                    convo.say(&amp;quot;すみません。じゃんけんができませんでした。また遊びましょう！:+1:&amp;quot;);
+                    convo.say(&quot;すみません。じゃんけんができませんでした。また遊びましょう！:+1:&quot;);
                 }
                 convo.next();
             }
         },
         {
-            pattern: &amp;#39;チョキ&amp;#39;,
+            pattern: &apos;チョキ&apos;,
             callback: function (response, convo) {
-                if (selectJanken === &amp;quot;r&amp;quot;) {
-                    convo.say(&amp;quot;グー！&amp;quot;);
+                if (selectJanken === &quot;r&quot;) {
+                    convo.say(&quot;グー！&quot;);
                     sayWin(convo);
-                } else if (selectJanken === &amp;quot;s&amp;quot;) {
-                    convo.say(&amp;quot;チョキ！&amp;quot;);
+                } else if (selectJanken === &quot;s&quot;) {
+                    convo.say(&quot;チョキ！&quot;);
                     sayAiko(convo);
-                } else if (selectJanken === &amp;quot;p&amp;quot;) {
-                    convo.say(&amp;quot;パー！&amp;quot;);
+                } else if (selectJanken === &quot;p&quot;) {
+                    convo.say(&quot;パー！&quot;);
                     sayLose(convo);
                 } else {
-                    convo.say(&amp;quot;すみません。じゃんけんができませんでした。また遊びましょう！:+1:&amp;quot;);
+                    convo.say(&quot;すみません。じゃんけんができませんでした。また遊びましょう！:+1:&quot;);
                 }
                 convo.next();
             }
         },
         {
-            pattern: &amp;#39;パー&amp;#39;,
+            pattern: &apos;パー&apos;,
             callback: function (response, convo) {
-                if (selectJanken === &amp;quot;r&amp;quot;) {
-                    convo.say(&amp;quot;グー！&amp;quot;);
+                if (selectJanken === &quot;r&quot;) {
+                    convo.say(&quot;グー！&quot;);
                     sayLose(convo);
-                } else if (selectJanken === &amp;quot;s&amp;quot;) {
-                    convo.say(&amp;quot;チョキ！&amp;quot;);
+                } else if (selectJanken === &quot;s&quot;) {
+                    convo.say(&quot;チョキ！&quot;);
                     sayWin(convo);
-                } else if (selectJanken === &amp;quot;p&amp;quot;) {
-                    convo.say(&amp;quot;パー！&amp;quot;);
+                } else if (selectJanken === &quot;p&quot;) {
+                    convo.say(&quot;パー！&quot;);
                     sayAiko(convo);
                 } else {
-                    convo.say(&amp;quot;すみません。じゃんけんができませんでした。また遊びましょう！:+1:&amp;quot;);
+                    convo.say(&quot;すみません。じゃんけんができませんでした。また遊びましょう！:+1:&quot;);
                 }
                 convo.next();
             }
@@ -4201,7 +4200,7 @@ bot.startConversation(message, function (err, convo) {
         {
             default: true,
             callback: function (response, convo) {
-                convo.say(&amp;#39;よくわかりませんでした。また遊びましょう&amp;#39;);
+                convo.say(&apos;よくわかりませんでした。また遊びましょう&apos;);
                 convo.next();
             }
         }
@@ -4215,18 +4214,18 @@ bot.startConversation(message, function (err, convo) {
 &lt;p&gt;API に問い合わせて反応させるもの&lt;/p&gt;
 &lt;p&gt;&lt;a href=&quot;http://smsurf.app-rox.com/api/&quot;&gt;API List 100+&lt;/a&gt;にあったものを試していっています。&lt;/p&gt;
 &lt;p&gt;&lt;img src=&quot;https://cdn-images-1.medium.com/max/2000/0*ODDSxol62wBhbYT0.png&quot;&gt;&lt;/p&gt;
-&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;controller.hears([&amp;#39;旅行先’], &amp;#39;direct_message,direct_mention,mention,ambient’, function (bot, message) {
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;controller.hears([&apos;旅行先’], &apos;direct_message,direct_mention,mention,ambient’, function (bot, message) {
     function getCity(prefecture) {
-        var http = require(&amp;#39;http’);
-        var urlCity = &amp;quot;http://geoapi.heartrails.com/api/json?method=getCities&amp;amp;prefecture=”
+        var http = require(&apos;http’);
+        var urlCity = &quot;http://geoapi.heartrails.com/api/json?method=getCities&amp;amp;prefecture=”
         var encodePrefecture = encodeURI(prefecture)
         http.get(urlCity + encodePrefecture, function (res) {
-            res.setEncoding(&amp;#39;utf8’);
+            res.setEncoding(&apos;utf8’);
             var body = “”;
-            res.on(&amp;#39;data’, function(data) {
+            res.on(&apos;data’, function(data) {
                 body += data;
             });
-            res.on(&amp;#39;end’, function(data) {
+            res.on(&apos;end’, function(data) {
                 var c = JSON.parse(body);
                 cities = c.response.location;
                 city = cities[Math.floor(Math.random() * cities.length)];
@@ -4236,15 +4235,15 @@ bot.startConversation(message, function (err, convo) {
     }
 
 function getPrefecture() {
-    var http = require(&amp;#39;http&amp;#39;);
-    var urlPrefecture = &amp;quot;http://geoapi.heartrails.com/api/json?method=getPrefectures&amp;quot;;
+    var http = require(&apos;http&apos;);
+    var urlPrefecture = &quot;http://geoapi.heartrails.com/api/json?method=getPrefectures&quot;;
     http.get(urlPrefecture, function (res) {
-        res.setEncoding(&amp;#39;utf8&amp;#39;);
-        var body = &amp;quot;&amp;quot;;
-        res.on(&amp;#39;data&amp;#39;, function(data) {
+        res.setEncoding(&apos;utf8&apos;);
+        var body = &quot;&quot;;
+        res.on(&apos;data&apos;, function(data) {
             body += data;
         });
-        res.on(&amp;#39;end&amp;#39;, function(data) {
+        res.on(&apos;end&apos;, function(data) {
             var p = JSON.parse(body);
             prefectures = p.response.prefecture;
             pref = prefectures[Math.floor(Math.random() * prefectures.length)];
@@ -4257,19 +4256,19 @@ getPrefecture();
 });
 ```&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;p&gt;旅行先！とつぶやくと、都道府県と市区町村を取得する API に問い合わせて、ランダムに市区町村を返答します。&lt;/p&gt;
-&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;controller.hears([&amp;#39;天気&amp;#39;, &amp;#39;てんき&amp;#39;], &amp;#39;direct_message,direct_mention,mention&amp;#39;, function (bot, message) {
-    bot.reply(message, &amp;quot;天気情報を取得しています...&amp;quot;);
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;controller.hears([&apos;天気&apos;, &apos;てんき&apos;], &apos;direct_message,direct_mention,mention&apos;, function (bot, message) {
+    bot.reply(message, &quot;天気情報を取得しています...&quot;);
     bot.startConversation(message, function (err, convo) {
-        var http = require(&amp;#39;http&amp;#39;);
-        http.get(&amp;quot;http://weather.livedoor.com/forecast/webservice/json/v1?city=130010&amp;quot;, function (result) {
+        var http = require(&apos;http&apos;);
+        http.get(&quot;http://weather.livedoor.com/forecast/webservice/json/v1?city=130010&quot;, function (result) {
             var time = new Date();
-            var dateCond = time.getHours() &amp;lt; 18 ? &amp;quot;今日&amp;quot; : &amp;quot;明日&amp;quot;;
-            var body = &amp;#39;&amp;#39;;
-            result.setEncoding(&amp;#39;utf8&amp;#39;);
-            result.on(&amp;#39;data&amp;#39;, function(data) {
+            var dateCond = time.getHours() &amp;lt; 18 ? &quot;今日&quot; : &quot;明日&quot;;
+            var body = &apos;&apos;;
+            result.setEncoding(&apos;utf8&apos;);
+            result.on(&apos;data&apos;, function(data) {
                 body += data;
             });
-            result.on(&amp;#39;end&amp;#39;, function(data) {
+            result.on(&apos;end&apos;, function(data) {
                 var v = JSON.parse(body);
                 var weather = v.forecasts[0];
                 if (time.getHours() &amp;lt; 18) {
@@ -4277,7 +4276,7 @@ getPrefecture();
                 } else {
                     var weather = v.forecasts[1];
                 }
-                convo.say(weather.dateLabel + &amp;quot;の&amp;quot; + v.title + &amp;quot;は&amp;quot; + weather.telop + &amp;quot;です。最高気温は&amp;quot; + weather.temperature.max.celsius + &amp;quot;度です！&amp;quot;);
+                convo.say(weather.dateLabel + &quot;の&quot; + v.title + &quot;は&quot; + weather.telop + &quot;です。最高気温は&quot; + weather.temperature.max.celsius + &quot;度です！&quot;);
                 convo.next();
             });
         });
@@ -4286,22 +4285,22 @@ getPrefecture();
 &lt;p&gt;天気とつぶやくと、東京の今日または明日の天気と最高気温を返します。わりと実用的かもしれません。&lt;/p&gt;
 &lt;p&gt;三項演算子を使っているところと使っていないところが混ざっているのでリファクタ対象ですね。レスポンスに Null が存在しててエラーになるという、、ちょっと対策せねば。。。&lt;/p&gt;
 &lt;p&gt;&lt;img src=&quot;https://cdn-images-1.medium.com/max/3288/0*VAalKSTLAVaWtsIr.PNG&quot;&gt;&lt;/p&gt;
-&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;controller.hears([&amp;#39;(.+)って何&amp;#39;], &amp;#39;direct_message,direct_mention,mention&amp;#39;, function (bot, message) {
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;controller.hears([&apos;(.+)って何&apos;], &apos;direct_message,direct_mention,mention&apos;, function (bot, message) {
     var thing = message.match[1];
     var encodeThing = encodeURI(thing);
-    bot.reply(message, thing + &amp;quot;を調べています...&amp;quot;);
+    bot.reply(message, thing + &quot;を調べています...&quot;);
     bot.startConversation(message, function (err, convo) {
-        var http = require(&amp;#39;http&amp;#39;);
-        http.get(&amp;quot;http://wikipedia.simpleapi.net/api?output=json&amp;amp;keyword=&amp;quot; + encodeThing, function (result) {
-            var body = &amp;#39;&amp;#39;;
-            result.setEncoding(&amp;#39;utf8&amp;#39;);
-            result.on(&amp;#39;data&amp;#39;, function(data) {
+        var http = require(&apos;http&apos;);
+        http.get(&quot;http://wikipedia.simpleapi.net/api?output=json&amp;amp;keyword=&quot; + encodeThing, function (result) {
+            var body = &apos;&apos;;
+            result.setEncoding(&apos;utf8&apos;);
+            result.on(&apos;data&apos;, function(data) {
                 body += data;
             });
-            result.on(&amp;#39;end&amp;#39;, function(data) {
+            result.on(&apos;end&apos;, function(data) {
                 var v = JSON.parse(body);
                 if (v === null) {
-                    convo.say(thing + &amp;#39;が見つかりませんでした。&amp;#39;);
+                    convo.say(thing + &apos;が見つかりませんでした。&apos;);
                     convo.next();
                 } else {
                     convo.say(v[0].body);
@@ -4313,32 +4312,32 @@ getPrefecture();
 });&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;p&gt;hoge って何？で hoge について Wikipedia します。っでいい感じに Description を返答します。&lt;/p&gt;
 &lt;p&gt;&lt;img src=&quot;https://cdn-images-1.medium.com/max/2516/0*txjc6AuIBUsh0Rjj.PNG&quot;&gt;&lt;/p&gt;
-&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;controller.hears([&amp;#39;(.+)でニュース検索&amp;#39;], &amp;#39;direct_message,direct_mention,mention&amp;#39;, function (bot, message) {
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;controller.hears([&apos;(.+)でニュース検索&apos;], &apos;direct_message,direct_mention,mention&apos;, function (bot, message) {
     var thing = message.match[1];
     var encodeThing = encodeURI(thing);
-    bot.reply(message, thing + &amp;quot;のニュースを探しています...&amp;quot;);
+    bot.reply(message, thing + &quot;のニュースを探しています...&quot;);
     bot.startConversation(message, function (err, convo) {
-        var http = require(&amp;#39;http&amp;#39;);
-        var url = &amp;quot;http://api.search.nicovideo.jp/api/v2/news/contents/search?targets=title,tags&amp;amp;fields=contentId,title,startTime&amp;amp;_context=slackbot&amp;amp;_limit=10&amp;amp;_sort=startTime&amp;amp;q=&amp;quot; + encodeThing;
+        var http = require(&apos;http&apos;);
+        var url = &quot;http://api.search.nicovideo.jp/api/v2/news/contents/search?targets=title,tags&amp;amp;fields=contentId,title,startTime&amp;amp;_context=slackbot&amp;amp;_limit=10&amp;amp;_sort=startTime&amp;amp;q=&quot; + encodeThing;
         http.get(url, function (result) {
-            var body = &amp;#39;&amp;#39;;
-            result.setEncoding(&amp;#39;utf8&amp;#39;);
-            result.on(&amp;#39;data&amp;#39;, function(data) {
+            var body = &apos;&apos;;
+            result.setEncoding(&apos;utf8&apos;);
+            result.on(&apos;data&apos;, function(data) {
                 body += data;
             });
-            result.on(&amp;#39;end&amp;#39;, function(data) {
+            result.on(&apos;end&apos;, function(data) {
                 var m = JSON.parse(body);
                 var nicoArray = [];
                 var datas = m.data;
                 if (datas) {
-                    if (datas.length &amp;gt; 0) {
+                    if (datas.length &gt; 0) {
                         datas.forEach(function(val) {
-                            nicoArray.push(val.title + &amp;quot; : [http://nico.ms/](http://nico.ms/)&amp;quot; + val.contentId + &amp;quot; 公開日: &amp;quot; + new Date(val.startTime).toLocaleString());
+                            nicoArray.push(val.title + &quot; : [http://nico.ms/](http://nico.ms/)&quot; + val.contentId + &quot; 公開日: &quot; + new Date(val.startTime).toLocaleString());
                         });
-                        convo.say(nicoArray.join(&amp;#39;n&amp;#39;));
+                        convo.say(nicoArray.join(&apos;n&apos;));
                         convo.next();
                     } else {
-                        convo.say(&amp;#39;みつかりませんでした。&amp;#39;);
+                        convo.say(&apos;みつかりませんでした。&apos;);
                         convo.next();
                     }
                 } else {
@@ -4351,36 +4350,36 @@ getPrefecture();
 });&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;p&gt;hoge でニュース検索！と呼びかけると、hoge に関するニコニコニュースを検索して返答します。オープンなニュースサイトの API がなかったのでこれを採用。。。URL の生成も &lt;a href=&quot;http://nico.ms/&quot;&gt;http://nico.ms/&lt;/a&gt; + val.contentId なので、結構楽ちんですね。&lt;/p&gt;
 &lt;p&gt;&lt;img src=&quot;https://cdn-images-1.medium.com/max/2000/0*pfWLOiv4sOvp6ftm.PNG&quot;&gt;&lt;/p&gt;
-&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;controller.hears([&amp;#39;(.+)でお店を検索&amp;#39;], &amp;#39;direct_message,direct_mention,mention,ambient&amp;#39;, function (bot, message) {
-    var http = require(&amp;#39;http&amp;#39;);
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;controller.hears([&apos;(.+)でお店を検索&apos;], &apos;direct_message,direct_mention,mention,ambient&apos;, function (bot, message) {
+    var http = require(&apos;http&apos;);
     var thing = message.match[1];
     var encodeWord = encodeURI(thing);
-    url = &amp;#39;http://webservice.recruit.co.jp/hotpepper/shop/v1/?key=&amp;#39; + process.env.hotpepperKey +&amp;#39;&amp;amp;format=json&amp;amp;keyword=&amp;#39; + encodeWord;
-    bot.reply(message, thing + &amp;quot;でお店を調べています...&amp;quot;);
+    url = &apos;http://webservice.recruit.co.jp/hotpepper/shop/v1/?key=&apos; + process.env.hotpepperKey +&apos;&amp;amp;format=json&amp;amp;keyword=&apos; + encodeWord;
+    bot.reply(message, thing + &quot;でお店を調べています...&quot;);
     bot.startConversation(message, function (err, convo) {
         http.get(url, function (result) {
-            var body = &amp;#39;&amp;#39;;
+            var body = &apos;&apos;;
             var shopArray = [];
-            result.setEncoding(&amp;#39;utf8&amp;#39;);
-            result.on(&amp;#39;data&amp;#39;, function(data) {
+            result.setEncoding(&apos;utf8&apos;);
+            result.on(&apos;data&apos;, function(data) {
                 body += data;
             });
-            result.on(&amp;#39;end&amp;#39;, function(data) {
+            result.on(&apos;end&apos;, function(data) {
                 var v = JSON.parse(body);
                 var r = v.results;
                 if (r.shop) {
-                    if (r.shop.length &amp;gt; 0) {
+                    if (r.shop.length &gt; 0) {
                         r.shop.forEach(function(val) {
-                            shopArray.push(val.name + &amp;#39; : &amp;#39; + val.urls.pc);
+                            shopArray.push(val.name + &apos; : &apos; + val.urls.pc);
                         });
-                        convo.say(shopArray.join(&amp;#39;n&amp;#39;));
+                        convo.say(shopArray.join(&apos;n&apos;));
                         convo.next();
                     } else {
-                        convo.say(&amp;#39;ヒットしませんでした&amp;#39;);
+                        convo.say(&apos;ヒットしませんでした&apos;);
                         convo.next();
                     }
                 } else {
-                    convo.say(&amp;#39;見つからないかヒット数が多すぎるのでキーワードを整理してください&amp;#39;);
+                    convo.say(&apos;見つからないかヒット数が多すぎるのでキーワードを整理してください&apos;);
                     convo.next();
                 }
             });
@@ -4389,10 +4388,10 @@ getPrefecture();
 });&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;p&gt;hoge でお店を検索！っと呼びかけるとホットペッパーグルメでキーワード検索して返答します。うまい言葉を選ばないとなかなか帰ってこないです。。検索クエリーを考えるのが難しいところです。。&lt;/p&gt;
 &lt;p&gt;そのへんを考慮して、形態素解析してもうちょっと検索クエリーの選定をしたいところです。&lt;/p&gt;
-&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;controller.hears([&amp;#39;iPhone10&amp;#39;], &amp;#39;direct_message,direct_mention,mention,ambient&amp;#39;, function (bot, message) {
-    bot.reply(message, &amp;quot;iPhone10!!!&amp;quot;);
-    var https = require(&amp;#39;https&amp;#39;);
-    var url = &amp;quot;https://slack.com/api/chat.postMessage?token=&amp;quot; + process.env.token + &amp;quot;&amp;amp;channel=%23&amp;quot; + process.env.botChannel + &amp;quot;&amp;amp;text=%3Alongiphone1%3A%0A%3Alongiphone2%3A%0A%3Alongiphone3%3A%0A%3Alongiphone4%3A&amp;amp;username=iphone10&amp;amp;icon_emoji=%3Alongiphone1%3A%3Alongiphone2%3A%3Alongiphone3%3A%3Alongiphone4%3A&amp;amp;pretty=1&amp;quot;;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;controller.hears([&apos;iPhone10&apos;], &apos;direct_message,direct_mention,mention,ambient&apos;, function (bot, message) {
+    bot.reply(message, &quot;iPhone10!!!&quot;);
+    var https = require(&apos;https&apos;);
+    var url = &quot;https://slack.com/api/chat.postMessage?token=&quot; + process.env.token + &quot;&amp;amp;channel=%23&quot; + process.env.botChannel + &quot;&amp;amp;text=%3Alongiphone1%3A%0A%3Alongiphone2%3A%0A%3Alongiphone3%3A%0A%3Alongiphone4%3A&amp;amp;username=iphone10&amp;amp;icon_emoji=%3Alongiphone1%3A%3Alongiphone2%3A%3Alongiphone3%3A%3Alongiphone4%3A&amp;amp;pretty=1&quot;;
     https.get(url);
 });&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;p&gt;iPhone10 とつぶやくと iPhone10 っぽい反応をします。Slack そのものの API もあり、Get リクエストするだけで Bot っぽいポストもできるのでやっちゃいますよね。そして ICON の部分に微妙にバグがあるので、逆にそこを活かすというやーつ&lt;/p&gt;

@@ -452,7 +452,7 @@
 
 .fad.fa-inverse {
   color: #fff;
-}</style><link as="script" rel="preload" href="/blog/webpack-runtime-8e6ae767edff113752d2.js"/><link as="script" rel="preload" href="/blog/framework-341c3c82f92be86019fb.js"/><link as="script" rel="preload" href="/blog/app-d9999760b2448cc2c067.js"/><link as="script" rel="preload" href="/blog/a9a7754c-240c215cee30efe4e4de.js"/><link as="script" rel="preload" href="/blog/commons-e3d1c14ed0c6edd64020.js"/><link as="script" rel="preload" href="/blog/component---src-templates-blog-post-js-80b04bd1d0942db80757.js"/><link as="fetch" rel="preload" href="/blog/page-data/20161218-botkitを使って社内slackで遊んでいるおはなし/page-data.json" crossorigin="anonymous"/><link as="fetch" rel="preload" href="/blog/page-data/sq/d/2137539840.json" crossorigin="anonymous"/><link as="fetch" rel="preload" href="/blog/page-data/sq/d/2201837728.json" crossorigin="anonymous"/><link as="fetch" rel="preload" href="/blog/page-data/app-data.json" crossorigin="anonymous"/></head><body><div id="___gatsby"><div style="outline:none" tabindex="-1" id="gatsby-focus-wrapper"><nav class="navbar has-background-info-dark" role="navigation"><div class="navbar-brand"><a class="navbar-item has-text-primary-light" href="/blog/">.ごっちの日記</a></div></nav><main class="m-2 has-background-white-ter"><div class="container" data-is-root-path="false"><div class="columns"><div class="column is-three-quarters"><div class="content"><article class="blog-post" itemscope="" itemType="http://schema.org/Article"><h1 itemProp="headline">Botkitを使って社内Slackで遊んでいるおはなし</h1><p><small>December 18, 2016</small></p><section itemProp="articleBody"><p>こんにちは、ごっちです。ちょっとだけ元気です。</p>
+}</style><link as="script" rel="preload" href="/blog/webpack-runtime-432924ff79a2df16b9e7.js"/><link as="script" rel="preload" href="/blog/framework-341c3c82f92be86019fb.js"/><link as="script" rel="preload" href="/blog/app-d79cb5afee6588211dd4.js"/><link as="script" rel="preload" href="/blog/a9a7754c-240c215cee30efe4e4de.js"/><link as="script" rel="preload" href="/blog/commons-e3d1c14ed0c6edd64020.js"/><link as="script" rel="preload" href="/blog/component---src-templates-blog-post-js-80b04bd1d0942db80757.js"/><link as="fetch" rel="preload" href="/blog/page-data/20161218-botkitを使って社内slackで遊んでいるおはなし/page-data.json" crossorigin="anonymous"/><link as="fetch" rel="preload" href="/blog/page-data/sq/d/2137539840.json" crossorigin="anonymous"/><link as="fetch" rel="preload" href="/blog/page-data/sq/d/2201837728.json" crossorigin="anonymous"/><link as="fetch" rel="preload" href="/blog/page-data/app-data.json" crossorigin="anonymous"/></head><body><div id="___gatsby"><div style="outline:none" tabindex="-1" id="gatsby-focus-wrapper"><nav class="navbar has-background-info-dark" role="navigation"><div class="navbar-brand"><a class="navbar-item has-text-primary-light" href="/blog/">.ごっちの日記</a></div></nav><main class="m-2 has-background-white-ter"><div class="container" data-is-root-path="false"><div class="columns"><div class="column is-three-quarters"><div class="content"><article class="blog-post" itemscope="" itemType="http://schema.org/Article"><h1 itemProp="headline">Botkitを使って社内Slackで遊んでいるおはなし</h1><p><small>December 18, 2016</small></p><section itemProp="articleBody"><p>こんにちは、ごっちです。ちょっとだけ元気です。</p>
 <p>最近は本業とは別に SlackBot を開発していたりしているので、そのことについて書いていきます。</p>
 <p>なんか面白くしたいなぁとか思いながらこういう記事を発見するというやつです。</p>
 <p><a href="https://bita.jp/dml/slack_botkit">SlackBot を作るならコレ一択！Watson との連携で注目が高まる Botkit をつかってみた</a></p>
@@ -490,72 +490,72 @@ bot.reply(message, selectHelloTalk);
 <p>おみくじできます。おみくじの回答とはまったく関係のないものも含まれていますが、そこはご愛嬌です。</p>
 <p><img src="https://cdn-images-1.medium.com/max/2000/0*AYAK6AZ3G3OQGi7q.PNG"></p>
 <div class="gatsby-highlight" data-language="text"><pre class="language-text"><code class="language-text">controller.hears([‘じゃんけん’], ‘direct_message,direct_mention,mention’, function (bot, message) {function sayAiko(convo) {
-    convo.say(&#39;あいこですね。また遊びましょう！:wink:&#39;);
+    convo.say('あいこですね。また遊びましょう！:wink:');
 }
 
 function sayWin(convo) {
-    convo.say(&#39;私の勝ちです！じゃんけん強いのがばれましたね:muscle:。また遊びましょう！:blush:&#39;);
+    convo.say('私の勝ちです！じゃんけん強いのがばれましたね:muscle:。また遊びましょう！:blush:');
 }
 
 function sayLose(convo) {
-    convo.say(&#39;あなたの勝ちです！:congratulations:あなたはお強いのですね:sushi:。また遊びましょう！:hugging_face:&#39;);
+    convo.say('あなたの勝ちです！:congratulations:あなたはお強いのですね:sushi:。また遊びましょう！:hugging_face:');
 }
 
-bot.reply(message, &#39;じゃんけんですか？いいですね！:fist::v::hand:&#39;);
+bot.reply(message, 'じゃんけんですか？いいですね！:fist::v::hand:');
 bot.startConversation(message, function (err, convo) {
-    var jankenRPS = [&quot;r&quot;, &quot;s&quot;, &quot;p&quot;];
+    var jankenRPS = ["r", "s", "p"];
     var selectJanken = jankenRPS[Math.floor(Math.random() * jankenRPS.length)];
-    convo.ask(&#39;じゃんけーん... `グー` `チョキ` `パー`&#39;, [
+    convo.ask('じゃんけーん... `グー` `チョキ` `パー`', [
         {
-            pattern: &#39;グー&#39;,
+            pattern: 'グー',
             callback: function (response, convo) {
-                if (selectJanken === &quot;r&quot;) {
-                    convo.say(&quot;グー！&quot;);
+                if (selectJanken === "r") {
+                    convo.say("グー！");
                     sayAiko(convo);
-                } else if (selectJanken === &quot;s&quot;) {
-                    convo.say(&quot;チョキ！&quot;);
+                } else if (selectJanken === "s") {
+                    convo.say("チョキ！");
                     sayLose(convo);
-                } else if (selectJanken === &quot;p&quot;) {
-                    convo.say(&quot;パー！&quot;);
+                } else if (selectJanken === "p") {
+                    convo.say("パー！");
                     sayWin(convo);
                 } else {
-                    convo.say(&quot;すみません。じゃんけんができませんでした。また遊びましょう！:+1:&quot;);
+                    convo.say("すみません。じゃんけんができませんでした。また遊びましょう！:+1:");
                 }
                 convo.next();
             }
         },
         {
-            pattern: &#39;チョキ&#39;,
+            pattern: 'チョキ',
             callback: function (response, convo) {
-                if (selectJanken === &quot;r&quot;) {
-                    convo.say(&quot;グー！&quot;);
+                if (selectJanken === "r") {
+                    convo.say("グー！");
                     sayWin(convo);
-                } else if (selectJanken === &quot;s&quot;) {
-                    convo.say(&quot;チョキ！&quot;);
+                } else if (selectJanken === "s") {
+                    convo.say("チョキ！");
                     sayAiko(convo);
-                } else if (selectJanken === &quot;p&quot;) {
-                    convo.say(&quot;パー！&quot;);
+                } else if (selectJanken === "p") {
+                    convo.say("パー！");
                     sayLose(convo);
                 } else {
-                    convo.say(&quot;すみません。じゃんけんができませんでした。また遊びましょう！:+1:&quot;);
+                    convo.say("すみません。じゃんけんができませんでした。また遊びましょう！:+1:");
                 }
                 convo.next();
             }
         },
         {
-            pattern: &#39;パー&#39;,
+            pattern: 'パー',
             callback: function (response, convo) {
-                if (selectJanken === &quot;r&quot;) {
-                    convo.say(&quot;グー！&quot;);
+                if (selectJanken === "r") {
+                    convo.say("グー！");
                     sayLose(convo);
-                } else if (selectJanken === &quot;s&quot;) {
-                    convo.say(&quot;チョキ！&quot;);
+                } else if (selectJanken === "s") {
+                    convo.say("チョキ！");
                     sayWin(convo);
-                } else if (selectJanken === &quot;p&quot;) {
-                    convo.say(&quot;パー！&quot;);
+                } else if (selectJanken === "p") {
+                    convo.say("パー！");
                     sayAiko(convo);
                 } else {
-                    convo.say(&quot;すみません。じゃんけんができませんでした。また遊びましょう！:+1:&quot;);
+                    convo.say("すみません。じゃんけんができませんでした。また遊びましょう！:+1:");
                 }
                 convo.next();
             }
@@ -563,7 +563,7 @@ bot.startConversation(message, function (err, convo) {
         {
             default: true,
             callback: function (response, convo) {
-                convo.say(&#39;よくわかりませんでした。また遊びましょう&#39;);
+                convo.say('よくわかりませんでした。また遊びましょう');
                 convo.next();
             }
         }
@@ -577,18 +577,18 @@ bot.startConversation(message, function (err, convo) {
 <p>API に問い合わせて反応させるもの</p>
 <p><a href="http://smsurf.app-rox.com/api/">API List 100+</a>にあったものを試していっています。</p>
 <p><img src="https://cdn-images-1.medium.com/max/2000/0*ODDSxol62wBhbYT0.png"></p>
-<div class="gatsby-highlight" data-language="text"><pre class="language-text"><code class="language-text">controller.hears([&#39;旅行先’], &#39;direct_message,direct_mention,mention,ambient’, function (bot, message) {
+<div class="gatsby-highlight" data-language="text"><pre class="language-text"><code class="language-text">controller.hears(['旅行先’], 'direct_message,direct_mention,mention,ambient’, function (bot, message) {
     function getCity(prefecture) {
-        var http = require(&#39;http’);
-        var urlCity = &quot;http://geoapi.heartrails.com/api/json?method=getCities&amp;prefecture=”
+        var http = require('http’);
+        var urlCity = "http://geoapi.heartrails.com/api/json?method=getCities&amp;prefecture=”
         var encodePrefecture = encodeURI(prefecture)
         http.get(urlCity + encodePrefecture, function (res) {
-            res.setEncoding(&#39;utf8’);
+            res.setEncoding('utf8’);
             var body = “”;
-            res.on(&#39;data’, function(data) {
+            res.on('data’, function(data) {
                 body += data;
             });
-            res.on(&#39;end’, function(data) {
+            res.on('end’, function(data) {
                 var c = JSON.parse(body);
                 cities = c.response.location;
                 city = cities[Math.floor(Math.random() * cities.length)];
@@ -598,15 +598,15 @@ bot.startConversation(message, function (err, convo) {
     }
 
 function getPrefecture() {
-    var http = require(&#39;http&#39;);
-    var urlPrefecture = &quot;http://geoapi.heartrails.com/api/json?method=getPrefectures&quot;;
+    var http = require('http');
+    var urlPrefecture = "http://geoapi.heartrails.com/api/json?method=getPrefectures";
     http.get(urlPrefecture, function (res) {
-        res.setEncoding(&#39;utf8&#39;);
-        var body = &quot;&quot;;
-        res.on(&#39;data&#39;, function(data) {
+        res.setEncoding('utf8');
+        var body = "";
+        res.on('data', function(data) {
             body += data;
         });
-        res.on(&#39;end&#39;, function(data) {
+        res.on('end', function(data) {
             var p = JSON.parse(body);
             prefectures = p.response.prefecture;
             pref = prefectures[Math.floor(Math.random() * prefectures.length)];
@@ -619,19 +619,19 @@ getPrefecture();
 });
 ```</code></pre></div>
 <p>旅行先！とつぶやくと、都道府県と市区町村を取得する API に問い合わせて、ランダムに市区町村を返答します。</p>
-<div class="gatsby-highlight" data-language="text"><pre class="language-text"><code class="language-text">controller.hears([&#39;天気&#39;, &#39;てんき&#39;], &#39;direct_message,direct_mention,mention&#39;, function (bot, message) {
-    bot.reply(message, &quot;天気情報を取得しています...&quot;);
+<div class="gatsby-highlight" data-language="text"><pre class="language-text"><code class="language-text">controller.hears(['天気', 'てんき'], 'direct_message,direct_mention,mention', function (bot, message) {
+    bot.reply(message, "天気情報を取得しています...");
     bot.startConversation(message, function (err, convo) {
-        var http = require(&#39;http&#39;);
-        http.get(&quot;http://weather.livedoor.com/forecast/webservice/json/v1?city=130010&quot;, function (result) {
+        var http = require('http');
+        http.get("http://weather.livedoor.com/forecast/webservice/json/v1?city=130010", function (result) {
             var time = new Date();
-            var dateCond = time.getHours() &lt; 18 ? &quot;今日&quot; : &quot;明日&quot;;
-            var body = &#39;&#39;;
-            result.setEncoding(&#39;utf8&#39;);
-            result.on(&#39;data&#39;, function(data) {
+            var dateCond = time.getHours() &lt; 18 ? "今日" : "明日";
+            var body = '';
+            result.setEncoding('utf8');
+            result.on('data', function(data) {
                 body += data;
             });
-            result.on(&#39;end&#39;, function(data) {
+            result.on('end', function(data) {
                 var v = JSON.parse(body);
                 var weather = v.forecasts[0];
                 if (time.getHours() &lt; 18) {
@@ -639,7 +639,7 @@ getPrefecture();
                 } else {
                     var weather = v.forecasts[1];
                 }
-                convo.say(weather.dateLabel + &quot;の&quot; + v.title + &quot;は&quot; + weather.telop + &quot;です。最高気温は&quot; + weather.temperature.max.celsius + &quot;度です！&quot;);
+                convo.say(weather.dateLabel + "の" + v.title + "は" + weather.telop + "です。最高気温は" + weather.temperature.max.celsius + "度です！");
                 convo.next();
             });
         });
@@ -648,22 +648,22 @@ getPrefecture();
 <p>天気とつぶやくと、東京の今日または明日の天気と最高気温を返します。わりと実用的かもしれません。</p>
 <p>三項演算子を使っているところと使っていないところが混ざっているのでリファクタ対象ですね。レスポンスに Null が存在しててエラーになるという、、ちょっと対策せねば。。。</p>
 <p><img src="https://cdn-images-1.medium.com/max/3288/0*VAalKSTLAVaWtsIr.PNG"></p>
-<div class="gatsby-highlight" data-language="text"><pre class="language-text"><code class="language-text">controller.hears([&#39;(.+)って何&#39;], &#39;direct_message,direct_mention,mention&#39;, function (bot, message) {
+<div class="gatsby-highlight" data-language="text"><pre class="language-text"><code class="language-text">controller.hears(['(.+)って何'], 'direct_message,direct_mention,mention', function (bot, message) {
     var thing = message.match[1];
     var encodeThing = encodeURI(thing);
-    bot.reply(message, thing + &quot;を調べています...&quot;);
+    bot.reply(message, thing + "を調べています...");
     bot.startConversation(message, function (err, convo) {
-        var http = require(&#39;http&#39;);
-        http.get(&quot;http://wikipedia.simpleapi.net/api?output=json&amp;keyword=&quot; + encodeThing, function (result) {
-            var body = &#39;&#39;;
-            result.setEncoding(&#39;utf8&#39;);
-            result.on(&#39;data&#39;, function(data) {
+        var http = require('http');
+        http.get("http://wikipedia.simpleapi.net/api?output=json&amp;keyword=" + encodeThing, function (result) {
+            var body = '';
+            result.setEncoding('utf8');
+            result.on('data', function(data) {
                 body += data;
             });
-            result.on(&#39;end&#39;, function(data) {
+            result.on('end', function(data) {
                 var v = JSON.parse(body);
                 if (v === null) {
-                    convo.say(thing + &#39;が見つかりませんでした。&#39;);
+                    convo.say(thing + 'が見つかりませんでした。');
                     convo.next();
                 } else {
                     convo.say(v[0].body);
@@ -675,32 +675,32 @@ getPrefecture();
 });</code></pre></div>
 <p>hoge って何？で hoge について Wikipedia します。っでいい感じに Description を返答します。</p>
 <p><img src="https://cdn-images-1.medium.com/max/2516/0*txjc6AuIBUsh0Rjj.PNG"></p>
-<div class="gatsby-highlight" data-language="text"><pre class="language-text"><code class="language-text">controller.hears([&#39;(.+)でニュース検索&#39;], &#39;direct_message,direct_mention,mention&#39;, function (bot, message) {
+<div class="gatsby-highlight" data-language="text"><pre class="language-text"><code class="language-text">controller.hears(['(.+)でニュース検索'], 'direct_message,direct_mention,mention', function (bot, message) {
     var thing = message.match[1];
     var encodeThing = encodeURI(thing);
-    bot.reply(message, thing + &quot;のニュースを探しています...&quot;);
+    bot.reply(message, thing + "のニュースを探しています...");
     bot.startConversation(message, function (err, convo) {
-        var http = require(&#39;http&#39;);
-        var url = &quot;http://api.search.nicovideo.jp/api/v2/news/contents/search?targets=title,tags&amp;fields=contentId,title,startTime&amp;_context=slackbot&amp;_limit=10&amp;_sort=startTime&amp;q=&quot; + encodeThing;
+        var http = require('http');
+        var url = "http://api.search.nicovideo.jp/api/v2/news/contents/search?targets=title,tags&amp;fields=contentId,title,startTime&amp;_context=slackbot&amp;_limit=10&amp;_sort=startTime&amp;q=" + encodeThing;
         http.get(url, function (result) {
-            var body = &#39;&#39;;
-            result.setEncoding(&#39;utf8&#39;);
-            result.on(&#39;data&#39;, function(data) {
+            var body = '';
+            result.setEncoding('utf8');
+            result.on('data', function(data) {
                 body += data;
             });
-            result.on(&#39;end&#39;, function(data) {
+            result.on('end', function(data) {
                 var m = JSON.parse(body);
                 var nicoArray = [];
                 var datas = m.data;
                 if (datas) {
-                    if (datas.length &gt; 0) {
+                    if (datas.length > 0) {
                         datas.forEach(function(val) {
-                            nicoArray.push(val.title + &quot; : [http://nico.ms/](http://nico.ms/)&quot; + val.contentId + &quot; 公開日: &quot; + new Date(val.startTime).toLocaleString());
+                            nicoArray.push(val.title + " : [http://nico.ms/](http://nico.ms/)" + val.contentId + " 公開日: " + new Date(val.startTime).toLocaleString());
                         });
-                        convo.say(nicoArray.join(&#39;n&#39;));
+                        convo.say(nicoArray.join('n'));
                         convo.next();
                     } else {
-                        convo.say(&#39;みつかりませんでした。&#39;);
+                        convo.say('みつかりませんでした。');
                         convo.next();
                     }
                 } else {
@@ -713,36 +713,36 @@ getPrefecture();
 });</code></pre></div>
 <p>hoge でニュース検索！と呼びかけると、hoge に関するニコニコニュースを検索して返答します。オープンなニュースサイトの API がなかったのでこれを採用。。。URL の生成も <a href="http://nico.ms/">http://nico.ms/</a> + val.contentId なので、結構楽ちんですね。</p>
 <p><img src="https://cdn-images-1.medium.com/max/2000/0*pfWLOiv4sOvp6ftm.PNG"></p>
-<div class="gatsby-highlight" data-language="text"><pre class="language-text"><code class="language-text">controller.hears([&#39;(.+)でお店を検索&#39;], &#39;direct_message,direct_mention,mention,ambient&#39;, function (bot, message) {
-    var http = require(&#39;http&#39;);
+<div class="gatsby-highlight" data-language="text"><pre class="language-text"><code class="language-text">controller.hears(['(.+)でお店を検索'], 'direct_message,direct_mention,mention,ambient', function (bot, message) {
+    var http = require('http');
     var thing = message.match[1];
     var encodeWord = encodeURI(thing);
-    url = &#39;http://webservice.recruit.co.jp/hotpepper/shop/v1/?key=&#39; + process.env.hotpepperKey +&#39;&amp;format=json&amp;keyword=&#39; + encodeWord;
-    bot.reply(message, thing + &quot;でお店を調べています...&quot;);
+    url = 'http://webservice.recruit.co.jp/hotpepper/shop/v1/?key=' + process.env.hotpepperKey +'&amp;format=json&amp;keyword=' + encodeWord;
+    bot.reply(message, thing + "でお店を調べています...");
     bot.startConversation(message, function (err, convo) {
         http.get(url, function (result) {
-            var body = &#39;&#39;;
+            var body = '';
             var shopArray = [];
-            result.setEncoding(&#39;utf8&#39;);
-            result.on(&#39;data&#39;, function(data) {
+            result.setEncoding('utf8');
+            result.on('data', function(data) {
                 body += data;
             });
-            result.on(&#39;end&#39;, function(data) {
+            result.on('end', function(data) {
                 var v = JSON.parse(body);
                 var r = v.results;
                 if (r.shop) {
-                    if (r.shop.length &gt; 0) {
+                    if (r.shop.length > 0) {
                         r.shop.forEach(function(val) {
-                            shopArray.push(val.name + &#39; : &#39; + val.urls.pc);
+                            shopArray.push(val.name + ' : ' + val.urls.pc);
                         });
-                        convo.say(shopArray.join(&#39;n&#39;));
+                        convo.say(shopArray.join('n'));
                         convo.next();
                     } else {
-                        convo.say(&#39;ヒットしませんでした&#39;);
+                        convo.say('ヒットしませんでした');
                         convo.next();
                     }
                 } else {
-                    convo.say(&#39;見つからないかヒット数が多すぎるのでキーワードを整理してください&#39;);
+                    convo.say('見つからないかヒット数が多すぎるのでキーワードを整理してください');
                     convo.next();
                 }
             });
@@ -751,16 +751,16 @@ getPrefecture();
 });</code></pre></div>
 <p>hoge でお店を検索！っと呼びかけるとホットペッパーグルメでキーワード検索して返答します。うまい言葉を選ばないとなかなか帰ってこないです。。検索クエリーを考えるのが難しいところです。。</p>
 <p>そのへんを考慮して、形態素解析してもうちょっと検索クエリーの選定をしたいところです。</p>
-<div class="gatsby-highlight" data-language="text"><pre class="language-text"><code class="language-text">controller.hears([&#39;iPhone10&#39;], &#39;direct_message,direct_mention,mention,ambient&#39;, function (bot, message) {
-    bot.reply(message, &quot;iPhone10!!!&quot;);
-    var https = require(&#39;https&#39;);
-    var url = &quot;https://slack.com/api/chat.postMessage?token=&quot; + process.env.token + &quot;&amp;channel=%23&quot; + process.env.botChannel + &quot;&amp;text=%3Alongiphone1%3A%0A%3Alongiphone2%3A%0A%3Alongiphone3%3A%0A%3Alongiphone4%3A&amp;username=iphone10&amp;icon_emoji=%3Alongiphone1%3A%3Alongiphone2%3A%3Alongiphone3%3A%3Alongiphone4%3A&amp;pretty=1&quot;;
+<div class="gatsby-highlight" data-language="text"><pre class="language-text"><code class="language-text">controller.hears(['iPhone10'], 'direct_message,direct_mention,mention,ambient', function (bot, message) {
+    bot.reply(message, "iPhone10!!!");
+    var https = require('https');
+    var url = "https://slack.com/api/chat.postMessage?token=" + process.env.token + "&amp;channel=%23" + process.env.botChannel + "&amp;text=%3Alongiphone1%3A%0A%3Alongiphone2%3A%0A%3Alongiphone3%3A%0A%3Alongiphone4%3A&amp;username=iphone10&amp;icon_emoji=%3Alongiphone1%3A%3Alongiphone2%3A%3Alongiphone3%3A%3Alongiphone4%3A&amp;pretty=1";
     https.get(url);
 });</code></pre></div>
 <p>iPhone10 とつぶやくと iPhone10 っぽい反応をします。Slack そのものの API もあり、Get リクエストするだけで Bot っぽいポストもできるのでやっちゃいますよね。そして ICON の部分に微妙にバグがあるので、逆にそこを活かすというやーつ</p>
 <p>そんな感じです。</p>
 <p>まだまだ使えそうな API があるので、試して入れていってみたいと思います。NodeJS なのでわりとサクサク開発ができるので、そこもいいところですかね？</p>
-<p>いろいろ取り入れて、賢い Bot を作っていきましょう！！</p></section></article><div class="columns"><div class="column is-half"><div class="mt-5 mb-5"><button aria-label="twitter" class="react-share__ShareButton m-2" style="background-color:transparent;border:none;padding:0;font:inherit;color:inherit;cursor:pointer"><svg viewBox="0 0 64 64" width="32" height="32"><circle cx="32" cy="32" r="31" fill="#00aced"></circle><path d="M48,22.1c-1.2,0.5-2.4,0.9-3.8,1c1.4-0.8,2.4-2.1,2.9-3.6c-1.3,0.8-2.7,1.3-4.2,1.6 C41.7,19.8,40,19,38.2,19c-3.6,0-6.6,2.9-6.6,6.6c0,0.5,0.1,1,0.2,1.5c-5.5-0.3-10.3-2.9-13.5-6.9c-0.6,1-0.9,2.1-0.9,3.3 c0,2.3,1.2,4.3,2.9,5.5c-1.1,0-2.1-0.3-3-0.8c0,0,0,0.1,0,0.1c0,3.2,2.3,5.8,5.3,6.4c-0.6,0.1-1.1,0.2-1.7,0.2c-0.4,0-0.8,0-1.2-0.1 c0.8,2.6,3.3,4.5,6.1,4.6c-2.2,1.8-5.1,2.8-8.2,2.8c-0.5,0-1.1,0-1.6-0.1c2.9,1.9,6.4,2.9,10.1,2.9c12.1,0,18.7-10,18.7-18.7 c0-0.3,0-0.6,0-0.8C46,24.5,47.1,23.4,48,22.1z" fill="white"></path></svg></button><button title="Botkitを使って社内Slackで遊んでいるおはなし - .ごっちの日記" aria-label="facebook" class="react-share__ShareButton m-2" style="background-color:transparent;border:none;padding:0;font:inherit;color:inherit;cursor:pointer"><svg viewBox="0 0 64 64" width="32" height="32"><circle cx="32" cy="32" r="31" fill="#3b5998"></circle><path d="M34.1,47V33.3h4.6l0.7-5.3h-5.3v-3.4c0-1.5,0.4-2.6,2.6-2.6l2.8,0v-4.8c-0.5-0.1-2.2-0.2-4.1-0.2 c-4.1,0-6.9,2.5-6.9,7V28H24v5.3h4.6V47H34.1z" fill="white"></path></svg></button></div></div></div></div></div><div class="column"><div class="box"><div class="media"><div class="media-left"><div data-gatsby-image-wrapper="" style="width:50px;height:50px" class="gatsby-image-wrapper bio-avatar"><div aria-hidden="true" data-placeholder-image="" style="opacity:1;transition:opacity 500ms linear;background-color:#f8f8f8;width:50px;height:50px;position:relative"></div><picture><source type="image/avif" data-srcset="/blog/static/29b96f732542f226083b8ae369599071/d4bf4/profile-pic.avif 50w,/blog/static/29b96f732542f226083b8ae369599071/ee81f/profile-pic.avif 100w" sizes="50px"/><source type="image/webp" data-srcset="/blog/static/29b96f732542f226083b8ae369599071/3faea/profile-pic.webp 50w,/blog/static/29b96f732542f226083b8ae369599071/6a679/profile-pic.webp 100w" sizes="50px"/><img data-gatsby-image-ssr="" layout="fixed" data-main-image="" style="opacity:0" sizes="50px" decoding="async" loading="lazy" data-src="/blog/static/29b96f732542f226083b8ae369599071/e5610/profile-pic.png" data-srcset="/blog/static/29b96f732542f226083b8ae369599071/e5610/profile-pic.png 50w,/blog/static/29b96f732542f226083b8ae369599071/e9b55/profile-pic.png 100w" alt="Profile picture"/></picture><noscript><picture><source type="image/avif" srcSet="/blog/static/29b96f732542f226083b8ae369599071/d4bf4/profile-pic.avif 50w,/blog/static/29b96f732542f226083b8ae369599071/ee81f/profile-pic.avif 100w" sizes="50px"/><source type="image/webp" srcSet="/blog/static/29b96f732542f226083b8ae369599071/3faea/profile-pic.webp 50w,/blog/static/29b96f732542f226083b8ae369599071/6a679/profile-pic.webp 100w" sizes="50px"/><img data-gatsby-image-ssr="" layout="fixed" data-main-image="" style="opacity:0" sizes="50px" decoding="async" loading="lazy" src="/blog/static/29b96f732542f226083b8ae369599071/e5610/profile-pic.png" srcSet="/blog/static/29b96f732542f226083b8ae369599071/e5610/profile-pic.png 50w,/blog/static/29b96f732542f226083b8ae369599071/e9b55/profile-pic.png 100w" alt="Profile picture"/></picture></noscript><script type="module">const t="undefined"!=typeof HTMLImageElement&&"loading"in HTMLImageElement.prototype;if(t){const t=document.querySelectorAll("img[data-main-image]");for(let e of t){e.dataset.src&&(e.setAttribute("src",e.dataset.src),e.removeAttribute("data-src")),e.dataset.srcset&&(e.setAttribute("srcset",e.dataset.srcset),e.removeAttribute("data-srcset"));const t=e.parentNode.querySelectorAll("source[data-srcset]");for(let e of t)e.setAttribute("srcset",e.dataset.srcset),e.removeAttribute("data-srcset");e.complete&&(e.style.opacity=1)}}</script></div></div><div class="media-content"><div class="content"><p><strong>Yuta Goto</strong><br/>エンジニアです。</p></div><nav class="level is-mobile"><div class="level-left"><a href="https://twitter.com/gggooottto" class="level-item" area-label="twitter" target="_blank" rel="noreferrer noopener"><span class="icon"><i class="fab fa-twitter" aria-hidden="true"></i></span></a><a href="https://github.com/YutaGoto" class="level-item" area-label="github" target="_blank" rel="noreferrer noopener"><span class="icon"><i class="fab fa-github" aria-hidden="true"></i></span></a></div></nav></div></div></div></div></div><nav class="pagination is-centered" role="navigation"><a rel="prev" class="pagination-previous is-link is-light" href="/blog/20161204-podcasts/">← <!-- -->Podcasts</a><a rel="next" class="pagination-next is-link is-light" href="/blog/20161226-2016年の振り返り/">2016年の振り返り<!-- --> →</a></nav></div></main><footer class="footer has-background-grey-light">© <!-- -->2021<!-- -->, Built with<!-- --> <a href="https://www.gatsbyjs.com">Gatsby</a></footer></div><div id="gatsby-announcer" style="position:absolute;top:0;width:1px;height:1px;padding:0;overflow:hidden;clip:rect(0, 0, 0, 0);white-space:nowrap;border:0" aria-live="assertive" aria-atomic="true"></div></div><script async="" src="https://www.googletagmanager.com/gtag/js?id=G-WDXGRMPVMC"></script><script>
+<p>いろいろ取り入れて、賢い Bot を作っていきましょう！！</p></section></article><div class="columns"><div class="column is-half"><div class="mt-5 mb-5"><button aria-label="twitter" class="react-share__ShareButton m-2" style="background-color:transparent;border:none;padding:0;font:inherit;color:inherit;cursor:pointer"><svg viewBox="0 0 64 64" width="32" height="32"><circle cx="32" cy="32" r="31" fill="#00aced"></circle><path d="M48,22.1c-1.2,0.5-2.4,0.9-3.8,1c1.4-0.8,2.4-2.1,2.9-3.6c-1.3,0.8-2.7,1.3-4.2,1.6 C41.7,19.8,40,19,38.2,19c-3.6,0-6.6,2.9-6.6,6.6c0,0.5,0.1,1,0.2,1.5c-5.5-0.3-10.3-2.9-13.5-6.9c-0.6,1-0.9,2.1-0.9,3.3 c0,2.3,1.2,4.3,2.9,5.5c-1.1,0-2.1-0.3-3-0.8c0,0,0,0.1,0,0.1c0,3.2,2.3,5.8,5.3,6.4c-0.6,0.1-1.1,0.2-1.7,0.2c-0.4,0-0.8,0-1.2-0.1 c0.8,2.6,3.3,4.5,6.1,4.6c-2.2,1.8-5.1,2.8-8.2,2.8c-0.5,0-1.1,0-1.6-0.1c2.9,1.9,6.4,2.9,10.1,2.9c12.1,0,18.7-10,18.7-18.7 c0-0.3,0-0.6,0-0.8C46,24.5,47.1,23.4,48,22.1z" fill="white"></path></svg></button><button title="Botkitを使って社内Slackで遊んでいるおはなし - .ごっちの日記" aria-label="facebook" class="react-share__ShareButton m-2" style="background-color:transparent;border:none;padding:0;font:inherit;color:inherit;cursor:pointer"><svg viewBox="0 0 64 64" width="32" height="32"><circle cx="32" cy="32" r="31" fill="#3b5998"></circle><path d="M34.1,47V33.3h4.6l0.7-5.3h-5.3v-3.4c0-1.5,0.4-2.6,2.6-2.6l2.8,0v-4.8c-0.5-0.1-2.2-0.2-4.1-0.2 c-4.1,0-6.9,2.5-6.9,7V28H24v5.3h4.6V47H34.1z" fill="white"></path></svg></button></div></div></div></div></div><div class="column"><div class="box"><div class="media"><div class="media-left"><div data-gatsby-image-wrapper="" style="width:50px;height:50px" class="gatsby-image-wrapper bio-avatar"><div aria-hidden="true" data-placeholder-image="" style="opacity:1;transition:opacity 500ms linear;background-color:#f8f8f8;width:50px;height:50px;position:relative"></div><picture><source type="image/avif" data-srcset="/blog/static/29b96f732542f226083b8ae369599071/d4bf4/profile-pic.avif 50w,/blog/static/29b96f732542f226083b8ae369599071/ee81f/profile-pic.avif 100w" sizes="50px"/><source type="image/webp" data-srcset="/blog/static/29b96f732542f226083b8ae369599071/3faea/profile-pic.webp 50w,/blog/static/29b96f732542f226083b8ae369599071/6a679/profile-pic.webp 100w" sizes="50px"/><img data-gatsby-image-ssr="" layout="fixed" data-main-image="" style="opacity:0" sizes="50px" decoding="async" loading="lazy" data-src="/blog/static/29b96f732542f226083b8ae369599071/e5610/profile-pic.png" data-srcset="/blog/static/29b96f732542f226083b8ae369599071/e5610/profile-pic.png 50w,/blog/static/29b96f732542f226083b8ae369599071/e9b55/profile-pic.png 100w" alt="Profile picture"/></picture><noscript><picture><source type="image/avif" srcSet="/blog/static/29b96f732542f226083b8ae369599071/d4bf4/profile-pic.avif 50w,/blog/static/29b96f732542f226083b8ae369599071/ee81f/profile-pic.avif 100w" sizes="50px"/><source type="image/webp" srcSet="/blog/static/29b96f732542f226083b8ae369599071/3faea/profile-pic.webp 50w,/blog/static/29b96f732542f226083b8ae369599071/6a679/profile-pic.webp 100w" sizes="50px"/><img data-gatsby-image-ssr="" layout="fixed" data-main-image="" style="opacity:0" sizes="50px" decoding="async" loading="lazy" src="/blog/static/29b96f732542f226083b8ae369599071/e5610/profile-pic.png" srcSet="/blog/static/29b96f732542f226083b8ae369599071/e5610/profile-pic.png 50w,/blog/static/29b96f732542f226083b8ae369599071/e9b55/profile-pic.png 100w" alt="Profile picture"/></picture></noscript><script type="module">const t="undefined"!=typeof HTMLImageElement&&"loading"in HTMLImageElement.prototype;if(t){const t=document.querySelectorAll("img[data-main-image]");for(let e of t){e.dataset.src&&(e.setAttribute("src",e.dataset.src),e.removeAttribute("data-src")),e.dataset.srcset&&(e.setAttribute("srcset",e.dataset.srcset),e.removeAttribute("data-srcset"));const t=e.parentNode.querySelectorAll("source[data-srcset]");for(let e of t)e.setAttribute("srcset",e.dataset.srcset),e.removeAttribute("data-srcset");e.complete&&(e.style.opacity=1)}}</script></div></div><div class="media-content"><div class="content"><p><strong>Yuta Goto</strong><br/>エンジニアです。</p></div><nav class="level is-mobile"><div class="level-left"><a href="https://twitter.com/gggooottto" class="level-item" area-label="twitter" target="_blank" rel="noreferrer noopener"><span class="icon"><i class="fab fa-twitter" aria-hidden="true"></i></span></a><a href="https://github.com/YutaGoto" class="level-item" area-label="github" target="_blank" rel="noreferrer noopener"><span class="icon"><i class="fab fa-github" aria-hidden="true"></i></span></a></div></nav></div></div></div></div></div><nav class="pagination is-centered" role="navigation"><a rel="prev" class="pagination-previous is-link is-light" href="/blog/20161204-podcasts/">← <!-- -->Podcasts</a><a rel="next" class="pagination-next is-link is-light" href="/blog/20161226-2016年の振り返り/">2016年の振り返り<!-- --> →</a></nav></div></main><footer class="footer has-background-grey-light">© <!-- -->2021<!-- -->, Built with<!-- --> <a href="https://www.gatsbyjs.com">Gatsby</a></footer></div><div id="gatsby-announcer" style="position:absolute;top:0;width:1px;height:1px;padding:0;overflow:hidden;clip:rect(0, 0, 0, 0);white-space:nowrap;border:0" aria-live="assertive" aria-atomic="true"></div></div><script async="" src="https://www.googletagmanager.com/gtag/js?id=undefined"></script><script>
       
       
       if(!(navigator.doNotTrack == "1" || window.doNotTrack == "1")) {
@@ -768,6 +768,6 @@ getPrefecture();
         function gtag(){window.dataLayer && window.dataLayer.push(arguments);}
         gtag('js', new Date());
 
-        gtag('config', 'G-WDXGRMPVMC', {"send_page_view":false});
+        gtag('config', 'undefined', {"send_page_view":false});
       }
-      </script><script id="gatsby-script-loader">/*<![CDATA[*/window.pagePath="/20161218-botkitを使って社内slackで遊んでいるおはなし/";/*]]>*/</script><script id="gatsby-chunk-mapping">/*<![CDATA[*/window.___chunkMapping={"polyfill":["/polyfill-de6f229c0a3977155403.js"],"app":["/app-d9999760b2448cc2c067.js"],"component---src-pages-404-js":["/component---src-pages-404-js-97593667e44e4660bc60.js"],"component---src-pages-index-js":["/component---src-pages-index-js-1d39a3dec22a75195bea.js"],"component---src-pages-using-typescript-tsx":["/component---src-pages-using-typescript-tsx-b8eb9a99e36f2b62c45e.js"],"component---src-templates-blog-post-js":["/component---src-templates-blog-post-js-80b04bd1d0942db80757.js"]};/*]]>*/</script><script src="/blog/polyfill-de6f229c0a3977155403.js" nomodule=""></script><script src="/blog/component---src-templates-blog-post-js-80b04bd1d0942db80757.js" async=""></script><script src="/blog/commons-e3d1c14ed0c6edd64020.js" async=""></script><script src="/blog/a9a7754c-240c215cee30efe4e4de.js" async=""></script><script src="/blog/app-d9999760b2448cc2c067.js" async=""></script><script src="/blog/framework-341c3c82f92be86019fb.js" async=""></script><script src="/blog/webpack-runtime-8e6ae767edff113752d2.js" async=""></script></body></html>
+      </script><script id="gatsby-script-loader">/*<![CDATA[*/window.pagePath="/20161218-botkitを使って社内slackで遊んでいるおはなし/";/*]]>*/</script><script id="gatsby-chunk-mapping">/*<![CDATA[*/window.___chunkMapping={"polyfill":["/polyfill-de6f229c0a3977155403.js"],"app":["/app-d79cb5afee6588211dd4.js"],"component---src-pages-404-js":["/component---src-pages-404-js-97593667e44e4660bc60.js"],"component---src-pages-index-js":["/component---src-pages-index-js-1d39a3dec22a75195bea.js"],"component---src-pages-using-typescript-tsx":["/component---src-pages-using-typescript-tsx-b8eb9a99e36f2b62c45e.js"],"component---src-templates-blog-post-js":["/component---src-templates-blog-post-js-80b04bd1d0942db80757.js"]};/*]]>*/</script><script src="/blog/polyfill-de6f229c0a3977155403.js" nomodule=""></script><script src="/blog/component---src-templates-blog-post-js-80b04bd1d0942db80757.js" async=""></script><script src="/blog/commons-e3d1c14ed0c6edd64020.js" async=""></script><script src="/blog/a9a7754c-240c215cee30efe4e4de.js" async=""></script><script src="/blog/app-d79cb5afee6588211dd4.js" async=""></script><script src="/blog/framework-341c3c82f92be86019fb.js" async=""></script><script src="/blog/webpack-runtime-432924ff79a2df16b9e7.js" async=""></script></body></html>

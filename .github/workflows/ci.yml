@@ -1,9 +1,5 @@
 name: Gatsby Publish
-
-on:
-  push:
-    branches:
-      - main
+on: push
 
 jobs:
   lint:
@@ -18,9 +14,9 @@ jobs:
         run: yarn
       - name: Lint
         run: yarn format
-
   deploy:
     needs: lint
+    if: ${{ github.ref == 'refs/heads/main' }}
     runs-on: ubuntu-20.04
     steps:
       - uses: actions/checkout@v2

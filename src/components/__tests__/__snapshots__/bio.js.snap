@@ -1,0 +1,70 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`bio renders correctly 1`] = `
+<div
+  className="box"
+>
+  <div
+    className="media"
+  >
+    <div
+      className="media-left"
+    />
+    <div
+      className="media-content"
+    >
+      <div
+        className="content"
+      >
+        <p>
+          <strong>
+            Yuta Goto
+          </strong>
+          <br />
+          エンジニアです。
+        </p>
+      </div>
+      <nav
+        className="level is-mobile"
+      >
+        <div
+          className="level-left"
+        >
+          <a
+            area-label="twitter"
+            className="level-item"
+            href="https://twitter.com/gggooottto"
+            rel="noreferrer noopener"
+            target="_blank"
+          >
+            <span
+              className="icon"
+            >
+              <i
+                aria-hidden="true"
+                className="fab fa-twitter"
+              />
+            </span>
+          </a>
+          <a
+            area-label="github"
+            className="level-item"
+            href="https://github.com/YutaGoto"
+            rel="noreferrer noopener"
+            target="_blank"
+          >
+            <span
+              className="icon"
+            >
+              <i
+                aria-hidden="true"
+                className="fab fa-github"
+              />
+            </span>
+          </a>
+        </div>
+      </nav>
+    </div>
+  </div>
+</div>
+`;

@@ -452,30 +452,36 @@
 
 .fad.fa-inverse {
   color: #fff;
-}</style><link as="script" rel="preload" href="/blog/webpack-runtime-4632608e18c2aa86eb39.js"/><link as="script" rel="preload" href="/blog/framework-341c3c82f92be86019fb.js"/><link as="script" rel="preload" href="/blog/app-f804d0eb44ee5b128d68.js"/><link as="script" rel="preload" href="/blog/a9a7754c-240c215cee30efe4e4de.js"/><link as="script" rel="preload" href="/blog/commons-e3d1c14ed0c6edd64020.js"/><link as="script" rel="preload" href="/blog/component---src-templates-blog-post-js-80b04bd1d0942db80757.js"/><link as="fetch" rel="preload" href="/blog/page-data/20190617-shinjuku-mokumokuでgrpcチュートリアルをやった/page-data.json" crossorigin="anonymous"/><link as="fetch" rel="preload" href="/blog/page-data/sq/d/2137539840.json" crossorigin="anonymous"/><link as="fetch" rel="preload" href="/blog/page-data/sq/d/2201837728.json" crossorigin="anonymous"/><link as="fetch" rel="preload" href="/blog/page-data/app-data.json" crossorigin="anonymous"/></head><body><div id="___gatsby"><div style="outline:none" tabindex="-1" id="gatsby-focus-wrapper"><nav class="navbar has-background-info-dark" role="navigation"><div class="navbar-brand"><a class="navbar-item has-text-primary-light" href="/blog/">.ごっちの日記</a></div></nav><main class="m-2 has-background-white-ter"><div class="container" data-is-root-path="false"><div class="columns"><div class="column is-three-quarters"><div class="content"><article class="blog-post" itemscope="" itemType="http://schema.org/Article"><h1 itemProp="headline">Shinjuku mokumokuでgRPCチュートリアルをやった</h1><p><small>June 17, 2019</small></p><section itemProp="articleBody"><p>こんにちは、.ごっちです。</p>
+}</style><link as="script" rel="preload" href="/blog/webpack-runtime-83f2035e5cceb0897ec0.js"/><link as="script" rel="preload" href="/blog/framework-de777ff0ab3a85d108fd.js"/><link as="script" rel="preload" href="/blog/app-52434b8b77c0cad20b16.js"/><link as="script" rel="preload" href="/blog/a9a7754c-240c215cee30efe4e4de.js"/><link as="script" rel="preload" href="/blog/commons-e3d1c14ed0c6edd64020.js"/><link as="script" rel="preload" href="/blog/component---src-templates-blog-post-js-8189bd7be38d7732aca5.js"/><link as="fetch" rel="preload" href="/blog/page-data/20190617-shinjuku-mokumokuでgrpcチュートリアルをやった/page-data.json" crossorigin="anonymous"/><link as="fetch" rel="preload" href="/blog/page-data/sq/d/2137539840.json" crossorigin="anonymous"/><link as="fetch" rel="preload" href="/blog/page-data/sq/d/2201837728.json" crossorigin="anonymous"/><link as="fetch" rel="preload" href="/blog/page-data/app-data.json" crossorigin="anonymous"/></head><body><div id="___gatsby"><div style="outline:none" tabindex="-1" id="gatsby-focus-wrapper"><nav class="navbar has-background-info-dark" role="navigation"><div class="navbar-brand"><a class="navbar-item has-text-primary-light" href="/blog/">.ごっちの日記</a></div></nav><main class="m-2 has-background-white-ter"><div class="container" data-is-root-path="false"><div class="columns"><div class="column is-three-quarters"><div class="content"><article class="blog-post" itemscope="" itemType="http://schema.org/Article"><h1 itemProp="headline">Shinjuku mokumokuでgRPCチュートリアルをやった</h1><p><small>June 17, 2019</small></p><section itemProp="articleBody"><p>こんにちは、.ごっちです。</p>
 <p>2019/06/15 土曜日に Repro 株式会社で Shinjuku mokumoku があったので参加してきました。
 <a href="https://shinjuku-moku.connpass.com/event/132730/"><strong>Shinjuku Mokumoku Programming #52 (2019/06/15 11:00〜)</strong>
-<em>ガンガンコードを書く・学ぶ １人だと勉強をサボりそうなオーガナイザーが <del>強制的に</del> ストイックにプログラミングする ための時間を作ることを目的に毎週開催されているもくもく会です。…</em>shinjuku-moku.connpass.com</a></p>
+*ガンガンコードを書く・学ぶ １人だと勉強をサボりそうなオーガナイザーが <del>強制的に</del> ストイックにプログラミングする ための時間を作ることを目的に毎週開催されているもくもく会です。…*shinjuku-moku.connpass.com</a></p>
 <p>—</p>
 <p>やったこととしては、前々から耳にしたことはあったが全く手付かずだった gRPC のチュートリアルを進めていました。</p>
 <p>公式と Qiita を参考に進めました。</p>
 <p>gRPC とはみたいなところは公式ドキュメントを見てください。。はい。
 <a href="https://grpc.io/docs/guides/"><strong>gRPC</strong>
-<em>In gRPC a client application can directly call methods on a server application on a different machine as if it was a…</em>grpc.io</a>
-<a href="https://qiita.com/oohira/items/63b5ccb2bf1a913659d6"><strong>gRPC って何？ - Qiita</strong>
-<em>この記事は、[gRPC](http://www.grpc.io/)…</em>qiita.com</a></p>
+*In gRPC a client application can directly call methods on a server application on a different machine as if it was a…*grpc.io</a>
+[<strong>gRPC って何？ - Qiita</strong>
+*この記事は、<a href="http://www.grpc.io/">gRPC</a>…*qiita.com](<a href="https://qiita.com/oohira/items/63b5ccb2bf1a913659d6">https://qiita.com/oohira/items/63b5ccb2bf1a913659d6</a>)</p>
 <h2>成果</h2>
 <iframe src="https://medium.com/media/8ee00714b41657b8eba552a252ba09d6" frameborder=0></iframe>
 <p>サーバサイドを Go で、クライアントサイドを Ruby でやりました。</p>
 <p>実際のコードは GitHub に公開しています！
 <a href="https://github.com/YutaGoto/hello-grpc"><strong>YutaGoto/hello-grpc</strong>
-<em>Contribute to YutaGoto/hello-grpc development by creating an account on GitHub.</em>github.com</a></p>
+*Contribute to YutaGoto/hello-grpc development by creating an account on GitHub.*github.com</a></p>
 <h2>所感</h2>
 <p>言ってもまだチュートリアルしか触っていませんが、</p>
 <ul>
-<li>インターフェースを.proto にざっくりまとめられているのでよい</li>
-<li>マイクロサービス化しやすそう！</li>
-<li>こういったところで便利！！みたいなところが今の所思いつかなかった。。。。。。。</li>
+<li>
+<p>インターフェースを.proto にざっくりまとめられているのでよい</p>
+</li>
+<li>
+<p>マイクロサービス化しやすそう！</p>
+</li>
+<li>
+<p>こういったところで便利！！みたいなところが今の所思いつかなかった。。。。。。。</p>
+</li>
 </ul>
 <p>このへんはまだ触りでしかやっていないから、もうすこし規模を大きくすると利点欠点が見えてくるかなーとは思いました。実践がかなり難しそうですが、、。</p>
 <p>—</p>
@@ -494,4 +500,4 @@
 
         gtag('config', 'undefined', {"send_page_view":false});
       }
-      </script><script id="gatsby-script-loader">/*<![CDATA[*/window.pagePath="/20190617-shinjuku-mokumokuでgrpcチュートリアルをやった/";/*]]>*/</script><script id="gatsby-chunk-mapping">/*<![CDATA[*/window.___chunkMapping={"polyfill":["/polyfill-e95c07e9d08ea2923c2b.js"],"app":["/app-f804d0eb44ee5b128d68.js"],"component---src-pages-404-js":["/component---src-pages-404-js-97593667e44e4660bc60.js"],"component---src-pages-index-js":["/component---src-pages-index-js-1d39a3dec22a75195bea.js"],"component---src-pages-using-typescript-tsx":["/component---src-pages-using-typescript-tsx-b8eb9a99e36f2b62c45e.js"],"component---src-templates-blog-post-js":["/component---src-templates-blog-post-js-80b04bd1d0942db80757.js"]};/*]]>*/</script><script src="/blog/polyfill-e95c07e9d08ea2923c2b.js" nomodule=""></script><script src="/blog/component---src-templates-blog-post-js-80b04bd1d0942db80757.js" async=""></script><script src="/blog/commons-e3d1c14ed0c6edd64020.js" async=""></script><script src="/blog/a9a7754c-240c215cee30efe4e4de.js" async=""></script><script src="/blog/app-f804d0eb44ee5b128d68.js" async=""></script><script src="/blog/framework-341c3c82f92be86019fb.js" async=""></script><script src="/blog/webpack-runtime-4632608e18c2aa86eb39.js" async=""></script></body></html>
+      </script><script id="gatsby-script-loader">/*<![CDATA[*/window.pagePath="/20190617-shinjuku-mokumokuでgrpcチュートリアルをやった/";/*]]>*/</script><script id="gatsby-chunk-mapping">/*<![CDATA[*/window.___chunkMapping={"polyfill":["/polyfill-39f2b048f8a4421d0db4.js"],"app":["/app-52434b8b77c0cad20b16.js"],"component---src-pages-404-js":["/component---src-pages-404-js-97593667e44e4660bc60.js"],"component---src-pages-index-js":["/component---src-pages-index-js-00744ac2c4b028b30a52.js"],"component---src-pages-using-typescript-tsx":["/component---src-pages-using-typescript-tsx-b8eb9a99e36f2b62c45e.js"],"component---src-templates-blog-post-js":["/component---src-templates-blog-post-js-8189bd7be38d7732aca5.js"]};/*]]>*/</script><script src="/blog/polyfill-39f2b048f8a4421d0db4.js" nomodule=""></script><script src="/blog/component---src-templates-blog-post-js-8189bd7be38d7732aca5.js" async=""></script><script src="/blog/commons-e3d1c14ed0c6edd64020.js" async=""></script><script src="/blog/a9a7754c-240c215cee30efe4e4de.js" async=""></script><script src="/blog/app-52434b8b77c0cad20b16.js" async=""></script><script src="/blog/framework-de777ff0ab3a85d108fd.js" async=""></script><script src="/blog/webpack-runtime-83f2035e5cceb0897ec0.js" async=""></script></body></html>

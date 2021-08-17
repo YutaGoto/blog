@@ -452,7 +452,7 @@
 
 .fad.fa-inverse {
   color: #fff;
-}</style><link as="script" rel="preload" href="/blog/webpack-runtime-4632608e18c2aa86eb39.js"/><link as="script" rel="preload" href="/blog/framework-341c3c82f92be86019fb.js"/><link as="script" rel="preload" href="/blog/app-f804d0eb44ee5b128d68.js"/><link as="script" rel="preload" href="/blog/a9a7754c-240c215cee30efe4e4de.js"/><link as="script" rel="preload" href="/blog/commons-e3d1c14ed0c6edd64020.js"/><link as="script" rel="preload" href="/blog/component---src-templates-blog-post-js-80b04bd1d0942db80757.js"/><link as="fetch" rel="preload" href="/blog/page-data/20161218-botkitを使って社内slackで遊んでいるおはなし/page-data.json" crossorigin="anonymous"/><link as="fetch" rel="preload" href="/blog/page-data/sq/d/2137539840.json" crossorigin="anonymous"/><link as="fetch" rel="preload" href="/blog/page-data/sq/d/2201837728.json" crossorigin="anonymous"/><link as="fetch" rel="preload" href="/blog/page-data/app-data.json" crossorigin="anonymous"/></head><body><div id="___gatsby"><div style="outline:none" tabindex="-1" id="gatsby-focus-wrapper"><nav class="navbar has-background-info-dark" role="navigation"><div class="navbar-brand"><a class="navbar-item has-text-primary-light" href="/blog/">.ごっちの日記</a></div></nav><main class="m-2 has-background-white-ter"><div class="container" data-is-root-path="false"><div class="columns"><div class="column is-three-quarters"><div class="content"><article class="blog-post" itemscope="" itemType="http://schema.org/Article"><h1 itemProp="headline">Botkitを使って社内Slackで遊んでいるおはなし</h1><p><small>December 18, 2016</small></p><section itemProp="articleBody"><p>こんにちは、ごっちです。ちょっとだけ元気です。</p>
+}</style><link as="script" rel="preload" href="/blog/webpack-runtime-83f2035e5cceb0897ec0.js"/><link as="script" rel="preload" href="/blog/framework-de777ff0ab3a85d108fd.js"/><link as="script" rel="preload" href="/blog/app-52434b8b77c0cad20b16.js"/><link as="script" rel="preload" href="/blog/a9a7754c-240c215cee30efe4e4de.js"/><link as="script" rel="preload" href="/blog/commons-e3d1c14ed0c6edd64020.js"/><link as="script" rel="preload" href="/blog/component---src-templates-blog-post-js-8189bd7be38d7732aca5.js"/><link as="fetch" rel="preload" href="/blog/page-data/20161218-botkitを使って社内slackで遊んでいるおはなし/page-data.json" crossorigin="anonymous"/><link as="fetch" rel="preload" href="/blog/page-data/sq/d/2137539840.json" crossorigin="anonymous"/><link as="fetch" rel="preload" href="/blog/page-data/sq/d/2201837728.json" crossorigin="anonymous"/><link as="fetch" rel="preload" href="/blog/page-data/app-data.json" crossorigin="anonymous"/></head><body><div id="___gatsby"><div style="outline:none" tabindex="-1" id="gatsby-focus-wrapper"><nav class="navbar has-background-info-dark" role="navigation"><div class="navbar-brand"><a class="navbar-item has-text-primary-light" href="/blog/">.ごっちの日記</a></div></nav><main class="m-2 has-background-white-ter"><div class="container" data-is-root-path="false"><div class="columns"><div class="column is-three-quarters"><div class="content"><article class="blog-post" itemscope="" itemType="http://schema.org/Article"><h1 itemProp="headline">Botkitを使って社内Slackで遊んでいるおはなし</h1><p><small>December 18, 2016</small></p><section itemProp="articleBody"><p>こんにちは、ごっちです。ちょっとだけ元気です。</p>
 <p>最近は本業とは別に SlackBot を開発していたりしているので、そのことについて書いていきます。</p>
 <p>なんか面白くしたいなぁとか思いながらこういう記事を発見するというやつです。</p>
 <p><a href="https://bita.jp/dml/slack_botkit">SlackBot を作るならコレ一択！Watson との連携で注目が高まる Botkit をつかってみた</a></p>
@@ -461,8 +461,8 @@
 <p>リリース方法とかは上のリンクから辿ってほしいけれども、かなりかんたんにリリースできます！すばらしや。。。</p>
 <p>なんかテキトーに作ったやつを紹介していきます。</p>
 <h3>あらかじめ登録したものの反応について</h3>
-<p><img src="https://cdn-images-1.medium.com/max/2000/0*v-jEXJb7Eo1j4iIl.PNG"></p>
-<p>controller.hears([‘こんにちは’], ‘direct<em>message,direct</em>mention,mention’, function (bot, message) {
+<p><img src="https://cdn-images-1.medium.com/max/2000/0*v-jEXJb7Eo1j4iIl.PNG" alt=""></p>
+<p>controller.hears([‘こんにちは’], ‘direct_message,direct_mention,mention’, function (bot, message) {
 var helloTalk = [
 ‘こんにちは！私は <em>Botkit 製の Bot</em> です！’,
 ‘こんにちは！調子はいかがですか？’,
@@ -474,21 +474,21 @@ var selectHelloTalk = helloTalk[Math.floor(Math.random() * helloTalk.length)];
 bot.reply(message, selectHelloTalk);
 });</p>
 <p>こんにちはに反応して、ランダムで反応します。。</p>
-<p><img src="https://cdn-images-1.medium.com/max/2000/0*Dzo5kpRtm0S1i9V2.PNG"></p>
+<p><img src="https://cdn-images-1.medium.com/max/2000/0*Dzo5kpRtm0S1i9V2.PNG" alt=""></p>
 <div class="gatsby-highlight" data-language="text"><pre class="language-text"><code class="language-text">controller.hears([‘昼ごはん’, ‘おなかすいた’, ‘お腹すいた’], direct_message,direct_mention,mention’, function (bot, message) {
  var lunch = [‘中華’, ‘そば’, ‘にいむら’, ‘オリジンキッチン’, ‘もちもち’, ‘丸亀製麺’, ‘裏の中華’, ‘インドカレー’, ‘ココイチ’, ‘代々木ビレッジ’, ‘カレーメシ’, ‘おにぎり’, ‘もやし炒め’, ‘ケナリ’, ‘信長’, ‘バリスタ’, ‘トルコ’, ‘冷やし中華’, ‘ビール’, ‘食べない’];
  var lunchTalk = lunch[Math.floor(Math.random() * lunch.length)];
  bot.reply(message, lunchTalk);
 });</code></pre></div>
 <p>おなかすいた！とかに反応して、ごはん（オフィスの近くにあるお店とか）をおすすめします。ここまで長い配列にするなら DB かべつ JSON でもいいかもしれないですね。。。</p>
-<p><img src="https://cdn-images-1.medium.com/max/2000/0*EmkNAfB5eFhpY8yb.PNG"></p>
+<p><img src="https://cdn-images-1.medium.com/max/2000/0*EmkNAfB5eFhpY8yb.PNG" alt=""></p>
 <div class="gatsby-highlight" data-language="text"><pre class="language-text"><code class="language-text">controller.hears([‘お御籤’, ‘御御籤’, ‘お神籤’, ‘御神籤’, ‘おみくじ’],direct_message,direct_mention,mention’, function (bot, message) {
  var omikujiArray = [‘吉’ ,’小吉’ ,’大吉’ ,’中吉’ ,’半吉’ ,’末小吉’ ,’末吉’ ,’凶’ ,’半凶’ ,’小凶’ ,’末凶’ ,’大凶’, ‘古’, ‘キチ’, ‘区’, ‘(๑•̀ㅂ•́)و✧’];
  var omikujiResult = omikujiArray[Math.floor(Math.random() * omikujiArray.length)];
  bot.reply(message, ‘*’ + omikujiResult + ‘*’);
 });</code></pre></div>
 <p>おみくじできます。おみくじの回答とはまったく関係のないものも含まれていますが、そこはご愛嬌です。</p>
-<p><img src="https://cdn-images-1.medium.com/max/2000/0*AYAK6AZ3G3OQGi7q.PNG"></p>
+<p><img src="https://cdn-images-1.medium.com/max/2000/0*AYAK6AZ3G3OQGi7q.PNG" alt=""></p>
 <div class="gatsby-highlight" data-language="text"><pre class="language-text"><code class="language-text">controller.hears([‘じゃんけん’], ‘direct_message,direct_mention,mention’, function (bot, message) {function sayAiko(convo) {
     convo.say('あいこですね。また遊びましょう！:wink:');
 }
@@ -576,7 +576,7 @@ bot.startConversation(message, function (err, convo) {
 <p>ただ、じゃんけんの判定をもうちょっとどうにかできそうな感じがあるのでリファクタリングしたいところですよね。</p>
 <p>API に問い合わせて反応させるもの</p>
 <p><a href="http://smsurf.app-rox.com/api/">API List 100+</a>にあったものを試していっています。</p>
-<p><img src="https://cdn-images-1.medium.com/max/2000/0*ODDSxol62wBhbYT0.png"></p>
+<p><img src="https://cdn-images-1.medium.com/max/2000/0*ODDSxol62wBhbYT0.png" alt=""></p>
 <div class="gatsby-highlight" data-language="text"><pre class="language-text"><code class="language-text">controller.hears(['旅行先’], 'direct_message,direct_mention,mention,ambient’, function (bot, message) {
     function getCity(prefecture) {
         var http = require('http’);
@@ -647,7 +647,7 @@ getPrefecture();
 });</code></pre></div>
 <p>天気とつぶやくと、東京の今日または明日の天気と最高気温を返します。わりと実用的かもしれません。</p>
 <p>三項演算子を使っているところと使っていないところが混ざっているのでリファクタ対象ですね。レスポンスに Null が存在しててエラーになるという、、ちょっと対策せねば。。。</p>
-<p><img src="https://cdn-images-1.medium.com/max/3288/0*VAalKSTLAVaWtsIr.PNG"></p>
+<p><img src="https://cdn-images-1.medium.com/max/3288/0*VAalKSTLAVaWtsIr.PNG" alt=""></p>
 <div class="gatsby-highlight" data-language="text"><pre class="language-text"><code class="language-text">controller.hears(['(.+)って何'], 'direct_message,direct_mention,mention', function (bot, message) {
     var thing = message.match[1];
     var encodeThing = encodeURI(thing);
@@ -674,7 +674,7 @@ getPrefecture();
     });
 });</code></pre></div>
 <p>hoge って何？で hoge について Wikipedia します。っでいい感じに Description を返答します。</p>
-<p><img src="https://cdn-images-1.medium.com/max/2516/0*txjc6AuIBUsh0Rjj.PNG"></p>
+<p><img src="https://cdn-images-1.medium.com/max/2516/0*txjc6AuIBUsh0Rjj.PNG" alt=""></p>
 <div class="gatsby-highlight" data-language="text"><pre class="language-text"><code class="language-text">controller.hears(['(.+)でニュース検索'], 'direct_message,direct_mention,mention', function (bot, message) {
     var thing = message.match[1];
     var encodeThing = encodeURI(thing);
@@ -712,7 +712,7 @@ getPrefecture();
     });
 });</code></pre></div>
 <p>hoge でニュース検索！と呼びかけると、hoge に関するニコニコニュースを検索して返答します。オープンなニュースサイトの API がなかったのでこれを採用。。。URL の生成も <a href="http://nico.ms/">http://nico.ms/</a> + val.contentId なので、結構楽ちんですね。</p>
-<p><img src="https://cdn-images-1.medium.com/max/2000/0*pfWLOiv4sOvp6ftm.PNG"></p>
+<p><img src="https://cdn-images-1.medium.com/max/2000/0*pfWLOiv4sOvp6ftm.PNG" alt=""></p>
 <div class="gatsby-highlight" data-language="text"><pre class="language-text"><code class="language-text">controller.hears(['(.+)でお店を検索'], 'direct_message,direct_mention,mention,ambient', function (bot, message) {
     var http = require('http');
     var thing = message.match[1];
@@ -770,4 +770,4 @@ getPrefecture();
 
         gtag('config', 'undefined', {"send_page_view":false});
       }
-      </script><script id="gatsby-script-loader">/*<![CDATA[*/window.pagePath="/20161218-botkitを使って社内slackで遊んでいるおはなし/";/*]]>*/</script><script id="gatsby-chunk-mapping">/*<![CDATA[*/window.___chunkMapping={"polyfill":["/polyfill-e95c07e9d08ea2923c2b.js"],"app":["/app-f804d0eb44ee5b128d68.js"],"component---src-pages-404-js":["/component---src-pages-404-js-97593667e44e4660bc60.js"],"component---src-pages-index-js":["/component---src-pages-index-js-1d39a3dec22a75195bea.js"],"component---src-pages-using-typescript-tsx":["/component---src-pages-using-typescript-tsx-b8eb9a99e36f2b62c45e.js"],"component---src-templates-blog-post-js":["/component---src-templates-blog-post-js-80b04bd1d0942db80757.js"]};/*]]>*/</script><script src="/blog/polyfill-e95c07e9d08ea2923c2b.js" nomodule=""></script><script src="/blog/component---src-templates-blog-post-js-80b04bd1d0942db80757.js" async=""></script><script src="/blog/commons-e3d1c14ed0c6edd64020.js" async=""></script><script src="/blog/a9a7754c-240c215cee30efe4e4de.js" async=""></script><script src="/blog/app-f804d0eb44ee5b128d68.js" async=""></script><script src="/blog/framework-341c3c82f92be86019fb.js" async=""></script><script src="/blog/webpack-runtime-4632608e18c2aa86eb39.js" async=""></script></body></html>
+      </script><script id="gatsby-script-loader">/*<![CDATA[*/window.pagePath="/20161218-botkitを使って社内slackで遊んでいるおはなし/";/*]]>*/</script><script id="gatsby-chunk-mapping">/*<![CDATA[*/window.___chunkMapping={"polyfill":["/polyfill-39f2b048f8a4421d0db4.js"],"app":["/app-52434b8b77c0cad20b16.js"],"component---src-pages-404-js":["/component---src-pages-404-js-97593667e44e4660bc60.js"],"component---src-pages-index-js":["/component---src-pages-index-js-00744ac2c4b028b30a52.js"],"component---src-pages-using-typescript-tsx":["/component---src-pages-using-typescript-tsx-b8eb9a99e36f2b62c45e.js"],"component---src-templates-blog-post-js":["/component---src-templates-blog-post-js-8189bd7be38d7732aca5.js"]};/*]]>*/</script><script src="/blog/polyfill-39f2b048f8a4421d0db4.js" nomodule=""></script><script src="/blog/component---src-templates-blog-post-js-8189bd7be38d7732aca5.js" async=""></script><script src="/blog/commons-e3d1c14ed0c6edd64020.js" async=""></script><script src="/blog/a9a7754c-240c215cee30efe4e4de.js" async=""></script><script src="/blog/app-52434b8b77c0cad20b16.js" async=""></script><script src="/blog/framework-de777ff0ab3a85d108fd.js" async=""></script><script src="/blog/webpack-runtime-83f2035e5cceb0897ec0.js" async=""></script></body></html>

@@ -452,35 +452,35 @@
 
 .fad.fa-inverse {
   color: #fff;
-}</style><link as="script" rel="preload" href="/blog/webpack-runtime-4632608e18c2aa86eb39.js"/><link as="script" rel="preload" href="/blog/framework-341c3c82f92be86019fb.js"/><link as="script" rel="preload" href="/blog/app-f804d0eb44ee5b128d68.js"/><link as="script" rel="preload" href="/blog/a9a7754c-240c215cee30efe4e4de.js"/><link as="script" rel="preload" href="/blog/commons-e3d1c14ed0c6edd64020.js"/><link as="script" rel="preload" href="/blog/component---src-templates-blog-post-js-80b04bd1d0942db80757.js"/><link as="fetch" rel="preload" href="/blog/page-data/20190819-hello-world-ktor/page-data.json" crossorigin="anonymous"/><link as="fetch" rel="preload" href="/blog/page-data/sq/d/2137539840.json" crossorigin="anonymous"/><link as="fetch" rel="preload" href="/blog/page-data/sq/d/2201837728.json" crossorigin="anonymous"/><link as="fetch" rel="preload" href="/blog/page-data/app-data.json" crossorigin="anonymous"/></head><body><div id="___gatsby"><div style="outline:none" tabindex="-1" id="gatsby-focus-wrapper"><nav class="navbar has-background-info-dark" role="navigation"><div class="navbar-brand"><a class="navbar-item has-text-primary-light" href="/blog/">.ごっちの日記</a></div></nav><main class="m-2 has-background-white-ter"><div class="container" data-is-root-path="false"><div class="columns"><div class="column is-three-quarters"><div class="content"><article class="blog-post" itemscope="" itemType="http://schema.org/Article"><h1 itemProp="headline">Hello World! Ktor</h1><p><small>August 19, 2019</small></p><section itemProp="articleBody"><p>こんにちは、.ごっちです。</p>
+}</style><link as="script" rel="preload" href="/blog/webpack-runtime-83f2035e5cceb0897ec0.js"/><link as="script" rel="preload" href="/blog/framework-de777ff0ab3a85d108fd.js"/><link as="script" rel="preload" href="/blog/app-52434b8b77c0cad20b16.js"/><link as="script" rel="preload" href="/blog/a9a7754c-240c215cee30efe4e4de.js"/><link as="script" rel="preload" href="/blog/commons-e3d1c14ed0c6edd64020.js"/><link as="script" rel="preload" href="/blog/component---src-templates-blog-post-js-8189bd7be38d7732aca5.js"/><link as="fetch" rel="preload" href="/blog/page-data/20190819-hello-world-ktor/page-data.json" crossorigin="anonymous"/><link as="fetch" rel="preload" href="/blog/page-data/sq/d/2137539840.json" crossorigin="anonymous"/><link as="fetch" rel="preload" href="/blog/page-data/sq/d/2201837728.json" crossorigin="anonymous"/><link as="fetch" rel="preload" href="/blog/page-data/app-data.json" crossorigin="anonymous"/></head><body><div id="___gatsby"><div style="outline:none" tabindex="-1" id="gatsby-focus-wrapper"><nav class="navbar has-background-info-dark" role="navigation"><div class="navbar-brand"><a class="navbar-item has-text-primary-light" href="/blog/">.ごっちの日記</a></div></nav><main class="m-2 has-background-white-ter"><div class="container" data-is-root-path="false"><div class="columns"><div class="column is-three-quarters"><div class="content"><article class="blog-post" itemscope="" itemType="http://schema.org/Article"><h1 itemProp="headline">Hello World! Ktor</h1><p><small>August 19, 2019</small></p><section itemProp="articleBody"><p>こんにちは、.ごっちです。</p>
 <p>ちょっと前から気になっていた Kotlin をこの土日で触っていたので、備忘録で環境構築のことについて書きます。</p>
 <p>Kotlin なので Android アプリでも良かったんですが、そこまで作りたいものもないのとサーバサードエンジニアを名乗っているので、Web アプリケーションのフレームワークである <strong>Ktor</strong> を触ってみました</p>
 <h2>Ktor</h2>
-<p><img src="https://cdn-images-1.medium.com/max/8870/1*4aBfRqsFco67-aiA1EFFmg.png">
+<p><img src="https://cdn-images-1.medium.com/max/8870/1*4aBfRqsFco67-aiA1EFFmg.png" alt="">
 <a href="https://ktor.io/"><strong>Ktor - asynchronous Web framework for Kotlin</strong>
-<em>Ktor is a framework for building asynchronous servers and clients in connected systems using the powerful Kotlin…</em>ktor.io</a></p>
+*Ktor is a framework for building asynchronous servers and clients in connected systems using the powerful Kotlin…*ktor.io</a></p>
 <p>Kotlin 製の Web アプリケーションのフレームワークのことです。</p>
 <h2>環境構築</h2>
 <p><a href="https://ktor.io/quickstart/quickstart/intellij-idea.html"><strong>Quick Start IntelliJ IDEA</strong>
-<em>There is a IntelliJ plugin adding a project wizard for Ktor projects. It will configure a project for you, it will…</em>ktor.io</a></p>
+*There is a IntelliJ plugin adding a project wizard for Ktor projects. It will configure a project for you, it will…*ktor.io</a></p>
 <p>JetBrain の IntelliJ IDEA を使ったものを参考にすすめました。</p>
 <p>最初に Java SDK を Oracle のページから落としてきます(これを見つけるのに 3 時間くらい探し回った)
 <a href="https://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html"><strong>Java SE Development Kit 8 Downloads</strong>
-<em>Thank you for downloading this release of the Java™ Platform, Standard Edition Development Kit (JDK™). The JDK is a…</em>www.oracle.com</a></p>
+*Thank you for downloading this release of the Java™ Platform, Standard Edition Development Kit (JDK™). The JDK is a…*www.oracle.com</a></p>
 <p>あと、IntelliJ IDEA の Community Edition も公式から落としてきます。Community Edition は無料で使えるのでいいですね！！！
 <a href="https://www.jetbrains.com/idea/"><strong>IntelliJ IDEA: The Java IDE for Professional Developers by JetBrains</strong>
-<em>A Capable and Ergonomic Java IDE for Enterprise Java, Scala, Kotlin and much more…</em>www.jetbrains.com</a></p>
+*A Capable and Ergonomic Java IDE for Enterprise Java, Scala, Kotlin and much more…*www.jetbrains.com</a></p>
 <p>IntelliJ IDEA を立ち上げたら速攻で環境設定を開いて Ktor というプラグインをいれます。</p>
-<p><img src="https://cdn-images-1.medium.com/max/2028/1*hnesuBJ3w_8RJGSXb4On6g.png"></p>
+<p><img src="https://cdn-images-1.medium.com/max/2028/1*hnesuBJ3w_8RJGSXb4On6g.png" alt=""></p>
 <p>いれたら、プロジェクトを新規作成します。</p>
 <p>新規作成で Ktor を選択します。サーバーとクライアントはいい感じのものを選びます。今回はサーバーを Freemaker、クライアントを Apache HttpClient Engine にしました。</p>
-<p><img src="https://cdn-images-1.medium.com/max/2424/1*J2mq-BBM23GaL0u23Lkv1Q.png"></p>
+<p><img src="https://cdn-images-1.medium.com/max/2424/1*J2mq-BBM23GaL0u23Lkv1Q.png" alt=""></p>
 <p>新規作成が完了すると、そこそこな数のファイルができあがります。</p>
-<p><img src="https://cdn-images-1.medium.com/max/2800/1*2BVLjm_chF0nNg6CYvEdOA.png"></p>
+<p><img src="https://cdn-images-1.medium.com/max/2800/1*2BVLjm_chF0nNg6CYvEdOA.png" alt=""></p>
 <p>ひとまず動くかどうかみたいので、 Application.tk の main 関数の横にある ▶ のメニューを開いて実行します。</p>
-<p><img src="https://cdn-images-1.medium.com/max/2000/1*ZQqTwpnGrTo9Gi2_22GWdw.png"></p>
+<p><img src="https://cdn-images-1.medium.com/max/2000/1*ZQqTwpnGrTo9Gi2_22GWdw.png" alt=""></p>
 <p>build が終わると <a href="http://0.0.0.0:8080">http://0.0.0.0:8080</a> にアクセスできそうなリンクがログに表示されるので、実際にアクセスしてみます。 実際は 0.0.0.0 じゃなくても localhost でもアクセスできます。</p>
-<p><img src="https://cdn-images-1.medium.com/max/2000/1*fXG6AnFZVn1PpmKKAdbYXw.png"></p>
+<p><img src="https://cdn-images-1.medium.com/max/2000/1*fXG6AnFZVn1PpmKKAdbYXw.png" alt=""></p>
 <p>このように表示されたら問題なしです。ここまでできれば一旦環境はできあがり！</p>
 <h2>ちょっといじる</h2>
 <p>ひとまずページを追加したいので、 application.tk にある routing を増やします。</p>
@@ -502,14 +502,14 @@
 &lt;/html></code></pre></div>
 <p>Freemarker 用のファイルになっているらしいです。
 <a href="https://freemarker.apache.org/"><strong>What is Apache FreeMarker™?</strong>
-<em>Apache FreeMarker™ is a template engine: a Java library to generate text output (HTML web pages, e-mails, configuration…</em>freemarker.apache.org</a></p>
+*Apache FreeMarker™ is a template engine: a Java library to generate text output (HTML web pages, e-mails, configuration…*freemarker.apache.org</a></p>
 <p>ここまでできたら、再度実行しなおしてアクセスしてみます。</p>
-<p><img src="https://cdn-images-1.medium.com/max/2000/1*wyTeGfD3cqN7rXjFfWp-0A.png"></p>
+<p><img src="https://cdn-images-1.medium.com/max/2000/1*wyTeGfD3cqN7rXjFfWp-0A.png" alt=""></p>
 <p>こんな感じのページになっていたら OK です！</p>
 <h2>テスト</h2>
 <p>Ktor のプロジェクトを作るとデフォルトでテスト用のファイルとディレクトリが生成されるので、早速試してみます。
 <a href="https://github.com/zensum/ktor-prometheus-feature/blob/master/.circleci/config.yml"><strong>zensum/ktor-prometheus-feature</strong>
-<em>You can’t perform that action at this time. You signed in with another tab or window. You signed out in another tab or…</em>github.com</a></p>
+*You can’t perform that action at this time. You signed in with another tab or window. You signed out in another tab or…*github.com</a></p>
 <p>このプロジェクトの設定をお借りします。</p>
 <div class="gatsby-highlight" data-language="text"><pre class="language-text"><code class="language-text">version: 2
 jobs:
@@ -536,13 +536,13 @@ workflows:
       - test</code></pre></div>
 <p>gradle さえ入れておけば動くのでそうしてみました。CircleCI 公式の gradle の docker プロジェクトはなさそうだったので、gradle 公式のものを拝借しました。もしかしたらあるかもしれないですが、そこまでこだわる必要もないので一旦このままで行きます。
 <a href="https://hub.docker.com/_/gradle"><strong>gradle - Docker Hub</strong>
-<em>Gradle is a build tool with a focus on build automation and support for multi-language development.</em>hub.docker.com</a></p>
+*Gradle is a build tool with a focus on build automation and support for multi-language development.*hub.docker.com</a></p>
 <p>GitHub へプッシュして実行させます。</p>
-<p><img src="https://cdn-images-1.medium.com/max/2000/1*liDVxDjozN4DpK7dxK0btw.png"></p>
+<p><img src="https://cdn-images-1.medium.com/max/2000/1*liDVxDjozN4DpK7dxK0btw.png" alt=""></p>
 <p>とくに問題なければ ✅ になるはずです。</p>
 <h2>今回のソース</h2>
 <p><a href="https://github.com/YutaGoto/helloKtor"><strong>YutaGoto/helloKtor</strong>
-<em>You can’t perform that action at this time. You signed in with another tab or window. You signed out in another tab or…</em>github.com</a></p>
+*You can’t perform that action at this time. You signed in with another tab or window. You signed out in another tab or…*github.com</a></p>
 <p>ここにあります。</p>
 <h2>所感</h2>
 <p>Ruby や Python と違って環境構築が微妙に大変でした。（とくに JDK 周りが）</p>
@@ -558,4 +558,4 @@ workflows:
 
         gtag('config', 'undefined', {"send_page_view":false});
       }
-      </script><script id="gatsby-script-loader">/*<![CDATA[*/window.pagePath="/20190819-hello-world-ktor/";/*]]>*/</script><script id="gatsby-chunk-mapping">/*<![CDATA[*/window.___chunkMapping={"polyfill":["/polyfill-e95c07e9d08ea2923c2b.js"],"app":["/app-f804d0eb44ee5b128d68.js"],"component---src-pages-404-js":["/component---src-pages-404-js-97593667e44e4660bc60.js"],"component---src-pages-index-js":["/component---src-pages-index-js-1d39a3dec22a75195bea.js"],"component---src-pages-using-typescript-tsx":["/component---src-pages-using-typescript-tsx-b8eb9a99e36f2b62c45e.js"],"component---src-templates-blog-post-js":["/component---src-templates-blog-post-js-80b04bd1d0942db80757.js"]};/*]]>*/</script><script src="/blog/polyfill-e95c07e9d08ea2923c2b.js" nomodule=""></script><script src="/blog/component---src-templates-blog-post-js-80b04bd1d0942db80757.js" async=""></script><script src="/blog/commons-e3d1c14ed0c6edd64020.js" async=""></script><script src="/blog/a9a7754c-240c215cee30efe4e4de.js" async=""></script><script src="/blog/app-f804d0eb44ee5b128d68.js" async=""></script><script src="/blog/framework-341c3c82f92be86019fb.js" async=""></script><script src="/blog/webpack-runtime-4632608e18c2aa86eb39.js" async=""></script></body></html>
+      </script><script id="gatsby-script-loader">/*<![CDATA[*/window.pagePath="/20190819-hello-world-ktor/";/*]]>*/</script><script id="gatsby-chunk-mapping">/*<![CDATA[*/window.___chunkMapping={"polyfill":["/polyfill-39f2b048f8a4421d0db4.js"],"app":["/app-52434b8b77c0cad20b16.js"],"component---src-pages-404-js":["/component---src-pages-404-js-97593667e44e4660bc60.js"],"component---src-pages-index-js":["/component---src-pages-index-js-00744ac2c4b028b30a52.js"],"component---src-pages-using-typescript-tsx":["/component---src-pages-using-typescript-tsx-b8eb9a99e36f2b62c45e.js"],"component---src-templates-blog-post-js":["/component---src-templates-blog-post-js-8189bd7be38d7732aca5.js"]};/*]]>*/</script><script src="/blog/polyfill-39f2b048f8a4421d0db4.js" nomodule=""></script><script src="/blog/component---src-templates-blog-post-js-8189bd7be38d7732aca5.js" async=""></script><script src="/blog/commons-e3d1c14ed0c6edd64020.js" async=""></script><script src="/blog/a9a7754c-240c215cee30efe4e4de.js" async=""></script><script src="/blog/app-52434b8b77c0cad20b16.js" async=""></script><script src="/blog/framework-de777ff0ab3a85d108fd.js" async=""></script><script src="/blog/webpack-runtime-83f2035e5cceb0897ec0.js" async=""></script></body></html>

@@ -452,15 +452,25 @@
 
 .fad.fa-inverse {
   color: #fff;
-}</style><link as="script" rel="preload" href="/blog/webpack-runtime-4632608e18c2aa86eb39.js"/><link as="script" rel="preload" href="/blog/framework-341c3c82f92be86019fb.js"/><link as="script" rel="preload" href="/blog/app-f804d0eb44ee5b128d68.js"/><link as="script" rel="preload" href="/blog/a9a7754c-240c215cee30efe4e4de.js"/><link as="script" rel="preload" href="/blog/commons-e3d1c14ed0c6edd64020.js"/><link as="script" rel="preload" href="/blog/component---src-templates-blog-post-js-80b04bd1d0942db80757.js"/><link as="fetch" rel="preload" href="/blog/page-data/20170501-mastodonをraspberrypiで立ち上げようとしたお話-失敗/page-data.json" crossorigin="anonymous"/><link as="fetch" rel="preload" href="/blog/page-data/sq/d/2137539840.json" crossorigin="anonymous"/><link as="fetch" rel="preload" href="/blog/page-data/sq/d/2201837728.json" crossorigin="anonymous"/><link as="fetch" rel="preload" href="/blog/page-data/app-data.json" crossorigin="anonymous"/></head><body><div id="___gatsby"><div style="outline:none" tabindex="-1" id="gatsby-focus-wrapper"><nav class="navbar has-background-info-dark" role="navigation"><div class="navbar-brand"><a class="navbar-item has-text-primary-light" href="/blog/">.ごっちの日記</a></div></nav><main class="m-2 has-background-white-ter"><div class="container" data-is-root-path="false"><div class="columns"><div class="column is-three-quarters"><div class="content"><article class="blog-post" itemscope="" itemType="http://schema.org/Article"><h1 itemProp="headline">MastodonをRaspberryPiで立ち上げようとしたお話（失敗）</h1><p><small>May 01, 2017</small></p><section itemProp="articleBody"><p>どうもこんにちは。ごっちです。</p>
+}</style><link as="script" rel="preload" href="/blog/webpack-runtime-83f2035e5cceb0897ec0.js"/><link as="script" rel="preload" href="/blog/framework-de777ff0ab3a85d108fd.js"/><link as="script" rel="preload" href="/blog/app-52434b8b77c0cad20b16.js"/><link as="script" rel="preload" href="/blog/a9a7754c-240c215cee30efe4e4de.js"/><link as="script" rel="preload" href="/blog/commons-e3d1c14ed0c6edd64020.js"/><link as="script" rel="preload" href="/blog/component---src-templates-blog-post-js-8189bd7be38d7732aca5.js"/><link as="fetch" rel="preload" href="/blog/page-data/20170501-mastodonをraspberrypiで立ち上げようとしたお話-失敗/page-data.json" crossorigin="anonymous"/><link as="fetch" rel="preload" href="/blog/page-data/sq/d/2137539840.json" crossorigin="anonymous"/><link as="fetch" rel="preload" href="/blog/page-data/sq/d/2201837728.json" crossorigin="anonymous"/><link as="fetch" rel="preload" href="/blog/page-data/app-data.json" crossorigin="anonymous"/></head><body><div id="___gatsby"><div style="outline:none" tabindex="-1" id="gatsby-focus-wrapper"><nav class="navbar has-background-info-dark" role="navigation"><div class="navbar-brand"><a class="navbar-item has-text-primary-light" href="/blog/">.ごっちの日記</a></div></nav><main class="m-2 has-background-white-ter"><div class="container" data-is-root-path="false"><div class="columns"><div class="column is-three-quarters"><div class="content"><article class="blog-post" itemscope="" itemType="http://schema.org/Article"><h1 itemProp="headline">MastodonをRaspberryPiで立ち上げようとしたお話（失敗）</h1><p><small>May 01, 2017</small></p><section itemProp="articleBody"><p>どうもこんにちは。ごっちです。</p>
 <p><a href="https://medium.com/@gggooottto/%E3%83%A1%E3%83%B3%E3%82%BF%E3%83%AB%E7%99%82%E9%A4%8A-4b5edd377906">お休み</a>中で時間がそこそこあるので、いま話題の Mastodon を RaspberryPi で立ち上げようとしてみたお話。</p>
 <p>用意したものはこちら</p>
 <ul>
-<li>RaspberryPi <a href="https://www.raspberrypi.org/products/model-b/">https://www.raspberrypi.org/products/model-b/</a></li>
-<li>4 年前に買ったもので、初期型のもの</li>
-<li>Memory: 512MB</li>
-<li>SD カード 16GB</li>
-<li>Raspbian Jessie Lite (4.4)</li>
+<li>
+<p>RaspberryPi <a href="https://www.raspberrypi.org/products/model-b/">https://www.raspberrypi.org/products/model-b/</a></p>
+</li>
+<li>
+<p>4 年前に買ったもので、初期型のもの</p>
+</li>
+<li>
+<p>Memory: 512MB</p>
+</li>
+<li>
+<p>SD カード 16GB</p>
+</li>
+<li>
+<p>Raspbian Jessie Lite (4.4)</p>
+</li>
 </ul>
 <p>RaspberryPi のインストール方法は割愛します。</p>
 <p>っで今回参考にしたサイトがこちら。</p>
@@ -560,7 +570,7 @@ latest: Pulling from armhf/redis
 # もろもろインストールしたりするので、かなり時間がかかるのでゼルダでもやりながら気長に待つ
 $</code></pre></div>
 <h2>secrets を用意する</h2>
-<p>.env.production の PAPERCLIP<em>SECRET SECRET</em>KEY<em>BASE OTP</em>SECRET が設定されていないので生成する。</p>
+<p>.env.production の PAPERCLIP_SECRET SECRET_KEY_BASE OTP_SECRET が設定されていないので生成する。</p>
 <div class="gatsby-highlight" data-language="text"><pre class="language-text"><code class="language-text">$ sudo docker-compose run --rm web rake secret
 なんか長い文字列1
 $ sudo docker-compose run --rm web rake secret
@@ -632,12 +642,24 @@ I, [2017-04-26T13:06:02.868396 #1]  INFO -- : Writing /mastodon/public/assets/vo
 <p>3, 4 日がんばりましたが、起動しませんでした。ありがとうございました。</p>
 <h2>References</h2>
 <ul>
-<li>Raspberry Pi に mastodon インスタンスを立ち上げてみる（成功） <a href="https://uehatsu.info/tech/archives/2017/04/raspberry-pimastodon.html">https://uehatsu.info/tech/archives/2017/04/raspberry-pimastodon.html</a></li>
-<li>Raspberry Pi 1 Model B <a href="https://www.raspberrypi.org/products/model-b/">https://www.raspberrypi.org/products/model-b/</a></li>
-<li>Raspberry Pi の swap 領域変更 <a href="http://qapla.blog52.fc2.com/blog-entry-296.html">http://qapla.blog52.fc2.com/blog-entry-296.html</a></li>
-<li>t0rx/rpi-docker-compose <a href="https://hub.docker.com/r/t0rx/rpi-docker-compose/">https://hub.docker.com/r/t0rx/rpi-docker-compose/</a></li>
-<li>tootsuite/mastodon <a href="https://github.com/tootsuite/mastodon">https://github.com/tootsuite/mastodon</a></li>
-<li>Docker comes to Raspberry Pi <a href="https://www.raspberrypi.org/blog/docker-comes-to-raspberry-pi/">https://www.raspberrypi.org/blog/docker-comes-to-raspberry-pi/</a></li>
+<li>
+<p>Raspberry Pi に mastodon インスタンスを立ち上げてみる（成功） <a href="https://uehatsu.info/tech/archives/2017/04/raspberry-pimastodon.html">https://uehatsu.info/tech/archives/2017/04/raspberry-pimastodon.html</a></p>
+</li>
+<li>
+<p>Raspberry Pi 1 Model B <a href="https://www.raspberrypi.org/products/model-b/">https://www.raspberrypi.org/products/model-b/</a></p>
+</li>
+<li>
+<p>Raspberry Pi の swap 領域変更 <a href="http://qapla.blog52.fc2.com/blog-entry-296.html">http://qapla.blog52.fc2.com/blog-entry-296.html</a></p>
+</li>
+<li>
+<p>t0rx/rpi-docker-compose <a href="https://hub.docker.com/r/t0rx/rpi-docker-compose/">https://hub.docker.com/r/t0rx/rpi-docker-compose/</a></p>
+</li>
+<li>
+<p>tootsuite/mastodon <a href="https://github.com/tootsuite/mastodon">https://github.com/tootsuite/mastodon</a></p>
+</li>
+<li>
+<p>Docker comes to Raspberry Pi <a href="https://www.raspberrypi.org/blog/docker-comes-to-raspberry-pi/">https://www.raspberrypi.org/blog/docker-comes-to-raspberry-pi/</a></p>
+</li>
 </ul>
 <p><em>Originally published at <a href="https://gist.github.com/YutaGoto/5605e95137e05fce76c2641cad4bc74d">gist.github.com</a>.</em></p>
 <h3>追記</h3>
@@ -651,4 +673,4 @@ I, [2017-04-26T13:06:02.868396 #1]  INFO -- : Writing /mastodon/public/assets/vo
 
         gtag('config', 'undefined', {"send_page_view":false});
       }
-      </script><script id="gatsby-script-loader">/*<![CDATA[*/window.pagePath="/20170501-mastodonをraspberrypiで立ち上げようとしたお話-失敗/";/*]]>*/</script><script id="gatsby-chunk-mapping">/*<![CDATA[*/window.___chunkMapping={"polyfill":["/polyfill-e95c07e9d08ea2923c2b.js"],"app":["/app-f804d0eb44ee5b128d68.js"],"component---src-pages-404-js":["/component---src-pages-404-js-97593667e44e4660bc60.js"],"component---src-pages-index-js":["/component---src-pages-index-js-1d39a3dec22a75195bea.js"],"component---src-pages-using-typescript-tsx":["/component---src-pages-using-typescript-tsx-b8eb9a99e36f2b62c45e.js"],"component---src-templates-blog-post-js":["/component---src-templates-blog-post-js-80b04bd1d0942db80757.js"]};/*]]>*/</script><script src="/blog/polyfill-e95c07e9d08ea2923c2b.js" nomodule=""></script><script src="/blog/component---src-templates-blog-post-js-80b04bd1d0942db80757.js" async=""></script><script src="/blog/commons-e3d1c14ed0c6edd64020.js" async=""></script><script src="/blog/a9a7754c-240c215cee30efe4e4de.js" async=""></script><script src="/blog/app-f804d0eb44ee5b128d68.js" async=""></script><script src="/blog/framework-341c3c82f92be86019fb.js" async=""></script><script src="/blog/webpack-runtime-4632608e18c2aa86eb39.js" async=""></script></body></html>
+      </script><script id="gatsby-script-loader">/*<![CDATA[*/window.pagePath="/20170501-mastodonをraspberrypiで立ち上げようとしたお話-失敗/";/*]]>*/</script><script id="gatsby-chunk-mapping">/*<![CDATA[*/window.___chunkMapping={"polyfill":["/polyfill-39f2b048f8a4421d0db4.js"],"app":["/app-52434b8b77c0cad20b16.js"],"component---src-pages-404-js":["/component---src-pages-404-js-97593667e44e4660bc60.js"],"component---src-pages-index-js":["/component---src-pages-index-js-00744ac2c4b028b30a52.js"],"component---src-pages-using-typescript-tsx":["/component---src-pages-using-typescript-tsx-b8eb9a99e36f2b62c45e.js"],"component---src-templates-blog-post-js":["/component---src-templates-blog-post-js-8189bd7be38d7732aca5.js"]};/*]]>*/</script><script src="/blog/polyfill-39f2b048f8a4421d0db4.js" nomodule=""></script><script src="/blog/component---src-templates-blog-post-js-8189bd7be38d7732aca5.js" async=""></script><script src="/blog/commons-e3d1c14ed0c6edd64020.js" async=""></script><script src="/blog/a9a7754c-240c215cee30efe4e4de.js" async=""></script><script src="/blog/app-52434b8b77c0cad20b16.js" async=""></script><script src="/blog/framework-de777ff0ab3a85d108fd.js" async=""></script><script src="/blog/webpack-runtime-83f2035e5cceb0897ec0.js" async=""></script></body></html>

@@ -72,6 +72,6 @@ export const Bio = props => (
         }
       }
     `}
-    render={data => <PureBio {...props} data={data}/>}
+    render={data => <PureBio {...props} data={data} />}
   />
 )

@@ -25,7 +25,7 @@ jobs:
       - name: Install dependencies
         run: yarn
       - name: Lint
-        run: yarn format
+        run: yarn lint
   deploy:
     needs: [lint, test]
     if: ${{ github.ref == 'refs/heads/main' }}

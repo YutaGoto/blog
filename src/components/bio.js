@@ -54,7 +54,7 @@ export const PureBio = ({ data }) => {
   )
 }
 
-export const Bio = props => (
+export const Bio = () => (
   <StaticQuery
     query={graphql`
       query BioQuery {
@@ -72,6 +72,6 @@ export const Bio = props => (
         }
       }
     `}
-    render={data => <PureBio {...props} data={data} />}
+    render={data => <PureBio data={data} />}
   />
 )

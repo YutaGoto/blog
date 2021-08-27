@@ -20,9 +20,23 @@ const Layout = ({ location, title, children }) => {
         </div>
       </main>
       <footer className="footer has-background-grey-light">
-        © {new Date().getFullYear()}, Built with
-        {` `}
-        <a href="https://www.gatsbyjs.com">Gatsby</a>
+        <div class="content columns">
+          <div class="column">
+            © {new Date().getFullYear()}, Built with
+            {` `}
+            <a href="https://www.gatsbyjs.com">Gatsby</a>
+          </div>
+          <div class="column has-text-right">
+            <a href="https://bulma.io">
+              <img
+                src="https://bulma.io/images/made-with-bulma.png"
+                alt="Made with Bulma"
+                width="128"
+                height="24"
+              />
+            </a>
+          </div>
+        </div>
       </footer>
     </>
   )

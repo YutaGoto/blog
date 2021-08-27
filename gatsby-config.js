@@ -146,6 +146,6 @@ module.exports = {
     // `gatsby-plugin-offline`,
     `gatsby-plugin-fontawesome-css`,
     `gatsby-plugin-twitter`,
-    `gatsby-plugin-sass`
+    `gatsby-plugin-sass`,
   ],
 }

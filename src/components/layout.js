@@ -14,19 +14,19 @@ const Layout = ({ location, title, children }) => {
           </Link>
         </div>
       </nav>
-      <main className="m-2 has-background-white-ter">
+      <main className="p-2 has-background-black-ter">
         <div className="container" data-is-root-path={isRootPath}>
           {children}
         </div>
       </main>
-      <footer className="footer has-background-grey-light">
-        <div class="content columns">
-          <div class="column">
+      <footer className="footer has-background-grey-dark">
+        <div className="content columns">
+          <div className="column">
             © {new Date().getFullYear()}, Built with
             {` `}
             <a href="https://www.gatsbyjs.com">Gatsby</a>
           </div>
-          <div class="column has-text-right">
+          <div className="column has-text-right has-text-grey-light">
             <a href="https://bulma.io">
               <img
                 src="https://bulma.io/images/made-with-bulma.png"

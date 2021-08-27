@@ -23,7 +23,7 @@ export const PureBio = ({ data }) => {
           />
         </div>
         <div className="media-content">
-          <div className="content">
+          <div className="content has-text-grey-light">
             <p>
               <strong>{author.name}</strong>
               <br />

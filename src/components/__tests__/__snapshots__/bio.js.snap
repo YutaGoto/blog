@@ -14,7 +14,7 @@ exports[`bio renders correctly 1`] = `
       className="media-content"
     >
       <div
-        className="content"
+        className="content has-text-grey-light"
       >
         <p>
           <strong>

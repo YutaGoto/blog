@@ -72,6 +72,7 @@
     "serve": "gatsby serve",
     "clean": "gatsby clean",
     "deploy": "gatsby build --prefix-paths && gh-pages -d public",
-    "test": "jest"
+    "test": "jest",
+    "test:updateSnapShot": "jest --updateSnapshot"
   }
 }

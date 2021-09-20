@@ -1100,10 +1100,10 @@
     core-js-pure "^3.15.0"
     regenerator-runtime "^0.13.4"
 
-"@babel/runtime@^7.10.0", "@babel/runtime@^7.10.2", "@babel/runtime@^7.11.2", "@babel/runtime@^7.12.5", "@babel/runtime@^7.14.6", "@babel/runtime@^7.14.8", "@babel/runtime@^7.3.4", "@babel/runtime@^7.7.2", "@babel/runtime@^7.8.4", "@babel/runtime@^7.9.2":
-  version "7.15.3"
-  resolved "https://registry.yarnpkg.com/@babel/runtime/-/runtime-7.15.3.tgz#2e1c2880ca118e5b2f9988322bd8a7656a32502b"
-  integrity sha512-OvwMLqNXkCXSz1kSm58sEsNuhqOx/fKpnUnKnFB5v8uDda5bLNEHNgKPvhDN6IU0LDcnHQ90LlJ0Q6jnyBSIBA==
+"@babel/runtime@^7.10.0", "@babel/runtime@^7.10.2", "@babel/runtime@^7.11.2", "@babel/runtime@^7.12.5", "@babel/runtime@^7.14.6", "@babel/runtime@^7.14.8", "@babel/runtime@^7.15.4", "@babel/runtime@^7.3.4", "@babel/runtime@^7.7.2", "@babel/runtime@^7.8.4", "@babel/runtime@^7.9.2":
+  version "7.15.4"
+  resolved "https://registry.yarnpkg.com/@babel/runtime/-/runtime-7.15.4.tgz#fd17d16bfdf878e6dd02d19753a39fa8a8d9c84a"
+  integrity sha512-99catp6bHCaxr4sJ/DbTGgHS4+Rs2RVd2g7iOap6SLGPDknRK9ztKNsE/Fg6QhSeh1FGE5f6gHGQmvvn3I3xhw==
   dependencies:
     regenerator-runtime "^0.13.4"
 
@@ -6599,12 +6599,12 @@ gatsby-plugin-gatsby-cloud@^2.11.0:
     lodash "^4.17.21"
     webpack-assets-manifest "^5.0.6"
 
-gatsby-plugin-google-gtag@^3.11.0:
-  version "3.11.0"
-  resolved "https://registry.yarnpkg.com/gatsby-plugin-google-gtag/-/gatsby-plugin-google-gtag-3.11.0.tgz#26a7bdf7dd760926732f2ea6907d4f4ad16deee3"
-  integrity sha512-3EKxKrqo4dR4QDz6aTr+FrEDPcjSqrotGoOW1Pfub+TTvR89dLcV7CbXnVNNmG4GHviIwXvN6bXtKww5ui7OEA==
+gatsby-plugin-google-gtag@^3.14.0:
+  version "3.14.0"
+  resolved "https://registry.yarnpkg.com/gatsby-plugin-google-gtag/-/gatsby-plugin-google-gtag-3.14.0.tgz#1efba174eb70dd7623d96494d2b1588af630c1ba"
+  integrity sha512-EbEMzUTvVyKV5b7+wMdceJYVmxqivxE2FA9PgVnBBETY/v8zvPfjjijmFIGjYYIdLpIN7YYDZgd9zAlOY7heIg==
   dependencies:
-    "@babel/runtime" "^7.14.6"
+    "@babel/runtime" "^7.15.4"
     minimatch "^3.0.4"
 
 gatsby-plugin-image@^1.12.0:

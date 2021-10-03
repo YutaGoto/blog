@@ -6603,16 +6603,16 @@ gatsby-page-utils@^1.12.0:
     lodash "^4.17.21"
     micromatch "^4.0.4"
 
-gatsby-plugin-feed@^3.11.0:
-  version "3.11.0"
-  resolved "https://registry.yarnpkg.com/gatsby-plugin-feed/-/gatsby-plugin-feed-3.11.0.tgz#15994ec66b4f1249285baad2633014b587e780d8"
-  integrity sha512-aQNEafuJ8fIBiTtgaGutTnA2GFLiSkj8/qVgduZYu5+BY2DxpGTkKZHCJITV7wbgFtfwFLFzLpRYHJb4cClkMw==
+gatsby-plugin-feed@^3.14.0:
+  version "3.14.0"
+  resolved "https://registry.yarnpkg.com/gatsby-plugin-feed/-/gatsby-plugin-feed-3.14.0.tgz#3f95ab550a4a2a0c8af053a0a79791cca3eff386"
+  integrity sha512-d9fkaDyPN9ol6qL8WhojFm2p4VOn+tbz1EnTMr4nhDsn3l3Fyv6XV6xUsqeCclHwIwcK4Nj3mB07l6tDaBl9uQ==
   dependencies:
-    "@babel/runtime" "^7.14.6"
+    "@babel/runtime" "^7.15.4"
     "@hapi/joi" "^15.1.1"
     common-tags "^1.8.0"
-    fs-extra "^9.1.0"
-    gatsby-plugin-utils "^1.11.0"
+    fs-extra "^10.0.0"
+    gatsby-plugin-utils "^1.14.0"
     lodash.merge "^4.6.2"
     rss "^1.2.2"
 
@@ -6762,12 +6762,13 @@ gatsby-plugin-typescript@^3.12.0:
     "@babel/runtime" "^7.14.8"
     babel-plugin-remove-graphql-queries "^3.12.0"
 
-gatsby-plugin-utils@^1.11.0, gatsby-plugin-utils@^1.12.0:
-  version "1.12.0"
-  resolved "https://registry.yarnpkg.com/gatsby-plugin-utils/-/gatsby-plugin-utils-1.12.0.tgz#c07d7f24cd2c70faa12ce2e8f755494a118b1070"
-  integrity sha512-IlftnoN9ZNw+nd9HLvCyTajf/SHfV7WOOsQVWsKJmRPoZaeWwAFdtrMXKyqMPVSc1D1JfCg/qxTef+5ypch7OA==
+gatsby-plugin-utils@^1.12.0, gatsby-plugin-utils@^1.14.0:
+  version "1.14.0"
+  resolved "https://registry.yarnpkg.com/gatsby-plugin-utils/-/gatsby-plugin-utils-1.14.0.tgz#7813ce967a0bc2fd89560706db879fbf5b894795"
+  integrity sha512-lYzr9R9yTH/PzgRTWB878yB1xBlJULvyosEoF8LnE62+UyuPXxv+e/frfwZCeCoqsqstuciR0yaMELIPYMna+Q==
   dependencies:
-    joi "^17.2.1"
+    "@babel/runtime" "^7.15.4"
+    joi "^17.4.2"
 
 gatsby-react-router-scroll@^4.12.0:
   version "4.12.0"
@@ -9326,6 +9327,17 @@ joi@^17.2.1, joi@^17.4.0:
   version "17.4.0"
   resolved "https://registry.yarnpkg.com/joi/-/joi-17.4.0.tgz#b5c2277c8519e016316e49ababd41a1908d9ef20"
   integrity sha512-F4WiW2xaV6wc1jxete70Rw4V/VuMd6IN+a5ilZsxG4uYtUXWu2kq9W5P2dz30e7Gmw8RCbY/u/uk+dMPma9tAg==
+  dependencies:
+    "@hapi/hoek" "^9.0.0"
+    "@hapi/topo" "^5.0.0"
+    "@sideway/address" "^4.1.0"
+    "@sideway/formula" "^3.0.0"
+    "@sideway/pinpoint" "^2.0.0"
+
+joi@^17.4.2:
+  version "17.4.2"
+  resolved "https://registry.yarnpkg.com/joi/-/joi-17.4.2.tgz#02f4eb5cf88e515e614830239379dcbbe28ce7f7"
+  integrity sha512-Lm56PP+n0+Z2A2rfRvsfWVDXGEWjXxatPopkQ8qQ5mxCEhwHG+Ettgg5o98FFaxilOxozoa14cFhrE/hOzh/Nw==
   dependencies:
     "@hapi/hoek" "^9.0.0"
     "@hapi/topo" "^5.0.0"

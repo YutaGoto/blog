@@ -8,14 +8,14 @@ description: "リングフィットアドベンチャーマスターモードク
 
 ![rfa](./rfa.png)
 
-2019年の10月末に始めて2020年6月17日に1周目完走して、そして2021年3月25日に2周目（エクストラモード）を完走し、そしてそして2021年10月8日に3周目（マスターモード）を完走したのでその感想です。
+2019 年の 10 月末に始めて 2020 年 6 月 17 日に 1 周目完走して、そして 2021 年 3 月 25 日に 2 周目（エクストラモード）を完走し、そしてそして 2021 年 10 月 8 日に 3 周目（マスターモード）を完走したのでその感想です。
 
 <blockquote class="twitter-tweet"><p lang="ja" dir="ltr">うおーーーーー！！！！！！！！！第3章！！！完！！！！！！！！！ <a href="https://twitter.com/hashtag/%E3%83%AA%E3%83%B3%E3%82%B0%E3%83%95%E3%82%A3%E3%83%83%E3%83%88%E3%82%A2%E3%83%89%E3%83%99%E3%83%B3%E3%83%81%E3%83%A3%E3%83%BC?src=hash&amp;ref_src=twsrc%5Etfw">#リングフィットアドベンチャー</a> <a href="https://twitter.com/hashtag/RingFitAdventure?src=hash&amp;ref_src=twsrc%5Etfw">#RingFitAdventure</a> <a href="https://twitter.com/hashtag/NintendoSwitch?src=hash&amp;ref_src=twsrc%5Etfw">#NintendoSwitch</a> <a href="https://t.co/pwWXnbQomW">pic.twitter.com/pwWXnbQomW</a></p>&mdash; .ごっち (@gggooottto) <a href="https://twitter.com/gggooottto/status/1446414367352786947?ref_src=twsrc%5Etfw">October 8, 2021</a></blockquote>
 
 ---
 
-半分 意地みたいな感じで続けています。3周目も用意されています！と宣言されたんでやり切るしかないでしょう！！といったところです。
-相も変わらず柔軟体操はできていないので、身体は柔らかくなっていません。。それ以外に関して 筋肉はごりごりではないですが、2年前よりかは圧倒的にあると感じてます。（2年前の写真がなので比較できないですが）
+半分 意地みたいな感じで続けています。3 周目も用意されています！と宣言されたんでやり切るしかないでしょう！！といったところです。
+相も変わらず柔軟体操はできていないので、身体は柔らかくなっていません。。それ以外に関して 筋肉はごりごりではないですが、2 年前よりかは圧倒的にあると感じてます。（2 年前の写真がなので比較できないですが）
 
 ![profile](./profile.jpg)
 

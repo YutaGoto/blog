@@ -14,7 +14,7 @@ const Layout = ({ location, title, children }) => {
           </Link>
         </div>
       </nav>
-      <main className="p-2 has-background-black-ter">
+      <main className="p-2 has-background-white-ter">
         <div className="container" data-is-root-path={isRootPath}>
           {children}
         </div>

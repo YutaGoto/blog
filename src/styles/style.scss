@@ -1,8 +1,4 @@
 /* CSS Custom Properties Definitions */
 
 // #efede0
-@import "~bulma/sass/utilities/initial-variables";
-@import "~bulma/sass/utilities/functions";
-
-@import "./dark.scss" (prefers-color-scheme: dark);
 @import "~bulma/bulma.sass";

@@ -6672,12 +6672,12 @@ gatsby-plugin-react-helmet@^4.11.0:
   dependencies:
     "@babel/runtime" "^7.14.6"
 
-gatsby-plugin-sass@^4.11.0:
-  version "4.11.0"
-  resolved "https://registry.yarnpkg.com/gatsby-plugin-sass/-/gatsby-plugin-sass-4.11.0.tgz#a17b952d29364727250e7ea7e97c03249c547121"
-  integrity sha512-MTO+f+rf31P3HssQcdYPiVkGx6MssV1uTq9GzMtbmlpGDiLie0skzAkP98P5EvvJ9lO7pdGMFHOLUrtUs8YIDg==
+gatsby-plugin-sass@^4.14.0:
+  version "4.14.0"
+  resolved "https://registry.yarnpkg.com/gatsby-plugin-sass/-/gatsby-plugin-sass-4.14.0.tgz#739e6309fe424dd88c7004d29e75a687e92a7d02"
+  integrity sha512-dnsdU7Nf0BQhNuuyoS67tA6zWucDFkfHBEsURuD9rOFxizdBxZdth81vqnxzuLQBJcTnqnprDhGPhXYBOjCJsQ==
   dependencies:
-    "@babel/runtime" "^7.14.6"
+    "@babel/runtime" "^7.15.4"
     resolve-url-loader "^3.1.2"
     sass-loader "^10.1.1"
 
@@ -6839,12 +6839,12 @@ gatsby-remark-images@^5.11.0:
     unist-util-select "^3.0.4"
     unist-util-visit-parents "^3.1.1"
 
-gatsby-remark-prismjs@^5.8.0:
-  version "5.8.0"
-  resolved "https://registry.yarnpkg.com/gatsby-remark-prismjs/-/gatsby-remark-prismjs-5.8.0.tgz#472379ef25a0031d01fe1d24f97fe3f7f7cbb6aa"
-  integrity sha512-iWmQ4YTfc7e0tHFDG1Cnl+qhYIeglt9wjAXGyZ7mmfEeY1jP+7C8+id+HgrJkPzPMLJfMlDA54pm9mw3FY9mRg==
+gatsby-remark-prismjs@^5.11.0:
+  version "5.11.0"
+  resolved "https://registry.yarnpkg.com/gatsby-remark-prismjs/-/gatsby-remark-prismjs-5.11.0.tgz#ca823b7b5def06a5b4d33e8d8e2e1126451f6b3f"
+  integrity sha512-WrS074GqW0st5chlYxTrFxLZLjAubWvNdw23DYW8qcaAfnH527hmgEDQgynjVnkSxhxbhnhTqT5MYWBdTBLk5A==
   dependencies:
-    "@babel/runtime" "^7.14.6"
+    "@babel/runtime" "^7.15.4"
     parse-numeric-range "^1.2.0"
     unist-util-visit "^2.0.3"
 
@@ -12767,10 +12767,10 @@ sass-loader@^10.1.1:
     schema-utils "^3.0.0"
     semver "^7.3.2"
 
-sass@^1.38.1:
-  version "1.38.1"
-  resolved "https://registry.yarnpkg.com/sass/-/sass-1.38.1.tgz#54dfb17fb168846b5850324b82fc62dc68f51bad"
-  integrity sha512-Lj8nPaSYOuRhgqdyShV50fY5jKnvaRmikUNalMPmbH+tKMGgEKVkltI/lP30PEfO2T1t6R9yc2QIBLgOc3uaFw==
+sass@^1.42.1:
+  version "1.42.1"
+  resolved "https://registry.yarnpkg.com/sass/-/sass-1.42.1.tgz#5ab17bebc1cb1881ad2e0c9a932c66ad64e441e2"
+  integrity sha512-/zvGoN8B7dspKc5mC6HlaygyCBRvnyzzgD5khiaCfglWztY99cYoiTUksVx11NlnemrcfH5CEaCpsUKoW0cQqg==
   dependencies:
     chokidar ">=3.0.0 <4.0.0"
 

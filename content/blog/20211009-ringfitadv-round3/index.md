@@ -25,6 +25,8 @@ description: "リングフィットアドベンチャーマスターモードク
 
 称号を集めきれていないので、全部集めるまではリングフィットを続けるつもりです！
 
+<blockquote class="twitter-tweet"><p lang="ja" dir="ltr">あとは称号だけというやつ。 <a href="https://twitter.com/hashtag/%E3%83%AA%E3%83%B3%E3%82%B0%E3%83%95%E3%82%A3%E3%83%83%E3%83%88%E3%82%A2%E3%83%89%E3%83%99%E3%83%B3%E3%83%81%E3%83%A3%E3%83%BC?src=hash&amp;ref_src=twsrc%5Etfw">#リングフィットアドベンチャー</a> <a href="https://twitter.com/hashtag/RingFitAdventure?src=hash&amp;ref_src=twsrc%5Etfw">#RingFitAdventure</a> <a href="https://twitter.com/hashtag/NintendoSwitch?src=hash&amp;ref_src=twsrc%5Etfw">#NintendoSwitch</a> <a href="https://t.co/r0J2ZkfoJD">pic.twitter.com/r0J2ZkfoJD</a></p>&mdash; .ごっち (@gggooottto) <a href="https://twitter.com/gggooottto/status/1446860320526372871?ref_src=twsrc%5Etfw">October 9, 2021</a></blockquote>
+
 ### 記録など
 
 3 周完走するまでにプレイした時間や回数などをまとめます。アドベンチャーだけでなくカスタムモードでも運動をしているので、全部が全部アドベンチャーでやったわけではないです。

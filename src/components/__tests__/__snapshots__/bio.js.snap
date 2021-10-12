@@ -2,20 +2,18 @@
 
 exports[`bio renders correctly 1`] = `
 <div
-  className="box"
+  className="px-4 py-10 bg-gray-50 dark:bg-gray-900 shadow-lg sm:rounded-xl sm:p-5"
 >
   <div
-    className="media"
+    className="flex space-x-4"
   >
     <div
-      className="media-left"
+      className="flex-none"
     />
     <div
-      className="media-content"
+      className="flex-1"
     >
-      <div
-        className="content"
-      >
+      <div>
         <p>
           <strong>
             Yuta Goto

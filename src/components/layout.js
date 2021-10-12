@@ -6,39 +6,30 @@ const Layout = ({ location, title, children }) => {
   const isRootPath = location.pathname === rootPath
 
   return (
-    <>
-      <nav className="navbar has-background-info-dark" role="navigation">
-        <div className="navbar-brand">
-          <Link className="navbar-item has-text-primary-light" to="/">
+    <div className="bg-gray-50 dark:bg-gray-800 text-gray-900 dark:text-gray-100">
+      <nav
+        className="sticky top-0 h-10 bg-blue-200 dark:bg-blue-900 flex"
+        role="navigation"
+      >
+        <div className="flex-none">
+          <Link className="text-gray-100 text-xl pl-2" to="/">
             {title}
           </Link>
         </div>
       </nav>
-      <main className="m-2 has-background-white-ter">
-        <div className="container" data-is-root-path={isRootPath}>
+      <main className="container mt-1 mx-auto w-full">
+        <div className="flex space-x-2" data-is-root-path={isRootPath}>
           {children}
         </div>
       </main>
-      <footer className="footer has-background-grey-light">
-        <div class="content columns">
-          <div class="column">
-            © {new Date().getFullYear()}, Built with
-            {` `}
-            <a href="https://www.gatsbyjs.com">Gatsby</a>
-          </div>
-          <div class="column has-text-right">
-            <a href="https://bulma.io">
-              <img
-                src="https://bulma.io/images/made-with-bulma.png"
-                alt="Made with Bulma"
-                width="128"
-                height="24"
-              />
-            </a>
-          </div>
+      <footer className="h-10 bg-gray-300 dark:bg-gray-600 flex">
+        <div class="flex-1 text-gray-100">
+          © {new Date().getFullYear()}, Built with
+          {` `}
+          <a href="https://www.gatsbyjs.com">Gatsby</a>
         </div>
       </footer>
-    </>
+    </div>
   )
 }
 

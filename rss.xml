@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[.ごっちの日記]]></title><description><![CDATA[.ごっちのつれづれなる日記]]></description><link>https://yutagoto.github.io</link><generator>GatsbyJS</generator><lastBuildDate>Sat, 09 Oct 2021 15:36:15 GMT</lastBuildDate><item><title><![CDATA[リングフィットアドベンチャー 3周目完走したので感想]]></title><description><![CDATA[こんにちは、.ごっちです。  2019 年の 10 月末に始めて 2020 年 6 月 17 日に 1 周目完走して、そして 2021 年 3 月 25 日に 2 周目（エクストラモード）を完走し、そしてそして 2021 年 10 月 8 日に…]]></description><link>https://yutagoto.github.io/20211009-ringfitadv-round3/</link><guid isPermaLink="false">https://yutagoto.github.io/20211009-ringfitadv-round3/</guid><pubDate>Sat, 09 Oct 2021 10:30:00 GMT</pubDate><content:encoded>&lt;p&gt;こんにちは、.ごっちです。&lt;/p&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[.ごっちの日記]]></title><description><![CDATA[.ごっちのつれづれなる日記]]></description><link>https://yutagoto.github.io</link><generator>GatsbyJS</generator><lastBuildDate>Tue, 12 Oct 2021 06:50:47 GMT</lastBuildDate><item><title><![CDATA[リングフィットアドベンチャー 3周目完走したので感想]]></title><description><![CDATA[こんにちは、.ごっちです。  2019 年の 10 月末に始めて 2020 年 6 月 17 日に 1 周目完走して、そして 2021 年 3 月 25 日に 2 周目（エクストラモード）を完走し、そしてそして 2021 年 10 月 8 日に…]]></description><link>https://yutagoto.github.io/20211009-ringfitadv-round3/</link><guid isPermaLink="false">https://yutagoto.github.io/20211009-ringfitadv-round3/</guid><pubDate>Sat, 09 Oct 2021 10:30:00 GMT</pubDate><content:encoded>&lt;p&gt;こんにちは、.ごっちです。&lt;/p&gt;
 &lt;p&gt;&lt;span
       class=&quot;gatsby-resp-image-wrapper&quot;
       style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 264px; &quot;
@@ -37,13 +37,13 @@
         class=&quot;gatsby-resp-image-image&quot;
         alt=&quot;profile&quot;
         title=&quot;profile&quot;
-        src=&quot;/blog/static/a407110176b6a60c972685e0b65d2ca1/828fb/profile.jpg&quot;
-        srcset=&quot;/blog/static/a407110176b6a60c972685e0b65d2ca1/ff44c/profile.jpg 158w,
-/blog/static/a407110176b6a60c972685e0b65d2ca1/a6688/profile.jpg 315w,
-/blog/static/a407110176b6a60c972685e0b65d2ca1/828fb/profile.jpg 630w,
-/blog/static/a407110176b6a60c972685e0b65d2ca1/0ede0/profile.jpg 945w,
-/blog/static/a407110176b6a60c972685e0b65d2ca1/3ac88/profile.jpg 1260w,
-/blog/static/a407110176b6a60c972685e0b65d2ca1/eea4a/profile.jpg 1280w&quot;
+        src=&quot;/blog/static/ff0134e6431f846d7db230b1ff077dd7/828fb/profile.jpg&quot;
+        srcset=&quot;/blog/static/ff0134e6431f846d7db230b1ff077dd7/ff44c/profile.jpg 158w,
+/blog/static/ff0134e6431f846d7db230b1ff077dd7/a6688/profile.jpg 315w,
+/blog/static/ff0134e6431f846d7db230b1ff077dd7/828fb/profile.jpg 630w,
+/blog/static/ff0134e6431f846d7db230b1ff077dd7/0ede0/profile.jpg 945w,
+/blog/static/ff0134e6431f846d7db230b1ff077dd7/3ac88/profile.jpg 1260w,
+/blog/static/ff0134e6431f846d7db230b1ff077dd7/eea4a/profile.jpg 1280w&quot;
         sizes=&quot;(max-width: 630px) 100vw, 630px&quot;
         style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
         loading=&quot;lazy&quot;
@@ -63,13 +63,13 @@
         class=&quot;gatsby-resp-image-image&quot;
         alt=&quot;continue&quot;
         title=&quot;continue&quot;
-        src=&quot;/blog/static/d83f8c59dbb70e4c33ef53b9dd2d3595/828fb/continue.jpg&quot;
-        srcset=&quot;/blog/static/d83f8c59dbb70e4c33ef53b9dd2d3595/ff44c/continue.jpg 158w,
-/blog/static/d83f8c59dbb70e4c33ef53b9dd2d3595/a6688/continue.jpg 315w,
-/blog/static/d83f8c59dbb70e4c33ef53b9dd2d3595/828fb/continue.jpg 630w,
-/blog/static/d83f8c59dbb70e4c33ef53b9dd2d3595/0ede0/continue.jpg 945w,
-/blog/static/d83f8c59dbb70e4c33ef53b9dd2d3595/3ac88/continue.jpg 1260w,
-/blog/static/d83f8c59dbb70e4c33ef53b9dd2d3595/eea4a/continue.jpg 1280w&quot;
+        src=&quot;/blog/static/df3d79075144f84b7e50edd6c561bc6f/828fb/continue.jpg&quot;
+        srcset=&quot;/blog/static/df3d79075144f84b7e50edd6c561bc6f/ff44c/continue.jpg 158w,
+/blog/static/df3d79075144f84b7e50edd6c561bc6f/a6688/continue.jpg 315w,
+/blog/static/df3d79075144f84b7e50edd6c561bc6f/828fb/continue.jpg 630w,
+/blog/static/df3d79075144f84b7e50edd6c561bc6f/0ede0/continue.jpg 945w,
+/blog/static/df3d79075144f84b7e50edd6c561bc6f/3ac88/continue.jpg 1260w,
+/blog/static/df3d79075144f84b7e50edd6c561bc6f/eea4a/continue.jpg 1280w&quot;
         sizes=&quot;(max-width: 630px) 100vw, 630px&quot;
         style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
         loading=&quot;lazy&quot;
@@ -488,11 +488,11 @@
 &lt;/table&gt;</content:encoded></item><item><title><![CDATA[GCPでMinecraft マルチサーバー管理している]]></title><description><![CDATA[こんにちは、.ごっちです。 ちょっと前(2021 年 4 月くらい)から友人にお願いされてMinecraft(Java Edition)のサーバーの面倒をみることになりました。
 もともとはConoHa VPS の Minecraft…]]></description><link>https://yutagoto.github.io/20210627-minecraft-server-admin/</link><guid isPermaLink="false">https://yutagoto.github.io/20210627-minecraft-server-admin/</guid><pubDate>Sun, 27 Jun 2021 20:30:00 GMT</pubDate><content:encoded>&lt;span class=&quot;gatsby-resp-image-wrapper&quot; style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 630px; &quot;&gt;
       &lt;span class=&quot;gatsby-resp-image-background-image&quot; style=&quot;padding-bottom: 18.9873417721519%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAECAYAAACOXx+WAAAACXBIWXMAAAsTAAALEwEAmpwYAAABT0lEQVQY0wFEAbv+AIuEg+thXFuhjYaF5nZwb/eOiIb2iIKAyoJ9e++OiIb1XVlX746Hhe1bV1b/ZmJg4ZyVk/mFfnzshH99+Xp0c/ORioj0cWxr901JSPePiYf/AJ2WlP+ak5H/mpOQ/5OMivyQiof8mJKP/5GLif+el5T/SkZF8pqTkfE1MjGhaWVjuaignv+PiYf/iYOA/JCJh/2knJn9dnFv/xAPD+p1cG7/ACwqK/9JRkbqWlVV/2BcXP9MSEj/REFB+lpWVv94c3L/WVVV9mdiYvV8d3bkY19f3WVhYf9qZWX/WVRU/2FdXf9bVlb/Uk5OmAAAAFQ7Nzj/AA4MD2UAAAApDAsPZgwLDm8XFRhwAAAAR1dVVdtyb2//Xlxc8VtZWPdoZmX/VFJS+HBtbf9MSkrdBQQIZg8NEWcODA9rKSczByAeHQsPDhFqwfibON5FgzoAAAAASUVORK5CYII=&apos;); background-size: cover; display: block;&quot;&gt;&lt;/span&gt;
-  &lt;img class=&quot;gatsby-resp-image-image&quot; alt=&quot;Minecraft Java&quot; title=&quot;Minecraft Java&quot; src=&quot;/blog/static/11f0946a3a67d86dc715e54d2609b7bd/f058b/minecraft.png&quot; srcset=&quot;/blog/static/11f0946a3a67d86dc715e54d2609b7bd/c26ae/minecraft.png 158w,
-/blog/static/11f0946a3a67d86dc715e54d2609b7bd/6bdcf/minecraft.png 315w,
-/blog/static/11f0946a3a67d86dc715e54d2609b7bd/f058b/minecraft.png 630w,
-/blog/static/11f0946a3a67d86dc715e54d2609b7bd/40601/minecraft.png 945w,
-/blog/static/11f0946a3a67d86dc715e54d2609b7bd/121b3/minecraft.png 1070w&quot; sizes=&quot;(max-width: 630px) 100vw, 630px&quot; style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot; loading=&quot;lazy&quot; decoding=&quot;async&quot;&gt;
+  &lt;img class=&quot;gatsby-resp-image-image&quot; alt=&quot;Minecraft Java&quot; title=&quot;Minecraft Java&quot; src=&quot;/blog/static/314e1c9012bd9ca19a7d6091b31487b4/f058b/minecraft.png&quot; srcset=&quot;/blog/static/314e1c9012bd9ca19a7d6091b31487b4/c26ae/minecraft.png 158w,
+/blog/static/314e1c9012bd9ca19a7d6091b31487b4/6bdcf/minecraft.png 315w,
+/blog/static/314e1c9012bd9ca19a7d6091b31487b4/f058b/minecraft.png 630w,
+/blog/static/314e1c9012bd9ca19a7d6091b31487b4/40601/minecraft.png 945w,
+/blog/static/314e1c9012bd9ca19a7d6091b31487b4/121b3/minecraft.png 1070w&quot; sizes=&quot;(max-width: 630px) 100vw, 630px&quot; style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot; loading=&quot;lazy&quot; decoding=&quot;async&quot;&gt;
     &lt;/span&gt;
 &lt;p&gt;こんにちは、.ごっちです。&lt;/p&gt;
 &lt;p&gt;ちょっと前(2021 年 4 月くらい)から友人にお願いされて&lt;a href=&quot;https://www.minecraft.net/ja-jp&quot;&gt;Minecraft&lt;/a&gt;(Java Edition)のサーバーの面倒をみることになりました。
@@ -517,10 +517,10 @@
 &lt;h3&gt;サーバーの細かな設定&lt;/h3&gt;
 &lt;p&gt;http, https 通信は不要なのでファイアウォールの設定から塞いでおきます。Minecraft につなげるために 25565 番ポートを開けておきます。VPC ネットワークのファイアウォールルールでルールを作って、そのタグを付与させます。&lt;/p&gt;
 &lt;span class=&quot;gatsby-resp-image-wrapper&quot; style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 430px; &quot;&gt;
-      &lt;span class=&quot;gatsby-resp-image-background-image&quot; style=&quot;padding-bottom: 182.91139240506325%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAlCAYAAABCr8kFAAAACXBIWXMAAAsTAAALEwEAmpwYAAADjklEQVRIx51Wy47URhT1d0RD2IQkPMIiikSyyMAnIFizyB8gQZJdhBRFSOxZsEqk8Bpgg8QqjBgGzQwQEhZ09yINSAz9mrbd7We7bJftE53qqVF71M8p6aqq7PKpc+89t8rGkYtv8LmyCo5fruLE5SqOXaoo4/zkjxV89VMNR3/Ywmdn/8KR84+Hdm6f7T43vvjFw7ErHg7/bOPbqw6Wrzk4caWPb35zcOqqg69/dXDqmo8vL1TwyXerOHT6KZaWn2BpeQ2HTq/h0zPrql/6/oky48aj/3D9YQ33n1u4s2FiZdPC7Wdt3Fpv4+5GF3+sfsSfa03ce9nDyqsebr+wsPKqj7t/27i51cXv603VP3jt4f6/Low3/2zi+bNVsAkhARQAEoTODoRvQXgmgl4bSWBDuCZcs4HEt+FbLZiN96i9foHOdh3DVsDwgwE8P0CSSsisQF4AWQ7kgBoXu30qc8hs1AplaZYjlZl6TzN830e/31f4UkqEYYg4jjEYDJRFUYQ0TYf7FwV043h0rlsJ0PM81Go11Ot1VKtVVCoVNd/Z2SmBTDNDCIEgCNQHeZ4rluPaODbjmpEkKYSI9xi+ffuuBDzq2iQ3S4Ce58K2rd0sC7TbbeXi9vY2ms0mer3e3GAKMIwSBKFQmc2yDFEkFAjH++Mzj+tGvZWi+iFBIskwgm2b2NrcQCyiA8XR8AcZnEAqhkEYoWO6iCUQihxhlCGKc/We/VwMA9+D5zpqEqcFLC+D5UrYu33Pk2iYiQKdC5DZTFMJrkvTBDJNIMQAsRggk8niLrMqWA1srBJmmULn89EKmTspSZKoj9kIwAzz2aKCLpWe4wxjyNpttVpwXbcEtgioQVaaISuFNaxLcVF2CpDVQWa6lnU8DwI2rJQwBN3WpWdZlgI+MEO6p2NGdp1ORwFOOp5mbWToAUFYv5rdpDZTNnpnAtG63S5M01Ra1KcNjZ7MzVAv4EcEYSyZefZUAXW5X+STQI3RRcMyTKe6OyueJUAyIUtderMYjb2kRl8wy8w4pUOR27a9lyiuocT4jDGdJK0SQ7pLUH19kq1OFt8zptTstASVZLOoXKa6rJnoy55s2E+TyMwYEoSVwltPn0J6I70ZE0ebmWV9wPKvgVocDYWOITdhwpiUmYD6I51VzYbzA8WQRu3RXUqDTDimfEYlMrewdQx5YjcajT1h7z+55wYcJ5tFLicN+D98axK9hMrGMAAAAABJRU5ErkJggg==&apos;); background-size: cover; display: block;&quot;&gt;&lt;/span&gt;
-  &lt;img class=&quot;gatsby-resp-image-image&quot; alt=&quot;Firewall role&quot; title=&quot;Firewall role&quot; src=&quot;/blog/static/f8ca64c15f9b4a9618cc2e6c729f2063/05ed2/firewall.png&quot; srcset=&quot;/blog/static/f8ca64c15f9b4a9618cc2e6c729f2063/c26ae/firewall.png 158w,
-/blog/static/f8ca64c15f9b4a9618cc2e6c729f2063/6bdcf/firewall.png 315w,
-/blog/static/f8ca64c15f9b4a9618cc2e6c729f2063/05ed2/firewall.png 430w&quot; sizes=&quot;(max-width: 430px) 100vw, 430px&quot; style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot; loading=&quot;lazy&quot; decoding=&quot;async&quot;&gt;
+      &lt;span class=&quot;gatsby-resp-image-background-image&quot; style=&quot;padding-bottom: 182.91139240506325%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAlCAIAAADNzV5SAAAACXBIWXMAAAsTAAALEwEAmpwYAAADMUlEQVRIx5WU3YocRRTH+0WMi2CCMS5eBELEi91HEO+98AkiJIpXISASyAMEvBNhJZsQQfBGo5vEZNawagI73QRmRFy7Zrq3q6q7qrq6vqtkpjazxCTz8aeoqYb59alzzr9PcvLC/qkL+6c+6b9zsb9+qf/2xck6c6n/7qf765+lpz/uvfnBjyc/vPNs/TRdR4/JW5ebM1fIG5+j967ijWv1+hV87sv6/NX67Bf1+Wv09Ef7r71/Z23z7omNndc3dtY2765t3ouPJzZ2kq9+eHr9+/T2b9X2w8ObverGg/G3v462e+U3vxxs3QO39tDN3/GNR9WtP/D2HtzaLb++n2/tlt89IbcfN8mfe7u9+z+HEFhnpfbBKd6UnEJOIcOFZIg3FT7MJYWkAuW/f6WPH+V/D0II3vuEsLYhTGlrrLc+WBe8D9ZPdheCts5Yb1yY7JPDZNfGxZVQSjHGIQRjDOdcKcU576bSWoe5msB1XYcQCKVZlg2HwyzL0jTNsqwsy3i9V8JCiLZtQwjOOWNMWEWJ1lpKOYlMyHA4jK/wUy2GCWkgrEIIQojRaFQUxcHBQZ7nCKHFcNspyoXzwVorhEAIWWuXjTwAuv+P0nYSGcGq9/BB13XL5kw727TW+cDarqiINIFLx4XrlKuZFcrNgxklpGlCCFJ7SB0kFlILicXU5JVumJ0HG2OiGYzWxigpOiU7s8geR7CUMibJeTsajeu6llJqbab2CPOLliilYp+11hDCeF66YM/syTkHABBC5lvy5Q6jlKZpyhhbARZCcM6jtznnS2JHMOecUhrtWVXVanDbtjHPruvG47FzLl57GYcm8cd7b6da7ZOcwd77w6nqugYAYIwRQoyxecNgVlvGGABATiWEMMYopeaPh+PIM5++qFfln8xOSqm2bTHGy5vsGBZCUEohhJTSOBKcc957zjlCCGP8YvDnrh0nrhAi1in+W0pJKW3bdh4cVtcxHOcm51xKGYfxajkXU8XvbGay2IWXNuK4z5zzwWAAAJj1JhaMUlpV1YKCzRxqrVVKRZMve22lVFmWCCEIYVEUhJCF/HM5AwDyPF/ZJP/LZ8lJ8h/cmTQ97gJYXAAAAABJRU5ErkJggg==&apos;); background-size: cover; display: block;&quot;&gt;&lt;/span&gt;
+  &lt;img class=&quot;gatsby-resp-image-image&quot; alt=&quot;Firewall role&quot; title=&quot;Firewall role&quot; src=&quot;/blog/static/f7b28cf80dd46eeb7617b38058b9d4e7/05ed2/firewall.png&quot; srcset=&quot;/blog/static/f7b28cf80dd46eeb7617b38058b9d4e7/c26ae/firewall.png 158w,
+/blog/static/f7b28cf80dd46eeb7617b38058b9d4e7/6bdcf/firewall.png 315w,
+/blog/static/f7b28cf80dd46eeb7617b38058b9d4e7/05ed2/firewall.png 430w&quot; sizes=&quot;(max-width: 430px) 100vw, 430px&quot; style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot; loading=&quot;lazy&quot; decoding=&quot;async&quot;&gt;
     &lt;/span&gt;
 &lt;h2&gt;環境構築&lt;/h2&gt;
 &lt;p&gt;公式 Wiki にあるチュートリアルの通りに進めました。かなり親切だと思います。&lt;/p&gt;
@@ -548,11 +548,11 @@ rm world.tar.gz
 cd ~&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;p&gt;バックアップデータも永遠に保持する必要もないので(保持していたらその期間分お金が発生してしまいますし)、GCS のライフサイクルの設定で 5 日間経過したら削除するようにしました。&lt;/p&gt;
 &lt;span class=&quot;gatsby-resp-image-wrapper&quot; style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 630px; &quot;&gt;
-      &lt;span class=&quot;gatsby-resp-image-background-image&quot; style=&quot;padding-bottom: 86.0759493670886%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAARCAYAAADdRIy+AAAACXBIWXMAAAsTAAALEwEAmpwYAAACgElEQVQ4y5WTS24TQRCGfQx2iA1ig4IiWLBjzU1YcQAEAQELTsAFkFjxEAtECAskgngskLCQSBxsj50Ze2Y8Ho973s8f/eW0YxMiwUil6p6u/rrq7+rWhdsezt9ysXnXxsaWg40tF5v3HFx5OMW5mwOcvf7hL7aLMzf6uHzfxdUHDq49cnFpy8bFOzZaj19+x9P3A2y3I7z66uL5RwsvPo3xZKeDZ7sWtr94ePPZPbLJ0r/+FuBtW2GnrfDuh5LxdluhNT7sIQ19HH8VgBplqgA0+N+v1XeBIAGm0yn2Owfo9gwYg6HY3n4HKoxQN0BVNwurGtT1wvR86asGrWAeoSgqJEkM13Uxm80QhiEcx5GxUgpN0yDPc5RlIZvSvEKSVTLm2lqGoVIoikImq4t1XYvXa1VVSVZJDszjBkHcIM6w3KetVRSlBDITZuh5Ezj2GKPRCCPLwmQywXg8hm3bsCxLPLOnZwyl4mEa3NIZeZ6HX78OsN/pwTh0Bc5Nvu8LlEaQ4xwD6RmXZdkxUJeZJAl8f4qpP4M5co7mC1gcx6JnFEWn3q7mLIHUiqURotRcJGBJpmlKJiyX62VZrgGotdZ7WTIH1IGwbrcrkF6vh+FwKJB+vy//6HkIy+V4MBjIYeyAE0Aa9SDEMAwYRh+Wacp8b+8nLMuUktlSvAiCtByrjDUgg7MsXbRJ3SBKCiRpjryoECYFmn94OGslz+dzgVKTOC0wUzmSrECa5gjCBZhx1JFe25qGOjvqsLgQJeA4juRygmAmpbE/+Y8HpmkqMfpVnaohb5rGlqGPolg2s89UGIpeXGMsPTXl2onGXn06q8+PmwjUUGalm/jPHtSX8hvf//88utW3KgAAAABJRU5ErkJggg==&apos;); background-size: cover; display: block;&quot;&gt;&lt;/span&gt;
-  &lt;img class=&quot;gatsby-resp-image-image&quot; alt=&quot;Lifecycle&quot; title=&quot;Lifecycle&quot; src=&quot;/blog/static/04471b79ace2c9533a2c445362fe5f0c/f058b/lifecycle.png&quot; srcset=&quot;/blog/static/04471b79ace2c9533a2c445362fe5f0c/c26ae/lifecycle.png 158w,
-/blog/static/04471b79ace2c9533a2c445362fe5f0c/6bdcf/lifecycle.png 315w,
-/blog/static/04471b79ace2c9533a2c445362fe5f0c/f058b/lifecycle.png 630w,
-/blog/static/04471b79ace2c9533a2c445362fe5f0c/c5bb3/lifecycle.png 680w&quot; sizes=&quot;(max-width: 630px) 100vw, 630px&quot; style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot; loading=&quot;lazy&quot; decoding=&quot;async&quot;&gt;
+      &lt;span class=&quot;gatsby-resp-image-background-image&quot; style=&quot;padding-bottom: 86.0759493670886%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAARCAIAAABSJhvpAAAACXBIWXMAAAsTAAALEwEAmpwYAAACaElEQVQ4y41Su24UMRTd36AiooKKoAgKOvp8CQ0/ACJEIgVfwAcgOkBQIBJAoggvISGRNCTZZWZ2d8brx3ge14/xeGyj3YFkF4TE0ZUs2/f43nN8B5fusIu3ycb2bH0Lr98jG9vk2k5+4dZ4bfP92ub+aZzf3D93M756n1zfwTcekCtb+PJdPHj4/Nvjd8nugXjxhT79kD77iB69OXmyn+1+Zq8+0eV4+bXaO4TXh/D2EPYOYPcABmgSQVWEEIL3IXQhuK4B79rwHxgk1Fc6cM6Ph6MoipPxJBlPjk+GQsgQgvPe+eCc7zHfurMYlLVsbaeUopQWRQEAhJCiKOq6DiG0bdt11rmgjdPGdc6vVAaobdsuuv510XVdT/Ped13nnFMm1CpU0isTeoE9BtZa7z0AUEoZYxjPEEJZljHGZgtkWTbDGBOCMc4ylOd5//q8cr/keT4aDo9PfsRTSuk8j3POGKOU4iUQgimlTdOskLXWnPOcFykiWivOOaVUSlmWpRDin273S9u2CKGi4HVdAQBCaDqdYozTNEUIWWtPTXEL61fIzrmiKEajH2maRlE0mUwQQlEUpWkaxzFCCGMcx3GSJISQtm3PyL11lNLxeJzMEafpdDIZHx19T9OpEAIAOOeEEMaYUmql7Z4MAL0TnQtSW6WNaTuh7OrX/qW5/8+6roUQzjmpbQFGN1Y1bQnzMXGus9Z2v/GnZmNMP15VVUkp6roqy5JRljMmpQQArXVVzQ8BwBizUjmEYBfQWltrhZBN0zSmAQAppdbae6+UklIaY1aGpNe8LEYppRdomqau675Un7Oc+RMWAK4vCJANugAAAABJRU5ErkJggg==&apos;); background-size: cover; display: block;&quot;&gt;&lt;/span&gt;
+  &lt;img class=&quot;gatsby-resp-image-image&quot; alt=&quot;Lifecycle&quot; title=&quot;Lifecycle&quot; src=&quot;/blog/static/b94a733d4909b8bfac415226dcea21a2/f058b/lifecycle.png&quot; srcset=&quot;/blog/static/b94a733d4909b8bfac415226dcea21a2/c26ae/lifecycle.png 158w,
+/blog/static/b94a733d4909b8bfac415226dcea21a2/6bdcf/lifecycle.png 315w,
+/blog/static/b94a733d4909b8bfac415226dcea21a2/f058b/lifecycle.png 630w,
+/blog/static/b94a733d4909b8bfac415226dcea21a2/c5bb3/lifecycle.png 680w&quot; sizes=&quot;(max-width: 630px) 100vw, 630px&quot; style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot; loading=&quot;lazy&quot; decoding=&quot;async&quot;&gt;
     &lt;/span&gt;
 &lt;h3&gt;Discord から起動・停止できるように&lt;/h3&gt;
 &lt;p&gt;24 時間起動させておく必要はないので、遊びたくなったら起動・終わったら停止が Discord からできるようにつくります。サーバが起動したら Minecraft も自動で起動するようにしておきます。(&lt;code class=&quot;language-text&quot;&gt;crontab&lt;/code&gt; で設定します)&lt;/p&gt;
@@ -561,45 +561,45 @@ cd ~&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;p&gt;いまは heroku 上に 24 時間 Free Dynos でぶいぶい起動させていますが、ゆくゆくは&lt;a href=&quot;https://blog.discord.com/slash-commands-are-here-8db0a385d9e6&quot;&gt;スラッシュコマンド&lt;/a&gt;で実装し直したいと考えています。Heroku を脱却してできれば CloudRun とかにのせたいと企んでいます。&lt;/p&gt;
 &lt;p&gt;使い勝手は以下の画像のようになっています。&lt;/p&gt;
 &lt;span class=&quot;gatsby-resp-image-wrapper&quot; style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 630px; &quot;&gt;
-      &lt;span class=&quot;gatsby-resp-image-background-image&quot; style=&quot;padding-bottom: 52.53164556962025%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAALCAYAAAB/Ca1DAAAACXBIWXMAABYlAAAWJQFJUiTwAAAB9UlEQVQoz3WSS2sTURiG+x/UrkxrYmnTSjWTc+ZcZjKZTGaS5kJSbUEtLXVli6ILV4oI0qVIwbU/Q0ToxRbqwn/jUl0UHslJbEOri4fv5Vze8328Z2JOv2dS/GBSnnJN/OZq+deIcX2Rn1wpn3JLv0JbH2kTfBs7Jor2I+3OXcJ0kyBZw9N9yqY3oo9nVv6LMBm+iZAmRpqqYyKMItKkhdIRJkzxgw6eHpgtI0wb3wYjwjH9l6GZb6vnHaqwi6jusLL0iLX1NzSWd5kR75j1P7CgXiNMgjR1hCNFmswhdB1pas5MjsyGhjak0VS0ujHrG31WV+u0Woos88gySdaskDUjd0ZG28zIXeb1DlmzhgrsWYdnI5dtnxvyM9Nyj4Lep6APKOhD8uqAvNp3a3k12Ntj2j/muvhGTp6Q10fcNlsoa/Bt7bzDgvpEMfzCbPidm/aEKfGVnDhyDPSUOHTkBlXuu4cH5MQxi3rbGcpxwzt2kyRdoBIrwshD6XlsUMTaWYxdRFsPbUsjvDFKLhg3shkbWVcySvY5WeUejaXHBOkL5uRLiuotJf1glOQggOQfxJdD8W2DarbFcu8h99ee0F15RrmyjRc+RQR9fFNxF4Z/7TLDQMZTDmKiJKHWaNPs9Gi2O9TqCWkjxUY1N4Zv47N6UV/kD2d7jG7VJ74lAAAAAElFTkSuQmCC&apos;); background-size: cover; display: block;&quot;&gt;&lt;/span&gt;
-  &lt;img class=&quot;gatsby-resp-image-image&quot; alt=&quot;Discord&quot; title=&quot;Discord&quot; src=&quot;/blog/static/88a08dd0ef8897478dde669ac35d27bd/f058b/discord.png&quot; srcset=&quot;/blog/static/88a08dd0ef8897478dde669ac35d27bd/c26ae/discord.png 158w,
-/blog/static/88a08dd0ef8897478dde669ac35d27bd/6bdcf/discord.png 315w,
-/blog/static/88a08dd0ef8897478dde669ac35d27bd/f058b/discord.png 630w,
-/blog/static/88a08dd0ef8897478dde669ac35d27bd/40601/discord.png 945w,
-/blog/static/88a08dd0ef8897478dde669ac35d27bd/78612/discord.png 1260w,
-/blog/static/88a08dd0ef8897478dde669ac35d27bd/0f882/discord.png 1584w&quot; sizes=&quot;(max-width: 630px) 100vw, 630px&quot; style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot; loading=&quot;lazy&quot; decoding=&quot;async&quot;&gt;
+      &lt;span class=&quot;gatsby-resp-image-background-image&quot; style=&quot;padding-bottom: 52.53164556962025%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAALCAIAAADwazoUAAAACXBIWXMAABYlAAAWJQFJUiTwAAABpklEQVQoz33QzWoTURTA8XkItavENFOrY5Q2M+fee+6ZO993JplE2zEVai3artoqCq5EERRcCX7sfQxBhEljRRGfxq0KXWmmLiYtCr/l+XMOx7ggXs3B9zNwOOf8Om3//Lcfp+zDjniMxDnFnEJOoWHJt/lgpJJtim52RWHjaqXo4vWTQKZM+kwGRwzXC3ScI/qkNHOHXVyxZeHggEu3hipuvZzG3B1A8GzUv72x+SQtXp6DF4v8TYc/cjAEGQNGgDFIPYURk+FMLEhlPcyH0eatYm1N9/pCp06iuc48nflphuDtLcBrC5/rLBZEUOsNRxbz7P08K00cm2LfxImJk7YYm6KcwrLFPzXgawO+tMXBEu5wiUxGf+O2eGepD4vq2wJ9bsKkCR8rkybsHzkL4xYrW6xswMFlsTsTL8utKLmkQuF6DseOpIuSLKQlQY4g+5jqZ7WzUaVdeS/1rmX9HdIPzrOHFn+6jOtcekzG1ZK62Ydxyny9W1y9sb5x58rovqP2bHUXaJVJdWz0JINT4EdRlOa94UqWD8IkTjJNXggY/L/8E/8GJmWyatIw0BUAAAAASUVORK5CYII=&apos;); background-size: cover; display: block;&quot;&gt;&lt;/span&gt;
+  &lt;img class=&quot;gatsby-resp-image-image&quot; alt=&quot;Discord&quot; title=&quot;Discord&quot; src=&quot;/blog/static/cc7f29eb214df8567c0a833e78c106ba/f058b/discord.png&quot; srcset=&quot;/blog/static/cc7f29eb214df8567c0a833e78c106ba/c26ae/discord.png 158w,
+/blog/static/cc7f29eb214df8567c0a833e78c106ba/6bdcf/discord.png 315w,
+/blog/static/cc7f29eb214df8567c0a833e78c106ba/f058b/discord.png 630w,
+/blog/static/cc7f29eb214df8567c0a833e78c106ba/40601/discord.png 945w,
+/blog/static/cc7f29eb214df8567c0a833e78c106ba/78612/discord.png 1260w,
+/blog/static/cc7f29eb214df8567c0a833e78c106ba/0f882/discord.png 1584w&quot; sizes=&quot;(max-width: 630px) 100vw, 630px&quot; style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot; loading=&quot;lazy&quot; decoding=&quot;async&quot;&gt;
     &lt;/span&gt;
 &lt;p&gt;停止しわすれたときのために自動でシャットダウンする機能もつくりたいとも考えてますが、いい感じの実装が思いついていないです。&lt;/p&gt;
 &lt;h3&gt;料金通知&lt;/h3&gt;
 &lt;p&gt;長時間起動していなければそこまで大きな課金額にならないと踏んでいますが、莫大な請求金額になる前に気づきたいので、毎日その時点での月の請求金額を通知する仕組みも用意しています。&lt;/p&gt;
 &lt;p&gt;予算設定もあるので、課金額が予算額に達したらスマホ通知やメール通知が飛ぶように設定します。&lt;/p&gt;
 &lt;span class=&quot;gatsby-resp-image-wrapper&quot; style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 630px; &quot;&gt;
-      &lt;span class=&quot;gatsby-resp-image-background-image&quot; style=&quot;padding-bottom: 39.87341772151899%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAICAYAAAD5nd/tAAAACXBIWXMAAAsTAAALEwEAmpwYAAABDklEQVQoz52RwU7EIBCG+/43X8EH8erBqw9gi9umtG4bChTawmcG3Y2amDWS/AwMMPMxU3Vdh7WWZVlIx07cMsYfxLgTQiClRM652OM4bqoC6PsepRRKvVLXNUo16L6naRq01kjStm35y6hijEzTxPl8xhjDPM9l75wra+99oZdfCOUtVdu2lctt16P1cA0qZEI1jgNv04J1Hucs1jqscyWhvPsq8RVCaxfAkpMvD+Rg3/dfdVzsj/qJr1pXx6kduLufeXg0LGbEOV9KIFmlMeu6Mo5joRb606DRgy5+kZREJHeryURC2Hl6hpc2Qd7JmZJNynHp8pUkJUL6TiaBRKXLIR6f/ckfc6YE+O94BxVhbWjr5WWqAAAAAElFTkSuQmCC&apos;); background-size: cover; display: block;&quot;&gt;&lt;/span&gt;
-  &lt;img class=&quot;gatsby-resp-image-image&quot; alt=&quot;Yosan&quot; title=&quot;Yosan&quot; src=&quot;/blog/static/09be84d3d74452b4d8757055d671780e/f058b/yosan.png&quot; srcset=&quot;/blog/static/09be84d3d74452b4d8757055d671780e/c26ae/yosan.png 158w,
-/blog/static/09be84d3d74452b4d8757055d671780e/6bdcf/yosan.png 315w,
-/blog/static/09be84d3d74452b4d8757055d671780e/f058b/yosan.png 630w,
-/blog/static/09be84d3d74452b4d8757055d671780e/40601/yosan.png 945w,
-/blog/static/09be84d3d74452b4d8757055d671780e/6d74e/yosan.png 1085w&quot; sizes=&quot;(max-width: 630px) 100vw, 630px&quot; style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot; loading=&quot;lazy&quot; decoding=&quot;async&quot;&gt;
+      &lt;span class=&quot;gatsby-resp-image-background-image&quot; style=&quot;padding-bottom: 39.87341772151899%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAICAIAAAB2/0i6AAAACXBIWXMAAAsTAAALEwEAmpwYAAAA00lEQVQY053QMVYEIQyA4bl/5Rm8h7WVtf2yIzxgnMyGAGHDxufg2I2FXxXS/HlMzjkiSin1LnxXzL01YebHoZ+bVNV7b4yZ59mYy/VqxjOE4Jyz1uq5iZkBYF1XRBwDEQFAzhkRieivcmuNiD6s9yEi4rZto7ks8RMS5ULnJuZGlHpPIpko55xF5H6QQ9+3P/NORKZaaLbx6RleXm94W4jyuJyZSykxRu89AMzB++BLKaWWtKu1ToDMLG/verFdVVR1NMdX/6b4KIpI3X2XuYn+1xeRys7alXUn2wAAAABJRU5ErkJggg==&apos;); background-size: cover; display: block;&quot;&gt;&lt;/span&gt;
+  &lt;img class=&quot;gatsby-resp-image-image&quot; alt=&quot;Yosan&quot; title=&quot;Yosan&quot; src=&quot;/blog/static/02bc3a3edf17833326a491416be2ae0a/f058b/yosan.png&quot; srcset=&quot;/blog/static/02bc3a3edf17833326a491416be2ae0a/c26ae/yosan.png 158w,
+/blog/static/02bc3a3edf17833326a491416be2ae0a/6bdcf/yosan.png 315w,
+/blog/static/02bc3a3edf17833326a491416be2ae0a/f058b/yosan.png 630w,
+/blog/static/02bc3a3edf17833326a491416be2ae0a/40601/yosan.png 945w,
+/blog/static/02bc3a3edf17833326a491416be2ae0a/6d74e/yosan.png 1085w&quot; sizes=&quot;(max-width: 630px) 100vw, 630px&quot; style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot; loading=&quot;lazy&quot; decoding=&quot;async&quot;&gt;
     &lt;/span&gt;
 &lt;p&gt;課金データは BigQuery に出力できるのでやっておきます。&lt;/p&gt;
 &lt;span class=&quot;gatsby-resp-image-wrapper&quot; style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 630px; &quot;&gt;
-      &lt;span class=&quot;gatsby-resp-image-background-image&quot; style=&quot;padding-bottom: 91.13924050632912%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAASCAYAAABb0P4QAAAACXBIWXMAAA7DAAAOwwHHb6hkAAACgklEQVQ4y5WTTW4TQRCFfQqQOEJ2EISQsnDIAXIVJNYgEcElAIkrsGeDFIFYJMQ4RmIRiJPY02PPmLHnt+enZz5U7YxJCIjQ0nPZ3V2vq149d9aeeKw9drn/fMrtpxPWdybcezblzs6EW48UNx6OLW5eE53Xbz7wdu+U918m7B4qPn712T10eddT7A489r8n9E40B8OUT8f/RidZ+GA0aZIxnydEUUahNdQ5VR7bSFMAhuusjnwUVcMkKHFmBc6sJIgbqrohL0tSrcm0RhcFVV1j6pq6AVM3VKa2MKZZoRNFEWVZMvM9hqcOo7GDMx7hqRnOqcvEmTL3F5wdj5gqj8BboBzFyckQpVzquraVNU2zrDBNU0soB2HakGpDHEWk8xwdlpTakMcleVJSpBU6LIijhDavJWvRybLMHqRZiqscXFexCEOuu9rKVhomSUJVVZz5Do6r0FqT57mt2BjzK5plNNVyr0VLuKpQkuViGIaIntKKQB5p9ZEOBEVR2HuyL50FQWDv/VFDuSCQJDmM4xjHEQlclFIW7XfZl5yL2q0qlEQ5lCgajkcj+9Krly+4u77O1tYDNrtdNje7dLtdNjY22N7ettXJatteEbYVip+SrELnJaaGb8Mxe/s9ep8HHPQO2T/oMxgM6Pf7HB0dXSFaEaofFVFqKMqKySwjjHPCWOPNS/IKC11CnDXX+6fEibZkM9+nyHVrBmmGujY0LRqznPL55H+f7qpCrTObKIRBML/qs7/47SLZpSmL7+TVeRDge1N838PzPCu6WER8KnGxWBCe20oGKL/FZpJ/ibD1YZppprOIMF7aRxJbC/0LlwiXBjbkRYU/z4mSgv9dF+X4CTDcR6NeL5G/AAAAAElFTkSuQmCC&apos;); background-size: cover; display: block;&quot;&gt;&lt;/span&gt;
-  &lt;img class=&quot;gatsby-resp-image-image&quot; alt=&quot;Kakin Export&quot; title=&quot;Kakin Export&quot; src=&quot;/blog/static/9d435522f36d0d0fdd90df0bcd589e08/f058b/kakin.png&quot; srcset=&quot;/blog/static/9d435522f36d0d0fdd90df0bcd589e08/c26ae/kakin.png 158w,
-/blog/static/9d435522f36d0d0fdd90df0bcd589e08/6bdcf/kakin.png 315w,
-/blog/static/9d435522f36d0d0fdd90df0bcd589e08/f058b/kakin.png 630w,
-/blog/static/9d435522f36d0d0fdd90df0bcd589e08/40601/kakin.png 945w,
-/blog/static/9d435522f36d0d0fdd90df0bcd589e08/84ee5/kakin.png 1076w&quot; sizes=&quot;(max-width: 630px) 100vw, 630px&quot; style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot; loading=&quot;lazy&quot; decoding=&quot;async&quot;&gt;
+      &lt;span class=&quot;gatsby-resp-image-background-image&quot; style=&quot;padding-bottom: 91.13924050632912%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAASCAIAAADUsmlHAAAACXBIWXMAAA7DAAAOwwHHb6hkAAACO0lEQVQ4y5VSy2oUQRSd78jCP8hOIygEnOg+v2LArYIB/YgI/oJ7F0IQsnCSyWQCLoJmTLq7uqd7uqdet6pv1a2SmYlxRpOgh8OFWhzOPedWZ/3VeP1l/vhtcf91sbGbP3pTbOwW915kazvJ2vNkNnfS29h5/+HgY+/i82mxf8IOvpb7J/mnY7Z/Ou591/2ROTqHw3N9GztqWnm0Upq60VwYAyZSi0YFaiNhDD7ejk6M0SKx2qVlm1ZYq+BCsIhgrDbGtK0j8iFQiJ4CevIUrtkRQiDipCpHF1mSpGmajLMqu8jzbDyt+OUoKbKyGU9ZxkY/RozlIYTfzgDgnCMKAiJYr6TUjTUcnfFWolWuBWd5K4XSWjvnVtYGAEQHADnL8pxxzuM/o6OU8t5fVlmaMztHoFnEZRDRYhLRithaS+S54FJKDVpp7f2s4RCD9+S9R0QpZYwRACaTennzq8wAYIxBxBCjUooxVhRFvgTG2EK2UpiU0qFTSrIsS5LLGOO7vb2HGw+ePd3qdp9sbXW73e7m5ub29nZd1zHGRYQFOlqDQ/QUFDhjkUL8dp5+6fX7x8PD/knvaDAcDgeDwdnZ2bLnlXM6cQKoRV9MDFctl7bizlF0FFsXob2zbalMi35SldaaX5Fm1cYFI13jBrExQERVVdV180cf887vdJ6fipqmKcuiLMtxWTZNMzubUpzz6XQqhAANcv6UUhpjV8XeA5iiEkIaY2D+5/Dvem5wds4FIou+bFqhMP4PfgJjkeN815IQNQAAAABJRU5ErkJggg==&apos;); background-size: cover; display: block;&quot;&gt;&lt;/span&gt;
+  &lt;img class=&quot;gatsby-resp-image-image&quot; alt=&quot;Kakin Export&quot; title=&quot;Kakin Export&quot; src=&quot;/blog/static/79e7084c18f5919bcb3a482e4b85ea6e/f058b/kakin.png&quot; srcset=&quot;/blog/static/79e7084c18f5919bcb3a482e4b85ea6e/c26ae/kakin.png 158w,
+/blog/static/79e7084c18f5919bcb3a482e4b85ea6e/6bdcf/kakin.png 315w,
+/blog/static/79e7084c18f5919bcb3a482e4b85ea6e/f058b/kakin.png 630w,
+/blog/static/79e7084c18f5919bcb3a482e4b85ea6e/40601/kakin.png 945w,
+/blog/static/79e7084c18f5919bcb3a482e4b85ea6e/84ee5/kakin.png 1076w&quot; sizes=&quot;(max-width: 630px) 100vw, 630px&quot; style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot; loading=&quot;lazy&quot; decoding=&quot;async&quot;&gt;
     &lt;/span&gt;
 &lt;p&gt;あとは定期的に BigQuery を叩いて、(普段 仕事でも使う)Slack に通知が飛ぶように仕向けます。&lt;/p&gt;
 &lt;p&gt;実行自体は CloudFunction で定期的な実行フラグは Scheduler で間をつなぐのは Pub/Sub でやっています。&lt;/p&gt;
 &lt;p&gt;いまのところその予算を超えるような使い方をしていないのでかなり平和で安く運用できています。&lt;/p&gt;
 &lt;span class=&quot;gatsby-resp-image-wrapper&quot; style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 630px; &quot;&gt;
-      &lt;span class=&quot;gatsby-resp-image-background-image&quot; style=&quot;padding-bottom: 34.177215189873415%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAHCAYAAAAIy204AAAACXBIWXMAABYlAAAWJQFJUiTwAAABPUlEQVQoz12RTVLDMAyFc5FSaJMmoflxEju2E+eHtJ0u2HMA1uxgx5ITwIoDcBIu9hiJ0CldaOSRpe89y97D4zOeXj9QKo1xf0Q7TEiERCokCmkQJwJ+lGC5DnHtR//yZY3Ce3n7xPvXNzJRYne8h2561E0H40a4YQdpHLKy5pqyDqYdYLuRMwlXuoGyv3frcAsvCCP4mwC3WYlu3ENIA6lbWDfyYF7WqHQLN+7YfXe3R89xOMFI2LiBX+It/QiLVYhtXvGAqDQ3klPd9iiVZRFyVNUNw5O8YnfUSyshM1mhEG5zeDdBzDughn46oFAWyjgGkkOCEIAc5rPYYrXhmas583nOJ2A6A//cNf3EYH5a3aC2HaRpIaRGnAr+AJq9DI8uSClKBC82LRSDCBynBWfaI9WDODmBzn/2PH4A0R7fp6mxAYAAAAAASUVORK5CYII=&apos;); background-size: cover; display: block;&quot;&gt;&lt;/span&gt;
-  &lt;img class=&quot;gatsby-resp-image-image&quot; alt=&quot;Slack&quot; title=&quot;Slack&quot; src=&quot;/blog/static/185656b2500832e99a791ad23583d1c3/f058b/slack.png&quot; srcset=&quot;/blog/static/185656b2500832e99a791ad23583d1c3/c26ae/slack.png 158w,
-/blog/static/185656b2500832e99a791ad23583d1c3/6bdcf/slack.png 315w,
-/blog/static/185656b2500832e99a791ad23583d1c3/f058b/slack.png 630w,
-/blog/static/185656b2500832e99a791ad23583d1c3/40601/slack.png 945w,
-/blog/static/185656b2500832e99a791ad23583d1c3/84ee5/slack.png 1076w&quot; sizes=&quot;(max-width: 630px) 100vw, 630px&quot; style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot; loading=&quot;lazy&quot; decoding=&quot;async&quot;&gt;
+      &lt;span class=&quot;gatsby-resp-image-background-image&quot; style=&quot;padding-bottom: 34.177215189873415%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAHCAIAAACHqfpvAAAACXBIWXMAABYlAAAWJQFJUiTwAAABN0lEQVQY03WQS07DMBiEc5I2bZMmbus4jh+/7d+PxE2rSlyAA7Bm1yU7boBYcAEuwsVQ6QIJCelbzGZmNFM8Pl2fX94HbfLpEtKR9rLjalCWUF4Tuqza8n+K6+vH2+cX48N8eQBM2kUbRj/OynomNGDULlifMGbrR8qVNKhd1DZU7aGoW7Jtmj0TYZq5stJ4GyYXpl6ABAzjjCmHaY7TKeazBNQ2+PFofaoJLcqKLDbNgQmMuZdGAIKLgGnQjitjfBKA0uChl5SrXgKhfM9EN+hmz4pVTZab5tDLlM+DdsoGwGjDJOFmCOPMBAjAxXpbVu1i09zXLn/EzVxWLeUq5fOt1idMWdkQ80mAAxeV8VwaQvmqJuvt7peaFPcYQnvtQseVskEC7rpBGmQCOq5rQsuqvXf8efsbhDNVQPkp0LAAAAAASUVORK5CYII=&apos;); background-size: cover; display: block;&quot;&gt;&lt;/span&gt;
+  &lt;img class=&quot;gatsby-resp-image-image&quot; alt=&quot;Slack&quot; title=&quot;Slack&quot; src=&quot;/blog/static/04bb41137aa7092dfd5a0ca1b8b16a9d/f058b/slack.png&quot; srcset=&quot;/blog/static/04bb41137aa7092dfd5a0ca1b8b16a9d/c26ae/slack.png 158w,
+/blog/static/04bb41137aa7092dfd5a0ca1b8b16a9d/6bdcf/slack.png 315w,
+/blog/static/04bb41137aa7092dfd5a0ca1b8b16a9d/f058b/slack.png 630w,
+/blog/static/04bb41137aa7092dfd5a0ca1b8b16a9d/40601/slack.png 945w,
+/blog/static/04bb41137aa7092dfd5a0ca1b8b16a9d/84ee5/slack.png 1076w&quot; sizes=&quot;(max-width: 630px) 100vw, 630px&quot; style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot; loading=&quot;lazy&quot; decoding=&quot;async&quot;&gt;
     &lt;/span&gt;
 &lt;p&gt;小数が適切に処理されていないのは見逃してほしいです。。&lt;/p&gt;
 &lt;h2&gt;今後&lt;/h2&gt;
@@ -618,16 +618,16 @@ cd ~&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
     &gt;
       &lt;span
     class=&quot;gatsby-resp-image-background-image&quot;
-    style=&quot;padding-bottom: 63.92405063291139%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAANCAYAAACpUE5eAAAACXBIWXMAAAsTAAALEwEAmpwYAAACRUlEQVQ4y3VSTWsTQRgeMBEKenA9CJ4URU/R/yB40X/gRTzqwYteVSikVCGxWtugoBZvlQYaTWKTCn78AP9AbTDUJulumuwmu7O7M7P7yEx2N9sWB4Z3Z/fdZ56Pl5x5/RUX3n/H5ZUf2BrakCsIQwgRwHYodrs6TGsM3RiAUgrD6MN1XdUXhuGRTWYWN5BdqON0aRMt00kAuRAKqL3Txf7QQm+vD0pd6ArQw/8WOfa8CpJfhbbcQMuaAsY3pld8DpUCoXYQBKoyxlQlmYUayHwZ2nITLYseAIxgjvwsq+qLzkjdS44XKpgpVqC9rGI78RDgnKPT3YNu7CvvPM9T3slqOw50w4Dv+6p/zCiav36COi7IicI6zpfquPp2EyOfRZwAxjl2/nbQ6+lwKVVgNKq2bR8I58HGQ1y/cQ6ztVmQk8UKLr5p4OyrGv5EoYhILhUBhj6H7nhgIpDmqffSr8HQBOdCnW+vPkHu0mPc/ZQHyRQ/Kw9PLTWwnUpZ8nQZB2UcDuMKMA5K+iYTF5GX+sDB+pffGIwoSFaGMvcRWqmZpCyCCRPJTKc+LI+p6osg+h7ANC0VShxQEkr2RR2kUJ2kfEiy7XOYLlM1zVCCeJ4/SRjAVr+F/MoztDvtiOHTMrTUYMcMB66P9oii53jJCMXjJJPmjKvnW+U7uHkth3vl+yAZOdjza9CWpoOdZihBpWS5JTMJKEdKAfKJ3Ef1d8hdWcTctw8RQylZAh6SPJYJ0wnLru0l7CSgZY2m/glgt+cAAfAPiQOmA1bOkP8AAAAASUVORK5CYII=&apos;); background-size: cover; display: block;&quot;
+    style=&quot;padding-bottom: 63.92405063291139%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAANCAIAAAAmMtkJAAAACXBIWXMAAAsTAAALEwEAmpwYAAACA0lEQVQoz22ST2sTQRjGJ+AiBb0EwYOnouBFUfQb6K1fwZN486AH8axU1EYwiUob9WAVPImRWvPHGISKdz+A1D+pNUl3N9nsdmdmZ953ZmR3kthan9OwMz/e53neJYeffDy2vHb8+af1gBpjlDZKqZjybs8Lo23XHzLGfX/AeWL2iMw8eu+UG4cet3+EzBijjUFUYRRvbPaHQdh3B4xxzxskyf/gfaU6ufMqX/lgYaXHstfTs9ZaTYSIQgpEJE65QQpv8ku7YEvadxawH6d89lKR/fdXZ4qr+Ye17yM6sY3dvuulOXkyEaXU83wppTEmFHH7y+eYUnKguDJbaZ561o4E2IEA8Ot3t993OWMJ5yxTHMeu59vk11rXz8/NzjdukYOlt0efto4s1juhbTu1FwMGElyaSBznkABBMEJIDV96PX/mxM0r9QXilN6RQjW/1LK2LcwBmQQmUapxg4jIOVcqvd0axivN9UFIiVOu5+7+bRsz2KXCZSIU4LFEoLJVjUahrWrcv9HEedDMFWs7V2WMoRKCRMYSQE13p5NEWPir/+328r2f3U66qlyhmq+0d8IBlxsR36KJ3vFLUMoQ0lIvVC/OnTt5uXqVOKVaLsu8d3IkIBJpaqM1AKRwFuFG88Xps4sLay+zycXaP/C2BJeJTsR6k+GAGEaRtS2k2uxFAOoPynCj4tRdtaYAAAAASUVORK5CYII=&apos;); background-size: cover; display: block;&quot;
   &gt;&lt;/span&gt;
   &lt;img
         class=&quot;gatsby-resp-image-image&quot;
         alt=&quot;esa7th&quot;
         title=&quot;esa7th&quot;
-        src=&quot;/blog/static/98e47973fc459e533971cdc1bd71bf2b/a4078/esa7th.png&quot;
-        srcset=&quot;/blog/static/98e47973fc459e533971cdc1bd71bf2b/c26ae/esa7th.png 158w,
-/blog/static/98e47973fc459e533971cdc1bd71bf2b/6bdcf/esa7th.png 315w,
-/blog/static/98e47973fc459e533971cdc1bd71bf2b/a4078/esa7th.png 503w&quot;
+        src=&quot;/blog/static/a8337bd3a12ee3da27bc86630f3f0e04/a4078/esa7th.png&quot;
+        srcset=&quot;/blog/static/a8337bd3a12ee3da27bc86630f3f0e04/c26ae/esa7th.png 158w,
+/blog/static/a8337bd3a12ee3da27bc86630f3f0e04/6bdcf/esa7th.png 315w,
+/blog/static/a8337bd3a12ee3da27bc86630f3f0e04/a4078/esa7th.png 503w&quot;
         sizes=&quot;(max-width: 503px) 100vw, 503px&quot;
         style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
         loading=&quot;lazy&quot;

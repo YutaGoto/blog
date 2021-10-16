@@ -18,7 +18,7 @@ const Layout = ({ location, title, children }) => {
         </div>
       </nav>
       <main className="container mt-1 mx-auto w-full">
-        <div className="flex space-x-2" data-is-root-path={isRootPath}>
+        <div data-is-root-path={isRootPath}>
           {children}
         </div>
       </main>

@@ -22,46 +22,42 @@ exports[`bio renders correctly 1`] = `
           エンジニアです。
         </p>
       </div>
-      <nav
-        className="level is-mobile"
+      <div
+        className="flex space-x-4"
       >
-        <div
-          className="level-left"
+        <a
+          area-label="twitter"
+          className=""
+          href="https://twitter.com/gggooottto"
+          rel="noreferrer noopener"
+          target="_blank"
         >
-          <a
-            area-label="twitter"
-            className="level-item"
-            href="https://twitter.com/gggooottto"
-            rel="noreferrer noopener"
-            target="_blank"
+          <span
+            className="icon"
           >
-            <span
-              className="icon"
-            >
-              <i
-                aria-hidden="true"
-                className="fab fa-twitter"
-              />
-            </span>
-          </a>
-          <a
-            area-label="github"
-            className="level-item"
-            href="https://github.com/YutaGoto"
-            rel="noreferrer noopener"
-            target="_blank"
+            <i
+              aria-hidden="true"
+              className="fab fa-twitter"
+            />
+          </span>
+        </a>
+        <a
+          area-label="github"
+          className=""
+          href="https://github.com/YutaGoto"
+          rel="noreferrer noopener"
+          target="_blank"
+        >
+          <span
+            className="icon"
           >
-            <span
-              className="icon"
-            >
-              <i
-                aria-hidden="true"
-                className="fab fa-github"
-              />
-            </span>
-          </a>
-        </div>
-      </nav>
+            <i
+              aria-hidden="true"
+              className="fab fa-github"
+            />
+          </span>
+        </a>
+      </div>
     </div>
   </div>
 </div>

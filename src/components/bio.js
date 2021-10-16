@@ -31,24 +31,22 @@ export const PureBio = ({ data }) => {
               {author.summary}
             </p>
           </div>
-          <nav className="level is-mobile">
-            <div className="level-left">
-              {social.map(s => (
-                <a
-                  key={s.name}
-                  href={s.url}
-                  className="level-item"
-                  area-label={s.name}
-                  target="_blank"
-                  rel="noreferrer noopener"
-                >
-                  <span className="icon">
-                    <i className={`fab fa-${s.name}`} aria-hidden="true"></i>
-                  </span>
-                </a>
-              ))}
-            </div>
-          </nav>
+          <div className="flex space-x-4">
+            {social.map(s => (
+              <a
+                key={s.name}
+                href={s.url}
+                className=""
+                area-label={s.name}
+                target="_blank"
+                rel="noreferrer noopener"
+              >
+                <span className="icon">
+                  <i className={`fab fa-${s.name}`} aria-hidden="true"></i>
+                </span>
+              </a>
+            ))}
+          </div>
         </div>
       </div>
     </div>

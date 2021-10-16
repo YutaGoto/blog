@@ -10,9 +10,9 @@ const BlogIndex = ({ data, location }) => {
 
   return (
     <Layout location={location} title={siteTitle}>
-      <div className="flex space-x-2">
+      <div className="lg:flex lg:space-x-2">
         <Seo title="All posts" />
-        <div className="flex-auto">
+        <div className="lg:flex-grow max-w-screen-2xl">
           {posts.map(post => {
             const title = post.frontmatter.title || post.fields.slug
 
@@ -31,14 +31,15 @@ const BlogIndex = ({ data, location }) => {
                     itemScope
                     itemType="http://schema.org/Article"
                   >
-                    <div className="content">
+                    <div className="">
                       <p>
-                        <strong>{title}</strong>{" "}
+                        <strong className="text-xl">{title}</strong>{" "}
                         <small>{post.frontmatter.date}</small>
                         <br />
                         <div
                           dangerouslySetInnerHTML={{
-                            __html: post.frontmatter.description || post.excerpt,
+                            __html:
+                              post.frontmatter.description || post.excerpt,
                           }}
                           itemProp="description"
                         />
@@ -50,7 +51,7 @@ const BlogIndex = ({ data, location }) => {
             )
           })}
         </div>
-        <div className="flex-1">
+        <div className="lg:flex-none">
           <Bio />
         </div>
       </div>

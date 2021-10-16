@@ -4,6 +4,23 @@
 @tailwind components;
 @tailwind utilities;
 
-section > p {
-  margin: 5px 0;
+section {
+  > h1 {
+    font-size: 2em;
+    margin: 0.67em 0;
+  }
+
+  > h2 {
+    font-size: 1.5em;
+    margin: 0.67em 0;
+  }
+
+  > h3 {
+    font-size: 1.2em;
+    margin: 0.67em 0;
+  }
+
+  > p {
+    margin: 5px 0;
+  }
 }

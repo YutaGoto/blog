@@ -23,14 +23,16 @@ const BlogPostTemplate = ({ data, location }) => {
         title={post.frontmatter.title}
         description={post.frontmatter.description || post.excerpt}
       />
-      <div className="flex space-x-2">
-        <div className="flex-shrink">
+      <div className="lg:flex lg:space-x-2">
+        <div className="lg:flex-grow max-w-screen-xl">
           <article
             className="blog-post"
             itemScope
             itemType="http://schema.org/Article"
           >
-            <h1 itemProp="headline" className="text-3xl">{post.frontmatter.title}</h1>
+            <h1 itemProp="headline" className="text-3xl">
+              {post.frontmatter.title}
+            </h1>
             <p>
               <small>{post.frontmatter.date}</small>
             </p>
@@ -57,17 +59,20 @@ const BlogPostTemplate = ({ data, location }) => {
             </FacebookShareButton>
           </div>
         </div>
-        <div className="flex-none">
+        <div className="lg:flex-none">
           <Bio />
         </div>
       </div>
 
-      <div className="flex justify-between mb-4 mt-4" role="navigation">
+      <div
+        className="flex lg:justify-between lg:flex-row flex-col mb-4 mt-4"
+        role="navigation"
+      >
         {previous && (
           <Link
             to={previous.fields.slug}
             rel="prev"
-            className="box-border p-2 border"
+            className="box-border p-2 lg:mb-0 mb-1 border"
           >
             ← {previous.frontmatter.title}
           </Link>
@@ -76,7 +81,7 @@ const BlogPostTemplate = ({ data, location }) => {
           <Link
             to={next.fields.slug}
             rel="next"
-            className="box-border p-2 border"
+            className="box-border p-2 lg:mt-0 mt-1 border"
           >
             {next.frontmatter.title} →
           </Link>

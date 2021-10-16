@@ -33,8 +33,8 @@ describe("bio", () => {
     expect(tree).toMatchSnapshot()
   })
 
-  it("display the nav element", () => {
+  it("display the div element", () => {
     const { container } = render(<Bio data={data} />)
-    expect(container.querySelector(`nav`)).toBeInTheDocument()
+    expect(container.querySelector(`div`)).toBeInTheDocument()
   })
 })

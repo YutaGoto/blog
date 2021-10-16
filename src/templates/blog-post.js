@@ -23,55 +23,56 @@ const BlogPostTemplate = ({ data, location }) => {
         title={post.frontmatter.title}
         description={post.frontmatter.description || post.excerpt}
       />
-      <div className="columns">
-        <div className="column is-three-quarters">
-          <div className="content">
-            <article
-              className="blog-post"
-              itemScope
-              itemType="http://schema.org/Article"
+      <div className="lg:flex lg:space-x-2">
+        <div className="lg:flex-grow max-w-screen-xl">
+          <article
+            className="blog-post"
+            itemScope
+            itemType="http://schema.org/Article"
+          >
+            <h1 itemProp="headline" className="text-3xl">
+              {post.frontmatter.title}
+            </h1>
+            <p>
+              <small>{post.frontmatter.date}</small>
+            </p>
+            <section
+              dangerouslySetInnerHTML={{ __html: post.html }}
+              itemProp="articleBody"
+              className="mt-3"
+            />
+          </article>
+          <div className="mt-5 mb-5">
+            <TwitterShareButton
+              url={`${siteMetadata.siteUrl}/blog${post.fields.slug}`}
+              title={`${post.frontmatter.title} - .ごっちの日記`}
+              className="m-2"
             >
-              <h1 itemProp="headline">{post.frontmatter.title}</h1>
-              <p>
-                <small>{post.frontmatter.date}</small>
-              </p>
-              <section
-                dangerouslySetInnerHTML={{ __html: post.html }}
-                itemProp="articleBody"
-              />
-            </article>
-            <div className="columns">
-              <div className="column is-half">
-                <div className="mt-5 mb-5">
-                  <TwitterShareButton
-                    url={`${siteMetadata.siteUrl}/blog${post.fields.slug}`}
-                    title={`${post.frontmatter.title} - .ごっちの日記`}
-                    className="m-2"
-                  >
-                    <TwitterIcon size="32" round />
-                  </TwitterShareButton>
-                  <FacebookShareButton
-                    url={`${siteMetadata.siteUrl}/blog${post.fields.slug}`}
-                    title={`${post.frontmatter.title} - .ごっちの日記`}
-                    className="m-2"
-                  >
-                    <FacebookIcon size="32" round />
-                  </FacebookShareButton>
-                </div>
-              </div>
-            </div>
+              <TwitterIcon size="32" round />
+            </TwitterShareButton>
+            <FacebookShareButton
+              url={`${siteMetadata.siteUrl}/blog${post.fields.slug}`}
+              title={`${post.frontmatter.title} - .ごっちの日記`}
+              className="m-2"
+            >
+              <FacebookIcon size="32" round />
+            </FacebookShareButton>
           </div>
         </div>
-        <div className="column">
+        <div className="lg:flex-none">
           <Bio />
         </div>
       </div>
-      <nav className="pagination is-centered" role="navigation">
+
+      <div
+        className="flex lg:justify-between lg:flex-row flex-col mb-4 mt-4"
+        role="navigation"
+      >
         {previous && (
           <Link
             to={previous.fields.slug}
             rel="prev"
-            className="pagination-previous is-link is-light"
+            className="box-border p-2 lg:mb-0 mb-1 border"
           >
             ← {previous.frontmatter.title}
           </Link>
@@ -80,12 +81,12 @@ const BlogPostTemplate = ({ data, location }) => {
           <Link
             to={next.fields.slug}
             rel="next"
-            className="pagination-next is-link is-light"
+            className="box-border p-2 lg:mt-0 mt-1 border"
           >
             {next.frontmatter.title} →
           </Link>
         )}
-      </nav>
+      </div>
     </Layout>
   )
 }

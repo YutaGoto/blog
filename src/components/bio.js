@@ -8,9 +8,9 @@ export const PureBio = ({ data }) => {
   const social = data.site.siteMetadata?.social
 
   return (
-    <div className="box">
-      <div className="media">
-        <div className="media-left">
+    <div className="px-4 py-10 bg-gray-50 dark:bg-gray-900 shadow-lg sm:rounded-xl sm:p-5">
+      <div className="flex space-x-4">
+        <div className="flex-none">
           <StaticImage
             className="bio-avatar"
             layout="fixed"
@@ -22,32 +22,31 @@ export const PureBio = ({ data }) => {
             alt="Profile picture"
           />
         </div>
-        <div className="media-content">
-          <div className="content">
+
+        <div className="flex-1">
+          <div>
             <p>
               <strong>{author.name}</strong>
               <br />
               {author.summary}
             </p>
           </div>
-          <nav className="level is-mobile">
-            <div className="level-left">
-              {social.map(s => (
-                <a
-                  key={s.name}
-                  href={s.url}
-                  className="level-item"
-                  area-label={s.name}
-                  target="_blank"
-                  rel="noreferrer noopener"
-                >
-                  <span className="icon">
-                    <i className={`fab fa-${s.name}`} aria-hidden="true"></i>
-                  </span>
-                </a>
-              ))}
-            </div>
-          </nav>
+          <div className="flex space-x-4">
+            {social.map(s => (
+              <a
+                key={s.name}
+                href={s.url}
+                className=""
+                area-label={s.name}
+                target="_blank"
+                rel="noreferrer noopener"
+              >
+                <span className="icon">
+                  <i className={`fab fa-${s.name}`} aria-hidden="true"></i>
+                </span>
+              </a>
+            ))}
+          </div>
         </div>
       </div>
     </div>

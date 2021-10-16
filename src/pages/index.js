@@ -10,14 +10,17 @@ const BlogIndex = ({ data, location }) => {
 
   return (
     <Layout location={location} title={siteTitle}>
-      <Seo title="All posts" />
-      <div className="columns">
-        <div className="column is-three-quarters">
+      <div className="lg:flex lg:space-x-2">
+        <Seo title="All posts" />
+        <div className="lg:flex-grow max-w-screen-2xl">
           {posts.map(post => {
             const title = post.frontmatter.title || post.fields.slug
 
             return (
-              <div className="box mb-10" key={post.fields.slug}>
+              <div
+                className="px-4 py-10 mb-2 bg-gray-50 dark:bg-gray-900 shadow-lg sm:rounded-xl sm:p-5"
+                key={post.fields.slug}
+              >
                 <Link
                   to={post.fields.slug}
                   itemProp="url"
@@ -28,9 +31,9 @@ const BlogIndex = ({ data, location }) => {
                     itemScope
                     itemType="http://schema.org/Article"
                   >
-                    <div className="content">
+                    <div className="">
                       <p>
-                        <strong>{title}</strong>{" "}
+                        <strong className="text-xl">{title}</strong>{" "}
                         <small>{post.frontmatter.date}</small>
                         <br />
                         <div
@@ -48,7 +51,7 @@ const BlogIndex = ({ data, location }) => {
             )
           })}
         </div>
-        <div className="column">
+        <div className="lg:flex-none">
           <Bio />
         </div>
       </div>

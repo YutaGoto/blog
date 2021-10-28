@@ -24,7 +24,7 @@ const Layout = ({ location, title, children }) => {
         <div data-is-root-path={isRootPath}>{children}</div>
       </main>
       <footer className="h-10 bg-gray-300 dark:bg-gray-600 flex">
-        <div class="flex-1 text-gray-900 dark:text-gray-100">
+        <div className="flex-1 text-gray-900 dark:text-gray-100">
           © {new Date().getFullYear()}, Built with
           {` `}
           <a href="https://www.gatsbyjs.com">Gatsby</a>

@@ -8,7 +8,7 @@ export const PureBio = ({ data }) => {
   const social = data.site.siteMetadata?.social
 
   return (
-    <div className="px-4 py-10 bg-gray-50 dark:bg-gray-900 shadow-lg sm:rounded-xl sm:p-5">
+    <div className="px-4 py-10 bg-card dark:bg-card-dark shadow-lg sm:rounded-xl sm:p-5">
       <div className="flex space-x-4">
         <div className="flex-none">
           <StaticImage

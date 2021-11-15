@@ -18,7 +18,7 @@ const BlogIndex = ({ data, location }) => {
 
             return (
               <div
-                className="px-4 py-10 mb-2 bg-gray-50 dark:bg-gray-900 shadow-lg sm:rounded-xl sm:p-5"
+                className="px-4 py-10 mb-2 bg-card dark:bg-card-dark shadow-lg sm:rounded-xl sm:p-5"
                 key={post.fields.slug}
               >
                 <Link

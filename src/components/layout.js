@@ -12,10 +12,7 @@ const Layout = ({ location, title, children }) => {
         role="navigation"
       >
         <div>
-          <Link
-            className="text-main dark:text-main-dark text-3xl pl-2"
-            to="/"
-          >
+          <Link className="text-main dark:text-main-dark text-3xl pl-2" to="/">
             {title}
           </Link>
         </div>

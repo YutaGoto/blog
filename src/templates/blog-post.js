@@ -30,12 +30,10 @@ const BlogPostTemplate = ({ data, location }) => {
             itemScope
             itemType="http://schema.org/Article"
           >
-            <h1 itemProp="headline" className="text-3xl">
+            <h1 itemProp="headline" className="text-3xl mb-2">
               {post.frontmatter.title}
             </h1>
-            <p>
-              <small>{post.frontmatter.date}</small>
-            </p>
+            <p className="text-sm">{post.frontmatter.date}</p>
             <section
               dangerouslySetInnerHTML={{ __html: post.html }}
               itemProp="articleBody"
@@ -72,7 +70,7 @@ const BlogPostTemplate = ({ data, location }) => {
           <Link
             to={previous.fields.slug}
             rel="prev"
-            className="box-border p-2 lg:mb-0 mb-1 border"
+            className="box-border p-2 lg:mb-0 mb-1 border text-button dark:text-button-dark border-button dark:border-blue-700 hover:bg-button hover:text-main dark:hover:bg-button-dark dark:hover:text-main-dark"
           >
             ← {previous.frontmatter.title}
           </Link>
@@ -81,7 +79,7 @@ const BlogPostTemplate = ({ data, location }) => {
           <Link
             to={next.fields.slug}
             rel="next"
-            className="box-border p-2 lg:mt-0 mt-1 border"
+            className="box-border p-2 lg:mt-0 mt-1 border text-button dark:text-button-dark border-button dark:border-blue-700 hover:bg-button hover:text-main dark:hover:bg-button-dark dark:hover:text-main-dark"
           >
             {next.frontmatter.title} →
           </Link>

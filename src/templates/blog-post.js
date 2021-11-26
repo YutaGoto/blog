@@ -8,6 +8,7 @@ import {
 } from "react-share"
 
 import { Bio } from "../components/bio"
+import { ButtonLink } from "../components/buttonLink"
 import Layout from "../components/layout"
 import Seo from "../components/seo"
 
@@ -30,12 +31,10 @@ const BlogPostTemplate = ({ data, location }) => {
             itemScope
             itemType="http://schema.org/Article"
           >
-            <h1 itemProp="headline" className="text-3xl">
+            <h1 itemProp="headline" className="text-3xl mb-2">
               {post.frontmatter.title}
             </h1>
-            <p>
-              <small>{post.frontmatter.date}</small>
-            </p>
+            <p className="text-sm">{post.frontmatter.date}</p>
             <section
               dangerouslySetInnerHTML={{ __html: post.html }}
               itemProp="articleBody"
@@ -69,22 +68,24 @@ const BlogPostTemplate = ({ data, location }) => {
         role="navigation"
       >
         {previous && (
-          <Link
-            to={previous.fields.slug}
+          <ButtonLink
+            tag="Link"
+            text={previous.frontmatter.title}
+            iconName="angle-left"
+            isLeft={true}
+            linkTo={previous.fields.slug}
             rel="prev"
-            className="box-border p-2 lg:mb-0 mb-1 border"
-          >
-            ← {previous.frontmatter.title}
-          </Link>
+          />
         )}
         {next && (
-          <Link
-            to={next.fields.slug}
+          <ButtonLink
+            tag="Link"
+            text={next.frontmatter.title}
+            iconName="angle-right"
+            isLeft={false}
+            linkTo={next.fields.slug}
             rel="next"
-            className="box-border p-2 lg:mt-0 mt-1 border"
-          >
-            {next.frontmatter.title} →
-          </Link>
+          />
         )}
       </div>
     </Layout>

@@ -1,0 +1,15 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ButtonLink renders correctly 1`] = `
+<a
+  className="box-border p-2 lg:mb-0 mb-1 border text-button dark:text-button-dark border-button dark:border-blue-700 hover:bg-button hover:text-main dark:hover:bg-button-dark dark:hover:text-main-dark"
+>
+  <i
+    aria-hidden="true"
+    className="fas fa-angle-left"
+  />
+  <span>
+    test
+  </span>
+</a>
+`;

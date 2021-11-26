@@ -2,7 +2,7 @@
 
 exports[`bio renders correctly 1`] = `
 <div
-  className="px-4 py-10 bg-gray-50 dark:bg-gray-900 shadow-lg sm:rounded-xl sm:p-5"
+  className="px-4 py-10 bg-card dark:bg-card-dark shadow-lg sm:rounded-xl sm:p-5"
 >
   <div
     className="flex space-x-4"
@@ -11,23 +11,26 @@ exports[`bio renders correctly 1`] = `
       className="flex-none"
     />
     <div
-      className="flex-1"
+      className="flex-1 flex flex-col space-y-3"
     >
       <div>
-        <p>
-          <strong>
-            Yuta Goto
-          </strong>
-          <br />
+        <p
+          className="text-3xl mb-2"
+        >
+          Yuta Goto
+        </p>
+        <p
+          className="text-xl"
+        >
           エンジニアです。
         </p>
       </div>
       <div
-        className="flex space-x-4"
+        className="flex-1 flex space-x-6"
       >
         <a
           area-label="twitter"
-          className=""
+          className="object-bottom"
           href="https://twitter.com/gggooottto"
           rel="noreferrer noopener"
           target="_blank"
@@ -37,13 +40,13 @@ exports[`bio renders correctly 1`] = `
           >
             <i
               aria-hidden="true"
-              className="fab fa-twitter"
+              className="fab fa-twitter fa-lg"
             />
           </span>
         </a>
         <a
           area-label="github"
-          className=""
+          className="object-bottom"
           href="https://github.com/YutaGoto"
           rel="noreferrer noopener"
           target="_blank"
@@ -53,7 +56,7 @@ exports[`bio renders correctly 1`] = `
           >
             <i
               aria-hidden="true"
-              className="fab fa-github"
+              className="fab fa-github fa-lg"
             />
           </span>
         </a>

@@ -18,7 +18,7 @@ const BlogIndex = ({ data, location }) => {
 
             return (
               <div
-                className="px-4 py-10 mb-2 bg-gray-50 dark:bg-gray-900 shadow-lg sm:rounded-xl sm:p-5"
+                className="px-4 py-10 mb-2 bg-card dark:bg-card-dark shadow-lg sm:rounded-xl sm:p-5"
                 key={post.fields.slug}
               >
                 <Link
@@ -32,18 +32,17 @@ const BlogIndex = ({ data, location }) => {
                     itemType="http://schema.org/Article"
                   >
                     <div className="">
-                      <p>
-                        <strong className="text-xl">{title}</strong>{" "}
-                        <small>{post.frontmatter.date}</small>
-                        <br />
-                        <div
-                          dangerouslySetInnerHTML={{
-                            __html:
-                              post.frontmatter.description || post.excerpt,
-                          }}
-                          itemProp="description"
-                        />
-                      </p>
+                      <div className="text-2xl mb-2">{title}</div>
+                      <div className="text-sm mb-2">
+                        {post.frontmatter.date}
+                      </div>
+                      <div
+                        className="text-base"
+                        dangerouslySetInnerHTML={{
+                          __html: post.frontmatter.description || post.excerpt,
+                        }}
+                        itemProp="description"
+                      />
                     </div>
                   </article>
                 </Link>

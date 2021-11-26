@@ -8,6 +8,7 @@ import {
 } from "react-share"
 
 import { Bio } from "../components/bio"
+import { ButtonLink } from "../components/buttonLink"
 import Layout from "../components/layout"
 import Seo from "../components/seo"
 
@@ -67,22 +68,24 @@ const BlogPostTemplate = ({ data, location }) => {
         role="navigation"
       >
         {previous && (
-          <Link
-            to={previous.fields.slug}
+          <ButtonLink
+            tag="Link"
+            text={previous.frontmatter.title}
+            iconName="angle-left"
+            isLeft={true}
+            linkTo={previous.fields.slug}
             rel="prev"
-            className="box-border p-2 lg:mb-0 mb-1 border text-button dark:text-button-dark border-button dark:border-blue-700 hover:bg-button hover:text-main dark:hover:bg-button-dark dark:hover:text-main-dark"
-          >
-            ← {previous.frontmatter.title}
-          </Link>
+          />
         )}
         {next && (
-          <Link
-            to={next.fields.slug}
+          <ButtonLink
+            tag="Link"
+            text={next.frontmatter.title}
+            iconName="angle-right"
+            isLeft={false}
+            linkTo={next.fields.slug}
             rel="next"
-            className="box-border p-2 lg:mt-0 mt-1 border text-button dark:text-button-dark border-button dark:border-blue-700 hover:bg-button hover:text-main dark:hover:bg-button-dark dark:hover:text-main-dark"
-          >
-            {next.frontmatter.title} →
-          </Link>
+          />
         )}
       </div>
     </Layout>

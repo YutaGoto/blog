@@ -1,4 +1,169 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[.ごっちの日記]]></title><description><![CDATA[.ごっちのつれづれなる日記]]></description><link>https://yutagoto.github.io</link><generator>GatsbyJS</generator><lastBuildDate>Mon, 29 Nov 2021 13:25:46 GMT</lastBuildDate><item><title><![CDATA[リングフィットアドベンチャー 3周目完走したので感想]]></title><description><![CDATA[こんにちは、.ごっちです。  2019 年の 10 月末に始めて 2020 年 6 月 17 日に 1 周目完走して、そして 2021 年 3 月 25 日に 2 周目（エクストラモード）を完走し、そしてそして 2021 年 10 月 8 日に…]]></description><link>https://yutagoto.github.io/20211009-ringfitadv-round3/</link><guid isPermaLink="false">https://yutagoto.github.io/20211009-ringfitadv-round3/</guid><pubDate>Sat, 09 Oct 2021 10:30:00 GMT</pubDate><content:encoded>&lt;p&gt;こんにちは、.ごっちです。&lt;/p&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[.ごっちの日記]]></title><description><![CDATA[.ごっちのつれづれなる日記]]></description><link>https://yutagoto.github.io</link><generator>GatsbyJS</generator><lastBuildDate>Thu, 02 Dec 2021 15:51:27 GMT</lastBuildDate><item><title><![CDATA[Slackに登録されているemojiでガチャする]]></title><description><![CDATA[この記事は雑談 Slack Advent Calendar 2021 の 23 日目の記事です。 こんにちは、.ごっちです。
+毎年雑談 Slack アドベントカレンダーで Slack emoji について取り上げているような気がしていますが、今年も取り上げます。 202…]]></description><link>https://yutagoto.github.io/20211203-emoji-gacha/</link><guid isPermaLink="false">https://yutagoto.github.io/20211203-emoji-gacha/</guid><pubDate>Fri, 03 Dec 2021 00:01:00 GMT</pubDate><content:encoded>&lt;p&gt;この記事は&lt;a href=&quot;https://adventar.org/calendars/6233&quot;&gt;雑談 Slack Advent Calendar 2021&lt;/a&gt; の 23 日目の記事です。&lt;/p&gt;
+&lt;p&gt;こんにちは、.ごっちです。
+毎年雑談 Slack アドベントカレンダーで Slack emoji について取り上げているような気がしていますが、今年も取り上げます。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://dev.to/yutagoto/emojicode-circleci-5egn&quot;&gt;2020: emojicode CircleCI&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://dev.to/yutagoto/emojicode-fizzbuzz-4akl&quot;&gt;2019: emojicode FizzBuzz&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://medium.com/@gggooottto/emoji%E3%81%A7%E3%81%84%E3%81%A3%E3%81%B1%E3%81%84-a8f63d02ebb1&quot;&gt;2018: Emoji でいっぱい&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://medium.com/@gggooottto/emoji%E3%81%A7%E3%81%84%E3%81%A3%E3%81%B1%E3%81%84-f5bcca95c24&quot;&gt;2017: Emoji でいっぱい&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;SlackSlashCommand を送信したら、ランダムに絵文字を返してくれる機能を試しに作りました。&lt;/p&gt;
+&lt;h2&gt;Slack アプリの登録&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&quot;https://api.slack.com/authentication/basics&quot;&gt;公式のドキュメント&lt;/a&gt;を見ながら作成します。&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://api.slack.com/apps&quot;&gt;https://api.slack.com/apps&lt;/a&gt; にアクセスして、 &lt;code class=&quot;language-text&quot;&gt;Create New App&lt;/code&gt; から &lt;code class=&quot;language-text&quot;&gt;From Scratch&lt;/code&gt; を選択して登録します。&lt;/p&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 630px; &quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/blog/static/0f4b709c7095051284d1c264f9a7e031/e04e6/app1.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 55.06329113924051%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAALCAYAAAB/Ca1DAAAACXBIWXMAAAsTAAALEwEAmpwYAAAB1klEQVQoz5VTS4vaYBSNz5/myo34S7orioLgYmbQH9F2YyE60oHCFLpoi5suixgdqKNORuMjD03yJSYxp9xbM/RBYXrhkI8v5557DjeRZot7jEYjHA4H/FpxHP+GpE6nE4QQOB6PiMIAISNEFIYIggDSwbKgGwYcx4HneUwk0EtqJjE6J/cE3/chPB+Oe4QQR7iegCME30tMCgJsdBPz+Ry6rrOApmkYj8dQFAWu6zKZBhKE8PB94eHmY4y3X2Z4efsKL25e4+vsDhKTfB9zdQllNIJpmuyCnuv1GsvlEpZlYb/fw7ZtFqc0B9uBZQnszD0edmuouw0s24bknwUftQ1UVWUxGkKOKPL/FPU+CS4eNQyHQ3ZCgqf4BOVujEajgXa7jVarhavLK1SrVTSbTVxcXKJSqaBWq6Fer6Pf74NWJ/l+4nCL7XbLzigWVe9ahiRJz0KhUOCeJ8H7hyUmkwlcV0AIl6e9kW+RTqeRzWYZmUzmL+TzeRYsl8tnwXNkVdtgOp3yIkiQ6v2nb0xOpVL/RC6XY06pVPopmCzAME2sViveYBL53YfPz45cLBaTyD7IpWEY/FnQpuhPiKII2noDWZbR7XYZdP4TvV4PnU4Hg8GAe34AVV+57KF+alYAAAAASUVORK5CYII=&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;slack app 1&quot;
+        title=&quot;slack app 1&quot;
+        src=&quot;/blog/static/0f4b709c7095051284d1c264f9a7e031/f058b/app1.png&quot;
+        srcset=&quot;/blog/static/0f4b709c7095051284d1c264f9a7e031/c26ae/app1.png 158w,
+/blog/static/0f4b709c7095051284d1c264f9a7e031/6bdcf/app1.png 315w,
+/blog/static/0f4b709c7095051284d1c264f9a7e031/f058b/app1.png 630w,
+/blog/static/0f4b709c7095051284d1c264f9a7e031/40601/app1.png 945w,
+/blog/static/0f4b709c7095051284d1c264f9a7e031/78612/app1.png 1260w,
+/blog/static/0f4b709c7095051284d1c264f9a7e031/e04e6/app1.png 2152w&quot;
+        sizes=&quot;(max-width: 630px) 100vw, 630px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+        decoding=&quot;async&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 630px; &quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/blog/static/e7bf29d46883f3cd5984f8e9bd61e624/218a4/app2.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 72.15189873417721%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAOCAYAAAAvxDzwAAAACXBIWXMAAAsTAAALEwEAmpwYAAABdklEQVQ4y52T626CQBCFef9Xa038Y2Ks4WogeAMUFkVgmm/skq2xNe0mJ2cdd2fPnBm8sizleDxKnudyOBx0D18uF7ler8qP+2do21bZ42DgB/L+9i6LxUIxm83kr4tkLI/M4Hw+S9M0Cvan00mauhEqqKpK6rrWmP0PBkVR6B3WOI73hATKopwOUzYH2VsbSEqMByyD/X6v96aExhj1B5C873v575oUhmEo64+1LJdLiaJIywMoh6uympShGrWogodhmKAeonC73UqSJLLb7SQIAn0gSzNJ01TjlPwsITFUgaEfvjeFQzCKTGOEh8xXg16V6cKjLHxDsg12XaexbvzdM/fOlFA9DEJZrVbqIXM4n8/F931Z54VUTatK6/rup50K2FU5echAZlkmcRRLHMfK+LbZbCSJYwWjgX/uKMGuUjsd2hRexHh3eG2X3Yuv/NOSb7ebeuZ+j/zWphgzlWkfpnnM7E/LozTUUZYLRsjiMfZ41sUnWaw5KdLCEHcAAAAASUVORK5CYII=&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;slack app 2&quot;
+        title=&quot;slack app 2&quot;
+        src=&quot;/blog/static/e7bf29d46883f3cd5984f8e9bd61e624/f058b/app2.png&quot;
+        srcset=&quot;/blog/static/e7bf29d46883f3cd5984f8e9bd61e624/c26ae/app2.png 158w,
+/blog/static/e7bf29d46883f3cd5984f8e9bd61e624/6bdcf/app2.png 315w,
+/blog/static/e7bf29d46883f3cd5984f8e9bd61e624/f058b/app2.png 630w,
+/blog/static/e7bf29d46883f3cd5984f8e9bd61e624/40601/app2.png 945w,
+/blog/static/e7bf29d46883f3cd5984f8e9bd61e624/218a4/app2.png 1052w&quot;
+        sizes=&quot;(max-width: 630px) 100vw, 630px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+        decoding=&quot;async&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 630px; &quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/blog/static/c5cb04a05fd474dd08b7d936d5efef4f/bb2fd/app3.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 92.40506329113923%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAASCAYAAABb0P4QAAAACXBIWXMAAAsTAAALEwEAmpwYAAACFElEQVQ4y5VU2Y7aQBD0/7/xziPXCx+RVVaCJRtuhBTuw2CbQwZz2cYVVSfttXdZZTNSabo9np7q6p4xLMtCo95ArVZD7eUFlUoF9Z91VKtVvP54lbXn7894+vaEbrcLjiiKYnAEQSAz1w3HceTD8XiEd/RwvVzF931fQJs4n8/iPxr3+13mTqcDY71egyyHwyFM04x/UAa0H/lJKMN2uw2DwZQ2GVyvV9xut1RKSSaPEIahrDebTRi2ZeNyucB1XZxOJ8HhcBAJmCZtz/PE56H/ZGjbtjDiJgZLzmoTDKhMPtNQAlJDFma1WmE2m2E6nYKHzOdzjEYjmEsTy+USk8lEDqAMDJxM9wNDLpAB9eMmpqmnvh/JllGNtfpxUfiBAQnVjLoqeJCCPiUi1KckqYAMxLT3+71gt9sJttutfGcWnBWbzSb+nwFZvFTK1IEf9cQkE9XpUatoyjrHAblZW4Xtw5R1/spI3RRt7ORpyZvxvqIKPwhiO/hblFarBYPtQq0Wi4W0x3g8lnYZ/BpgMBj8aSPLlvX1agXTcjBzXCw2LsztAcuti7mzx8UP0WjU3xjKQ+AH8YMgj8PNT/l6U0LeDrIj8ygS++3q2bY4j4RPgumzSLwIrDKLyAx6vR5azaZoLs8Xjf8ZDKpXkEVj67CFOPr9PoxsNotSqYRcLvclFItFFAoF5PN5sbmXKJfLyGQy+A1cGFgFGIXNvAAAAABJRU5ErkJggg==&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;slack app 3&quot;
+        title=&quot;slack app 3&quot;
+        src=&quot;/blog/static/c5cb04a05fd474dd08b7d936d5efef4f/f058b/app3.png&quot;
+        srcset=&quot;/blog/static/c5cb04a05fd474dd08b7d936d5efef4f/c26ae/app3.png 158w,
+/blog/static/c5cb04a05fd474dd08b7d936d5efef4f/6bdcf/app3.png 315w,
+/blog/static/c5cb04a05fd474dd08b7d936d5efef4f/f058b/app3.png 630w,
+/blog/static/c5cb04a05fd474dd08b7d936d5efef4f/40601/app3.png 945w,
+/blog/static/c5cb04a05fd474dd08b7d936d5efef4f/bb2fd/app3.png 1058w&quot;
+        sizes=&quot;(max-width: 630px) 100vw, 630px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+        decoding=&quot;async&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;登録し終えたら &lt;code class=&quot;language-text&quot;&gt;App Manifest&lt;/code&gt; を編集します。
+今回は &lt;code class=&quot;language-text&quot;&gt;botの有効化&lt;/code&gt;, &lt;code class=&quot;language-text&quot;&gt;emojiの取得&lt;/code&gt;, &lt;code class=&quot;language-text&quot;&gt;slash commands&lt;/code&gt;, &lt;code class=&quot;language-text&quot;&gt;チャットの書き込み&lt;/code&gt; ができるようにします。&lt;/p&gt;
+&lt;p&gt;また、同じ Manifest で slash コマンドの登録もできるので合わせて設定します。
+Manifest の詳しい仕様は&lt;a href=&quot;https://api.slack.com/reference/manifests&quot;&gt;公式ドキュメント&lt;/a&gt;を見たほうが早いです。&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;yaml&quot;&gt;&lt;pre class=&quot;language-yaml&quot;&gt;&lt;code class=&quot;language-yaml&quot;&gt;&lt;span class=&quot;token key atrule&quot;&gt;_metadata&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;
+  &lt;span class=&quot;token key atrule&quot;&gt;major_version&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;1&lt;/span&gt;
+  &lt;span class=&quot;token key atrule&quot;&gt;minor_version&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;1&lt;/span&gt;
+&lt;span class=&quot;token key atrule&quot;&gt;display_information&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;
+  &lt;span class=&quot;token key atrule&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; emoji&lt;span class=&quot;token punctuation&quot;&gt;-&lt;/span&gt;sample
+&lt;span class=&quot;token key atrule&quot;&gt;features&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;
+  &lt;span class=&quot;token key atrule&quot;&gt;bot_user&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;
+    &lt;span class=&quot;token key atrule&quot;&gt;display_name&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; emoji&lt;span class=&quot;token punctuation&quot;&gt;-&lt;/span&gt;sample &lt;span class=&quot;token comment&quot;&gt;# slackに表示するbotの名前&lt;/span&gt;
+    &lt;span class=&quot;token key atrule&quot;&gt;always_online&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token boolean important&quot;&gt;true&lt;/span&gt;
+  &lt;span class=&quot;token key atrule&quot;&gt;slash_commands&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;
+    &lt;span class=&quot;token punctuation&quot;&gt;-&lt;/span&gt; &lt;span class=&quot;token key atrule&quot;&gt;command&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; /emojigacha &lt;span class=&quot;token comment&quot;&gt;# コマンド名&lt;/span&gt;
+      &lt;span class=&quot;token key atrule&quot;&gt;url&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token comment&quot;&gt;# ngrokを使ってデバッグすると楽&lt;/span&gt;
+      &lt;span class=&quot;token key atrule&quot;&gt;description&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; emoji gacha
+      &lt;span class=&quot;token key atrule&quot;&gt;usage_hint&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; /emojigacha
+      &lt;span class=&quot;token key atrule&quot;&gt;should_escape&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token boolean important&quot;&gt;false&lt;/span&gt;
+&lt;span class=&quot;token key atrule&quot;&gt;oauth_config&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;
+  &lt;span class=&quot;token key atrule&quot;&gt;scopes&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;
+    &lt;span class=&quot;token key atrule&quot;&gt;bot&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;
+      &lt;span class=&quot;token punctuation&quot;&gt;-&lt;/span&gt; chat&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;write
+      &lt;span class=&quot;token punctuation&quot;&gt;-&lt;/span&gt; emoji&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;read
+      &lt;span class=&quot;token punctuation&quot;&gt;-&lt;/span&gt; commands
+&lt;span class=&quot;token key atrule&quot;&gt;settings&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;
+  &lt;span class=&quot;token key atrule&quot;&gt;org_deploy_enabled&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token boolean important&quot;&gt;false&lt;/span&gt;
+  &lt;span class=&quot;token key atrule&quot;&gt;socket_mode_enabled&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token boolean important&quot;&gt;false&lt;/span&gt;
+  &lt;span class=&quot;token key atrule&quot;&gt;token_rotation_enabled&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token boolean important&quot;&gt;false&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;ここまでできたらインストールしたい Slack のワークスペースにインストールします。
+インストールできたら &lt;code class=&quot;language-text&quot;&gt;OAuth &amp;amp; Permissions&lt;/code&gt; ページに移動して、 &lt;code class=&quot;language-text&quot;&gt;Bot User OAuth Token&lt;/code&gt; を取得します。&lt;/p&gt;
+&lt;p&gt;また、 &lt;code class=&quot;language-text&quot;&gt;Basic Information&lt;/code&gt; ページにある &lt;code class=&quot;language-text&quot;&gt;Verification Token&lt;/code&gt; も取得しておきます。
+ここまでできたら Slack 側の準備完了です。&lt;/p&gt;
+&lt;h2&gt;コード&lt;/h2&gt;
+&lt;p&gt;Slash コマンドが実行されたときの処理を書きます。 今回は &lt;code class=&quot;language-text&quot;&gt;Python&lt;/code&gt;, &lt;code class=&quot;language-text&quot;&gt;flask&lt;/code&gt;, &lt;code class=&quot;language-text&quot;&gt;slack_sdk&lt;/code&gt; を使います。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://palletsprojects.com/p/flask/&quot;&gt;https://palletsprojects.com/p/flask/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://slack.dev/python-slack-sdk/&quot;&gt;https://slack.dev/python-slack-sdk/&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;プロジェクトのコードは GitHub にあげていますので、それも見てください。&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://github.com/YutaGoto/emoji-gacha&quot;&gt;https://github.com/YutaGoto/emoji-gacha&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;12 行目にある if 文は、本当に slack の slash コマンドから POST されたものかのチェックをするための分岐です。&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;py&quot;&gt;&lt;pre class=&quot;language-py&quot;&gt;&lt;code class=&quot;language-py&quot;&gt;&lt;span class=&quot;token decorator annotation punctuation&quot;&gt;@app&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;route&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&apos;/emoji-gacha&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; methods&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&apos;POST&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;token keyword&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;emoji_gacha&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;
+    &lt;span class=&quot;token keyword&quot;&gt;if&lt;/span&gt; request&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;form&lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&apos;token&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;==&lt;/span&gt; config&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;VERIFICATION_TOKEN&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;13 行目にある &lt;code class=&quot;language-text&quot;&gt;emoji_list()&lt;/code&gt; で絵文字一覧を取得します。 仮に emoji 以外になにか取得する場合にもそれぞれメソッドが用意されているので、かなり便利に使用できます。ただ、使用する場合はそれに応じた manifest の編集が必要です。&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://api.slack.com/methods&quot;&gt;https://api.slack.com/methods&lt;/a&gt;&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;py&quot;&gt;&lt;pre class=&quot;language-py&quot;&gt;&lt;code class=&quot;language-py&quot;&gt;res &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; slack_client&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;emoji_list&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;h2&gt;動作確認&lt;/h2&gt;
+&lt;p&gt;開発環境での検証は &lt;code class=&quot;language-text&quot;&gt;ngrok&lt;/code&gt; を使うと楽です。詳しくは書きません。&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://ngrok.com/&quot;&gt;https://ngrok.com/&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;flask サーバーを起動して ngrok を起動して、その URL を manifest に書き込んだらテストをします。
+以下のように slack 上で slash コマンドを入力できて、BOT がワークスペースに登録された emoji を 1 つだけチャットしたかと思います。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/blog/22ed3a8a8a4885c3b241548f6292a09d/slack.gif&quot; alt=&quot;slack gif&quot;&gt;&lt;/p&gt;
+&lt;p&gt;AWS lambda などにデプロイすれば、いつでも emoji ガチャを回すことができます！&lt;/p&gt;</content:encoded></item><item><title><![CDATA[リングフィットアドベンチャー 3周目完走したので感想]]></title><description><![CDATA[こんにちは、.ごっちです。  2019 年の 10 月末に始めて 2020 年 6 月 17 日に 1 周目完走して、そして 2021 年 3 月 25 日に 2 周目（エクストラモード）を完走し、そしてそして 2021 年 10 月 8 日に…]]></description><link>https://yutagoto.github.io/20211009-ringfitadv-round3/</link><guid isPermaLink="false">https://yutagoto.github.io/20211009-ringfitadv-round3/</guid><pubDate>Sat, 09 Oct 2021 10:30:00 GMT</pubDate><content:encoded>&lt;p&gt;こんにちは、.ごっちです。&lt;/p&gt;
 &lt;p&gt;&lt;span
       class=&quot;gatsby-resp-image-wrapper&quot;
       style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 264px; &quot;

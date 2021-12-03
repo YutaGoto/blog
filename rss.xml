@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[.ごっちの日記]]></title><description><![CDATA[.ごっちのつれづれなる日記]]></description><link>https://yutagoto.github.io</link><generator>GatsbyJS</generator><lastBuildDate>Thu, 02 Dec 2021 15:51:27 GMT</lastBuildDate><item><title><![CDATA[Slackに登録されているemojiでガチャする]]></title><description><![CDATA[この記事は雑談 Slack Advent Calendar 2021 の 23 日目の記事です。 こんにちは、.ごっちです。
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[.ごっちの日記]]></title><description><![CDATA[.ごっちのつれづれなる日記]]></description><link>https://yutagoto.github.io</link><generator>GatsbyJS</generator><lastBuildDate>Fri, 03 Dec 2021 03:22:54 GMT</lastBuildDate><item><title><![CDATA[Slackに登録されているemojiでガチャする]]></title><description><![CDATA[この記事は雑談 Slack Advent Calendar 2021 の 23 日目の記事です。 こんにちは、.ごっちです。
 毎年雑談 Slack アドベントカレンダーで Slack emoji について取り上げているような気がしていますが、今年も取り上げます。 202…]]></description><link>https://yutagoto.github.io/20211203-emoji-gacha/</link><guid isPermaLink="false">https://yutagoto.github.io/20211203-emoji-gacha/</guid><pubDate>Fri, 03 Dec 2021 00:01:00 GMT</pubDate><content:encoded>&lt;p&gt;この記事は&lt;a href=&quot;https://adventar.org/calendars/6233&quot;&gt;雑談 Slack Advent Calendar 2021&lt;/a&gt; の 23 日目の記事です。&lt;/p&gt;
 &lt;p&gt;こんにちは、.ごっちです。
 毎年雑談 Slack アドベントカレンダーで Slack emoji について取り上げているような気がしていますが、今年も取り上げます。&lt;/p&gt;
@@ -18,26 +18,26 @@
     &gt;
       &lt;a
     class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/blog/static/0f4b709c7095051284d1c264f9a7e031/e04e6/app1.png&quot;
+    href=&quot;/blog/static/fc797af2a59211128eca5dfc4ee5e7ee/e04e6/app1.png&quot;
     style=&quot;display: block&quot;
     target=&quot;_blank&quot;
     rel=&quot;noopener&quot;
   &gt;
     &lt;span
     class=&quot;gatsby-resp-image-background-image&quot;
-    style=&quot;padding-bottom: 55.06329113924051%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAALCAYAAAB/Ca1DAAAACXBIWXMAAAsTAAALEwEAmpwYAAAB1klEQVQoz5VTS4vaYBSNz5/myo34S7orioLgYmbQH9F2YyE60oHCFLpoi5suixgdqKNORuMjD03yJSYxp9xbM/RBYXrhkI8v5557DjeRZot7jEYjHA4H/FpxHP+GpE6nE4QQOB6PiMIAISNEFIYIggDSwbKgGwYcx4HneUwk0EtqJjE6J/cE3/chPB+Oe4QQR7iegCME30tMCgJsdBPz+Ry6rrOApmkYj8dQFAWu6zKZBhKE8PB94eHmY4y3X2Z4efsKL25e4+vsDhKTfB9zdQllNIJpmuyCnuv1GsvlEpZlYb/fw7ZtFqc0B9uBZQnszD0edmuouw0s24bknwUftQ1UVWUxGkKOKPL/FPU+CS4eNQyHQ3ZCgqf4BOVujEajgXa7jVarhavLK1SrVTSbTVxcXKJSqaBWq6Fer6Pf74NWJ/l+4nCL7XbLzigWVe9ahiRJz0KhUOCeJ8H7hyUmkwlcV0AIl6e9kW+RTqeRzWYZmUzmL+TzeRYsl8tnwXNkVdtgOp3yIkiQ6v2nb0xOpVL/RC6XY06pVPopmCzAME2sViveYBL53YfPz45cLBaTyD7IpWEY/FnQpuhPiKII2noDWZbR7XYZdP4TvV4PnU4Hg8GAe34AVV+57KF+alYAAAAASUVORK5CYII=&apos;); background-size: cover; display: block;&quot;
+    style=&quot;padding-bottom: 55.06329113924051%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAALCAIAAADwazoUAAAACXBIWXMAAAsTAAALEwEAmpwYAAABmklEQVQoz4XQS2saQQDA8dmK30/xi/QWUBpB8KDoh0h7KQa22kBpCIVCDkIvuRjdNFSj3WSns+1Mdp33zO6E1W2b0tfvNDPMn3mA1Xp1Ob9M08Q9ku88nnLOlVLWamO0McYaa7QB2+QeY0wpFUIoXcqyLM9zrbVS5ZqUkgtFmWJcUs62nAkpQbFDG/TtfrPeYIyNMRDCIAgWiwVjTEopdriQnzbi5F3+8vzm4O3R09fPP9xcA1lQ6zBazOeEEKUUIQTFCEKYJEmapowxzjljjFKWpBIn2zscR/hrQrdlfAtRGIZa6+Lyxdus+x+tdRELqTa3cDabpWkqhMjyLLgOOp3OcDgcDAb9fr/VanW73V6v12w2D58dttvtyWTinCvjuy9xHMdKKcaYc873jwEAnueB31QqFQBArVb7Ga8+Rx+vrnihiF8cn3qeV/nuyc5+UK1WAQCNRuNHLEOIlsslQohz7px78/4C/MX+5Hq9XsZSSkxIFEVsxzl3cnb+72v/EhNMKKX737bWojj2ff/Vn4zH49FoNJ1OrbUPYfDfxrDOY08AAAAASUVORK5CYII=&apos;); background-size: cover; display: block;&quot;
   &gt;&lt;/span&gt;
   &lt;img
         class=&quot;gatsby-resp-image-image&quot;
         alt=&quot;slack app 1&quot;
         title=&quot;slack app 1&quot;
-        src=&quot;/blog/static/0f4b709c7095051284d1c264f9a7e031/f058b/app1.png&quot;
-        srcset=&quot;/blog/static/0f4b709c7095051284d1c264f9a7e031/c26ae/app1.png 158w,
-/blog/static/0f4b709c7095051284d1c264f9a7e031/6bdcf/app1.png 315w,
-/blog/static/0f4b709c7095051284d1c264f9a7e031/f058b/app1.png 630w,
-/blog/static/0f4b709c7095051284d1c264f9a7e031/40601/app1.png 945w,
-/blog/static/0f4b709c7095051284d1c264f9a7e031/78612/app1.png 1260w,
-/blog/static/0f4b709c7095051284d1c264f9a7e031/e04e6/app1.png 2152w&quot;
+        src=&quot;/blog/static/fc797af2a59211128eca5dfc4ee5e7ee/f058b/app1.png&quot;
+        srcset=&quot;/blog/static/fc797af2a59211128eca5dfc4ee5e7ee/c26ae/app1.png 158w,
+/blog/static/fc797af2a59211128eca5dfc4ee5e7ee/6bdcf/app1.png 315w,
+/blog/static/fc797af2a59211128eca5dfc4ee5e7ee/f058b/app1.png 630w,
+/blog/static/fc797af2a59211128eca5dfc4ee5e7ee/40601/app1.png 945w,
+/blog/static/fc797af2a59211128eca5dfc4ee5e7ee/78612/app1.png 1260w,
+/blog/static/fc797af2a59211128eca5dfc4ee5e7ee/e04e6/app1.png 2152w&quot;
         sizes=&quot;(max-width: 630px) 100vw, 630px&quot;
         style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
         loading=&quot;lazy&quot;
@@ -51,25 +51,25 @@
     &gt;
       &lt;a
     class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/blog/static/e7bf29d46883f3cd5984f8e9bd61e624/218a4/app2.png&quot;
+    href=&quot;/blog/static/a5bbed01d5acfce2c4d34a214e2012f6/218a4/app2.png&quot;
     style=&quot;display: block&quot;
     target=&quot;_blank&quot;
     rel=&quot;noopener&quot;
   &gt;
     &lt;span
     class=&quot;gatsby-resp-image-background-image&quot;
-    style=&quot;padding-bottom: 72.15189873417721%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAOCAYAAAAvxDzwAAAACXBIWXMAAAsTAAALEwEAmpwYAAABdklEQVQ4y52T626CQBCFef9Xa038Y2Ks4WogeAMUFkVgmm/skq2xNe0mJ2cdd2fPnBm8sizleDxKnudyOBx0D18uF7ler8qP+2do21bZ42DgB/L+9i6LxUIxm83kr4tkLI/M4Hw+S9M0Cvan00mauhEqqKpK6rrWmP0PBkVR6B3WOI73hATKopwOUzYH2VsbSEqMByyD/X6v96aExhj1B5C873v575oUhmEo64+1LJdLiaJIywMoh6uympShGrWogodhmKAeonC73UqSJLLb7SQIAn0gSzNJ01TjlPwsITFUgaEfvjeFQzCKTGOEh8xXg16V6cKjLHxDsg12XaexbvzdM/fOlFA9DEJZrVbqIXM4n8/F931Z54VUTatK6/rup50K2FU5echAZlkmcRRLHMfK+LbZbCSJYwWjgX/uKMGuUjsd2hRexHh3eG2X3Yuv/NOSb7ebeuZ+j/zWphgzlWkfpnnM7E/LozTUUZYLRsjiMfZ41sUnWaw5KdLCEHcAAAAASUVORK5CYII=&apos;); background-size: cover; display: block;&quot;
+    style=&quot;padding-bottom: 72.15189873417721%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAOCAIAAACgpqunAAAACXBIWXMAAAsTAAALEwEAmpwYAAABaElEQVQoz5WS227kIBBE/f+/lsxDIu1I1oziMZBYGWPA3WAaX3BkmMtuLor2PCCBVE2VugpjjNb6fD53Xae1VkoRUQghpOMnKFGEEKqX6vHh8U9it9vN87z+RghhXdfCe+/JW2tdwlqLiM65vu8BYLsC3rBojTbOuTxiEzvntNaICABKKa01AOQUAGASWus+IaW0aO/iHJKIxnFc/4eCiOq6Ph6PZVlyxrPzfGbnxphsKr8syxJjXJbl8nPbtkKItm1PpxOrWdM0b28N5zxb/SSOibt48ENveu89Ig4Z5xAxxvjVaryyiZ1z8zwvV8ZxnKZpXNbvhHflRZwzHw6Hsiz3+/3z81NVVcd3DQN5N7jNhNvcDQMR3UZcbBNR0zSMMc44Y0wI8SpeOas5Z1JKncgrBICbOBfpvudcj1tbAOBr5vgvxZjIXQ0hTNPkyeeJRJQNI2Lu4+c9CyGUUvIv2ivyZ7quk1J+AGtfIzec43gUAAAAAElFTkSuQmCC&apos;); background-size: cover; display: block;&quot;
   &gt;&lt;/span&gt;
   &lt;img
         class=&quot;gatsby-resp-image-image&quot;
         alt=&quot;slack app 2&quot;
         title=&quot;slack app 2&quot;
-        src=&quot;/blog/static/e7bf29d46883f3cd5984f8e9bd61e624/f058b/app2.png&quot;
-        srcset=&quot;/blog/static/e7bf29d46883f3cd5984f8e9bd61e624/c26ae/app2.png 158w,
-/blog/static/e7bf29d46883f3cd5984f8e9bd61e624/6bdcf/app2.png 315w,
-/blog/static/e7bf29d46883f3cd5984f8e9bd61e624/f058b/app2.png 630w,
-/blog/static/e7bf29d46883f3cd5984f8e9bd61e624/40601/app2.png 945w,
-/blog/static/e7bf29d46883f3cd5984f8e9bd61e624/218a4/app2.png 1052w&quot;
+        src=&quot;/blog/static/a5bbed01d5acfce2c4d34a214e2012f6/f058b/app2.png&quot;
+        srcset=&quot;/blog/static/a5bbed01d5acfce2c4d34a214e2012f6/c26ae/app2.png 158w,
+/blog/static/a5bbed01d5acfce2c4d34a214e2012f6/6bdcf/app2.png 315w,
+/blog/static/a5bbed01d5acfce2c4d34a214e2012f6/f058b/app2.png 630w,
+/blog/static/a5bbed01d5acfce2c4d34a214e2012f6/40601/app2.png 945w,
+/blog/static/a5bbed01d5acfce2c4d34a214e2012f6/218a4/app2.png 1052w&quot;
         sizes=&quot;(max-width: 630px) 100vw, 630px&quot;
         style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
         loading=&quot;lazy&quot;
@@ -83,25 +83,25 @@
     &gt;
       &lt;a
     class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/blog/static/c5cb04a05fd474dd08b7d936d5efef4f/bb2fd/app3.png&quot;
+    href=&quot;/blog/static/b88c6e5c0ed820b5aa65339e43b76cf5/bb2fd/app3.png&quot;
     style=&quot;display: block&quot;
     target=&quot;_blank&quot;
     rel=&quot;noopener&quot;
   &gt;
     &lt;span
     class=&quot;gatsby-resp-image-background-image&quot;
-    style=&quot;padding-bottom: 92.40506329113923%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAASCAYAAABb0P4QAAAACXBIWXMAAAsTAAALEwEAmpwYAAACFElEQVQ4y5VU2Y7aQBD0/7/xziPXCx+RVVaCJRtuhBTuw2CbQwZz2cYVVSfttXdZZTNSabo9np7q6p4xLMtCo95ArVZD7eUFlUoF9Z91VKtVvP54lbXn7894+vaEbrcLjiiKYnAEQSAz1w3HceTD8XiEd/RwvVzF931fQJs4n8/iPxr3+13mTqcDY71egyyHwyFM04x/UAa0H/lJKMN2uw2DwZQ2GVyvV9xut1RKSSaPEIahrDebTRi2ZeNyucB1XZxOJ8HhcBAJmCZtz/PE56H/ZGjbtjDiJgZLzmoTDKhMPtNQAlJDFma1WmE2m2E6nYKHzOdzjEYjmEsTy+USk8lEDqAMDJxM9wNDLpAB9eMmpqmnvh/JllGNtfpxUfiBAQnVjLoqeJCCPiUi1KckqYAMxLT3+71gt9sJttutfGcWnBWbzSb+nwFZvFTK1IEf9cQkE9XpUatoyjrHAblZW4Xtw5R1/spI3RRt7ORpyZvxvqIKPwhiO/hblFarBYPtQq0Wi4W0x3g8lnYZ/BpgMBj8aSPLlvX1agXTcjBzXCw2LsztAcuti7mzx8UP0WjU3xjKQ+AH8YMgj8PNT/l6U0LeDrIj8ygS++3q2bY4j4RPgumzSLwIrDKLyAx6vR5azaZoLs8Xjf8ZDKpXkEVj67CFOPr9PoxsNotSqYRcLvclFItFFAoF5PN5sbmXKJfLyGQy+A1cGFgFGIXNvAAAAABJRU5ErkJggg==&apos;); background-size: cover; display: block;&quot;
+    style=&quot;padding-bottom: 92.40506329113923%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAASCAIAAADUsmlHAAAACXBIWXMAAAsTAAALEwEAmpwYAAAB7ElEQVQ4y32T227iMBCGef87HoDLFXDDO2wlJFioSMNhb0qzQEqI7QCJbXxMvHKGchLtJzQaZE3+OTbSNA0mwXg0Hv0ZDQaDyWQyHA5fx6/BJOj3+y+/XxbzhbvHWuucm8/nDYyxMYbVSCmNMbrG1AghtNYPwWVZOudms1kjrVm+L5MkgYeyLKuqAvsUUPbBCCHIRGstpVRKVVV1q/NdcBiGPlhKWRQFr6GUMsZOpxOllHPOGDPGlPcYY67KWmuIZIyBBQd80Hle8263wxgnSbLZbFarFUIojuPoI9rWrP6tOOeQ6hNljHFVVZRSqSRjjFIKbw9cCnbOQf/PacOoKKW08HUKIaSQF5RSYD3S+5zz66goowSTA7A/7Pf7LMswxggh/AUhBGN8PByFEOIkrsrWWiGEUurWwqhvx26thbSvDUMICSGKoqCU5nnOGAPrvuduwy79gM9fpMCxXxjjH2vHnJckSZIsy+I43n5uoyiKPqL3mvV6DWPbJck2xWucx1n+Wf826CC1fQuCs/LlEjzaXP6C4zMqKy/rU3HW+rTDt/C827fH8HASSqk0TQkhQojlcvl3sQjDMM9zf5KEEKj5hw5pra3xS8o5Px6PGcmcc9PptNFqtbrd7q8f6XQ67XYbnG5Nr9drNpv/AcO08oST3bhvAAAAAElFTkSuQmCC&apos;); background-size: cover; display: block;&quot;
   &gt;&lt;/span&gt;
   &lt;img
         class=&quot;gatsby-resp-image-image&quot;
         alt=&quot;slack app 3&quot;
         title=&quot;slack app 3&quot;
-        src=&quot;/blog/static/c5cb04a05fd474dd08b7d936d5efef4f/f058b/app3.png&quot;
-        srcset=&quot;/blog/static/c5cb04a05fd474dd08b7d936d5efef4f/c26ae/app3.png 158w,
-/blog/static/c5cb04a05fd474dd08b7d936d5efef4f/6bdcf/app3.png 315w,
-/blog/static/c5cb04a05fd474dd08b7d936d5efef4f/f058b/app3.png 630w,
-/blog/static/c5cb04a05fd474dd08b7d936d5efef4f/40601/app3.png 945w,
-/blog/static/c5cb04a05fd474dd08b7d936d5efef4f/bb2fd/app3.png 1058w&quot;
+        src=&quot;/blog/static/b88c6e5c0ed820b5aa65339e43b76cf5/f058b/app3.png&quot;
+        srcset=&quot;/blog/static/b88c6e5c0ed820b5aa65339e43b76cf5/c26ae/app3.png 158w,
+/blog/static/b88c6e5c0ed820b5aa65339e43b76cf5/6bdcf/app3.png 315w,
+/blog/static/b88c6e5c0ed820b5aa65339e43b76cf5/f058b/app3.png 630w,
+/blog/static/b88c6e5c0ed820b5aa65339e43b76cf5/40601/app3.png 945w,
+/blog/static/b88c6e5c0ed820b5aa65339e43b76cf5/bb2fd/app3.png 1058w&quot;
         sizes=&quot;(max-width: 630px) 100vw, 630px&quot;
         style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
         loading=&quot;lazy&quot;
@@ -162,7 +162,7 @@ Manifest の詳しい仕様は&lt;a href=&quot;https://api.slack.com/reference/m
 &lt;p&gt;&lt;a href=&quot;https://ngrok.com/&quot;&gt;https://ngrok.com/&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;flask サーバーを起動して ngrok を起動して、その URL を manifest に書き込んだらテストをします。
 以下のように slack 上で slash コマンドを入力できて、BOT がワークスペースに登録された emoji を 1 つだけチャットしたかと思います。&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;/blog/22ed3a8a8a4885c3b241548f6292a09d/slack.gif&quot; alt=&quot;slack gif&quot;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/blog/c13d1c7d64445a75a040a9eeaa7530dc/slack.gif&quot; alt=&quot;slack gif&quot;&gt;&lt;/p&gt;
 &lt;p&gt;AWS lambda などにデプロイすれば、いつでも emoji ガチャを回すことができます！&lt;/p&gt;</content:encoded></item><item><title><![CDATA[リングフィットアドベンチャー 3周目完走したので感想]]></title><description><![CDATA[こんにちは、.ごっちです。  2019 年の 10 月末に始めて 2020 年 6 月 17 日に 1 周目完走して、そして 2021 年 3 月 25 日に 2 周目（エクストラモード）を完走し、そしてそして 2021 年 10 月 8 日に…]]></description><link>https://yutagoto.github.io/20211009-ringfitadv-round3/</link><guid isPermaLink="false">https://yutagoto.github.io/20211009-ringfitadv-round3/</guid><pubDate>Sat, 09 Oct 2021 10:30:00 GMT</pubDate><content:encoded>&lt;p&gt;こんにちは、.ごっちです。&lt;/p&gt;
 &lt;p&gt;&lt;span
       class=&quot;gatsby-resp-image-wrapper&quot;

@@ -1,7 +1,7 @@
 {
-  "name": ".ごっちの日記",
+  "name": "YutaGotoBlog",
   "private": true,
-  "description": "エンジニアの.ごっちの日記",
+  "description": "エンジニアのごっちの日記",
   "version": "0.1.0",
   "author": "Yuta Goto <you.goto.510@gmail.com>",
   "dependencies": {

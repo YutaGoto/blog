@@ -4,7 +4,7 @@ date: "2021-12-03T00:01:00.000Z"
 description: "えもじがちゃ"
 ---
 
-この記事は[雑談 Slack Advent Calendar 2021](https://adventar.org/calendars/6233) の 23 日目の記事です。
+この記事は[雑談 Slack Advent Calendar 2021](https://adventar.org/calendars/6233) の 3 日目の記事です。
 
 こんにちは、.ごっちです。
 毎年雑談 Slack アドベントカレンダーで Slack emoji について取り上げているような気がしていますが、今年も取り上げます。

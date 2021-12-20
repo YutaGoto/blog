@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[.ごっちの日記]]></title><description><![CDATA[.ごっちのつれづれなる日記]]></description><link>https://yutagoto.github.io</link><generator>GatsbyJS</generator><lastBuildDate>Mon, 20 Dec 2021 13:19:30 GMT</lastBuildDate><item><title><![CDATA[ごっちさん旅行記]]></title><description><![CDATA[この記事は雑談 Slack Advent Calendar 2021 の 2…]]></description><link>https://yutagoto.github.io/20211221-kagawa-okayama-trip/</link><guid isPermaLink="false">https://yutagoto.github.io/20211221-kagawa-okayama-trip/</guid><pubDate>Tue, 21 Dec 2021 00:01:00 GMT</pubDate><content:encoded>&lt;p&gt;この記事は&lt;a href=&quot;https://adventar.org/calendars/6233&quot;&gt;雑談 Slack Advent Calendar 2021&lt;/a&gt; の 21 日目の記事です。&lt;/p&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[.ごっちの日記]]></title><description><![CDATA[.ごっちのつれづれなる日記]]></description><link>https://yutagoto.github.io</link><generator>GatsbyJS</generator><lastBuildDate>Mon, 20 Dec 2021 13:20:12 GMT</lastBuildDate><item><title><![CDATA[ごっちさん旅行記]]></title><description><![CDATA[この記事は雑談 Slack Advent Calendar 2021 の 2…]]></description><link>https://yutagoto.github.io/20211221-kagawa-okayama-trip/</link><guid isPermaLink="false">https://yutagoto.github.io/20211221-kagawa-okayama-trip/</guid><pubDate>Tue, 21 Dec 2021 00:01:00 GMT</pubDate><content:encoded>&lt;p&gt;この記事は&lt;a href=&quot;https://adventar.org/calendars/6233&quot;&gt;雑談 Slack Advent Calendar 2021&lt;/a&gt; の 21 日目の記事です。&lt;/p&gt;
 &lt;p&gt;こんにちは、.ごっちです。
 気が向いたので旅行してきました。きっかけは以下のツイートです。&lt;/p&gt;
 &lt;blockquote class=&quot;twitter-tweet&quot;&gt;&lt;p lang=&quot;ja&quot; dir=&quot;ltr&quot;&gt;サンライズで四国に行ってうどん食べて瀬戸大橋を見て散歩して帰るみたいなことをしたい。&lt;/p&gt;&amp;mdash; .ごっち (@gggooottto) &lt;a href=&quot;https://twitter.com/gggooottto/status/1468135319694606341?ref_src=twsrc%5Etfw&quot;&gt;December 7, 2021&lt;/a&gt;&lt;/blockquote&gt;
@@ -18,13 +18,13 @@
         class=&quot;gatsby-resp-image-image&quot;
         alt=&quot;車窓&quot;
         title=&quot;車窓&quot;
-        src=&quot;/blog/static/1188775c69c190f2cc356c5d9587752f/828fb/sunrise.jpg&quot;
-        srcset=&quot;/blog/static/1188775c69c190f2cc356c5d9587752f/ff44c/sunrise.jpg 158w,
-/blog/static/1188775c69c190f2cc356c5d9587752f/a6688/sunrise.jpg 315w,
-/blog/static/1188775c69c190f2cc356c5d9587752f/828fb/sunrise.jpg 630w,
-/blog/static/1188775c69c190f2cc356c5d9587752f/0ede0/sunrise.jpg 945w,
-/blog/static/1188775c69c190f2cc356c5d9587752f/3ac88/sunrise.jpg 1260w,
-/blog/static/1188775c69c190f2cc356c5d9587752f/bcd4e/sunrise.jpg 1632w&quot;
+        src=&quot;/blog/static/3cbecd30cb5c78850f71bfb79bb2d491/828fb/sunrise.jpg&quot;
+        srcset=&quot;/blog/static/3cbecd30cb5c78850f71bfb79bb2d491/ff44c/sunrise.jpg 158w,
+/blog/static/3cbecd30cb5c78850f71bfb79bb2d491/a6688/sunrise.jpg 315w,
+/blog/static/3cbecd30cb5c78850f71bfb79bb2d491/828fb/sunrise.jpg 630w,
+/blog/static/3cbecd30cb5c78850f71bfb79bb2d491/0ede0/sunrise.jpg 945w,
+/blog/static/3cbecd30cb5c78850f71bfb79bb2d491/3ac88/sunrise.jpg 1260w,
+/blog/static/3cbecd30cb5c78850f71bfb79bb2d491/bcd4e/sunrise.jpg 1632w&quot;
         sizes=&quot;(max-width: 630px) 100vw, 630px&quot;
         style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
         loading=&quot;lazy&quot;
@@ -48,13 +48,13 @@
         class=&quot;gatsby-resp-image-image&quot;
         alt=&quot;朝日&quot;
         title=&quot;朝日&quot;
-        src=&quot;/blog/static/be7bed9544eaee577465df3903bff74c/828fb/morning.jpg&quot;
-        srcset=&quot;/blog/static/be7bed9544eaee577465df3903bff74c/ff44c/morning.jpg 158w,
-/blog/static/be7bed9544eaee577465df3903bff74c/a6688/morning.jpg 315w,
-/blog/static/be7bed9544eaee577465df3903bff74c/828fb/morning.jpg 630w,
-/blog/static/be7bed9544eaee577465df3903bff74c/0ede0/morning.jpg 945w,
-/blog/static/be7bed9544eaee577465df3903bff74c/3ac88/morning.jpg 1260w,
-/blog/static/be7bed9544eaee577465df3903bff74c/bcd4e/morning.jpg 1632w&quot;
+        src=&quot;/blog/static/aab39b9d299fb871198f5bbedbefaa69/828fb/morning.jpg&quot;
+        srcset=&quot;/blog/static/aab39b9d299fb871198f5bbedbefaa69/ff44c/morning.jpg 158w,
+/blog/static/aab39b9d299fb871198f5bbedbefaa69/a6688/morning.jpg 315w,
+/blog/static/aab39b9d299fb871198f5bbedbefaa69/828fb/morning.jpg 630w,
+/blog/static/aab39b9d299fb871198f5bbedbefaa69/0ede0/morning.jpg 945w,
+/blog/static/aab39b9d299fb871198f5bbedbefaa69/3ac88/morning.jpg 1260w,
+/blog/static/aab39b9d299fb871198f5bbedbefaa69/bcd4e/morning.jpg 1632w&quot;
         sizes=&quot;(max-width: 630px) 100vw, 630px&quot;
         style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
         loading=&quot;lazy&quot;
@@ -77,13 +77,13 @@
         class=&quot;gatsby-resp-image-image&quot;
         alt=&quot;肉うどん&quot;
         title=&quot;肉うどん&quot;
-        src=&quot;/blog/static/56c288fb296f6e2ca678653794aeddb5/828fb/nikuudon.jpg&quot;
-        srcset=&quot;/blog/static/56c288fb296f6e2ca678653794aeddb5/ff44c/nikuudon.jpg 158w,
-/blog/static/56c288fb296f6e2ca678653794aeddb5/a6688/nikuudon.jpg 315w,
-/blog/static/56c288fb296f6e2ca678653794aeddb5/828fb/nikuudon.jpg 630w,
-/blog/static/56c288fb296f6e2ca678653794aeddb5/0ede0/nikuudon.jpg 945w,
-/blog/static/56c288fb296f6e2ca678653794aeddb5/3ac88/nikuudon.jpg 1260w,
-/blog/static/56c288fb296f6e2ca678653794aeddb5/bcd4e/nikuudon.jpg 1632w&quot;
+        src=&quot;/blog/static/66839da94d48754a5fce1ff614457f7d/828fb/nikuudon.jpg&quot;
+        srcset=&quot;/blog/static/66839da94d48754a5fce1ff614457f7d/ff44c/nikuudon.jpg 158w,
+/blog/static/66839da94d48754a5fce1ff614457f7d/a6688/nikuudon.jpg 315w,
+/blog/static/66839da94d48754a5fce1ff614457f7d/828fb/nikuudon.jpg 630w,
+/blog/static/66839da94d48754a5fce1ff614457f7d/0ede0/nikuudon.jpg 945w,
+/blog/static/66839da94d48754a5fce1ff614457f7d/3ac88/nikuudon.jpg 1260w,
+/blog/static/66839da94d48754a5fce1ff614457f7d/bcd4e/nikuudon.jpg 1632w&quot;
         sizes=&quot;(max-width: 630px) 100vw, 630px&quot;
         style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
         loading=&quot;lazy&quot;
@@ -108,13 +108,13 @@
         class=&quot;gatsby-resp-image-image&quot;
         alt=&quot;浜&quot;
         title=&quot;浜&quot;
-        src=&quot;/blog/static/f4f3d1f2aaf30c3f1f919a3562aefb03/828fb/beach.jpg&quot;
-        srcset=&quot;/blog/static/f4f3d1f2aaf30c3f1f919a3562aefb03/ff44c/beach.jpg 158w,
-/blog/static/f4f3d1f2aaf30c3f1f919a3562aefb03/a6688/beach.jpg 315w,
-/blog/static/f4f3d1f2aaf30c3f1f919a3562aefb03/828fb/beach.jpg 630w,
-/blog/static/f4f3d1f2aaf30c3f1f919a3562aefb03/0ede0/beach.jpg 945w,
-/blog/static/f4f3d1f2aaf30c3f1f919a3562aefb03/3ac88/beach.jpg 1260w,
-/blog/static/f4f3d1f2aaf30c3f1f919a3562aefb03/bcd4e/beach.jpg 1632w&quot;
+        src=&quot;/blog/static/61ca445c97a48d9668a050ba9238e305/828fb/beach.jpg&quot;
+        srcset=&quot;/blog/static/61ca445c97a48d9668a050ba9238e305/ff44c/beach.jpg 158w,
+/blog/static/61ca445c97a48d9668a050ba9238e305/a6688/beach.jpg 315w,
+/blog/static/61ca445c97a48d9668a050ba9238e305/828fb/beach.jpg 630w,
+/blog/static/61ca445c97a48d9668a050ba9238e305/0ede0/beach.jpg 945w,
+/blog/static/61ca445c97a48d9668a050ba9238e305/3ac88/beach.jpg 1260w,
+/blog/static/61ca445c97a48d9668a050ba9238e305/bcd4e/beach.jpg 1632w&quot;
         sizes=&quot;(max-width: 630px) 100vw, 630px&quot;
         style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
         loading=&quot;lazy&quot;
@@ -133,13 +133,13 @@
         class=&quot;gatsby-resp-image-image&quot;
         alt=&quot;ワーケーション&quot;
         title=&quot;ワーケーション&quot;
-        src=&quot;/blog/static/4a074fcc034baffb0a3164a0cac0106c/828fb/workation.jpg&quot;
-        srcset=&quot;/blog/static/4a074fcc034baffb0a3164a0cac0106c/ff44c/workation.jpg 158w,
-/blog/static/4a074fcc034baffb0a3164a0cac0106c/a6688/workation.jpg 315w,
-/blog/static/4a074fcc034baffb0a3164a0cac0106c/828fb/workation.jpg 630w,
-/blog/static/4a074fcc034baffb0a3164a0cac0106c/0ede0/workation.jpg 945w,
-/blog/static/4a074fcc034baffb0a3164a0cac0106c/3ac88/workation.jpg 1260w,
-/blog/static/4a074fcc034baffb0a3164a0cac0106c/bcd4e/workation.jpg 1632w&quot;
+        src=&quot;/blog/static/f08cd13ab08b7e5ed01142db96d47230/828fb/workation.jpg&quot;
+        srcset=&quot;/blog/static/f08cd13ab08b7e5ed01142db96d47230/ff44c/workation.jpg 158w,
+/blog/static/f08cd13ab08b7e5ed01142db96d47230/a6688/workation.jpg 315w,
+/blog/static/f08cd13ab08b7e5ed01142db96d47230/828fb/workation.jpg 630w,
+/blog/static/f08cd13ab08b7e5ed01142db96d47230/0ede0/workation.jpg 945w,
+/blog/static/f08cd13ab08b7e5ed01142db96d47230/3ac88/workation.jpg 1260w,
+/blog/static/f08cd13ab08b7e5ed01142db96d47230/bcd4e/workation.jpg 1632w&quot;
         sizes=&quot;(max-width: 630px) 100vw, 630px&quot;
         style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
         loading=&quot;lazy&quot;
@@ -191,13 +191,13 @@
         class=&quot;gatsby-resp-image-image&quot;
         alt=&quot;四国水族館&quot;
         title=&quot;四国水族館&quot;
-        src=&quot;/blog/static/fedd592f061b49a398154a250864cc01/828fb/shikokusuizokukan.jpg&quot;
-        srcset=&quot;/blog/static/fedd592f061b49a398154a250864cc01/ff44c/shikokusuizokukan.jpg 158w,
-/blog/static/fedd592f061b49a398154a250864cc01/a6688/shikokusuizokukan.jpg 315w,
-/blog/static/fedd592f061b49a398154a250864cc01/828fb/shikokusuizokukan.jpg 630w,
-/blog/static/fedd592f061b49a398154a250864cc01/0ede0/shikokusuizokukan.jpg 945w,
-/blog/static/fedd592f061b49a398154a250864cc01/3ac88/shikokusuizokukan.jpg 1260w,
-/blog/static/fedd592f061b49a398154a250864cc01/bcd4e/shikokusuizokukan.jpg 1632w&quot;
+        src=&quot;/blog/static/c967a27ca13a08d45a746d7373e5a9e9/828fb/shikokusuizokukan.jpg&quot;
+        srcset=&quot;/blog/static/c967a27ca13a08d45a746d7373e5a9e9/ff44c/shikokusuizokukan.jpg 158w,
+/blog/static/c967a27ca13a08d45a746d7373e5a9e9/a6688/shikokusuizokukan.jpg 315w,
+/blog/static/c967a27ca13a08d45a746d7373e5a9e9/828fb/shikokusuizokukan.jpg 630w,
+/blog/static/c967a27ca13a08d45a746d7373e5a9e9/0ede0/shikokusuizokukan.jpg 945w,
+/blog/static/c967a27ca13a08d45a746d7373e5a9e9/3ac88/shikokusuizokukan.jpg 1260w,
+/blog/static/c967a27ca13a08d45a746d7373e5a9e9/bcd4e/shikokusuizokukan.jpg 1632w&quot;
         sizes=&quot;(max-width: 630px) 100vw, 630px&quot;
         style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
         loading=&quot;lazy&quot;
@@ -218,13 +218,13 @@
         class=&quot;gatsby-resp-image-image&quot;
         alt=&quot;クラゲ&quot;
         title=&quot;クラゲ&quot;
-        src=&quot;/blog/static/6871d5868ed60d0e69697ef5da97c4a4/828fb/jelly.jpg&quot;
-        srcset=&quot;/blog/static/6871d5868ed60d0e69697ef5da97c4a4/ff44c/jelly.jpg 158w,
-/blog/static/6871d5868ed60d0e69697ef5da97c4a4/a6688/jelly.jpg 315w,
-/blog/static/6871d5868ed60d0e69697ef5da97c4a4/828fb/jelly.jpg 630w,
-/blog/static/6871d5868ed60d0e69697ef5da97c4a4/0ede0/jelly.jpg 945w,
-/blog/static/6871d5868ed60d0e69697ef5da97c4a4/3ac88/jelly.jpg 1260w,
-/blog/static/6871d5868ed60d0e69697ef5da97c4a4/bcd4e/jelly.jpg 1632w&quot;
+        src=&quot;/blog/static/d99bdded89e4df80ef7b8c879e6a6cc3/828fb/jelly.jpg&quot;
+        srcset=&quot;/blog/static/d99bdded89e4df80ef7b8c879e6a6cc3/ff44c/jelly.jpg 158w,
+/blog/static/d99bdded89e4df80ef7b8c879e6a6cc3/a6688/jelly.jpg 315w,
+/blog/static/d99bdded89e4df80ef7b8c879e6a6cc3/828fb/jelly.jpg 630w,
+/blog/static/d99bdded89e4df80ef7b8c879e6a6cc3/0ede0/jelly.jpg 945w,
+/blog/static/d99bdded89e4df80ef7b8c879e6a6cc3/3ac88/jelly.jpg 1260w,
+/blog/static/d99bdded89e4df80ef7b8c879e6a6cc3/bcd4e/jelly.jpg 1632w&quot;
         sizes=&quot;(max-width: 630px) 100vw, 630px&quot;
         style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
         loading=&quot;lazy&quot;
@@ -243,13 +243,13 @@
         class=&quot;gatsby-resp-image-image&quot;
         alt=&quot;さかな&quot;
         title=&quot;さかな&quot;
-        src=&quot;/blog/static/7cb6135bd640a464d7285555bdc55822/828fb/fish.jpg&quot;
-        srcset=&quot;/blog/static/7cb6135bd640a464d7285555bdc55822/ff44c/fish.jpg 158w,
-/blog/static/7cb6135bd640a464d7285555bdc55822/a6688/fish.jpg 315w,
-/blog/static/7cb6135bd640a464d7285555bdc55822/828fb/fish.jpg 630w,
-/blog/static/7cb6135bd640a464d7285555bdc55822/0ede0/fish.jpg 945w,
-/blog/static/7cb6135bd640a464d7285555bdc55822/3ac88/fish.jpg 1260w,
-/blog/static/7cb6135bd640a464d7285555bdc55822/bcd4e/fish.jpg 1632w&quot;
+        src=&quot;/blog/static/e64f10f519ee4754a86de72875807ce8/828fb/fish.jpg&quot;
+        srcset=&quot;/blog/static/e64f10f519ee4754a86de72875807ce8/ff44c/fish.jpg 158w,
+/blog/static/e64f10f519ee4754a86de72875807ce8/a6688/fish.jpg 315w,
+/blog/static/e64f10f519ee4754a86de72875807ce8/828fb/fish.jpg 630w,
+/blog/static/e64f10f519ee4754a86de72875807ce8/0ede0/fish.jpg 945w,
+/blog/static/e64f10f519ee4754a86de72875807ce8/3ac88/fish.jpg 1260w,
+/blog/static/e64f10f519ee4754a86de72875807ce8/bcd4e/fish.jpg 1632w&quot;
         sizes=&quot;(max-width: 630px) 100vw, 630px&quot;
         style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
         loading=&quot;lazy&quot;
@@ -268,20 +268,20 @@
         class=&quot;gatsby-resp-image-image&quot;
         alt=&quot;いるか&quot;
         title=&quot;いるか&quot;
-        src=&quot;/blog/static/4cd7b5349358ec228c5f478f3995cf3e/828fb/iruka.jpg&quot;
-        srcset=&quot;/blog/static/4cd7b5349358ec228c5f478f3995cf3e/ff44c/iruka.jpg 158w,
-/blog/static/4cd7b5349358ec228c5f478f3995cf3e/a6688/iruka.jpg 315w,
-/blog/static/4cd7b5349358ec228c5f478f3995cf3e/828fb/iruka.jpg 630w,
-/blog/static/4cd7b5349358ec228c5f478f3995cf3e/0ede0/iruka.jpg 945w,
-/blog/static/4cd7b5349358ec228c5f478f3995cf3e/3ac88/iruka.jpg 1260w,
-/blog/static/4cd7b5349358ec228c5f478f3995cf3e/bcd4e/iruka.jpg 1632w&quot;
+        src=&quot;/blog/static/247679cb90c18cdf7b047bfea8dadae6/828fb/iruka.jpg&quot;
+        srcset=&quot;/blog/static/247679cb90c18cdf7b047bfea8dadae6/ff44c/iruka.jpg 158w,
+/blog/static/247679cb90c18cdf7b047bfea8dadae6/a6688/iruka.jpg 315w,
+/blog/static/247679cb90c18cdf7b047bfea8dadae6/828fb/iruka.jpg 630w,
+/blog/static/247679cb90c18cdf7b047bfea8dadae6/0ede0/iruka.jpg 945w,
+/blog/static/247679cb90c18cdf7b047bfea8dadae6/3ac88/iruka.jpg 1260w,
+/blog/static/247679cb90c18cdf7b047bfea8dadae6/bcd4e/iruka.jpg 1632w&quot;
         sizes=&quot;(max-width: 630px) 100vw, 630px&quot;
         style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
         loading=&quot;lazy&quot;
         decoding=&quot;async&quot;
       /&gt;
     &lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;/blog/e51badf969ce2a50a0e41dd9ab2c8d12/iruka-show.gif&quot; alt=&quot;いるか&quot;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/blog/e677fb76fe832054ae9ae19f59d826ec/iruka-show.gif&quot; alt=&quot;いるか&quot;&gt;&lt;/p&gt;
 &lt;h2&gt;岡山&lt;/h2&gt;
 &lt;p&gt;マリンライナーで岡山駅に向かったのですが、道中の瀬戸大橋からの夕日がかなりきれいでした。&lt;/p&gt;
 &lt;p&gt;&lt;span
@@ -296,13 +296,13 @@
         class=&quot;gatsby-resp-image-image&quot;
         alt=&quot;夕日&quot;
         title=&quot;夕日&quot;
-        src=&quot;/blog/static/4d0a28f854ea2b69598f29e643f3d4fb/828fb/evening.jpg&quot;
-        srcset=&quot;/blog/static/4d0a28f854ea2b69598f29e643f3d4fb/ff44c/evening.jpg 158w,
-/blog/static/4d0a28f854ea2b69598f29e643f3d4fb/a6688/evening.jpg 315w,
-/blog/static/4d0a28f854ea2b69598f29e643f3d4fb/828fb/evening.jpg 630w,
-/blog/static/4d0a28f854ea2b69598f29e643f3d4fb/0ede0/evening.jpg 945w,
-/blog/static/4d0a28f854ea2b69598f29e643f3d4fb/3ac88/evening.jpg 1260w,
-/blog/static/4d0a28f854ea2b69598f29e643f3d4fb/bcd4e/evening.jpg 1632w&quot;
+        src=&quot;/blog/static/89b13988d14ecd4aa431050e41783da9/828fb/evening.jpg&quot;
+        srcset=&quot;/blog/static/89b13988d14ecd4aa431050e41783da9/ff44c/evening.jpg 158w,
+/blog/static/89b13988d14ecd4aa431050e41783da9/a6688/evening.jpg 315w,
+/blog/static/89b13988d14ecd4aa431050e41783da9/828fb/evening.jpg 630w,
+/blog/static/89b13988d14ecd4aa431050e41783da9/0ede0/evening.jpg 945w,
+/blog/static/89b13988d14ecd4aa431050e41783da9/3ac88/evening.jpg 1260w,
+/blog/static/89b13988d14ecd4aa431050e41783da9/bcd4e/evening.jpg 1632w&quot;
         sizes=&quot;(max-width: 630px) 100vw, 630px&quot;
         style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
         loading=&quot;lazy&quot;
@@ -322,13 +322,13 @@
         class=&quot;gatsby-resp-image-image&quot;
         alt=&quot;岡山駅&quot;
         title=&quot;岡山駅&quot;
-        src=&quot;/blog/static/2b9514fca5a79d0f30d8bc4afada1b3f/828fb/momotarou.jpg&quot;
-        srcset=&quot;/blog/static/2b9514fca5a79d0f30d8bc4afada1b3f/ff44c/momotarou.jpg 158w,
-/blog/static/2b9514fca5a79d0f30d8bc4afada1b3f/a6688/momotarou.jpg 315w,
-/blog/static/2b9514fca5a79d0f30d8bc4afada1b3f/828fb/momotarou.jpg 630w,
-/blog/static/2b9514fca5a79d0f30d8bc4afada1b3f/0ede0/momotarou.jpg 945w,
-/blog/static/2b9514fca5a79d0f30d8bc4afada1b3f/3ac88/momotarou.jpg 1260w,
-/blog/static/2b9514fca5a79d0f30d8bc4afada1b3f/bcd4e/momotarou.jpg 1632w&quot;
+        src=&quot;/blog/static/715760f7accc2aacae93e3b5e8724da6/828fb/momotarou.jpg&quot;
+        srcset=&quot;/blog/static/715760f7accc2aacae93e3b5e8724da6/ff44c/momotarou.jpg 158w,
+/blog/static/715760f7accc2aacae93e3b5e8724da6/a6688/momotarou.jpg 315w,
+/blog/static/715760f7accc2aacae93e3b5e8724da6/828fb/momotarou.jpg 630w,
+/blog/static/715760f7accc2aacae93e3b5e8724da6/0ede0/momotarou.jpg 945w,
+/blog/static/715760f7accc2aacae93e3b5e8724da6/3ac88/momotarou.jpg 1260w,
+/blog/static/715760f7accc2aacae93e3b5e8724da6/bcd4e/momotarou.jpg 1632w&quot;
         sizes=&quot;(max-width: 630px) 100vw, 630px&quot;
         style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
         loading=&quot;lazy&quot;
@@ -346,16 +346,16 @@
     &gt;
       &lt;span
     class=&quot;gatsby-resp-image-background-image&quot;
-    style=&quot;padding-bottom: 120.25316455696202%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAYCAYAAAD6S912AAAACXBIWXMAAAsTAAALEwEAmpwYAAADm0lEQVQ4y52UW1caVxiG+ZW96F/odW961fuu1Z/QizQGBgII1WhMzKFqNEuNiIJznmGGAWYGMEZrPDFP194zCKY3sRd7AZtv3nmf75QL4w6D2KUfdwhilyB00hO59CKbQezgDSzcgUkv1Nj1IvIaKAZUjy/4q/2FkgFFLaGoJ+TiuEM49BkMO/RjIeLQjRyioYPa76P1AvzQpBvqHHcDSnoiH86bsP5R532zw1MDFC1B0SAXxS7xqCMFg8jBDy16wmlkY/cdzL5LLzSw+i4V446CBiV9wjMN6m6C62u8cc4pG3fUjBty8cgjHvkMYg+vl4p1pbCONbAJhNjAZNW6lKhCTNFT5Ha9SPyxgj80aAc+VeNWCPqEww7R0MMf2PihyJtNKwhYNK5543yhZl5JMZEjIVZsXbPhjNFWiljmEXvBiLpxneVwHMgCDEYewVCgmqiBJ/8UeAKtkImJ3AnB0sktu6trvHq9T8mBsnYr46RgGNmyEG7PQDUPcb0jtr3xvSNxSsKVwBSf2oQFGzb3Ttg/OGLBnFVYFkXrD7DCHnsH25RrFUrbGhU7rZoU0RKeNG/In0zkb/Fg/iShYVh4kS0Lpcy9PJfXoaZeoOsHdOKAijGZIWaCBTXJXpDePVNB3d3C7xxT0W4o6LP4nEBbd/7BC7t0+xrNbu9BzooZboqUoFjwfqtJv/mavXcb5NWHsbkpe928oWWpeMEJ652v0sUUQxZITWTMUnuI9mGN4dsFVsxL8jr3xZKCijaRlqvtc5ZfLlNfXKC6o1K0kCKCQB4LPoWnHO6sYv3yA+Pff2KpEZE30kLdO3zSvJa2RR9Znkqj3aB+2JOjVWudc7zxlobfp7mzSX/tT6ydVYa//oj728+UjQmKmuHOIwuHS+oZm86Imp2iLurX7PXGWHoTffMV/tIfHDQOWX13xMp+l2rjVLqex00Fs4tq6zPl1gULBqy0x1jtfbb8M3bciHXzjBf2lWxiRZ1Qal1RMFNURedB8XL3F0b2Fi1h0bzFHnTYcE/lXT6bFhH7vPWV8vHlfWxxrp0y5OnqyUYra5kPnZEc9vmJmdIoxgw1jeeh4LP2HU9btw+m4bnYKtOFoM3lSksefteT/wpOHU6X5PwoKXNT8z0np8wldPrwvLvZ+U7BFGHWmCW5XZJvBHmEQx0KYiqMdBuX57bHDJ/HOVzesqgejLLe+jZ3j3S4+Cnmxd8qlcPP9+3wf4oxFfwXFH+VlO4HJPwAAAAASUVORK5CYII=&apos;); background-size: cover; display: block;&quot;
+    style=&quot;padding-bottom: 120.25316455696202%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAYCAIAAAB1KUohAAAACXBIWXMAAAsTAAALEwEAmpwYAAADHklEQVQ4y52TW3PaRhTH+ZZ9yGfoa1/6lPfM9Bv0obGRhJC5hfoyIXETk5aahJsF2ptWWiQtkhYcD4kdY9BmJIxN0szE6cx52Tnnt+e//3M2Fwk3FM5EsCB2g4j6EQ1ih8d0EjssJE5IeAROWawCqSFZMj/WRnMdyQJMIxcLForxRDAu3CB2vIhGggLOIfe8EPshMn1fh0kBJAqRjRb6a8B2kNRAsoadeMqyztQLbR47QWTbnBLuBBEk3DXQUgVSh4kCZc25dj34ks4NtKziRS6eMjEbT8R4zAmPXT+iXojsiR1EyJ7gA/syn5EakhqWVkUT/xq+QCOfldAyJ2bjaMri6dgLqRfZYWybgV/Gi5d0XsWf1j0LSOrm9Ws6g/tFggdvg2kVLzLZs8CP3HDKfOF4EbH8sQ4TFcg8kCpYG5NoUBatm/bBUaPR1qk0wI2SpXKT1GHH4dgifYed/cPOs0SiQ3nnqg5Wu1SetIdvO2e7OM3eug0nIQn5aefvYtnQ31iGfeukBuQfg4UyWq3r1FHSwzYTTgktNbgZlYJkxfoAYZeJYA+tNlJlxifa5pi3lla76TFzDyy2YCAb9JJFvs9B3wu24bsrCkS+avZ4/3n7+ESx7lO5NA1lFd+Y2GLeqOFeZbNJTU4nZCU1vKgPY9g8EC92/sQflSx1C2sgUaEsjT7Uj+q1ilJqgUL67JUKpQKlSuS76LzXOiS//jT77ednvVjFsgA28NPBQgGyhq/tMeiPurUeV4isDOdnr497Hh+0mvxoh7QOp48fuU9+2cNJZmdyL1uFsm5dnNBp1U4lleH1aTCzYQ81n3vPfu92u4fH/YM2K3eESu7bbt6cfpf3xnCeR3J/eE6G75reRcuNG+Riny50KjXrk25eafgL8hZOA6UroUNZxksashP3fQGmXqzNN4ZXhnn51RTu3U6vzG7VYfLGnZVxuoBrw9fSNCS/AetQ5kerXXN5t0wGWn1d96Xa/8jeiqzbt6u/Axcfhm3BG1VFlOg/Cqu2VHHacw+ttAeTa8OSepOUOzNt66M+FK50xP4rq9S7+B/wZ3Y4uQPxF3c4AAAAAElFTkSuQmCC&apos;); background-size: cover; display: block;&quot;
   &gt;&lt;/span&gt;
   &lt;img
         class=&quot;gatsby-resp-image-image&quot;
         alt=&quot;日本&quot;
         title=&quot;日本&quot;
-        src=&quot;/blog/static/53b2d20d0a5c853a3b2384300863fab8/b5245/japan.png&quot;
-        srcset=&quot;/blog/static/53b2d20d0a5c853a3b2384300863fab8/c26ae/japan.png 158w,
-/blog/static/53b2d20d0a5c853a3b2384300863fab8/6bdcf/japan.png 315w,
-/blog/static/53b2d20d0a5c853a3b2384300863fab8/b5245/japan.png 535w&quot;
+        src=&quot;/blog/static/b5139136f3d04d8e66ce8bee1ee78162/b5245/japan.png&quot;
+        srcset=&quot;/blog/static/b5139136f3d04d8e66ce8bee1ee78162/c26ae/japan.png 158w,
+/blog/static/b5139136f3d04d8e66ce8bee1ee78162/6bdcf/japan.png 315w,
+/blog/static/b5139136f3d04d8e66ce8bee1ee78162/b5245/japan.png 535w&quot;
         sizes=&quot;(max-width: 535px) 100vw, 535px&quot;
         style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
         loading=&quot;lazy&quot;
@@ -368,19 +368,19 @@
     &gt;
       &lt;span
     class=&quot;gatsby-resp-image-background-image&quot;
-    style=&quot;padding-bottom: 105.0632911392405%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAVCAYAAABG1c6oAAAACXBIWXMAAC4jAAAuIwF4pT92AAABvElEQVQ4y6WUTW/TQBCG84u5InGteoMDEvwA4MaFY9UDEgJxACQOBCltRFMItRNa3Nixs2vv14PsOO6mcRtbjLT+2Nl95p2ZtQd0NOdcNUorlObDVY40rvEXRUGapgy6whro+olXoeFFoPmRKhZphhSi8gx6Kaxh32LFwbnh0QSeTiThYlnNu65AP925ULwJJO+vDUeXGm0szlvXG5gpw6d5CtZUqm6XpTcwLQxPxktGcVG9W8+3V6EPsvU9zhUPR5LjuawUlo321w3u7ag/1lg+RzmHJylhstpRuAX0QVXHaki5wQIqz5kmgoNTwcupaLrqwxrgFqyJ6MDo9SprWMYxz84yHgzTOt0bdR0UgrTwPVrxbr7i6OwPX8IFh6cZj4eXDK9Fa7pbCjcOpRSZzBnPrng7+snrUcDz4YyvQcQ4yUlkUQfeTbcVOAtDPk5CpkHI31lAISW/EgHOeo3bXDrUMIoiLi5+I4RAG3MDaanZnQpvO0uo1rqZty2QNlgFdC1Ry1/Rzjm8A9AK9OtYKtunYi/QB2RZhrV259PrBSzNGFPB2mraC7jZXALLM9il8PcCV0JgjP1vZRvgP2MuckXMwKbRAAAAAElFTkSuQmCC&apos;); background-size: cover; display: block;&quot;
+    style=&quot;padding-bottom: 105.0632911392405%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAVCAIAAADJt1n/AAAACXBIWXMAAC4jAAAuIwF4pT92AAABUUlEQVQ4y53Ry0rDQBQG4LyxW8Gll2UXgj5A3bpwpehCRFBQFy5qMVZqtNRJqE3bOJOZzJxzZqRXbC25eAiBGfj4f854rtxoAzdfWqCdHo0xQgjPlR17xLDOsM1hxFOlpHOuLH4awU5AW4HbDzI2/HbW2kI8bRlJOPlU1wM87YEhIjsrXypZGLqLOCGu3JdK5gZrLf6caOcc2Yp4mJlNX11Eqhqmye9+oHd9wZLxhm0htvMPdPaRyO2WrHfkvEchRhhnEPJkdNAWGw1+/qfzKp48nlPkmnF6FaVnb70HNtx7EbVGrzmQBdgYw1X2GvUv/fdjnx02wkcWtxKdKL224BIOw/A2CDss7EdMK9lJFBLlrNP7XTqO4263K5UCwPndbHPFyXbiAWAh82cVa61tIVqLAaC8XMLWWiHEfzAipmnqKo43zSSixZ4qYCll/mPm4B/eR9EF0iEuWwAAAABJRU5ErkJggg==&apos;); background-size: cover; display: block;&quot;
   &gt;&lt;/span&gt;
   &lt;img
         class=&quot;gatsby-resp-image-image&quot;
         alt=&quot;都道府県&quot;
         title=&quot;都道府県&quot;
-        src=&quot;/blog/static/a6a660777098b8dc95cf1ed2f6eed6a7/f058b/japan2.png&quot;
-        srcset=&quot;/blog/static/a6a660777098b8dc95cf1ed2f6eed6a7/c26ae/japan2.png 158w,
-/blog/static/a6a660777098b8dc95cf1ed2f6eed6a7/6bdcf/japan2.png 315w,
-/blog/static/a6a660777098b8dc95cf1ed2f6eed6a7/f058b/japan2.png 630w,
-/blog/static/a6a660777098b8dc95cf1ed2f6eed6a7/40601/japan2.png 945w,
-/blog/static/a6a660777098b8dc95cf1ed2f6eed6a7/78612/japan2.png 1260w,
-/blog/static/a6a660777098b8dc95cf1ed2f6eed6a7/d5022/japan2.png 3246w&quot;
+        src=&quot;/blog/static/3da72d053800d0bd87299c06d5d5b6f0/f058b/japan2.png&quot;
+        srcset=&quot;/blog/static/3da72d053800d0bd87299c06d5d5b6f0/c26ae/japan2.png 158w,
+/blog/static/3da72d053800d0bd87299c06d5d5b6f0/6bdcf/japan2.png 315w,
+/blog/static/3da72d053800d0bd87299c06d5d5b6f0/f058b/japan2.png 630w,
+/blog/static/3da72d053800d0bd87299c06d5d5b6f0/40601/japan2.png 945w,
+/blog/static/3da72d053800d0bd87299c06d5d5b6f0/78612/japan2.png 1260w,
+/blog/static/3da72d053800d0bd87299c06d5d5b6f0/d5022/japan2.png 3246w&quot;
         sizes=&quot;(max-width: 630px) 100vw, 630px&quot;
         style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
         loading=&quot;lazy&quot;

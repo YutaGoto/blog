@@ -103,7 +103,7 @@ module.exports = {
                 })
               })
             },
-            title: '.ごっちの日記',
+            title: ".ごっちの日記",
             query: `
               {
                 allMarkdownRemark(

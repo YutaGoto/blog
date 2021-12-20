@@ -6,13 +6,16 @@ const Layout = ({ location, title, children }) => {
   const isRootPath = location.pathname === rootPath
 
   return (
-    <div className="bg-main dark:bg-main-dark text-main dark:text-main-dark">
+    <div className="bg-gray-200 dark:bg-gray-700 text-gray-900 dark:text-gray-100">
       <nav
-        className="sticky top-0 h-10 bg-nav dark:bg-nav-dark flex z-50"
+        className="sticky top-0 h-10 bg-blue-300 dark:bg-blue-900 flex z-50"
         role="navigation"
       >
         <div>
-          <Link className="text-main dark:text-main-dark text-3xl pl-2" to="/">
+          <Link
+            className="text-gray-900 dark:text-gray-100 text-3xl pl-2"
+            to="/"
+          >
             {title}
           </Link>
         </div>
@@ -20,8 +23,8 @@ const Layout = ({ location, title, children }) => {
       <main className="container mt-1 mx-auto w-full">
         <div data-is-root-path={isRootPath}>{children}</div>
       </main>
-      <footer className="h-10 bg-footer dark:bg-footer-dark flex">
-        <div className="flex-1 text-main dark:text-main-dark">
+      <footer className="h-10 bg-gray-300 dark:bg-gray-400 flex">
+        <div className="flex-1 text-gray-900 dark:text-gray-100">
           © {new Date().getFullYear()}, Built with
           {` `}
           <a href="https://www.gatsbyjs.com">Gatsby</a>

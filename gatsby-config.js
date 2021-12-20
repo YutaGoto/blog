@@ -103,6 +103,7 @@ module.exports = {
                 })
               })
             },
+            title: ".ごっちの日記",
             query: `
               {
                 allMarkdownRemark(
@@ -139,7 +140,6 @@ module.exports = {
         icon: `src/images/icon.png`, // This path is relative to the root of the site.
       },
     },
-    "gatsby-plugin-postcss",
     `gatsby-plugin-react-helmet`,
     `gatsby-plugin-gatsby-cloud`,
     // this (optional) plugin enables Progressive Web App + Offline functionality

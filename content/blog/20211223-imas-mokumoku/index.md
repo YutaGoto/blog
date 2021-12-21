@@ -36,6 +36,8 @@ https://github.com/imas/mokumoku/blob/main/meetups/kanto/024/kpt.md
 
 実際に飛び入り参加が何回かあったので正解かと思っています。
 
+<blockquote class="twitter-tweet"><p lang="ja" dir="ltr">やるぞ! <a href="https://twitter.com/hashtag/imas_mokumoku?src=hash&amp;ref_src=twsrc%5Etfw">#imas_mokumoku</a><a href="https://t.co/4IaU07lhnD">https://t.co/4IaU07lhnD</a></p>&mdash; .ごっち (@gggooottto) <a href="https://twitter.com/gggooottto/status/1471434954022453251?ref_src=twsrc%5Etfw">December 16, 2021</a></blockquote>
+
 ### Connpass ヘッダー
 
 もともとの Connpass のヘッダー画像はオフラインを意識して、みんなで集まって大きいテーブルに向かってもくもくするをイメージしていましたが、オンライン開催に変わって物理的なテーブルに集まってすることがなくなってしまったので NeWork のデザインを意識して変更した次第です。

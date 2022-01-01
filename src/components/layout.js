@@ -20,7 +20,7 @@ const Layout = ({ location, title, children }) => {
           </Link>
         </div>
       </nav>
-      <main className="container mt-1 mx-auto w-full">
+      <main className="container mt-1 mx-auto w-11/12">
         <div data-is-root-path={isRootPath}>{children}</div>
       </main>
       <footer className="h-10 bg-gray-300 dark:bg-gray-400 flex">

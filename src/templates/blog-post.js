@@ -24,17 +24,17 @@ const BlogPostTemplate = ({ data, location }) => {
         title={post.frontmatter.title}
         description={post.frontmatter.description || post.excerpt}
       />
-      <div className="lg:flex lg:space-x-2">
-        <div className="lg:flex-grow max-w-screen-xl">
+      <div className="xl:flex xl:space-x-2">
+        <div className="xl:flex-grow">
           <article
             className="blog-post"
             itemScope
             itemType="http://schema.org/Article"
           >
-            <h1 itemProp="headline" className="text-3xl mb-2">
+            <h1 itemProp="headline" className="text-4xl font-extrabold mb-2">
               {post.frontmatter.title}
             </h1>
-            <p className="text-sm">{post.frontmatter.date}</p>
+            <p className="text-md">{post.frontmatter.date}</p>
             <section
               dangerouslySetInnerHTML={{ __html: post.html }}
               itemProp="articleBody"

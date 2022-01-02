@@ -1,26 +1,29 @@
-/* CSS Custom Properties Definitions */
-
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
 section {
   > h1 {
-    font-size: 2em;
+    @apply text-4xl;
+    @apply font-bold;
     margin: 0.67em 0;
   }
 
   > h2 {
-    font-size: 1.5em;
+    @apply text-3xl;
+    @apply font-bold;
     margin: 0.67em 0;
   }
 
   > h3 {
-    font-size: 1.2em;
+    @apply text-2xl;
+    @apply font-medium;
     margin: 0.67em 0;
   }
 
   > p {
+    @apply text-lg;
+    @apply font-normal;
     margin: 5px 0;
   }
 
@@ -31,5 +34,17 @@ section {
   ul {
     padding: 0 15px;
     list-style: circle;
+  }
+
+  @screen xl {
+    .gatsby-highlight {
+      max-width: 830px;
+    }
+  }
+
+  @screen 2xl {
+    .gatsby-highlight {
+      max-width: initial;
+    }
   }
 }

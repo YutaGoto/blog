@@ -1,7 +1,7 @@
 import React from "react"
 import renderer from "react-test-renderer"
 import { render } from "@testing-library/react"
-import { PureBio as Bio } from "../bio"
+import { PureBio as Bio } from "../Bio"
 
 describe("bio", () => {
   const data = {

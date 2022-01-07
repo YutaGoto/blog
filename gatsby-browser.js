@@ -5,4 +5,4 @@ import "typeface-merriweather"
 import "./src/style.scss"
 
 // Highlighting for code blocks
-import "prismjs/themes/prism.css"
+import "prism-themes/themes/prism-atom-dark.css"

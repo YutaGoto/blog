@@ -1,7 +1,7 @@
 import React from "react"
 import renderer from "react-test-renderer"
 import { render } from "@testing-library/react"
-import { ButtonLink } from "../buttonLink"
+import { ButtonLink } from "../ButtonLink"
 
 describe("ButtonLink", () => {
   it("renders correctly", () => {

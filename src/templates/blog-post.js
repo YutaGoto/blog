@@ -7,9 +7,7 @@ import {
   TwitterIcon,
 } from "react-share"
 
-import { Bio } from "../components/bio"
-import { ButtonLink } from "../components/buttonLink"
-import Layout from "../components/layout"
+import { Bio, ButtonLink, Layout } from "../components"
 import Seo from "../components/seo"
 
 const BlogPostTemplate = ({ data, location }) => {

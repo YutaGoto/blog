@@ -16,7 +16,7 @@ const BlogIndex = ({ data, location }) => {
             return <ArticleCard post={post} key={post.fields.slug} />
           })}
         </div>
-        <div className="lg:flex-none">
+        <div className="lg:flex-none mb-2 lg:mb-0">
           <Bio />
         </div>
       </div>

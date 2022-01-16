@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[.ごっちの日記]]></title><description><![CDATA[.ごっちのつれづれなる日記]]></description><link>https://yutagoto.github.io</link><generator>GatsbyJS</generator><lastBuildDate>Sat, 15 Jan 2022 14:27:27 GMT</lastBuildDate><item><title><![CDATA[かなり難しいゲームの一つのステージをクリアしたメモ]]></title><description><![CDATA[こんにちは、 .ごっちです。これはただのメモです。 2021 年末にかなり難しいゲームの一つのステージをクリアしました 「たいよろ」から「たいあり」までちょうど 2 か月くらいかかりましたが、プレイ時間自体は 2…]]></description><link>https://yutagoto.github.io/20220115-difficult-game-p/</link><guid isPermaLink="false">https://yutagoto.github.io/20220115-difficult-game-p/</guid><pubDate>Sat, 15 Jan 2022 23:01:00 GMT</pubDate><content:encoded>&lt;p&gt;こんにちは、 .ごっちです。これはただのメモです。&lt;/p&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[.ごっちの日記]]></title><description><![CDATA[.ごっちのつれづれなる日記]]></description><link>https://yutagoto.github.io</link><generator>GatsbyJS</generator><lastBuildDate>Sun, 16 Jan 2022 06:41:08 GMT</lastBuildDate><item><title><![CDATA[かなり難しいゲームの一つのステージをクリアしたメモ]]></title><description><![CDATA[こんにちは、 .ごっちです。これはただのメモです。 2021 年末にかなり難しいゲームの一つのステージをクリアしました 「たいよろ」から「たいあり」までちょうど 2 か月くらいかかりましたが、プレイ時間自体は 2…]]></description><link>https://yutagoto.github.io/20220115-difficult-game-p/</link><guid isPermaLink="false">https://yutagoto.github.io/20220115-difficult-game-p/</guid><pubDate>Sat, 15 Jan 2022 23:01:00 GMT</pubDate><content:encoded>&lt;p&gt;こんにちは、 .ごっちです。これはただのメモです。&lt;/p&gt;
 &lt;p&gt;2021 年末にかなり難しいゲームの一つのステージをクリアしました&lt;/p&gt;
 &lt;blockquote class=&quot;twitter-tweet&quot;&gt;&lt;p lang=&quot;ja&quot; dir=&quot;ltr&quot;&gt;たいせんよろしくおねがいします。 &lt;a href=&quot;https://t.co/Re0gN4oMLp&quot;&gt;pic.twitter.com/Re0gN4oMLp&lt;/a&gt;&lt;/p&gt;&amp;mdash; .ごっち (@gggooottto) &lt;a href=&quot;https://twitter.com/gggooottto/status/1454030188447100930?ref_src=twsrc%5Etfw&quot;&gt;October 29, 2021&lt;/a&gt;&lt;/blockquote&gt;
 &lt;blockquote class=&quot;twitter-tweet&quot;&gt;&lt;p lang=&quot;ja&quot; dir=&quot;ltr&quot;&gt;Pogostuck。Map1を無事に年内にクリアできました！うおおおお！ &lt;a href=&quot;https://t.co/CpU0zKsjlj&quot;&gt;pic.twitter.com/CpU0zKsjlj&lt;/a&gt;&lt;/p&gt;&amp;mdash; .ごっち (@gggooottto) &lt;a href=&quot;https://twitter.com/gggooottto/status/1476411547958546433?ref_src=twsrc%5Etfw&quot;&gt;December 30, 2021&lt;/a&gt;&lt;/blockquote&gt;
@@ -16,13 +16,13 @@
         class=&quot;gatsby-resp-image-image&quot;
         alt=&quot;てこずり&quot;
         title=&quot;てこずり&quot;
-        src=&quot;/blog/static/ec4c1e53cbe02428d38f5bc9e0c9a85f/828fb/20211227225751_1.jpg&quot;
-        srcset=&quot;/blog/static/ec4c1e53cbe02428d38f5bc9e0c9a85f/ff44c/20211227225751_1.jpg 158w,
-/blog/static/ec4c1e53cbe02428d38f5bc9e0c9a85f/a6688/20211227225751_1.jpg 315w,
-/blog/static/ec4c1e53cbe02428d38f5bc9e0c9a85f/828fb/20211227225751_1.jpg 630w,
-/blog/static/ec4c1e53cbe02428d38f5bc9e0c9a85f/0ede0/20211227225751_1.jpg 945w,
-/blog/static/ec4c1e53cbe02428d38f5bc9e0c9a85f/3ac88/20211227225751_1.jpg 1260w,
-/blog/static/ec4c1e53cbe02428d38f5bc9e0c9a85f/0f98f/20211227225751_1.jpg 1920w&quot;
+        src=&quot;/blog/static/f1d65e310fc898b327dec42a7cfc82b7/828fb/20211227225751_1.jpg&quot;
+        srcset=&quot;/blog/static/f1d65e310fc898b327dec42a7cfc82b7/ff44c/20211227225751_1.jpg 158w,
+/blog/static/f1d65e310fc898b327dec42a7cfc82b7/a6688/20211227225751_1.jpg 315w,
+/blog/static/f1d65e310fc898b327dec42a7cfc82b7/828fb/20211227225751_1.jpg 630w,
+/blog/static/f1d65e310fc898b327dec42a7cfc82b7/0ede0/20211227225751_1.jpg 945w,
+/blog/static/f1d65e310fc898b327dec42a7cfc82b7/3ac88/20211227225751_1.jpg 1260w,
+/blog/static/f1d65e310fc898b327dec42a7cfc82b7/0f98f/20211227225751_1.jpg 1920w&quot;
         sizes=&quot;(max-width: 630px) 100vw, 630px&quot;
         style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
         loading=&quot;lazy&quot;
@@ -42,13 +42,13 @@
         class=&quot;gatsby-resp-image-image&quot;
         alt=&quot;ゴール間近&quot;
         title=&quot;ゴール間近&quot;
-        src=&quot;/blog/static/534bbb7a8f7cec5f30f88263ab562ed4/828fb/20211230124936_1.jpg&quot;
-        srcset=&quot;/blog/static/534bbb7a8f7cec5f30f88263ab562ed4/ff44c/20211230124936_1.jpg 158w,
-/blog/static/534bbb7a8f7cec5f30f88263ab562ed4/a6688/20211230124936_1.jpg 315w,
-/blog/static/534bbb7a8f7cec5f30f88263ab562ed4/828fb/20211230124936_1.jpg 630w,
-/blog/static/534bbb7a8f7cec5f30f88263ab562ed4/0ede0/20211230124936_1.jpg 945w,
-/blog/static/534bbb7a8f7cec5f30f88263ab562ed4/3ac88/20211230124936_1.jpg 1260w,
-/blog/static/534bbb7a8f7cec5f30f88263ab562ed4/0f98f/20211230124936_1.jpg 1920w&quot;
+        src=&quot;/blog/static/04e85a1ff53da667984abf77cfc1802d/828fb/20211230124936_1.jpg&quot;
+        srcset=&quot;/blog/static/04e85a1ff53da667984abf77cfc1802d/ff44c/20211230124936_1.jpg 158w,
+/blog/static/04e85a1ff53da667984abf77cfc1802d/a6688/20211230124936_1.jpg 315w,
+/blog/static/04e85a1ff53da667984abf77cfc1802d/828fb/20211230124936_1.jpg 630w,
+/blog/static/04e85a1ff53da667984abf77cfc1802d/0ede0/20211230124936_1.jpg 945w,
+/blog/static/04e85a1ff53da667984abf77cfc1802d/3ac88/20211230124936_1.jpg 1260w,
+/blog/static/04e85a1ff53da667984abf77cfc1802d/0f98f/20211230124936_1.jpg 1920w&quot;
         sizes=&quot;(max-width: 630px) 100vw, 630px&quot;
         style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
         loading=&quot;lazy&quot;
@@ -72,13 +72,13 @@
         class=&quot;gatsby-resp-image-image&quot;
         alt=&quot;わいわい&quot;
         title=&quot;わいわい&quot;
-        src=&quot;/blog/static/f213e7b7ad657e0a281a4d0477f30652/828fb/20211219151809_1.jpg&quot;
-        srcset=&quot;/blog/static/f213e7b7ad657e0a281a4d0477f30652/ff44c/20211219151809_1.jpg 158w,
-/blog/static/f213e7b7ad657e0a281a4d0477f30652/a6688/20211219151809_1.jpg 315w,
-/blog/static/f213e7b7ad657e0a281a4d0477f30652/828fb/20211219151809_1.jpg 630w,
-/blog/static/f213e7b7ad657e0a281a4d0477f30652/0ede0/20211219151809_1.jpg 945w,
-/blog/static/f213e7b7ad657e0a281a4d0477f30652/3ac88/20211219151809_1.jpg 1260w,
-/blog/static/f213e7b7ad657e0a281a4d0477f30652/0f98f/20211219151809_1.jpg 1920w&quot;
+        src=&quot;/blog/static/75be1ea3932c9a1669ccdb993a11648d/828fb/20211219151809_1.jpg&quot;
+        srcset=&quot;/blog/static/75be1ea3932c9a1669ccdb993a11648d/ff44c/20211219151809_1.jpg 158w,
+/blog/static/75be1ea3932c9a1669ccdb993a11648d/a6688/20211219151809_1.jpg 315w,
+/blog/static/75be1ea3932c9a1669ccdb993a11648d/828fb/20211219151809_1.jpg 630w,
+/blog/static/75be1ea3932c9a1669ccdb993a11648d/0ede0/20211219151809_1.jpg 945w,
+/blog/static/75be1ea3932c9a1669ccdb993a11648d/3ac88/20211219151809_1.jpg 1260w,
+/blog/static/75be1ea3932c9a1669ccdb993a11648d/0f98f/20211219151809_1.jpg 1920w&quot;
         sizes=&quot;(max-width: 630px) 100vw, 630px&quot;
         style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
         loading=&quot;lazy&quot;
@@ -97,13 +97,13 @@
         class=&quot;gatsby-resp-image-image&quot;
         alt=&quot;わいわい2&quot;
         title=&quot;わいわい2&quot;
-        src=&quot;/blog/static/f8464deb74202dd42a8bd344902fa436/828fb/20211230131242_1.jpg&quot;
-        srcset=&quot;/blog/static/f8464deb74202dd42a8bd344902fa436/ff44c/20211230131242_1.jpg 158w,
-/blog/static/f8464deb74202dd42a8bd344902fa436/a6688/20211230131242_1.jpg 315w,
-/blog/static/f8464deb74202dd42a8bd344902fa436/828fb/20211230131242_1.jpg 630w,
-/blog/static/f8464deb74202dd42a8bd344902fa436/0ede0/20211230131242_1.jpg 945w,
-/blog/static/f8464deb74202dd42a8bd344902fa436/3ac88/20211230131242_1.jpg 1260w,
-/blog/static/f8464deb74202dd42a8bd344902fa436/0f98f/20211230131242_1.jpg 1920w&quot;
+        src=&quot;/blog/static/2cd9f719283652a0f94affc69736abe8/828fb/20211230131242_1.jpg&quot;
+        srcset=&quot;/blog/static/2cd9f719283652a0f94affc69736abe8/ff44c/20211230131242_1.jpg 158w,
+/blog/static/2cd9f719283652a0f94affc69736abe8/a6688/20211230131242_1.jpg 315w,
+/blog/static/2cd9f719283652a0f94affc69736abe8/828fb/20211230131242_1.jpg 630w,
+/blog/static/2cd9f719283652a0f94affc69736abe8/0ede0/20211230131242_1.jpg 945w,
+/blog/static/2cd9f719283652a0f94affc69736abe8/3ac88/20211230131242_1.jpg 1260w,
+/blog/static/2cd9f719283652a0f94affc69736abe8/0f98f/20211230131242_1.jpg 1920w&quot;
         sizes=&quot;(max-width: 630px) 100vw, 630px&quot;
         style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
         loading=&quot;lazy&quot;

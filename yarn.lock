@@ -6385,10 +6385,17 @@ __metadata:
   languageName: node
   linkType: hard
 
-"date-fns@npm:^2.25.0, date-fns@npm:^2.27.0":
+"date-fns@npm:^2.25.0":
   version: 2.27.0
   resolution: "date-fns@npm:2.27.0"
   checksum: db62036b3816eb0322c9532b353beac7f660a91e1a55dbd21c14893c621ebb8509f21c66ba287844dabd34dee0207edd54a9537bce6bb7cab9383dedc6b8bc90
+  languageName: node
+  linkType: hard
+
+"date-fns@npm:^2.28.0":
+  version: 2.28.0
+  resolution: "date-fns@npm:2.28.0"
+  checksum: a0516b2e4f99b8bffc6cc5193349f185f195398385bdcaf07f17c2c4a24473c99d933eb0018be4142a86a6d46cb0b06be6440ad874f15e795acbedd6fd727a1f
   languageName: node
   linkType: hard
 
@@ -8455,22 +8462,23 @@ __metadata:
   languageName: node
   linkType: hard
 
-"gatsby-plugin-gatsby-cloud@npm:^4.4.0":
-  version: 4.4.0
-  resolution: "gatsby-plugin-gatsby-cloud@npm:4.4.0"
+"gatsby-plugin-gatsby-cloud@npm:^4.6.0":
+  version: 4.6.0
+  resolution: "gatsby-plugin-gatsby-cloud@npm:4.6.0"
   dependencies:
     "@babel/runtime": ^7.15.4
-    date-fns: ^2.27.0
+    date-fns: ^2.28.0
     fs-extra: ^10.0.0
-    gatsby-core-utils: ^3.4.0
-    gatsby-telemetry: ^3.4.0
+    gatsby-core-utils: ^3.6.0
+    gatsby-telemetry: ^3.6.0
+    js-cookie: ^3.0.1
     kebab-hash: ^0.1.2
     lodash: ^4.17.21
     webpack-assets-manifest: ^5.0.6
   peerDependencies:
     gatsby: ^4.0.0-next
     webpack: "*"
-  checksum: 10d00d23d322ded55ad130e6b7308e2eee6cd398620591f83b4c04b6986c57e10962ef45d9e2f41c341c810c6cc335924c584b87cee3aaa57082f9f3c1b60492
+  checksum: ac50c75099caa25a28e47bf3224caf79a6a7be96b37dde0bb2b75a4799df02751239ea6483afddf1a50d8452bad6b583767bb72054211c2a43e6030a7dbf1a75
   languageName: node
   linkType: hard
 
@@ -8807,7 +8815,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"gatsby-telemetry@npm:^3.4.0, gatsby-telemetry@npm:^3.5.1, gatsby-telemetry@npm:^3.6.0":
+"gatsby-telemetry@npm:^3.5.1, gatsby-telemetry@npm:^3.6.0":
   version: 3.6.0
   resolution: "gatsby-telemetry@npm:3.6.0"
   dependencies:
@@ -11598,6 +11606,13 @@ __metadata:
   version: 0.4.3
   resolution: "jpeg-js@npm:0.4.3"
   checksum: 9e5bacc9135efa7da340b62e81fa56fab0c8516ef617228758132af5b7d31b516cc6e1500cdffb82d3161629be341be980099f2b37eb76b81e26db6e3e848c77
+  languageName: node
+  linkType: hard
+
+"js-cookie@npm:^3.0.1":
+  version: 3.0.1
+  resolution: "js-cookie@npm:3.0.1"
+  checksum: bb48de67e2a6bd1ae3dfd6b2d5a167c33dd0c5a37e909206161eb0358c98f17cb55acd55827a58e9eea3630d89444e7479f7938ef4420dda443218b8c434a4c3
   languageName: node
   linkType: hard
 
@@ -19342,7 +19357,7 @@ __metadata:
     gatsby: ^4.6.0
     gatsby-plugin-feed: ^4.6.0
     gatsby-plugin-fontawesome-css: ^1.2.0
-    gatsby-plugin-gatsby-cloud: ^4.4.0
+    gatsby-plugin-gatsby-cloud: ^4.6.0
     gatsby-plugin-google-gtag: ^4.6.0
     gatsby-plugin-image: ^2.6.0
     gatsby-plugin-manifest: ^4.6.0

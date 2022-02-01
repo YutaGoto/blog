@@ -8857,9 +8857,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"gatsby-transformer-sharp@npm:^4.4.0":
-  version: 4.4.0
-  resolution: "gatsby-transformer-sharp@npm:4.4.0"
+"gatsby-transformer-sharp@npm:^4.6.0":
+  version: 4.6.0
+  resolution: "gatsby-transformer-sharp@npm:4.6.0"
   dependencies:
     "@babel/runtime": ^7.15.4
     bluebird: ^3.7.2
@@ -8872,7 +8872,7 @@ __metadata:
   peerDependencies:
     gatsby: ^4.0.0-next
     gatsby-plugin-sharp: ^4.0.0-next
-  checksum: da04cda614bae1ea5b90d68485c22fade6023ee2da864ada0690cc185562ad237fb3e08cc1c61ab0b76519d2f817ea91d2458200a4029168e204c174af20d41e
+  checksum: 3f2950a0bb4a27021b4ba566a0a56d08b9d9cbc19571a17461f54616ac32c837d3c7522e9807c7ac289464abb06df8337b54ea2aba9d460096ef883cd8d05eb0
   languageName: node
   linkType: hard
 
@@ -19362,7 +19362,7 @@ __metadata:
     gatsby-remark-smartypants: ^5.5.0
     gatsby-source-filesystem: ^4.4.0
     gatsby-transformer-remark: ^5.6.0
-    gatsby-transformer-sharp: ^4.4.0
+    gatsby-transformer-sharp: ^4.6.0
     gh-pages: ^3.1.0
     identity-obj-proxy: ^3.0.0
     jest: ^27.4.7

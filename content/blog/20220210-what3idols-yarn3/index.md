@@ -12,6 +12,8 @@ description: "Yarn v1 -> Yarn v3"
 
 https://github.com/YutaGoto/what3idols
 
+## Yarn 2, 3 の話
+
 yarn 自体は普段のお仕事でもだいぶ使用していますが、どれも v1 系を使用していて、v2 v3 を使用している現場は全くと言っていいほど見かけません（もちろん使っている現場もあるとは思っています。見かけていないだけです。）。
 
 v1 と v2, v3 の差や特徴に関してはほかの記事をみてだいぶ勉強になりました。
@@ -25,10 +27,8 @@ https://www.wantedly.com/companies/wantedly/post_articles/325643
 
 個人的な認識としては、v2 から PnP(Plug'n Play)モードが使用できるということです。 `yarn install` したパッケージを `node_modules`に展開するのではなく、 zip に圧縮して `.yarn/cache` に並べるモードです。こうすることによって、ファイル数が圧倒的に少なくなるほか、容量もそこまで大きくならなくなります。
 
-また、 `Zerro-Installs` というワークフローもあり、 `.yarn/cache` の中身もすべて git にコミットするというなかなか激しいパターンも取れます。これは `yarn install` せずともにすぐに Script を動かせるようになったり、他社や本番環境などとでライブラリそのものに差をなくすといったメリットがあります。ただ、コミットファイル量がやばいことになります。。。
+また、 `Zero-Installs` というワークフローもあり、 `.yarn/cache` の中身もすべて git にコミットするというなかなか激しいパターンも取れます。これは `yarn install` せずともにすぐに Script を動かせるようになったり、他社や本番環境などとでライブラリそのものに差をなくすといったメリットがあります。ただ、コミットファイル量がやばいことになります。。。
 `Yarn` プロジェクトも PnP + Zero-Installs モードでやっていますが、 `.yarn/cache` ディレクトリはけっこう激しいです。。 https://github.com/yarnpkg/berry/tree/master/.yarn/cache
-
-## yarn3 使用状況
 
 ## What3Idols での移行手順
 

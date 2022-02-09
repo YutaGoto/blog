@@ -1,4 +1,102 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[.ごっちの日記]]></title><description><![CDATA[.ごっちのつれづれなる日記]]></description><link>https://yutagoto.github.io</link><generator>GatsbyJS</generator><lastBuildDate>Sat, 05 Feb 2022 12:13:44 GMT</lastBuildDate><item><title><![CDATA[かなり難しいゲームの一つのステージをクリアしたメモ]]></title><description><![CDATA[こんにちは、 .ごっちです。これはただのメモです。 2021 年末にかなり難しいゲームの一つのステージをクリアしました 「たいよろ」から「たいあり」までちょうど 2 か月くらいかかりましたが、プレイ時間自体は 2…]]></description><link>https://yutagoto.github.io/20220115-difficult-game-p/</link><guid isPermaLink="false">https://yutagoto.github.io/20220115-difficult-game-p/</guid><pubDate>Sat, 15 Jan 2022 23:01:00 GMT</pubDate><content:encoded>&lt;p&gt;こんにちは、 .ごっちです。これはただのメモです。&lt;/p&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[.ごっちの日記]]></title><description><![CDATA[.ごっちのつれづれなる日記]]></description><link>https://yutagoto.github.io</link><generator>GatsbyJS</generator><lastBuildDate>Wed, 09 Feb 2022 15:38:34 GMT</lastBuildDate><item><title><![CDATA[What3IdolsプロジェクトをYarn v3へアップグレード]]></title><description><![CDATA[こんにちは、.ごっちです。 アイマスもくもく会を通じて What3Idols というサービス(?)の開発をし続けているのですが、勉強がてら yarn のバージョンを v1.22.XX から v3.1.1 にアップグレードさせました。 https://github.com…]]></description><link>https://yutagoto.github.io/20220210-what3idols-yarn3/</link><guid isPermaLink="false">https://yutagoto.github.io/20220210-what3idols-yarn3/</guid><pubDate>Thu, 10 Feb 2022 00:01:00 GMT</pubDate><content:encoded>&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 630px; margin: 0&quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/blog/static/9bace5c2fc8a9bd04f7854022af19011/0579b/yarn.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 44.93670886075949%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAJCAYAAAAywQxIAAAACXBIWXMAAAsTAAALEwEAmpwYAAACHElEQVQoz32SS2iTQRDHN4oXRRCxSkGLtjGmmS9GitqDtiJSRLwoIkpFpAcL4qugKBUErWjz+GbTF1USEZS2aqn4xHzfbBKrQU209QEePPQggt4EDx7i4duVTfYgBT38mWV258fsf4YBEmMtcRbm4pTFxUxDzJGBhPstzEVv0HbnW1wwQPLpd3/JZzRnVo6xzcOTzOJiIoSkgrar9o+WZFu6oIIJV4W5KFpcLJwF+680rAuQVCSZ/X14YtprHyup4w/ee82D+XKjTcriog+qXS4CpCWmcDkgWYC0B5BqTB50x/qrM4GEq7ZfL3gd41Nqac8TeeD2G9V6ddIzwK8WFyssTh2AdBSQdgDSkIHdBaQeQIoD0ghwqtVA6Y87FUhbuiDX9WXVkfvvpD/myIaYo4E/AakFkM4B0hkDOwtIp03uAnAdxTFAOslCNn1p6s+pjvEpT3e6KprRcNn16KO3b7So1iTc7xsH8zUWF4cAyQGkNCB1A9J5QIoA0iXgpO9aAekiCyTc7vUDOXXi4YfyttQL2TyUV+1jJdmb/1zefeu1Wh13UnVXnmqvtVePAanWQsHM9CuxctZRD2XXzVdzg7br7rzxUnXem1YH77yVe0eKam1SqPqY82nDQG5ZuFqsPXQBxQIDqqyOAfoM0MciySzbNPxs3spo5nJ9NPPDH3OUP+78arQpteXa88VN/VkWqgLqAGkroIaLf67NH44hXYTZHdF2AAAAAElFTkSuQmCC&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;yarn&quot;
+        title=&quot;yarn&quot;
+        src=&quot;/blog/static/9bace5c2fc8a9bd04f7854022af19011/f058b/yarn.png&quot;
+        srcset=&quot;/blog/static/9bace5c2fc8a9bd04f7854022af19011/c26ae/yarn.png 158w,
+/blog/static/9bace5c2fc8a9bd04f7854022af19011/6bdcf/yarn.png 315w,
+/blog/static/9bace5c2fc8a9bd04f7854022af19011/f058b/yarn.png 630w,
+/blog/static/9bace5c2fc8a9bd04f7854022af19011/40601/yarn.png 945w,
+/blog/static/9bace5c2fc8a9bd04f7854022af19011/78612/yarn.png 1260w,
+/blog/static/9bace5c2fc8a9bd04f7854022af19011/0579b/yarn.png 4812w&quot;
+        sizes=&quot;(max-width: 630px) 100vw, 630px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+        decoding=&quot;async&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;こんにちは、.ごっちです。&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://github.com/imas/mokumoku&quot;&gt;アイマスもくもく会&lt;/a&gt;を通じて &lt;a href=&quot;https://what3idols.vercel.app/&quot;&gt;What3Idols&lt;/a&gt; というサービス(?)の開発をし続けているのですが、勉強がてら yarn のバージョンを v1.22.XX から v3.1.1 にアップグレードさせました。&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://github.com/YutaGoto/what3idols&quot;&gt;https://github.com/YutaGoto/what3idols&lt;/a&gt;&lt;/p&gt;
+&lt;h2&gt;Yarn 2, 3 の話&lt;/h2&gt;
+&lt;p&gt;yarn 自体は普段のお仕事でもだいぶ使用していますが、どれも v1 系を使用していて、v2 v3 を使用している現場は全くと言っていいほど見かけません（もちろん使っている現場もあるとは思っています。見かけていないだけです。）。&lt;/p&gt;
+&lt;p&gt;v1 と v2, v3 の差や特徴に関してはほかの記事をみてだいぶ勉強になりました。&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://www.wantedly.com/companies/wantedly/post_articles/325643&quot;&gt;https://www.wantedly.com/companies/wantedly/post_articles/325643&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;メンテナーのブログもあるのでこちらも確認しました。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;v2: &lt;a href=&quot;https://dev.to/arcanis/introducing-yarn-2-4eh1&quot;&gt;https://dev.to/arcanis/introducing-yarn-2-4eh1&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;v3: &lt;a href=&quot;https://dev.to/arcanis/yarn-3-0-performances-esbuild-better-patches-e07&quot;&gt;https://dev.to/arcanis/yarn-3-0-performances-esbuild-better-patches-e07&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;個人的な認識としては、v2 から PnP(Plug’n Play)モードが使用できるということです。 &lt;code class=&quot;language-text&quot;&gt;yarn install&lt;/code&gt; したパッケージを &lt;code class=&quot;language-text&quot;&gt;node_modules&lt;/code&gt;に展開するのではなく、 zip に圧縮して &lt;code class=&quot;language-text&quot;&gt;.yarn/cache&lt;/code&gt; に並べるモードです。こうすることによって、ファイル数が圧倒的に少なくなるほか、容量もそこまで大きくならなくなります。&lt;/p&gt;
+&lt;p&gt;また、 &lt;code class=&quot;language-text&quot;&gt;Zero-Installs&lt;/code&gt; というワークフローもあり、 &lt;code class=&quot;language-text&quot;&gt;.yarn/cache&lt;/code&gt; の中身もすべて git にコミットするというなかなか激しいパターンも取れます。これは &lt;code class=&quot;language-text&quot;&gt;yarn install&lt;/code&gt; せずともにすぐに Script を動かせるようになったり、他社や本番環境などとでライブラリそのものに差をなくすといったメリットがあります。ただ、コミットファイル量がやばいことになります。。。
+&lt;code class=&quot;language-text&quot;&gt;Yarn&lt;/code&gt; プロジェクトも PnP + Zero-Installs モードでやっていますが、 &lt;code class=&quot;language-text&quot;&gt;.yarn/cache&lt;/code&gt; ディレクトリはけっこう激しいです。。 &lt;a href=&quot;https://github.com/yarnpkg/berry/tree/master/.yarn/cache&quot;&gt;https://github.com/yarnpkg/berry/tree/master/.yarn/cache&lt;/a&gt;&lt;/p&gt;
+&lt;h2&gt;What3Idols での移行手順&lt;/h2&gt;
+&lt;h3&gt;使用する yarn のバージョンを 3 にセットする&lt;/h3&gt;
+&lt;p&gt;&lt;code class=&quot;language-text&quot;&gt;berry&lt;/code&gt; を指定すると現状リリースされている最新バージョンの安定板をセットすることができます。もちろん、直接バージョン番号を指定することも可能です。&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://yarnpkg.com/cli/set/version&quot;&gt;https://yarnpkg.com/cli/set/version&lt;/a&gt;&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;$ &lt;span class=&quot;token function&quot;&gt;yarn&lt;/span&gt; &lt;span class=&quot;token builtin class-name&quot;&gt;set&lt;/span&gt; version berry
+$ &lt;span class=&quot;token function&quot;&gt;yarn&lt;/span&gt; -v
+&lt;span class=&quot;token number&quot;&gt;3.1&lt;/span&gt;.1&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;h3&gt;&lt;code class=&quot;language-text&quot;&gt;node_modules&lt;/code&gt; を使用しない設定をする&lt;/h3&gt;
+&lt;p&gt;この状態ですと、引き続き &lt;code class=&quot;language-text&quot;&gt;node_modules&lt;/code&gt; を使用する設定になっているはずなので変更をします。&lt;/p&gt;
+&lt;p&gt;&lt;code class=&quot;language-text&quot;&gt;.yarnrc.yml&lt;/code&gt; の&lt;code class=&quot;language-text&quot;&gt;nodeLinker&lt;/code&gt; を削除します。これで PnP モードを使用できるようになります。削除すると &lt;code class=&quot;language-text&quot;&gt;yarnPath&lt;/code&gt; だけが残っているはずです。&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;yml&quot;&gt;&lt;pre class=&quot;language-yml&quot;&gt;&lt;code class=&quot;language-yml&quot;&gt;&lt;span class=&quot;token comment&quot;&gt;# .yarnrc.yml&lt;/span&gt;
+&lt;span class=&quot;token key atrule&quot;&gt;yarnPath&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; .yarn/releases/yarn&lt;span class=&quot;token punctuation&quot;&gt;-&lt;/span&gt;3.1.1.cjs&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;h3&gt;&lt;code class=&quot;language-text&quot;&gt;.gitignore&lt;/code&gt;&lt;/h3&gt;
+&lt;p&gt;What3Idols プロジェクトでは &lt;code class=&quot;language-text&quot;&gt;Zero-Installs&lt;/code&gt; に則るので &lt;code class=&quot;language-text&quot;&gt;.gitignore&lt;/code&gt; もドキュメントにあるように変更をします。&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://yarnpkg.com/getting-started/qa#which-files-should-be-gitignored&quot;&gt;https://yarnpkg.com/getting-started/qa#which-files-should-be-gitignored&lt;/a&gt;&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;# .gitignore
+# yarn3 with Zero-install (追記)
+.yarn/*
+!.yarn/cache
+!.yarn/patches
+!.yarn/plugins
+!.yarn/releases
+!.yarn/sdks
+!.yarn/versions&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;h3&gt;CircleCI の設定&lt;/h3&gt;
+&lt;p&gt;CI でも &lt;code class=&quot;language-text&quot;&gt;yarn install&lt;/code&gt; のステップを使用しないので書き換えます。&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://circleci.com/developer/ja/orbs/orb/circleci/node#usage-yarn_berry_zero_install&quot;&gt;https://circleci.com/developer/ja/orbs/orb/circleci/node#usage-yarn_berry_zero_install&lt;/a&gt;&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;yml&quot;&gt;&lt;pre class=&quot;language-yml&quot;&gt;&lt;code class=&quot;language-yml&quot;&gt;&lt;span class=&quot;token comment&quot;&gt;# .circleci/config.yml&lt;/span&gt;
+&lt;span class=&quot;token comment&quot;&gt;# yarn install していた部分を書き換える&lt;/span&gt;
+&lt;span class=&quot;token punctuation&quot;&gt;-&lt;/span&gt; &lt;span class=&quot;token key atrule&quot;&gt;node/install-packages&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;
+    &lt;span class=&quot;token key atrule&quot;&gt;check-cache&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; always
+    &lt;span class=&quot;token key atrule&quot;&gt;pkg-manager&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; yarn&lt;span class=&quot;token punctuation&quot;&gt;-&lt;/span&gt;berry
+    &lt;span class=&quot;token key atrule&quot;&gt;with-cache&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token boolean important&quot;&gt;false&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;h3&gt;そのほか設定&lt;/h3&gt;
+&lt;p&gt;この状態で起動したところ下記エラーが発生しました。&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;error - .yarn/__virtual__/react-bulma-components-virtual-92c18f60ac/0/cache/react-bulma-components-npm-4.1.0-ebd88e4a93-7d0165d60d.zip/node_modules/react-bulma-components/cjs/components/breadcrumb/breadcrumb.js:10:0
+Module not found: react-bulma-components tried to access prop-types (a peer dependency) but it isn&apos;t provided by your application; this makes the require call ambiguous and unsound.&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;&lt;code class=&quot;language-text&quot;&gt;react-bulma-components&lt;/code&gt; が &lt;code class=&quot;language-text&quot;&gt;prop-types&lt;/code&gt; を呼び出そうとしたが呼び出せず、 require 呼び出しがあいまいになってしまったエラーのようです。手動であいまいな部分を設定する必要があります。
+yarn のドキュメントを見ながら &lt;code class=&quot;language-text&quot;&gt;.yarnrc.yml&lt;/code&gt; に追記します。&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://yarnpkg.com/getting-started/migration#fix-dependencies-with-packageextensions&quot;&gt;https://yarnpkg.com/getting-started/migration#fix-dependencies-with-packageextensions&lt;/a&gt;
+&lt;a href=&quot;https://yarnpkg.com/configuration/yarnrc#packageExtensions&quot;&gt;https://yarnpkg.com/configuration/yarnrc#packageExtensions&lt;/a&gt;&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;yml&quot;&gt;&lt;pre class=&quot;language-yml&quot;&gt;&lt;code class=&quot;language-yml&quot;&gt;&lt;span class=&quot;token comment&quot;&gt;# .yarnrc.yml&lt;/span&gt;
+&lt;span class=&quot;token key atrule&quot;&gt;packageExtensions&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;
+  &lt;span class=&quot;token key atrule&quot;&gt;&quot;react-bulma-components@*&quot;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;
+    &lt;span class=&quot;token key atrule&quot;&gt;dependencies&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;
+      &lt;span class=&quot;token key atrule&quot;&gt;&quot;prop-types&quot;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;*&quot;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;h3&gt;Dependabot&lt;/h3&gt;
+&lt;p&gt;ライブラリの更新のプルリクエストの作成を Dependabot でやってたのですが、 2022/02/10 現在では&lt;a href=&quot;https://docs.github.com/ja/code-security/supply-chain-security/keeping-your-dependencies-updated-automatically/about-dependabot-version-updates#supported-repositories-and-ecosystems&quot;&gt;yarn2, 3&lt;/a&gt;には対応していないので、&lt;a href=&quot;https://depfu.com/&quot;&gt;Depfu&lt;/a&gt;というサービスに乗り換えました。&lt;/p&gt;
+&lt;h2&gt;移行完了&lt;/h2&gt;
+&lt;p&gt;この状態で &lt;code class=&quot;language-text&quot;&gt;yarn dev&lt;/code&gt; を実行し、localhost にアクセスすると無事にページが表示されます。
+commit して Vercel にデプロイしても問題なく完了し表示させることができました。&lt;/p&gt;</content:encoded></item><item><title><![CDATA[かなり難しいゲームの一つのステージをクリアしたメモ]]></title><description><![CDATA[こんにちは、 .ごっちです。これはただのメモです。 2021 年末にかなり難しいゲームの一つのステージをクリアしました 「たいよろ」から「たいあり」までちょうど 2 か月くらいかかりましたが、プレイ時間自体は 2…]]></description><link>https://yutagoto.github.io/20220115-difficult-game-p/</link><guid isPermaLink="false">https://yutagoto.github.io/20220115-difficult-game-p/</guid><pubDate>Sat, 15 Jan 2022 23:01:00 GMT</pubDate><content:encoded>&lt;p&gt;こんにちは、 .ごっちです。これはただのメモです。&lt;/p&gt;
 &lt;p&gt;2021 年末にかなり難しいゲームの一つのステージをクリアしました&lt;/p&gt;
 &lt;blockquote class=&quot;twitter-tweet&quot;&gt;&lt;p lang=&quot;ja&quot; dir=&quot;ltr&quot;&gt;たいせんよろしくおねがいします。 &lt;a href=&quot;https://t.co/Re0gN4oMLp&quot;&gt;pic.twitter.com/Re0gN4oMLp&lt;/a&gt;&lt;/p&gt;&amp;mdash; .ごっち (@gggooottto) &lt;a href=&quot;https://twitter.com/gggooottto/status/1454030188447100930?ref_src=twsrc%5Etfw&quot;&gt;October 29, 2021&lt;/a&gt;&lt;/blockquote&gt;
 &lt;blockquote class=&quot;twitter-tweet&quot;&gt;&lt;p lang=&quot;ja&quot; dir=&quot;ltr&quot;&gt;Pogostuck。Map1を無事に年内にクリアできました！うおおおお！ &lt;a href=&quot;https://t.co/CpU0zKsjlj&quot;&gt;pic.twitter.com/CpU0zKsjlj&lt;/a&gt;&lt;/p&gt;&amp;mdash; .ごっち (@gggooottto) &lt;a href=&quot;https://twitter.com/gggooottto/status/1476411547958546433?ref_src=twsrc%5Etfw&quot;&gt;December 30, 2021&lt;/a&gt;&lt;/blockquote&gt;

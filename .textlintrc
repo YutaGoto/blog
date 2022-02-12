@@ -1,0 +1,14 @@
+{
+  "filters": {},
+  "rules": {
+    "preset-ja-spacing": false,
+    "preset-ja-technical-writing": {
+      "max": 180,
+      "max-kanji-continuous-len": false,
+      "no-exclamation-question-mark": false,
+      "no-mix-dearu-desumasu": false,
+      "sentence-length": 180
+    },
+    "preset-japanese": true
+  }
+}

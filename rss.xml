@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[.ごっちの日記]]></title><description><![CDATA[.ごっちのつれづれなる日記]]></description><link>https://yutagoto.github.io</link><generator>GatsbyJS</generator><lastBuildDate>Wed, 09 Feb 2022 15:38:34 GMT</lastBuildDate><item><title><![CDATA[What3IdolsプロジェクトをYarn v3へアップグレード]]></title><description><![CDATA[こんにちは、.ごっちです。 アイマスもくもく会を通じて What3Idols というサービス(?)の開発をし続けているのですが、勉強がてら yarn のバージョンを v1.22.XX から v3.1.1 にアップグレードさせました。 https://github.com…]]></description><link>https://yutagoto.github.io/20220210-what3idols-yarn3/</link><guid isPermaLink="false">https://yutagoto.github.io/20220210-what3idols-yarn3/</guid><pubDate>Thu, 10 Feb 2022 00:01:00 GMT</pubDate><content:encoded>&lt;p&gt;&lt;span
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[.ごっちの日記]]></title><description><![CDATA[.ごっちのつれづれなる日記]]></description><link>https://yutagoto.github.io</link><generator>GatsbyJS</generator><lastBuildDate>Sat, 12 Feb 2022 16:01:45 GMT</lastBuildDate><item><title><![CDATA[What3IdolsプロジェクトをYarn v3へアップグレード]]></title><description><![CDATA[こんにちは、.ごっちです。 アイマスもくもく会を通じて What3Idols というサービス(?)の開発をし続けているのですが、勉強がてら yarn のバージョンを v1.22.XX から v3.1.1 にアップグレードさせました。 https://github.com…]]></description><link>https://yutagoto.github.io/20220210-what3idols-yarn3/</link><guid isPermaLink="false">https://yutagoto.github.io/20220210-what3idols-yarn3/</guid><pubDate>Thu, 10 Feb 2022 00:01:00 GMT</pubDate><content:encoded>&lt;p&gt;&lt;span
       class=&quot;gatsby-resp-image-wrapper&quot;
       style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 630px; margin: 0&quot;
     &gt;
@@ -44,11 +44,11 @@
 &lt;li&gt;v3: &lt;a href=&quot;https://dev.to/arcanis/yarn-3-0-performances-esbuild-better-patches-e07&quot;&gt;https://dev.to/arcanis/yarn-3-0-performances-esbuild-better-patches-e07&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;個人的な認識としては、v2 から PnP(Plug’n Play)モードが使用できるということです。 &lt;code class=&quot;language-text&quot;&gt;yarn install&lt;/code&gt; したパッケージを &lt;code class=&quot;language-text&quot;&gt;node_modules&lt;/code&gt;に展開するのではなく、 zip に圧縮して &lt;code class=&quot;language-text&quot;&gt;.yarn/cache&lt;/code&gt; に並べるモードです。こうすることによって、ファイル数が圧倒的に少なくなるほか、容量もそこまで大きくならなくなります。&lt;/p&gt;
-&lt;p&gt;また、 &lt;code class=&quot;language-text&quot;&gt;Zero-Installs&lt;/code&gt; というワークフローもあり、 &lt;code class=&quot;language-text&quot;&gt;.yarn/cache&lt;/code&gt; の中身もすべて git にコミットするというなかなか激しいパターンも取れます。これは &lt;code class=&quot;language-text&quot;&gt;yarn install&lt;/code&gt; せずともにすぐに Script を動かせるようになったり、他社や本番環境などとでライブラリそのものに差をなくすといったメリットがあります。ただ、コミットファイル量がやばいことになります。。。
-&lt;code class=&quot;language-text&quot;&gt;Yarn&lt;/code&gt; プロジェクトも PnP + Zero-Installs モードでやっていますが、 &lt;code class=&quot;language-text&quot;&gt;.yarn/cache&lt;/code&gt; ディレクトリはけっこう激しいです。。 &lt;a href=&quot;https://github.com/yarnpkg/berry/tree/master/.yarn/cache&quot;&gt;https://github.com/yarnpkg/berry/tree/master/.yarn/cache&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;また、 &lt;code class=&quot;language-text&quot;&gt;Zero-Installs&lt;/code&gt; というワークフローもあり、 &lt;code class=&quot;language-text&quot;&gt;.yarn/cache&lt;/code&gt; の中身もすべて git にコミットするというなかなか激しいパターンも取れます。これは &lt;code class=&quot;language-text&quot;&gt;yarn install&lt;/code&gt; せずともにすぐに Script を動かせるようになったり、他社や本番環境などとでライブラリそのものに差をなくすといったメリットがあります。ただ、コミットファイル量がやばいことになります。
+&lt;code class=&quot;language-text&quot;&gt;Yarn&lt;/code&gt; プロジェクトも PnP + Zero-Installs モードでやっていますが、 &lt;code class=&quot;language-text&quot;&gt;.yarn/cache&lt;/code&gt; ディレクトリはけっこう激しいです。 &lt;a href=&quot;https://github.com/yarnpkg/berry/tree/master/.yarn/cache&quot;&gt;https://github.com/yarnpkg/berry/tree/master/.yarn/cache&lt;/a&gt;&lt;/p&gt;
 &lt;h2&gt;What3Idols での移行手順&lt;/h2&gt;
 &lt;h3&gt;使用する yarn のバージョンを 3 にセットする&lt;/h3&gt;
-&lt;p&gt;&lt;code class=&quot;language-text&quot;&gt;berry&lt;/code&gt; を指定すると現状リリースされている最新バージョンの安定板をセットすることができます。もちろん、直接バージョン番号を指定することも可能です。&lt;/p&gt;
+&lt;p&gt;&lt;code class=&quot;language-text&quot;&gt;berry&lt;/code&gt; を指定すると現状リリースされている最新バージョンの安定板をセットできます。もちろん、直接バージョン番号を指定できます。&lt;/p&gt;
 &lt;p&gt;&lt;a href=&quot;https://yarnpkg.com/cli/set/version&quot;&gt;https://yarnpkg.com/cli/set/version&lt;/a&gt;&lt;/p&gt;
 &lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;$ &lt;span class=&quot;token function&quot;&gt;yarn&lt;/span&gt; &lt;span class=&quot;token builtin class-name&quot;&gt;set&lt;/span&gt; version berry
 $ &lt;span class=&quot;token function&quot;&gt;yarn&lt;/span&gt; -v
@@ -96,8 +96,8 @@ yarn のドキュメントを見ながら &lt;code class=&quot;language-text&quo
 &lt;p&gt;ライブラリの更新のプルリクエストの作成を Dependabot でやってたのですが、 2022/02/10 現在では&lt;a href=&quot;https://docs.github.com/ja/code-security/supply-chain-security/keeping-your-dependencies-updated-automatically/about-dependabot-version-updates#supported-repositories-and-ecosystems&quot;&gt;yarn2, 3&lt;/a&gt;には対応していないので、&lt;a href=&quot;https://depfu.com/&quot;&gt;Depfu&lt;/a&gt;というサービスに乗り換えました。&lt;/p&gt;
 &lt;h2&gt;移行完了&lt;/h2&gt;
 &lt;p&gt;この状態で &lt;code class=&quot;language-text&quot;&gt;yarn dev&lt;/code&gt; を実行し、localhost にアクセスすると無事にページが表示されます。
-commit して Vercel にデプロイしても問題なく完了し表示させることができました。&lt;/p&gt;</content:encoded></item><item><title><![CDATA[かなり難しいゲームの一つのステージをクリアしたメモ]]></title><description><![CDATA[こんにちは、 .ごっちです。これはただのメモです。 2021 年末にかなり難しいゲームの一つのステージをクリアしました 「たいよろ」から「たいあり」までちょうど 2 か月くらいかかりましたが、プレイ時間自体は 2…]]></description><link>https://yutagoto.github.io/20220115-difficult-game-p/</link><guid isPermaLink="false">https://yutagoto.github.io/20220115-difficult-game-p/</guid><pubDate>Sat, 15 Jan 2022 23:01:00 GMT</pubDate><content:encoded>&lt;p&gt;こんにちは、 .ごっちです。これはただのメモです。&lt;/p&gt;
-&lt;p&gt;2021 年末にかなり難しいゲームの一つのステージをクリアしました&lt;/p&gt;
+commit して Vercel にデプロイしても問題なく完了し表示させることができました。&lt;/p&gt;</content:encoded></item><item><title><![CDATA[かなり難しいゲームの一つのステージをクリアしたメモ]]></title><description><![CDATA[こんにちは、 .ごっちです。これはただのメモです。 2021 年末にかなり難しいゲームの1つのステージをクリアしました。 「たいよろ」から「たいあり」までちょうど 2 か月くらいかかりましたが、プレイ時間自体は 2…]]></description><link>https://yutagoto.github.io/20220115-difficult-game-p/</link><guid isPermaLink="false">https://yutagoto.github.io/20220115-difficult-game-p/</guid><pubDate>Sat, 15 Jan 2022 23:01:00 GMT</pubDate><content:encoded>&lt;p&gt;こんにちは、 .ごっちです。これはただのメモです。&lt;/p&gt;
+&lt;p&gt;2021 年末にかなり難しいゲームの1つのステージをクリアしました。&lt;/p&gt;
 &lt;blockquote class=&quot;twitter-tweet&quot;&gt;&lt;p lang=&quot;ja&quot; dir=&quot;ltr&quot;&gt;たいせんよろしくおねがいします。 &lt;a href=&quot;https://t.co/Re0gN4oMLp&quot;&gt;pic.twitter.com/Re0gN4oMLp&lt;/a&gt;&lt;/p&gt;&amp;mdash; .ごっち (@gggooottto) &lt;a href=&quot;https://twitter.com/gggooottto/status/1454030188447100930?ref_src=twsrc%5Etfw&quot;&gt;October 29, 2021&lt;/a&gt;&lt;/blockquote&gt;
 &lt;blockquote class=&quot;twitter-tweet&quot;&gt;&lt;p lang=&quot;ja&quot; dir=&quot;ltr&quot;&gt;Pogostuck。Map1を無事に年内にクリアできました！うおおおお！ &lt;a href=&quot;https://t.co/CpU0zKsjlj&quot;&gt;pic.twitter.com/CpU0zKsjlj&lt;/a&gt;&lt;/p&gt;&amp;mdash; .ごっち (@gggooottto) &lt;a href=&quot;https://twitter.com/gggooottto/status/1476411547958546433?ref_src=twsrc%5Etfw&quot;&gt;December 30, 2021&lt;/a&gt;&lt;/blockquote&gt;
 &lt;p&gt;「たいよろ」から「たいあり」までちょうど 2 か月くらいかかりましたが、プレイ時間自体は 27 時間くらいとそこまで時間がかからずにクリアしたところでした。(平気で 50 時間越え 100 時間越えがあるので、それらと比べると速いほう)&lt;/p&gt;
@@ -127,7 +127,7 @@ commit して Vercel にデプロイしても問題なく完了し表示させ�
         decoding=&quot;async&quot;
       /&gt;
     &lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;↑ ミスって落ちていく図&lt;/p&gt;
+&lt;p&gt;↑ ミスって落ちていく図。&lt;/p&gt;
 &lt;p&gt;&lt;span
       class=&quot;gatsby-resp-image-wrapper&quot;
       style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 630px; margin: 0&quot;
@@ -153,7 +153,7 @@ commit して Vercel にデプロイしても問題なく完了し表示させ�
         decoding=&quot;async&quot;
       /&gt;
     &lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;↑ 最後のポイントを超えたところ&lt;/p&gt;
+&lt;p&gt;↑ 最後のポイントを超えたところ。&lt;/p&gt;
 &lt;p&gt;ここから 5 分切りするまでタイムを縮めたりより難しい Map2,Map3 をやっていく予定は全くない（他にやりたいことがあるので）ですが、ゆるゆるやっていけたらいいかなーとはおもっています。&lt;/p&gt;
 &lt;p&gt;ここに Steam のストアページのリンクをおいておきます。&lt;/p&gt;
 &lt;p&gt;&lt;a href=&quot;https://store.steampowered.com/app/688130/Pogostuck_Rage_With_Your_Friends/&quot;&gt;https://store.steampowered.com/app/688130/Pogostuck_Rage_With_Your_Friends/&lt;/a&gt;&lt;/p&gt;
@@ -396,7 +396,7 @@ commit して Vercel にデプロイしても問題なく完了し表示させ�
 &lt;/ul&gt;
 &lt;h2&gt;今後&lt;/h2&gt;
 &lt;p&gt;2022 年以降 まだまだ先行き不透明なので引き続きオンライン開催の予定です。また、もくもくしたい内容がないともくもくする人は増えないので、イベントページにあるもくもく内容の例示やとっかかりをもうちょっと充実させたいところです。&lt;/p&gt;
-&lt;p&gt;運営に力をあまり入れずに細く長く続けていける会になるようにやっていますので、引き続きもくもくやっていきます。今後ともよろしくお願いします！&lt;/p&gt;</content:encoded></item><item><title><![CDATA[.ごっちさん香川・岡山旅行記]]></title><description><![CDATA[この記事は雑談 Slack Advent Calendar 2021 の 2…]]></description><link>https://yutagoto.github.io/20211221-kagawa-okayama-trip/</link><guid isPermaLink="false">https://yutagoto.github.io/20211221-kagawa-okayama-trip/</guid><pubDate>Tue, 21 Dec 2021 00:01:00 GMT</pubDate><content:encoded>&lt;p&gt;この記事は&lt;a href=&quot;https://adventar.org/calendars/6233&quot;&gt;雑談 Slack Advent Calendar 2021&lt;/a&gt; の 21 日目の記事です。&lt;/p&gt;
+&lt;p&gt;運営に力をあまり入れずに細く長く続けていける会になるようやっていますので、引き続きもくもくやっていきます。今後ともよろしくお願いします！&lt;/p&gt;</content:encoded></item><item><title><![CDATA[.ごっちさん香川・岡山旅行記]]></title><description><![CDATA[この記事は雑談 Slack Advent Calendar 2021 の 2…]]></description><link>https://yutagoto.github.io/20211221-kagawa-okayama-trip/</link><guid isPermaLink="false">https://yutagoto.github.io/20211221-kagawa-okayama-trip/</guid><pubDate>Tue, 21 Dec 2021 00:01:00 GMT</pubDate><content:encoded>&lt;p&gt;この記事は&lt;a href=&quot;https://adventar.org/calendars/6233&quot;&gt;雑談 Slack Advent Calendar 2021&lt;/a&gt; の 21 日目の記事です。&lt;/p&gt;
 &lt;p&gt;こんにちは、.ごっちです。
 気が向いたので旅行してきました。きっかけは以下のツイートです。&lt;/p&gt;
 &lt;blockquote class=&quot;twitter-tweet&quot;&gt;&lt;p lang=&quot;ja&quot; dir=&quot;ltr&quot;&gt;サンライズで四国に行ってうどん食べて瀬戸大橋を見て散歩して帰るみたいなことをしたい。&lt;/p&gt;&amp;mdash; .ごっち (@gggooottto) &lt;a href=&quot;https://twitter.com/gggooottto/status/1468135319694606341?ref_src=twsrc%5Etfw&quot;&gt;December 7, 2021&lt;/a&gt;&lt;/blockquote&gt;
@@ -429,10 +429,10 @@ commit して Vercel にデプロイしても問題なく完了し表示させ�
         decoding=&quot;async&quot;
       /&gt;
     &lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;夜で走行中なのでブレていますが、深夜の街並みの中を眺めるのはなかなかないので新鮮です。寝転がれますし。。&lt;/p&gt;
+&lt;p&gt;夜で走行中なのでブレていますが、深夜の街並みの中を眺めるのはなかなかないので新鮮です。寝転がれますし。&lt;/p&gt;
 &lt;p&gt;カーテンを開けてボーっとしながら眠りにつこうと思っていたのですが、駅や街灯が普通にまぶしいのと冷気が窓から入ってきて寒いのでカーテンを下ろして寝ました。&lt;/p&gt;
 &lt;p&gt;—&lt;/p&gt;
-&lt;p&gt;朝起きたら岡山駅にちょうど到着したあたりでサンライズ出雲と瀬戸の切り離し作業を見ることができなかったのです。。。&lt;/p&gt;
+&lt;p&gt;朝起きたら岡山駅にちょうど到着したあたりでサンライズ出雲と瀬戸の切り離し作業を見ることができなかったのです。&lt;/p&gt;
 &lt;p&gt;朝の瀬戸大橋からの景色を見られたのでよしとします！&lt;/p&gt;
 &lt;p&gt;&lt;span
       class=&quot;gatsby-resp-image-wrapper&quot;
@@ -544,7 +544,7 @@ commit して Vercel にデプロイしても問題なく完了し表示させ�
         decoding=&quot;async&quot;
       /&gt;
     &lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;ここでラップトップを開いて座ったらワーケーションの広告っぽいものが撮れそうな気がしました。&lt;/p&gt;
+&lt;p&gt;ここでラップトップを開いて座ったらワーケーションの広告っぽいものを撮れそうです。&lt;/p&gt;
 &lt;h2&gt;宇田津&lt;/h2&gt;
 &lt;p&gt;宇田津に移動して昼ご飯のうどんです。専門学校に付属しているうどん屋さんですが、一般も利用していいということなので行ってみました。&lt;/p&gt;
 &lt;p&gt;&lt;a href=&quot;http://www.459.ac.jp/info/year2015/entry-1996.html&quot;&gt;麺匠『豊三』 http://www.459.ac.jp/info/year2015/entry-1996.html&lt;/a&gt;&lt;/p&gt;
@@ -707,7 +707,7 @@ commit して Vercel にデプロイしても問題なく完了し表示させ�
         decoding=&quot;async&quot;
       /&gt;
     &lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;帰りの新幹線の前に夜ご飯を食べておきたかったので途中下車しました。3 食うどんにする勇気はなかったです。。&lt;/p&gt;
+&lt;p&gt;帰りの新幹線の前に夜ご飯を食べておきたかったので途中下車しました。3 食うどんにする勇気はなかったです。&lt;/p&gt;
 &lt;p&gt;&lt;span
       class=&quot;gatsby-resp-image-wrapper&quot;
       style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 630px; margin: 0&quot;
@@ -733,11 +733,11 @@ commit して Vercel にデプロイしても問題なく完了し表示させ�
         decoding=&quot;async&quot;
       /&gt;
     &lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;駅近くのショッピングモールのフードコートっぽいところでご飯をいただきました&lt;/p&gt;
+&lt;p&gt;駅近くのショッピングモールのフードコートっぽいところでご飯をいただきました。&lt;/p&gt;
 &lt;p&gt;&lt;a href=&quot;https://icotnicot.jp/search/detail.php?shop_id=8581&quot;&gt;黒毛和牛ホルモン専門店 冩楽 sharaku（シャラク）https://icotnicot.jp/search/detail.php?shop_id=8581&lt;/a&gt;&lt;/p&gt;
 &lt;blockquote class=&quot;twitter-tweet&quot;&gt;&lt;p lang=&quot;ja&quot; dir=&quot;ltr&quot;&gt;ごはん! &lt;a href=&quot;https://t.co/hrsnPx6U20&quot;&gt;pic.twitter.com/hrsnPx6U20&lt;/a&gt;&lt;/p&gt;&amp;mdash; .ごっち (@gggooottto) &lt;a href=&quot;https://twitter.com/gggooottto/status/1471053936388079619?ref_src=twsrc%5Etfw&quot;&gt;December 15, 2021&lt;/a&gt;&lt;/blockquote&gt;
 &lt;h2&gt;おまけ&lt;/h2&gt;
-&lt;p&gt;この旅をもって北海道・本州・四国・九州 4 島に訪れたことになりました。&lt;/p&gt;
+&lt;p&gt;この旅をもって北海道・本州・四国・九州 4 島に訪れました。&lt;/p&gt;
 &lt;p&gt;&lt;span
       class=&quot;gatsby-resp-image-wrapper&quot;
       style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 535px; margin: 0&quot;
@@ -948,9 +948,9 @@ Manifest の詳しい仕様は&lt;a href=&quot;https://api.slack.com/reference/m
 &lt;p&gt;開発環境での検証は &lt;code class=&quot;language-text&quot;&gt;ngrok&lt;/code&gt; を使うと楽です。詳しくは書きません。&lt;/p&gt;
 &lt;p&gt;&lt;a href=&quot;https://ngrok.com/&quot;&gt;https://ngrok.com/&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;flask サーバーを起動して ngrok を起動して、その URL を manifest に書き込んだらテストをします。
-以下のように slack 上で slash コマンドを入力できて、BOT がワークスペースに登録された emoji を 1 つだけチャットしたかと思います。&lt;/p&gt;
+以下のように slack 上で slash コマンドを入力できて、BOT がワークスペースに登録された emoji を 1 つだけチャットされます。&lt;/p&gt;
 &lt;p&gt;&lt;img src=&quot;/blog/c13d1c7d64445a75a040a9eeaa7530dc/slack.gif&quot; alt=&quot;slack gif&quot;&gt;&lt;/p&gt;
-&lt;p&gt;AWS lambda などにデプロイすれば、いつでも emoji ガチャを回すことができます！&lt;/p&gt;</content:encoded></item><item><title><![CDATA[リングフィットアドベンチャー 3周目完走したので感想]]></title><description><![CDATA[こんにちは、.ごっちです。  2019 年の 10 月末に始めて 2020 年 6 月 17 日に 1 周目完走して、そして 2021 年 3 月 25 日に 2 周目（エクストラモード）を完走し、そしてそして 2021 年 10 月 8 日に…]]></description><link>https://yutagoto.github.io/20211009-ringfitadv-round3/</link><guid isPermaLink="false">https://yutagoto.github.io/20211009-ringfitadv-round3/</guid><pubDate>Sat, 09 Oct 2021 10:30:00 GMT</pubDate><content:encoded>&lt;p&gt;こんにちは、.ごっちです。&lt;/p&gt;
+&lt;p&gt;AWS lambda などにデプロイすれば、いつでも emoji ガチャを回すことができます！&lt;/p&gt;</content:encoded></item><item><title><![CDATA[リングフィットアドベンチャー 3周目完走したので感想]]></title><description><![CDATA[こんにちは、.ごっちです。  2019 年の 10 月末に始めて 2020 年 6 月 17 日に 1 周目完走して、そして 2021 年 3 月 25 日に 2 周目（エクストラモード）を完走し、そして 2021 年 10 月 8 日に…]]></description><link>https://yutagoto.github.io/20211009-ringfitadv-round3/</link><guid isPermaLink="false">https://yutagoto.github.io/20211009-ringfitadv-round3/</guid><pubDate>Sat, 09 Oct 2021 10:30:00 GMT</pubDate><content:encoded>&lt;p&gt;こんにちは、.ごっちです。&lt;/p&gt;
 &lt;p&gt;&lt;span
       class=&quot;gatsby-resp-image-wrapper&quot;
       style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 264px; margin: 0&quot;
@@ -972,11 +972,11 @@ Manifest の詳しい仕様は&lt;a href=&quot;https://api.slack.com/reference/m
         decoding=&quot;async&quot;
       /&gt;
     &lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;2019 年の 10 月末に始めて 2020 年 6 月 17 日に 1 周目完走して、そして 2021 年 3 月 25 日に 2 周目（エクストラモード）を完走し、そしてそして 2021 年 10 月 8 日に 3 周目（マスターモード）を完走したのでその感想です。&lt;/p&gt;
+&lt;p&gt;2019 年の 10 月末に始めて 2020 年 6 月 17 日に 1 周目完走して、そして 2021 年 3 月 25 日に 2 周目（エクストラモード）を完走し、そして 2021 年 10 月 8 日に 3 周目（マスターモード）を完走したのでその感想です。&lt;/p&gt;
 &lt;blockquote class=&quot;twitter-tweet&quot;&gt;&lt;p lang=&quot;ja&quot; dir=&quot;ltr&quot;&gt;うおーーーーー！！！！！！！！！第3章！！！完！！！！！！！！！ &lt;a href=&quot;https://twitter.com/hashtag/%E3%83%AA%E3%83%B3%E3%82%B0%E3%83%95%E3%82%A3%E3%83%83%E3%83%88%E3%82%A2%E3%83%89%E3%83%99%E3%83%B3%E3%83%81%E3%83%A3%E3%83%BC?src=hash&amp;amp;ref_src=twsrc%5Etfw&quot;&gt;#リングフィットアドベンチャー&lt;/a&gt; &lt;a href=&quot;https://twitter.com/hashtag/RingFitAdventure?src=hash&amp;amp;ref_src=twsrc%5Etfw&quot;&gt;#RingFitAdventure&lt;/a&gt; &lt;a href=&quot;https://twitter.com/hashtag/NintendoSwitch?src=hash&amp;amp;ref_src=twsrc%5Etfw&quot;&gt;#NintendoSwitch&lt;/a&gt; &lt;a href=&quot;https://t.co/pwWXnbQomW&quot;&gt;pic.twitter.com/pwWXnbQomW&lt;/a&gt;&lt;/p&gt;&amp;mdash; .ごっち (@gggooottto) &lt;a href=&quot;https://twitter.com/gggooottto/status/1446414367352786947?ref_src=twsrc%5Etfw&quot;&gt;October 8, 2021&lt;/a&gt;&lt;/blockquote&gt;
 &lt;hr&gt;
-&lt;p&gt;半分 意地みたいな感じで続けています。3 周目も用意されています！と宣言されたんでやり切るしかないでしょう！！といったところです。
-相も変わらず柔軟体操はできていないので、身体は柔らかくなっていません。。それ以外に関して 筋肉はごりごりではないですが、2 年前よりかは圧倒的にあると感じてます。（2 年前の写真がなので比較できないですが）&lt;/p&gt;
+&lt;p&gt;半分 意地みたいな感じで続けています。3 周目も用意されています！と宣言されたんでやり切るしかないでしょう！といったところです。
+相も変わらず柔軟体操ができていないので、身体は柔らかくなっていません。それ以外に関して 筋肉はごりごりでないですが、2 年前より圧倒的にあると感じてます。（2 年前の写真がなので比較できないですが）&lt;/p&gt;
 &lt;p&gt;&lt;span
       class=&quot;gatsby-resp-image-wrapper&quot;
       style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 630px; margin: 0&quot;
@@ -1002,7 +1002,7 @@ Manifest の詳しい仕様は&lt;a href=&quot;https://api.slack.com/reference/m
         decoding=&quot;async&quot;
       /&gt;
     &lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;運動不足起因の体の不調がほとんどなくなったので運動って大事なんだなって。。めっちゃおすすめです。&lt;/p&gt;
+&lt;p&gt;運動不足起因の体の不調がほとんどなくなったので運動って大事なんだなって。めっちゃおすすめです。&lt;/p&gt;
 &lt;p&gt;&lt;span
       class=&quot;gatsby-resp-image-wrapper&quot;
       style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 630px; margin: 0&quot;
@@ -1451,7 +1451,7 @@ Manifest の詳しい仕様は&lt;a href=&quot;https://api.slack.com/reference/m
 もともとは&lt;a href=&quot;https://www.conoha.jp/vps/function/minecraft/&quot;&gt;ConoHa VPS の Minecraft プラン&lt;/a&gt;を使っていたとのことでしたが、もろもろ事情があって作れないか？とのことでした。
 同じく ConoHa VPS サーバーを使ってもよかったんですが、クラウドの勉強も兼ねて&lt;a href=&quot;https://cloud.google.com/&quot;&gt;GCP&lt;/a&gt;上で環境を整えることにしました。&lt;/p&gt;
 &lt;h2&gt;GCE たてる&lt;/h2&gt;
-&lt;p&gt;さくっと作りたかったので&lt;a href=&quot;https://cloud.google.com/compute&quot;&gt;Google Compute Engine&lt;/a&gt;上に Ubuntu(18.04)をいれてサーバーを立てました。スペックは以下の通り&lt;/p&gt;
+&lt;p&gt;さくっと作りたかったので&lt;a href=&quot;https://cloud.google.com/compute&quot;&gt;Google Compute Engine&lt;/a&gt;上に Ubuntu(18.04)をいれてサーバーを立てました。スペックは以下の通り。&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;マシンタイプ: e2-standard-2（vCPU x 2、メモリ 8 GB）
 &lt;ul&gt;
@@ -1465,9 +1465,9 @@ Manifest の詳しい仕様は&lt;a href=&quot;https://api.slack.com/reference/m
 &lt;/li&gt;
 &lt;li&gt;ブートディスク: 10GB&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;複数人で同時に遊ぶ前提もあるので、そこそこなマシンタイプになっています。たぶん 20 人くらいまで同時にプレイしても問題ないはずです。まだそういう状況になっていないので本当に耐えられるのかは未検証ですが、6－7 人同時接続プレイはほぼ問題なく動作しました。&lt;/p&gt;
+&lt;p&gt;複数人で同時に遊ぶ前提もあるので、そこそこなマシンタイプを使用しています。たぶん 20 人くらいまで同時にプレイしても問題ないはずです。まだそういう状況になっていないので本当に耐えられるのかは未検証ですが、6－7 人同時接続プレイはほぼ問題なく動作しました。&lt;/p&gt;
 &lt;h3&gt;サーバーの細かな設定&lt;/h3&gt;
-&lt;p&gt;http, https 通信は不要なのでファイアウォールの設定から塞いでおきます。Minecraft につなげるために 25565 番ポートを開けておきます。VPC ネットワークのファイアウォールルールでルールを作って、そのタグを付与させます。&lt;/p&gt;
+&lt;p&gt;http, https 通信は不要なのでファイアウォールの設定から塞いでおきます。Minecraft につなげるため 25565 番ポートを開けておきます。VPC ネットワークのファイアウォールルールでルールを作って、そのタグを付与させます。&lt;/p&gt;
 &lt;span class=&quot;gatsby-resp-image-wrapper&quot; style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 430px; margin: 0&quot;&gt;
       &lt;span class=&quot;gatsby-resp-image-background-image&quot; style=&quot;padding-bottom: 182.91139240506325%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAlCAIAAADNzV5SAAAACXBIWXMAAAsTAAALEwEAmpwYAAADMUlEQVRIx5WU3YocRRTH+0WMi2CCMS5eBELEi91HEO+98AkiJIpXISASyAMEvBNhJZsQQfBGo5vEZNawagI73QRmRFy7Zrq3q6q7qrq6vqtkpjazxCTz8aeoqYb59alzzr9PcvLC/qkL+6c+6b9zsb9+qf/2xck6c6n/7qf765+lpz/uvfnBjyc/vPNs/TRdR4/JW5ebM1fIG5+j967ijWv1+hV87sv6/NX67Bf1+Wv09Ef7r71/Z23z7omNndc3dtY2765t3ouPJzZ2kq9+eHr9+/T2b9X2w8ObverGg/G3v462e+U3vxxs3QO39tDN3/GNR9WtP/D2HtzaLb++n2/tlt89IbcfN8mfe7u9+z+HEFhnpfbBKd6UnEJOIcOFZIg3FT7MJYWkAuW/f6WPH+V/D0II3vuEsLYhTGlrrLc+WBe8D9ZPdheCts5Yb1yY7JPDZNfGxZVQSjHGIQRjDOdcKcU576bSWoe5msB1XYcQCKVZlg2HwyzL0jTNsqwsy3i9V8JCiLZtQwjOOWNMWEWJ1lpKOYlMyHA4jK/wUy2GCWkgrEIIQojRaFQUxcHBQZ7nCKHFcNspyoXzwVorhEAIWWuXjTwAuv+P0nYSGcGq9/BB13XL5kw727TW+cDarqiINIFLx4XrlKuZFcrNgxklpGlCCFJ7SB0kFlILicXU5JVumJ0HG2OiGYzWxigpOiU7s8geR7CUMibJeTsajeu6llJqbab2CPOLliilYp+11hDCeF66YM/syTkHABBC5lvy5Q6jlKZpyhhbARZCcM6jtznnS2JHMOecUhrtWVXVanDbtjHPruvG47FzLl57GYcm8cd7b6da7ZOcwd77w6nqugYAYIwRQoyxecNgVlvGGABATiWEMMYopeaPh+PIM5++qFfln8xOSqm2bTHGy5vsGBZCUEohhJTSOBKcc957zjlCCGP8YvDnrh0nrhAi1in+W0pJKW3bdh4cVtcxHOcm51xKGYfxajkXU8XvbGay2IWXNuK4z5zzwWAAAJj1JhaMUlpV1YKCzRxqrVVKRZMve22lVFmWCCEIYVEUhJCF/HM5AwDyPF/ZJP/LZ8lJ8h/cmTQ97gJYXAAAAABJRU5ErkJggg==&apos;); background-size: cover; display: block;&quot;&gt;&lt;/span&gt;
   &lt;img class=&quot;gatsby-resp-image-image&quot; alt=&quot;Firewall role&quot; title=&quot;Firewall role&quot; src=&quot;/blog/static/f7b28cf80dd46eeb7617b38058b9d4e7/05ed2/firewall.png&quot; srcset=&quot;/blog/static/f7b28cf80dd46eeb7617b38058b9d4e7/c26ae/firewall.png 158w,
@@ -1475,7 +1475,7 @@ Manifest の詳しい仕様は&lt;a href=&quot;https://api.slack.com/reference/m
 /blog/static/f7b28cf80dd46eeb7617b38058b9d4e7/05ed2/firewall.png 430w&quot; sizes=&quot;(max-width: 430px) 100vw, 430px&quot; style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot; loading=&quot;lazy&quot; decoding=&quot;async&quot;&gt;
     &lt;/span&gt;
 &lt;h2&gt;環境構築&lt;/h2&gt;
-&lt;p&gt;公式 Wiki にあるチュートリアルの通りに進めました。かなり親切だと思います。&lt;/p&gt;
+&lt;p&gt;公式 Wiki にあるチュートリアルの通りに進めました。かなり親切です。&lt;/p&gt;
 &lt;p&gt;&lt;a href=&quot;https://minecraft.fandom.com/ja/wiki/%E3%83%81%E3%83%A5%E3%83%BC%E3%83%88%E3%83%AA%E3%82%A2%E3%83%AB/%E3%82%B5%E3%83%BC%E3%83%90%E3%83%BC%E3%81%AE%E3%82%BB%E3%83%83%E3%83%88%E3%82%A2%E3%83%83%E3%83%97&quot;&gt;https://minecraft.fandom.com/ja/wiki/%E3%83%81%E3%83%A5%E3%83%BC%E3%83%88%E3%83%AA%E3%82%A2%E3%83%AB/%E3%82%B5%E3%83%BC%E3%83%90%E3%83%BC%E3%81%AE%E3%82%BB%E3%83%83%E3%83%88%E3%82%A2%E3%83%83%E3%83%97&lt;/a&gt;&lt;/p&gt;
 &lt;h2&gt;ワールドの引っ越し&lt;/h2&gt;
 &lt;p&gt;もともと運用されていた ConoHa 上にあるワールドデータを GCE 上に移動させます。&lt;/p&gt;
@@ -1523,7 +1523,7 @@ cd ~&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
     &lt;/span&gt;
 &lt;p&gt;停止しわすれたときのために自動でシャットダウンする機能もつくりたいとも考えてますが、いい感じの実装が思いついていないです。&lt;/p&gt;
 &lt;h3&gt;料金通知&lt;/h3&gt;
-&lt;p&gt;長時間起動していなければそこまで大きな課金額にならないと踏んでいますが、莫大な請求金額になる前に気づきたいので、毎日その時点での月の請求金額を通知する仕組みも用意しています。&lt;/p&gt;
+&lt;p&gt;長時間起動していなければそこまで大きな課金額にならないと踏んでいますが、莫大な請求金額になる前で気づきたいので、毎日その時点での月の請求金額を通知する仕組みも用意しています。&lt;/p&gt;
 &lt;p&gt;予算設定もあるので、課金額が予算額に達したらスマホ通知やメール通知が飛ぶように設定します。&lt;/p&gt;
 &lt;span class=&quot;gatsby-resp-image-wrapper&quot; style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 630px; margin: 0&quot;&gt;
       &lt;span class=&quot;gatsby-resp-image-background-image&quot; style=&quot;padding-bottom: 39.87341772151899%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAICAIAAAB2/0i6AAAACXBIWXMAAAsTAAALEwEAmpwYAAAA00lEQVQY053QMVYEIQyA4bl/5Rm8h7WVtf2yIzxgnMyGAGHDxufg2I2FXxXS/HlMzjkiSin1LnxXzL01YebHoZ+bVNV7b4yZ59mYy/VqxjOE4Jyz1uq5iZkBYF1XRBwDEQFAzhkRieivcmuNiD6s9yEi4rZto7ks8RMS5ULnJuZGlHpPIpko55xF5H6QQ9+3P/NORKZaaLbx6RleXm94W4jyuJyZSykxRu89AMzB++BLKaWWtKu1ToDMLG/verFdVVR1NMdX/6b4KIpI3X2XuYn+1xeRys7alXUn2wAAAABJRU5ErkJggg==&apos;); background-size: cover; display: block;&quot;&gt;&lt;/span&gt;
@@ -1543,7 +1543,7 @@ cd ~&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 /blog/static/79e7084c18f5919bcb3a482e4b85ea6e/84ee5/kakin.png 1076w&quot; sizes=&quot;(max-width: 630px) 100vw, 630px&quot; style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot; loading=&quot;lazy&quot; decoding=&quot;async&quot;&gt;
     &lt;/span&gt;
 &lt;p&gt;あとは定期的に BigQuery を叩いて、(普段 仕事でも使う)Slack に通知が飛ぶように仕向けます。&lt;/p&gt;
-&lt;p&gt;実行自体は CloudFunction で定期的な実行フラグは Scheduler で間をつなぐのは Pub/Sub でやっています。&lt;/p&gt;
+&lt;p&gt;実行自体は CloudFunction で行い、定期的な実行フラグは Scheduler で、間をつなぐのは Pub/Sub でやっています。&lt;/p&gt;
 &lt;p&gt;いまのところその予算を超えるような使い方をしていないのでかなり平和で安く運用できています。&lt;/p&gt;
 &lt;span class=&quot;gatsby-resp-image-wrapper&quot; style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 630px; margin: 0&quot;&gt;
       &lt;span class=&quot;gatsby-resp-image-background-image&quot; style=&quot;padding-bottom: 34.177215189873415%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAHCAIAAACHqfpvAAAACXBIWXMAABYlAAAWJQFJUiTwAAABN0lEQVQY03WQS07DMBiEc5I2bZMmbus4jh+/7d+PxE2rSlyAA7Bm1yU7boBYcAEuwsVQ6QIJCelbzGZmNFM8Pl2fX94HbfLpEtKR9rLjalCWUF4Tuqza8n+K6+vH2+cX48N8eQBM2kUbRj/OynomNGDULlifMGbrR8qVNKhd1DZU7aGoW7Jtmj0TYZq5stJ4GyYXpl6ABAzjjCmHaY7TKeazBNQ2+PFofaoJLcqKLDbNgQmMuZdGAIKLgGnQjitjfBKA0uChl5SrXgKhfM9EN+hmz4pVTZab5tDLlM+DdsoGwGjDJOFmCOPMBAjAxXpbVu1i09zXLn/EzVxWLeUq5fOt1idMWdkQ80mAAxeV8VwaQvmqJuvt7peaFPcYQnvtQseVskEC7rpBGmQCOq5rQsuqvXf8efsbhDNVQPkp0LAAAAAASUVORK5CYII=&apos;); background-size: cover; display: block;&quot;&gt;&lt;/span&gt;
@@ -1553,10 +1553,10 @@ cd ~&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 /blog/static/04bb41137aa7092dfd5a0ca1b8b16a9d/40601/slack.png 945w,
 /blog/static/04bb41137aa7092dfd5a0ca1b8b16a9d/84ee5/slack.png 1076w&quot; sizes=&quot;(max-width: 630px) 100vw, 630px&quot; style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot; loading=&quot;lazy&quot; decoding=&quot;async&quot;&gt;
     &lt;/span&gt;
-&lt;p&gt;小数が適切に処理されていないのは見逃してほしいです。。&lt;/p&gt;
+&lt;p&gt;小数が適切に処理されていないのは見逃してほしいです。&lt;/p&gt;
 &lt;h2&gt;今後&lt;/h2&gt;
 &lt;p&gt;&lt;a href=&quot;https://cloud.google.com/game-servers&quot;&gt;Game Servers&lt;/a&gt;という Kubernetes 上でもろもろ管理・スケールできるものもあるんですが、ソシャゲでスペック調整いるとか 24 時間管理するものとかでもないのでいったん見送っています。&lt;/p&gt;
-&lt;p&gt;すぐに環境を用意できて削除することもできることが分かったので、突発企画で建築コンペやダイヤ発掘レース・マルチでエンダードラゴン討伐 TA などもできそうだなーとか思っています。要望があれば作ります。&lt;/p&gt;
+&lt;p&gt;すぐに環境を用意できて削除もできることが分かったので、突発企画で建築コンペやダイヤ発掘レース・マルチでエンダードラゴン討伐 TA などもできそうだなーとか思っています。要望があれば作ります。&lt;/p&gt;
 &lt;p&gt;前述した実装しきれていない部分もあるので時間を見つけて着手していきます。&lt;/p&gt;
 &lt;p&gt;こんな感じのことをやっていると、Minecraft そのものをプレイする時間がなくなってきます(´・ω・｀)&lt;/p&gt;
 &lt;blockquote class=&quot;twitter-tweet&quot;&gt;&lt;p lang=&quot;ja&quot; dir=&quot;ltr&quot;&gt;いじいじ &lt;a href=&quot;https://t.co/NrUuYzdn4O&quot;&gt;pic.twitter.com/NrUuYzdn4O&lt;/a&gt;&lt;/p&gt;&amp;mdash; .ごっち (@gggooottto) &lt;a href=&quot;https://twitter.com/gggooottto/status/1383101215953752065?ref_src=twsrc%5Etfw&quot;&gt;April 16, 2021&lt;/a&gt;&lt;/blockquote&gt;</content:encoded></item><item><title><![CDATA[esa7th Anniversary とのこと]]></title><description><![CDATA[といってもポスト時点では 1 日過ぎていますが、とてもめでたいです\( ⁰⊖⁰)/。
@@ -1586,14 +1586,14 @@ cd ~&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
         decoding=&quot;async&quot;
       /&gt;
     &lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;↑ 画像: 地味に去年と UI が変わっていることに気がついた&lt;/p&gt;
+&lt;p&gt;↑ 画像: 地味に去年と UI が変わっていることに気がついた。&lt;/p&gt;
 &lt;p&gt;そんな感じに個人 esa を運用していますが、今年は Discord に記念サーバーが立ち上がりました！&lt;/p&gt;
 &lt;blockquote class=&quot;twitter-tweet&quot;&gt;&lt;p lang=&quot;ja&quot; dir=&quot;ltr&quot;&gt;【お知らせ】 diary/2021/05/10/esaが誕生7周年 :tada: :birthday: :esa2: &lt;a href=&quot;https://t.co/OO6gRljTDL&quot;&gt;https://t.co/OO6gRljTDL&lt;/a&gt; &lt;a href=&quot;https://twitter.com/hashtag/esa_io?src=hash&amp;amp;ref_src=twsrc%5Etfw&quot;&gt;#esa_io&lt;/a&gt; &lt;a href=&quot;https://twitter.com/hashtag/%EF%BE%84%EF%BE%89%EF%BD%BA%EF%BE%84?src=hash&amp;amp;ref_src=twsrc%5Etfw&quot;&gt;#ﾄﾉｺﾄ&lt;/a&gt;&lt;/p&gt;&amp;mdash; esa_io (@esa_io) &lt;a href=&quot;https://twitter.com/esa_io/status/1391623368017776643?ref_src=twsrc%5Etfw&quot;&gt;May 10, 2021&lt;/a&gt;&lt;/blockquote&gt;
 &lt;p&gt;といっても特段パーティをするわけでもなくゆるゆるとおしゃべりをするという内容でした。めちゃくちゃ楽しかったです！&lt;/p&gt;
 &lt;hr&gt;
 &lt;p&gt;これからも個人、コミュニティともによろしくお願いします！&lt;/p&gt;
 &lt;blockquote class=&quot;twitter-tweet&quot; data-conversation=&quot;none&quot;&gt;&lt;p lang=&quot;ja&quot; dir=&quot;ltr&quot;&gt;ケーキを作って各家庭に届けてくださったのは今年も &lt;a href=&quot;https://twitter.com/bonsweets?ref_src=twsrc%5Etfw&quot;&gt;@bonsweets&lt;/a&gt; さん&amp;quot;(\( ⁰⊖⁰)/)&amp;quot;&lt;br&gt;かわいくておいしいケーキありがとうございます🎂 &lt;a href=&quot;https://t.co/hTz9gjDYHJ&quot;&gt;pic.twitter.com/hTz9gjDYHJ&lt;/a&gt;&lt;/p&gt;&amp;mdash; taea🐶 (@ken_c_lo) &lt;a href=&quot;https://twitter.com/ken_c_lo/status/1391648347212050434?ref_src=twsrc%5Etfw&quot;&gt;May 10, 2021&lt;/a&gt;&lt;/blockquote&gt;
-&lt;p&gt;esa ケーキおいしそう。。。&lt;/p&gt;</content:encoded></item><item><title><![CDATA[ブログを移行しました]]></title><description><![CDATA[こんにちは、.ごっちです。 ブログをMediumからここに移動します。
+&lt;p&gt;esa ケーキおいしそう。&lt;/p&gt;</content:encoded></item><item><title><![CDATA[ブログを移行しました]]></title><description><![CDATA[こんにちは、.ごっちです。 ブログをMediumからここに移動します。
 Medium もだいぶスッキリしていて好きでしたが、(個人的には)Markdown で書きたかったので移行したという感じです。 過去分もいちおう移行していますが、TwitterEmbed…]]></description><link>https://yutagoto.github.io/20210510-move-blog-service/</link><guid isPermaLink="false">https://yutagoto.github.io/20210510-move-blog-service/</guid><pubDate>Mon, 10 May 2021 01:00:00 GMT</pubDate><content:encoded>&lt;p&gt;こんにちは、.ごっちです。&lt;/p&gt;
 &lt;p&gt;ブログを&lt;a href=&quot;https://medium.com/@gggooottto&quot;&gt;Medium&lt;/a&gt;からここに移動します。
 Medium もだいぶスッキリしていて好きでしたが、(個人的には)Markdown で書きたかったので移行したという感じです。&lt;/p&gt;
@@ -1602,24 +1602,23 @@ Medium もだいぶスッキリしていて好きでしたが、(個人的には
 &lt;p&gt;2019 年の 10 月末に始めて 2020 年 6 月 17 日に 1 周目完走して、そして 2021 年 3 月 25 日に 2 周目（エクストラモード）を完走したのでその感想です。&lt;/p&gt;
 &lt;blockquote class=&quot;twitter-tweet&quot;&gt;&lt;p lang=&quot;ja&quot; dir=&quot;ltr&quot;&gt;やったー！！！！！！！！！！！！！！！！！第２章！！完！！！！！！ &lt;a href=&quot;https://twitter.com/hashtag/%E3%83%AA%E3%83%B3%E3%82%B0%E3%83%95%E3%82%A3%E3%83%83%E3%83%88%E3%82%A2%E3%83%89%E3%83%99%E3%83%B3%E3%83%81%E3%83%A3%E3%83%BC?src=hash&amp;amp;ref_src=twsrc%5Etfw&quot;&gt;#リングフィットアドベンチャー&lt;/a&gt; &lt;a href=&quot;https://twitter.com/hashtag/RingFitAdventure?src=hash&amp;amp;ref_src=twsrc%5Etfw&quot;&gt;#RingFitAdventure&lt;/a&gt; &lt;a href=&quot;https://twitter.com/hashtag/NintendoSwitch?src=hash&amp;amp;ref_src=twsrc%5Etfw&quot;&gt;#NintendoSwitch&lt;/a&gt; &lt;a href=&quot;https://t.co/pTABsjWBCo&quot;&gt;pic.twitter.com/pTABsjWBCo&lt;/a&gt;&lt;/p&gt;&amp;mdash; .ごっち (@gggooottto) &lt;a href=&quot;https://twitter.com/gggooottto/status/1375020302954942467?ref_src=twsrc%5Etfw&quot;&gt;March 25, 2021&lt;/a&gt;&lt;/blockquote&gt;
 &lt;p&gt;&lt;a href=&quot;https://medium.com/@gggooottto/%E3%83%AA%E3%83%B3%E3%82%B0%E3%83%95%E3%82%A3%E3%83%83%E3%83%88%E3%82%A2%E3%83%89%E3%83%99%E3%83%B3%E3%83%81%E3%83%A3%E3%83%BC-any-%E5%AE%8C%E8%B5%B0%E3%81%97%E3%81%9F%E3%81%AE%E3%81%A7%E6%84%9F%E6%83%B3-a2b9ef88af10&quot;&gt;&lt;strong&gt;リングフィットアドベンチャー Any%完走したので感想&lt;/strong&gt; medium.com&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;なんやかんやで続いている！！！えらい！！
-1 周クリアしてもルーティンが途切れないのえらい！それ以外は前回の感想と大きく変わらず。トレーニングそのものが苦になることが少なくなった気がしています。柔軟体操はあまりやれていないので、体が柔らかくなっていないです。。。。&lt;/p&gt;
-&lt;p&gt;最近は体を起こす（？）ために朝にカスタムモードをやってシャワー浴びて仕事を始めるのようなこともしています。最近はそもそも起きれないことも多いですが。。&lt;/p&gt;
+&lt;p&gt;なんやかんやで続いている！えらい！&lt;/p&gt;
+&lt;p&gt;1 周クリアしてもルーティンが途切れないのえらい！それ以外は前回の感想と大きく変わらず。苦になることが少なくなった気もしています。柔軟体操はあまりやれていないので、体が柔らかくなっていないです。&lt;/p&gt;
+&lt;p&gt;最近は体を起こす（？）ため、朝にカスタムモードをやってシャワー浴びて仕事を始めるのようなこともしています。最近はそもそも起きられないことも多いですが。&lt;/p&gt;
 &lt;blockquote class=&quot;twitter-tweet&quot;&gt;&lt;p lang=&quot;ja&quot; dir=&quot;ltr&quot;&gt;朝、仕事前にリングフィットしてシャワーを浴びるとその日の調子がかなりいいんだけど、いかんせん朝起きられない。&lt;/p&gt;&amp;mdash; .ごっち (@gggooottto) &lt;a href=&quot;https://twitter.com/gggooottto/status/1367650834301919239?ref_src=twsrc%5Etfw&quot;&gt;March 5, 2021&lt;/a&gt;&lt;/blockquote&gt;
-&lt;p&gt;毎度毎度汗をかきながらできるので、まだまだ外に出られない期間／季節であっても家でがっつりトレーニングできるのは控えめに言って最高だと思います！めっちゃおすすめ。。&lt;/p&gt;
+&lt;p&gt;毎度汗をかきながらできるので、まだまだ外に出られない期間／季節であっても家でがっつりトレーニングできるのは控えめに言って最高です！めっちゃおすすめ。&lt;/p&gt;
 &lt;p&gt;&lt;img src=&quot;https://cdn-images-1.medium.com/max/2560/0*lxLB7znofLBKP9SI.jpg&quot; alt=&quot;灼熱のトリプルスクワットマスター&quot;&gt;&lt;em&gt;灼熱のトリプルスクワットマスター&lt;/em&gt;&lt;/p&gt;
 &lt;p&gt;もう一周できるとのことなので最後までやりきります！&lt;/p&gt;
 &lt;p&gt;&lt;img src=&quot;https://cdn-images-1.medium.com/max/2560/0*DgBQBmTDGH631A_T.jpg&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
 &lt;p&gt;—&lt;/p&gt;
 &lt;p&gt;&lt;img src=&quot;https://cdn-images-1.medium.com/max/2560/0*dXIX6Trafc6eb9I7.jpg&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
-&lt;p&gt;どういたしまして！！&lt;/p&gt;</content:encoded></item><item><title><![CDATA[変なホテルとアイドルマスターに泊まってきた]]></title><description><![CDATA[…]]></description><link>https://yutagoto.github.io/20210319-変なホテルとアイドルマスターに泊まってきた/</link><guid isPermaLink="false">https://yutagoto.github.io/20210319-変なホテルとアイドルマスターに泊まってきた/</guid><pubDate>Fri, 19 Mar 2021 09:00:00 GMT</pubDate><content:encoded>&lt;p&gt;こんにちは、.ごっちです。&lt;/p&gt;
+&lt;p&gt;どういたしまして！&lt;/p&gt;</content:encoded></item><item><title><![CDATA[変なホテルとアイドルマスターに泊まってきた]]></title><description><![CDATA[…]]></description><link>https://yutagoto.github.io/20210319-変なホテルとアイドルマスターに泊まってきた/</link><guid isPermaLink="false">https://yutagoto.github.io/20210319-変なホテルとアイドルマスターに泊まってきた/</guid><pubDate>Fri, 19 Mar 2021 09:00:00 GMT</pubDate><content:encoded>&lt;p&gt;こんにちは、.ごっちです。&lt;/p&gt;
 &lt;p&gt;心身ともに疲れているような気がしてきたので、ガス抜き含めて出かけてきました。
 動物園や美術館も候補にあったのですが、せっかくなら泊まりと思いホテルへ。そして変なホテルへ。
-&lt;a href=&quot;https://idolmaster-official.jp/live_event/idolmaster_hotel/&quot;&gt;&lt;strong&gt;変なホテルとアイドルマスター | バンダイナムコエンターテインメント公式サイト&lt;/strong&gt;
-*順次、旅行代理店でも同一宿泊プランの販売を予定しております。航空便・JR 等ご移動交通機関とご一緒にお求めの場合は併せてご検討ください。GoTo トラベルに関しましては、各旅行代理店へお問い合わせください。…*idolmaster-official.jp&lt;/a&gt;&lt;/p&gt;
+&lt;a href=&quot;https://idolmaster-official.jp/live_event/idolmaster_hotel/&quot;&gt;&lt;strong&gt;変なホテルとアイドルマスター | バンダイナムコエンターテインメント公式サイト&lt;/strong&gt; *順次、旅行代理店でも同一宿泊プランの販売を予定しております。航空便・JR 等ご移動交通機関とご一緒にお求めの場合は併せてご検討ください。GoTo トラベルに関しましては、各旅行代理店へお問い合わせください。…*idolmaster-official.jp&lt;/a&gt;&lt;/p&gt;
 &lt;h2&gt;浅草&lt;/h2&gt;
 &lt;iframe src=&quot;https://medium.com/media/e53ddb14039e31fbfa56ce6b8b080324&quot; frameborder=0&gt;&lt;/iframe&gt;
-&lt;p&gt;GooglePhotos を遡ったら、まともに浅草に行ったのは 6 年前でした。東京に引っ越したてのころ。なつかしい。&lt;/p&gt;
+&lt;p&gt;GooglePhotos を遡ったら、浅草に行ったのは 6 年前でした。東京に引っ越したてのころ。なつかしい。&lt;/p&gt;
 &lt;iframe src=&quot;https://medium.com/media/02f2481c8791ebee8e37972bba32eaae&quot; frameborder=0&gt;&lt;/iframe&gt;
 &lt;p&gt;浅草寺付近をただ散歩するだけでも楽しいものです。&lt;/p&gt;
 &lt;h2&gt;変なホテルとアイドルマスター&lt;/h2&gt;
@@ -1627,17 +1626,16 @@ Medium もだいぶスッキリしていて好きでしたが、(個人的には
 &lt;p&gt;本題。&lt;/p&gt;
 &lt;iframe src=&quot;https://medium.com/media/7e117e5cc72591bb54e07530708ecbbd&quot; frameborder=0&gt;&lt;/iframe&gt;
 &lt;p&gt;変なホテルとアイドルマスターがコラボしているということで行ってみました。チェックインでだいぶ気を遣ってしまいます（遣ったところでなにもおきない）。&lt;/p&gt;
-&lt;p&gt;フロントからエレベータから部屋の中までアイマスになっています。&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;https://cdn-images-1.medium.com/max/4000/0*3SMXaA5sy9osczRF.jpg&quot; alt=&quot;座って休憩するスペースだと思うけど、座りにくい。。&quot;&gt;&lt;em&gt;座って休憩するスペースだと思うけど、座りにくい。。&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;フロントからエレベーター、部屋の中までアイマスになっています。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://cdn-images-1.medium.com/max/4000/0*3SMXaA5sy9osczRF.jpg&quot; alt=&quot;座って休憩するスペースだと思うけど、座りにくい。。&quot;&gt;&lt;em&gt;座って休憩するスペースだけど、座りにくい。&lt;/em&gt;&lt;/p&gt;
 &lt;p&gt;&lt;img src=&quot;https://cdn-images-1.medium.com/max/4000/0*LUqc2lJsOR9fUvPX.jpg&quot; alt=&quot;エレベータを出た瞬間もアイマス&quot;&gt;&lt;em&gt;エレベータを出た瞬間もアイマス&lt;/em&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;https://cdn-images-1.medium.com/max/4000/0*PGiPJhIXQnCNtnfB.jpg&quot; alt=&quot;テレビも壁もアイマス&quot;&gt;&lt;em&gt;テレビも壁もアイマス&lt;/em&gt;&lt;/p&gt;
-&lt;p&gt;この日はちょうどアイマスもくもく会の日だったので、この部屋から参加しました。
-&lt;a href=&quot;https://imastudy-mokumoku.connpass.com/event/206729/&quot;&gt;&lt;strong&gt;アイマスもくもく会 018 回(オンライン) (2021/03/18 20:00〜)&lt;/strong&gt;
-_IM@Study もくもく会 アイマスなプロデューサーさん、お疲れ様です！ みなさんが集まって、アイマスに関連した開発や制作する機会がハッカソンだけでは物足りないので、もくもく会を開きます！ ## 取り組む内容の例 _…*imastudy-mokumoku.connpass.com&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://cdn-images-1.medium.com/max/4000/0*PGiPJhIXQnCNtnfB.jpg&quot; alt=&quot;すべてがアイマス&quot;&gt;&lt;/p&gt;
+&lt;p&gt;この日はちょうどアイマスもくもく会の日だったので、この部屋から参加しました。&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://imastudy-mokumoku.connpass.com/event/206729/&quot;&gt;&lt;strong&gt;アイマスもくもく会 018 回(オンライン) (2021/03/18 20:00〜)&lt;/strong&gt; _IM@Study もくもく会 アイマスなプロデューサーさん、お疲れ様です！ みなさんが集まって、アイマスに関連した開発や制作する機会がハッカソンだけでは物足りないので、もくもく会を開きます！ ## 取り組む内容の例 _…*imastudy-mokumoku.connpass.com&lt;/a&gt;&lt;/p&gt;
 &lt;iframe src=&quot;https://medium.com/media/f63199a14e59ed63294a09610c0e4e27&quot; frameborder=0&gt;&lt;/iframe&gt;
-&lt;p&gt;屋上の展示も日中と夜とで雰囲気が変化してとてもよかったです。シンデレラガールズメンバーがちょうどスカイツリーといい感じに映るようになっているのは狙ったんですかね。&lt;/p&gt;
+&lt;p&gt;屋上の展示も日中と夜とで雰囲気が変化してとてもよかったです。シンデレラガールズメンバーがちょうどスカイツリーといい感じに映るのは狙ったんですかね。&lt;/p&gt;
 &lt;p&gt;&lt;img src=&quot;https://cdn-images-1.medium.com/max/4000/0*YmIek-cKZAQCyDeH.jpg&quot; alt=&quot;スカイツリー&quot;&gt;&lt;em&gt;スカイツリー&lt;/em&gt;&lt;/p&gt;
-&lt;p&gt;部屋内のテレビでは特典映像とアニメが見れます（当然一晩で見切れる量ではないです）。&lt;/p&gt;
+&lt;p&gt;部屋内のテレビでは特典映像とアニメが見られます（当然一晩で見切れる量ではないです）。&lt;/p&gt;
 &lt;h2&gt;2 日目朝&lt;/h2&gt;
 &lt;p&gt;アラームをセットすると春香さん、千早さん、美希さんの掛け合いボイスを結構な音量で聞くことができます。（寝過ごしてもスヌースもないのでつらそう）&lt;/p&gt;
 &lt;iframe src=&quot;https://medium.com/media/80ee051e82e1e99783af910de162a757&quot; frameborder=0&gt;&lt;/iframe&gt;
@@ -1651,8 +1649,8 @@ _IM@Study もくもく会 アイマスなプロデューサーさん、お疲れ
 &lt;p&gt;3 が所周るとスマホ用壁紙がもらえ、変なホテル宿泊者であれば抽選で限定グッズがもらえるやつです。
 どのスポットもだいたいごはんなので、1 日目の夕食から 2 日目の昼食までで雑に散歩しながらめぐるのがちょうどいいです。（花やしきもスポットにありましたが、独り花やしき入園はだいぶハードルがある）&lt;/p&gt;
 &lt;h2&gt;雑感&lt;/h2&gt;
-&lt;p&gt;浅草探索含めてちょっと変わった体験ができるという点では結構楽しめたと思います。
-部屋タイプは今回はダブルベッドのある部屋でかなり満足しましたが、コーナースイートだと装飾がかなりすごいらしいのでそこも泊まってみたさはあります（値段が倍くらいになるので厳しい）。&lt;/p&gt;
+&lt;p&gt;浅草探索含めてちょっと変わった体験ができるという点では結構楽しめました。
+今回の部屋タイプはダブルベッドのある部屋でかなり満足しましたが、コーナースイートだと装飾がかなりすごいらしいのでそこも泊まってみたさはあります（値段が倍くらいになるので厳しい）。&lt;/p&gt;
 &lt;p&gt;いまは 変なホテルとアイドルマスター なんどでも泊まろうキャンペーン を（変更がなければゴールデンウィークが終わるまで）やっていて、すでに泊まったことのあるプロデューサは 3000 円安くなるというのもあるので、なんかあったらまた泊まるかもしれないです。&lt;/p&gt;
 &lt;p&gt;&lt;a href=&quot;https://www.hennnahotel.com/asakusa-tawaramachi/news/2136/&quot;&gt;https://www.hennnahotel.com/asakusa-tawaramachi/news/2136&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;ホテルでガシャを回したら SSR ヒットしたので聖地となりました。&lt;/p&gt;
@@ -1680,54 +1678,54 @@ _IM@Study もくもく会 アイマスなプロデューサーさん、お疲れ
 &lt;p&gt;&lt;img src=&quot;https://cdn-images-1.medium.com/max/2000/1*sjQDlJ6W7tvHOSZmC0_-RQ.png&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
 &lt;p&gt;以下考えたことを書きます。&lt;/p&gt;
 &lt;h3&gt;最低限&lt;/h3&gt;
-&lt;p&gt;指定座標に x 座標 y 座標それぞれに+1 したやつを出力します。（絶対に重ならない）&lt;/p&gt;
-&lt;p&gt;823090 点&lt;/p&gt;
+&lt;p&gt;指定座標 x 座標 y 座標それぞれに+1 したやつを出力します。（絶対に重ならない）&lt;/p&gt;
+&lt;p&gt;823090 点。&lt;/p&gt;
 &lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;n = int(input())
 
 for j in range(n):
     x, y, r = map(int, input().split())
     print(x, y, x+1, y+1)&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;p&gt;&lt;a href=&quot;https://atcoder.jp/contests/ahc001/submissions/20682363&quot;&gt;&lt;strong&gt;Submission #20682363 - AtCoder Heuristic Contest 001&lt;/strong&gt; *AtCoder is a programming contest site for anyone from beginners to experts. We hold weekly programming contests online.*atcoder.jp&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;https://cdn-images-1.medium.com/max/2000/1*ZKHdCIAh-NxLDldxfE_A8Q.png&quot; alt=&quot;x1, y1, x1+1, y1+1&quot;&gt;&lt;em&gt;x1, y1, x1+1, y1+1&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://cdn-images-1.medium.com/max/2000/1*ZKHdCIAh-NxLDldxfE_A8Q.png&quot; alt=&quot;x1, y1, x1+1, y1+1&quot;&gt;&lt;/p&gt;
 &lt;h3&gt;x 座標をできるだけ最大化&lt;/h3&gt;
 &lt;p&gt;x2 をほかの指定 x 座標まで伸ばす作戦。y2 はひとまず+1 するだけ。&lt;/p&gt;
-&lt;p&gt;62700209 点(6270 万点)
-&lt;a href=&quot;https://atcoder.jp/contests/ahc001/submissions/20685213&quot;&gt;&lt;strong&gt;Submission #20685213 - AtCoder Heuristic Contest 001&lt;/strong&gt; *AtCoder is a programming contest site for anyone from beginners to experts. We hold weekly programming contests online.*atcoder.jp&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;62700209 点(6270 万点)。&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://atcoder.jp/contests/ahc001/submissions/20685213&quot;&gt;&lt;strong&gt;Submission #20685213 - AtCoder Heuristic Contest 001&lt;/strong&gt; *AtCoder is a programming contest site for anyone from beginners to experts. We hold weekly programming contests online.*atcoder.jp&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;img src=&quot;https://cdn-images-1.medium.com/max/2000/1*I0pMINasbLkOBjB4GRH_sw.png&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
-&lt;p&gt;ちょっと右方向に線が伸びている。。&lt;/p&gt;
+&lt;p&gt;ちょっと右方向に線が伸びている。&lt;/p&gt;
 &lt;h3&gt;y 座標も伸ばす&lt;/h3&gt;
 &lt;p&gt;x2 をほかの指定 x 座標まで伸ばす作戦。y2 もほかの指定 y 座標まで伸ばす作戦。&lt;/p&gt;
-&lt;p&gt;2947960239 点(29 億)
-&lt;a href=&quot;https://atcoder.jp/contests/ahc001/submissions/20744970&quot;&gt;&lt;strong&gt;Submission #20744970 - AtCoder Heuristic Contest 001&lt;/strong&gt; *AtCoder is a programming contest site for anyone from beginners to experts. We hold weekly programming contests online.*atcoder.jp&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;2947960239 点(29 億)。&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://atcoder.jp/contests/ahc001/submissions/20744970&quot;&gt;&lt;strong&gt;Submission #20744970 - AtCoder Heuristic Contest 001&lt;/strong&gt; *AtCoder is a programming contest site for anyone from beginners to experts. We hold weekly programming contests online.*atcoder.jp&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;img src=&quot;https://cdn-images-1.medium.com/max/2000/1*PzumiC1oWqEfRKonntE_vQ.png&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
-&lt;p&gt;線から面になる。赤色は目標面積以上になり、青色は目標面積より下回っていることを示す。紫色が目標面積に近い&lt;/p&gt;
+&lt;p&gt;線から面になる。赤色は目標面積以上になり、青色は目標面積より下回っていることを示す。紫色が目標面積に近い。&lt;/p&gt;
 &lt;h3&gt;x2 をできるだけ 10000 に近づける&lt;/h3&gt;
 &lt;p&gt;y2 をほかの指定 y 座標まで伸ばす作戦。x2 を伸ばしていったときにほかの指定 x 座標と辺が重ならなかったら伸ばし続ける。10000 にぶち当たったり他の長方形と重なったりしたらやめる。&lt;/p&gt;
-&lt;p&gt;23007684912 点(230 億)
-&lt;a href=&quot;https://atcoder.jp/contests/ahc001/submissions/20752489&quot;&gt;&lt;strong&gt;Submission #20752489 - AtCoder Heuristic Contest 001&lt;/strong&gt; *AtCoder is a programming contest site for anyone from beginners to experts. We hold weekly programming contests online.*atcoder.jp&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;23007684912 点(230 億)。&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://atcoder.jp/contests/ahc001/submissions/20752489&quot;&gt;&lt;strong&gt;Submission #20752489 - AtCoder Heuristic Contest 001&lt;/strong&gt; *AtCoder is a programming contest site for anyone from beginners to experts. We hold weekly programming contests online.*atcoder.jp&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;img src=&quot;https://cdn-images-1.medium.com/max/2000/1*5h6pIGwYTI6oQTnVbv864Q.png&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
-&lt;p&gt;とても不格好だけどまぁまぁ&lt;/p&gt;
+&lt;p&gt;とても不格好だけどまぁ。&lt;/p&gt;
 &lt;h3&gt;雑に面積最適化&lt;/h3&gt;
 &lt;p&gt;ここまで目標面積を一切見ずにできるだけ大きな長方形を作ってきたが、点数も伸びなさそうなので考えを一新させる。&lt;/p&gt;
 &lt;p&gt;各長方形・各辺を 1 ずつ増やし(拡張し)ていって、ほかの長方形とぶつかったりしたらその方向の拡張をやめ、必要面積に達したらすべての方向の拡張をやめる。すべての長方形の拡張がおわるまで続ける。&lt;/p&gt;
-&lt;p&gt;45238383013 点(452 億点)
-&lt;a href=&quot;https://atcoder.jp/contests/ahc001/submissions/20782064&quot;&gt;&lt;strong&gt;Submission #20782064 - AtCoder Heuristic Contest 001&lt;/strong&gt; *AtCoder is a programming contest site for anyone from beginners to experts. We hold weekly programming contests online.*atcoder.jp&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;45238383013 点(452 億点)。&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://atcoder.jp/contests/ahc001/submissions/20782064&quot;&gt;&lt;strong&gt;Submission #20782064 - AtCoder Heuristic Contest 001&lt;/strong&gt; *AtCoder is a programming contest site for anyone from beginners to experts. We hold weekly programming contests online.*atcoder.jp&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;img src=&quot;https://cdn-images-1.medium.com/max/2000/1*2q8tb6m5Oymi-SRq_JoVTw.png&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
 &lt;p&gt;必要以上に長方形が大きくならないのでそれなりに効率がよい。&lt;/p&gt;
 &lt;h3&gt;ぶつかるさきの長方形をスライドさせる&lt;/h3&gt;
-&lt;p&gt;1 ずつ辺を大きくしているが、-x 方向に大きくしようとしたときにほかの長方形があった場合、その長方形が-x 方向スライドすることができればスライドさせて大きくする。スライドさせた先に何もないことも見なければいけないのでちょっと大変。&lt;/p&gt;
-&lt;p&gt;45244166456 点（若干点数があがる）
-&lt;a href=&quot;https://atcoder.jp/contests/ahc001/submissions/20818964&quot;&gt;&lt;strong&gt;Submission #20818964 - AtCoder Heuristic Contest 001&lt;/strong&gt; *AtCoder is a programming contest site for anyone from beginners to experts. We hold weekly programming contests online.*atcoder.jp&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;1 ずつ辺を大きくしているが、-x 方向に大きくしようとしたときにほかの長方形があった場合、その長方形が-x 方向スライドできればスライドさせて大きくする。スライドさせた先に何もないことを見なければいけないのでちょっと大変。&lt;/p&gt;
+&lt;p&gt;45244166456 点（若干点数があがる）。&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://atcoder.jp/contests/ahc001/submissions/20818964&quot;&gt;&lt;strong&gt;Submission #20818964 - AtCoder Heuristic Contest 001&lt;/strong&gt; *AtCoder is a programming contest site for anyone from beginners to experts. We hold weekly programming contests online.*atcoder.jp&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;img src=&quot;https://cdn-images-1.medium.com/max/2000/1*PNA91nrsXf1ID9YM8r8JoA.png&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
 &lt;h3&gt;スライドさせる方向を 4 方向にする&lt;/h3&gt;
 &lt;p&gt;-x 方向だけでなく+x, -y, +y 方向にも適応させてみる。ただ、いくつかのテストケースだけ通らず(どこかで面が重なってしまうか領域外に描画しているため)にバグる。&lt;/p&gt;
-&lt;p&gt;角同士がぶつかったときなどを考えて、発生しそうなサンプルを手動で作るも通ってしまったのでわからない。サンプルは通るので特殊ケースがあるはず。
-&lt;a href=&quot;https://atcoder.jp/contests/ahc001/submissions/20838301&quot;&gt;&lt;strong&gt;Submission #20838301 - AtCoder Heuristic Contest 001&lt;/strong&gt; *AtCoder is a programming contest site for anyone from beginners to experts. We hold weekly programming contests online.*atcoder.jp&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;角同士がぶつかったときなどを考えて、発生しそうなサンプルを手動で作るも通ってしまったのでわからない。サンプルは通るので特殊ケースがあるはず。&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://atcoder.jp/contests/ahc001/submissions/20838301&quot;&gt;&lt;strong&gt;Submission #20838301 - AtCoder Heuristic Contest 001&lt;/strong&gt; *AtCoder is a programming contest site for anyone from beginners to experts. We hold weekly programming contests online.*atcoder.jp&lt;/a&gt;&lt;/p&gt;
 &lt;h3&gt;スライドさせる方向を 2 方向にする&lt;/h3&gt;
 &lt;p&gt;-x, -y 方向にのみ適応させてみる。&lt;/p&gt;
 &lt;p&gt;これが最終結果になる。&lt;/p&gt;
-&lt;p&gt;45245890456 点
-&lt;a href=&quot;https://atcoder.jp/contests/ahc001/submissions/20857343&quot;&gt;&lt;strong&gt;Submission #20857343 - AtCoder Heuristic Contest 001&lt;/strong&gt; *AtCoder is a programming contest site for anyone from beginners to experts. We hold weekly programming contests online.*atcoder.jp&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;45245890456 点。&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://atcoder.jp/contests/ahc001/submissions/20857343&quot;&gt;&lt;strong&gt;Submission #20857343 - AtCoder Heuristic Contest 001&lt;/strong&gt; *AtCoder is a programming contest site for anyone from beginners to experts. We hold weekly programming contests online.*atcoder.jp&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;img src=&quot;https://cdn-images-1.medium.com/max/2000/1*Yo2VTM_4Ii7Sl40-Dasv4w.png&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
 &lt;h2&gt;完走していないけど感想&lt;/h2&gt;
 &lt;p&gt;普段土日の夜に開催されている 短い時間でプログラムを作る ABC や ARC とは違って、長い時間かけてじっくり考えられるコンテストのほうが楽しくやれました（土日や平日夜がこれを考えるだけで寝る時間になってたときがありました）。&lt;/p&gt;
@@ -1736,7 +1734,7 @@ for j in range(n):
 &lt;p&gt;—&lt;/p&gt;
 &lt;h3&gt;2021/03/17 追記&lt;/h3&gt;
 &lt;iframe src=&quot;https://medium.com/media/3373f823b0cdcdc1a85a6c06989c7376&quot; frameborder=0&gt;&lt;/iframe&gt;
-&lt;p&gt;システムテストが終わり最終得点と順位を確認したところ、583 位でした！！！！！&lt;/p&gt;
+&lt;p&gt;システムテストが終わり最終得点と順位を確認したところ、583 位でした！&lt;/p&gt;
 &lt;p&gt;&lt;img src=&quot;https://cdn-images-1.medium.com/max/2748/0*SqEOny5_56omz-3Y&quot; alt=&quot;&quot;&gt;&lt;/p&gt;</content:encoded></item><item><title><![CDATA[2020年にやったこと]]></title><description><![CDATA[年の瀬。今年やったことをまとめました。 技術とか Rust をちょこちょこいじる CryptoZombie を進めた
 CryptoZombie をやる *shinjuku-mokumoku 会において 試して学ぶ スマートコントラクト開発 を読み進めていますが、チャプター…]]></description><link>https://yutagoto.github.io/20201231-2020年にやったこと/</link><guid isPermaLink="false">https://yutagoto.github.io/20201231-2020年にやったこと/</guid><pubDate>Thu, 31 Dec 2020 09:00:00 GMT</pubDate><content:encoded>&lt;p&gt;年の瀬。今年やったことをまとめました。&lt;/p&gt;
 &lt;h2&gt;技術とか&lt;/h2&gt;

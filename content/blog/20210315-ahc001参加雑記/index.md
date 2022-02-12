@@ -99,7 +99,7 @@ y2 をほかの指定 y 座標まで伸ばす作戦。x2 を伸ばしていっ�
 
 ### ぶつかるさきの長方形をスライドさせる
 
-1 ずつ辺を大きくしているが、-x 方向に大きくしようとしたときにほかの長方形があった場合、その長方形が-x 方向スライドすることができればスライドさせて大きくする。スライドさせた先に何もないことも見なければいけないのでちょっと大変。
+1 ずつ辺を大きくしているが、-x 方向に大きくしようとしたときにほかの長方形があった場合、その長方形が-x 方向スライドできればスライドさせて大きくする。スライドさせた先に何もないことも見なければいけないのでちょっと大変。
 
 45244166456 点（若干点数があがる）
 [**Submission #20818964 - AtCoder Heuristic Contest 001** *AtCoder is a programming contest site for anyone from beginners to experts. We hold weekly programming contests online.*atcoder.jp](https://atcoder.jp/contests/ahc001/submissions/20818964)

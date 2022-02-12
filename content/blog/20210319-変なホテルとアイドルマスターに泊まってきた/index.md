@@ -8,8 +8,7 @@ description: "変なホテルとアイドルマスターに泊まってきた"
 
 心身ともに疲れているような気がしてきたので、ガス抜き含めて出かけてきました。
 動物園や美術館も候補にあったのですが、せっかくなら泊まりと思いホテルへ。そして変なホテルへ。
-[**変なホテルとアイドルマスター | バンダイナムコエンターテインメント公式サイト**
-*順次、旅行代理店でも同一宿泊プランの販売を予定しております。航空便・JR 等ご移動交通機関とご一緒にお求めの場合は併せてご検討ください。GoTo トラベルに関しましては、各旅行代理店へお問い合わせください。…*idolmaster-official.jp](https://idolmaster-official.jp/live_event/idolmaster_hotel/)
+[**変なホテルとアイドルマスター | バンダイナムコエンターテインメント公式サイト** *順次、旅行代理店でも同一宿泊プランの販売を予定しております。航空便・JR 等ご移動交通機関とご一緒にお求めの場合は併せてご検討ください。GoTo トラベルに関しましては、各旅行代理店へお問い合わせください。…*idolmaster-official.jp](https://idolmaster-official.jp/live_event/idolmaster_hotel/)
 
 ## 浅草
 
@@ -40,8 +39,7 @@ GooglePhotos を遡ったら、まともに浅草に行ったのは 6 年前で�
 ![テレビも壁もアイマス](https://cdn-images-1.medium.com/max/4000/0*PGiPJhIXQnCNtnfB.jpg)_テレビも壁もアイマス_
 
 この日はちょうどアイマスもくもく会の日だったので、この部屋から参加しました。
-[**アイマスもくもく会 018 回(オンライン) (2021/03/18 20:00〜)**
-_IM@Study もくもく会 アイマスなプロデューサーさん、お疲れ様です！ みなさんが集まって、アイマスに関連した開発や制作する機会がハッカソンだけでは物足りないので、もくもく会を開きます！ ## 取り組む内容の例 _…\*imastudy-mokumoku.connpass.com](https://imastudy-mokumoku.connpass.com/event/206729/)
+[**アイマスもくもく会 018 回(オンライン) (2021/03/18 20:00〜)** _IM@Study もくもく会 アイマスなプロデューサーさん、お疲れ様です！ みなさんが集まって、アイマスに関連した開発や制作する機会がハッカソンだけでは物足りないので、もくもく会を開きます！ ## 取り組む内容の例 _…\*imastudy-mokumoku.connpass.com](https://imastudy-mokumoku.connpass.com/event/206729/)
 
 <iframe src="https://medium.com/media/f63199a14e59ed63294a09610c0e4e27" frameborder=0></iframe>
 

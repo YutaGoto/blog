@@ -9016,23 +9016,23 @@ __metadata:
   languageName: node
   linkType: hard
 
-"gatsby-plugin-gatsby-cloud@npm:^4.6.0":
-  version: 4.6.0
-  resolution: "gatsby-plugin-gatsby-cloud@npm:4.6.0"
+"gatsby-plugin-gatsby-cloud@npm:^4.7.0":
+  version: 4.7.0
+  resolution: "gatsby-plugin-gatsby-cloud@npm:4.7.0"
   dependencies:
     "@babel/runtime": ^7.15.4
     date-fns: ^2.28.0
     fs-extra: ^10.0.0
-    gatsby-core-utils: ^3.6.0
-    gatsby-telemetry: ^3.6.0
+    gatsby-core-utils: ^3.7.0
+    gatsby-telemetry: ^3.7.0
     js-cookie: ^3.0.1
     kebab-hash: ^0.1.2
     lodash: ^4.17.21
-    webpack-assets-manifest: ^5.0.6
+    webpack-assets-manifest: ^5.1.0
   peerDependencies:
     gatsby: ^4.0.0-next
     webpack: "*"
-  checksum: ac50c75099caa25a28e47bf3224caf79a6a7be96b37dde0bb2b75a4799df02751239ea6483afddf1a50d8452bad6b583767bb72054211c2a43e6030a7dbf1a75
+  checksum: 6759d3404da39cb1e6369e16279a7e267b87570c148cac99f330ec8a05d3dd45b899b4f2229fad1be70e51828b89cb7ca14a86582f6c7eb35bdf7b2457ad0fd7
   languageName: node
   linkType: hard
 
@@ -9388,6 +9388,27 @@ __metadata:
     lodash: ^4.17.21
     node-fetch: ^2.6.6
   checksum: 1750816458d7125853d7b3870726ca91dd2bb5372eb6e69d5f7a68253a3fb00de5aa166ba52bc6d80fd7ebfa7933ff29235a2032573c534bcde35c22c4e9051a
+  languageName: node
+  linkType: hard
+
+"gatsby-telemetry@npm:^3.7.0":
+  version: 3.7.0
+  resolution: "gatsby-telemetry@npm:3.7.0"
+  dependencies:
+    "@babel/code-frame": ^7.14.0
+    "@babel/runtime": ^7.15.4
+    "@turist/fetch": ^7.1.7
+    "@turist/time": ^0.0.2
+    async-retry-ng: ^2.0.1
+    boxen: ^4.2.0
+    configstore: ^5.0.1
+    fs-extra: ^10.0.0
+    gatsby-core-utils: ^3.7.0
+    git-up: ^4.0.5
+    is-docker: ^2.2.1
+    lodash: ^4.17.21
+    node-fetch: ^2.6.7
+  checksum: 2cf3b284424a5e682c80e34635a682ce9cf1557642ed06939688ae4c3cb8820e5d2a9c4d03d00c4448cafa6b4ebe5d3e2277ea7b5e727adc09cc6f1dca97020a
   languageName: node
   linkType: hard
 
@@ -14134,6 +14155,20 @@ __metadata:
   dependencies:
     whatwg-url: ^5.0.0
   checksum: ee8290626bdb73629c59722b75dcf4b9b6a67c1ed7eb9102e368479c4a13b56a48c2bb3ad71571e378e98c8b2c64c820e11f9cd39e4b8557dd138ad571ef9a42
+  languageName: node
+  linkType: hard
+
+"node-fetch@npm:^2.6.7":
+  version: 2.6.7
+  resolution: "node-fetch@npm:2.6.7"
+  dependencies:
+    whatwg-url: ^5.0.0
+  peerDependencies:
+    encoding: ^0.1.0
+  peerDependenciesMeta:
+    encoding:
+      optional: true
+  checksum: 8d816ffd1ee22cab8301c7756ef04f3437f18dace86a1dae22cf81db8ef29c0bf6655f3215cb0cdb22b420b6fe141e64b26905e7f33f9377a7fa59135ea3e10b
   languageName: node
   linkType: hard
 
@@ -20242,9 +20277,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"webpack-assets-manifest@npm:^5.0.6":
-  version: 5.0.6
-  resolution: "webpack-assets-manifest@npm:5.0.6"
+"webpack-assets-manifest@npm:^5.1.0":
+  version: 5.1.0
+  resolution: "webpack-assets-manifest@npm:5.1.0"
   dependencies:
     chalk: ^4.0
     deepmerge: ^4.0
@@ -20255,7 +20290,7 @@ __metadata:
     tapable: ^2.0
   peerDependencies:
     webpack: ^5.2.0
-  checksum: cf8d71527cc45d6c252a5a576f956a8d385fed24fcbfe800c68bed77d69f4359c2fbf85f2fa9e3ca6070d895cc8d66d46eeab2cdebd48a0e9ca8024d3289f9d0
+  checksum: 30b0929f6a81900801d075f81236181a9034a89e2871a214d9f4c905fcc2ae35464e7722b4f2ac6f9993ac24432e5209d805681181502a19a27dcc455a7d16ca
   languageName: node
   linkType: hard
 
@@ -21022,7 +21057,7 @@ __metadata:
     gatsby: ^4.6.2
     gatsby-plugin-feed: ^4.7.0
     gatsby-plugin-fontawesome-css: ^1.2.0
-    gatsby-plugin-gatsby-cloud: ^4.6.0
+    gatsby-plugin-gatsby-cloud: ^4.7.0
     gatsby-plugin-google-gtag: ^4.7.0
     gatsby-plugin-image: ^2.7.0
     gatsby-plugin-manifest: ^4.7.0

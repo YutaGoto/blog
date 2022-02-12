@@ -26,6 +26,8 @@ jobs:
         run: yarn
       - name: Lint
         run: yarn lint
+      - name: TextLint
+        run: yarn textlint
   deploy:
     needs: [lint, test]
     if: ${{ github.actor == 'YutaGoto' && github.ref == 'refs/heads/main' }}

@@ -6,7 +6,7 @@ description: "Pogostuck Rage with your Friends"
 
 こんにちは、 .ごっちです。これはただのメモです。
 
-2021 年末にかなり難しいゲームの一つのステージをクリアしました
+2021 年末にかなり難しいゲームの1つのステージをクリアしました。
 
 <blockquote class="twitter-tweet"><p lang="ja" dir="ltr">たいせんよろしくおねがいします。 <a href="https://t.co/Re0gN4oMLp">pic.twitter.com/Re0gN4oMLp</a></p>&mdash; .ごっち (@gggooottto) <a href="https://twitter.com/gggooottto/status/1454030188447100930?ref_src=twsrc%5Etfw">October 29, 2021</a></blockquote>
 
@@ -18,11 +18,11 @@ description: "Pogostuck Rage with your Friends"
 
 ![てこずり](./20211227225751_1.jpg)
 
-↑ ミスって落ちていく図
+↑ ミスって落ちていく図。
 
 ![ゴール間近](./20211230124936_1.jpg)
 
-↑ 最後のポイントを超えたところ
+↑ 最後のポイントを超えたところ。
 
 ここから 5 分切りするまでタイムを縮めたりより難しい Map2,Map3 をやっていく予定は全くない（他にやりたいことがあるので）ですが、ゆるゆるやっていけたらいいかなーとはおもっています。
 

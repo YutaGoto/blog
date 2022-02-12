@@ -13,7 +13,7 @@ esa が個人で使ったり [mitakarb](https://mitakarb.doorkeeper.jp/) で使�
 
 ![esa7th](./esa7th.png)
 
-↑ 画像: 地味に去年と UI が変わっていることに気がついた
+↑ 画像: 地味に去年と UI が変わっていることに気がついた。
 
 そんな感じに個人 esa を運用していますが、今年は Discord に記念サーバーが立ち上がりました！
 
@@ -27,4 +27,4 @@ esa が個人で使ったり [mitakarb](https://mitakarb.doorkeeper.jp/) で使�
 
 <blockquote class="twitter-tweet" data-conversation="none"><p lang="ja" dir="ltr">ケーキを作って各家庭に届けてくださったのは今年も <a href="https://twitter.com/bonsweets?ref_src=twsrc%5Etfw">@bonsweets</a> さん&quot;(\( ⁰⊖⁰)/)&quot;<br>かわいくておいしいケーキありがとうございます🎂 <a href="https://t.co/hTz9gjDYHJ">pic.twitter.com/hTz9gjDYHJ</a></p>&mdash; taea🐶 (@ken_c_lo) <a href="https://twitter.com/ken_c_lo/status/1391648347212050434?ref_src=twsrc%5Etfw">May 10, 2021</a></blockquote>
 
-esa ケーキおいしそう。。。
+esa ケーキおいしそう。

@@ -102,7 +102,7 @@ res = slack_client.emoji_list()
 https://ngrok.com/
 
 flask サーバーを起動して ngrok を起動して、その URL を manifest に書き込んだらテストをします。
-以下のように slack 上で slash コマンドを入力できて、BOT がワークスペースに登録された emoji を 1 つだけチャットしたかと思います。
+以下のように slack 上で slash コマンドを入力できて、BOT がワークスペースに登録された emoji を 1 つだけチャットされます。
 
 ![slack gif](./slack.gif)
 

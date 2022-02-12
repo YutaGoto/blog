@@ -27,14 +27,14 @@ https://www.wantedly.com/companies/wantedly/post_articles/325643
 
 個人的な認識としては、v2 から PnP(Plug'n Play)モードが使用できるということです。 `yarn install` したパッケージを `node_modules`に展開するのではなく、 zip に圧縮して `.yarn/cache` に並べるモードです。こうすることによって、ファイル数が圧倒的に少なくなるほか、容量もそこまで大きくならなくなります。
 
-また、 `Zero-Installs` というワークフローもあり、 `.yarn/cache` の中身もすべて git にコミットするというなかなか激しいパターンも取れます。これは `yarn install` せずともにすぐに Script を動かせるようになったり、他社や本番環境などとでライブラリそのものに差をなくすといったメリットがあります。ただ、コミットファイル量がやばいことになります。。。
-`Yarn` プロジェクトも PnP + Zero-Installs モードでやっていますが、 `.yarn/cache` ディレクトリはけっこう激しいです。。 https://github.com/yarnpkg/berry/tree/master/.yarn/cache
+また、 `Zero-Installs` というワークフローもあり、 `.yarn/cache` の中身もすべて git にコミットするというなかなか激しいパターンも取れます。これは `yarn install` せずともにすぐに Script を動かせるようになったり、他社や本番環境などとでライブラリそのものに差をなくすといったメリットがあります。ただ、コミットファイル量がやばいことになります。
+`Yarn` プロジェクトも PnP + Zero-Installs モードでやっていますが、 `.yarn/cache` ディレクトリはけっこう激しいです。 https://github.com/yarnpkg/berry/tree/master/.yarn/cache
 
 ## What3Idols での移行手順
 
 ### 使用する yarn のバージョンを 3 にセットする
 
-`berry` を指定すると現状リリースされている最新バージョンの安定板をセットすることができます。もちろん、直接バージョン番号を指定することも可能です。
+`berry` を指定すると現状リリースされている最新バージョンの安定板をセットできます。もちろん、直接バージョン番号を指定できます。
 
 https://yarnpkg.com/cli/set/version
 

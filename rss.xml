@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[.ごっちの日記]]></title><description><![CDATA[.ごっちのつれづれなる日記]]></description><link>https://yutagoto.github.io</link><generator>GatsbyJS</generator><lastBuildDate>Mon, 28 Feb 2022 15:35:43 GMT</lastBuildDate><item><title><![CDATA[農家さんの手伝いに行った]]></title><description><![CDATA[こんにちは、.ごっちです。 ひょんなことから2月の半ばから終わりくらいまで福島県にある農家さんのお手伝いに行ってました。(2021年8月に続いて2回目のお手伝いです) 手伝った内容 ハウス建て 新品のパイプを使ってビニールハウスを建てます。よく見るビニールハウスのだいたい1.…]]></description><link>https://yutagoto.github.io/20220301-agrienta-plastic-hot-house/</link><guid isPermaLink="false">https://yutagoto.github.io/20220301-agrienta-plastic-hot-house/</guid><pubDate>Tue, 01 Mar 2022 00:01:00 GMT</pubDate><content:encoded>&lt;p&gt;こんにちは、.ごっちです。&lt;/p&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[.ごっちの日記]]></title><description><![CDATA[.ごっちのつれづれなる日記]]></description><link>https://yutagoto.github.io</link><generator>GatsbyJS</generator><lastBuildDate>Mon, 28 Feb 2022 16:25:39 GMT</lastBuildDate><item><title><![CDATA[農家さんの手伝いに行った]]></title><description><![CDATA[こんにちは、.ごっちです。 ひょんなことから2月の半ばから終わりくらいまで福島県にある農家さんのお手伝いに行ってました。(2021年8月に続いて2回目のお手伝いです) 手伝った内容 ハウス建て 新品のパイプを使ってビニールハウスを建てます。よく見るビニールハウスのだいたい1.…]]></description><link>https://yutagoto.github.io/20220301-agrienta-plastic-hot-house/</link><guid isPermaLink="false">https://yutagoto.github.io/20220301-agrienta-plastic-hot-house/</guid><pubDate>Tue, 01 Mar 2022 00:01:00 GMT</pubDate><content:encoded>&lt;p&gt;こんにちは、.ごっちです。&lt;/p&gt;
 &lt;p&gt;ひょんなことから2月の半ばから終わりくらいまで福島県にある農家さんのお手伝いに行ってました。(2021年8月に続いて2回目のお手伝いです)&lt;/p&gt;
 &lt;h2&gt;手伝った内容&lt;/h2&gt;
 &lt;h3&gt;ハウス建て&lt;/h3&gt;
@@ -19,13 +19,13 @@
         class=&quot;gatsby-resp-image-image&quot;
         alt=&quot;ビニールハウスの骨&quot;
         title=&quot;ビニールハウスの骨&quot;
-        src=&quot;/blog/static/5dbe07de4adb8184ada04a7c4fa0528f/828fb/PXL_20220224_054555953.jpg&quot;
-        srcset=&quot;/blog/static/5dbe07de4adb8184ada04a7c4fa0528f/ff44c/PXL_20220224_054555953.jpg 158w,
-/blog/static/5dbe07de4adb8184ada04a7c4fa0528f/a6688/PXL_20220224_054555953.jpg 315w,
-/blog/static/5dbe07de4adb8184ada04a7c4fa0528f/828fb/PXL_20220224_054555953.jpg 630w,
-/blog/static/5dbe07de4adb8184ada04a7c4fa0528f/0ede0/PXL_20220224_054555953.jpg 945w,
-/blog/static/5dbe07de4adb8184ada04a7c4fa0528f/3ac88/PXL_20220224_054555953.jpg 1260w,
-/blog/static/5dbe07de4adb8184ada04a7c4fa0528f/ab75a/PXL_20220224_054555953.jpg 1428w&quot;
+        src=&quot;/blog/static/7328d418b31861a259856bc51792a465/828fb/PXL_20220224_054555953.jpg&quot;
+        srcset=&quot;/blog/static/7328d418b31861a259856bc51792a465/ff44c/PXL_20220224_054555953.jpg 158w,
+/blog/static/7328d418b31861a259856bc51792a465/a6688/PXL_20220224_054555953.jpg 315w,
+/blog/static/7328d418b31861a259856bc51792a465/828fb/PXL_20220224_054555953.jpg 630w,
+/blog/static/7328d418b31861a259856bc51792a465/0ede0/PXL_20220224_054555953.jpg 945w,
+/blog/static/7328d418b31861a259856bc51792a465/3ac88/PXL_20220224_054555953.jpg 1260w,
+/blog/static/7328d418b31861a259856bc51792a465/ab75a/PXL_20220224_054555953.jpg 1428w&quot;
         sizes=&quot;(max-width: 630px) 100vw, 630px&quot;
         style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
         loading=&quot;lazy&quot;
@@ -47,13 +47,13 @@
         class=&quot;gatsby-resp-image-image&quot;
         alt=&quot;小松菜&quot;
         title=&quot;小松菜&quot;
-        src=&quot;/blog/static/e878bbe33a66a7583ea4c307f42fccb7/828fb/PXL_20220220_054521692.jpg&quot;
-        srcset=&quot;/blog/static/e878bbe33a66a7583ea4c307f42fccb7/ff44c/PXL_20220220_054521692.jpg 158w,
-/blog/static/e878bbe33a66a7583ea4c307f42fccb7/a6688/PXL_20220220_054521692.jpg 315w,
-/blog/static/e878bbe33a66a7583ea4c307f42fccb7/828fb/PXL_20220220_054521692.jpg 630w,
-/blog/static/e878bbe33a66a7583ea4c307f42fccb7/0ede0/PXL_20220220_054521692.jpg 945w,
-/blog/static/e878bbe33a66a7583ea4c307f42fccb7/3ac88/PXL_20220220_054521692.jpg 1260w,
-/blog/static/e878bbe33a66a7583ea4c307f42fccb7/ab75a/PXL_20220220_054521692.jpg 1428w&quot;
+        src=&quot;/blog/static/53be78d79374b450911d1b1eafa8d5bd/828fb/PXL_20220220_054521692.jpg&quot;
+        srcset=&quot;/blog/static/53be78d79374b450911d1b1eafa8d5bd/ff44c/PXL_20220220_054521692.jpg 158w,
+/blog/static/53be78d79374b450911d1b1eafa8d5bd/a6688/PXL_20220220_054521692.jpg 315w,
+/blog/static/53be78d79374b450911d1b1eafa8d5bd/828fb/PXL_20220220_054521692.jpg 630w,
+/blog/static/53be78d79374b450911d1b1eafa8d5bd/0ede0/PXL_20220220_054521692.jpg 945w,
+/blog/static/53be78d79374b450911d1b1eafa8d5bd/3ac88/PXL_20220220_054521692.jpg 1260w,
+/blog/static/53be78d79374b450911d1b1eafa8d5bd/ab75a/PXL_20220220_054521692.jpg 1428w&quot;
         sizes=&quot;(max-width: 630px) 100vw, 630px&quot;
         style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
         loading=&quot;lazy&quot;
@@ -81,13 +81,13 @@
         class=&quot;gatsby-resp-image-image&quot;
         alt=&quot;野菜&quot;
         title=&quot;野菜&quot;
-        src=&quot;/blog/static/3f9691b69b0ddb1cb4b0fb790c55fd3c/828fb/PXL_20220223_043924479.jpg&quot;
-        srcset=&quot;/blog/static/3f9691b69b0ddb1cb4b0fb790c55fd3c/ff44c/PXL_20220223_043924479.jpg 158w,
-/blog/static/3f9691b69b0ddb1cb4b0fb790c55fd3c/a6688/PXL_20220223_043924479.jpg 315w,
-/blog/static/3f9691b69b0ddb1cb4b0fb790c55fd3c/828fb/PXL_20220223_043924479.jpg 630w,
-/blog/static/3f9691b69b0ddb1cb4b0fb790c55fd3c/0ede0/PXL_20220223_043924479.jpg 945w,
-/blog/static/3f9691b69b0ddb1cb4b0fb790c55fd3c/3ac88/PXL_20220223_043924479.jpg 1260w,
-/blog/static/3f9691b69b0ddb1cb4b0fb790c55fd3c/ab75a/PXL_20220223_043924479.jpg 1428w&quot;
+        src=&quot;/blog/static/1d91371044b3a6a562ea012e532296d6/828fb/PXL_20220223_043924479.jpg&quot;
+        srcset=&quot;/blog/static/1d91371044b3a6a562ea012e532296d6/ff44c/PXL_20220223_043924479.jpg 158w,
+/blog/static/1d91371044b3a6a562ea012e532296d6/a6688/PXL_20220223_043924479.jpg 315w,
+/blog/static/1d91371044b3a6a562ea012e532296d6/828fb/PXL_20220223_043924479.jpg 630w,
+/blog/static/1d91371044b3a6a562ea012e532296d6/0ede0/PXL_20220223_043924479.jpg 945w,
+/blog/static/1d91371044b3a6a562ea012e532296d6/3ac88/PXL_20220223_043924479.jpg 1260w,
+/blog/static/1d91371044b3a6a562ea012e532296d6/ab75a/PXL_20220223_043924479.jpg 1428w&quot;
         sizes=&quot;(max-width: 630px) 100vw, 630px&quot;
         style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
         loading=&quot;lazy&quot;

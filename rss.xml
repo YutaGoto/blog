@@ -1,4 +1,108 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[.ごっちの日記]]></title><description><![CDATA[.ごっちのつれづれなる日記]]></description><link>https://yutagoto.github.io</link><generator>GatsbyJS</generator><lastBuildDate>Sat, 12 Feb 2022 16:01:45 GMT</lastBuildDate><item><title><![CDATA[What3IdolsプロジェクトをYarn v3へアップグレード]]></title><description><![CDATA[こんにちは、.ごっちです。 アイマスもくもく会を通じて What3Idols というサービス(?)の開発をし続けているのですが、勉強がてら yarn のバージョンを v1.22.XX から v3.1.1 にアップグレードさせました。 https://github.com…]]></description><link>https://yutagoto.github.io/20220210-what3idols-yarn3/</link><guid isPermaLink="false">https://yutagoto.github.io/20220210-what3idols-yarn3/</guid><pubDate>Thu, 10 Feb 2022 00:01:00 GMT</pubDate><content:encoded>&lt;p&gt;&lt;span
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[.ごっちの日記]]></title><description><![CDATA[.ごっちのつれづれなる日記]]></description><link>https://yutagoto.github.io</link><generator>GatsbyJS</generator><lastBuildDate>Mon, 28 Feb 2022 15:35:43 GMT</lastBuildDate><item><title><![CDATA[農家さんの手伝いに行った]]></title><description><![CDATA[こんにちは、.ごっちです。 ひょんなことから2月の半ばから終わりくらいまで福島県にある農家さんのお手伝いに行ってました。(2021年8月に続いて2回目のお手伝いです) 手伝った内容 ハウス建て 新品のパイプを使ってビニールハウスを建てます。よく見るビニールハウスのだいたい1.…]]></description><link>https://yutagoto.github.io/20220301-agrienta-plastic-hot-house/</link><guid isPermaLink="false">https://yutagoto.github.io/20220301-agrienta-plastic-hot-house/</guid><pubDate>Tue, 01 Mar 2022 00:01:00 GMT</pubDate><content:encoded>&lt;p&gt;こんにちは、.ごっちです。&lt;/p&gt;
+&lt;p&gt;ひょんなことから2月の半ばから終わりくらいまで福島県にある農家さんのお手伝いに行ってました。(2021年8月に続いて2回目のお手伝いです)&lt;/p&gt;
+&lt;h2&gt;手伝った内容&lt;/h2&gt;
+&lt;h3&gt;ハウス建て&lt;/h3&gt;
+&lt;p&gt;新品のパイプを使ってビニールハウスを建てます。よく見るビニールハウスのだいたい1.8倍くらいの大きさらしいです。めちゃくちゃでかいです..。&lt;/p&gt;
+&lt;blockquote class=&quot;twitter-tweet&quot;&gt;&lt;p lang=&quot;ja&quot; dir=&quot;ltr&quot;&gt;今日なんか届いたぞい！ &lt;a href=&quot;https://t.co/llbowG9e4d&quot;&gt;pic.twitter.com/llbowG9e4d&lt;/a&gt;&lt;/p&gt;&amp;mdash; いなづま (@inaduma) &lt;a href=&quot;https://twitter.com/inaduma/status/1494987874848362497?ref_src=twsrc%5Etfw&quot;&gt;February 19, 2022&lt;/a&gt;&lt;/blockquote&gt;
+&lt;p&gt;資材ひとつひとつが大きく重いのも相まって、パイプを起こしたり高さを調整したり梁を通したりなどは通常のハウス組み立て作業よりも力のいる作業でした。ハウスの組み立て作業自体初めての経験なのでなんとも比較できませんが..。&lt;/p&gt;
+&lt;blockquote class=&quot;twitter-tweet&quot;&gt;&lt;p lang=&quot;ja&quot; dir=&quot;ltr&quot;&gt;【おはよう毎日つむぐ】2月19日(土) #343 お手伝いつむぐ☺️&lt;br&gt;お友達の農家さんが新しく建てるビニールハウスのパイプ立てを手伝いました☺️&lt;br&gt;ビニールハウスってこうやって立てていくんですねー☺️手伝った代わりにつむぐ用に野菜作ってくれるって☺️何を作ろうかなー&lt;a href=&quot;https://twitter.com/hashtag/%E3%81%8A%E3%81%AF%E3%82%88%E3%81%86Vtuber?src=hash&amp;amp;ref_src=twsrc%5Etfw&quot;&gt;#おはようVtuber&lt;/a&gt; &lt;a href=&quot;https://twitter.com/hashtag/%E3%81%A4%E3%82%80%E3%81%90%E5%A4%A7%E8%B0%B7%E3%81%95%E3%82%93?src=hash&amp;amp;ref_src=twsrc%5Etfw&quot;&gt;#つむぐ大谷さん&lt;/a&gt; &lt;a href=&quot;https://t.co/6QyliESMSo&quot;&gt;pic.twitter.com/6QyliESMSo&lt;/a&gt;&lt;/p&gt;&amp;mdash; 大谷つむぐ👒東P-01a(2日目) (@neko_ta23) &lt;a href=&quot;https://twitter.com/neko_ta23/status/1495041302920003589?ref_src=twsrc%5Etfw&quot;&gt;February 19, 2022&lt;/a&gt;&lt;/blockquote&gt;
+&lt;p&gt;滞在期間中のほとんどが雪で一層寒かったり地面がぬかるんだりしてかなり大変ではありましたが、高さを調整して梁を通すとかなりきれいなハウスの骨組みとなり気持ちがいいものです。&lt;/p&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 630px; margin: 0&quot;
+    &gt;
+      &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 75.31645569620254%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAPABQDASIAAhEBAxEB/8QAGAAAAwEBAAAAAAAAAAAAAAAAAAIEAwX/xAAVAQEBAAAAAAAAAAAAAAAAAAABAv/aAAwDAQACEAMQAAAB0RuelRKTX//EABoQAAICAwAAAAAAAAAAAAAAAAABAxEEEzH/2gAIAQEAAQUC4PJoUrNtIs//xAAVEQEBAAAAAAAAAAAAAAAAAAAAEf/aAAgBAwEBPwGI/8QAFhEBAQEAAAAAAAAAAAAAAAAAAQAR/9oACAECAQE/AVtb/8QAGhAAAgIDAAAAAAAAAAAAAAAAAREAEAIxkf/aAAgBAQAGPwJxYgzR7Tr/xAAcEAADAAEFAAAAAAAAAAAAAAAAARFRITFBYaH/2gAIAQEAAT8haSUquz2FsQFbNiiOY1TyXg//2gAMAwEAAgADAAAAELfv/8QAFhEBAQEAAAAAAAAAAAAAAAAAABEB/9oACAEDAQE/EMlD/8QAFhEAAwAAAAAAAAAAAAAAAAAAEBFB/9oACAECAQE/EGwX/8QAGhABAAMBAQEAAAAAAAAAAAAAAQARIUFx0f/aAAgBAQABPxBBTNX5IzbJKGY8mo2LsNAAb1i9CHwwfQT/2Q==&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;ビニールハウスの骨&quot;
+        title=&quot;ビニールハウスの骨&quot;
+        src=&quot;/blog/static/5dbe07de4adb8184ada04a7c4fa0528f/828fb/PXL_20220224_054555953.jpg&quot;
+        srcset=&quot;/blog/static/5dbe07de4adb8184ada04a7c4fa0528f/ff44c/PXL_20220224_054555953.jpg 158w,
+/blog/static/5dbe07de4adb8184ada04a7c4fa0528f/a6688/PXL_20220224_054555953.jpg 315w,
+/blog/static/5dbe07de4adb8184ada04a7c4fa0528f/828fb/PXL_20220224_054555953.jpg 630w,
+/blog/static/5dbe07de4adb8184ada04a7c4fa0528f/0ede0/PXL_20220224_054555953.jpg 945w,
+/blog/static/5dbe07de4adb8184ada04a7c4fa0528f/3ac88/PXL_20220224_054555953.jpg 1260w,
+/blog/static/5dbe07de4adb8184ada04a7c4fa0528f/ab75a/PXL_20220224_054555953.jpg 1428w&quot;
+        sizes=&quot;(max-width: 630px) 100vw, 630px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+        decoding=&quot;async&quot;
+      /&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;ドア面を組み立てる作業やビニールをかぶせる作業までは期間がなくお手伝いできませんでしたが、雪が降る中完成手前までできたのはよかったかと思います。&lt;/p&gt;
+&lt;h3&gt;小松菜の収穫&lt;/h3&gt;
+&lt;p&gt;出荷する用の小松菜を収穫しました。&lt;/p&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 630px; margin: 0&quot;
+    &gt;
+      &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 75.31645569620254%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAPABQDASIAAhEBAxEB/8QAFwAAAwEAAAAAAAAAAAAAAAAAAAMEAv/EABYBAQEBAAAAAAAAAAAAAAAAAAIBA//aAAwDAQACEAMQAAABdlC81WQFP//EABoQAAEFAQAAAAAAAAAAAAAAAAABAhEhIhL/2gAIAQEAAQUCk6LJy7RaH//EABURAQEAAAAAAAAAAAAAAAAAAAEQ/9oACAEDAQE/AWf/xAAWEQEBAQAAAAAAAAAAAAAAAAAAARH/2gAIAQIBAT8BjX//xAAZEAADAAMAAAAAAAAAAAAAAAAAATEQESH/2gAIAQEABj8CR16LilP/xAAcEAADAAIDAQAAAAAAAAAAAAAAAREhQTFxgZH/2gAIAQEAAT8heL+D7AgYwtMWLSnJrTfYf//aAAwDAQACAAMAAAAQCP8A/8QAFxEBAAMAAAAAAAAAAAAAAAAAAAERIf/aAAgBAwEBPxCFtf/EABURAQEAAAAAAAAAAAAAAAAAAAEQ/9oACAECAQE/EEkf/8QAHhABAAICAQUAAAAAAAAAAAAAAQARITFBYXGBkbH/2gAIAQEAAT8QxltG1axCKSsaXWPkWpMHSVTFtiqe3ErQvieLx5l6M6L2n//Z&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;小松菜&quot;
+        title=&quot;小松菜&quot;
+        src=&quot;/blog/static/e878bbe33a66a7583ea4c307f42fccb7/828fb/PXL_20220220_054521692.jpg&quot;
+        srcset=&quot;/blog/static/e878bbe33a66a7583ea4c307f42fccb7/ff44c/PXL_20220220_054521692.jpg 158w,
+/blog/static/e878bbe33a66a7583ea4c307f42fccb7/a6688/PXL_20220220_054521692.jpg 315w,
+/blog/static/e878bbe33a66a7583ea4c307f42fccb7/828fb/PXL_20220220_054521692.jpg 630w,
+/blog/static/e878bbe33a66a7583ea4c307f42fccb7/0ede0/PXL_20220220_054521692.jpg 945w,
+/blog/static/e878bbe33a66a7583ea4c307f42fccb7/3ac88/PXL_20220220_054521692.jpg 1260w,
+/blog/static/e878bbe33a66a7583ea4c307f42fccb7/ab75a/PXL_20220220_054521692.jpg 1428w&quot;
+        sizes=&quot;(max-width: 630px) 100vw, 630px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+        decoding=&quot;async&quot;
+      /&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;ひとつひとつ切って形を整えています。整えた結果スーパーでよく見るあの小松菜になります。&lt;/p&gt;
+&lt;h3&gt;ブロッコリー苗の仮植&lt;/h3&gt;
+&lt;p&gt;小さいポットに植えたブロッコリーの芽を土ごと大きいポットに植え移します。&lt;/p&gt;
+&lt;blockquote class=&quot;twitter-tweet&quot;&gt;&lt;p lang=&quot;ja&quot; dir=&quot;ltr&quot;&gt;ブロッコリー &lt;a href=&quot;https://t.co/2GcCsgUFLM&quot;&gt;pic.twitter.com/2GcCsgUFLM&lt;/a&gt;&lt;/p&gt;&amp;mdash; .ごっち (@gggooottto) &lt;a href=&quot;https://twitter.com/gggooottto/status/1497009361629364224?ref_src=twsrc%5Etfw&quot;&gt;February 25, 2022&lt;/a&gt;&lt;/blockquote&gt;
+&lt;p&gt;自分自身、ブロッコリーは成ったあの形 🥦 しか知らないので、芽がいかにも普通な点で逆に新鮮です。&lt;/p&gt;
+&lt;h2&gt;そのほか&lt;/h2&gt;
+&lt;h3&gt;野菜&lt;/h3&gt;
+&lt;p&gt;出荷・収穫しきれなかったレタスや春菊などを採って、サッとゆでておひたしにして頂いたりしました。採れたてということには変わりないのでめちゃくちゃ新鮮でうまかったです。&lt;/p&gt;
+&lt;blockquote class=&quot;twitter-tweet&quot;&gt;&lt;p lang=&quot;ja&quot; dir=&quot;ltr&quot;&gt;レタスを収穫する人 &lt;a href=&quot;https://t.co/hDIMv4E9I8&quot;&gt;pic.twitter.com/hDIMv4E9I8&lt;/a&gt;&lt;/p&gt;&amp;mdash; .ごっち (@gggooottto) &lt;a href=&quot;https://twitter.com/gggooottto/status/1495392762287378433?ref_src=twsrc%5Etfw&quot;&gt;February 20, 2022&lt;/a&gt;&lt;/blockquote&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 630px; margin: 0&quot;
+    &gt;
+      &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 75.31645569620254%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAPABQDASIAAhEBAxEB/8QAFgABAQEAAAAAAAAAAAAAAAAAAAQD/8QAFQEBAQAAAAAAAAAAAAAAAAAAAQP/2gAMAwEAAhADEAAAAWklMmEJ/8QAGxABAAICAwAAAAAAAAAAAAAAAgEDABESISL/2gAIAQEAAQUCXExFo1J9CzuVXONbX//EABQRAQAAAAAAAAAAAAAAAAAAABD/2gAIAQMBAT8BP//EABURAQEAAAAAAAAAAAAAAAAAAAEQ/9oACAECAQE/AUn/xAAaEAACAwEBAAAAAAAAAAAAAAAAAQIRIRIy/9oACAEBAAY/Ao5pTjSHYuonljP/xAAYEAEAAwEAAAAAAAAAAAAAAAABABEhYf/aAAgBAQABPyGlF3qLMj8CGAtGEbGVdzegKgqf/9oADAMBAAIAAwAAABDr3//EABcRAAMBAAAAAAAAAAAAAAAAAAABIRH/2gAIAQMBAT8QWuoh/8QAFhEBAQEAAAAAAAAAAAAAAAAAARAR/9oACAECAQE/EEHJ/8QAGxABAAIDAQEAAAAAAAAAAAAAAQARITFBUYH/2gAIAQEAAT8QrTrq2iISR0GoQCwdlQOLu15M2VSsURgwXS/J/9k=&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;野菜&quot;
+        title=&quot;野菜&quot;
+        src=&quot;/blog/static/3f9691b69b0ddb1cb4b0fb790c55fd3c/828fb/PXL_20220223_043924479.jpg&quot;
+        srcset=&quot;/blog/static/3f9691b69b0ddb1cb4b0fb790c55fd3c/ff44c/PXL_20220223_043924479.jpg 158w,
+/blog/static/3f9691b69b0ddb1cb4b0fb790c55fd3c/a6688/PXL_20220223_043924479.jpg 315w,
+/blog/static/3f9691b69b0ddb1cb4b0fb790c55fd3c/828fb/PXL_20220223_043924479.jpg 630w,
+/blog/static/3f9691b69b0ddb1cb4b0fb790c55fd3c/0ede0/PXL_20220223_043924479.jpg 945w,
+/blog/static/3f9691b69b0ddb1cb4b0fb790c55fd3c/3ac88/PXL_20220223_043924479.jpg 1260w,
+/blog/static/3f9691b69b0ddb1cb4b0fb790c55fd3c/ab75a/PXL_20220223_043924479.jpg 1428w&quot;
+        sizes=&quot;(max-width: 630px) 100vw, 630px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+        decoding=&quot;async&quot;
+      /&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;h3&gt;いつもの仕事&lt;/h3&gt;
+&lt;p&gt;東京の自宅にいなくてもインターネットがつながる環境にあれば仕事をできるので、開発業もちゃんとやっていました。Webミーティングもこなしています。&lt;/p&gt;
+&lt;blockquote class=&quot;twitter-tweet&quot;&gt;&lt;p lang=&quot;ja&quot; dir=&quot;ltr&quot;&gt;東京にいなくてもちゃんと仕事ができるのがよい。。（よい）&lt;/p&gt;&amp;mdash; .ごっち (@gggooottto) &lt;a href=&quot;https://twitter.com/gggooottto/status/1496646934685110273?ref_src=twsrc%5Etfw&quot;&gt;February 24, 2022&lt;/a&gt;&lt;/blockquote&gt;
+&lt;h3&gt;夜&lt;/h3&gt;
+&lt;p&gt;周りに(歩いて行く範囲に)街がなく畑・田んぼしかないので、夜はかなり暗いです。その分、晴れていたら星がはっきりと見えました。&lt;/p&gt;
+&lt;blockquote class=&quot;twitter-tweet&quot;&gt;&lt;p lang=&quot;und&quot; dir=&quot;ltr&quot;&gt;&lt;a href=&quot;https://t.co/42VTAI0H9I&quot;&gt;pic.twitter.com/42VTAI0H9I&lt;/a&gt;&lt;/p&gt;&amp;mdash; .ごっち (@gggooottto) &lt;a href=&quot;https://twitter.com/gggooottto/status/1496107374515728384?ref_src=twsrc%5Etfw&quot;&gt;February 22, 2022&lt;/a&gt;&lt;/blockquote&gt;
+&lt;p&gt;スマホカメラのナイトモード撮影でもオリオン座がそれなりに写ります。&lt;/p&gt;
+&lt;h2&gt;このあと&lt;/h2&gt;
+&lt;p&gt;収穫時期になったら、またお手伝いにいく予定です。&lt;/p&gt;</content:encoded></item><item><title><![CDATA[What3IdolsプロジェクトをYarn v3へアップグレード]]></title><description><![CDATA[こんにちは、.ごっちです。 アイマスもくもく会を通じて What3Idols というサービス(?)の開発をし続けているのですが、勉強がてら yarn のバージョンを v1.22.XX から v3.1.1 にアップグレードさせました。 https://github.com…]]></description><link>https://yutagoto.github.io/20220210-what3idols-yarn3/</link><guid isPermaLink="false">https://yutagoto.github.io/20220210-what3idols-yarn3/</guid><pubDate>Thu, 10 Feb 2022 00:01:00 GMT</pubDate><content:encoded>&lt;p&gt;&lt;span
       class=&quot;gatsby-resp-image-wrapper&quot;
       style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 630px; margin: 0&quot;
     &gt;

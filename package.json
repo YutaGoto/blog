@@ -13,7 +13,7 @@
     "babel-jest": "^27.5.1",
     "babel-preset-gatsby": "^2.4.0",
     "gatsby": "^4.8.1",
-    "gatsby-plugin-feed": "^4.7.0",
+    "gatsby-plugin-feed": "^4.8.0",
     "gatsby-plugin-fontawesome-css": "^1.2.0",
     "gatsby-plugin-gatsby-cloud": "^4.8.1",
     "gatsby-plugin-google-gtag": "^4.8.0",

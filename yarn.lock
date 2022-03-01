@@ -9128,13 +9128,13 @@ __metadata:
   languageName: node
   linkType: hard
 
-"gatsby-plugin-offline@npm:^5.7.0":
-  version: 5.7.0
-  resolution: "gatsby-plugin-offline@npm:5.7.0"
+"gatsby-plugin-offline@npm:^5.8.1":
+  version: 5.8.1
+  resolution: "gatsby-plugin-offline@npm:5.8.1"
   dependencies:
     "@babel/runtime": ^7.15.4
     cheerio: ^1.0.0-rc.10
-    gatsby-core-utils: ^3.7.0
+    gatsby-core-utils: ^3.8.1
     glob: ^7.2.0
     idb-keyval: ^3.2.0
     lodash: ^4.17.21
@@ -9143,7 +9143,7 @@ __metadata:
     gatsby: ^4.0.0-next
     react: ^16.9.0 || ^17.0.0
     react-dom: ^16.9.0 || ^17.0.0
-  checksum: b65ccefe441576537a7203aebb9516ddc2de15341db9791e374ecd1dfdadef94a25586d35ca0648bc6c416dc7a268b6e23fafcf33c764768928d30c30273d86d
+  checksum: 6afac6915a73579185cbbe2c157be95d5ad4927a39812cae7c4a8e8233dbd4c4bdcf538b00eb8efea0d9b8bd9a6430492d26fe8c34353847557b802813fe5c89
   languageName: node
   linkType: hard
 
@@ -21161,7 +21161,7 @@ __metadata:
     gatsby-plugin-google-gtag: ^4.8.0
     gatsby-plugin-image: ^2.7.0
     gatsby-plugin-manifest: ^4.7.0
-    gatsby-plugin-offline: ^5.7.0
+    gatsby-plugin-offline: ^5.8.1
     gatsby-plugin-react-helmet: ^5.8.0
     gatsby-plugin-sass: ^5.8.0
     gatsby-plugin-sharp: ^4.7.0

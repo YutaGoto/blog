@@ -1,10 +1,10 @@
-import * as React from "react"
-import { graphql } from "gatsby"
+import React, { FC } from "react"
+import { graphql, PageProps } from "gatsby"
 import Seo from "../components/seo"
 import { ArticleCard, Bio, Layout } from "../components"
 
-const BlogIndex = ({ data, location }) => {
-  const siteTitle = data.site.siteMetadata?.title || `Title`
+const BlogIndex: FC<PageProps<GatsbyTypes.BlogIndexQuery>> = ({ data, location }) => {
+  const siteTitle = data.site?.siteMetadata?.title || `Title`
   const posts = data.allMarkdownRemark.nodes
 
   return (
@@ -13,7 +13,7 @@ const BlogIndex = ({ data, location }) => {
         <Seo title="All posts" />
         <div className="lg:flex-grow max-w-screen-2xl">
           {posts.map(post => {
-            return <ArticleCard post={post} key={post.fields.slug} />
+            return <ArticleCard post={post} key={post.fields?.slug} />
           })}
         </div>
         <div className="lg:flex-none mb-2 lg:mb-0">
@@ -27,7 +27,7 @@ const BlogIndex = ({ data, location }) => {
 export default BlogIndex
 
 export const pageQuery = graphql`
-  query {
+  query BlogIndex {
     site {
       siteMetadata {
         title

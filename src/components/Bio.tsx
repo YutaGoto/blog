@@ -54,7 +54,7 @@ export const PureBio = ({ data }) => {
 }
 
 export const Bio = () => (
-  <StaticQuery
+  <StaticQuery<GatsbyTypes.BioQueryQuery>
     query={graphql`
       query BioQuery {
         site {

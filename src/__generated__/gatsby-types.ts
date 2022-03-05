@@ -3431,10 +3431,18 @@ type ImageSharpSortInput = {
   readonly order: Maybe<ReadonlyArray<Maybe<SortOrderEnum>>>;
 };
 
-type Unnamed_1_QueryVariables = Exact<{ [key: string]: never; }>;
+type SeoQueryVariables = Exact<{ [key: string]: never; }>;
 
 
-type Unnamed_1_Query = { readonly site: Maybe<{ readonly siteMetadata: Maybe<Pick<SiteSiteMetadata, 'title'>> }> };
+type SeoQuery = { readonly site: Maybe<{ readonly siteMetadata: Maybe<(
+      Pick<SiteSiteMetadata, 'title' | 'description'>
+      & { readonly social: Maybe<ReadonlyArray<Maybe<Pick<Social, 'name' | 'url'>>>> }
+    )> }> };
+
+type NotFoundQueryVariables = Exact<{ [key: string]: never; }>;
+
+
+type NotFoundQuery = { readonly site: Maybe<{ readonly siteMetadata: Maybe<Pick<SiteSiteMetadata, 'title'>> }> };
 
 type BlogIndexQueryVariables = Exact<{ [key: string]: never; }>;
 
@@ -3443,26 +3451,6 @@ type BlogIndexQuery = { readonly site: Maybe<{ readonly siteMetadata: Maybe<Pick
       Pick<MarkdownRemark, 'excerpt'>
       & { readonly fields: Maybe<Pick<Fields, 'slug'>>, readonly frontmatter: Maybe<Pick<Frontmatter, 'date' | 'title' | 'description'>> }
     )> } };
-
-type BlogPostBySlugQueryVariables = Exact<{
-  id: Scalars['String'];
-  previousPostId: Maybe<Scalars['String']>;
-  nextPostId: Maybe<Scalars['String']>;
-}>;
-
-
-type BlogPostBySlugQuery = { readonly site: Maybe<{ readonly siteMetadata: Maybe<Pick<SiteSiteMetadata, 'title' | 'siteUrl'>> }>, readonly markdownRemark: Maybe<(
-    Pick<MarkdownRemark, 'id' | 'excerpt' | 'html'>
-    & { readonly fields: Maybe<Pick<Fields, 'slug'>>, readonly frontmatter: Maybe<Pick<Frontmatter, 'title' | 'date' | 'description'>> }
-  )>, readonly previous: Maybe<{ readonly fields: Maybe<Pick<Fields, 'slug'>>, readonly frontmatter: Maybe<Pick<Frontmatter, 'title'>> }>, readonly next: Maybe<{ readonly fields: Maybe<Pick<Fields, 'slug'>>, readonly frontmatter: Maybe<Pick<Frontmatter, 'title'>> }> };
-
-type Unnamed_2_QueryVariables = Exact<{ [key: string]: never; }>;
-
-
-type Unnamed_2_Query = { readonly site: Maybe<{ readonly siteMetadata: Maybe<(
-      Pick<SiteSiteMetadata, 'title' | 'description'>
-      & { readonly social: Maybe<ReadonlyArray<Maybe<Pick<Social, 'name' | 'url'>>>> }
-    )> }> };
 
 type GatsbyImageSharpFixedFragment = Pick<ImageSharpFixed, 'base64' | 'width' | 'height' | 'src' | 'srcSet'>;
 
@@ -3489,6 +3477,18 @@ type GatsbyImageSharpFluid_withWebp_tracedSVGFragment = Pick<ImageSharpFluid, 't
 type GatsbyImageSharpFluid_noBase64Fragment = Pick<ImageSharpFluid, 'aspectRatio' | 'src' | 'srcSet' | 'sizes'>;
 
 type GatsbyImageSharpFluid_withWebp_noBase64Fragment = Pick<ImageSharpFluid, 'aspectRatio' | 'src' | 'srcSet' | 'srcWebp' | 'srcSetWebp' | 'sizes'>;
+
+type BlogPostBySlugQueryVariables = Exact<{
+  id: Scalars['String'];
+  previousPostId: Maybe<Scalars['String']>;
+  nextPostId: Maybe<Scalars['String']>;
+}>;
+
+
+type BlogPostBySlugQuery = { readonly site: Maybe<{ readonly siteMetadata: Maybe<Pick<SiteSiteMetadata, 'title' | 'siteUrl'>> }>, readonly markdownRemark: Maybe<(
+    Pick<MarkdownRemark, 'id' | 'excerpt' | 'html'>
+    & { readonly fields: Maybe<Pick<Fields, 'slug'>>, readonly frontmatter: Maybe<Pick<Frontmatter, 'title' | 'date' | 'description'>> }
+  )>, readonly previous: Maybe<{ readonly fields: Maybe<Pick<Fields, 'slug'>>, readonly frontmatter: Maybe<Pick<Frontmatter, 'title'>> }>, readonly next: Maybe<{ readonly fields: Maybe<Pick<Fields, 'slug'>>, readonly frontmatter: Maybe<Pick<Frontmatter, 'title'>> }> };
 
 type BioQueryVariables = Exact<{ [key: string]: never; }>;
 

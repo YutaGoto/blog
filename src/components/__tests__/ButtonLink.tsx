@@ -6,14 +6,14 @@ import { ButtonLink } from "../ButtonLink"
 describe("ButtonLink", () => {
   it("renders correctly", () => {
     const tree = renderer
-      .create(<ButtonLink text="test" iconName="angle-left" />)
+      .create(<ButtonLink text="test" iconName="angle-left" linkTo="" rel="" />)
       .toJSON()
     expect(tree).toMatchSnapshot()
   })
 
   it("display the a element", () => {
     const { container } = render(
-      <ButtonLink text="test" iconName="angle-left" />
+      <ButtonLink text="test" iconName="angle-left" linkTo="" rel="" />
     )
     expect(container.querySelector(`a`)).toBeInTheDocument()
   })

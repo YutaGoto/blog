@@ -3490,9 +3490,9 @@ type GatsbyImageSharpFluid_noBase64Fragment = Pick<ImageSharpFluid, 'aspectRatio
 
 type GatsbyImageSharpFluid_withWebp_noBase64Fragment = Pick<ImageSharpFluid, 'aspectRatio' | 'src' | 'srcSet' | 'srcWebp' | 'srcSetWebp' | 'sizes'>;
 
-type BioQueryQueryVariables = Exact<{ [key: string]: never; }>;
+type BioQueryVariables = Exact<{ [key: string]: never; }>;
 
 
-type BioQueryQuery = { readonly site: Maybe<{ readonly siteMetadata: Maybe<{ readonly author: Maybe<Pick<Author, 'name' | 'summary'>>, readonly social: Maybe<ReadonlyArray<Maybe<Pick<Social, 'name' | 'url'>>>> }> }> };
+type BioQuery = { readonly site: Maybe<{ readonly siteMetadata: Maybe<{ readonly author: Maybe<Pick<Author, 'name' | 'summary'>>, readonly social: Maybe<ReadonlyArray<Maybe<Pick<Social, 'name' | 'url'>>>> }> }> };
 
 }

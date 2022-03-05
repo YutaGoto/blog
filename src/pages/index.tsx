@@ -10,7 +10,7 @@ const BlogIndex: FC<PageProps<GatsbyTypes.BlogIndexQuery>> = ({ data, location }
   return (
     <Layout location={location} title={siteTitle}>
       <div className="lg:flex lg:space-x-2">
-        <Seo title="All posts" />
+        <Seo title="全ポスト" />
         <div className="lg:flex-grow max-w-screen-2xl">
           {posts.map(post => {
             return <ArticleCard post={post} key={post.fields?.slug} />

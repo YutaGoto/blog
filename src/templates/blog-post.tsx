@@ -1,4 +1,4 @@
-import React, {FC} from "react"
+import React, { FC } from "react"
 import { graphql, PageProps } from "gatsby"
 import {
   FacebookShareButton,
@@ -11,7 +11,10 @@ import { Bio, ButtonLink, Layout } from "../components"
 import Seo from "../components/seo"
 import NotFoundPage from "../pages/404"
 
-const BlogPostTemplate: FC<PageProps<GatsbyTypes.BlogPostBySlugQuery>> = ({ data, location }) => {
+const BlogPostTemplate: FC<PageProps<GatsbyTypes.BlogPostBySlugQuery>> = ({
+  data,
+  location,
+}) => {
   const post = data.markdownRemark
 
   if (!post) return <NotFoundPage data={data} location={location} />

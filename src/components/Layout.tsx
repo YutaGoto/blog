@@ -1,7 +1,12 @@
-import * as React from "react"
-import { Link } from "gatsby"
+import React, { FC } from "react"
+import { Link, PageProps } from "gatsby"
 
-export const Layout = ({ location, title, children }) => {
+interface Props {
+  title: string
+  location: PageProps["location"]
+}
+
+export const Layout: FC<Props> = ({ location, title, children }) => {
   const rootPath = `${__PATH_PREFIX__}/`
   const isRootPath = location.pathname === rootPath
 

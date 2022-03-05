@@ -1,8 +1,22 @@
 import { Link } from "gatsby"
-import * as React from "react"
+import React from "react"
 import "./fontawesome"
 
-export const ButtonLink = ({ text, linkTo, iconName, rel, isLeft = true }) => (
+interface ButtonLinkProps {
+  text: string
+  linkTo: string
+  iconName: string
+  rel: string
+  isLeft?: boolean
+}
+
+export const ButtonLink = ({
+  text,
+  linkTo,
+  iconName,
+  rel,
+  isLeft = true,
+}: ButtonLinkProps) => (
   <Link
     className="box-border p-2 lg:mb-0 mb-1 border text-blue-400 dark:text-gray-100 border-blue-400 dark:border-blue-700 hover:bg-blue-400 hover:text-gray-900 dark:hover:bg-blue-700 dark:hover:text-gray-100"
     to={linkTo}

@@ -1,9 +1,28 @@
 import React, { FC } from "react"
-import { StaticQuery, graphql, PageProps } from "gatsby"
+import { graphql, useStaticQuery } from "gatsby"
 import { ImageFormat, StaticImage } from "gatsby-plugin-image"
 import "./fontawesome"
 
-export const PureBio: FC<PageProps<GatsbyTypes.BioQuery>> = ({ data }) => {
+export const Bio: FC = () => {
+  const data = useStaticQuery<GatsbyTypes.BioQuery>(
+    graphql`
+      query Bio {
+        site {
+          siteMetadata {
+            author {
+              name
+              summary
+            }
+            social {
+              name
+              url
+            }
+          }
+        }
+      }
+    `
+  )
+
   const author = data.site?.siteMetadata?.author
   const social = data.site?.siteMetadata?.social
   const formats: ImageFormat[] = ["auto", "webp", "avif"]
@@ -53,25 +72,3 @@ export const PureBio: FC<PageProps<GatsbyTypes.BioQuery>> = ({ data }) => {
     </div>
   )
 }
-
-export const Bio = () => (
-  <StaticQuery<GatsbyTypes.BioQuery>
-    query={graphql`
-      query Bio {
-        site {
-          siteMetadata {
-            author {
-              name
-              summary
-            }
-            social {
-              name
-              url
-            }
-          }
-        }
-      }
-    `}
-    render={data => <PureBio data={data} />}
-  />
-)

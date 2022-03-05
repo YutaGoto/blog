@@ -3,7 +3,10 @@ import { graphql, PageProps } from "gatsby"
 import Seo from "../components/seo"
 import { ArticleCard, Bio, Layout } from "../components"
 
-const BlogIndex: FC<PageProps<GatsbyTypes.BlogIndexQuery>> = ({ data, location }) => {
+const BlogIndex: FC<PageProps<GatsbyTypes.BlogIndexQuery>> = ({
+  data,
+  location,
+}) => {
   const siteTitle = data.site?.siteMetadata?.title || `Title`
   const posts = data.allMarkdownRemark.nodes
 

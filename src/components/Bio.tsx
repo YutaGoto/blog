@@ -3,26 +3,7 @@ import { graphql, useStaticQuery } from "gatsby"
 import { ImageFormat, StaticImage } from "gatsby-plugin-image"
 import "./fontawesome"
 
-export const Bio: FC = () => {
-  const data = useStaticQuery<GatsbyTypes.BioQuery>(
-    graphql`
-      query Bio {
-        site {
-          siteMetadata {
-            author {
-              name
-              summary
-            }
-            social {
-              name
-              url
-            }
-          }
-        }
-      }
-    `
-  )
-
+export const PureBio: FC<GatsbyTypes.BioQuery> = (data) => {
   const author = data.site?.siteMetadata?.author
   const social = data.site?.siteMetadata?.social
   const formats: ImageFormat[] = ["auto", "webp", "avif"]
@@ -72,3 +53,28 @@ export const Bio: FC = () => {
     </div>
   )
 }
+
+export const Bio = (props: any) => {
+  const data: GatsbyTypes.BioQuery = useStaticQuery<GatsbyTypes.BioQuery>(
+    graphql`
+      query Bio {
+        site {
+          siteMetadata {
+            author {
+              name
+              summary
+            }
+            social {
+              name
+              url
+            }
+          }
+        }
+      }
+    `
+  )
+
+  return <PureBio {...props} data={data} />
+}
+
+export default Bio

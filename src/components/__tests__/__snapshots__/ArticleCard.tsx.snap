@@ -1,0 +1,43 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ArticleCard renders correctly 1`] = `
+<div
+  className="px-4 py-10 mb-2 bg-gray-50 dark:bg-gray-800 shadow-lg sm:rounded-xl sm:p-5"
+>
+  <a
+    className="has-text-black"
+    href="/20211223-imas-mokumoku/"
+    itemProp="url"
+  >
+    <article
+      className="media"
+      itemScope={true}
+      itemType="http://schema.org/Article"
+    >
+      <div
+        className=""
+      >
+        <div
+          className="text-2xl mb-2"
+        >
+          アイマスもくもく会2021年まとめ
+        </div>
+        <div
+          className="text-sm mb-2"
+        >
+          December 23, 2021
+        </div>
+        <div
+          className="text-base"
+          dangerouslySetInnerHTML={
+            Object {
+              "__html": "2021年もアイマスもくもく会でしたよ",
+            }
+          }
+          itemProp="description"
+        />
+      </div>
+    </article>
+  </a>
+</div>
+`;

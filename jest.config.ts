@@ -1,9 +1,9 @@
-import type {Config} from "@jest/types"
+import type { Config } from "@jest/types"
 
 const config: Config.InitialOptions = {
-  preset: 'ts-jest',
+  preset: "ts-jest",
   verbose: true,
-  coverageProvider: 'v8',
+  coverageProvider: "v8",
   transform: {
     "^.+\\.jsx?$": `<rootDir>/jest-preprocess.js`,
   },
@@ -24,4 +24,3 @@ const config: Config.InitialOptions = {
 }
 
 export default config
-

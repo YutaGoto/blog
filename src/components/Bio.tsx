@@ -3,7 +3,7 @@ import { graphql, useStaticQuery } from "gatsby"
 import { ImageFormat, StaticImage } from "gatsby-plugin-image"
 import "./fontawesome"
 
-export const PureBio: FC<GatsbyTypes.BioQuery> = (data) => {
+export const PureBio: FC<GatsbyTypes.BioQuery> = data => {
   const author = data.site?.siteMetadata?.author
   const social = data.site?.siteMetadata?.social
   const formats: ImageFormat[] = ["auto", "webp", "avif"]

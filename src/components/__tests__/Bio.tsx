@@ -1,19 +1,16 @@
 import React from "react"
 import renderer from "react-test-renderer"
 import { render } from "@testing-library/react"
-import { PureBio as Bio } from "../Bio"
+import { Bio } from "../Bio"
 
 describe("bio", () => {
-  const data = {
+  const data: GatsbyTypes.BioQuery = {
     site: {
       siteMetadata: {
-        title: `.ごっちの日記`,
         author: {
           name: `Yuta Goto`,
           summary: `エンジニアです。`,
         },
-        description: `.ごっちのつれづれなる日記`,
-        siteUrl: `https://yutagoto.github.io/`,
         social: [
           {
             name: `twitter`,

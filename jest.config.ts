@@ -1,4 +1,9 @@
-module.exports = {
+import type { Config } from "@jest/types"
+
+const config: Config.InitialOptions = {
+  preset: "ts-jest",
+  verbose: true,
+  coverageProvider: "v8",
   transform: {
     "^.+\\.jsx?$": `<rootDir>/jest-preprocess.js`,
   },
@@ -9,11 +14,13 @@ module.exports = {
   },
   testPathIgnorePatterns: [`node_modules`, `\\.cache`, `<rootDir>.*/public`],
   transformIgnorePatterns: [`node_modules/(?!(gatsby)/)`],
-  globals: {
-    __PATH_PREFIX__: ``,
-  },
+  // globals: {
+  //   __PATH_PREFIX__: ``,
+  // },
   testURL: `http://localhost:8000`,
   testEnvironment: `jsdom`,
   setupFiles: [`<rootDir>/loadershim.js`],
   setupFilesAfterEnv: ["<rootDir>/setup-test-env.js"],
 }
+
+export default config

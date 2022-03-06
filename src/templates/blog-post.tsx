@@ -1,5 +1,5 @@
-import * as React from "react"
-import { graphql } from "gatsby"
+import React, { FC } from "react"
+import { graphql, PageProps } from "gatsby"
 import {
   FacebookShareButton,
   FacebookIcon,
@@ -10,17 +10,21 @@ import {
 import { Bio, ButtonLink, Layout } from "../components"
 import Seo from "../components/seo"
 
-const BlogPostTemplate = ({ data, location }) => {
+const BlogPostTemplate: FC<PageProps<GatsbyTypes.BlogPostBySlugQuery>> = ({
+  data,
+  location,
+}) => {
   const post = data.markdownRemark
-  const siteMetadata = data.site.siteMetadata
-  const siteTitle = data.site.siteMetadata?.title || `Title`
+
+  const siteMetadata = data.site?.siteMetadata
+  const siteTitle = data.site?.siteMetadata?.title || `Title`
   const { previous, next } = data
 
   return (
     <Layout location={location} title={siteTitle}>
       <Seo
-        title={post.frontmatter.title}
-        description={post.frontmatter.description || post.excerpt}
+        title={post?.frontmatter?.title || "ブログポスト"}
+        description={post?.frontmatter?.description || post?.excerpt}
       />
       <div className="xl:flex xl:space-x-2">
         <div className="xl:flex-grow">
@@ -30,26 +34,26 @@ const BlogPostTemplate = ({ data, location }) => {
             itemType="http://schema.org/Article"
           >
             <h1 itemProp="headline" className="text-4xl font-extrabold mb-2">
-              {post.frontmatter.title}
+              {post?.frontmatter?.title}
             </h1>
-            <p className="text-md">{post.frontmatter.date}</p>
+            <p className="text-md">{post?.frontmatter?.date}</p>
             <section
-              dangerouslySetInnerHTML={{ __html: post.html }}
+              dangerouslySetInnerHTML={{ __html: post?.html || "" }}
               itemProp="articleBody"
               className="mt-3"
             />
           </article>
           <div className="mt-5 mb-5">
             <TwitterShareButton
-              url={`${siteMetadata.siteUrl}/blog${post.fields.slug}`}
-              title={`${post.frontmatter.title} - .ごっちの日記`}
+              url={`${siteMetadata?.siteUrl}/blog${post?.fields?.slug}`}
+              title={`${post?.frontmatter?.title} - .ごっちの日記`}
               className="m-2"
             >
               <TwitterIcon size="32" round />
             </TwitterShareButton>
             <FacebookShareButton
-              url={`${siteMetadata.siteUrl}/blog${post.fields.slug}`}
-              title={`${post.frontmatter.title} - .ごっちの日記`}
+              url={`${siteMetadata?.siteUrl}/blog${post?.fields?.slug}`}
+              title={`${post?.frontmatter?.title} - .ごっちの日記`}
               className="m-2"
             >
               <FacebookIcon size="32" round />
@@ -67,21 +71,19 @@ const BlogPostTemplate = ({ data, location }) => {
       >
         {previous && (
           <ButtonLink
-            tag="Link"
-            text={previous.frontmatter.title}
+            text={previous.frontmatter?.title || ""}
             iconName="angle-left"
             isLeft={true}
-            linkTo={previous.fields.slug}
+            linkTo={previous.fields?.slug || ""}
             rel="prev"
           />
         )}
         {next && (
           <ButtonLink
-            tag="Link"
-            text={next.frontmatter.title}
+            text={next.frontmatter?.title || ""}
             iconName="angle-right"
             isLeft={false}
-            linkTo={next.fields.slug}
+            linkTo={next.fields?.slug || ""}
             rel="next"
           />
         )}

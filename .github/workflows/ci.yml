@@ -40,6 +40,7 @@ jobs:
         run: yarn
       - name: Type Check
         run: yarn typecheck
+  deploy:
     needs: [lint, test, typecheck]
     if: ${{ github.actor == 'YutaGoto' && github.ref == 'refs/heads/main' }}
     runs-on: ubuntu-20.04

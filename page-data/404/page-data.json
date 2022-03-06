@@ -1,5 +1,5 @@
 {
-    "componentChunkName": "component---src-pages-404-js",
+    "componentChunkName": "component---src-pages-404-tsx",
     "path": "/404/",
     "result": {"data":{"site":{"siteMetadata":{"title":".ごっちの日記"}}},"pageContext":{}},
-    "staticQueryHashes": ["2137539840","2201837728"]}
+    "staticQueryHashes": ["2137539840","2183174749"]}

@@ -16,14 +16,51 @@ exports[`bio renders correctly 1`] = `
       <div>
         <p
           className="text-3xl mb-2"
-        />
+        >
+          Yuta Goto
+        </p>
         <p
           className="text-xl"
-        />
+        >
+          エンジニアです。
+        </p>
       </div>
       <div
         className="flex-1 flex space-x-6"
-      />
+      >
+        <a
+          area-label="twitter"
+          className="object-bottom"
+          href="https://twitter.com/gggooottto"
+          rel="noreferrer noopener"
+          target="_blank"
+        >
+          <span
+            className="icon"
+          >
+            <i
+              aria-hidden="true"
+              className="fab fa-twitter fa-lg"
+            />
+          </span>
+        </a>
+        <a
+          area-label="github"
+          className="object-bottom"
+          href="https://github.com/YutaGoto"
+          rel="noreferrer noopener"
+          target="_blank"
+        >
+          <span
+            className="icon"
+          >
+            <i
+              aria-hidden="true"
+              className="fab fa-github fa-lg"
+            />
+          </span>
+        </a>
+      </div>
     </div>
   </div>
 </div>

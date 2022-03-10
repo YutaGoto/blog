@@ -9588,6 +9588,29 @@ __metadata:
   languageName: node
   linkType: hard
 
+"gatsby-core-utils@npm:^3.9.1":
+  version: 3.9.1
+  resolution: "gatsby-core-utils@npm:3.9.1"
+  dependencies:
+    "@babel/runtime": ^7.15.4
+    ci-info: 2.0.0
+    configstore: ^5.0.1
+    fastq: ^1.13.0
+    file-type: ^16.5.3
+    fs-extra: ^10.0.0
+    got: ^11.8.3
+    import-from: ^4.0.0
+    lmdb: ^2.1.7
+    lock: ^1.1.0
+    node-object-hash: ^2.3.10
+    proper-lockfile: ^4.1.2
+    resolve-from: ^5.0.0
+    tmp: ^0.2.1
+    xdg-basedir: ^4.0.0
+  checksum: 751799daf3d2d2b5740db900216a664f8f22e38c845b0522b2c70cdb98661723170c4af9121f30a023ca12f2b345524d817a253479212652e5fb882ae5b455a8
+  languageName: node
+  linkType: hard
+
 "gatsby-graphiql-explorer@npm:^2.9.0":
   version: 2.9.0
   resolution: "gatsby-graphiql-explorer@npm:2.9.0"
@@ -9963,14 +9986,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"gatsby-remark-images@npm:^6.9.0":
-  version: 6.9.0
-  resolution: "gatsby-remark-images@npm:6.9.0"
+"gatsby-remark-images@npm:^6.9.1":
+  version: 6.9.1
+  resolution: "gatsby-remark-images@npm:6.9.1"
   dependencies:
     "@babel/runtime": ^7.15.4
     chalk: ^4.1.2
     cheerio: ^1.0.0-rc.10
-    gatsby-core-utils: ^3.9.0
+    gatsby-core-utils: ^3.9.1
     is-relative-url: ^3.0.0
     lodash: ^4.17.21
     mdast-util-definitions: ^4.0.0
@@ -9981,7 +10004,7 @@ __metadata:
   peerDependencies:
     gatsby: ^4.0.0-next
     gatsby-plugin-sharp: ^4.0.0-next
-  checksum: 9fb194fbf7b79950fc94424c929f530db4bd2df10c03f274399ed23dbdd4083e5b79487b56e41cc06b0ed1834c406efbb58dd20245089399fc83ef9c9edddc2b
+  checksum: 2b71a5fef102a5daa9badab4efe177d37747ae76610d1447c2722b49e203f88c373bc3454c3157d731b2978d0135be3d553e38173530866e1634c51e845c64a7
   languageName: node
   linkType: hard
 
@@ -21834,7 +21857,7 @@ __metadata:
     gatsby-plugin-twitter: ^4.8.0
     gatsby-plugin-typegen: ^2.2.4
     gatsby-remark-copy-linked-files: ^5.8.0
-    gatsby-remark-images: ^6.9.0
+    gatsby-remark-images: ^6.9.1
     gatsby-remark-prismjs: ^6.8.0
     gatsby-remark-responsive-iframe: ^5.8.0
     gatsby-remark-smartypants: ^5.8.0

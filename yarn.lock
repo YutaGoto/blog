@@ -10061,15 +10061,15 @@ __metadata:
   languageName: node
   linkType: hard
 
-"gatsby-source-filesystem@npm:^4.9.0":
-  version: 4.9.0
-  resolution: "gatsby-source-filesystem@npm:4.9.0"
+"gatsby-source-filesystem@npm:^4.9.1":
+  version: 4.9.1
+  resolution: "gatsby-source-filesystem@npm:4.9.1"
   dependencies:
     "@babel/runtime": ^7.15.4
     chokidar: ^3.5.2
     file-type: ^16.5.3
     fs-extra: ^10.0.0
-    gatsby-core-utils: ^3.9.0
+    gatsby-core-utils: ^3.9.1
     got: ^9.6.0
     md5-file: ^5.0.0
     mime: ^2.5.2
@@ -10079,7 +10079,7 @@ __metadata:
     xstate: ^4.26.1
   peerDependencies:
     gatsby: ^4.0.0-next
-  checksum: fa49a2d129cc9918c3f9d7f4c2ec763d4198df1e8b19459daf14958fe3cfc96182bc4d877d1cdf62631631d482ad539d64cdcb69ce8dcf9f3366a66737a68856
+  checksum: d59c3b86cc4bc460b17e70948e272a9cb87c112f4fefb6d69e141beaee3dea8490c53e4dc185a71e33ba857ca7962c66fdc3dcb05a39d7cd44d16b52b34c6f1a
   languageName: node
   linkType: hard
 
@@ -21861,7 +21861,7 @@ __metadata:
     gatsby-remark-prismjs: ^6.8.0
     gatsby-remark-responsive-iframe: ^5.8.0
     gatsby-remark-smartypants: ^5.8.0
-    gatsby-source-filesystem: ^4.9.0
+    gatsby-source-filesystem: ^4.9.1
     gatsby-transformer-remark: ^5.9.0
     gatsby-transformer-sharp: ^4.8.0
     gh-pages: ^3.1.0

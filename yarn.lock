@@ -9588,6 +9588,29 @@ __metadata:
   languageName: node
   linkType: hard
 
+"gatsby-core-utils@npm:^3.9.1":
+  version: 3.9.1
+  resolution: "gatsby-core-utils@npm:3.9.1"
+  dependencies:
+    "@babel/runtime": ^7.15.4
+    ci-info: 2.0.0
+    configstore: ^5.0.1
+    fastq: ^1.13.0
+    file-type: ^16.5.3
+    fs-extra: ^10.0.0
+    got: ^11.8.3
+    import-from: ^4.0.0
+    lmdb: ^2.1.7
+    lock: ^1.1.0
+    node-object-hash: ^2.3.10
+    proper-lockfile: ^4.1.2
+    resolve-from: ^5.0.0
+    tmp: ^0.2.1
+    xdg-basedir: ^4.0.0
+  checksum: 751799daf3d2d2b5740db900216a664f8f22e38c845b0522b2c70cdb98661723170c4af9121f30a023ca12f2b345524d817a253479212652e5fb882ae5b455a8
+  languageName: node
+  linkType: hard
+
 "gatsby-graphiql-explorer@npm:^2.9.0":
   version: 2.9.0
   resolution: "gatsby-graphiql-explorer@npm:2.9.0"
@@ -9772,13 +9795,13 @@ __metadata:
   languageName: node
   linkType: hard
 
-"gatsby-plugin-offline@npm:^5.9.0":
-  version: 5.9.0
-  resolution: "gatsby-plugin-offline@npm:5.9.0"
+"gatsby-plugin-offline@npm:^5.9.1":
+  version: 5.9.1
+  resolution: "gatsby-plugin-offline@npm:5.9.1"
   dependencies:
     "@babel/runtime": ^7.15.4
     cheerio: ^1.0.0-rc.10
-    gatsby-core-utils: ^3.9.0
+    gatsby-core-utils: ^3.9.1
     glob: ^7.2.0
     idb-keyval: ^3.2.0
     lodash: ^4.17.21
@@ -9787,7 +9810,7 @@ __metadata:
     gatsby: ^4.0.0-next
     react: ^16.9.0 || ^17.0.0
     react-dom: ^16.9.0 || ^17.0.0
-  checksum: f07c3dacf04b5804ac19f14b02779c7b3a4dbcd9c417b8382b2031c3dfe3afe1ac2e4e8579a79e63577f9d79dedb1e17c1cb560e6179802590d4731c8860dd88
+  checksum: d22c8b39763ea7cddcddce57159c04569cd0b754d56d67af5effafad0f8825eb597e79ce35d1207775045564c3d43c75b4568a88eda263090e46a34ebc7d4350
   languageName: node
   linkType: hard
 
@@ -21827,7 +21850,7 @@ __metadata:
     gatsby-plugin-google-gtag: ^4.8.0
     gatsby-plugin-image: ^2.9.0
     gatsby-plugin-manifest: ^4.9.0
-    gatsby-plugin-offline: ^5.9.0
+    gatsby-plugin-offline: ^5.9.1
     gatsby-plugin-react-helmet: ^5.8.0
     gatsby-plugin-sass: ^5.8.0
     gatsby-plugin-sharp: ^4.9.0

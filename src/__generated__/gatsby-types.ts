@@ -628,6 +628,7 @@ declare namespace GatsbyTypes {
     readonly title: Maybe<Scalars["String"]>
     readonly description: Maybe<Scalars["String"]>
     readonly date: Maybe<Scalars["Date"]>
+    readonly tags: Maybe<ReadonlyArray<Maybe<Scalars["String"]>>>
   }
 
   type Frontmatter_dateArgs = {
@@ -975,6 +976,7 @@ declare namespace GatsbyTypes {
     readonly title: Maybe<StringQueryOperatorInput>
     readonly description: Maybe<StringQueryOperatorInput>
     readonly date: Maybe<DateQueryOperatorInput>
+    readonly tags: Maybe<StringQueryOperatorInput>
   }
 
   type FieldsFilterInput = {
@@ -1184,6 +1186,7 @@ declare namespace GatsbyTypes {
     | "childrenMarkdownRemark.frontmatter.title"
     | "childrenMarkdownRemark.frontmatter.description"
     | "childrenMarkdownRemark.frontmatter.date"
+    | "childrenMarkdownRemark.frontmatter.tags"
     | "childrenMarkdownRemark.fields.slug"
     | "childrenMarkdownRemark.excerpt"
     | "childrenMarkdownRemark.rawMarkdownBody"
@@ -1241,6 +1244,7 @@ declare namespace GatsbyTypes {
     | "childMarkdownRemark.frontmatter.title"
     | "childMarkdownRemark.frontmatter.description"
     | "childMarkdownRemark.frontmatter.date"
+    | "childMarkdownRemark.frontmatter.tags"
     | "childMarkdownRemark.fields.slug"
     | "childMarkdownRemark.excerpt"
     | "childMarkdownRemark.rawMarkdownBody"
@@ -2912,6 +2916,7 @@ declare namespace GatsbyTypes {
     | "frontmatter.title"
     | "frontmatter.description"
     | "frontmatter.date"
+    | "frontmatter.tags"
     | "fields.slug"
     | "excerpt"
     | "rawMarkdownBody"
@@ -3256,29 +3261,6 @@ declare namespace GatsbyTypes {
     readonly order: Maybe<ReadonlyArray<Maybe<SortOrderEnum>>>
   }
 
-  type NotFoundQueryVariables = Exact<{ [key: string]: never }>
-
-  type NotFoundQuery = {
-    readonly site: Maybe<{
-      readonly siteMetadata: Maybe<Pick<SiteSiteMetadata, "title">>
-    }>
-  }
-
-  type staticHomeyougotoprojectsblogsrccomponentsseoTsx2137539840QueryVariables =
-    Exact<{ [key: string]: never }>
-
-  type staticHomeyougotoprojectsblogsrccomponentsseoTsx2137539840Query = {
-    readonly site: Maybe<{
-      readonly siteMetadata: Maybe<
-        Pick<SiteSiteMetadata, "title" | "description"> & {
-          readonly social: Maybe<
-            ReadonlyArray<Maybe<Pick<Social, "name" | "url">>>
-          >
-        }
-      >
-    }>
-  }
-
   type BlogIndexQueryVariables = Exact<{ [key: string]: never }>
 
   type BlogIndexQuery = {
@@ -3290,11 +3272,25 @@ declare namespace GatsbyTypes {
         Pick<MarkdownRemark, "excerpt"> & {
           readonly fields: Maybe<Pick<Fields, "slug">>
           readonly frontmatter: Maybe<
-            Pick<Frontmatter, "date" | "title" | "description">
+            Pick<Frontmatter, "date" | "title" | "description" | "tags">
           >
         }
       >
     }
+  }
+
+  type Unnamed_1_QueryVariables = Exact<{ [key: string]: never }>
+
+  type Unnamed_1_Query = {
+    readonly site: Maybe<{
+      readonly siteMetadata: Maybe<
+        Pick<SiteSiteMetadata, "title" | "description"> & {
+          readonly social: Maybe<
+            ReadonlyArray<Maybe<Pick<Social, "name" | "url">>>
+          >
+        }
+      >
+    }>
   }
 
   type BlogPostBySlugQueryVariables = Exact<{
@@ -3322,6 +3318,14 @@ declare namespace GatsbyTypes {
     readonly next: Maybe<{
       readonly fields: Maybe<Pick<Fields, "slug">>
       readonly frontmatter: Maybe<Pick<Frontmatter, "title">>
+    }>
+  }
+
+  type NotFoundQueryVariables = Exact<{ [key: string]: never }>
+
+  type NotFoundQuery = {
+    readonly site: Maybe<{
+      readonly siteMetadata: Maybe<Pick<SiteSiteMetadata, "title">>
     }>
   }
 

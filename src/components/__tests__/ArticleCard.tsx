@@ -13,6 +13,7 @@ describe("ArticleCard", () => {
       date: "December 23, 2021",
       title: "アイマスもくもく会2021年まとめ",
       description: "2021年もアイマスもくもく会でしたよ",
+      tags: ["アイマス"],
     },
   }
 

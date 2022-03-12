@@ -28,6 +28,15 @@ exports[`ArticleCard renders correctly 1`] = `
           December 23, 2021
         </div>
         <div
+          className="mb-2"
+        >
+          <span
+            className="mr-1 py-1 px-2 rounded text-sm bg-emerald-800"
+          >
+            アイマス
+          </span>
+        </div>
+        <div
           className="text-base"
           dangerouslySetInnerHTML={
             Object {

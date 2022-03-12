@@ -10138,12 +10138,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"gatsby-transformer-remark@npm:^5.9.0":
-  version: 5.9.0
-  resolution: "gatsby-transformer-remark@npm:5.9.0"
+"gatsby-transformer-remark@npm:^5.9.1":
+  version: 5.9.1
+  resolution: "gatsby-transformer-remark@npm:5.9.1"
   dependencies:
     "@babel/runtime": ^7.15.4
-    gatsby-core-utils: ^3.9.0
+    gatsby-core-utils: ^3.9.1
     gray-matter: ^4.0.3
     hast-util-raw: ^6.0.2
     hast-util-to-html: ^7.1.3
@@ -10166,7 +10166,7 @@ __metadata:
     unist-util-visit: ^2.0.3
   peerDependencies:
     gatsby: ^4.0.0-next
-  checksum: 409b3c7168df0fb43993709b8496cb7eb1d48b4efde719a9e62ae0b71e65ed3e63eeaa96c79db558f4c83ea822872d55914e2d876e6baf7342369478d6eed138
+  checksum: 60c5cdb28a9be3828544f348b9b7244e0b6a9ccc032501fcaa063d9160dedc59b3338c64d27698e3d071069b65b6bc15a43063e65c0e106acb98b6b994c9d68e
   languageName: node
   linkType: hard
 
@@ -21896,7 +21896,7 @@ __metadata:
     gatsby-remark-responsive-iframe: ^5.8.0
     gatsby-remark-smartypants: ^5.8.0
     gatsby-source-filesystem: ^4.9.1
-    gatsby-transformer-remark: ^5.9.0
+    gatsby-transformer-remark: ^5.9.1
     gatsby-transformer-sharp: ^4.8.0
     gh-pages: ^3.1.0
     identity-obj-proxy: ^3.0.0

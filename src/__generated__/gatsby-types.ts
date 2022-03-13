@@ -3261,6 +3261,28 @@ declare namespace GatsbyTypes {
     readonly order: Maybe<ReadonlyArray<Maybe<SortOrderEnum>>>
   }
 
+  type Unnamed_1_QueryVariables = Exact<{ [key: string]: never }>
+
+  type Unnamed_1_Query = {
+    readonly site: Maybe<{
+      readonly siteMetadata: Maybe<
+        Pick<SiteSiteMetadata, "title" | "description"> & {
+          readonly social: Maybe<
+            ReadonlyArray<Maybe<Pick<Social, "name" | "url">>>
+          >
+        }
+      >
+    }>
+  }
+
+  type NotFoundQueryVariables = Exact<{ [key: string]: never }>
+
+  type NotFoundQuery = {
+    readonly site: Maybe<{
+      readonly siteMetadata: Maybe<Pick<SiteSiteMetadata, "title">>
+    }>
+  }
+
   type BlogIndexQueryVariables = Exact<{ [key: string]: never }>
 
   type BlogIndexQuery = {
@@ -3279,18 +3301,17 @@ declare namespace GatsbyTypes {
     }
   }
 
-  type Unnamed_1_QueryVariables = Exact<{ [key: string]: never }>
+  type TagPageQueryVariables = Exact<{ [key: string]: never }>
 
-  type Unnamed_1_Query = {
+  type TagPageQuery = {
     readonly site: Maybe<{
-      readonly siteMetadata: Maybe<
-        Pick<SiteSiteMetadata, "title" | "description"> & {
-          readonly social: Maybe<
-            ReadonlyArray<Maybe<Pick<Social, "name" | "url">>>
-          >
-        }
-      >
+      readonly siteMetadata: Maybe<Pick<SiteSiteMetadata, "title">>
     }>
+    readonly allMarkdownRemark: {
+      readonly group: ReadonlyArray<
+        Pick<MarkdownRemarkGroupConnection, "fieldValue" | "totalCount">
+      >
+    }
   }
 
   type BlogPostBySlugQueryVariables = Exact<{
@@ -3321,12 +3342,19 @@ declare namespace GatsbyTypes {
     }>
   }
 
-  type NotFoundQueryVariables = Exact<{ [key: string]: never }>
+  type TagQueryVariables = Exact<{
+    tag: Maybe<Scalars["String"]>
+  }>
 
-  type NotFoundQuery = {
-    readonly site: Maybe<{
-      readonly siteMetadata: Maybe<Pick<SiteSiteMetadata, "title">>
-    }>
+  type TagQuery = {
+    readonly allMarkdownRemark: Pick<MarkdownRemarkConnection, "totalCount"> & {
+      readonly edges: ReadonlyArray<{
+        readonly node: {
+          readonly fields: Maybe<Pick<Fields, "slug">>
+          readonly frontmatter: Maybe<Pick<Frontmatter, "title">>
+        }
+      }>
+    }
   }
 
   type GatsbyImageSharpFixedFragment = Pick<

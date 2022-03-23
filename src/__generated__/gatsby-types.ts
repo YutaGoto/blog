@@ -3275,14 +3275,6 @@ declare namespace GatsbyTypes {
     }>
   }
 
-  type NotFoundQueryVariables = Exact<{ [key: string]: never }>
-
-  type NotFoundQuery = {
-    readonly site: Maybe<{
-      readonly siteMetadata: Maybe<Pick<SiteSiteMetadata, "title">>
-    }>
-  }
-
   type BlogIndexQueryVariables = Exact<{ [key: string]: never }>
 
   type BlogIndexQuery = {
@@ -3301,17 +3293,12 @@ declare namespace GatsbyTypes {
     }
   }
 
-  type TagPageQueryVariables = Exact<{ [key: string]: never }>
+  type NotFoundQueryVariables = Exact<{ [key: string]: never }>
 
-  type TagPageQuery = {
+  type NotFoundQuery = {
     readonly site: Maybe<{
       readonly siteMetadata: Maybe<Pick<SiteSiteMetadata, "title">>
     }>
-    readonly allMarkdownRemark: {
-      readonly group: ReadonlyArray<
-        Pick<MarkdownRemarkGroupConnection, "fieldValue" | "totalCount">
-      >
-    }
   }
 
   type BlogPostBySlugQueryVariables = Exact<{
@@ -3340,21 +3327,6 @@ declare namespace GatsbyTypes {
       readonly fields: Maybe<Pick<Fields, "slug">>
       readonly frontmatter: Maybe<Pick<Frontmatter, "title">>
     }>
-  }
-
-  type TagQueryVariables = Exact<{
-    tag: Maybe<Scalars["String"]>
-  }>
-
-  type TagQuery = {
-    readonly allMarkdownRemark: Pick<MarkdownRemarkConnection, "totalCount"> & {
-      readonly edges: ReadonlyArray<{
-        readonly node: {
-          readonly fields: Maybe<Pick<Fields, "slug">>
-          readonly frontmatter: Maybe<Pick<Frontmatter, "title">>
-        }
-      }>
-    }
   }
 
   type GatsbyImageSharpFixedFragment = Pick<
@@ -3439,6 +3411,34 @@ declare namespace GatsbyTypes {
     ImageSharpFluid,
     "aspectRatio" | "src" | "srcSet" | "srcWebp" | "srcSetWebp" | "sizes"
   >
+
+  type TagPageQueryVariables = Exact<{ [key: string]: never }>
+
+  type TagPageQuery = {
+    readonly site: Maybe<{
+      readonly siteMetadata: Maybe<Pick<SiteSiteMetadata, "title">>
+    }>
+    readonly allMarkdownRemark: {
+      readonly group: ReadonlyArray<
+        Pick<MarkdownRemarkGroupConnection, "fieldValue" | "totalCount">
+      >
+    }
+  }
+
+  type TagQueryVariables = Exact<{
+    tag: Maybe<Scalars["String"]>
+  }>
+
+  type TagQuery = {
+    readonly allMarkdownRemark: Pick<MarkdownRemarkConnection, "totalCount"> & {
+      readonly edges: ReadonlyArray<{
+        readonly node: {
+          readonly fields: Maybe<Pick<Fields, "slug">>
+          readonly frontmatter: Maybe<Pick<Frontmatter, "title">>
+        }
+      }>
+    }
+  }
 
   type PagesQueryQueryVariables = Exact<{ [key: string]: never }>
 

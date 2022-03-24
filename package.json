@@ -12,7 +12,7 @@
     "@fortawesome/react-fontawesome": "^0.1.17",
     "babel-jest": "^27.5.1",
     "babel-preset-gatsby": "^2.8.1",
-    "gatsby": "^4.9.2",
+    "gatsby": "^4.10.3",
     "gatsby-plugin-feed": "^4.8.0",
     "gatsby-plugin-fontawesome-css": "^1.2.0",
     "gatsby-plugin-gatsby-cloud": "^4.9.1",

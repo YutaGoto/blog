@@ -1,7 +1,10 @@
 import React, { FC } from "react"
 import { Link, graphql, PageProps } from "gatsby"
 
-const Tags: FC<PageProps<GatsbyTypes.TagQuery>> = ({ pageContext, data }) => {
+const BlogTagTemplate: FC<PageProps<GatsbyTypes.BlogTagByNameQuery>> = ({
+  pageContext,
+  data,
+}) => {
   const { tag } = pageContext
   const { edges, totalCount } = data.allMarkdownRemark
   const tagHeader = `${totalCount} post${
@@ -26,10 +29,10 @@ const Tags: FC<PageProps<GatsbyTypes.TagQuery>> = ({ pageContext, data }) => {
   )
 }
 
-export default Tags
+export default BlogTagTemplate
 
 export const tagQuery = graphql`
-  query Tag($tag: String) {
+  query BlogTagByName($tag: String) {
     allMarkdownRemark(
       limit: 2000
       sort: { fields: [frontmatter___date], order: DESC }

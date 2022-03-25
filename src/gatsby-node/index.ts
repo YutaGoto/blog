@@ -1,5 +1,5 @@
 import path from "path"
-import { GatsbyNode, Actions } from "gatsby"
+import { GatsbyNode } from "gatsby"
 import { createFilePath } from "gatsby-source-filesystem"
 
 export const createPages: GatsbyNode["createPages"] = async ({
@@ -9,13 +9,14 @@ export const createPages: GatsbyNode["createPages"] = async ({
 }) => {
   const { createPage } = actions
 
-  // Define a template for blog post
-  const blogPost = path.resolve(`./src/templates/blog-post.tsx`)
-  const tagPage = path.resolve(`./src/templates/tags.tsx`)
+  // Define a template for blog post and tags
+  const blogPage = path.resolve(`src/templates/blog-post.tsx`)
+  const tagPage = path.resolve(`src/templates/blog-tag.tsx`)
 
-  // Get all markdown blog posts sorted by date
+  // Get all markdown blog posts and tags sorted by date
   const result = await graphql<{
-    allMarkdownRemark: GatsbyTypes.Query["allMarkdownRemark"]
+    postsRemark: GatsbyTypes.Query["allMarkdownRemark"]
+    tagsGroup: GatsbyTypes.Query["allMarkdownRemark"]
   }>(
     `
       {
@@ -44,16 +45,16 @@ export const createPages: GatsbyNode["createPages"] = async ({
 
   if (result.errors) {
     reporter.panicOnBuild(
-      `There was an error loading your blog posts`,
+      `There was an error loading your blog posts or tags`,
       result.errors
     )
     return
   }
 
-  const posts = result.data?.allMarkdownRemark?.nodes
-  // const tags = result.data?.allMarkdownRemark?.nodes
+  const posts = result.data?.postsRemark?.nodes
+  const tags = result.data?.tagsGroup?.group
 
-  if (!posts) {
+  if (!posts || !tags) {
     return
   }
 
@@ -64,7 +65,7 @@ export const createPages: GatsbyNode["createPages"] = async ({
 
       createPage({
         path: post?.fields?.slug || "",
-        component: blogPost,
+        component: blogPage,
         context: {
           id: post.id,
           previousPostId,
@@ -75,15 +76,17 @@ export const createPages: GatsbyNode["createPages"] = async ({
   }
 
   // Make tag pages
-  // tags.forEach(tag => {
-  //   createPage({
-  //     path: `/tags/${tag.fieldValue}/`,
-  //     component: tagPage,
-  //     context: {
-  //       tag: tag.fieldValue,
-  //     },
-  //   })
-  // })
+  if (tags.length > 0) {
+    tags.forEach(tag => {
+      createPage({
+        path: `/tags/${tag.fieldValue}/`,
+        component: tagPage,
+        context: {
+          tag: tag.fieldValue,
+        },
+      })
+    })
+  }
 }
 
 export const onCreateNode: GatsbyNode["onCreateNode"] = ({

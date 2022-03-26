@@ -7,7 +7,7 @@ import {
   TwitterIcon,
 } from "react-share"
 
-import { Bio, ButtonLink, Layout } from "../components"
+import { Bio, ButtonLink, Layout, Tag } from "../components"
 import Seo from "../components/seo"
 
 const BlogPostTemplate: FC<PageProps<GatsbyTypes.BlogPostBySlugQuery>> = ({
@@ -36,7 +36,12 @@ const BlogPostTemplate: FC<PageProps<GatsbyTypes.BlogPostBySlugQuery>> = ({
             <h1 itemProp="headline" className="text-4xl font-extrabold mb-2">
               {post?.frontmatter?.title}
             </h1>
-            <p className="text-md">{post?.frontmatter?.date}</p>
+            <p className="text-md mb-2">{post?.frontmatter?.date}</p>
+            <div>
+              {post?.frontmatter?.tags?.map(tag => (
+                <Tag className="mr-1" key={tag} tag={tag} />
+              ))}
+            </div>
             <section
               dangerouslySetInnerHTML={{ __html: post?.html || "" }}
               itemProp="articleBody"
@@ -117,6 +122,7 @@ export const pageQuery = graphql`
         title
         date(formatString: "MMMM DD, YYYY")
         description
+        tags
       }
     }
     previous: markdownRemark(id: { eq: $previousPostId }) {

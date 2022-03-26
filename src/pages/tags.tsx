@@ -1,7 +1,7 @@
 import React, { FC } from "react"
 import { Link, graphql, PageProps } from "gatsby"
 import Seo from "../components/seo"
-import { Layout } from "../components"
+import { Layout, Tag } from "../components"
 
 const TagsPage: FC<PageProps<GatsbyTypes.TagPageQuery>> = ({
   data: { allMarkdownRemark, site },
@@ -14,18 +14,20 @@ const TagsPage: FC<PageProps<GatsbyTypes.TagPageQuery>> = ({
     <Layout location={location} title={title || ""}>
       <Seo title={title} />
 
-      <>
-        <h1>{title}</h1>
-        <ul>
-          {group.map(tag => (
-            <li key={tag.fieldValue}>
-              <Link to={`/tags/${tag.fieldValue}/`}>
-                {tag.fieldValue} ({tag.totalCount})
-              </Link>
-            </li>
-          ))}
-        </ul>
-      </>
+      <h1 itemProp="headline" className="text-4xl font-extrabold mb-2">
+        タグ一覧
+      </h1>
+
+      <div className="my-2">
+        {group.map(tag => (
+          <Link to={`/tags/${tag.fieldValue}/`}>
+            <Tag
+              className="mr-1"
+              tag={`${tag.fieldValue} (${tag.totalCount})`}
+            />
+          </Link>
+        ))}
+      </div>
     </Layout>
   )
 }

@@ -1,0 +1,9 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Tab renders correctly 1`] = `
+<span
+  className=" py-1 px-2 rounded text-sm bg-emerald-800"
+>
+  タグ
+</span>
+`;

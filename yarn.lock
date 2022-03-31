@@ -7671,7 +7671,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"deepmerge@npm:^4.0, deepmerge@npm:^4.0.0, deepmerge@npm:^4.2.2":
+"deepmerge@npm:^4.0, deepmerge@npm:^4.2.2":
   version: 4.2.2
   resolution: "deepmerge@npm:4.2.2"
   checksum: a8c43a1ed8d6d1ed2b5bf569fa4c8eb9f0924034baf75d5d406e47e157a451075c4db353efea7b6bcc56ec48116a8ce72fccf867b6e078e7c561904b5897530b
@@ -10244,22 +10244,22 @@ __metadata:
   languageName: node
   linkType: hard
 
-"gatsby-transformer-sharp@npm:^4.8.0":
-  version: 4.9.0
-  resolution: "gatsby-transformer-sharp@npm:4.9.0"
+"gatsby-transformer-sharp@npm:^4.11.0":
+  version: 4.11.0
+  resolution: "gatsby-transformer-sharp@npm:4.11.0"
   dependencies:
     "@babel/runtime": ^7.15.4
     bluebird: ^3.7.2
     common-tags: ^1.8.2
     fs-extra: ^10.0.0
     potrace: ^2.1.8
-    probe-image-size: ^6.0.0
+    probe-image-size: ^7.0.0
     semver: ^7.3.5
     sharp: ^0.30.1
   peerDependencies:
     gatsby: ^4.0.0-next
     gatsby-plugin-sharp: ^4.0.0-next
-  checksum: 538b6af6509fad91336e032ed9f65051a0259e269aee19bcb7d572a5ec97cde83a0080b8af251ed028bb7d111e9d174f586d9bb20f8e20b65169a8aac02c3111
+  checksum: f4e09696d7adf84e5611a00a666b6434eb2bd45e85d7ea52a47780dd5fd29c9b445a5f830251033b878c9b9763b4bc7e9349b8121cf32cc37082f4f2beb29e91
   languageName: node
   linkType: hard
 
@@ -16647,17 +16647,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"probe-image-size@npm:^6.0.0":
-  version: 6.0.0
-  resolution: "probe-image-size@npm:6.0.0"
-  dependencies:
-    deepmerge: ^4.0.0
-    needle: ^2.5.2
-    stream-parser: ~0.3.1
-  checksum: 5fb44cf831b0b925b6eae58144761c6118b76c62e5daf33a35721fe140ca1a4f659e8f7195e13261b4c97ad827f1f765a3dd805d424ddfdef00d8c7737834f6e
-  languageName: node
-  linkType: hard
-
 "probe-image-size@npm:^7.0.0":
   version: 7.2.3
   resolution: "probe-image-size@npm:7.2.3"
@@ -21983,7 +21972,7 @@ __metadata:
     gatsby-remark-smartypants: ^5.11.0
     gatsby-source-filesystem: ^4.9.1
     gatsby-transformer-remark: ^5.9.1
-    gatsby-transformer-sharp: ^4.8.0
+    gatsby-transformer-sharp: ^4.11.0
     gh-pages: ^3.1.0
     identity-obj-proxy: ^3.0.0
     jest: ^27.5.1

@@ -9959,14 +9959,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"gatsby-plugin-twitter@npm:^4.8.0":
-  version: 4.9.0
-  resolution: "gatsby-plugin-twitter@npm:4.9.0"
+"gatsby-plugin-twitter@npm:^4.11.0":
+  version: 4.11.0
+  resolution: "gatsby-plugin-twitter@npm:4.11.0"
   dependencies:
     "@babel/runtime": ^7.15.4
   peerDependencies:
     gatsby: ^4.0.0-next
-  checksum: 23d2f4168b82287d0cf71cbfe0465e2ae098f5997e6f633e4bccc57a1ae0311a21f03d272aa7b9be34905f0fd4a0f521807c664407963b0797d89ac91eaea1d0
+  checksum: b29c75586b154b5417aa97d5ded54b62f6020bee90433a415c550f414214e317a732ca2190ab4424372add1bfaad3e8d41e9cb4d61290e6c667d892d85ab766f
   languageName: node
   linkType: hard
 
@@ -21974,7 +21974,7 @@ __metadata:
     gatsby-plugin-react-helmet: ^5.10.0
     gatsby-plugin-sass: ^5.10.2
     gatsby-plugin-sharp: ^4.10.2
-    gatsby-plugin-twitter: ^4.8.0
+    gatsby-plugin-twitter: ^4.11.0
     gatsby-plugin-typegen: ^2.2.4
     gatsby-remark-copy-linked-files: ^5.10.0
     gatsby-remark-images: ^6.9.1

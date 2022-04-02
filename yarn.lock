@@ -5762,9 +5762,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"babel-preset-gatsby@npm:^2.8.1":
-  version: 2.9.0
-  resolution: "babel-preset-gatsby@npm:2.9.0"
+"babel-preset-gatsby@npm:^2.11.1":
+  version: 2.11.1
+  resolution: "babel-preset-gatsby@npm:2.11.1"
   dependencies:
     "@babel/plugin-proposal-class-properties": ^7.14.0
     "@babel/plugin-proposal-nullish-coalescing-operator": ^7.14.5
@@ -5779,12 +5779,12 @@ __metadata:
     babel-plugin-dynamic-import-node: ^2.3.3
     babel-plugin-macros: ^2.8.0
     babel-plugin-transform-react-remove-prop-types: ^0.4.24
-    gatsby-core-utils: ^3.9.0
-    gatsby-legacy-polyfills: ^2.9.0
+    gatsby-core-utils: ^3.11.1
+    gatsby-legacy-polyfills: ^2.11.0
   peerDependencies:
     "@babel/core": ^7.11.6
     core-js: ^3.0.0
-  checksum: a54ea9ed24a12fb4fcab08aa94f3310bec486623144d9d683eb9ed5c07163d7018486180dcb9c17d0dd0dea500d265db2e04648f73942c0c1a12a36b2d36d2d2
+  checksum: dd23b8b9910cf92b7e0b9c255cad7238b62202307ee18ec292ef89e29b136a8e5fb27cd56479c3165855c48988d4eb5a3dc1fbc197ebefe478634f979d9cfea1
   languageName: node
   linkType: hard
 
@@ -9624,7 +9624,30 @@ __metadata:
   languageName: node
   linkType: hard
 
-"gatsby-core-utils@npm:^3.8.2, gatsby-core-utils@npm:^3.9.0":
+"gatsby-core-utils@npm:^3.11.1":
+  version: 3.11.1
+  resolution: "gatsby-core-utils@npm:3.11.1"
+  dependencies:
+    "@babel/runtime": ^7.15.4
+    ci-info: 2.0.0
+    configstore: ^5.0.1
+    fastq: ^1.13.0
+    file-type: ^16.5.3
+    fs-extra: ^10.0.0
+    got: ^11.8.3
+    import-from: ^4.0.0
+    lmdb: ^2.2.4
+    lock: ^1.1.0
+    node-object-hash: ^2.3.10
+    proper-lockfile: ^4.1.2
+    resolve-from: ^5.0.0
+    tmp: ^0.2.1
+    xdg-basedir: ^4.0.0
+  checksum: 93f3492a924bcf8fd25508ea6f4ba0396baa8d9f4b9ec303f59d55fc2a761d2da4b932f7be6b7e708d96ea07d98fd0dc2e7783c8b8ac03bb05ad006ca90f1858
+  languageName: node
+  linkType: hard
+
+"gatsby-core-utils@npm:^3.8.2":
   version: 3.9.0
   resolution: "gatsby-core-utils@npm:3.9.0"
   dependencies:
@@ -9689,13 +9712,13 @@ __metadata:
   languageName: node
   linkType: hard
 
-"gatsby-legacy-polyfills@npm:^2.9.0":
-  version: 2.9.0
-  resolution: "gatsby-legacy-polyfills@npm:2.9.0"
+"gatsby-legacy-polyfills@npm:^2.11.0":
+  version: 2.11.0
+  resolution: "gatsby-legacy-polyfills@npm:2.11.0"
   dependencies:
     "@babel/runtime": ^7.15.4
     core-js-compat: 3.9.0
-  checksum: 31072638a232b308a0fb485e68961057d028faa3455a7b1804634df6af9dc26793f5ce2ef8beddcdc6a1372ea0055eb0cc7d7e3985874572663ee61ad1fd5400
+  checksum: 753bda2913bc816f7f8477b01075b1715b8150f36aa53b3c303247cfaebcb216b932501bff2ed7d6fb27b1aca45e7bb98321668f210117ff1ff552180a1bde0f
   languageName: node
   linkType: hard
 
@@ -21951,7 +21974,7 @@ __metadata:
     "@types/react-test-renderer": ^17.0.1
     autoprefixer: ^10.4.2
     babel-jest: ^27.5.1
-    babel-preset-gatsby: ^2.8.1
+    babel-preset-gatsby: ^2.11.1
     gatsby: ^4.10.3
     gatsby-plugin-feed: ^4.8.0
     gatsby-plugin-fontawesome-css: ^1.2.0

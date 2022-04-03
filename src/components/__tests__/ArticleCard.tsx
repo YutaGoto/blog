@@ -1,5 +1,5 @@
 import React from "react"
-import renderer from "react-test-renderer"
+import { create } from "react-test-renderer"
 import { render } from "@testing-library/react"
 import { ArticleCard } from "../ArticleCard"
 
@@ -18,7 +18,7 @@ describe("ArticleCard", () => {
   }
 
   it("renders correctly", () => {
-    const tree = renderer.create(<ArticleCard post={post} />).toJSON()
+    const tree = create(<ArticleCard post={post} />).toJSON()
     expect(tree).toMatchSnapshot()
   })
 

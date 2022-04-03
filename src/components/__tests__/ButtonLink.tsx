@@ -1,13 +1,13 @@
 import React from "react"
-import renderer from "react-test-renderer"
+import { create } from "react-test-renderer"
 import { render } from "@testing-library/react"
 import { ButtonLink } from "../ButtonLink"
 
 describe("ButtonLink", () => {
   it("renders correctly", () => {
-    const tree = renderer
-      .create(<ButtonLink text="test" iconName="angle-left" linkTo="" rel="" />)
-      .toJSON()
+    const tree = create(
+      <ButtonLink text="test" iconName="angle-left" linkTo="" rel="" />
+    ).toJSON()
     expect(tree).toMatchSnapshot()
   })
 

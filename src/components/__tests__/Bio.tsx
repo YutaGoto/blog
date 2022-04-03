@@ -1,5 +1,5 @@
 import React from "react"
-import renderer from "react-test-renderer"
+import { create } from "react-test-renderer"
 import { render } from "@testing-library/react"
 import { PureBio as Bio } from "../Bio"
 
@@ -26,7 +26,7 @@ describe("bio", () => {
   }
 
   it("renders correctly", () => {
-    const tree = renderer.create(<Bio data={data} />).toJSON()
+    const tree = create(<Bio data={data} />).toJSON()
     expect(tree).toMatchSnapshot()
   })
 

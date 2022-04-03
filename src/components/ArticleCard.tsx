@@ -32,7 +32,7 @@ export const ArticleCard = ({ post }: ArticleCardProps) => {
             <div className="text-sm mb-2">{post.frontmatter?.date}</div>
             <div className="mb-2">
               {tags?.map(tag => (
-                <Tag className="mr-1" tag={tag} />
+                <Tag key={tag} className="mr-1" tag={tag} />
               ))}
             </div>
             <div

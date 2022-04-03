@@ -1,5 +1,5 @@
 import React from "react"
-import renderer from "react-test-renderer"
+import { create } from "react-test-renderer"
 import { render } from "@testing-library/react"
 import { Tag } from "../Tag"
 
@@ -7,7 +7,7 @@ describe("Tab", () => {
   const tag = "タグ"
 
   it("renders correctly", () => {
-    const tree = renderer.create(<Tag tag={tag} />).toJSON()
+    const tree = create(<Tag tag={tag} />).toJSON()
     expect(tree).toMatchSnapshot()
   })
 

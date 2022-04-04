@@ -1,5 +1,5 @@
 import React, { FC } from "react"
-import { Link, graphql, PageProps } from "gatsby"
+import { graphql, PageProps } from "gatsby"
 import { ArticleCard, Layout } from "../components"
 import Seo from "../components/seo"
 

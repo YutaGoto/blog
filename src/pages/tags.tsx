@@ -20,7 +20,7 @@ const TagsPage: FC<PageProps<GatsbyTypes.TagPageQuery>> = ({
 
       <div className="my-2">
         {group.map(tag => (
-          <Link to={`/tags/${tag.fieldValue}/`}>
+          <Link key={tag.fieldValue} to={`/tags/${tag.fieldValue}/`}>
             <Tag
               className="mr-1"
               tag={`${tag.fieldValue} (${tag.totalCount})`}

@@ -10282,9 +10282,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"gatsby-remark-copy-linked-files@npm:^5.11.0":
-  version: 5.11.0
-  resolution: "gatsby-remark-copy-linked-files@npm:5.11.0"
+"gatsby-remark-copy-linked-files@npm:^5.12.1":
+  version: 5.12.1
+  resolution: "gatsby-remark-copy-linked-files@npm:5.12.1"
   dependencies:
     "@babel/runtime": ^7.15.4
     cheerio: ^1.0.0-rc.10
@@ -10292,11 +10292,11 @@ __metadata:
     is-relative-url: ^3.0.0
     lodash: ^4.17.21
     path-is-inside: ^1.0.2
-    probe-image-size: ^7.0.0
+    probe-image-size: ^7.2.3
     unist-util-visit: ^2.0.3
   peerDependencies:
     gatsby: ^4.0.0-next
-  checksum: dd4e93caf8f9546afd1c5996bc6cf9543cb85fbc69b50d9adb61f05027651e5bf300cf8a43bf0f92c567b7adbbbfc43bf194661d35e0d5c1e6ac2a0f897d29ea
+  checksum: 30d5a5cedba120780afbc1a32cde4cebccfc0a7b7bffc3207e93b6509e055e7f52a0c095d375efbad636ba46b3035db6da33a52631919d106df8c8ba7e6e0e2c
   languageName: node
   linkType: hard
 
@@ -16939,7 +16939,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"probe-image-size@npm:^7.0.0":
+"probe-image-size@npm:^7.0.0, probe-image-size@npm:^7.2.3":
   version: 7.2.3
   resolution: "probe-image-size@npm:7.2.3"
   dependencies:
@@ -22267,7 +22267,7 @@ __metadata:
     gatsby-plugin-sharp: ^4.10.2
     gatsby-plugin-twitter: ^4.12.1
     gatsby-plugin-typegen: ^2.2.4
-    gatsby-remark-copy-linked-files: ^5.11.0
+    gatsby-remark-copy-linked-files: ^5.12.1
     gatsby-remark-images: ^6.9.1
     gatsby-remark-prismjs: ^6.12.1
     gatsby-remark-responsive-iframe: ^5.11.0

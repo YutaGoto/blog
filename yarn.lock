@@ -5800,6 +5800,19 @@ __metadata:
   languageName: node
   linkType: hard
 
+"babel-plugin-remove-graphql-queries@npm:^4.12.1":
+  version: 4.12.1
+  resolution: "babel-plugin-remove-graphql-queries@npm:4.12.1"
+  dependencies:
+    "@babel/runtime": ^7.15.4
+    gatsby-core-utils: ^3.12.1
+  peerDependencies:
+    "@babel/core": ^7.0.0
+    gatsby: ^4.0.0-next
+  checksum: 9734361640cc0216ebf2162e1b6068d159eb1f2111d38ac0c890761897334fe895eadb0467a87d695f344d81ae0d30c31e93ec990a765395f849359ed3d4169d
+  languageName: node
+  linkType: hard
+
 "babel-plugin-syntax-object-rest-spread@npm:^6.8.0":
   version: 6.13.0
   resolution: "babel-plugin-syntax-object-rest-spread@npm:6.13.0"
@@ -10060,23 +10073,23 @@ __metadata:
   languageName: node
   linkType: hard
 
-"gatsby-plugin-image@npm:^2.9.1":
-  version: 2.11.1
-  resolution: "gatsby-plugin-image@npm:2.11.1"
+"gatsby-plugin-image@npm:^2.12.1":
+  version: 2.12.1
+  resolution: "gatsby-plugin-image@npm:2.12.1"
   dependencies:
     "@babel/code-frame": ^7.14.0
     "@babel/parser": ^7.15.5
     "@babel/runtime": ^7.15.4
     "@babel/traverse": ^7.15.4
     babel-jsx-utils: ^1.1.0
-    babel-plugin-remove-graphql-queries: ^4.11.1
+    babel-plugin-remove-graphql-queries: ^4.12.1
     camelcase: ^5.3.1
     chokidar: ^3.5.2
     common-tags: ^1.8.2
     fs-extra: ^10.0.0
-    gatsby-core-utils: ^3.11.1
+    gatsby-core-utils: ^3.12.1
     objectFitPolyfill: ^2.3.5
-    prop-types: ^15.7.2
+    prop-types: ^15.8.1
   peerDependencies:
     "@babel/core": ^7.12.3
     gatsby: ^4.0.0-next
@@ -10084,7 +10097,7 @@ __metadata:
     gatsby-source-filesystem: ^4.0.0-next
     react: ^16.9.0 || ^17.0.0 || ^18.0.0
     react-dom: ^16.9.0 || ^17.0.0 || ^18.0.0
-  checksum: 26b96754222b2fe4e6ad5d68afc8b9b70a4d7c3b6e87e85419e16a34a0432e87152139b1c7e28bda698c34aefc1908f7451faba06dec713ebbdeab55b728a097
+  checksum: f12008e18c2fb5e5f02c1c6171ecac2dc44ff0be3052b8269df6b63a3f072631d50500683b02de9b97563904faaa759ba2d7737db2cc791c80e76206c0e8041d
   languageName: node
   linkType: hard
 
@@ -22259,7 +22272,7 @@ __metadata:
     gatsby-plugin-fontawesome-css: ^1.2.0
     gatsby-plugin-gatsby-cloud: ^4.9.1
     gatsby-plugin-google-gtag: ^4.12.1
-    gatsby-plugin-image: ^2.9.1
+    gatsby-plugin-image: ^2.12.1
     gatsby-plugin-manifest: ^4.9.1
     gatsby-plugin-offline: ^5.12.1
     gatsby-plugin-react-helmet: ^5.12.1

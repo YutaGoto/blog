@@ -1,0 +1,5 @@
+{
+    "componentChunkName": "component---src-templates-blog-tag-tsx",
+    "path": "/tags/imas_mokumoku/",
+    "result": {"data":{"site":{"siteMetadata":{"title":".ごっちの日記"}},"allMarkdownRemark":{"edges":[{"node":{"excerpt":"こんにちは、 .ごっちです。 2019 年夏くらいから始めたアイマスもくもく会ですが、2021 年現在も続けています。去年分は IM@S ENGINEERS ON@IR!!!! 2020 で発表しているのでそちらを見てください。 https://yutagoto.github.io/blog/20200927-im-s…","fields":{"slug":"/20211223-imas-mokumoku/"},"frontmatter":{"title":"アイマスもくもく会2021年まとめ","date":"December 23, 2021","description":"2021年もアイマスもくもく会でしたよ！","tags":["アイドルマスター","imas_mokumoku"]}}}]}},"pageContext":{"tag":"imas_mokumoku"}},
+    "staticQueryHashes": ["2137539840","2183174749"]}

@@ -3276,6 +3276,14 @@ declare namespace GatsbyTypes {
     }>
   }
 
+  type NotFoundQueryVariables = Exact<{ [key: string]: never }>
+
+  type NotFoundQuery = {
+    readonly site: Maybe<{
+      readonly siteMetadata: Maybe<Pick<SiteSiteMetadata, "title">>
+    }>
+  }
+
   type BlogIndexQueryVariables = Exact<{ [key: string]: never }>
 
   type BlogIndexQuery = {
@@ -3290,19 +3298,6 @@ declare namespace GatsbyTypes {
             Pick<Frontmatter, "date" | "title" | "description" | "tags">
           >
         }
-      >
-    }
-  }
-
-  type TagPageQueryVariables = Exact<{ [key: string]: never }>
-
-  type TagPageQuery = {
-    readonly site: Maybe<{
-      readonly siteMetadata: Maybe<Pick<SiteSiteMetadata, "title">>
-    }>
-    readonly allMarkdownRemark: {
-      readonly group: ReadonlyArray<
-        Pick<MarkdownRemarkGroupConnection, "fieldValue" | "totalCount">
       >
     }
   }
@@ -3333,6 +3328,19 @@ declare namespace GatsbyTypes {
       readonly fields: Maybe<Pick<Fields, "slug">>
       readonly frontmatter: Maybe<Pick<Frontmatter, "title">>
     }>
+  }
+
+  type TagPageQueryVariables = Exact<{ [key: string]: never }>
+
+  type TagPageQuery = {
+    readonly site: Maybe<{
+      readonly siteMetadata: Maybe<Pick<SiteSiteMetadata, "title">>
+    }>
+    readonly allMarkdownRemark: {
+      readonly group: ReadonlyArray<
+        Pick<MarkdownRemarkGroupConnection, "fieldValue" | "totalCount">
+      >
+    }
   }
 
   type GatsbyImageSharpFixedFragment = Pick<
@@ -3436,14 +3444,6 @@ declare namespace GatsbyTypes {
         }
       }>
     }
-  }
-
-  type NotFoundQueryVariables = Exact<{ [key: string]: never }>
-
-  type NotFoundQuery = {
-    readonly site: Maybe<{
-      readonly siteMetadata: Maybe<Pick<SiteSiteMetadata, "title">>
-    }>
   }
 
   type PagesQueryQueryVariables = Exact<{ [key: string]: never }>

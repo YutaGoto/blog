@@ -10166,15 +10166,15 @@ __metadata:
   languageName: node
   linkType: hard
 
-"gatsby-plugin-react-helmet@npm:^5.12.1":
-  version: 5.12.1
-  resolution: "gatsby-plugin-react-helmet@npm:5.12.1"
-  dependencies:
-    "@babel/runtime": ^7.15.4
+"gatsby-plugin-react-helmet-async@npm:^1.2.1":
+  version: 1.2.1
+  resolution: "gatsby-plugin-react-helmet-async@npm:1.2.1"
   peerDependencies:
-    gatsby: ^4.0.0-next
-    react-helmet: ^5.1.3 || ^6.0.0
-  checksum: 5f57fd5f3c7a6ad6cba9981968917fdbec820e622095b7131d50d758b4b1c94d7e348f74bab793fc07b43bded932322cbd7b7f9735de68ca928708e38dc552e7
+    gatsby: ">=2"
+    react: ^16.6.0 || 17.x
+    react-dom: ^16.6.0 || 17.x
+    react-helmet-async: 1.x
+  checksum: a7d293d0d1f24ff1a3421c9ad71ea8ffa8452d11b74d9b7b5cffe67a976beee485e8e7d58379ef1411f71e402fec12d844607e5cee31171bc1d09ae927ea07d8
   languageName: node
   linkType: hard
 
@@ -17321,24 +17321,26 @@ __metadata:
   languageName: node
   linkType: hard
 
-"react-fast-compare@npm:^3.1.1":
+"react-fast-compare@npm:^3.2.0":
   version: 3.2.0
   resolution: "react-fast-compare@npm:3.2.0"
   checksum: 8ef272c825ae329f61633ce4ce7f15aa5b84e5214d88bc0823880236e03e985a13195befa2c7a4eda7db3b017dc7985729152d88445823f652403cf36c2b86aa
   languageName: node
   linkType: hard
 
-"react-helmet@npm:^6.1.0":
-  version: 6.1.0
-  resolution: "react-helmet@npm:6.1.0"
+"react-helmet-async@npm:^1.3.0":
+  version: 1.3.0
+  resolution: "react-helmet-async@npm:1.3.0"
   dependencies:
-    object-assign: ^4.1.1
+    "@babel/runtime": ^7.12.5
+    invariant: ^2.2.4
     prop-types: ^15.7.2
-    react-fast-compare: ^3.1.1
-    react-side-effect: ^2.1.0
+    react-fast-compare: ^3.2.0
+    shallowequal: ^1.1.0
   peerDependencies:
-    react: ">=16.3.0"
-  checksum: a4998479dab7fc1c2799eddefb1870a9d881b5f71cfdf97979a9882e42f4bb50402d55335f308f461e735e01a06f46b16cc7b4e6bcb22c7a4a6f85a753c5c106
+    react: ^16.6.0 || ^17.0.0 || ^18.0.0
+    react-dom: ^16.6.0 || ^17.0.0 || ^18.0.0
+  checksum: 7ca7e47f8af14ea186688b512a87ab912bf6041312b297f92516341b140b3f0f8aedf5a44d226d99e69ed067b0cc106e38aeb9c9b738ffcc63d10721c844db90
   languageName: node
   linkType: hard
 
@@ -17391,15 +17393,6 @@ __metadata:
   peerDependencies:
     react: ^16.3.0 || ^17
   checksum: 69306d4593cbbc8043383d03a6aea254affb9d74f79da79903bfb6fb044451516761b955786a4b1bf54b84ff9ddeaa4512f3722388e80b073defcd3949f1abc4
-  languageName: node
-  linkType: hard
-
-"react-side-effect@npm:^2.1.0":
-  version: 2.1.1
-  resolution: "react-side-effect@npm:2.1.1"
-  peerDependencies:
-    react: ^16.3.0 || ^17.0.0
-  checksum: 324511ea8f6669555e166b4af280cdf46034bf0e33c486711e3ce17f88f6f21fed17055098408be1347657d0cbcd614bca944cf9f8e4ecfa96a21d13893fe9fc
   languageName: node
   linkType: hard
 
@@ -18519,6 +18512,13 @@ __metadata:
   version: 1.2.2
   resolution: "shallow-compare@npm:1.2.2"
   checksum: 900b9fd6931e1c5293ee67765b3a7043b10f83c147cf60c2869076e772189e9b25b664efa93cda09c411b08ff32e3614cf1b349f92e91ae14298ef1726ae0964
+  languageName: node
+  linkType: hard
+
+"shallowequal@npm:^1.1.0":
+  version: 1.1.0
+  resolution: "shallowequal@npm:1.1.0"
+  checksum: f4c1de0837f106d2dbbfd5d0720a5d059d1c66b42b580965c8f06bb1db684be8783538b684092648c981294bf817869f743a066538771dbecb293df78f765e00
   languageName: node
   linkType: hard
 
@@ -22313,7 +22313,7 @@ __metadata:
     gatsby-plugin-image: ^2.12.1
     gatsby-plugin-manifest: ^4.9.1
     gatsby-plugin-offline: ^5.12.1
-    gatsby-plugin-react-helmet: ^5.12.1
+    gatsby-plugin-react-helmet-async: ^1.2.1
     gatsby-plugin-sass: ^5.12.1
     gatsby-plugin-sharp: ^4.10.2
     gatsby-plugin-twitter: ^4.12.1
@@ -22334,7 +22334,7 @@ __metadata:
     prismjs: ^1.27.0
     react: ^17.0.1
     react-dom: ^17.0.1
-    react-helmet: ^6.1.0
+    react-helmet-async: ^1.3.0
     react-share: ^4.4.0
     react-test-renderer: ^17.0.2
     sass: ^1.50.0

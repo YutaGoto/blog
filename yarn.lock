@@ -10514,15 +10514,15 @@ __metadata:
   languageName: node
   linkType: hard
 
-"gatsby-plugin-gatsby-cloud@npm:^4.9.1":
-  version: 4.11.1
-  resolution: "gatsby-plugin-gatsby-cloud@npm:4.11.1"
+"gatsby-plugin-gatsby-cloud@npm:^4.12.1":
+  version: 4.12.1
+  resolution: "gatsby-plugin-gatsby-cloud@npm:4.12.1"
   dependencies:
     "@babel/runtime": ^7.15.4
     date-fns: ^2.28.0
     fs-extra: ^10.0.0
-    gatsby-core-utils: ^3.11.1
-    gatsby-telemetry: ^3.11.1
+    gatsby-core-utils: ^3.12.1
+    gatsby-telemetry: ^3.12.1
     js-cookie: ^3.0.1
     kebab-hash: ^0.1.2
     lodash: ^4.17.21
@@ -10530,7 +10530,7 @@ __metadata:
   peerDependencies:
     gatsby: ^4.0.0-next
     webpack: "*"
-  checksum: 7aed1fb8c30fb88c875721efcafab31b4f03fb70340fd774aeeac057198079ef964100343001538eebbd677e3f793910bb7b06a6dbe55d38617f1cb386f0e620
+  checksum: 76ba45170a7d90135e1a96e85a6778bc6ff0f838b347cdd7d61dadb49df551b897024b6d1cad9620911dd9fe057dfc2dc7746dc8541ae1bcf680af80d9fa48f3
   languageName: node
   linkType: hard
 
@@ -10934,6 +10934,27 @@ __metadata:
     lodash: ^4.17.21
     node-fetch: ^2.6.7
   checksum: 109f63e36e1ea2116a9733301735c7d46a44c626d0fd88dbdf45495c73069b7ae74435d4e6a14f196340cac0c073316a271b7bb86f0907bf729a430a96739b81
+  languageName: node
+  linkType: hard
+
+"gatsby-telemetry@npm:^3.12.1":
+  version: 3.13.0
+  resolution: "gatsby-telemetry@npm:3.13.0"
+  dependencies:
+    "@babel/code-frame": ^7.14.0
+    "@babel/runtime": ^7.15.4
+    "@turist/fetch": ^7.1.7
+    "@turist/time": ^0.0.2
+    async-retry-ng: ^2.0.1
+    boxen: ^4.2.0
+    configstore: ^5.0.1
+    fs-extra: ^10.0.0
+    gatsby-core-utils: ^3.13.0
+    git-up: ^4.0.5
+    is-docker: ^2.2.1
+    lodash: ^4.17.21
+    node-fetch: ^2.6.7
+  checksum: 8c6def5a1e51f0a4d83a5858cfc76a39dd1b9deeaee4430567a07f41722db929e23568ecb7e459e7bf7aa17acda2c52f12a5720e7009d73c3b7e551908ca28da
   languageName: node
   linkType: hard
 
@@ -22824,7 +22845,7 @@ __metadata:
     gatsby: ^4.11.2
     gatsby-plugin-feed: ^4.12.1
     gatsby-plugin-fontawesome-css: ^1.2.0
-    gatsby-plugin-gatsby-cloud: ^4.9.1
+    gatsby-plugin-gatsby-cloud: ^4.12.1
     gatsby-plugin-google-gtag: ^4.12.1
     gatsby-plugin-image: ^2.12.1
     gatsby-plugin-manifest: ^4.12.1

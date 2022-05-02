@@ -3302,6 +3302,19 @@ declare namespace GatsbyTypes {
     }
   }
 
+  type TagPageQueryVariables = Exact<{ [key: string]: never }>
+
+  type TagPageQuery = {
+    readonly site: Maybe<{
+      readonly siteMetadata: Maybe<Pick<SiteSiteMetadata, "title">>
+    }>
+    readonly allMarkdownRemark: {
+      readonly group: ReadonlyArray<
+        Pick<MarkdownRemarkGroupConnection, "fieldValue" | "totalCount">
+      >
+    }
+  }
+
   type BlogPostBySlugQueryVariables = Exact<{
     id: Scalars["String"]
     previousPostId: Maybe<Scalars["String"]>
@@ -3330,16 +3343,23 @@ declare namespace GatsbyTypes {
     }>
   }
 
-  type TagPageQueryVariables = Exact<{ [key: string]: never }>
+  type BlogTagByNameQueryVariables = Exact<{
+    tag: Maybe<Scalars["String"]>
+  }>
 
-  type TagPageQuery = {
+  type BlogTagByNameQuery = {
     readonly site: Maybe<{
       readonly siteMetadata: Maybe<Pick<SiteSiteMetadata, "title">>
     }>
     readonly allMarkdownRemark: {
-      readonly group: ReadonlyArray<
-        Pick<MarkdownRemarkGroupConnection, "fieldValue" | "totalCount">
-      >
+      readonly edges: ReadonlyArray<{
+        readonly node: Pick<MarkdownRemark, "excerpt"> & {
+          readonly fields: Maybe<Pick<Fields, "slug">>
+          readonly frontmatter: Maybe<
+            Pick<Frontmatter, "title" | "date" | "description" | "tags">
+          >
+        }
+      }>
     }
   }
 
@@ -3425,26 +3445,6 @@ declare namespace GatsbyTypes {
     ImageSharpFluid,
     "aspectRatio" | "src" | "srcSet" | "srcWebp" | "srcSetWebp" | "sizes"
   >
-
-  type BlogTagByNameQueryVariables = Exact<{
-    tag: Maybe<Scalars["String"]>
-  }>
-
-  type BlogTagByNameQuery = {
-    readonly site: Maybe<{
-      readonly siteMetadata: Maybe<Pick<SiteSiteMetadata, "title">>
-    }>
-    readonly allMarkdownRemark: {
-      readonly edges: ReadonlyArray<{
-        readonly node: Pick<MarkdownRemark, "excerpt"> & {
-          readonly fields: Maybe<Pick<Fields, "slug">>
-          readonly frontmatter: Maybe<
-            Pick<Frontmatter, "title" | "date" | "description" | "tags">
-          >
-        }
-      }>
-    }
-  }
 
   type PagesQueryQueryVariables = Exact<{ [key: string]: never }>
 

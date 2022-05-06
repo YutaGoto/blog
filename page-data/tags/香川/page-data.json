@@ -2,4 +2,4 @@
     "componentChunkName": "component---src-templates-blog-tag-tsx",
     "path": "/tags/香川/",
     "result": {"data":{"site":{"siteMetadata":{"title":".ごっちの日記"}},"allMarkdownRemark":{"edges":[{"node":{"excerpt":"この記事は雑談 Slack Advent Calendar 2021 の 2…","fields":{"slug":"/20211221-kagawa-okayama-trip/"},"frontmatter":{"title":".ごっちさん香川・岡山旅行記","date":"December 21, 2021","description":"実質日帰り旅行","tags":["旅行","香川","岡山"]}}}]}},"pageContext":{"tag":"香川"}},
-    "staticQueryHashes": ["2137539840","2183174749"]}
+    "staticQueryHashes": ["1344224355","2137539840","2183174749"]}

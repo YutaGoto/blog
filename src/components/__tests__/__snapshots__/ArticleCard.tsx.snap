@@ -31,7 +31,7 @@ exports[`ArticleCard renders correctly 1`] = `
           className="mb-2"
         >
           <span
-            className="mr-1 py-1 px-2 rounded text-sm bg-emerald-800"
+            className="mr-1 text-gray-100 py-1 px-2 rounded text-sm bg-emerald-800"
           >
             アイマス
           </span>

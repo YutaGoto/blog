@@ -2,7 +2,7 @@
 
 exports[`Tag renders correctly 1`] = `
 <span
-  className=" py-1 px-2 rounded text-sm bg-emerald-800"
+  className=" text-gray-100 py-1 px-2 rounded text-sm bg-emerald-800"
 >
   <a
     href="/tags/タグ"
@@ -14,7 +14,7 @@ exports[`Tag renders correctly 1`] = `
 
 exports[`Tag without link renders correctly 1`] = `
 <span
-  className=" py-1 px-2 rounded text-sm bg-emerald-800"
+  className=" text-gray-100 py-1 px-2 rounded text-sm bg-emerald-800"
 >
   タグ
 </span>

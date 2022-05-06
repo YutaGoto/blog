@@ -1,0 +1,26 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`TagsList renders correctoly 1`] = `
+<div
+  className="p-5 overflow-auto lg:max-w-sm md:max-w-screen-2xl bg-gray-50 dark:bg-gray-800 shadow-lg sm:rounded-xl"
+>
+  <span
+    className="mr-1 mb-1 float-left py-1 px-2 rounded text-sm bg-emerald-800"
+  >
+    <a
+      href="/tags/タグ1"
+    >
+      タグ1
+    </a>
+  </span>
+  <span
+    className="mr-1 mb-1 float-left py-1 px-2 rounded text-sm bg-emerald-800"
+  >
+    <a
+      href="/tags/タグ2"
+    >
+      タグ2
+    </a>
+  </span>
+</div>
+`;

@@ -3,7 +3,7 @@ import { create } from "react-test-renderer"
 import { render } from "@testing-library/react"
 import { Tag } from "../Tag"
 
-describe("Tab", () => {
+describe("Tag", () => {
   const tag = "タグ"
 
   it("renders correctly", () => {

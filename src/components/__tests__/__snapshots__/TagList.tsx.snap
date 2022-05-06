@@ -5,7 +5,7 @@ exports[`TagList renders correctoly 1`] = `
   className="p-5 overflow-auto lg:max-w-sm md:max-w-screen-2xl bg-gray-50 dark:bg-gray-800 shadow-lg sm:rounded-xl"
 >
   <span
-    className="mr-1 mb-1 float-left py-1 px-2 rounded text-sm bg-emerald-800"
+    className="mr-1 mb-1 float-left text-gray-100 py-1 px-2 rounded text-sm bg-emerald-800"
   >
     <a
       href="/tags/タグ1"
@@ -14,7 +14,7 @@ exports[`TagList renders correctoly 1`] = `
     </a>
   </span>
   <span
-    className="mr-1 mb-1 float-left py-1 px-2 rounded text-sm bg-emerald-800"
+    className="mr-1 mb-1 float-left text-gray-100 py-1 px-2 rounded text-sm bg-emerald-800"
   >
     <a
       href="/tags/タグ2"

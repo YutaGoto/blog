@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`Tab renders correctly 1`] = `
+exports[`Tag renders correctly 1`] = `
 <span
   className=" py-1 px-2 rounded text-sm bg-emerald-800"
 >
@@ -9,5 +9,13 @@ exports[`Tab renders correctly 1`] = `
   >
     タグ
   </a>
+</span>
+`;
+
+exports[`Tag without link renders correctly 1`] = `
+<span
+  className=" py-1 px-2 rounded text-sm bg-emerald-800"
+>
+  タグ
 </span>
 `;

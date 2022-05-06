@@ -9,7 +9,7 @@ export const PureBio: FC<{ data: GatsbyTypes.BioQuery }> = ({ data }) => {
   const formats: ImageFormat[] = ["auto", "webp", "avif"]
 
   return (
-    <div className="px-4 py-10 bg-gray-50 dark:bg-gray-800 shadow-lg sm:rounded-xl sm:p-5">
+    <div className="p-5 mb-2 bg-gray-50 dark:bg-gray-800 shadow-lg sm:rounded-xl ">
       <div className="flex space-x-4">
         <div className="flex-none">
           <StaticImage

@@ -33,11 +33,7 @@ exports[`ArticleCard renders correctly 1`] = `
           <span
             className="mr-1 py-1 px-2 rounded text-sm bg-emerald-800"
           >
-            <a
-              href="/tags/アイマス"
-            >
-              アイマス
-            </a>
+            アイマス
           </span>
         </div>
         <div

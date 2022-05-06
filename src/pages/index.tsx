@@ -1,7 +1,7 @@
 import React, { FC } from "react"
 import { graphql, PageProps } from "gatsby"
 import Seo from "../components/seo"
-import { ArticleCard, Bio, Layout } from "../components"
+import { ArticleCard, Bio, Layout, TagList } from "../components"
 
 const BlogIndex: FC<PageProps<GatsbyTypes.BlogIndexQuery>> = ({
   data,
@@ -19,8 +19,9 @@ const BlogIndex: FC<PageProps<GatsbyTypes.BlogIndexQuery>> = ({
             return <ArticleCard post={post} key={post.fields?.slug} />
           })}
         </div>
-        <div className="lg:flex-none mb-2 lg:mb-0">
+        <div className="lg:flex-none mb-2">
           <Bio />
+          <TagList />
         </div>
       </div>
     </Layout>

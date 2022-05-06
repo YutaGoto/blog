@@ -11,3 +11,11 @@ exports[`Tag renders correctly 1`] = `
   </a>
 </span>
 `;
+
+exports[`Tag without link renders correctly 1`] = `
+<span
+  className=" py-1 px-2 rounded text-sm bg-emerald-800"
+>
+  タグ
+</span>
+`;

@@ -15,4 +15,28 @@ describe("Tag", () => {
     const { container } = render(<Tag tag={tag} />)
     expect(container.querySelector(`span`)).toBeInTheDocument()
   })
+
+  it("display the a element", () => {
+    const { container } = render(<Tag tag={tag} />)
+    expect(container.querySelector(`a`)).toBeInTheDocument()
+  })
+})
+
+describe("Tag without link", () => {
+  const tag = "タグ"
+
+  it("renders correctly", () => {
+    const tree = create(<Tag tag={tag} withLink={false} />).toJSON()
+    expect(tree).toMatchSnapshot()
+  })
+
+  it("display the span element", () => {
+    const { container } = render(<Tag tag={tag} withLink={false} />)
+    expect(container.querySelector(`span`)).toBeInTheDocument()
+  })
+
+  it("not display the a element", () => {
+    const { container } = render(<Tag tag={tag} withLink={false} />)
+    expect(container.querySelector(`a`)).not.toBeInTheDocument()
+  })
 })

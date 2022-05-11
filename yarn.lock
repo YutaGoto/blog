@@ -10557,15 +10557,15 @@ __metadata:
   languageName: node
   linkType: hard
 
-"gatsby-plugin-gatsby-cloud@npm:^4.12.1":
-  version: 4.12.1
-  resolution: "gatsby-plugin-gatsby-cloud@npm:4.12.1"
+"gatsby-plugin-gatsby-cloud@npm:^4.14.0":
+  version: 4.14.0
+  resolution: "gatsby-plugin-gatsby-cloud@npm:4.14.0"
   dependencies:
     "@babel/runtime": ^7.15.4
     date-fns: ^2.28.0
-    fs-extra: ^10.0.0
-    gatsby-core-utils: ^3.12.1
-    gatsby-telemetry: ^3.12.1
+    fs-extra: ^10.1.0
+    gatsby-core-utils: ^3.14.0
+    gatsby-telemetry: ^3.14.0
     js-cookie: ^3.0.1
     kebab-hash: ^0.1.2
     lodash: ^4.17.21
@@ -10573,7 +10573,7 @@ __metadata:
   peerDependencies:
     gatsby: ^4.0.0-next
     webpack: "*"
-  checksum: 76ba45170a7d90135e1a96e85a6778bc6ff0f838b347cdd7d61dadb49df551b897024b6d1cad9620911dd9fe057dfc2dc7746dc8541ae1bcf680af80d9fa48f3
+  checksum: 74a38ce33b3bc6ddce1dadb8386bae17689bbf157abf0f232bf42110262af0eef6a7926d216921ec23eb4654cf71925577e6af1561672ead8e58ad8df3e8ce3a
   languageName: node
   linkType: hard
 
@@ -10990,6 +10990,27 @@ __metadata:
     lodash: ^4.17.21
     node-fetch: ^2.6.7
   checksum: 8c6def5a1e51f0a4d83a5858cfc76a39dd1b9deeaee4430567a07f41722db929e23568ecb7e459e7bf7aa17acda2c52f12a5720e7009d73c3b7e551908ca28da
+  languageName: node
+  linkType: hard
+
+"gatsby-telemetry@npm:^3.14.0":
+  version: 3.14.0
+  resolution: "gatsby-telemetry@npm:3.14.0"
+  dependencies:
+    "@babel/code-frame": ^7.14.0
+    "@babel/runtime": ^7.15.4
+    "@turist/fetch": ^7.1.7
+    "@turist/time": ^0.0.2
+    async-retry-ng: ^2.0.1
+    boxen: ^4.2.0
+    configstore: ^5.0.1
+    fs-extra: ^10.1.0
+    gatsby-core-utils: ^3.14.0
+    git-up: ^4.0.5
+    is-docker: ^2.2.1
+    lodash: ^4.17.21
+    node-fetch: ^2.6.7
+  checksum: 566d1f25ba10d6d87405e99f2d50c262e85991c004d687e5ea8b2522fd21478021390f8a5d6f528b4f5b67dad0bd26da511c7a871f1e32f85451bf35f1d7a234
   languageName: node
   linkType: hard
 
@@ -22883,7 +22904,7 @@ __metadata:
     gatsby: ^4.12.1
     gatsby-plugin-feed: ^4.13.0
     gatsby-plugin-fontawesome-css: ^1.2.0
-    gatsby-plugin-gatsby-cloud: ^4.12.1
+    gatsby-plugin-gatsby-cloud: ^4.14.0
     gatsby-plugin-google-gtag: ^4.13.0
     gatsby-plugin-image: ^2.13.0
     gatsby-plugin-manifest: ^4.14.0

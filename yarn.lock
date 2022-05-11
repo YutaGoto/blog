@@ -10505,15 +10505,15 @@ __metadata:
   languageName: node
   linkType: hard
 
-"gatsby-plugin-gatsby-cloud@npm:^4.12.1":
-  version: 4.12.1
-  resolution: "gatsby-plugin-gatsby-cloud@npm:4.12.1"
+"gatsby-plugin-gatsby-cloud@npm:^4.13.0":
+  version: 4.13.0
+  resolution: "gatsby-plugin-gatsby-cloud@npm:4.13.0"
   dependencies:
     "@babel/runtime": ^7.15.4
     date-fns: ^2.28.0
     fs-extra: ^10.0.0
-    gatsby-core-utils: ^3.12.1
-    gatsby-telemetry: ^3.12.1
+    gatsby-core-utils: ^3.13.0
+    gatsby-telemetry: ^3.13.0
     js-cookie: ^3.0.1
     kebab-hash: ^0.1.2
     lodash: ^4.17.21
@@ -10521,7 +10521,7 @@ __metadata:
   peerDependencies:
     gatsby: ^4.0.0-next
     webpack: "*"
-  checksum: 76ba45170a7d90135e1a96e85a6778bc6ff0f838b347cdd7d61dadb49df551b897024b6d1cad9620911dd9fe057dfc2dc7746dc8541ae1bcf680af80d9fa48f3
+  checksum: 1d048a1efed259b71a6536c2ed032c92c4a9aa645ffc4a5a0e60d63cbfff2f85f04285f5ea7a503c678b0416db37c153de383c10ce9a9f45cc75d024a321c8bd
   languageName: node
   linkType: hard
 
@@ -22800,7 +22800,7 @@ __metadata:
     gatsby: ^4.12.1
     gatsby-plugin-feed: ^4.13.0
     gatsby-plugin-fontawesome-css: ^1.2.0
-    gatsby-plugin-gatsby-cloud: ^4.12.1
+    gatsby-plugin-gatsby-cloud: ^4.13.0
     gatsby-plugin-google-gtag: ^4.13.0
     gatsby-plugin-image: ^2.13.0
     gatsby-plugin-manifest: ^4.12.1

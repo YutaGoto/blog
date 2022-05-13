@@ -1,7 +1,7 @@
 ---
 title: GitHub ActionsのStatus Badgeをよしなに作るコマンドを作った
 date: "2022-05-14T00:01:00.000Z"
-description: "RustでCLIおためし"
+description: RustでCLIおためし
 tags: ["Rust", "Cli", "GitHub Actions"]
 ---
 
@@ -31,7 +31,7 @@ https://github.com/YutaGoto/gha-badge
 $ gha-badge -n [GITHUB_USERNAME] [--with-link]
 ```
 
-`GITHUB_USERNAME` を指定するだけで、現在のディレクトリ名をリポジトリ名として Markdownテキストを生成します（書いているときに思いついたのですが、厳密に実装するなら `./.git/config` にある設定を使えという話ではあります。Organization名でクローンしたときに正しく生成できないので）。
+`GITHUB_USERNAME` を指定するだけで、現在のディレクトリ名をリポジトリ名として Markdownテキストを生成します（この記事を書いているときに気がついたのですが、厳密に実装するなら `./.git/config` にある設定を使えという話ではあります。Organization名でクローンしたときに正しく生成できないので）。
 また、 `GITHUB_USERNAME` を環境変数にセットしておくと省略できます。
 
 `--with-link` オプションは`/actions`のリンクとして生成するかどうかのフラグになります。

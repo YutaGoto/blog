@@ -1,0 +1,5 @@
+{
+    "componentChunkName": "component---src-templates-blog-tag-tsx",
+    "path": "/tags/GitHub Actions/",
+    "result": {"data":{"site":{"siteMetadata":{"title":".ごっちの日記"}},"allMarkdownRemark":{"edges":[{"node":{"excerpt":"こんにちは、.ごっちです。 GitHub ActionsのステータスバッジをMarkDown形式で作るのに、ドキュメントを見ながら手動で書き換えるのは大変なので、よしなに生成してくれるコマンドを作りました。 https://docs.github.com/ja/actions/monitoring-and…","fields":{"slug":"/20220514-gha-badge/"},"frontmatter":{"title":"GitHub ActionsのStatus Badgeをよしなに作るコマンドを作った","date":"May 14, 2022","description":"RustでCLIおためし","tags":["Rust","Cli","GitHub Actions"]}}}]}},"pageContext":{"tag":"GitHub Actions"}},
+    "staticQueryHashes": ["1344224355","2137539840","2183174749"]}

@@ -1,4 +1,35 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[.ごっちの日記]]></title><description><![CDATA[.ごっちのつれづれなる日記]]></description><link>https://yutagoto.github.io</link><generator>GatsbyJS</generator><lastBuildDate>Fri, 06 May 2022 05:30:41 GMT</lastBuildDate><item><title><![CDATA[農家さんの手伝いに行った]]></title><description><![CDATA[こんにちは、.ごっちです。 ひょんなことから2月の半ばから終わりくらいまで福島県にある農家さんのお手伝いに行ってました。(2021年8月に続いて2回目のお手伝いです) 手伝った内容 ハウス建て 新品のパイプを使ってビニールハウスを建てます。よく見るビニールハウスのだいたい1.…]]></description><link>https://yutagoto.github.io/20220301-agrienta-plastic-hot-house/</link><guid isPermaLink="false">https://yutagoto.github.io/20220301-agrienta-plastic-hot-house/</guid><pubDate>Tue, 01 Mar 2022 00:01:00 GMT</pubDate><content:encoded>&lt;p&gt;こんにちは、.ごっちです。&lt;/p&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[.ごっちの日記]]></title><description><![CDATA[.ごっちのつれづれなる日記]]></description><link>https://yutagoto.github.io</link><generator>GatsbyJS</generator><lastBuildDate>Fri, 13 May 2022 16:47:45 GMT</lastBuildDate><item><title><![CDATA[GitHub ActionsのStatus Badgeをよしなに作るコマンドを作った]]></title><description><![CDATA[こんにちは、.ごっちです。 GitHub ActionsのステータスバッジをMarkDown形式で作るのに、ドキュメントを見ながら手動で書き換えるのは大変なので、よしなに生成してくれるコマンドを作りました。 https://docs.github.com/ja/actions…]]></description><link>https://yutagoto.github.io/20220514-gha-badge/</link><guid isPermaLink="false">https://yutagoto.github.io/20220514-gha-badge/</guid><pubDate>Sat, 14 May 2022 00:01:00 GMT</pubDate><content:encoded>&lt;p&gt;こんにちは、.ごっちです。&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://docs.github.com/ja/actions&quot;&gt;GitHub Actions&lt;/a&gt;のステータスバッジをMarkDown形式で作るのに、ドキュメントを見ながら手動で書き換えるのは大変なので、よしなに生成してくれるコマンドを作りました。&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://docs.github.com/ja/actions/monitoring-and-troubleshooting-workflows/adding-a-workflow-status-badge&quot;&gt;https://docs.github.com/ja/actions/monitoring-and-troubleshooting-workflows/adding-a-workflow-status-badge&lt;/a&gt;&lt;/p&gt;
+&lt;h2&gt;作ったもの&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&quot;https://github.com/YutaGoto/gha-badge&quot;&gt;https://github.com/YutaGoto/gha-badge&lt;/a&gt;&lt;/p&gt;
+&lt;blockquote class=&quot;twitter-tweet&quot;&gt;&lt;p lang=&quot;ja&quot; dir=&quot;ltr&quot;&gt;GitHub ActionのMarkdown用のBadge画像を表示してくれるコマンドを作ってた。ﾁｮｯﾄﾍﾞﾝﾘ &lt;a href=&quot;https://t.co/jD5QSicuqV&quot;&gt;pic.twitter.com/jD5QSicuqV&lt;/a&gt;&lt;/p&gt;&amp;mdash; .ごっち (@gggooottto) &lt;a href=&quot;https://twitter.com/gggooottto/status/1517882035053887489?ref_src=twsrc%5Etfw&quot;&gt;April 23, 2022&lt;/a&gt;&lt;/blockquote&gt;
+&lt;p&gt;&lt;a href=&quot;https://github.com/YutaGoto/blog/actions&quot;&gt;&lt;img src=&quot;https://github.com/YutaGoto/blog/actions/workflows/ci.yml/badge.svg&quot; alt=&quot;action&quot;&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;md&quot;&gt;&lt;pre class=&quot;language-md&quot;&gt;&lt;code class=&quot;language-md&quot;&gt;&lt;span class=&quot;token url&quot;&gt;[&lt;span class=&quot;token content&quot;&gt;![action&lt;/span&gt;](&lt;span class=&quot;token url&quot;&gt;https://github.com/YutaGoto/blog/actions/workflows/ci.yml/badge.svg&lt;/span&gt;)&lt;/span&gt;](https://github.com/YutaGoto/blog/actions)&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;↑を生成してくれるコマンドです。&lt;/p&gt;
+&lt;h3&gt;つかいかた&lt;/h3&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;$ gha-badge -n &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;GITHUB_USERNAME&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;--with-link&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;&lt;code class=&quot;language-text&quot;&gt;GITHUB_USERNAME&lt;/code&gt; を指定するだけで、現在のディレクトリ名をリポジトリ名として Markdownテキストを生成します（この記事を書いているときに気がついたのですが、厳密に実装するなら &lt;code class=&quot;language-text&quot;&gt;./.git/config&lt;/code&gt; にある設定を使えという話ではあります。Organization名でクローンしたときに正しく生成できないので）。
+また、 &lt;code class=&quot;language-text&quot;&gt;GITHUB_USERNAME&lt;/code&gt; を環境変数にセットしておくと省略できます。&lt;/p&gt;
+&lt;p&gt;&lt;code class=&quot;language-text&quot;&gt;--with-link&lt;/code&gt; オプションは&lt;code class=&quot;language-text&quot;&gt;/actions&lt;/code&gt;のリンクとして生成するかどうかのフラグになります。&lt;/p&gt;
+&lt;h2&gt;実装&lt;/h2&gt;
+&lt;h3&gt;環境&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Rust: 1.60.0-nightly&lt;/li&gt;
+&lt;li&gt;anyhow: 1.0&lt;/li&gt;
+&lt;li&gt;clap: 3.1&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;a href=&quot;https://crates.io/crates/anyhow&quot;&gt;https://crates.io/crates/anyhow&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://crates.io/crates/clap&quot;&gt;https://crates.io/crates/clap&lt;/a&gt;&lt;/p&gt;
+&lt;h2&gt;所感&lt;/h2&gt;
+&lt;p&gt;単純にRustを使った何かを作りたかった、というのが目的で選んでいます。実装するにあたり Rust CLIのチュートリアルはとても役に立ちました。充実していてとても素敵です。&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://rust-cli.github.io/book/index.html&quot;&gt;https://rust-cli.github.io/book/index.html&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;このチュートリアルと &lt;code class=&quot;language-text&quot;&gt;Clap&lt;/code&gt; のドキュメントを少し探しただけで完成できたのでこんなものか～という気持ちです。以前、Splatoon2のステージスケジュールを取得するコマンドをGoで作ったのですが、これと比べるとどちらもいいところあるかなという気持ちです。Goらしさ・Rustらしさがわからないので評価ができないです。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;/blog/20190112-splatoon2%E3%81%AE%E3%82%B9%E3%83%86%E3%83%BC%E3%82%B8%E6%83%85%E5%A0%B1%E3%82%92%E5%8F%96%E5%BE%97%E3%81%99%E3%82%8B%E3%82%B3%E3%83%9E%E3%83%B3%E3%83%89%E3%82%92%E4%BD%9C%E3%81%A3%E3%81%A6%E3%81%84%E3%82%8B/&quot;&gt;Splatoon2のステージ情報を取得するコマンドを作っている&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;/blog/20190510-splatoon2%E3%81%AE%E3%82%B9%E3%83%86%E3%83%BC%E3%82%B8%E6%83%85%E5%A0%B1%E3%82%92%E5%8F%96%E5%BE%97%E3%81%99%E3%82%8B%E3%82%B3%E3%83%9E%E3%83%B3%E3%83%89%E3%82%92%E4%BD%9C%E3%81%A3%E3%81%A6%E3%81%84%E3%82%8B-%E7%B6%9A%E3%81%8D/&quot;&gt;Splatoon2のステージ情報を取得するコマンドを作っている 続き&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;バッジのドキュメントにあるブランチパラメータやイベントパラメータには対応できていないので、追加機能として考えています。&lt;/p&gt;</content:encoded></item><item><title><![CDATA[農家さんの手伝いに行った]]></title><description><![CDATA[こんにちは、.ごっちです。 ひょんなことから2月の半ばから終わりくらいまで福島県にある農家さんのお手伝いに行ってました。(2021年8月に続いて2回目のお手伝いです) 手伝った内容 ハウス建て 新品のパイプを使ってビニールハウスを建てます。よく見るビニールハウスのだいたい1.…]]></description><link>https://yutagoto.github.io/20220301-agrienta-plastic-hot-house/</link><guid isPermaLink="false">https://yutagoto.github.io/20220301-agrienta-plastic-hot-house/</guid><pubDate>Tue, 01 Mar 2022 00:01:00 GMT</pubDate><content:encoded>&lt;p&gt;こんにちは、.ごっちです。&lt;/p&gt;
 &lt;p&gt;ひょんなことから2月の半ばから終わりくらいまで福島県にある農家さんのお手伝いに行ってました。(2021年8月に続いて2回目のお手伝いです)&lt;/p&gt;
 &lt;h2&gt;手伝った内容&lt;/h2&gt;
 &lt;h3&gt;ハウス建て&lt;/h3&gt;
@@ -3172,32 +3203,21 @@ RubyKaigi 2018, 5/31…6/2, Sendai, Miyagi, Japanrubykaigi.org&lt;/a&gt;&lt;/p&g
 &lt;a href=&quot;https://docs.esa.io/posts/254&quot;&gt;&lt;strong&gt;ProTip/2018/03/14/テンプレート変数の拡張&lt;/strong&gt; *day} や %{month} など、時間に関係する全てのテンプレート変数は、以下のような記述で日付をずらすことが出来ます。 年・月・日・時間の加減 時刻の加減 %{day:+2h} =&gt; 2 時間後の日 %{month:+2h} =&gt;…*docs.esa.io&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;言っても esa 日記をつけ始めてからまだ 1 ヶ月、個人 esa も 4 ヶ月くらいなのでまだまだ使い倒しが足りないですが、esa 日記だけは 1 年くらい使い続けようと思いました。&lt;/p&gt;
 &lt;p&gt;ぽっとつぶやいてから 1 ヶ月くらいで企画実装反映までやってくださるスピード感にも感動しました。&lt;/p&gt;
-&lt;p&gt;\( ⁰⊖⁰)/&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Splatoon2のステージ情報を取得するコマンドを作っている 続き]]></title><description><![CDATA[こんにちは、.ごっちです。 前にこんなのを作ってたのですが、それの続きです。
-Splatoon2 のステージ情報を取得するコマンドを作っている
-*こんにちは、.ごっちです。*medium.com 作ったもの YutaGoto/ika2cli
-*Contribute to…]]></description><link>https://yutagoto.github.io/20190510-splatoon2のステージ情報を取得するコマンドを作っている-続き/</link><guid isPermaLink="false">https://yutagoto.github.io/20190510-splatoon2のステージ情報を取得するコマンドを作っている-続き/</guid><pubDate>Fri, 10 May 2019 09:00:00 GMT</pubDate><content:encoded>&lt;p&gt;こんにちは、.ごっちです。&lt;/p&gt;
-&lt;p&gt;前にこんなのを作ってたのですが、それの続きです。
-&lt;a href=&quot;https://medium.com/@gggooottto/splatoon2%E3%81%AE%E3%82%B9%E3%83%86%E3%83%BC%E3%82%B8%E6%83%85%E5%A0%B1%E3%82%92%E5%8F%96%E5%BE%97%E3%81%99%E3%82%8B%E3%82%B3%E3%83%9E%E3%83%B3%E3%83%89%E3%82%92%E4%BD%9C%E3%81%A3%E3%81%A6%E3%81%84%E3%82%8B-108c3f248c1e&quot;&gt;&lt;strong&gt;Splatoon2 のステージ情報を取得するコマンドを作っている&lt;/strong&gt;
-*こんにちは、.ごっちです。*medium.com&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;\( ⁰⊖⁰)/&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Splatoon2のステージ情報を取得するコマンドを作っている 続き]]></title><description><![CDATA[こんにちは、.ごっちです。 前にこんなのを作ってたのですが、それの続きです。 Splatoon2 のステージ情報を取得するコマンドを作っている 作ったもの https://github.com/YutaGoto/ika2cli  つかったもの https://github.com…]]></description><link>https://yutagoto.github.io/20190510-splatoon2のステージ情報を取得するコマンドを作っている-続き/</link><guid isPermaLink="false">https://yutagoto.github.io/20190510-splatoon2のステージ情報を取得するコマンドを作っている-続き/</guid><pubDate>Fri, 10 May 2019 09:00:00 GMT</pubDate><content:encoded>&lt;p&gt;こんにちは、.ごっちです。&lt;/p&gt;
+&lt;p&gt;前にこんなのを作ってたのですが、それの続きです。&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;/blog/20190112-splatoon2%E3%81%AE%E3%82%B9%E3%83%86%E3%83%BC%E3%82%B8%E6%83%85%E5%A0%B1%E3%82%92%E5%8F%96%E5%BE%97%E3%81%99%E3%82%8B%E3%82%B3%E3%83%9E%E3%83%B3%E3%83%89%E3%82%92%E4%BD%9C%E3%81%A3%E3%81%A6%E3%81%84%E3%82%8B/&quot;&gt;&lt;strong&gt;Splatoon2 のステージ情報を取得するコマンドを作っている&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;h2&gt;作ったもの&lt;/h2&gt;
-&lt;p&gt;&lt;a href=&quot;https://github.com/YutaGoto/ika2cli&quot;&gt;&lt;strong&gt;YutaGoto/ika2cli&lt;/strong&gt;
-*Contribute to YutaGoto/ika2cli development by creating an account on GitHub.*github.com&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;https://cdn-images-1.medium.com/max/2000/1*OOu7Vl60ZFL4jmOXy1JAtQ.gif&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://github.com/YutaGoto/ika2cli&quot;&gt;https://github.com/YutaGoto/ika2cli&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/blog/401a619b2dd907c2fa6de798c2ae2f7b/splatoon2.gif&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
 &lt;h2&gt;つかったもの&lt;/h2&gt;
-&lt;p&gt;&lt;a href=&quot;https://github.com/alecthomas/kingpin&quot;&gt;&lt;strong&gt;alecthomas/kingpin&lt;/strong&gt;
-*A Go (golang) command line and flag parser. Contribute to alecthomas/kingpin development by creating an account on…*github.com&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;前は cli を使っていたんですが、気が変わって作り直しました。
-[&lt;strong&gt;awesome-go にある CLI アプリケーションフレームワークを試していく - Qiita&lt;/strong&gt;
-_はじめに _ &lt;a href=&quot;https://github.com/urfave/cli&quot;&gt;urfave/cli&lt;/a&gt; を使ってちょっと大きめの CLI アプリケーションを作ってみて、我慢できないほどではないけれども軽い不満が出てきたので別のフレ…*qiita.com](&lt;a href=&quot;https://qiita.com/nirasan/items/169b5767032a6243282b&quot;&gt;https://qiita.com/nirasan/items/169b5767032a6243282b&lt;/a&gt;)&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://github.com/alecthomas/kingpin&quot;&gt;https://github.com/alecthomas/kingpin&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;前は cli を使っていたんですが、気が変わって作り直しました。&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://qiita.com/nirasan/items/169b5767032a6243282b&quot;&gt;&lt;strong&gt;awesome-go にある CLI アプリケーションフレームワークを試していく - Qiita&lt;/strong&gt; qiita.com&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;の記事を参考に選定しました。&lt;/p&gt;
 &lt;h2&gt;今回追加したもの&lt;/h2&gt;
 &lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;サーモンランの直近 2 回分のステージとブキ編成を取得できるようになりました。&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;指定したルールが次にいつ始まるかチェックできるようにしました。&lt;/p&gt;
-&lt;/li&gt;
+&lt;li&gt;サーモンランの直近 2 回分のステージとブキ編成を取得できるようになりました。&lt;/li&gt;
+&lt;li&gt;指定したルールが次にいつ始まるかチェックできるようにしました。&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;これはより便利になるのでは？(べんりなのでは? 🦑🐙)&lt;/p&gt;
 &lt;h2&gt;所感&lt;/h2&gt;
@@ -3966,43 +3986,34 @@ Repro Tech Hands-on : ReactNative (2019/01/13 12:45〜)
 &lt;iframe src=&quot;https://medium.com/media/2db82ce256b43d7551788d39e060e79e&quot; frameborder=0&gt;&lt;/iframe&gt;
 &lt;p&gt;サービスもいいよねぇ(個人ではなかなか導入できないけども..)
 &lt;a href=&quot;https://repro.io/jp/&quot;&gt;&lt;strong&gt;代えのきかない唯一のマーケティングプラットホーム Repro (リプロ)&lt;/strong&gt;
-*Repro は「どこよりも確実に、どこよりも簡単に」成果達成へと導くマーケティングプラットフォームです。アプリの企画・コンサルティング、ユーザ獲得から定着までのマーケティング支援など、貴社サービスの “成果の近道”…*repro.io&lt;/a&gt;&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Splatoon2のステージ情報を取得するコマンドを作っている]]></title><description><![CDATA[こんにちは、.ごっちです。 — 表題の通り、macOS の terminal などで動くコマンドを作っています。きっかけはこれ ↓ pockeさんが Splatoon2 のルールやステージ情報を取得する vim…]]></description><link>https://yutagoto.github.io/20190112-splatoon2のステージ情報を取得するコマンドを作っている/</link><guid isPermaLink="false">https://yutagoto.github.io/20190112-splatoon2のステージ情報を取得するコマンドを作っている/</guid><pubDate>Sat, 12 Jan 2019 09:00:00 GMT</pubDate><content:encoded>&lt;p&gt;こんにちは、.ごっちです。&lt;/p&gt;
+*Repro は「どこよりも確実に、どこよりも簡単に」成果達成へと導くマーケティングプラットフォームです。アプリの企画・コンサルティング、ユーザ獲得から定着までのマーケティング支援など、貴社サービスの “成果の近道”…*repro.io&lt;/a&gt;&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Splatoon2のステージ情報を取得するコマンドを作っている]]></title><description><![CDATA[こんにちは、.ごっちです。 — 表題の通り、macOS の terminal などで動くコマンドを作っています。きっかけはこれ ↓ https://github.com/pocke/ika2.vim pockeさんが Splatoon2 のルールやステージ情報を取得する vim…]]></description><link>https://yutagoto.github.io/20190112-splatoon2のステージ情報を取得するコマンドを作っている/</link><guid isPermaLink="false">https://yutagoto.github.io/20190112-splatoon2のステージ情報を取得するコマンドを作っている/</guid><pubDate>Sat, 12 Jan 2019 09:00:00 GMT</pubDate><content:encoded>&lt;p&gt;こんにちは、.ごっちです。&lt;/p&gt;
 &lt;p&gt;—&lt;/p&gt;
 &lt;p&gt;表題の通り、macOS の terminal などで動くコマンドを作っています。きっかけはこれ ↓&lt;/p&gt;
-&lt;iframe src=&quot;https://medium.com/media/4092fd60d01dcd48e3b3741329e94f03&quot; frameborder=0&gt;&lt;/iframe&gt;
-[**pocke/ika2.vim**
-*Contribute to pocke/ika2.vim development by creating an account on GitHub.*github.com](https://github.com/pocke/ika2.vim)
+&lt;blockquote class=&quot;twitter-tweet&quot;&gt;&lt;p lang=&quot;ja&quot; dir=&quot;ltr&quot;&gt;完全に便利 &lt;a href=&quot;https://t.co/2blGmYBLGp&quot;&gt;pic.twitter.com/2blGmYBLGp&lt;/a&gt;&lt;/p&gt;&amp;mdash; 🎹 (@p_ck_) &lt;a href=&quot;https://twitter.com/p_ck_/status/1082963404321521664?ref_src=twsrc%5Etfw&quot;&gt;January 9, 2019&lt;/a&gt;&lt;/blockquote&gt;
+&lt;p&gt;&lt;a href=&quot;https://github.com/pocke/ika2.vim&quot;&gt;https://github.com/pocke/ika2.vim&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;a href=&quot;https://twitter.com/p_ck_&quot;&gt;pocke&lt;/a&gt;さんが Splatoon2 のルールやステージ情報を取得する vim のプラグインを作っていて、コマンドラインでできないものかと思ってはじめました。&lt;/p&gt;
 &lt;h2&gt;つかったもの&lt;/h2&gt;
-&lt;p&gt;Go 言語を使うとそういったものが使えることを聞いたことがあるので、採用です。Go 言語やったことないけど。
-&lt;a href=&quot;https://github.com/urfave/cli&quot;&gt;&lt;strong&gt;urfave/cli&lt;/strong&gt;
-&lt;em&gt;A simple, fast, and fun package for building command line apps in Go - urfave/cli&lt;/em&gt;github.com&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Go 言語を使うとそういったものが使えることを聞いたことがあるので、採用です。Go 言語やったことないけど。&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://github.com/urfave/cli&quot;&gt;&lt;strong&gt;urfave/cli&lt;/strong&gt; &lt;em&gt;A simple, fast, and fun package for building command line apps in Go - urfave/cli&lt;/em&gt;github.com&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;このライブラリを使います。&lt;/p&gt;
 &lt;p&gt;—&lt;/p&gt;
-&lt;p&gt;さすがに公式の API は取得できないので、非公式のものを使用します。
-&lt;a href=&quot;https://spla2.yuu26.com/&quot;&gt;&lt;strong&gt;Spla2 API - スプラトゥーン 2 のステージ情報 API&lt;/strong&gt;
-*Nintendo Switch ソフト「スプラトゥーン 2 (Splatoon2)」のステージ情報・サーモンラン情報を提供する API です。ルール別・時間帯別に、JSON 形式でデータを取得することができます。*spla2.yuu26.com&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;さすがに公式の API は取得できないので、非公式のものを使用します。&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://spla2.yuu26.com/&quot;&gt;&lt;strong&gt;Spla2 API - スプラトゥーン 2 のステージ情報 API&lt;/strong&gt; *Nintendo Switch ソフト「スプラトゥーン 2 (Splatoon2)」のステージ情報・サーモンラン情報を提供する API です。ルール別・時間帯別に、JSON 形式でデータを取得することができます。*spla2.yuu26.com&lt;/a&gt;&lt;/p&gt;
 &lt;h2&gt;完成物&lt;/h2&gt;
 &lt;p&gt;出来上がったものは ↓ です。&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;https://cdn-images-1.medium.com/max/2000/1*TvmTd7JAXKWmaRc2kN99QA.gif&quot; alt=&quot;&quot;&gt;
-&lt;a href=&quot;https://github.com/YutaGoto/ika2cli&quot;&gt;&lt;strong&gt;YutaGoto/ika2cli&lt;/strong&gt;
-*Contribute to YutaGoto/ika2cli development by creating an account on GitHub.*github.com&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/blog/401a619b2dd907c2fa6de798c2ae2f7b/splatoon2.gif&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://github.com/YutaGoto/ika2cli&quot;&gt;https://github.com/YutaGoto/ika2cli&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;readme の通り、機能としては&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;現在のルールとステージ情報の取得&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;次の時間帯のルールとステージ情報の取得&lt;/p&gt;
-&lt;/li&gt;
+&lt;li&gt;現在のルールとステージ情報の取得&lt;/li&gt;
+&lt;li&gt;次の時間帯のルールとステージ情報の取得&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;ができます。(べんりなのでは? 🦑)&lt;/p&gt;
 &lt;h2&gt;所感&lt;/h2&gt;
 &lt;p&gt;最初は Go で書いたこともないこともあって 3–4 日くらいかかると思っていたが、想定よりも時間がかからず一旦作ることができました。&lt;/p&gt;
 &lt;p&gt;json のパースが Ruby と全然違くてそのへんは苦戦しました。構造体にぶっこんでからやるのことはちょっとめんどい気がしましたが、予め定義したほうがいいと考えると妥当な気はしています。&lt;/p&gt;
-&lt;p&gt;構造体の定義を便利にしてくれるツールがなければやめていました。
-&lt;a href=&quot;https://mholt.github.io/json-to-go/&quot;&gt;&lt;strong&gt;JSON-to-Go: Convert JSON to Go instantly&lt;/strong&gt;
-*This tool instantly converts JSON into a Go type definition. Paste a JSON structure on the left and the equivalent Go…*mholt.github.io&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;構造体の定義を便利にしてくれるツールがなければやめていました。&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://mholt.github.io/json-to-go/&quot;&gt;&lt;strong&gt;JSON-to-Go: Convert JSON to Go instantly&lt;/strong&gt; *This tool instantly converts JSON into a Go type definition. Paste a JSON structure on the left and the equivalent Go…*mholt.github.io&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;整数値を指定して n 番目の情報や、次回のガチマッチ/リーグマッチのガチホコバトル/ガチエリア/ガチヤグラ/ガチアサリがいつ来るかを取得する option があってもいいと思いました。(pocke さんが作った vim プラグインにはそれがあるのでできるはず..)&lt;/p&gt;
 &lt;p&gt;非公式 API にはサーモンラン情報を取得するものもあるので、サーモンランの情報も扱ってみたいです。&lt;/p&gt;
 &lt;p&gt;go のスタイルガイドをすっ飛ばして書いているので、これはきれいなコードなのか怪しい感じがあります。&lt;/p&gt;

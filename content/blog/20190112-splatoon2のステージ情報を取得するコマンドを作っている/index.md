@@ -2,6 +2,7 @@
 title: "Splatoon2のステージ情報を取得するコマンドを作っている"
 date: "2019-01-12T09:00:00.000Z"
 description: "Splatoon2のステージ情報を取得するコマンドを作っている"
+tags: ["Go", "Cli", "Splatoon2"]
 ---
 
 こんにちは、.ごっちです。
@@ -10,38 +11,37 @@ description: "Splatoon2のステージ情報を取得するコマンドを作っ
 
 表題の通り、macOS の terminal などで動くコマンドを作っています。きっかけはこれ ↓
 
-<iframe src="https://medium.com/media/4092fd60d01dcd48e3b3741329e94f03" frameborder=0></iframe>
-[**pocke/ika2.vim**
-*Contribute to pocke/ika2.vim development by creating an account on GitHub.*github.com](https://github.com/pocke/ika2.vim)
+<blockquote class="twitter-tweet"><p lang="ja" dir="ltr">完全に便利 <a href="https://t.co/2blGmYBLGp">pic.twitter.com/2blGmYBLGp</a></p>&mdash; 🎹 (@p_ck_) <a href="https://twitter.com/p_ck_/status/1082963404321521664?ref_src=twsrc%5Etfw">January 9, 2019</a></blockquote>
+
+https://github.com/pocke/ika2.vim
 
 [pocke](https://twitter.com/p_ck_)さんが Splatoon2 のルールやステージ情報を取得する vim のプラグインを作っていて、コマンドラインでできないものかと思ってはじめました。
 
 ## つかったもの
 
 Go 言語を使うとそういったものが使えることを聞いたことがあるので、採用です。Go 言語やったことないけど。
-[**urfave/cli**
-*A simple, fast, and fun package for building command line apps in Go - urfave/cli*github.com](https://github.com/urfave/cli)
+
+[**urfave/cli** *A simple, fast, and fun package for building command line apps in Go - urfave/cli*github.com](https://github.com/urfave/cli)
 
 このライブラリを使います。
 
 —
 
 さすがに公式の API は取得できないので、非公式のものを使用します。
-[**Spla2 API - スプラトゥーン 2 のステージ情報 API**
-*Nintendo Switch ソフト「スプラトゥーン 2 (Splatoon2)」のステージ情報・サーモンラン情報を提供する API です。ルール別・時間帯別に、JSON 形式でデータを取得することができます。*spla2.yuu26.com](https://spla2.yuu26.com/)
+
+[**Spla2 API - スプラトゥーン 2 のステージ情報 API** *Nintendo Switch ソフト「スプラトゥーン 2 (Splatoon2)」のステージ情報・サーモンラン情報を提供する API です。ルール別・時間帯別に、JSON 形式でデータを取得することができます。*spla2.yuu26.com](https://spla2.yuu26.com/)
 
 ## 完成物
 
 出来上がったものは ↓ です。
 
-![](https://cdn-images-1.medium.com/max/2000/1*TvmTd7JAXKWmaRc2kN99QA.gif)
-[**YutaGoto/ika2cli**
-*Contribute to YutaGoto/ika2cli development by creating an account on GitHub.*github.com](https://github.com/YutaGoto/ika2cli)
+![](./splatoon2.gif)
+
+https://github.com/YutaGoto/ika2cli
 
 readme の通り、機能としては
 
 - 現在のルールとステージ情報の取得
-
 - 次の時間帯のルールとステージ情報の取得
 
 ができます。(べんりなのでは? 🦑)
@@ -53,8 +53,8 @@ readme の通り、機能としては
 json のパースが Ruby と全然違くてそのへんは苦戦しました。構造体にぶっこんでからやるのことはちょっとめんどい気がしましたが、予め定義したほうがいいと考えると妥当な気はしています。
 
 構造体の定義を便利にしてくれるツールがなければやめていました。
-[**JSON-to-Go: Convert JSON to Go instantly**
-*This tool instantly converts JSON into a Go type definition. Paste a JSON structure on the left and the equivalent Go…*mholt.github.io](https://mholt.github.io/json-to-go/)
+
+[**JSON-to-Go: Convert JSON to Go instantly** *This tool instantly converts JSON into a Go type definition. Paste a JSON structure on the left and the equivalent Go…*mholt.github.io](https://mholt.github.io/json-to-go/)
 
 整数値を指定して n 番目の情報や、次回のガチマッチ/リーグマッチのガチホコバトル/ガチエリア/ガチヤグラ/ガチアサリがいつ来るかを取得する option があってもいいと思いました。(pocke さんが作った vim プラグインにはそれがあるのでできるはず..)
 

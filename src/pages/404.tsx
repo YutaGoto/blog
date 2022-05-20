@@ -13,9 +13,9 @@ const NotFoundPage: FC<PageProps<GatsbyTypes.NotFoundQuery>> = ({
   return (
     <Layout location={location} title={siteTitle}>
       <Seo title="404: Not Found" />
-      <div className="h-screen flex items-center justify-center text-center">
+      <div className="flex h-screen items-center justify-center text-center">
         <div>
-          <h1 className="text-4xl mb-2">404: Not Found</h1>
+          <h1 className="mb-2 text-4xl">404: Not Found</h1>
           <Link to="/" className="underline">
             Go To Home
           </Link>

@@ -14,12 +14,12 @@ const BlogIndex: FC<PageProps<GatsbyTypes.BlogIndexQuery>> = ({
     <Layout location={location} title={siteTitle}>
       <div className="lg:flex lg:space-x-2">
         <Seo title="All Posts" />
-        <div className="lg:flex-grow max-w-screen-2xl">
+        <div className="max-w-screen-2xl lg:flex-grow">
           {posts.map(post => {
             return <ArticleCard post={post} key={post.fields?.slug} />
           })}
         </div>
-        <div className="lg:flex-none mb-2">
+        <div className="mb-2 lg:flex-none">
           <Bio />
           <TagList />
         </div>

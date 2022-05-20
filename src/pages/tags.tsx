@@ -14,7 +14,7 @@ const TagsPage: FC<PageProps<GatsbyTypes.TagPageQuery>> = ({
     <Layout location={location} title={title || ""}>
       <Seo title={title} />
 
-      <h1 itemProp="headline" className="text-4xl font-extrabold mb-2">
+      <h1 itemProp="headline" className="mb-2 text-4xl font-extrabold">
         タグ一覧
       </h1>
 

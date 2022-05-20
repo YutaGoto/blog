@@ -9,7 +9,7 @@ export const PureBio: FC<{ data: GatsbyTypes.BioQuery }> = ({ data }) => {
   const formats: ImageFormat[] = ["auto", "webp", "avif"]
 
   return (
-    <div className="p-5 mb-2 bg-gray-50 dark:bg-gray-800 shadow-lg sm:rounded-xl ">
+    <div className="mb-2 bg-gray-50 p-5 shadow-lg dark:bg-gray-800 sm:rounded-xl ">
       <div className="flex space-x-4">
         <div className="flex-none">
           <StaticImage
@@ -24,12 +24,12 @@ export const PureBio: FC<{ data: GatsbyTypes.BioQuery }> = ({ data }) => {
           />
         </div>
 
-        <div className="flex-1 flex flex-col space-y-3">
+        <div className="flex flex-1 flex-col space-y-3">
           <div>
-            <p className="text-3xl mb-2">{author?.name}</p>
+            <p className="mb-2 text-3xl">{author?.name}</p>
             <p className="text-xl">{author?.summary}</p>
           </div>
-          <div className="flex-1 flex space-x-6">
+          <div className="flex flex-1 space-x-6">
             {social?.map(s => (
               <a
                 key={s?.name}

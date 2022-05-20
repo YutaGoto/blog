@@ -8,10 +8,10 @@ export const PureTagList: FC<{ data: GatsbyTypes.TagListQuery }> = ({
   const tags = allMarkdownRemark.group
 
   return (
-    <div className="p-5 overflow-auto lg:max-w-sm md:max-w-screen-2xl bg-gray-50 dark:bg-gray-800 shadow-lg sm:rounded-xl">
+    <div className="overflow-auto bg-gray-50 p-5 shadow-lg dark:bg-gray-800 sm:rounded-xl md:max-w-screen-2xl lg:max-w-sm">
       {tags.map(tag => (
         <Tag
-          className="mr-1 mb-1 float-left"
+          className="float-left mr-1 mb-1"
           key={tag.fieldValue}
           tag={tag.fieldValue}
         />

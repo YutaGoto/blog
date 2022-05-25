@@ -10081,6 +10081,29 @@ __metadata:
   languageName: node
   linkType: hard
 
+"gatsby-core-utils@npm:^3.15.0":
+  version: 3.15.0
+  resolution: "gatsby-core-utils@npm:3.15.0"
+  dependencies:
+    "@babel/runtime": ^7.15.4
+    ci-info: 2.0.0
+    configstore: ^5.0.1
+    fastq: ^1.13.0
+    file-type: ^16.5.3
+    fs-extra: ^10.1.0
+    got: ^11.8.3
+    import-from: ^4.0.0
+    lmdb: 2.3.10
+    lock: ^1.1.0
+    node-object-hash: ^2.3.10
+    proper-lockfile: ^4.1.2
+    resolve-from: ^5.0.0
+    tmp: ^0.2.1
+    xdg-basedir: ^4.0.0
+  checksum: 654289eaf747c376bee130fc48ae88aa698b3049d44d05fc403eedf5b40fa314a5dd6d71cb96d8e421b464ab0c318a94221fcb23fcd71fe38a61a31fd220a2f7
+  languageName: node
+  linkType: hard
+
 "gatsby-core-utils@npm:^3.8.2":
   version: 3.11.1
   resolution: "gatsby-core-utils@npm:3.11.1"
@@ -10487,6 +10510,27 @@ __metadata:
   languageName: node
   linkType: hard
 
+"gatsby-plugin-utils@npm:^3.9.0":
+  version: 3.9.0
+  resolution: "gatsby-plugin-utils@npm:3.9.0"
+  dependencies:
+    "@babel/runtime": ^7.15.4
+    "@gatsbyjs/potrace": ^2.2.0
+    fs-extra: ^10.1.0
+    gatsby-core-utils: ^3.15.0
+    gatsby-sharp: ^0.9.0
+    graphql-compose: ^9.0.7
+    import-from: ^4.0.0
+    joi: ^17.4.2
+    mime: ^3.0.0
+    mini-svg-data-uri: ^1.4.4
+    svgo: ^2.8.0
+  peerDependencies:
+    gatsby: ^4.0.0-next
+  checksum: 56eaff3f2facf880edc161a2f8829a6f0c50e489199edace580d4f2e9742e145fad61c0dc76875fec94d46c960b93c1f2ce4f19db838156203d28fba18e54a7d
+  languageName: node
+  linkType: hard
+
 "gatsby-react-router-scroll@npm:^5.14.0":
   version: 5.14.0
   resolution: "gatsby-react-router-scroll@npm:5.14.0"
@@ -10604,6 +10648,16 @@ __metadata:
   languageName: node
   linkType: hard
 
+"gatsby-sharp@npm:^0.9.0":
+  version: 0.9.0
+  resolution: "gatsby-sharp@npm:0.9.0"
+  dependencies:
+    "@types/sharp": ^0.30.0
+    sharp: ^0.30.3
+  checksum: 09486e59b59334ccf3db381aad9fbc5917fa7b6fbc351d907a52c742b2dea25dccb3da6fa22a9de6da9208953d68c7de7515ddf57780a8ba5fab5925c9b327e1
+  languageName: node
+  linkType: hard
+
 "gatsby-source-filesystem@npm:^4.13.0":
   version: 4.13.0
   resolution: "gatsby-source-filesystem@npm:4.13.0"
@@ -10679,22 +10733,23 @@ __metadata:
   languageName: node
   linkType: hard
 
-"gatsby-transformer-sharp@npm:^4.13.0":
-  version: 4.13.0
-  resolution: "gatsby-transformer-sharp@npm:4.13.0"
+"gatsby-transformer-sharp@npm:^4.15.0":
+  version: 4.15.0
+  resolution: "gatsby-transformer-sharp@npm:4.15.0"
   dependencies:
     "@babel/runtime": ^7.15.4
     "@gatsbyjs/potrace": ^2.2.0
     bluebird: ^3.7.2
     common-tags: ^1.8.2
-    fs-extra: ^10.0.0
+    fs-extra: ^10.1.0
+    gatsby-plugin-utils: ^3.9.0
     probe-image-size: ^7.2.3
-    semver: ^7.3.5
+    semver: ^7.3.7
     sharp: ^0.30.3
   peerDependencies:
     gatsby: ^4.0.0-next
     gatsby-plugin-sharp: ^4.0.0-next
-  checksum: 0575e89976e1c4d6f5e7ddec4071a4c291296a25d2b918fd2bf91a0452c46105f33529cde9ea57100dad57e9de80f1e5745134e7a7710de4f1e1cc1654b498be
+  checksum: 90b2e430b20f1b99047be0325340c563b8a39874619cfb090c9a89e1b4e57871892c7f37fd01b9df49e140bbd457376c7a173966dc04401ea90168b49ee28159
   languageName: node
   linkType: hard
 
@@ -13685,10 +13740,24 @@ __metadata:
   languageName: node
   linkType: hard
 
+"lmdb-darwin-arm64@npm:2.3.10":
+  version: 2.3.10
+  resolution: "lmdb-darwin-arm64@npm:2.3.10"
+  conditions: os=darwin & cpu=arm64
+  languageName: node
+  linkType: hard
+
 "lmdb-darwin-arm64@npm:2.3.2":
   version: 2.3.2
   resolution: "lmdb-darwin-arm64@npm:2.3.2"
   conditions: os=darwin & cpu=arm64
+  languageName: node
+  linkType: hard
+
+"lmdb-darwin-x64@npm:2.3.10":
+  version: 2.3.10
+  resolution: "lmdb-darwin-x64@npm:2.3.10"
+  conditions: os=darwin & cpu=x64
   languageName: node
   linkType: hard
 
@@ -13699,10 +13768,24 @@ __metadata:
   languageName: node
   linkType: hard
 
+"lmdb-linux-arm64@npm:2.3.10":
+  version: 2.3.10
+  resolution: "lmdb-linux-arm64@npm:2.3.10"
+  conditions: os=linux & cpu=arm64
+  languageName: node
+  linkType: hard
+
 "lmdb-linux-arm64@npm:2.3.2":
   version: 2.3.2
   resolution: "lmdb-linux-arm64@npm:2.3.2"
   conditions: os=linux & cpu=arm64
+  languageName: node
+  linkType: hard
+
+"lmdb-linux-arm@npm:2.3.10":
+  version: 2.3.10
+  resolution: "lmdb-linux-arm@npm:2.3.10"
+  conditions: os=linux & cpu=arm
   languageName: node
   linkType: hard
 
@@ -13713,10 +13796,24 @@ __metadata:
   languageName: node
   linkType: hard
 
+"lmdb-linux-x64@npm:2.3.10":
+  version: 2.3.10
+  resolution: "lmdb-linux-x64@npm:2.3.10"
+  conditions: os=linux & cpu=x64
+  languageName: node
+  linkType: hard
+
 "lmdb-linux-x64@npm:2.3.2":
   version: 2.3.2
   resolution: "lmdb-linux-x64@npm:2.3.2"
   conditions: os=linux & cpu=x64
+  languageName: node
+  linkType: hard
+
+"lmdb-win32-x64@npm:2.3.10":
+  version: 2.3.10
+  resolution: "lmdb-win32-x64@npm:2.3.10"
+  conditions: os=win32 & cpu=x64
   languageName: node
   linkType: hard
 
@@ -13738,6 +13835,40 @@ __metadata:
     ordered-binary: ^1.2.4
     weak-lru-cache: ^1.2.2
   checksum: df75e8ae266fb0676320366ba8847fe1e6c3c43af1c28c08eba35a35cb68c8f0be06ae305a9fecd6e2db2504dc92462da442272778facc6a8a0d953fbf0267ff
+  languageName: node
+  linkType: hard
+
+"lmdb@npm:2.3.10":
+  version: 2.3.10
+  resolution: "lmdb@npm:2.3.10"
+  dependencies:
+    lmdb-darwin-arm64: 2.3.10
+    lmdb-darwin-x64: 2.3.10
+    lmdb-linux-arm: 2.3.10
+    lmdb-linux-arm64: 2.3.10
+    lmdb-linux-x64: 2.3.10
+    lmdb-win32-x64: 2.3.10
+    msgpackr: ^1.5.4
+    nan: ^2.14.2
+    node-addon-api: ^4.3.0
+    node-gyp: latest
+    node-gyp-build-optional-packages: ^4.3.2
+    ordered-binary: ^1.2.4
+    weak-lru-cache: ^1.2.2
+  dependenciesMeta:
+    lmdb-darwin-arm64:
+      optional: true
+    lmdb-darwin-x64:
+      optional: true
+    lmdb-linux-arm:
+      optional: true
+    lmdb-linux-arm64:
+      optional: true
+    lmdb-linux-x64:
+      optional: true
+    lmdb-win32-x64:
+      optional: true
+  checksum: 761dfb585e9b3e32f78f77a8ee61b149cb4509c88578205fd4d19236ae14f825c46a3db65a37d6e4f49532b18ab4c147dd0e7fb3d4d9e4f0ac493e9c631ca516
   languageName: node
   linkType: hard
 
@@ -22199,7 +22330,7 @@ __metadata:
     gatsby-remark-smartypants: ^5.13.0
     gatsby-source-filesystem: ^4.13.0
     gatsby-transformer-remark: ^5.13.0
-    gatsby-transformer-sharp: ^4.13.0
+    gatsby-transformer-sharp: ^4.15.0
     gh-pages: ^3.1.0
     identity-obj-proxy: ^3.0.0
     jest: ^27.5.1

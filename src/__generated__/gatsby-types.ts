@@ -3279,6 +3279,24 @@ declare namespace GatsbyTypes {
     }>
   }
 
+  type BlogIndexQueryVariables = Exact<{ [key: string]: never }>
+
+  type BlogIndexQuery = {
+    readonly site: Maybe<{
+      readonly siteMetadata: Maybe<Pick<SiteSiteMetadata, "title">>
+    }>
+    readonly allMarkdownRemark: {
+      readonly nodes: ReadonlyArray<
+        Pick<MarkdownRemark, "excerpt"> & {
+          readonly fields: Maybe<Pick<Fields, "slug">>
+          readonly frontmatter: Maybe<
+            Pick<Frontmatter, "date" | "title" | "description" | "tags">
+          >
+        }
+      >
+    }
+  }
+
   type TagPageQueryVariables = Exact<{ [key: string]: never }>
 
   type TagPageQuery = {
@@ -3290,21 +3308,6 @@ declare namespace GatsbyTypes {
         Pick<MarkdownRemarkGroupConnection, "fieldValue" | "totalCount">
       >
     }
-  }
-
-  type staticHomeyougotoprojectsblogsrccomponentsseoTsx2137539840QueryVariables =
-    Exact<{ [key: string]: never }>
-
-  type staticHomeyougotoprojectsblogsrccomponentsseoTsx2137539840Query = {
-    readonly site: Maybe<{
-      readonly siteMetadata: Maybe<
-        Pick<SiteSiteMetadata, "title" | "description"> & {
-          readonly social: Maybe<
-            ReadonlyArray<Maybe<Pick<Social, "name" | "url">>>
-          >
-        }
-      >
-    }>
   }
 
   type BlogPostBySlugQueryVariables = Exact<{
@@ -3335,21 +3338,23 @@ declare namespace GatsbyTypes {
     }>
   }
 
-  type BlogIndexQueryVariables = Exact<{ [key: string]: never }>
+  type BlogTagByNameQueryVariables = Exact<{
+    tag: Maybe<Scalars["String"]>
+  }>
 
-  type BlogIndexQuery = {
+  type BlogTagByNameQuery = {
     readonly site: Maybe<{
       readonly siteMetadata: Maybe<Pick<SiteSiteMetadata, "title">>
     }>
     readonly allMarkdownRemark: {
-      readonly nodes: ReadonlyArray<
-        Pick<MarkdownRemark, "excerpt"> & {
+      readonly edges: ReadonlyArray<{
+        readonly node: Pick<MarkdownRemark, "excerpt"> & {
           readonly fields: Maybe<Pick<Fields, "slug">>
           readonly frontmatter: Maybe<
-            Pick<Frontmatter, "date" | "title" | "description" | "tags">
+            Pick<Frontmatter, "title" | "date" | "description" | "tags">
           >
         }
-      >
+      }>
     }
   }
 
@@ -3436,24 +3441,19 @@ declare namespace GatsbyTypes {
     "aspectRatio" | "src" | "srcSet" | "srcWebp" | "srcSetWebp" | "sizes"
   >
 
-  type BlogTagByNameQueryVariables = Exact<{
-    tag: Maybe<Scalars["String"]>
-  }>
+  type staticHomeyougotoprojectsblogsrccomponentsseoTsx2137539840QueryVariables =
+    Exact<{ [key: string]: never }>
 
-  type BlogTagByNameQuery = {
+  type staticHomeyougotoprojectsblogsrccomponentsseoTsx2137539840Query = {
     readonly site: Maybe<{
-      readonly siteMetadata: Maybe<Pick<SiteSiteMetadata, "title">>
-    }>
-    readonly allMarkdownRemark: {
-      readonly edges: ReadonlyArray<{
-        readonly node: Pick<MarkdownRemark, "excerpt"> & {
-          readonly fields: Maybe<Pick<Fields, "slug">>
-          readonly frontmatter: Maybe<
-            Pick<Frontmatter, "title" | "date" | "description" | "tags">
+      readonly siteMetadata: Maybe<
+        Pick<SiteSiteMetadata, "title" | "description"> & {
+          readonly social: Maybe<
+            ReadonlyArray<Maybe<Pick<Social, "name" | "url">>>
           >
         }
-      }>
-    }
+      >
+    }>
   }
 
   type PagesQueryQueryVariables = Exact<{ [key: string]: never }>

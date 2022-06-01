@@ -11,24 +11,24 @@ export const Layout: FC<Props> = ({ location, title, children }) => {
   const isRootPath = location.pathname === rootPath
 
   return (
-    <div className="bg-gray-200 dark:bg-gray-700 text-gray-900 dark:text-gray-100">
+    <div className="bg-gray-200 text-gray-900 dark:bg-gray-700 dark:text-gray-100">
       <nav
-        className="sticky top-0 h-10 bg-blue-300 dark:bg-blue-900 flex z-50"
+        className="sticky top-0 z-50 flex h-10 bg-blue-300 dark:bg-blue-900"
         role="navigation"
       >
         <div>
           <Link
-            className="text-gray-900 dark:text-gray-100 text-3xl pl-2"
+            className="pl-2 text-3xl text-gray-900 dark:text-gray-100"
             to="/"
           >
             {title}
           </Link>
         </div>
       </nav>
-      <main className="container mt-1 mx-auto w-11/12">
+      <main className="container mx-auto mt-1 w-11/12">
         <div data-is-root-path={isRootPath}>{children}</div>
       </main>
-      <footer className="h-10 bg-gray-300 dark:bg-gray-400 flex">
+      <footer className="flex h-10 bg-gray-300 dark:bg-gray-400">
         <div className="flex-1 text-gray-900 dark:text-gray-100">
           © {new Date().getFullYear()}, Built with
           {` `}

@@ -33,7 +33,7 @@ const BlogPostTemplate: FC<PageProps<GatsbyTypes.BlogPostBySlugQuery>> = ({
             itemScope
             itemType="http://schema.org/Article"
           >
-            <h1 itemProp="headline" className="text-4xl font-extrabold mb-2">
+            <h1 itemProp="headline" className="mb-2 text-4xl font-extrabold">
               {post?.frontmatter?.title}
             </h1>
             <p className="text-md mb-2">{post?.frontmatter?.date}</p>
@@ -71,7 +71,7 @@ const BlogPostTemplate: FC<PageProps<GatsbyTypes.BlogPostBySlugQuery>> = ({
       </div>
 
       <div
-        className="flex lg:justify-between lg:flex-row flex-col mb-4 mt-4"
+        className="mb-4 mt-4 flex flex-col lg:flex-row lg:justify-between"
         role="navigation"
       >
         {previous && (

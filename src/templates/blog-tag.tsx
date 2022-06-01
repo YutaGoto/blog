@@ -14,12 +14,12 @@ const BlogTagTemplate: FC<PageProps<GatsbyTypes.BlogTagByNameQuery>> = ({
 
   return (
     <Layout location={location} title={title}>
-      <h1 itemProp="headline" className="text-4xl font-extrabold mb-2">
+      <h1 itemProp="headline" className="mb-2 text-4xl font-extrabold">
         {tag} 記事一覧
       </h1>
       <div className="lg:flex lg:space-x-2">
         <Seo title={tag} />
-        <div className="lg:flex-grow max-w-screen-2xl">
+        <div className="max-w-screen-2xl lg:flex-grow">
           {edges.map(({ node }) => {
             return <ArticleCard key={node.fields?.slug} post={node} />
           })}

@@ -2,7 +2,7 @@
 
 exports[`ArticleCard renders correctly 1`] = `
 <div
-  className="px-4 py-10 mb-2 bg-gray-50 dark:bg-gray-800 shadow-lg sm:rounded-xl sm:p-5"
+  className="mb-2 bg-gray-50 px-4 py-10 shadow-lg dark:bg-gray-800 sm:rounded-xl sm:p-5"
 >
   <a
     className="has-text-black"
@@ -18,12 +18,12 @@ exports[`ArticleCard renders correctly 1`] = `
         className=""
       >
         <div
-          className="text-2xl mb-2"
+          className="mb-2 text-2xl"
         >
           アイマスもくもく会2021年まとめ
         </div>
         <div
-          className="text-sm mb-2"
+          className="mb-2 text-sm"
         >
           December 23, 2021
         </div>
@@ -31,7 +31,7 @@ exports[`ArticleCard renders correctly 1`] = `
           className="mb-2"
         >
           <span
-            className="mr-1 text-gray-100 py-1 px-2 rounded text-sm bg-emerald-800"
+            className="mr-1 rounded bg-emerald-800 py-1 px-2 text-sm text-gray-100"
           >
             アイマス
           </span>

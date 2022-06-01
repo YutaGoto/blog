@@ -16,7 +16,7 @@ export const ArticleCard = ({ post }: ArticleCardProps) => {
   const tags = post.frontmatter?.tags
 
   return (
-    <div className="px-4 py-10 mb-2 bg-gray-50 dark:bg-gray-800 shadow-lg sm:rounded-xl sm:p-5">
+    <div className="mb-2 bg-gray-50 px-4 py-10 shadow-lg dark:bg-gray-800 sm:rounded-xl sm:p-5">
       <Link
         to={post.fields?.slug || ""}
         itemProp="url"
@@ -28,8 +28,8 @@ export const ArticleCard = ({ post }: ArticleCardProps) => {
           itemType="http://schema.org/Article"
         >
           <div className="">
-            <div className="text-2xl mb-2">{title}</div>
-            <div className="text-sm mb-2">{post.frontmatter?.date}</div>
+            <div className="mb-2 text-2xl">{title}</div>
+            <div className="mb-2 text-sm">{post.frontmatter?.date}</div>
             <div className="mb-2">
               {tags?.map(tag => (
                 <Tag key={tag} className="mr-1" tag={tag} withLink={false} />

@@ -1,5 +1,1 @@
-{
-    "componentChunkName": "component---src-templates-blog-tag-tsx",
-    "path": "/tags/GCP/",
-    "result": {"data":{"site":{"siteMetadata":{"title":".ごっちの日記"}},"allMarkdownRemark":{"edges":[{"node":{"excerpt":"こんにちは、.ごっちです。 ちょっと前(2021 年 4 月くらい)から友人にお願いされてMinecraft(Java Edition)のサーバーの面倒をみることになりました。\nもともとはConoHa VPS の Minecraft…","fields":{"slug":"/20210627-minecraft-server-admin/"},"frontmatter":{"title":"GCPでMinecraft マルチサーバー管理している","date":"June 27, 2021","description":"Minecraft サーバー管理始めました","tags":["GCP","Minecraft"]}}}]}},"pageContext":{"tag":"GCP"}},
-    "staticQueryHashes": ["1344224355","2137539840","2183174749"]}
+{"componentChunkName":"component---src-templates-blog-tag-tsx","path":"/tags/GCP/","result":{"data":{"site":{"siteMetadata":{"title":".ごっちの日記"}},"allMarkdownRemark":{"edges":[{"node":{"excerpt":"こんにちは、.ごっちです。 ちょっと前(2021 年 4 月くらい)から友人にお願いされてMinecraft(Java Edition)のサーバーの面倒をみることになりました。\nもともとはConoHa VPS の Minecraft…","fields":{"slug":"/20210627-minecraft-server-admin/"},"frontmatter":{"title":"GCPでMinecraft マルチサーバー管理している","date":"June 27, 2021","description":"Minecraft サーバー管理始めました","tags":["GCP","Minecraft"]}}}]}},"pageContext":{"tag":"GCP"}},"staticQueryHashes":["1344224355","2137539840","2183174749"]}

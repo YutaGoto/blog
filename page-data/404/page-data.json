@@ -1,5 +1,1 @@
-{
-    "componentChunkName": "component---src-pages-404-tsx",
-    "path": "/404/",
-    "result": {"data":{"site":{"siteMetadata":{"title":".ごっちの日記"}}},"pageContext":{}},
-    "staticQueryHashes": ["1344224355","2137539840","2183174749"]}
+{"componentChunkName":"component---src-pages-404-tsx","path":"/404/","result":{"data":{"site":{"siteMetadata":{"title":".ごっちの日記"}}},"pageContext":{}},"staticQueryHashes":["1344224355","2137539840","2183174749"]}

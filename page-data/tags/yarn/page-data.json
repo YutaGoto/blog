@@ -1,5 +1,1 @@
-{
-    "componentChunkName": "component---src-templates-blog-tag-tsx",
-    "path": "/tags/yarn/",
-    "result": {"data":{"site":{"siteMetadata":{"title":".ごっちの日記"}},"allMarkdownRemark":{"edges":[{"node":{"excerpt":"こんにちは、.ごっちです。 アイマスもくもく会を通じて What3Idols というサービス(?)の開発をし続けているのですが、勉強がてら yarn のバージョンを v1.22.XX から v3.1.1 にアップグレードさせました。 https://github.com/YutaGoto/what3idols Yarn…","fields":{"slug":"/20220210-what3idols-yarn3/"},"frontmatter":{"title":"What3IdolsプロジェクトをYarn v3へアップグレード","date":"February 10, 2022","description":"Yarn v1 -> Yarn v3","tags":["アイドルマスター","What3Idols","yarn"]}}}]}},"pageContext":{"tag":"yarn"}},
-    "staticQueryHashes": ["1344224355","2137539840","2183174749"]}
+{"componentChunkName":"component---src-templates-blog-tag-tsx","path":"/tags/yarn/","result":{"data":{"site":{"siteMetadata":{"title":".ごっちの日記"}},"allMarkdownRemark":{"edges":[{"node":{"excerpt":"こんにちは、.ごっちです。 アイマスもくもく会を通じて What3Idols というサービス(?)の開発をし続けているのですが、勉強がてら yarn のバージョンを v1.22.XX から v3.1.1 にアップグレードさせました。 https://github.com/YutaGoto/what3idols Yarn…","fields":{"slug":"/20220210-what3idols-yarn3/"},"frontmatter":{"title":"What3IdolsプロジェクトをYarn v3へアップグレード","date":"February 10, 2022","description":"Yarn v1 -> Yarn v3","tags":["アイドルマスター","What3Idols","yarn"]}}}]}},"pageContext":{"tag":"yarn"}},"staticQueryHashes":["1344224355","2137539840","2183174749"]}

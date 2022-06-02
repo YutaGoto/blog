@@ -72,7 +72,7 @@
     "prettier": "2.5.1",
     "prettier-plugin-tailwindcss": "^0.1.11",
     "sass": "^1.51.0",
-    "stylelint": "^14.8.2",
+    "stylelint": "^14.8.5",
     "stylelint-config-prettier": "^9.0.3",
     "stylelint-config-standard": "^24.0.0",
     "tailwindcss": "<4.0.0",

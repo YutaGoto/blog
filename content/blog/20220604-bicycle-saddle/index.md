@@ -33,3 +33,7 @@ https://esr-bicycle.jp/hmr/
 点検してもらった結果、異常なしということでまだまだ走り続けることができそうです。
 
 <blockquote class="twitter-tweet" data-conversation="none"><p lang="ja" dir="ltr">サドル 直る(新品のサドルを買いました <a href="https://t.co/87chzmcRfy">pic.twitter.com/87chzmcRfy</a></p>&mdash; .ごっち (@gggooottto) <a href="https://twitter.com/gggooottto/status/1531888265900752896?ref_src=twsrc%5Etfw">June 1, 2022</a></blockquote>
+
+![bike Koga](./bike-koga.jpg)
+
+↑埼玉県久喜駅から茨城県古河駅へ向かう道中の写真。

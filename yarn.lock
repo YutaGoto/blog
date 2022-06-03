@@ -10695,9 +10695,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"gatsby-remark-images@npm:^6.15.0":
-  version: 6.15.0
-  resolution: "gatsby-remark-images@npm:6.15.0"
+"gatsby-remark-images@npm:^6.15.1":
+  version: 6.15.1
+  resolution: "gatsby-remark-images@npm:6.15.1"
   dependencies:
     "@babel/runtime": ^7.15.4
     "@gatsbyjs/potrace": ^2.2.0
@@ -10713,7 +10713,7 @@ __metadata:
   peerDependencies:
     gatsby: ^4.0.0-next
     gatsby-plugin-sharp: ^4.0.0-next
-  checksum: ee2079f5777e5dcffd5352399f69e5129b8db1b93f71dbc6ff0bfc3da289e5264c5f0f103ff35dc0bd25c8ceb5827732b0b34868c4120af216557283314c4e61
+  checksum: 873d119376886f766cc1dd6613866f5bff6168885a0ed7fd07c6576ace778d40155c3ee06ce4998d7406270e99c5623cf77c6d2b379d088b01db4696a72520ec
   languageName: node
   linkType: hard
 
@@ -22569,7 +22569,7 @@ __metadata:
     gatsby-plugin-twitter: ^4.15.0
     gatsby-plugin-typegen: ^2.2.4
     gatsby-remark-copy-linked-files: ^5.15.0
-    gatsby-remark-images: ^6.15.0
+    gatsby-remark-images: ^6.15.1
     gatsby-remark-prismjs: ^6.13.0
     gatsby-remark-responsive-iframe: ^5.13.0
     gatsby-remark-smartypants: ^5.15.0

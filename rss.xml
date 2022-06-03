@@ -1,4 +1,48 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[.ごっちの日記]]></title><description><![CDATA[.ごっちのつれづれなる日記]]></description><link>https://yutagoto.github.io</link><generator>GatsbyJS</generator><lastBuildDate>Wed, 01 Jun 2022 14:00:15 GMT</lastBuildDate><item><title><![CDATA[GitHub ActionsのStatus Badgeをよしなに作るコマンドを作った]]></title><description><![CDATA[こんにちは、.ごっちです。 GitHub ActionsのステータスバッジをMarkDown形式で作るのに、ドキュメントを見ながら手動で書き換えるのは大変なので、よしなに生成してくれるコマンドを作りました。 https://docs.github.com/ja/actions…]]></description><link>https://yutagoto.github.io/20220514-gha-badge/</link><guid isPermaLink="false">https://yutagoto.github.io/20220514-gha-badge/</guid><pubDate>Sat, 14 May 2022 00:01:00 GMT</pubDate><content:encoded>&lt;p&gt;こんにちは、.ごっちです。&lt;/p&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[.ごっちの日記]]></title><description><![CDATA[.ごっちのつれづれなる日記]]></description><link>https://yutagoto.github.io</link><generator>GatsbyJS</generator><lastBuildDate>Fri, 03 Jun 2022 13:57:23 GMT</lastBuildDate><item><title><![CDATA[自転車のサドルが折れた話]]></title><description><![CDATA[こんにちは、.ごっちです。 とある日に自転車で走っていたらサドルが折れました。 座面の裏側の止める部分のボルトが埋まった状態で折れてしまったので修復できません。加えて、ボルトも3つくらいに折れてしまっているのでボルトも再利用できません。
+仕方なくこの日は…]]></description><link>https://yutagoto.github.io/20220604-bicycle-saddle/</link><guid isPermaLink="false">https://yutagoto.github.io/20220604-bicycle-saddle/</guid><pubDate>Sat, 04 Jun 2022 00:01:00 GMT</pubDate><content:encoded>&lt;p&gt;こんにちは、.ごっちです。&lt;/p&gt;
+&lt;p&gt;とある日に自転車で走っていたらサドルが折れました。&lt;/p&gt;
+&lt;blockquote class=&quot;twitter-tweet&quot;&gt;&lt;p lang=&quot;ja&quot; dir=&quot;ltr&quot;&gt;自転車で走ってたらサドルがもげた。。 &lt;a href=&quot;https://t.co/e9LnPT9CFK&quot;&gt;pic.twitter.com/e9LnPT9CFK&lt;/a&gt;&lt;/p&gt;&amp;mdash; .ごっち (@gggooottto) &lt;a href=&quot;https://twitter.com/gggooottto/status/1528299509566296064?ref_src=twsrc%5Etfw&quot;&gt;May 22, 2022&lt;/a&gt;&lt;/blockquote&gt;
+&lt;p&gt;座面の裏側の止める部分のボルトが埋まった状態で折れてしまったので修復できません。加えて、ボルトも3つくらいに折れてしまっているのでボルトも再利用できません。
+仕方なくこの日は1時間かけて歩いて帰りました。ぎりぎり歩いて帰宅できる距離であったため助かりました。けがもなくよかったです。
+自転車を新品で購入してから6年半近く走っているわけなので、どこか大きく壊れてもしかたなしといった感想です（何度かチューブやタイヤ、ホイールの梁の交換はやっています）。&lt;/p&gt;
+&lt;p&gt;大学卒業後上京したての2015年夏にデザインが発表されて「これはいろんな意味で買い」と思いわりとすぐに注文したと思っています。&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://kitsunezuka.jp/blog-entry-614.html&quot;&gt;https://kitsunezuka.jp/blog-entry-614.html&lt;/a&gt;
+&lt;a href=&quot;https://esr-bicycle.jp/date/2015/07/30/&quot;&gt;https://esr-bicycle.jp/date/2015/07/30/&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;今思ってもいい買い物でした。
+サドルがないまま放置していてもしょうがないので、近くの自転車屋に行ってサドルを注文してきました。
+受注生産（だったはず）なので、壊れた分に関してはもう生産されないものと思い込んでいたので似たような色・デザインパターンのサドルがないかと探してもらったところしばらくして、まったく同じものが在庫にあるということで連絡をもらいました！めちゃくちゃうれしい！
+検索したところ、レーシングミクバイクプロジェクト自体はまだ続いていて、今はフレームから各パーツの個別販売をしているみたいです。&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://esr-bicycle.jp/hmr/&quot;&gt;https://esr-bicycle.jp/hmr/&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;サイトの下にあるGoodsのリストの中にサドルがあり、メーカーの在庫もあるという話でした。
+サドルが壊れるとほかの部分に関しても気になってしまうので、受け取るついでに診てもらいました。&lt;/p&gt;
+&lt;p&gt;点検してもらった結果、異常なしということでまだまだ走り続けることができそうです。&lt;/p&gt;
+&lt;blockquote class=&quot;twitter-tweet&quot; data-conversation=&quot;none&quot;&gt;&lt;p lang=&quot;ja&quot; dir=&quot;ltr&quot;&gt;サドル 直る(新品のサドルを買いました &lt;a href=&quot;https://t.co/87chzmcRfy&quot;&gt;pic.twitter.com/87chzmcRfy&lt;/a&gt;&lt;/p&gt;&amp;mdash; .ごっち (@gggooottto) &lt;a href=&quot;https://twitter.com/gggooottto/status/1531888265900752896?ref_src=twsrc%5Etfw&quot;&gt;June 1, 2022&lt;/a&gt;&lt;/blockquote&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 630px; margin: 0&quot;
+    &gt;
+      &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 75.31645569620254%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAPABQDASIAAhEBAxEB/8QAGAAAAwEBAAAAAAAAAAAAAAAAAAQGAQX/xAAWAQEBAQAAAAAAAAAAAAAAAAAAAQL/2gAMAwEAAhADEAAAAW1OdlzQE+H/xAAZEAADAAMAAAAAAAAAAAAAAAAAAhEBEiP/2gAIAQEAAQUCVzTpS4KU/8QAFBEBAAAAAAAAAAAAAAAAAAAAEP/aAAgBAwEBPwE//8QAFREBAQAAAAAAAAAAAAAAAAAAABH/2gAIAQIBAT8Bqv/EABgQAAIDAAAAAAAAAAAAAAAAABARADFB/9oACAEBAAY/Ao3rFH//xAAaEAADAAMBAAAAAAAAAAAAAAAAAREhMVFh/9oACAEBAAE/IUzMZenOhPRpWmBU7pDbxn//2gAMAwEAAgADAAAAEGff/8QAFREBAQAAAAAAAAAAAAAAAAAAABH/2gAIAQMBAT8QiP/EABQRAQAAAAAAAAAAAAAAAAAAABD/2gAIAQIBAT8QD//EABoQAQADAQEBAAAAAAAAAAAAAAEAESExcWH/2gAIAQEAAT8QKBB7L7nwWmi+QXsJNkeRcljgMQ6fRyf/2Q==&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;bike Koga&quot;
+        title=&quot;bike Koga&quot;
+        src=&quot;/blog/static/fec174858fb9b5d793d42710fb04c8d7/828fb/bike-koga.jpg&quot;
+        srcset=&quot;/blog/static/fec174858fb9b5d793d42710fb04c8d7/ff44c/bike-koga.jpg 158w,
+/blog/static/fec174858fb9b5d793d42710fb04c8d7/a6688/bike-koga.jpg 315w,
+/blog/static/fec174858fb9b5d793d42710fb04c8d7/828fb/bike-koga.jpg 630w,
+/blog/static/fec174858fb9b5d793d42710fb04c8d7/0ede0/bike-koga.jpg 945w,
+/blog/static/fec174858fb9b5d793d42710fb04c8d7/3ac88/bike-koga.jpg 1260w,
+/blog/static/fec174858fb9b5d793d42710fb04c8d7/d2602/bike-koga.jpg 4032w&quot;
+        sizes=&quot;(max-width: 630px) 100vw, 630px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+        decoding=&quot;async&quot;
+      /&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;↑埼玉県久喜駅から茨城県古河駅へ向かう道中の写真。&lt;/p&gt;</content:encoded></item><item><title><![CDATA[GitHub ActionsのStatus Badgeをよしなに作るコマンドを作った]]></title><description><![CDATA[こんにちは、.ごっちです。 GitHub ActionsのステータスバッジをMarkDown形式で作るのに、ドキュメントを見ながら手動で書き換えるのは大変なので、よしなに生成してくれるコマンドを作りました。 https://docs.github.com/ja/actions…]]></description><link>https://yutagoto.github.io/20220514-gha-badge/</link><guid isPermaLink="false">https://yutagoto.github.io/20220514-gha-badge/</guid><pubDate>Sat, 14 May 2022 00:01:00 GMT</pubDate><content:encoded>&lt;p&gt;こんにちは、.ごっちです。&lt;/p&gt;
 &lt;p&gt;&lt;a href=&quot;https://docs.github.com/ja/actions&quot;&gt;GitHub Actions&lt;/a&gt;のステータスバッジをMarkDown形式で作るのに、ドキュメントを見ながら手動で書き換えるのは大変なので、よしなに生成してくれるコマンドを作りました。&lt;/p&gt;
 &lt;p&gt;&lt;a href=&quot;https://docs.github.com/ja/actions/monitoring-and-troubleshooting-workflows/adding-a-workflow-status-badge&quot;&gt;https://docs.github.com/ja/actions/monitoring-and-troubleshooting-workflows/adding-a-workflow-status-badge&lt;/a&gt;&lt;/p&gt;
 &lt;h2&gt;作ったもの&lt;/h2&gt;
@@ -4631,71 +4675,7 @@ commands:
 &lt;li&gt;
 &lt;p&gt;名言集.com — 名言・ことわざ・金言・格言集めました, &lt;a href=&quot;http://www.meigensyu.com/&quot;&gt;http://www.meigensyu.com/&lt;/a&gt;&lt;/p&gt;
 &lt;/li&gt;
-&lt;/ul&gt;</content:encoded></item><item><title><![CDATA[アイマスハッカソン2018in京都を振り返り]]></title><description><![CDATA[この記事は アイドルマスター Advent Calendar 2018 の 6 日目の記事です。 こんにちは、 .ごっちです。 少し昔ですが、2018/11/24 に京都にて、アイマスハッカソンがあったのでそのレポートを書きます。
-アイマスハッカソン 2018 in…]]></description><link>https://yutagoto.github.io/20181206-アイマスハッカソン2018in京都を振り返り/</link><guid isPermaLink="false">https://yutagoto.github.io/20181206-アイマスハッカソン2018in京都を振り返り/</guid><pubDate>Thu, 06 Dec 2018 09:00:00 GMT</pubDate><content:encoded>&lt;p&gt;この記事は アイドルマスター Advent Calendar 2018 の 6 日目の記事です。&lt;/p&gt;
-&lt;p&gt;こんにちは、 .ごっちです。&lt;/p&gt;
-&lt;p&gt;少し昔ですが、2018/11/24 に京都にて、アイマスハッカソンがあったのでそのレポートを書きます。
-&lt;a href=&quot;https://imas.connpass.com/event/105789/&quot;&gt;&lt;strong&gt;アイマスハッカソン 2018 in 京都 (2018/11/24 10:00〜)&lt;/strong&gt;
-_アイドルを愛でる、アイマスに Contribute する _ アイマスが好きなエンジニアが集まったら何か出来るのではないか？ そんな思想の元開催される#imas_hack イベント、京都第二弾、今度はアイマスハッカソンですよ！ ### *…*imas.connpass.com&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;—&lt;/p&gt;
-&lt;p&gt;今回もぼくはスタッフをやっていました。役割はフルスタックスタッフと言う名の何でも屋です。&lt;/p&gt;
-&lt;p&gt;前日まではざっくりと必要なものを用意したり、当日は受付したり開発したりでした。&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;https://cdn-images-1.medium.com/max/2496/1*1ytGrkpGknBDswe1Z8gNJg.jpeg&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
-&lt;p&gt;会場は株式会社はてなさんをお借りしました。ありがとうございます！スポンサーをしてくださった株式会社 Grooves さん、株式会社 Donuts（京都）さんもありがとうございます！&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;https://cdn-images-1.medium.com/max/2496/1*LpYuVkEEx6fi_18GdKDyJA.jpeg&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
-&lt;p&gt;みなさん和気あいあいと集まりつつ開発しつつの空間でした。&lt;/p&gt;
-&lt;iframe src=&quot;https://medium.com/media/6d8abad0a23792e18e876361de706aaf&quot; frameborder=0&gt;&lt;/iframe&gt;
-&lt;iframe src=&quot;https://medium.com/media/9ca42ba8d1cef82cd79d723970221a58&quot; frameborder=0&gt;&lt;/iframe&gt;
-&lt;p&gt;BGM ほんとうによかったです。ありがとうございます！&lt;/p&gt;
-&lt;iframe src=&quot;https://medium.com/media/2a6f0fe045bb7dd15503a1fb173f51fc&quot; frameborder=0&gt;&lt;/iframe&gt;
-&lt;p&gt;スポンサーさんに株式会社 Donuts(京都)さんもいたきあらかドーナツ押しが強いです。&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;https://cdn-images-1.medium.com/max/2496/1*agYZ9KND5ZlcbGXyuBeB_Q.jpeg&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
-&lt;p&gt;ピザを食べつつビールを飲みつつの成果発表会です！&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;https://cdn-images-1.medium.com/max/2796/1*eeUfsexvcOt-kDQHkYEnKw.png&quot; alt=&quot;当日スクリーンにまんま写してたやつです&quot;&gt;&lt;em&gt;当日スクリーンにまんま写してたやつです&lt;/em&gt;&lt;/p&gt;
-&lt;p&gt;発表の様子は Youtube にもあるので時間のあるときにゆっくり見てもらえると嬉しいです！&lt;/p&gt;
-&lt;iframe src=&quot;https://medium.com/media/df6312ba3a635428041c19445b09db6a&quot; frameborder=0&gt;&lt;/iframe&gt;
-&lt;p&gt;では見ていきます。&lt;/p&gt;
-&lt;p&gt;今から下に貼る Youtube 動画は発表開始から再生できるようにしています。&lt;/p&gt;
-&lt;p&gt;—&lt;/p&gt;
-&lt;h2&gt;ツールとかの名前に使える！アイマス関連ワード！ by kiridaruma P&lt;/h2&gt;
-&lt;div class=&quot;gatsby-resp-iframe-wrapper&quot; style=&quot;padding-bottom: 56.25%; position: relative; height: 0; overflow: hidden; margin-bottom: 1.0725rem&quot; &gt; &lt;center&gt;&lt;iframe src=&quot;https://www.youtube.com/embed/C2MmK0OTuCI&quot; frameborder=&quot;0&quot; allowfullscreen=&quot;&quot; style=&quot; position: absolute; top: 0; left: 0; width: 100%; height: 100%; &quot;&gt;&lt;/iframe&gt;&lt;/center&gt; &lt;/div&gt;
-&lt;p&gt;関連ワードから技術に感する言語っぽいのを取り出してみた発見です。たしかにありそう。。 CAERULA のカラーテーマとか。。&lt;/p&gt;
-&lt;h2&gt;ひとまず imas_hack Kyoto で作ったもの by .Gotch P&lt;/h2&gt;
-&lt;div class=&quot;gatsby-resp-iframe-wrapper&quot; style=&quot;padding-bottom: 56.25%; position: relative; height: 0; overflow: hidden; margin-bottom: 1.0725rem&quot; &gt; &lt;center&gt;&lt;iframe src=&quot;https://www.youtube.com/embed/C2MmK0OTuCI&quot; frameborder=&quot;0&quot; allowfullscreen=&quot;&quot; style=&quot; position: absolute; top: 0; left: 0; width: 100%; height: 100%; &quot;&gt;&lt;/iframe&gt;&lt;/center&gt; &lt;/div&gt;
-&lt;p&gt;筆者です。スタッフだったので、当日作れる時間がなさそうと思って事前に作ったものの、時間があったので当日も作るということをしていました。LINE BOT でなにかと Nintendo Labo でなにかです。&lt;/p&gt;
-&lt;h2&gt;美咲ちゃんと P ライフ by ak_hina P&lt;/h2&gt;
-&lt;div class=&quot;gatsby-resp-iframe-wrapper&quot; style=&quot;padding-bottom: 56.25%; position: relative; height: 0; overflow: hidden; margin-bottom: 1.0725rem&quot; &gt; &lt;center&gt;&lt;iframe src=&quot;https://www.youtube.com/embed/C2MmK0OTuCI&quot; frameborder=&quot;0&quot; allowfullscreen=&quot;&quot; style=&quot; position: absolute; top: 0; left: 0; width: 100%; height: 100%; &quot;&gt;&lt;/iframe&gt;&lt;/center&gt; &lt;/div&gt;
-&lt;p&gt;LINE Clova で美咲ちゃんを作ってました。ハッカソンの最中も終始「ねぇ、Clova。美咲ちゃんを起動して！」とデバッグしておりました。&lt;/p&gt;
-&lt;h2&gt;16 歳で B80!?!?!?!?!?!?!? by omotu P&lt;/h2&gt;
-&lt;div class=&quot;gatsby-resp-iframe-wrapper&quot; style=&quot;padding-bottom: 56.25%; position: relative; height: 0; overflow: hidden; margin-bottom: 1.0725rem&quot; &gt; &lt;center&gt;&lt;iframe src=&quot;https://www.youtube.com/embed/C2MmK0OTuCI&quot; frameborder=&quot;0&quot; allowfullscreen=&quot;&quot; style=&quot; position: absolute; top: 0; left: 0; width: 100%; height: 100%; &quot;&gt;&lt;/iframe&gt;&lt;/center&gt; &lt;/div&gt;
-&lt;p&gt;なんとぉ！16 歳で B80 ですとぉ！なんだってーなんだっってー！im@sparql お世話になっております。&lt;/p&gt;
-&lt;h2&gt;外堀から埋めていく三好紗南プロデュース活動 by moririn P&lt;/h2&gt;
-&lt;div class=&quot;gatsby-resp-iframe-wrapper&quot; style=&quot;padding-bottom: 56.25%; position: relative; height: 0; overflow: hidden; margin-bottom: 1.0725rem&quot; &gt; &lt;center&gt;&lt;iframe src=&quot;https://www.youtube.com/embed/C2MmK0OTuCI&quot; frameborder=&quot;0&quot; allowfullscreen=&quot;&quot; style=&quot; position: absolute; top: 0; left: 0; width: 100%; height: 100%; &quot;&gt;&lt;/iframe&gt;&lt;/center&gt; &lt;/div&gt;
-&lt;p&gt;SANA 8BIT VST の紹介と追加開発です。毎度クウォリティの高いものを作ってくださるので、楽しませてもらっています！
-&lt;a href=&quot;http://ch.nicovideo.jp/acnochip/blomaga/ar1667053&quot;&gt;&lt;strong&gt;【無料】64bit 対応のチップチューンシンセ SANA 8BIT VST を紹介します：アクノチップ（もりりん）のブロマガ&lt;/strong&gt;
-*概要 32bit・64bit で動作する Windows・MacOS 対応 VST を開発しました．チップチューンに便利なレトロゲーム機っぽい音を再現し…*ch.nicovideo.jp&lt;/a&gt;&lt;/p&gt;
-&lt;h2&gt;楓さんの紹介 by urou P&lt;/h2&gt;
-&lt;div class=&quot;gatsby-resp-iframe-wrapper&quot; style=&quot;padding-bottom: 56.25%; position: relative; height: 0; overflow: hidden; margin-bottom: 1.0725rem&quot; &gt; &lt;center&gt;&lt;iframe src=&quot;https://www.youtube.com/embed/C2MmK0OTuCI&quot; frameborder=&quot;0&quot; allowfullscreen=&quot;&quot; style=&quot; position: absolute; top: 0; left: 0; width: 100%; height: 100%; &quot;&gt;&lt;/iframe&gt;&lt;/center&gt; &lt;/div&gt;
-&lt;p&gt;今回の LT 会でははじめてのダイマ LT となりました。高垣楓さんです。楓さんの意外な一面もしれました。！&lt;/p&gt;
-&lt;h2&gt;佐久間家を感じる by momen P&lt;/h2&gt;
-&lt;div class=&quot;gatsby-resp-iframe-wrapper&quot; style=&quot;padding-bottom: 56.25%; position: relative; height: 0; overflow: hidden; margin-bottom: 1.0725rem&quot; &gt; &lt;center&gt;&lt;iframe src=&quot;https://www.youtube.com/embed/C2MmK0OTuCI&quot; frameborder=&quot;0&quot; allowfullscreen=&quot;&quot; style=&quot; position: absolute; top: 0; left: 0; width: 100%; height: 100%; &quot;&gt;&lt;/iframe&gt;&lt;/center&gt; &lt;/div&gt;
-&lt;p&gt;秋葉原も実質佐久間家なのも意外な感じでした。Ionic で TinderUI をつくって佐久間まゆ選定をするｔ….かわいいー！！&lt;/p&gt;
-&lt;h2&gt;あれを知ってから 0.75 年 by mochimaguro P&lt;/h2&gt;
-&lt;iframe src=&quot;https://medium.com/media/df6312ba3a635428041c19445b09db6a&quot; frameborder=0&gt;&lt;/iframe&gt;
-&lt;p&gt;MagicaVoxel でアイドルをバリバリモデリングしてゲームを作っていきたい！この 0.75 年でのべ 50 人以上モデリングしているの本当にすごい。。！&lt;/p&gt;
-&lt;h2&gt;櫻井桃華で櫻井桃華を創った話〜創世記編〜 by bode P&lt;/h2&gt;
-&lt;div class=&quot;gatsby-resp-iframe-wrapper&quot; style=&quot;padding-bottom: 56.25%; position: relative; height: 0; overflow: hidden; margin-bottom: 1.0725rem&quot; &gt; &lt;center&gt;&lt;iframe src=&quot;https://www.youtube.com/embed/C2MmK0OTuCI&quot; frameborder=&quot;0&quot; allowfullscreen=&quot;&quot; style=&quot; position: absolute; top: 0; left: 0; width: 100%; height: 100%; &quot;&gt;&lt;/iframe&gt;&lt;/center&gt; &lt;/div&gt;
-&lt;p&gt;桃銀河！ #ももかわいい そして ももか is GOD!&lt;/p&gt;
-&lt;p&gt;みなさんありがとうございました。見ている自分もだいぶ楽しめました。&lt;/p&gt;
-&lt;p&gt;当日のみなさんの様子は Togetter からもみれます。
-&lt;a href=&quot;https://togetter.com/li/1291980&quot;&gt;&lt;strong&gt;#imas_hack アイマスハッカソン 2018 in 京都 ツイートまとめ&lt;/strong&gt;
-&lt;em&gt;2018/11/24 に開催されたアイマスハッカソンのまとめです&lt;/em&gt;togetter.com&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;そして、2018/12/23 に今度は東京でハッカソンありますので、お時間がありましたら参加をお願いします！
-&lt;a href=&quot;https://imas.connpass.com/event/110232/&quot;&gt;&lt;strong&gt;【増枠】アイマスハッカソン 2018 (2018/12/23 10:00〜)&lt;/strong&gt;
-*今回のテーマ：We♡IDOLS きっとアイマスハッカソンに参加するプロデューサー全員に共通していること、 それは皆アイドルを愛でているということ。 そして、ものづくりが好きであるということ。…*imas.connpass.com&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;加えて IM@Study で合同本も 2018 冬のコミケで出しますのでこちらも是非に！&lt;/p&gt;
-&lt;iframe src=&quot;https://medium.com/media/ccdc2444429033e5220f9f37750d74ec&quot; frameborder=0&gt;&lt;/iframe&gt;
-&lt;p&gt;それではでは。。アイマスですよ！アイマス！&lt;/p&gt;</content:encoded></item><item><title><![CDATA[チャンネルがいっぱい]]></title><description><![CDATA[この記事は 雑談 Slack Advent Calendar 2018 の 6 日目の記事です。 こんにちは、 .ごっちです。 前回は emoji がやたらとある件について紹介したのですが、それ以外にも Channel もたくさんあることを紹介します。 — 簡単に API…]]></description><link>https://yutagoto.github.io/20181206-チャンネルがいっぱい/</link><guid isPermaLink="false">https://yutagoto.github.io/20181206-チャンネルがいっぱい/</guid><pubDate>Thu, 06 Dec 2018 09:00:00 GMT</pubDate><content:encoded>&lt;p&gt;この記事は 雑談 Slack Advent Calendar 2018 の 6 日目の記事です。&lt;/p&gt;
+&lt;/ul&gt;</content:encoded></item><item><title><![CDATA[チャンネルがいっぱい]]></title><description><![CDATA[この記事は 雑談 Slack Advent Calendar 2018 の 6 日目の記事です。 こんにちは、 .ごっちです。 前回は emoji がやたらとある件について紹介したのですが、それ以外にも Channel もたくさんあることを紹介します。 — 簡単に API…]]></description><link>https://yutagoto.github.io/20181206-チャンネルがいっぱい/</link><guid isPermaLink="false">https://yutagoto.github.io/20181206-チャンネルがいっぱい/</guid><pubDate>Thu, 06 Dec 2018 09:00:00 GMT</pubDate><content:encoded>&lt;p&gt;この記事は 雑談 Slack Advent Calendar 2018 の 6 日目の記事です。&lt;/p&gt;
 &lt;p&gt;こんにちは、 .ごっちです。&lt;/p&gt;
 &lt;p&gt;&lt;a href=&quot;https://medium.com/@gggooottto/emoji%E3%81%A7%E3%81%84%E3%81%A3%E3%81%B1%E3%81%84-a8f63d02ebb1&quot;&gt;前回&lt;/a&gt;は emoji がやたらとある件について紹介したのですが、それ以外にも Channel もたくさんあることを紹介します。&lt;/p&gt;
 &lt;p&gt;—&lt;/p&gt;
@@ -4788,7 +4768,71 @@ _アイドルを愛でる、アイマスに Contribute する _ アイマスが�
 &lt;p&gt;🀄&lt;/p&gt;
 &lt;p&gt;これだけでもかなりあるのですが、まだまだあります。気になった方はぜひ一緒に雑談しましょう。
 &lt;a href=&quot;http://samezi-but.com/zdnj.html&quot;&gt;&lt;strong&gt;雑談 Slack ポータルサイト&lt;/strong&gt;
-*仕事中にサボりたいあなたにおすすめのチャットサービスです。slack を利用しています。*samezi-but.com&lt;/a&gt;&lt;/p&gt;</content:encoded></item><item><title><![CDATA[<-こいつを動かしてみた]]></title><description><![CDATA[こんにちは、.ごっちです。 2018/11/15 にサポーターズさんで Live2D モデリング講座 があったので、参加してきました！
+*仕事中にサボりたいあなたにおすすめのチャットサービスです。slack を利用しています。*samezi-but.com&lt;/a&gt;&lt;/p&gt;</content:encoded></item><item><title><![CDATA[アイマスハッカソン2018in京都を振り返り]]></title><description><![CDATA[この記事は アイドルマスター Advent Calendar 2018 の 6 日目の記事です。 こんにちは、 .ごっちです。 少し昔ですが、2018/11/24 に京都にて、アイマスハッカソンがあったのでそのレポートを書きます。
+アイマスハッカソン 2018 in…]]></description><link>https://yutagoto.github.io/20181206-アイマスハッカソン2018in京都を振り返り/</link><guid isPermaLink="false">https://yutagoto.github.io/20181206-アイマスハッカソン2018in京都を振り返り/</guid><pubDate>Thu, 06 Dec 2018 09:00:00 GMT</pubDate><content:encoded>&lt;p&gt;この記事は アイドルマスター Advent Calendar 2018 の 6 日目の記事です。&lt;/p&gt;
+&lt;p&gt;こんにちは、 .ごっちです。&lt;/p&gt;
+&lt;p&gt;少し昔ですが、2018/11/24 に京都にて、アイマスハッカソンがあったのでそのレポートを書きます。
+&lt;a href=&quot;https://imas.connpass.com/event/105789/&quot;&gt;&lt;strong&gt;アイマスハッカソン 2018 in 京都 (2018/11/24 10:00〜)&lt;/strong&gt;
+_アイドルを愛でる、アイマスに Contribute する _ アイマスが好きなエンジニアが集まったら何か出来るのではないか？ そんな思想の元開催される#imas_hack イベント、京都第二弾、今度はアイマスハッカソンですよ！ ### *…*imas.connpass.com&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;—&lt;/p&gt;
+&lt;p&gt;今回もぼくはスタッフをやっていました。役割はフルスタックスタッフと言う名の何でも屋です。&lt;/p&gt;
+&lt;p&gt;前日まではざっくりと必要なものを用意したり、当日は受付したり開発したりでした。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://cdn-images-1.medium.com/max/2496/1*1ytGrkpGknBDswe1Z8gNJg.jpeg&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
+&lt;p&gt;会場は株式会社はてなさんをお借りしました。ありがとうございます！スポンサーをしてくださった株式会社 Grooves さん、株式会社 Donuts（京都）さんもありがとうございます！&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://cdn-images-1.medium.com/max/2496/1*LpYuVkEEx6fi_18GdKDyJA.jpeg&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
+&lt;p&gt;みなさん和気あいあいと集まりつつ開発しつつの空間でした。&lt;/p&gt;
+&lt;iframe src=&quot;https://medium.com/media/6d8abad0a23792e18e876361de706aaf&quot; frameborder=0&gt;&lt;/iframe&gt;
+&lt;iframe src=&quot;https://medium.com/media/9ca42ba8d1cef82cd79d723970221a58&quot; frameborder=0&gt;&lt;/iframe&gt;
+&lt;p&gt;BGM ほんとうによかったです。ありがとうございます！&lt;/p&gt;
+&lt;iframe src=&quot;https://medium.com/media/2a6f0fe045bb7dd15503a1fb173f51fc&quot; frameborder=0&gt;&lt;/iframe&gt;
+&lt;p&gt;スポンサーさんに株式会社 Donuts(京都)さんもいたきあらかドーナツ押しが強いです。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://cdn-images-1.medium.com/max/2496/1*agYZ9KND5ZlcbGXyuBeB_Q.jpeg&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
+&lt;p&gt;ピザを食べつつビールを飲みつつの成果発表会です！&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://cdn-images-1.medium.com/max/2796/1*eeUfsexvcOt-kDQHkYEnKw.png&quot; alt=&quot;当日スクリーンにまんま写してたやつです&quot;&gt;&lt;em&gt;当日スクリーンにまんま写してたやつです&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;発表の様子は Youtube にもあるので時間のあるときにゆっくり見てもらえると嬉しいです！&lt;/p&gt;
+&lt;iframe src=&quot;https://medium.com/media/df6312ba3a635428041c19445b09db6a&quot; frameborder=0&gt;&lt;/iframe&gt;
+&lt;p&gt;では見ていきます。&lt;/p&gt;
+&lt;p&gt;今から下に貼る Youtube 動画は発表開始から再生できるようにしています。&lt;/p&gt;
+&lt;p&gt;—&lt;/p&gt;
+&lt;h2&gt;ツールとかの名前に使える！アイマス関連ワード！ by kiridaruma P&lt;/h2&gt;
+&lt;div class=&quot;gatsby-resp-iframe-wrapper&quot; style=&quot;padding-bottom: 56.25%; position: relative; height: 0; overflow: hidden; margin-bottom: 1.0725rem&quot; &gt; &lt;center&gt;&lt;iframe src=&quot;https://www.youtube.com/embed/C2MmK0OTuCI&quot; frameborder=&quot;0&quot; allowfullscreen=&quot;&quot; style=&quot; position: absolute; top: 0; left: 0; width: 100%; height: 100%; &quot;&gt;&lt;/iframe&gt;&lt;/center&gt; &lt;/div&gt;
+&lt;p&gt;関連ワードから技術に感する言語っぽいのを取り出してみた発見です。たしかにありそう。。 CAERULA のカラーテーマとか。。&lt;/p&gt;
+&lt;h2&gt;ひとまず imas_hack Kyoto で作ったもの by .Gotch P&lt;/h2&gt;
+&lt;div class=&quot;gatsby-resp-iframe-wrapper&quot; style=&quot;padding-bottom: 56.25%; position: relative; height: 0; overflow: hidden; margin-bottom: 1.0725rem&quot; &gt; &lt;center&gt;&lt;iframe src=&quot;https://www.youtube.com/embed/C2MmK0OTuCI&quot; frameborder=&quot;0&quot; allowfullscreen=&quot;&quot; style=&quot; position: absolute; top: 0; left: 0; width: 100%; height: 100%; &quot;&gt;&lt;/iframe&gt;&lt;/center&gt; &lt;/div&gt;
+&lt;p&gt;筆者です。スタッフだったので、当日作れる時間がなさそうと思って事前に作ったものの、時間があったので当日も作るということをしていました。LINE BOT でなにかと Nintendo Labo でなにかです。&lt;/p&gt;
+&lt;h2&gt;美咲ちゃんと P ライフ by ak_hina P&lt;/h2&gt;
+&lt;div class=&quot;gatsby-resp-iframe-wrapper&quot; style=&quot;padding-bottom: 56.25%; position: relative; height: 0; overflow: hidden; margin-bottom: 1.0725rem&quot; &gt; &lt;center&gt;&lt;iframe src=&quot;https://www.youtube.com/embed/C2MmK0OTuCI&quot; frameborder=&quot;0&quot; allowfullscreen=&quot;&quot; style=&quot; position: absolute; top: 0; left: 0; width: 100%; height: 100%; &quot;&gt;&lt;/iframe&gt;&lt;/center&gt; &lt;/div&gt;
+&lt;p&gt;LINE Clova で美咲ちゃんを作ってました。ハッカソンの最中も終始「ねぇ、Clova。美咲ちゃんを起動して！」とデバッグしておりました。&lt;/p&gt;
+&lt;h2&gt;16 歳で B80!?!?!?!?!?!?!? by omotu P&lt;/h2&gt;
+&lt;div class=&quot;gatsby-resp-iframe-wrapper&quot; style=&quot;padding-bottom: 56.25%; position: relative; height: 0; overflow: hidden; margin-bottom: 1.0725rem&quot; &gt; &lt;center&gt;&lt;iframe src=&quot;https://www.youtube.com/embed/C2MmK0OTuCI&quot; frameborder=&quot;0&quot; allowfullscreen=&quot;&quot; style=&quot; position: absolute; top: 0; left: 0; width: 100%; height: 100%; &quot;&gt;&lt;/iframe&gt;&lt;/center&gt; &lt;/div&gt;
+&lt;p&gt;なんとぉ！16 歳で B80 ですとぉ！なんだってーなんだっってー！im@sparql お世話になっております。&lt;/p&gt;
+&lt;h2&gt;外堀から埋めていく三好紗南プロデュース活動 by moririn P&lt;/h2&gt;
+&lt;div class=&quot;gatsby-resp-iframe-wrapper&quot; style=&quot;padding-bottom: 56.25%; position: relative; height: 0; overflow: hidden; margin-bottom: 1.0725rem&quot; &gt; &lt;center&gt;&lt;iframe src=&quot;https://www.youtube.com/embed/C2MmK0OTuCI&quot; frameborder=&quot;0&quot; allowfullscreen=&quot;&quot; style=&quot; position: absolute; top: 0; left: 0; width: 100%; height: 100%; &quot;&gt;&lt;/iframe&gt;&lt;/center&gt; &lt;/div&gt;
+&lt;p&gt;SANA 8BIT VST の紹介と追加開発です。毎度クウォリティの高いものを作ってくださるので、楽しませてもらっています！
+&lt;a href=&quot;http://ch.nicovideo.jp/acnochip/blomaga/ar1667053&quot;&gt;&lt;strong&gt;【無料】64bit 対応のチップチューンシンセ SANA 8BIT VST を紹介します：アクノチップ（もりりん）のブロマガ&lt;/strong&gt;
+*概要 32bit・64bit で動作する Windows・MacOS 対応 VST を開発しました．チップチューンに便利なレトロゲーム機っぽい音を再現し…*ch.nicovideo.jp&lt;/a&gt;&lt;/p&gt;
+&lt;h2&gt;楓さんの紹介 by urou P&lt;/h2&gt;
+&lt;div class=&quot;gatsby-resp-iframe-wrapper&quot; style=&quot;padding-bottom: 56.25%; position: relative; height: 0; overflow: hidden; margin-bottom: 1.0725rem&quot; &gt; &lt;center&gt;&lt;iframe src=&quot;https://www.youtube.com/embed/C2MmK0OTuCI&quot; frameborder=&quot;0&quot; allowfullscreen=&quot;&quot; style=&quot; position: absolute; top: 0; left: 0; width: 100%; height: 100%; &quot;&gt;&lt;/iframe&gt;&lt;/center&gt; &lt;/div&gt;
+&lt;p&gt;今回の LT 会でははじめてのダイマ LT となりました。高垣楓さんです。楓さんの意外な一面もしれました。！&lt;/p&gt;
+&lt;h2&gt;佐久間家を感じる by momen P&lt;/h2&gt;
+&lt;div class=&quot;gatsby-resp-iframe-wrapper&quot; style=&quot;padding-bottom: 56.25%; position: relative; height: 0; overflow: hidden; margin-bottom: 1.0725rem&quot; &gt; &lt;center&gt;&lt;iframe src=&quot;https://www.youtube.com/embed/C2MmK0OTuCI&quot; frameborder=&quot;0&quot; allowfullscreen=&quot;&quot; style=&quot; position: absolute; top: 0; left: 0; width: 100%; height: 100%; &quot;&gt;&lt;/iframe&gt;&lt;/center&gt; &lt;/div&gt;
+&lt;p&gt;秋葉原も実質佐久間家なのも意外な感じでした。Ionic で TinderUI をつくって佐久間まゆ選定をするｔ….かわいいー！！&lt;/p&gt;
+&lt;h2&gt;あれを知ってから 0.75 年 by mochimaguro P&lt;/h2&gt;
+&lt;iframe src=&quot;https://medium.com/media/df6312ba3a635428041c19445b09db6a&quot; frameborder=0&gt;&lt;/iframe&gt;
+&lt;p&gt;MagicaVoxel でアイドルをバリバリモデリングしてゲームを作っていきたい！この 0.75 年でのべ 50 人以上モデリングしているの本当にすごい。。！&lt;/p&gt;
+&lt;h2&gt;櫻井桃華で櫻井桃華を創った話〜創世記編〜 by bode P&lt;/h2&gt;
+&lt;div class=&quot;gatsby-resp-iframe-wrapper&quot; style=&quot;padding-bottom: 56.25%; position: relative; height: 0; overflow: hidden; margin-bottom: 1.0725rem&quot; &gt; &lt;center&gt;&lt;iframe src=&quot;https://www.youtube.com/embed/C2MmK0OTuCI&quot; frameborder=&quot;0&quot; allowfullscreen=&quot;&quot; style=&quot; position: absolute; top: 0; left: 0; width: 100%; height: 100%; &quot;&gt;&lt;/iframe&gt;&lt;/center&gt; &lt;/div&gt;
+&lt;p&gt;桃銀河！ #ももかわいい そして ももか is GOD!&lt;/p&gt;
+&lt;p&gt;みなさんありがとうございました。見ている自分もだいぶ楽しめました。&lt;/p&gt;
+&lt;p&gt;当日のみなさんの様子は Togetter からもみれます。
+&lt;a href=&quot;https://togetter.com/li/1291980&quot;&gt;&lt;strong&gt;#imas_hack アイマスハッカソン 2018 in 京都 ツイートまとめ&lt;/strong&gt;
+&lt;em&gt;2018/11/24 に開催されたアイマスハッカソンのまとめです&lt;/em&gt;togetter.com&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;そして、2018/12/23 に今度は東京でハッカソンありますので、お時間がありましたら参加をお願いします！
+&lt;a href=&quot;https://imas.connpass.com/event/110232/&quot;&gt;&lt;strong&gt;【増枠】アイマスハッカソン 2018 (2018/12/23 10:00〜)&lt;/strong&gt;
+*今回のテーマ：We♡IDOLS きっとアイマスハッカソンに参加するプロデューサー全員に共通していること、 それは皆アイドルを愛でているということ。 そして、ものづくりが好きであるということ。…*imas.connpass.com&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;加えて IM@Study で合同本も 2018 冬のコミケで出しますのでこちらも是非に！&lt;/p&gt;
+&lt;iframe src=&quot;https://medium.com/media/ccdc2444429033e5220f9f37750d74ec&quot; frameborder=0&gt;&lt;/iframe&gt;
+&lt;p&gt;それではでは。。アイマスですよ！アイマス！&lt;/p&gt;</content:encoded></item><item><title><![CDATA[<-こいつを動かしてみた]]></title><description><![CDATA[こんにちは、.ごっちです。 2018/11/15 にサポーターズさんで Live2D モデリング講座 があったので、参加してきました！
 【サポーターズ CoLab 勉強会】【作れる！Vtuber】初心者向け Live2D モデリング講座 (2018/11/15 19:3…]]></description><link>https://yutagoto.github.io/20181117-こいつを動かしてみた/</link><guid isPermaLink="false">https://yutagoto.github.io/20181117-こいつを動かしてみた/</guid><pubDate>Sat, 17 Nov 2018 09:00:00 GMT</pubDate><content:encoded>&lt;p&gt;こんにちは、.ごっちです。&lt;/p&gt;
 &lt;p&gt;2018/11/15 にサポーターズさんで Live2D モデリング講座 があったので、参加してきました！
 &lt;a href=&quot;https://supporterzcolab.com/event/593/&quot;&gt;&lt;strong&gt;【サポーターズ CoLab 勉強会】【作れる！Vtuber】初心者向け Live2D モデリング講座 (2018/11/15 19:30〜)&lt;/strong&gt;

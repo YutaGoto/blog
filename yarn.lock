@@ -5971,17 +5971,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"babel-plugin-macros@npm:^2.8.0":
-  version: 2.8.0
-  resolution: "babel-plugin-macros@npm:2.8.0"
-  dependencies:
-    "@babel/runtime": ^7.7.2
-    cosmiconfig: ^6.0.0
-    resolve: ^1.12.0
-  checksum: 59b09a21cf3ae1e14186c1b021917d004b49b953824b24953a54c6502da79e8051d4ac31cfd4a0ae7f6ea5ddf1f7edd93df4895dd3c3982a5b2431859c2889ac
-  languageName: node
-  linkType: hard
-
 "babel-plugin-macros@npm:^3.1.0":
   version: 3.1.0
   resolution: "babel-plugin-macros@npm:3.1.0"
@@ -6145,32 +6134,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"babel-preset-gatsby@npm:^2.13.0":
-  version: 2.13.0
-  resolution: "babel-preset-gatsby@npm:2.13.0"
-  dependencies:
-    "@babel/plugin-proposal-class-properties": ^7.14.0
-    "@babel/plugin-proposal-nullish-coalescing-operator": ^7.14.5
-    "@babel/plugin-proposal-optional-chaining": ^7.14.5
-    "@babel/plugin-syntax-dynamic-import": ^7.8.3
-    "@babel/plugin-transform-classes": ^7.15.4
-    "@babel/plugin-transform-runtime": ^7.15.0
-    "@babel/plugin-transform-spread": ^7.14.6
-    "@babel/preset-env": ^7.15.4
-    "@babel/preset-react": ^7.14.0
-    "@babel/runtime": ^7.15.4
-    babel-plugin-dynamic-import-node: ^2.3.3
-    babel-plugin-macros: ^2.8.0
-    babel-plugin-transform-react-remove-prop-types: ^0.4.24
-    gatsby-core-utils: ^3.13.0
-    gatsby-legacy-polyfills: ^2.13.0
-  peerDependencies:
-    "@babel/core": ^7.11.6
-    core-js: ^3.0.0
-  checksum: aa2e8e39b1ff2b09dfb9ea07bc83b98b239e7fcbbf4f71fc8cfbb4ffdff4811ba0ad7891314c0d756fa2b04dc519d4d8c7525641f9b6c5c6a23281672564ef7b
-  languageName: node
-  linkType: hard
-
 "babel-preset-gatsby@npm:^2.14.0":
   version: 2.14.0
   resolution: "babel-preset-gatsby@npm:2.14.0"
@@ -6194,6 +6157,32 @@ __metadata:
     "@babel/core": ^7.11.6
     core-js: ^3.0.0
   checksum: 7c087c137089ed9ddcf12db629be2eeb1f0e6e5771b73c3b1540cd3441d33076bd1bbc3244deac5247054bd8b533272568b079bfcf8bf8714e7107399d7bd813
+  languageName: node
+  linkType: hard
+
+"babel-preset-gatsby@npm:^2.15.0":
+  version: 2.15.0
+  resolution: "babel-preset-gatsby@npm:2.15.0"
+  dependencies:
+    "@babel/plugin-proposal-class-properties": ^7.14.0
+    "@babel/plugin-proposal-nullish-coalescing-operator": ^7.14.5
+    "@babel/plugin-proposal-optional-chaining": ^7.14.5
+    "@babel/plugin-syntax-dynamic-import": ^7.8.3
+    "@babel/plugin-transform-classes": ^7.15.4
+    "@babel/plugin-transform-runtime": ^7.15.0
+    "@babel/plugin-transform-spread": ^7.14.6
+    "@babel/preset-env": ^7.15.4
+    "@babel/preset-react": ^7.14.0
+    "@babel/runtime": ^7.15.4
+    babel-plugin-dynamic-import-node: ^2.3.3
+    babel-plugin-macros: ^3.1.0
+    babel-plugin-transform-react-remove-prop-types: ^0.4.24
+    gatsby-core-utils: ^3.15.0
+    gatsby-legacy-polyfills: ^2.15.0
+  peerDependencies:
+    "@babel/core": ^7.11.6
+    core-js: ^3.0.0
+  checksum: 3bfceaa5e31462ee85d14e02b508ac99429404515f1032f70c72740e4c9d354e17e8bed4bb972f4d0d688cf8ef14c60f1115d3c145a6b60f204abc8c5c8836f8
   languageName: node
   linkType: hard
 
@@ -10247,16 +10236,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"gatsby-legacy-polyfills@npm:^2.13.0":
-  version: 2.13.0
-  resolution: "gatsby-legacy-polyfills@npm:2.13.0"
-  dependencies:
-    "@babel/runtime": ^7.15.4
-    core-js-compat: 3.9.0
-  checksum: 0a0548c7b65e4329cf0009464c7e8cd73044f928b58b77f0c5e0bbc7fbf0461ad5d0bd3d4bfccce42483ea0e34937a00ff579c977f34cb462f9bcde76a0117e8
-  languageName: node
-  linkType: hard
-
 "gatsby-legacy-polyfills@npm:^2.14.0":
   version: 2.14.0
   resolution: "gatsby-legacy-polyfills@npm:2.14.0"
@@ -10264,6 +10243,16 @@ __metadata:
     "@babel/runtime": ^7.15.4
     core-js-compat: 3.9.0
   checksum: 1b53ef5c8c0ab8a1f05a916208238f4d98401fc0fcdaf77960dda29dbc744596d9d8608d7ef3887e5e316da12a1a3fbd7ec6e4b6966e6d6ea7b0496ef7cab803
+  languageName: node
+  linkType: hard
+
+"gatsby-legacy-polyfills@npm:^2.15.0":
+  version: 2.15.0
+  resolution: "gatsby-legacy-polyfills@npm:2.15.0"
+  dependencies:
+    "@babel/runtime": ^7.15.4
+    core-js-compat: 3.9.0
+  checksum: 6af10debc53987b9f3b48b3b12f9de6140ffb68a38eaa21f80ed8553b15e76a4d7f08b26cf3032225eaf9970d4e965312ac6e45b3f2d665d7f8c2c875028b9bc
   languageName: node
   linkType: hard
 
@@ -18313,7 +18302,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"resolve@npm:^1.10.0, resolve@npm:^1.12.0, resolve@npm:^1.14.2, resolve@npm:^1.19.0, resolve@npm:^1.20.0, resolve@npm:^1.22.0":
+"resolve@npm:^1.10.0, resolve@npm:^1.14.2, resolve@npm:^1.19.0, resolve@npm:^1.20.0, resolve@npm:^1.22.0":
   version: 1.22.0
   resolution: "resolve@npm:1.22.0"
   dependencies:
@@ -18336,7 +18325,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"resolve@patch:resolve@^1.10.0#~builtin<compat/resolve>, resolve@patch:resolve@^1.12.0#~builtin<compat/resolve>, resolve@patch:resolve@^1.14.2#~builtin<compat/resolve>, resolve@patch:resolve@^1.19.0#~builtin<compat/resolve>, resolve@patch:resolve@^1.20.0#~builtin<compat/resolve>, resolve@patch:resolve@^1.22.0#~builtin<compat/resolve>":
+"resolve@patch:resolve@^1.10.0#~builtin<compat/resolve>, resolve@patch:resolve@^1.14.2#~builtin<compat/resolve>, resolve@patch:resolve@^1.19.0#~builtin<compat/resolve>, resolve@patch:resolve@^1.20.0#~builtin<compat/resolve>, resolve@patch:resolve@^1.22.0#~builtin<compat/resolve>":
   version: 1.22.0
   resolution: "resolve@patch:resolve@npm%3A1.22.0#~builtin<compat/resolve>::version=1.22.0&hash=07638b"
   dependencies:
@@ -22545,7 +22534,7 @@ __metadata:
     "@typescript-eslint/parser": ^5.25.0
     autoprefixer: ^10.4.2
     babel-jest: ^27.5.1
-    babel-preset-gatsby: ^2.13.0
+    babel-preset-gatsby: ^2.15.0
     eslint: ^8.16.0
     eslint-config-prettier: ^8.5.0
     eslint-import-resolver-typescript: ^2.7.0

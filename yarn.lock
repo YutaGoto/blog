@@ -10785,9 +10785,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"gatsby-remark-responsive-iframe@npm:^5.13.0":
-  version: 5.13.0
-  resolution: "gatsby-remark-responsive-iframe@npm:5.13.0"
+"gatsby-remark-responsive-iframe@npm:^5.17.0":
+  version: 5.17.0
+  resolution: "gatsby-remark-responsive-iframe@npm:5.17.0"
   dependencies:
     "@babel/runtime": ^7.15.4
     cheerio: ^1.0.0-rc.10
@@ -10796,7 +10796,7 @@ __metadata:
     unist-util-visit: ^2.0.3
   peerDependencies:
     gatsby: ^4.0.0-next
-  checksum: 9f9ea72f6bdd3cc32e1c17997961ac6880aec93d9de5d6b4f33389a3e2d2e285bb9308378806d7165edeb59e0fe04d291dbc130b2b26be2158009da64e5112f1
+  checksum: e9478b3dc68bd9123348be16d08e5a73c9a9e9dd45093d6dfa37b5edc37e66453c6f59bb1bdf08b21cf8710212536ef6a03b005b80fa73e82deae06b227e1c59
   languageName: node
   linkType: hard
 
@@ -22679,7 +22679,7 @@ __metadata:
     gatsby-remark-copy-linked-files: ^5.15.0
     gatsby-remark-images: ^6.17.0
     gatsby-remark-prismjs: ^6.13.0
-    gatsby-remark-responsive-iframe: ^5.13.0
+    gatsby-remark-responsive-iframe: ^5.17.0
     gatsby-remark-smartypants: ^5.15.0
     gatsby-source-filesystem: ^4.13.0
     gatsby-transformer-remark: ^5.13.0

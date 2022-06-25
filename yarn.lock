@@ -10538,9 +10538,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"gatsby-plugin-sass@npm:^5.16.0":
-  version: 5.16.0
-  resolution: "gatsby-plugin-sass@npm:5.16.0"
+"gatsby-plugin-sass@npm:^5.17.0":
+  version: 5.17.0
+  resolution: "gatsby-plugin-sass@npm:5.17.0"
   dependencies:
     "@babel/runtime": ^7.15.4
     resolve-url-loader: ^3.1.4
@@ -10548,7 +10548,7 @@ __metadata:
   peerDependencies:
     gatsby: ^4.0.0-next
     sass: ^1.30.0
-  checksum: c362346f5f63686f32ed63c534cfd2250384f26fd879570133e488e0918bba6eb7a3c7214f13ef6dae98ea2391126cf82c8384a69ae2e6053217e92b67882061
+  checksum: b573285723dba6d97b5801ae7bb5577a699fc202fbd3ea6faaf733c67f27998d36fbe0b50c27c0bb30a61b57d2c67bf435dd0fdab97ebb4656ae48f92a77259e
   languageName: node
   linkType: hard
 
@@ -22672,7 +22672,7 @@ __metadata:
     gatsby-plugin-manifest: ^4.15.1
     gatsby-plugin-offline: ^5.13.0
     gatsby-plugin-react-helmet-async: ^1.2.1
-    gatsby-plugin-sass: ^5.16.0
+    gatsby-plugin-sass: ^5.17.0
     gatsby-plugin-sharp: ^4.14.1
     gatsby-plugin-twitter: ^4.17.0
     gatsby-plugin-typegen: ^2.2.4

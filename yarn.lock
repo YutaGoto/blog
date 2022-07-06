@@ -10288,6 +10288,29 @@ __metadata:
   languageName: node
   linkType: hard
 
+"gatsby-core-utils@npm:^3.18.0":
+  version: 3.18.0
+  resolution: "gatsby-core-utils@npm:3.18.0"
+  dependencies:
+    "@babel/runtime": ^7.15.4
+    ci-info: 2.0.0
+    configstore: ^5.0.1
+    fastq: ^1.13.0
+    file-type: ^16.5.3
+    fs-extra: ^10.1.0
+    got: ^11.8.5
+    import-from: ^4.0.0
+    lmdb: 2.5.2
+    lock: ^1.1.0
+    node-object-hash: ^2.3.10
+    proper-lockfile: ^4.1.2
+    resolve-from: ^5.0.0
+    tmp: ^0.2.1
+    xdg-basedir: ^4.0.0
+  checksum: d22f9a07f40865f7f9c13b11e357030d8e974b29a309f494e66fef5e6e1513abd8eb60247e07c25aea371ae6eb9c18eee98ed08b5c0ba41e3207a1c9a9d0a09b
+  languageName: node
+  linkType: hard
+
 "gatsby-core-utils@npm:^3.8.2":
   version: 3.11.1
   resolution: "gatsby-core-utils@npm:3.11.1"
@@ -10873,15 +10896,15 @@ __metadata:
   languageName: node
   linkType: hard
 
-"gatsby-source-filesystem@npm:^4.13.0":
-  version: 4.13.0
-  resolution: "gatsby-source-filesystem@npm:4.13.0"
+"gatsby-source-filesystem@npm:^4.18.0":
+  version: 4.18.0
+  resolution: "gatsby-source-filesystem@npm:4.18.0"
   dependencies:
     "@babel/runtime": ^7.15.4
-    chokidar: ^3.5.2
+    chokidar: ^3.5.3
     file-type: ^16.5.3
-    fs-extra: ^10.0.0
-    gatsby-core-utils: ^3.13.0
+    fs-extra: ^10.1.0
+    gatsby-core-utils: ^3.18.0
     got: ^9.6.0
     md5-file: ^5.0.0
     mime: ^2.5.2
@@ -10891,7 +10914,7 @@ __metadata:
     xstate: ^4.26.1
   peerDependencies:
     gatsby: ^4.0.0-next
-  checksum: ae3f5e8aa429062056fb4c953806311ccfc8d62566bbb4d13dbe5ab362c221d86b3e48bf4c269cfd34be6e7c30046d4b6b0ab9057585a7330f0b35e6c450d28b
+  checksum: 08ddab1f7abbb97eb639ed4a19f0ff11d46342955bf96d297def0f79adaa14c2958a6fd32b440cecbf7c14ea238cb6079d581db77df469b0f930ab8350544a47
   languageName: node
   linkType: hard
 
@@ -11514,6 +11537,25 @@ __metadata:
     p-cancelable: ^2.0.0
     responselike: ^2.0.0
   checksum: 3b6db107d9765470b18e4cb22f7c7400381be7425b9be5823f0168d6c21b5d6b28b023c0b3ee208f73f6638c3ce251948ca9b54a1e8f936d3691139ac202d01b
+  languageName: node
+  linkType: hard
+
+"got@npm:^11.8.5":
+  version: 11.8.5
+  resolution: "got@npm:11.8.5"
+  dependencies:
+    "@sindresorhus/is": ^4.0.0
+    "@szmarczak/http-timer": ^4.0.5
+    "@types/cacheable-request": ^6.0.1
+    "@types/responselike": ^1.0.0
+    cacheable-lookup: ^5.0.3
+    cacheable-request: ^7.0.2
+    decompress-response: ^6.0.0
+    http2-wrapper: ^1.0.0-beta.5.2
+    lowercase-keys: ^2.0.0
+    p-cancelable: ^2.0.0
+    responselike: ^2.0.0
+  checksum: 2de8a1bbda4e9b6b2b72b2d2100bc055a59adc1740529e631f61feb44a8b9a1f9f8590941ed9da9df0090b6d6d0ed8ffee94cd9ac086ec3409b392b33440f7d2
   languageName: node
   linkType: hard
 
@@ -22691,7 +22733,7 @@ __metadata:
     gatsby-remark-prismjs: ^6.17.0
     gatsby-remark-responsive-iframe: ^5.17.0
     gatsby-remark-smartypants: ^5.15.0
-    gatsby-source-filesystem: ^4.13.0
+    gatsby-source-filesystem: ^4.18.0
     gatsby-transformer-remark: ^5.13.0
     gatsby-transformer-sharp: ^4.17.0
     gh-pages: ^3.1.0

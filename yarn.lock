@@ -3099,9 +3099,23 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@lmdb/lmdb-darwin-arm64@npm:2.5.3":
+  version: 2.5.3
+  resolution: "@lmdb/lmdb-darwin-arm64@npm:2.5.3"
+  conditions: os=darwin & cpu=arm64
+  languageName: node
+  linkType: hard
+
 "@lmdb/lmdb-darwin-x64@npm:2.5.2":
   version: 2.5.2
   resolution: "@lmdb/lmdb-darwin-x64@npm:2.5.2"
+  conditions: os=darwin & cpu=x64
+  languageName: node
+  linkType: hard
+
+"@lmdb/lmdb-darwin-x64@npm:2.5.3":
+  version: 2.5.3
+  resolution: "@lmdb/lmdb-darwin-x64@npm:2.5.3"
   conditions: os=darwin & cpu=x64
   languageName: node
   linkType: hard
@@ -3113,9 +3127,23 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@lmdb/lmdb-linux-arm64@npm:2.5.3":
+  version: 2.5.3
+  resolution: "@lmdb/lmdb-linux-arm64@npm:2.5.3"
+  conditions: os=linux & cpu=arm64
+  languageName: node
+  linkType: hard
+
 "@lmdb/lmdb-linux-arm@npm:2.5.2":
   version: 2.5.2
   resolution: "@lmdb/lmdb-linux-arm@npm:2.5.2"
+  conditions: os=linux & cpu=arm
+  languageName: node
+  linkType: hard
+
+"@lmdb/lmdb-linux-arm@npm:2.5.3":
+  version: 2.5.3
+  resolution: "@lmdb/lmdb-linux-arm@npm:2.5.3"
   conditions: os=linux & cpu=arm
   languageName: node
   linkType: hard
@@ -3127,9 +3155,23 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@lmdb/lmdb-linux-x64@npm:2.5.3":
+  version: 2.5.3
+  resolution: "@lmdb/lmdb-linux-x64@npm:2.5.3"
+  conditions: os=linux & cpu=x64
+  languageName: node
+  linkType: hard
+
 "@lmdb/lmdb-win32-x64@npm:2.5.2":
   version: 2.5.2
   resolution: "@lmdb/lmdb-win32-x64@npm:2.5.2"
+  conditions: os=win32 & cpu=x64
+  languageName: node
+  linkType: hard
+
+"@lmdb/lmdb-win32-x64@npm:2.5.3":
+  version: 2.5.3
+  resolution: "@lmdb/lmdb-win32-x64@npm:2.5.3"
   conditions: os=win32 & cpu=x64
   languageName: node
   linkType: hard
@@ -10288,6 +10330,29 @@ __metadata:
   languageName: node
   linkType: hard
 
+"gatsby-core-utils@npm:^3.18.1":
+  version: 3.18.1
+  resolution: "gatsby-core-utils@npm:3.18.1"
+  dependencies:
+    "@babel/runtime": ^7.15.4
+    ci-info: 2.0.0
+    configstore: ^5.0.1
+    fastq: ^1.13.0
+    file-type: ^16.5.3
+    fs-extra: ^10.1.0
+    got: ^11.8.5
+    import-from: ^4.0.0
+    lmdb: 2.5.3
+    lock: ^1.1.0
+    node-object-hash: ^2.3.10
+    proper-lockfile: ^4.1.2
+    resolve-from: ^5.0.0
+    tmp: ^0.2.1
+    xdg-basedir: ^4.0.0
+  checksum: 2f8152d922401f652a6a92657bf42ea482a06653d4cda4483f51f0ecdc88708d70218570d350d81823892f3d4900997c96066c8b22ed7c5f90638fc69a3dada3
+  languageName: node
+  linkType: hard
+
 "gatsby-core-utils@npm:^3.8.2":
   version: 3.11.1
   resolution: "gatsby-core-utils@npm:3.11.1"
@@ -10873,15 +10938,15 @@ __metadata:
   languageName: node
   linkType: hard
 
-"gatsby-source-filesystem@npm:^4.13.0":
-  version: 4.13.0
-  resolution: "gatsby-source-filesystem@npm:4.13.0"
+"gatsby-source-filesystem@npm:^4.18.1":
+  version: 4.18.1
+  resolution: "gatsby-source-filesystem@npm:4.18.1"
   dependencies:
     "@babel/runtime": ^7.15.4
-    chokidar: ^3.5.2
+    chokidar: ^3.5.3
     file-type: ^16.5.3
-    fs-extra: ^10.0.0
-    gatsby-core-utils: ^3.13.0
+    fs-extra: ^10.1.0
+    gatsby-core-utils: ^3.18.1
     got: ^9.6.0
     md5-file: ^5.0.0
     mime: ^2.5.2
@@ -10891,7 +10956,7 @@ __metadata:
     xstate: ^4.26.1
   peerDependencies:
     gatsby: ^4.0.0-next
-  checksum: ae3f5e8aa429062056fb4c953806311ccfc8d62566bbb4d13dbe5ab362c221d86b3e48bf4c269cfd34be6e7c30046d4b6b0ab9057585a7330f0b35e6c450d28b
+  checksum: d576eb16addf2afd7d1120796dbaa8efb6d1d1351ca013544acf73b489831cc87f1fc0567056a51d6a817e0d55239db3aba3e7d9dbe7bbc0552a7113bf0b555c
   languageName: node
   linkType: hard
 
@@ -11514,6 +11579,25 @@ __metadata:
     p-cancelable: ^2.0.0
     responselike: ^2.0.0
   checksum: 3b6db107d9765470b18e4cb22f7c7400381be7425b9be5823f0168d6c21b5d6b28b023c0b3ee208f73f6638c3ce251948ca9b54a1e8f936d3691139ac202d01b
+  languageName: node
+  linkType: hard
+
+"got@npm:^11.8.5":
+  version: 11.8.5
+  resolution: "got@npm:11.8.5"
+  dependencies:
+    "@sindresorhus/is": ^4.0.0
+    "@szmarczak/http-timer": ^4.0.5
+    "@types/cacheable-request": ^6.0.1
+    "@types/responselike": ^1.0.0
+    cacheable-lookup: ^5.0.3
+    cacheable-request: ^7.0.2
+    decompress-response: ^6.0.0
+    http2-wrapper: ^1.0.0-beta.5.2
+    lowercase-keys: ^2.0.0
+    p-cancelable: ^2.0.0
+    responselike: ^2.0.0
+  checksum: 2de8a1bbda4e9b6b2b72b2d2100bc055a59adc1740529e631f61feb44a8b9a1f9f8590941ed9da9df0090b6d6d0ed8ffee94cd9ac086ec3409b392b33440f7d2
   languageName: node
   linkType: hard
 
@@ -14142,6 +14226,39 @@ __metadata:
     "@lmdb/lmdb-win32-x64":
       optional: true
   checksum: 3362dc2b03c6fbdfc02291001007e4096767476e65fbf8d5e332ef473946a0d108319748ef5974ebb84cf6ffa4015c039920f130bcc09c03a751b03a9fd93dff
+  languageName: node
+  linkType: hard
+
+"lmdb@npm:2.5.3":
+  version: 2.5.3
+  resolution: "lmdb@npm:2.5.3"
+  dependencies:
+    "@lmdb/lmdb-darwin-arm64": 2.5.3
+    "@lmdb/lmdb-darwin-x64": 2.5.3
+    "@lmdb/lmdb-linux-arm": 2.5.3
+    "@lmdb/lmdb-linux-arm64": 2.5.3
+    "@lmdb/lmdb-linux-x64": 2.5.3
+    "@lmdb/lmdb-win32-x64": 2.5.3
+    msgpackr: ^1.5.4
+    node-addon-api: ^4.3.0
+    node-gyp: latest
+    node-gyp-build-optional-packages: 5.0.3
+    ordered-binary: ^1.2.4
+    weak-lru-cache: ^1.2.2
+  dependenciesMeta:
+    "@lmdb/lmdb-darwin-arm64":
+      optional: true
+    "@lmdb/lmdb-darwin-x64":
+      optional: true
+    "@lmdb/lmdb-linux-arm":
+      optional: true
+    "@lmdb/lmdb-linux-arm64":
+      optional: true
+    "@lmdb/lmdb-linux-x64":
+      optional: true
+    "@lmdb/lmdb-win32-x64":
+      optional: true
+  checksum: 8dd33d46878e28029d62cab8bfa491da0f06428eb9f3cc63b8b1d9464fb3bdb46bddaf4caa5b1a0af5815cec288102aae0cb411a48e79c5514df566ddcb3a4c4
   languageName: node
   linkType: hard
 
@@ -22691,7 +22808,7 @@ __metadata:
     gatsby-remark-prismjs: ^6.17.0
     gatsby-remark-responsive-iframe: ^5.17.0
     gatsby-remark-smartypants: ^5.15.0
-    gatsby-source-filesystem: ^4.13.0
+    gatsby-source-filesystem: ^4.18.1
     gatsby-transformer-remark: ^5.13.0
     gatsby-transformer-sharp: ^4.17.0
     gh-pages: ^3.1.0

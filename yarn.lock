@@ -10448,9 +10448,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"gatsby-plugin-google-gtag@npm:^4.15.0":
-  version: 4.15.0
-  resolution: "gatsby-plugin-google-gtag@npm:4.15.0"
+"gatsby-plugin-google-gtag@npm:^4.19.0":
+  version: 4.19.0
+  resolution: "gatsby-plugin-google-gtag@npm:4.19.0"
   dependencies:
     "@babel/runtime": ^7.15.4
     minimatch: ^3.1.2
@@ -10458,7 +10458,7 @@ __metadata:
     gatsby: ^4.0.0-next
     react: ^16.9.0 || ^17.0.0 || ^18.0.0
     react-dom: ^16.9.0 || ^17.0.0 || ^18.0.0
-  checksum: a1e3a1099dc9811964c3953b151c3ccf22c9db58a8ea7fd289a01123bfe292d0bc176683948be4f334223bf5dd8730096f929b98e3e5d1ab888843922218c84b
+  checksum: 33023b95be857641c8333305820ad2beabff362a002ba614d9c68f319f8b3a35e351694365650d720efc29eee0d7109f39485cba0d1c424a1434a257cd77f004
   languageName: node
   linkType: hard
 
@@ -22677,7 +22677,7 @@ __metadata:
     gatsby-plugin-feed: ^4.13.0
     gatsby-plugin-fontawesome-css: ^1.2.0
     gatsby-plugin-gatsby-cloud: ^4.14.0
-    gatsby-plugin-google-gtag: ^4.15.0
+    gatsby-plugin-google-gtag: ^4.19.0
     gatsby-plugin-image: ^2.13.0
     gatsby-plugin-manifest: ^4.15.1
     gatsby-plugin-offline: ^5.13.0

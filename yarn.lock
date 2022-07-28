@@ -1608,12 +1608,19 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@fortawesome/fontawesome-svg-core@npm:^6.1.1":
-  version: 6.1.1
-  resolution: "@fortawesome/fontawesome-svg-core@npm:6.1.1"
+"@fortawesome/fontawesome-common-types@npm:6.1.2":
+  version: 6.1.2
+  resolution: "@fortawesome/fontawesome-common-types@npm:6.1.2"
+  checksum: 16ba97f73256adef5cd680a027e6dbd3e76f34ba9227f7bd9e8c372cb4f337c7ccbf41f35dcfbc22b11320bbb579d01daccf1aa7ae47df5d0b17260c0097bb30
+  languageName: node
+  linkType: hard
+
+"@fortawesome/fontawesome-svg-core@npm:^6.1.2":
+  version: 6.1.2
+  resolution: "@fortawesome/fontawesome-svg-core@npm:6.1.2"
   dependencies:
-    "@fortawesome/fontawesome-common-types": 6.1.1
-  checksum: bf3b09a1ec3c5d6be30ea04c83dffb921c5a457c547fb1b99b814591489efabf939f669878cc5b48deb9771ef705209a1bb1b3088e66f6873cc9b34cbf4c781c
+    "@fortawesome/fontawesome-common-types": 6.1.2
+  checksum: bb82ed1e79ade9977746b4bb28ac0d03de7557e7c923446adec78cb3447740aca0859e91d6310007d758055a1b8f3a6f740915f04cac738931135c9bdbfe5d32
   languageName: node
   linkType: hard
 
@@ -22763,7 +22770,7 @@ __metadata:
   resolution: "yutagoto-blog@workspace:."
   dependencies:
     "@babel/preset-typescript": ^7.16.7
-    "@fortawesome/fontawesome-svg-core": ^6.1.1
+    "@fortawesome/fontawesome-svg-core": ^6.1.2
     "@fortawesome/free-brands-svg-icons": ^6.1.1
     "@fortawesome/free-regular-svg-icons": ^6.1.1
     "@fortawesome/free-solid-svg-icons": ^6.1.1

@@ -3261,18 +3261,27 @@ declare namespace GatsbyTypes {
     readonly order: Maybe<ReadonlyArray<Maybe<SortOrderEnum>>>
   }
 
-  type Unnamed_1_QueryVariables = Exact<{ [key: string]: never }>
+  type TagListQueryVariables = Exact<{ [key: string]: never }>
 
-  type Unnamed_1_Query = {
-    readonly site: Maybe<{
-      readonly siteMetadata: Maybe<
-        Pick<SiteSiteMetadata, "title" | "description"> & {
-          readonly social: Maybe<
-            ReadonlyArray<Maybe<Pick<Social, "name" | "url">>>
-          >
-        }
+  type TagListQuery = {
+    readonly allMarkdownRemark: {
+      readonly group: ReadonlyArray<
+        Pick<MarkdownRemarkGroupConnection, "fieldValue" | "totalCount">
       >
+    }
+  }
+
+  type TagPageQueryVariables = Exact<{ [key: string]: never }>
+
+  type TagPageQuery = {
+    readonly site: Maybe<{
+      readonly siteMetadata: Maybe<Pick<SiteSiteMetadata, "title">>
     }>
+    readonly allMarkdownRemark: {
+      readonly group: ReadonlyArray<
+        Pick<MarkdownRemarkGroupConnection, "fieldValue" | "totalCount">
+      >
+    }
   }
 
   type NotFoundQueryVariables = Exact<{ [key: string]: never }>
@@ -3301,19 +3310,6 @@ declare namespace GatsbyTypes {
     }
   }
 
-  type TagPageQueryVariables = Exact<{ [key: string]: never }>
-
-  type TagPageQuery = {
-    readonly site: Maybe<{
-      readonly siteMetadata: Maybe<Pick<SiteSiteMetadata, "title">>
-    }>
-    readonly allMarkdownRemark: {
-      readonly group: ReadonlyArray<
-        Pick<MarkdownRemarkGroupConnection, "fieldValue" | "totalCount">
-      >
-    }
-  }
-
   type BlogTagByNameQueryVariables = Exact<{
     tag: Maybe<Scalars["String"]>
   }>
@@ -3334,31 +3330,18 @@ declare namespace GatsbyTypes {
     }
   }
 
-  type BlogPostBySlugQueryVariables = Exact<{
-    id: Scalars["String"]
-    previousPostId: Maybe<Scalars["String"]>
-    nextPostId: Maybe<Scalars["String"]>
-  }>
+  type staticHomeyougotoprojectsblogsrccomponentsseoTsx2137539840QueryVariables =
+    Exact<{ [key: string]: never }>
 
-  type BlogPostBySlugQuery = {
+  type staticHomeyougotoprojectsblogsrccomponentsseoTsx2137539840Query = {
     readonly site: Maybe<{
-      readonly siteMetadata: Maybe<Pick<SiteSiteMetadata, "title" | "siteUrl">>
-    }>
-    readonly markdownRemark: Maybe<
-      Pick<MarkdownRemark, "id" | "excerpt" | "html"> & {
-        readonly fields: Maybe<Pick<Fields, "slug">>
-        readonly frontmatter: Maybe<
-          Pick<Frontmatter, "title" | "date" | "description" | "tags">
-        >
-      }
-    >
-    readonly previous: Maybe<{
-      readonly fields: Maybe<Pick<Fields, "slug">>
-      readonly frontmatter: Maybe<Pick<Frontmatter, "title">>
-    }>
-    readonly next: Maybe<{
-      readonly fields: Maybe<Pick<Fields, "slug">>
-      readonly frontmatter: Maybe<Pick<Frontmatter, "title">>
+      readonly siteMetadata: Maybe<
+        Pick<SiteSiteMetadata, "title" | "description"> & {
+          readonly social: Maybe<
+            ReadonlyArray<Maybe<Pick<Social, "name" | "url">>>
+          >
+        }
+      >
     }>
   }
 
@@ -3445,14 +3428,32 @@ declare namespace GatsbyTypes {
     "aspectRatio" | "src" | "srcSet" | "srcWebp" | "srcSetWebp" | "sizes"
   >
 
-  type TagListQueryVariables = Exact<{ [key: string]: never }>
+  type BlogPostBySlugQueryVariables = Exact<{
+    id: Scalars["String"]
+    previousPostId: Maybe<Scalars["String"]>
+    nextPostId: Maybe<Scalars["String"]>
+  }>
 
-  type TagListQuery = {
-    readonly allMarkdownRemark: {
-      readonly group: ReadonlyArray<
-        Pick<MarkdownRemarkGroupConnection, "fieldValue" | "totalCount">
-      >
-    }
+  type BlogPostBySlugQuery = {
+    readonly site: Maybe<{
+      readonly siteMetadata: Maybe<Pick<SiteSiteMetadata, "title" | "siteUrl">>
+    }>
+    readonly markdownRemark: Maybe<
+      Pick<MarkdownRemark, "id" | "excerpt" | "html"> & {
+        readonly fields: Maybe<Pick<Fields, "slug">>
+        readonly frontmatter: Maybe<
+          Pick<Frontmatter, "title" | "date" | "description" | "tags">
+        >
+      }
+    >
+    readonly previous: Maybe<{
+      readonly fields: Maybe<Pick<Fields, "slug">>
+      readonly frontmatter: Maybe<Pick<Frontmatter, "title">>
+    }>
+    readonly next: Maybe<{
+      readonly fields: Maybe<Pick<Fields, "slug">>
+      readonly frontmatter: Maybe<Pick<Frontmatter, "title">>
+    }>
   }
 
   type PagesQueryQueryVariables = Exact<{ [key: string]: never }>

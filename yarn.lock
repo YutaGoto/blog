@@ -4271,7 +4271,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@turist/fetch@npm:^7.1.7":
+"@turist/fetch@npm:^7.1.7, @turist/fetch@npm:^7.2.0":
   version: 7.2.0
   resolution: "@turist/fetch@npm:7.2.0"
   dependencies:
@@ -7971,7 +7971,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"date-fns@npm:^2.25.0, date-fns@npm:^2.28.0":
+"date-fns@npm:^2.25.0":
   version: 2.28.0
   resolution: "date-fns@npm:2.28.0"
   checksum: a0516b2e4f99b8bffc6cc5193349f185f195398385bdcaf07f17c2c4a24473c99d933eb0018be4142a86a6d46cb0b06be6440ad874f15e795acbedd6fd727a1f
@@ -10360,6 +10360,29 @@ __metadata:
   languageName: node
   linkType: hard
 
+"gatsby-core-utils@npm:^3.20.0":
+  version: 3.20.0
+  resolution: "gatsby-core-utils@npm:3.20.0"
+  dependencies:
+    "@babel/runtime": ^7.15.4
+    ci-info: 2.0.0
+    configstore: ^5.0.1
+    fastq: ^1.13.0
+    file-type: ^16.5.3
+    fs-extra: ^10.1.0
+    got: ^11.8.5
+    import-from: ^4.0.0
+    lmdb: 2.5.3
+    lock: ^1.1.0
+    node-object-hash: ^2.3.10
+    proper-lockfile: ^4.1.2
+    resolve-from: ^5.0.0
+    tmp: ^0.2.1
+    xdg-basedir: ^4.0.0
+  checksum: 9570a4fba57f14ee70229cfe1fd24191597c728520493303c42dd8ae3da5c0e50736ea7e554e9ac7e569fa12d00675a0988e2ee5d7b119a649ae3d4ca102dba0
+  languageName: node
+  linkType: hard
+
 "gatsby-core-utils@npm:^3.8.2":
   version: 3.11.1
   resolution: "gatsby-core-utils@npm:3.11.1"
@@ -10500,23 +10523,21 @@ __metadata:
   languageName: node
   linkType: hard
 
-"gatsby-plugin-gatsby-cloud@npm:^4.14.0":
-  version: 4.14.0
-  resolution: "gatsby-plugin-gatsby-cloud@npm:4.14.0"
+"gatsby-plugin-gatsby-cloud@npm:^4.20.0":
+  version: 4.20.0
+  resolution: "gatsby-plugin-gatsby-cloud@npm:4.20.0"
   dependencies:
     "@babel/runtime": ^7.15.4
-    date-fns: ^2.28.0
     fs-extra: ^10.1.0
-    gatsby-core-utils: ^3.14.0
-    gatsby-telemetry: ^3.14.0
-    js-cookie: ^3.0.1
+    gatsby-core-utils: ^3.20.0
+    gatsby-telemetry: ^3.20.0
     kebab-hash: ^0.1.2
     lodash: ^4.17.21
     webpack-assets-manifest: ^5.1.0
   peerDependencies:
     gatsby: ^4.0.0-next
     webpack: "*"
-  checksum: 74a38ce33b3bc6ddce1dadb8386bae17689bbf157abf0f232bf42110262af0eef6a7926d216921ec23eb4654cf71925577e6af1561672ead8e58ad8df3e8ce3a
+  checksum: ddccd5c0bce20d99cfdd465767721235a4008151cc353c8ede7846458558e4ff771b6525144df66c941581cbae5d59d7159d0ebb9b95623a5c23aaf50ffef487
   languageName: node
   linkType: hard
 
@@ -10985,6 +11006,27 @@ __metadata:
     lodash: ^4.17.21
     node-fetch: ^2.6.7
   checksum: 566d1f25ba10d6d87405e99f2d50c262e85991c004d687e5ea8b2522fd21478021390f8a5d6f528b4f5b67dad0bd26da511c7a871f1e32f85451bf35f1d7a234
+  languageName: node
+  linkType: hard
+
+"gatsby-telemetry@npm:^3.20.0":
+  version: 3.20.0
+  resolution: "gatsby-telemetry@npm:3.20.0"
+  dependencies:
+    "@babel/code-frame": ^7.14.0
+    "@babel/runtime": ^7.15.4
+    "@turist/fetch": ^7.2.0
+    "@turist/time": ^0.0.2
+    async-retry-ng: ^2.0.1
+    boxen: ^4.2.0
+    configstore: ^5.0.1
+    fs-extra: ^10.1.0
+    gatsby-core-utils: ^3.20.0
+    git-up: ^4.0.5
+    is-docker: ^2.2.1
+    lodash: ^4.17.21
+    node-fetch: ^2.6.7
+  checksum: 74bb4ba010a2dcd4783ebec13b76cabac9413cf5561c389bb52e1d57d4d939aa05cb61eca3cd0135e5a0477b99ba45f3a25a97bf80d39b45fbf7c33522bcafd6
   languageName: node
   linkType: hard
 
@@ -13713,13 +13755,6 @@ __metadata:
   version: 0.4.2
   resolution: "jpeg-js@npm:0.4.2"
   checksum: def900757c395e6376446aef5c13ed122cae1ab15308e84784d260c8d3c14d30c2092eaf32a4f57528d6e1f96a6b240a801e92122f00c9f3bb5d5c4d38df5bc0
-  languageName: node
-  linkType: hard
-
-"js-cookie@npm:^3.0.1":
-  version: 3.0.1
-  resolution: "js-cookie@npm:3.0.1"
-  checksum: bb48de67e2a6bd1ae3dfd6b2d5a167c33dd0c5a37e909206161eb0358c98f17cb55acd55827a58e9eea3630d89444e7479f7938ef4420dda443218b8c434a4c3
   languageName: node
   linkType: hard
 
@@ -22864,7 +22899,7 @@ __metadata:
     gatsby: ^4.14.1
     gatsby-plugin-feed: ^4.19.0
     gatsby-plugin-fontawesome-css: ^1.2.0
-    gatsby-plugin-gatsby-cloud: ^4.14.0
+    gatsby-plugin-gatsby-cloud: ^4.20.0
     gatsby-plugin-google-gtag: ^4.19.0
     gatsby-plugin-image: ^2.13.0
     gatsby-plugin-manifest: ^4.15.1

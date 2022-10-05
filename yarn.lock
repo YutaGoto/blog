@@ -18908,16 +18908,16 @@ __metadata:
   languageName: node
   linkType: hard
 
-"sass@npm:^1.52.1":
-  version: 1.52.1
-  resolution: "sass@npm:1.52.1"
+"sass@npm:^1.55.0":
+  version: 1.55.0
+  resolution: "sass@npm:1.55.0"
   dependencies:
     chokidar: ">=3.0.0 <4.0.0"
     immutable: ^4.0.0
     source-map-js: ">=0.6.2 <2.0.0"
   bin:
     sass: sass.js
-  checksum: a0508c88b149641202e8fb589f731e0cb09a15650128dfee6d0d1ee4a868cb57f1e71575535ccd72f54c5313b684a8beb208d293402ca8d32084ee1709d9f26d
+  checksum: 7d769ed08efce4e6134e0f3dc11c4f07e32c413ac8eb43c5855f2686890fdcbd80da34165c91fb4ba407f478ca108e171574b5a60cb9814a5ed09d80f6014f96
   languageName: node
   linkType: hard
 
@@ -22826,7 +22826,7 @@ __metadata:
     react-helmet-async: ^1.3.0
     react-share: ^4.4.0
     react-test-renderer: ^17.0.2
-    sass: ^1.52.1
+    sass: ^1.55.0
     sharp: ^0.30.7
     stylelint: ^14.9.1
     stylelint-config-prettier: ^9.0.3

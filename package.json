@@ -76,7 +76,7 @@
     "stylelint-config-prettier": "^9.0.3",
     "stylelint-config-standard": "^24.0.0",
     "tailwindcss": "<4.0.0",
-    "textlint": "^12.2.1",
+    "textlint": "^12.2.2",
     "textlint-rule-preset-ja-spacing": "^2.2.0",
     "textlint-rule-preset-ja-technical-writing": "^7.0.0",
     "textlint-rule-preset-japanese": "^7.0.0",

@@ -1,13 +1,6 @@
-/**
- * Seo component that queries for data with
- *  Gatsby's useStaticQuery React hook
- *
- * See: https://www.gatsbyjs.com/docs/use-static-query/
- */
 
 import React, { FC } from "react"
 import { Helmet } from "react-helmet-async"
-import { useStaticQuery, graphql } from "gatsby"
 
 type Props = {
   description?: string

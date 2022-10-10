@@ -1,5 +1,4 @@
 import React, { FC } from "react"
-import { graphql, useStaticQuery } from "gatsby"
 import { Tag } from "./Tag"
 
 export const PureTagList: FC<{ data: GatsbyTypes.TagListQuery }> = ({

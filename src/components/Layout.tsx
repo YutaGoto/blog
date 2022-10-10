@@ -1,12 +1,11 @@
 import React, { FC } from "react"
-import { Link, PageProps } from "gatsby"
+import Link from "next/link"
 
 interface Props {
   title: string
-  location: PageProps["location"]
 }
 
-export const Layout: FC<Props> = ({ location, title, children }) => {
+export const Layout: FC<Props> = ({ title, children }) => {
   const rootPath = `${__PATH_PREFIX__}/`
   const isRootPath = location.pathname === rootPath
 
@@ -19,7 +18,7 @@ export const Layout: FC<Props> = ({ location, title, children }) => {
         <div>
           <Link
             className="pl-2 text-3xl text-gray-900 dark:text-gray-100"
-            to="/"
+            href="/"
           >
             {title}
           </Link>

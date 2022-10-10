@@ -1,5 +1,4 @@
 import React, { FC } from "react"
-import { graphql, PageProps } from "gatsby"
 import Seo from "../components/seo"
 import { ArticleCard, Bio, Layout, TagList } from "../components"
 

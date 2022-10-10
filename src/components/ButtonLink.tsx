@@ -1,4 +1,4 @@
-import { Link } from "gatsby"
+import Link from "next/link"
 import React from "react"
 import "./fontawesome"
 
@@ -19,7 +19,7 @@ export const ButtonLink = ({
 }: ButtonLinkProps) => (
   <Link
     className="mb-1 box-border border border-blue-400 p-2 text-blue-400 hover:bg-blue-400 hover:text-gray-900 dark:border-blue-700 dark:text-gray-100 dark:hover:bg-blue-700 dark:hover:text-gray-100 lg:mb-0"
-    to={linkTo}
+    href={linkTo}
     rel={rel}
   >
     {isLeft && <i className={`fas fa-${iconName}`} aria-hidden="true" />}

@@ -1,6 +1,4 @@
 import React, { FC } from "react"
-import { graphql, useStaticQuery } from "gatsby"
-import { ImageFormat, StaticImage } from "gatsby-plugin-image"
 import "./fontawesome"
 
 export const PureBio: FC<{ data: GatsbyTypes.BioQuery }> = ({ data }) => {

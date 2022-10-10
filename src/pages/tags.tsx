@@ -1,5 +1,5 @@
 import React, { FC } from "react"
-import { Link, graphql, PageProps } from "gatsby"
+import Link from "next/link"
 import Seo from "../components/seo"
 import { Layout, Tag } from "../components"
 
@@ -20,7 +20,7 @@ const TagsPage: FC<PageProps<GatsbyTypes.TagPageQuery>> = ({
 
       <div className="my-2">
         {group.map(tag => (
-          <Link key={tag.fieldValue} to={`/tags/${tag.fieldValue}/`}>
+          <Link key={tag.fieldValue} href={`/tags/${tag.fieldValue}/`}>
             <Tag
               className="mr-1"
               tag={`${tag.fieldValue} (${tag.totalCount})`}

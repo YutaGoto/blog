@@ -1,5 +1,5 @@
 import * as React from "react"
-import { Link } from "gatsby"
+import Link from "next/link"
 import { Tag } from "./Tag"
 
 interface ArticleCardProps {
@@ -18,7 +18,7 @@ export const ArticleCard = ({ post }: ArticleCardProps) => {
   return (
     <div className="mb-2 bg-gray-50 px-4 py-10 shadow-lg dark:bg-gray-800 sm:rounded-xl sm:p-5">
       <Link
-        to={post.fields?.slug || ""}
+        href={post.fields?.slug || ""}
         itemProp="url"
         className="has-text-black"
       >

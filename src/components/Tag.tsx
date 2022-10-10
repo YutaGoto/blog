@@ -1,4 +1,4 @@
-import { Link } from "gatsby"
+import Link from "next/link"
 import React from "react"
 
 interface TagProps {
@@ -12,7 +12,7 @@ export const Tag = ({ tag, className = "", withLink = true }: TagProps) => {
     <span
       className={`${className} rounded bg-emerald-800 py-1 px-2 text-sm text-gray-100`}
     >
-      {withLink ? <Link to={`/tags/${tag}`}>{tag}</Link> : tag}
+      {withLink ? <Link href={`/tags/${tag}`}>{tag}</Link> : tag}
     </span>
   )
 }

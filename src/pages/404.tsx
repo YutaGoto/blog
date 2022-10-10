@@ -1,5 +1,5 @@
 import React, { FC } from "react"
-import { graphql, Link, PageProps } from "gatsby"
+import Link from "next/link"
 
 import { Layout } from "../components"
 import Seo from "../components/seo"
@@ -16,7 +16,7 @@ const NotFoundPage: FC<PageProps<GatsbyTypes.NotFoundQuery>> = ({
       <div className="flex h-screen items-center justify-center text-center">
         <div>
           <h1 className="mb-2 text-4xl">404: Not Found</h1>
-          <Link to="/" className="underline">
+          <Link href="/" className="underline">
             Go To Home
           </Link>
         </div>

@@ -6,8 +6,8 @@ interface Props {
 }
 
 export const Layout: FC<Props> = ({ title, children }) => {
-  const rootPath = `${__PATH_PREFIX__}/`
-  const isRootPath = location.pathname === rootPath
+  const rootPath = `/`
+  const isRootPath = true
 
   return (
     <div className="bg-gray-200 text-gray-900 dark:bg-gray-700 dark:text-gray-100">

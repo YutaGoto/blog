@@ -1,27 +1,19 @@
 import * as React from "react"
 import Link from "next/link"
 import { Tag } from "./Tag"
+import { Post } from "../interfaces/Post"
 
 interface ArticleCardProps {
-  post: Pick<GatsbyTypes.MarkdownRemark, "excerpt"> & {
-    readonly fields: GatsbyTypes.Maybe<Pick<GatsbyTypes.Fields, "slug">>
-    readonly frontmatter: GatsbyTypes.Maybe<
-      Pick<GatsbyTypes.Frontmatter, "description" | "title" | "date" | "tags">
-    >
-  }
+  post: Post
 }
 
 export const ArticleCard = ({ post }: ArticleCardProps) => {
-  const title = post.frontmatter?.title || post.fields?.slug
-  const tags = post.frontmatter?.tags
+  const title = post.title || post.slug
+  const tags = post.tags
 
   return (
     <div className="mb-2 bg-gray-50 px-4 py-10 shadow-lg dark:bg-gray-800 sm:rounded-xl sm:p-5">
-      <Link
-        href={post.fields?.slug || ""}
-        itemProp="url"
-        className="has-text-black"
-      >
+      <Link href={post.slug || ""} itemProp="url" className="has-text-black">
         <article
           className="media"
           itemScope
@@ -29,7 +21,7 @@ export const ArticleCard = ({ post }: ArticleCardProps) => {
         >
           <div className="">
             <div className="mb-2 text-2xl">{title}</div>
-            <div className="mb-2 text-sm">{post.frontmatter?.date}</div>
+            <div className="mb-2 text-sm">{post.date}</div>
             <div className="mb-2">
               {tags?.map(tag => (
                 <Tag key={tag} className="mr-1" tag={tag} withLink={false} />
@@ -38,7 +30,7 @@ export const ArticleCard = ({ post }: ArticleCardProps) => {
             <div
               className="text-base"
               dangerouslySetInnerHTML={{
-                __html: post.frontmatter?.description || post.excerpt || "",
+                __html: post?.description || "",
               }}
               itemProp="description"
             />

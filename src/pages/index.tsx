@@ -1,21 +1,23 @@
-import React, { FC } from "react"
+import React from "react"
 import Seo from "../components/seo"
 import { ArticleCard, Bio, Layout, TagList } from "../components"
+import { Post } from "../interfaces/Post"
+import { getAllPosts } from "../lib/api"
 
-const BlogIndex: FC<PageProps<GatsbyTypes.BlogIndexQuery>> = ({
-  data,
-  location,
-}) => {
-  const siteTitle = data.site?.siteMetadata?.title || `Title`
-  const posts = data.allMarkdownRemark.nodes
+interface Props {
+  allPosts: Post[]
+}
+
+const BlogIndex = ({ allPosts }: Props) => {
+  const siteTitle = `一覧`
 
   return (
-    <Layout location={location} title={siteTitle}>
+    <Layout title={siteTitle}>
       <div className="lg:flex lg:space-x-2">
         <Seo title="All Posts" />
         <div className="max-w-screen-2xl lg:flex-grow">
-          {posts.map(post => {
-            return <ArticleCard post={post} key={post.fields?.slug} />
+          {allPosts.map(post => {
+            return <ArticleCard post={post} key={post.slug} />
           })}
         </div>
         <div className="mb-2 lg:flex-none">
@@ -29,26 +31,10 @@ const BlogIndex: FC<PageProps<GatsbyTypes.BlogIndexQuery>> = ({
 
 export default BlogIndex
 
-export const pageQuery = graphql`
-  query BlogIndex {
-    site {
-      siteMetadata {
-        title
-      }
-    }
-    allMarkdownRemark(sort: { fields: [frontmatter___date], order: DESC }) {
-      nodes {
-        excerpt
-        fields {
-          slug
-        }
-        frontmatter {
-          date(formatString: "MMMM DD, YYYY")
-          title
-          description
-          tags
-        }
-      }
-    }
+export const getStaticProps = async () => {
+  const allPosts = getAllPosts(["title", "date", "slug"])
+
+  return {
+    props: { allPosts },
   }
-`
+}

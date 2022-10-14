@@ -24,7 +24,7 @@ interface HtmlText {
 
 const KEY = "5ec56a7cc68fbfce44a071"
 
-export const Iframely: FC<Props> = ({htmlProps}) => {
+export const Iframely: FC<Props> = ({ htmlProps }) => {
   const [error, setError] = useState<Error | null>(null)
   const [isLoaded, setIsLoaded] = useState<boolean>(false)
   const [html, setHtml] = useState<HtmlText>({

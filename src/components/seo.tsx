@@ -1,5 +1,6 @@
 import React, { FC } from "react"
 import { Helmet } from "react-helmet-async"
+import { siteMetadata } from "../constants/siteMetaData"
 
 type Props = {
   description?: string
@@ -17,25 +18,8 @@ const Seo: FC<Props> = ({
   meta = [],
   title = "",
 }) => {
-  const { site } = useStaticQuery(
-    graphql`
-      query {
-        site {
-          siteMetadata {
-            title
-            description
-            social {
-              name
-              url
-            }
-          }
-        }
-      }
-    `
-  )
-
-  const metaDescription = description || site.siteMetadata.description
-  const defaultTitle = site.siteMetadata?.title
+  const metaDescription = description || siteMetadata.description
+  const defaultTitle = siteMetadata.title
 
   return (
     <Helmet
@@ -67,7 +51,7 @@ const Seo: FC<Props> = ({
         },
         {
           name: `twitter:creator`,
-          content: site.siteMetadata?.social?.name || ``,
+          content: siteMetadata.social[0].name || ``,
         },
         {
           name: `twitter:title`,

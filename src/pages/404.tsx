@@ -4,14 +4,10 @@ import Link from "next/link"
 import { Layout } from "../components"
 import Seo from "../components/seo"
 
-const NotFoundPage: FC<PageProps<GatsbyTypes.NotFoundQuery>> = ({
-  data,
-  location,
-}) => {
-  const siteTitle = data.site?.siteMetadata?.title || ""
+const NotFoundPage: FC = () => {
 
   return (
-    <Layout location={location} title={siteTitle}>
+    <Layout title={"404"}>
       <Seo title="404: Not Found" />
       <div className="flex h-screen items-center justify-center text-center">
         <div>
@@ -26,13 +22,3 @@ const NotFoundPage: FC<PageProps<GatsbyTypes.NotFoundQuery>> = ({
 }
 
 export default NotFoundPage
-
-export const pageQuery = graphql`
-  query NotFound {
-    site {
-      siteMetadata {
-        title
-      }
-    }
-  }
-`

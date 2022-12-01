@@ -3261,9 +3261,20 @@ declare namespace GatsbyTypes {
     readonly order: Maybe<ReadonlyArray<Maybe<SortOrderEnum>>>
   }
 
-  type Unnamed_1_QueryVariables = Exact<{ [key: string]: never }>
+  type TagListQueryVariables = Exact<{ [key: string]: never }>
 
-  type Unnamed_1_Query = {
+  type TagListQuery = {
+    readonly allMarkdownRemark: {
+      readonly group: ReadonlyArray<
+        Pick<MarkdownRemarkGroupConnection, "fieldValue" | "totalCount">
+      >
+    }
+  }
+
+  type staticHomeyougotoprojectsblogsrccomponentsseoTsx2137539840QueryVariables =
+    Exact<{ [key: string]: never }>
+
+  type staticHomeyougotoprojectsblogsrccomponentsseoTsx2137539840Query = {
     readonly site: Maybe<{
       readonly siteMetadata: Maybe<
         Pick<SiteSiteMetadata, "title" | "description"> & {
@@ -3273,16 +3284,6 @@ declare namespace GatsbyTypes {
         }
       >
     }>
-  }
-
-  type TagListQueryVariables = Exact<{ [key: string]: never }>
-
-  type TagListQuery = {
-    readonly allMarkdownRemark: {
-      readonly group: ReadonlyArray<
-        Pick<MarkdownRemarkGroupConnection, "fieldValue" | "totalCount">
-      >
-    }
   }
 
   type NotFoundQueryVariables = Exact<{ [key: string]: never }>

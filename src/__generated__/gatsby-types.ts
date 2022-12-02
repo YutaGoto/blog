@@ -3261,16 +3261,6 @@ declare namespace GatsbyTypes {
     readonly order: Maybe<ReadonlyArray<Maybe<SortOrderEnum>>>
   }
 
-  type TagListQueryVariables = Exact<{ [key: string]: never }>
-
-  type TagListQuery = {
-    readonly allMarkdownRemark: {
-      readonly group: ReadonlyArray<
-        Pick<MarkdownRemarkGroupConnection, "fieldValue" | "totalCount">
-      >
-    }
-  }
-
   type staticHomeyougotoprojectsblogsrccomponentsseoTsx2137539840QueryVariables =
     Exact<{ [key: string]: never }>
 
@@ -3284,6 +3274,16 @@ declare namespace GatsbyTypes {
         }
       >
     }>
+  }
+
+  type TagListQueryVariables = Exact<{ [key: string]: never }>
+
+  type TagListQuery = {
+    readonly allMarkdownRemark: {
+      readonly group: ReadonlyArray<
+        Pick<MarkdownRemarkGroupConnection, "fieldValue" | "totalCount">
+      >
+    }
   }
 
   type NotFoundQueryVariables = Exact<{ [key: string]: never }>
@@ -3308,19 +3308,6 @@ declare namespace GatsbyTypes {
             Pick<Frontmatter, "date" | "title" | "description" | "tags">
           >
         }
-      >
-    }
-  }
-
-  type TagPageQueryVariables = Exact<{ [key: string]: never }>
-
-  type TagPageQuery = {
-    readonly site: Maybe<{
-      readonly siteMetadata: Maybe<Pick<SiteSiteMetadata, "title">>
-    }>
-    readonly allMarkdownRemark: {
-      readonly group: ReadonlyArray<
-        Pick<MarkdownRemarkGroupConnection, "fieldValue" | "totalCount">
       >
     }
   }
@@ -3455,6 +3442,19 @@ declare namespace GatsbyTypes {
     ImageSharpFluid,
     "aspectRatio" | "src" | "srcSet" | "srcWebp" | "srcSetWebp" | "sizes"
   >
+
+  type TagPageQueryVariables = Exact<{ [key: string]: never }>
+
+  type TagPageQuery = {
+    readonly site: Maybe<{
+      readonly siteMetadata: Maybe<Pick<SiteSiteMetadata, "title">>
+    }>
+    readonly allMarkdownRemark: {
+      readonly group: ReadonlyArray<
+        Pick<MarkdownRemarkGroupConnection, "fieldValue" | "totalCount">
+      >
+    }
+  }
 
   type PagesQueryQueryVariables = Exact<{ [key: string]: never }>
 

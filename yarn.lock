@@ -10862,9 +10862,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"gatsby-remark-copy-linked-files@npm:^5.19.0":
-  version: 5.19.0
-  resolution: "gatsby-remark-copy-linked-files@npm:5.19.0"
+"gatsby-remark-copy-linked-files@npm:^5.24.0":
+  version: 5.24.0
+  resolution: "gatsby-remark-copy-linked-files@npm:5.24.0"
   dependencies:
     "@babel/runtime": ^7.15.4
     cheerio: ^1.0.0-rc.10
@@ -10876,7 +10876,7 @@ __metadata:
     unist-util-visit: ^2.0.3
   peerDependencies:
     gatsby: ^4.0.0-next
-  checksum: bd093b8ef62896f992170cf4d4d14929c2741f1596a19c4db1d9840a67f34c1091f5037150ed9e6e3b09837b72eb333a8eb5bde3861338cec8d91e4b471de9f0
+  checksum: af8195a8b29ebfa74d140ed4e4f154b34e9cb5c137fc3590bea33167de3bfe4cc0ea003c7914e51d4562c34cfd2536dcd6db1157b23dd16904658c4e3e91a315
   languageName: node
   linkType: hard
 
@@ -10902,9 +10902,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"gatsby-remark-prismjs@npm:^6.17.0":
-  version: 6.17.0
-  resolution: "gatsby-remark-prismjs@npm:6.17.0"
+"gatsby-remark-prismjs@npm:^6.24.0":
+  version: 6.24.0
+  resolution: "gatsby-remark-prismjs@npm:6.24.0"
   dependencies:
     "@babel/runtime": ^7.15.4
     parse-numeric-range: ^1.2.0
@@ -10912,7 +10912,7 @@ __metadata:
   peerDependencies:
     gatsby: ^4.0.0-next
     prismjs: ^1.15.0
-  checksum: 38718065743fcda15572a706ced9e31c2e20cb3bbfc68c61868dfdd917ebf33d4e49333f0e08eec0884cfcf7ee39bb5374f53635d8d0b5b6cb8d4b72a6e20ed4
+  checksum: 6f814f4dd950255fc9a3d8f53e9a2847fb42a1c07705c027e94f86df85a4567de3d359e8d216e011ec47e9762b21b2d645a34756e9bffd0be3443383bc43338f
   languageName: node
   linkType: hard
 
@@ -10931,9 +10931,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"gatsby-remark-smartypants@npm:^5.19.0":
-  version: 5.19.0
-  resolution: "gatsby-remark-smartypants@npm:5.19.0"
+"gatsby-remark-smartypants@npm:^5.24.0":
+  version: 5.24.0
+  resolution: "gatsby-remark-smartypants@npm:5.24.0"
   dependencies:
     "@babel/runtime": ^7.15.4
     retext: ^7.0.1
@@ -10941,7 +10941,7 @@ __metadata:
     unist-util-visit: ^2.0.3
   peerDependencies:
     gatsby: ^4.0.0-next
-  checksum: c4f8a5e5325d87286fa5a6b5556567b941016dc59f5961a0eec738153341eb7caeb75b4225dae93d4cd267a7dc2d124da5ab8a59485c6bd40dd88106becc9178
+  checksum: d71ab75c95ee44f82f77068ea0e2ac2327895e521a490d49785317012edbfa411c1fa802dafbc99ba31abf750bbf480850dd087a8f3f10963ddea4c22f5c6fc3
   languageName: node
   linkType: hard
 
@@ -17524,12 +17524,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"prettier@npm:2.5.1":
-  version: 2.5.1
-  resolution: "prettier@npm:2.5.1"
+"prettier@npm:2.8.0":
+  version: 2.8.0
+  resolution: "prettier@npm:2.8.0"
   bin:
     prettier: bin-prettier.js
-  checksum: 21b9408476ea1c544b0e45d51ceb94a84789ff92095abb710942d780c862d0daebdb29972d47f6b4d0f7ebbfb0ffbf56cc2cfa3e3e9d1cca54864af185b15b66
+  checksum: 72004ce0cc9bb097daf3e3833f62495768724392c1d5b178dd47372337616e9e50ecbb0804f236596223f7b5eb1bbe69cefc8957dca21112c5777e77ef73a564
   languageName: node
   linkType: hard
 
@@ -18909,16 +18909,16 @@ __metadata:
   languageName: node
   linkType: hard
 
-"sass@npm:^1.55.0":
-  version: 1.55.0
-  resolution: "sass@npm:1.55.0"
+"sass@npm:^1.56.1":
+  version: 1.56.1
+  resolution: "sass@npm:1.56.1"
   dependencies:
     chokidar: ">=3.0.0 <4.0.0"
     immutable: ^4.0.0
     source-map-js: ">=0.6.2 <2.0.0"
   bin:
     sass: sass.js
-  checksum: 7d769ed08efce4e6134e0f3dc11c4f07e32c413ac8eb43c5855f2686890fdcbd80da34165c91fb4ba407f478ca108e171574b5a60cb9814a5ed09d80f6014f96
+  checksum: 78e693e5992b149574c95d5adfe39ca3e5b97d80befa11191a20d1daa41fe201a98ac099beab726cd3095e2d2e7991a2c408ba0fcc3fa9f525879de7eee18dad
   languageName: node
   linkType: hard
 
@@ -22807,18 +22807,18 @@ __metadata:
     gatsby-plugin-sharp: ^4.24.0
     gatsby-plugin-twitter: ^4.20.0
     gatsby-plugin-typegen: ^2.2.4
-    gatsby-remark-copy-linked-files: ^5.19.0
+    gatsby-remark-copy-linked-files: ^5.24.0
     gatsby-remark-images: ^6.17.0
-    gatsby-remark-prismjs: ^6.17.0
+    gatsby-remark-prismjs: ^6.24.0
     gatsby-remark-responsive-iframe: ^5.20.0
-    gatsby-remark-smartypants: ^5.19.0
+    gatsby-remark-smartypants: ^5.24.0
     gatsby-source-filesystem: ^4.19.0
     gatsby-transformer-remark: ^5.13.0
     gatsby-transformer-sharp: ^4.17.0
     gh-pages: ^3.1.0
     identity-obj-proxy: ^3.0.0
     jest: ^27.5.1
-    prettier: 2.5.1
+    prettier: 2.8.0
     prettier-plugin-tailwindcss: ^0.1.13
     prism-themes: ^1.9.0
     prismjs: ^1.29.0
@@ -22827,7 +22827,7 @@ __metadata:
     react-helmet-async: ^1.3.0
     react-share: ^4.4.0
     react-test-renderer: ^17.0.2
-    sass: ^1.55.0
+    sass: ^1.56.1
     sharp: ^0.30.7
     stylelint: ^14.9.1
     stylelint-config-prettier: ^9.0.3

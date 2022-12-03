@@ -41,6 +41,13 @@ Slackのフリープランの規約が変更されて過去90日のメッセー�
 
 フリープランだとSlackに登録できるアプリ数が10となっているので、便利そうなのをすべていれることはできないです。10個でも十分に活用できるのですが、。
 
+本当はSlack 次世代プラットフォーム機能を使っていろいろ開発してみたいのですが、フリープラン向けには開放していないようなので お預けです。
+
+- Slack 次世代プラットフォーム機能のご紹介: https://qiita.com/seratch/items/ecc16b845483c9d6f9e1
+- Build the future of work with the new Slack platform (Beta): https://api.slack.com/future
+
+以下、インストール済みのアプリ一覧になります。
+
 - CircleCI: 個人プロジェクトで使ってます。 チュートリアルもしっかりしていて助かっています。 https://circleci.com/docs/ja/slack-orb-tutorial/
 - GCP監視: 個人運用しているGoogleCloudにあるサーバのカスタムエラー通知や現在の使用量の料金の定期的な通知をしています。
 - GitHub: 個人プロジェクトで使っています。 https://slack.com/intl/ja-jp/help/articles/232289568-GitHub-%E3%81%A8-Slack-%E3%82%92%E9%80%A3%E6%90%BA%E3%81%95%E3%81%9B%E3%82%8B
@@ -49,6 +56,7 @@ Slackのフリープランの規約が変更されて過去90日のメッセー�
 - ごっちBot: 自作アプリのsandboxにしています。
 
 （仕事でも使用しているため）常時起動していて、異変があればすぐに気づけるだろうといった魂胆です。
+
 
 ### Slackbot
 

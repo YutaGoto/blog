@@ -7,7 +7,7 @@ tags: ["Screeps Arena", "JavaScript", "アドベントカレンダー"]
 
 ![Screeps Arena](./steam-screepsarena.jpg)
 
-これは [.ごっ！のアドベントカレンダー](https://adventar.org/calendars/8199) の4日目の記事です。
+これは [.ごっ！のアドベントカレンダー](https://adventar.org/calendars/8199) の5日目の記事です。
 
 こんにちは、.ごっちです。
 

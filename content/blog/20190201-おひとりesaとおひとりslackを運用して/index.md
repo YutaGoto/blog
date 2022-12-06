@@ -2,6 +2,7 @@
 title: "おひとりesaとおひとりSlackを運用して"
 date: "2019-02-01T09:00:00.000Z"
 description: "おひとりesaとおひとりSlackを運用して"
+tags: ["slack", "esa"]
 ---
 
 こんばんは、 .ごっちです。
@@ -14,8 +15,7 @@ description: "おひとりesaとおひとりSlackを運用して"
 
 ## esa
 
-[**esa - A document sharing service for motivated teams**
-*The document sharing service for motivated teams created from the perspective of cultivating information.*esa.io](https://esa.io/)
+[**esa - A document sharing service for motivated teams** *The document sharing service for motivated teams created from the perspective of cultivating information.*esa.io](https://esa.io/)
 
 > esa は「情報を育てる」という視点で作られた、自律的なチームのための情報共有サービスです。
 
@@ -23,9 +23,9 @@ description: "おひとりesaとおひとりSlackを運用して"
 
 2018 年 12 月から使い始めています。記事数がようやく 50 を超えました・。・！
 
-![](https://cdn-images-1.medium.com/max/2000/1*eNjFT7gNza1yVSm4sNvtUg.png)
+![](./posts.png)
 
-![](https://cdn-images-1.medium.com/max/2000/1*tV-Tcwp17RGXjFsj75m2PQ.png)
+![](./tree.png)
 
 分類は右の通りです。
 
@@ -46,8 +46,8 @@ description: "おひとりesaとおひとりSlackを運用して"
 開発周りは、作業をしててもろもろ詰まったときの解決方法が書いてあったり、いつも同じことをしらべることが書いてあったりしています。
 
 たとえば、「macOS の ruby のバージョンを rbenv で管理しているけども、最新バージョンの ruby をダウンロードするコマンド」、「iframe を埋め込んだくせに中身が消えてしまったときの備忘録」などが書いてあります。
-[**enginnering/javascript/iframe と文字列 #javascript #iframe**
-*これは？ js で iframe の中身を生成したときに起きた問題と解決方法について書いてある。 # iframe を js で生成する方法 `html ` ```javascript (function() { var oreIframe…*esa-pages.io](https://esa-pages.io/p/sharing/10836/posts/31/0c97ada8436a74fcde76.html)
+
+[**enginnering/javascript/iframe と文字列 #javascript #iframe** *これは？ js で iframe の中身を生成したときに起きた問題と解決方法について書いてある。 # iframe を js で生成する方法 `html ` ```javascript (function() { var oreIframe…*esa-pages.io](https://esa-pages.io/p/sharing/10836/posts/31/0c97ada8436a74fcde76.html)
 
 ↑ こんなのとかです。
 
@@ -57,13 +57,13 @@ description: "おひとりesaとおひとりSlackを運用して"
 
 一時期履歴書とかは gist にあげていたんですが、gist も基本 public みたいなものなので(URL を知っている人だけが見れるようにもできますが)、コードのみの場合は Gist に貼ろうかと思っています。
 
-<iframe src="https://medium.com/media/88db315df828c6629a4ed9b951c06601" frameborder=0></iframe>
+https://gist.github.com/YutaGoto/b9a38c9b229752cce73f8784613fa516
 
 ↑ こんなのとか
 
 でもやっぱり見せれるものが大半なので、身内のチームに拡充してみんなで貯めていくのもありなような気がしています。そうやっているチームもあるみたいです。
-[**🐣 個人 esa - みずぴー日記**
-*Misoca を退職したら Misoca の esa にアクセスできなくなった。不便だったので個人で esa を契約した。 esa 標準の日報テンプレートにしたがって「今日の作業」「発生した問題」「明日の予定」「所感」を書いている。…*mzp.hatenablog.com](https://mzp.hatenablog.com/entry/2018/08/13/161817)
+
+[**🐣 個人 esa - みずぴー日記** *Misoca を退職したら Misoca の esa にアクセスできなくなった。不便だったので個人で esa を契約した。 esa 標準の日報テンプレートにしたがって「今日の作業」「発生した問題」「明日の予定」「所感」を書いている。…*mzp.hatenablog.com](https://mzp.hatenablog.com/entry/2018/08/13/161817)
 
 自分は日報(ブログ)は 7 年くらい Excel->スプレッドシートを使っているので、このタイミングで esa に乗り換える気にはあまりないですが、結局 esa は md 方式で書きやすいのでちょっと迷ってます。
 
@@ -71,8 +71,7 @@ description: "おひとりesaとおひとりSlackを運用して"
 
 ## Slack
 
-[**よりシームレスなチームワークを実現する、ビジネスコラボレーションハブ**
-*Slack とはよりシームレスなチームワークを実現する、ビジネスコラボレーションハブです。業務に必要なメンバー、共有する情報、愛用のツールのすべてがひとつとなり、効率よく業務を遂行するための場です。*slack.com](https://slack.com/intl/ja-jp/)
+[**よりシームレスなチームワークを実現する、ビジネスコラボレーションハブ** *Slack とはよりシームレスなチームワークを実現する、ビジネスコラボレーションハブです。業務に必要なメンバー、共有する情報、愛用のツールのすべてがひとつとなり、効率よく業務を遂行するための場です。*slack.com](https://slack.com/intl/ja-jp/)
 
 > チームの生産性を最大化する次世代の「ビジネスコラボレーションハブ・Slack」なら、部署や組織の枠にとらわれずに、必要な人と情報を一箇所に集約可能。だから、チームワークがよりシームレスに、意思決定がもっとスピーディーに！
 
@@ -80,7 +79,7 @@ description: "おひとりesaとおひとりSlackを運用して"
 
 Slack は 2017 年 12 月くらいから使い始めています。総メッセージ数が 3000 になろうとしています。
 
-![](https://cdn-images-1.medium.com/max/2000/1*K0Y0Fq94iE0DaExZuezaZg.png)
+![](./slack-chs.png)
 
 - #circleci: CircleCI の通知が来ます。
 
@@ -108,23 +107,23 @@ Slack は 2017 年 12 月くらいから使い始めています。総メッセ�
 
 スマホも含めてさっとメモするのにかなり役立っています。esa にメモするときはもうちょっと体裁を整えたいとか思ってしまっているので、こういう使い方はありな気がしています。
 
-![](https://cdn-images-1.medium.com/max/3396/1*AZz0ViG94yJA1K1Qp8lhxQ.png)
+![](./dev.png)
 
 リンクを貼ると勝手に展開してくれるので、そのあたりいいなぁ。。とか、Twitter にメモしても結局みなかったりするときが多いので、そのときは slack に投げてたりしています。
 
 /remind コマンドをかなり重宝していて、カレンダー登録や todo 管理に登録するまでもないリマインドを設定できるのすばらしいと思います。
 
-![](https://cdn-images-1.medium.com/max/3348/1*vpLrLBOlUyVY573L-IbLNw.png)
+![](./remind.png)
 
 rubykaigi の飛行機の予約くらいは todo でもいいような気がしてきましたが、もはや slackbot 君が todo 管理状態になっているのでどっちでもいいかなといった感じです。
 
 slack のほうが見ている時間がながいので、結局 slack に落ち着きそうです。
 
 これももっといい運用法がありそうな気がしています。
-[**ひとり Slack のすすめ！個人ツールとしても Slack は有益！**
-*Slack は通常、コミュニケーションを図るために用いられるツールです。 個人的に使うツールではないのですが、実は Slack はスタンドアロンでも使い勝手の良いツール。…*businesschatmaster.com](https://businesschatmaster.com/slack/individual-tool)
-[**ひとり Slack を２週間運用してみて｜ Wat@ru ｜ note**
-*久々の note 投稿頑張ろうと思ってます．今回は「ひとり Slack」について文章をカキカキしていきます． 目次 1. はじめに 2. ひとり Slack とは？ 3. ひとり Slack の目的 4. ひとり Slack を運用してみて 5. さいごに…*note.mu](https://note.mu/wmkisaragi/n/n50da213515c4)
+
+[**ひとり Slack のすすめ！個人ツールとしても Slack は有益！** *Slack は通常、コミュニケーションを図るために用いられるツールです。 個人的に使うツールではないのですが、実は Slack はスタンドアロンでも使い勝手の良いツール。…*businesschatmaster.com](https://businesschatmaster.com/slack/individual-tool)
+
+[**ひとり Slack を２週間運用してみて｜ Wat@ru ｜ note** *久々の note 投稿頑張ろうと思ってます．今回は「ひとり Slack」について文章をカキカキしていきます． 目次 1. はじめに 2. ひとり Slack とは？ 3. ひとり Slack の目的 4. ひとり Slack を運用してみて 5. さいごに…*note.mu](https://note.mu/wmkisaragi/n/n50da213515c4)
 
 自分の生活や仕事の質を上げるのにケチったらだめだなぁと思う今日このごろです。
 

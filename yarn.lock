@@ -10880,15 +10880,15 @@ __metadata:
   languageName: node
   linkType: hard
 
-"gatsby-remark-images@npm:^6.17.0":
-  version: 6.17.0
-  resolution: "gatsby-remark-images@npm:6.17.0"
+"gatsby-remark-images@npm:^6.24.0":
+  version: 6.24.0
+  resolution: "gatsby-remark-images@npm:6.24.0"
   dependencies:
     "@babel/runtime": ^7.15.4
-    "@gatsbyjs/potrace": ^2.2.0
+    "@gatsbyjs/potrace": ^2.3.0
     chalk: ^4.1.2
     cheerio: ^1.0.0-rc.10
-    gatsby-core-utils: ^3.17.0
+    gatsby-core-utils: ^3.24.0
     is-relative-url: ^3.0.0
     lodash: ^4.17.21
     mdast-util-definitions: ^4.0.0
@@ -10898,7 +10898,7 @@ __metadata:
   peerDependencies:
     gatsby: ^4.0.0-next
     gatsby-plugin-sharp: ^4.0.0-next
-  checksum: 0f13b06914fb6d465f56a5e3a28c06462acc4cd56f72bd0b9761922a4b305928abcd39ec561f35cc81ced5669a315bf817c7024c2b02245515f02e385a53652c
+  checksum: 9378123c0a0a8bcf75f22a4f2dad3f04100ac8c7f94a894d00c6c9a8f1634910363bf2ec1d265c3c86681ef9388f0fb69ae17bca09663fca25335d12073efd36
   languageName: node
   linkType: hard
 
@@ -10916,9 +10916,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"gatsby-remark-responsive-iframe@npm:^5.20.0":
-  version: 5.20.0
-  resolution: "gatsby-remark-responsive-iframe@npm:5.20.0"
+"gatsby-remark-responsive-iframe@npm:^5.24.0":
+  version: 5.24.0
+  resolution: "gatsby-remark-responsive-iframe@npm:5.24.0"
   dependencies:
     "@babel/runtime": ^7.15.4
     cheerio: ^1.0.0-rc.10
@@ -10927,7 +10927,7 @@ __metadata:
     unist-util-visit: ^2.0.3
   peerDependencies:
     gatsby: ^4.0.0-next
-  checksum: dd7820038866d5f09a103960e8058b43ae1d18e522173cbd7bb493ec72dee1eb98efbfc40951dd99cbc109aac1dc0817279844ef8f3830e3a840bdea9cf38ca9
+  checksum: 146c494670622100ddf3708916bc421ff4b87cfc91de5b49de0ece131165ed3b1e8df57a6733b1ea08156c8d517919881de8e758591ac05d726d6b3089325250
   languageName: node
   linkType: hard
 
@@ -11424,9 +11424,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"gh-pages@npm:^3.1.0":
-  version: 3.2.3
-  resolution: "gh-pages@npm:3.2.3"
+"gh-pages@npm:^4.0.0":
+  version: 4.0.0
+  resolution: "gh-pages@npm:4.0.0"
   dependencies:
     async: ^2.6.1
     commander: ^2.18.0
@@ -11438,7 +11438,7 @@ __metadata:
   bin:
     gh-pages: bin/gh-pages.js
     gh-pages-clean: bin/gh-pages-clean.js
-  checksum: 0a6e92180ce8fac6f244403d1c8af6d004615b96c7bafdc25da0022eab34f84470895587c618d440ae77b4b4ce1c1b85442ddf3184f53a522f87974da5a41760
+  checksum: 255648eb272104465586393be8a3112d928916a6b35b2b3ffc202c1e55b1c25b1e54e4b5fe83afbf1b1f8e7d37521c0d7b9c7b3db9ff899474db710581662154
   languageName: node
   linkType: hard
 
@@ -22808,14 +22808,14 @@ __metadata:
     gatsby-plugin-twitter: ^4.20.0
     gatsby-plugin-typegen: ^2.2.4
     gatsby-remark-copy-linked-files: ^5.24.0
-    gatsby-remark-images: ^6.17.0
+    gatsby-remark-images: ^6.24.0
     gatsby-remark-prismjs: ^6.24.0
-    gatsby-remark-responsive-iframe: ^5.20.0
+    gatsby-remark-responsive-iframe: ^5.24.0
     gatsby-remark-smartypants: ^5.24.0
     gatsby-source-filesystem: ^4.19.0
     gatsby-transformer-remark: ^5.13.0
     gatsby-transformer-sharp: ^4.17.0
-    gh-pages: ^3.1.0
+    gh-pages: ^4.0.0
     identity-obj-proxy: ^3.0.0
     jest: ^27.5.1
     prettier: 2.8.0

@@ -3261,6 +3261,16 @@ declare namespace GatsbyTypes {
     readonly order: Maybe<ReadonlyArray<Maybe<SortOrderEnum>>>
   }
 
+  type TagListQueryVariables = Exact<{ [key: string]: never }>
+
+  type TagListQuery = {
+    readonly allMarkdownRemark: {
+      readonly group: ReadonlyArray<
+        Pick<MarkdownRemarkGroupConnection, "fieldValue" | "totalCount">
+      >
+    }
+  }
+
   type Unnamed_1_QueryVariables = Exact<{ [key: string]: never }>
 
   type Unnamed_1_Query = {
@@ -3272,24 +3282,6 @@ declare namespace GatsbyTypes {
           >
         }
       >
-    }>
-  }
-
-  type TagListQueryVariables = Exact<{ [key: string]: never }>
-
-  type TagListQuery = {
-    readonly allMarkdownRemark: {
-      readonly group: ReadonlyArray<
-        Pick<MarkdownRemarkGroupConnection, "fieldValue" | "totalCount">
-      >
-    }
-  }
-
-  type NotFoundQueryVariables = Exact<{ [key: string]: never }>
-
-  type NotFoundQuery = {
-    readonly site: Maybe<{
-      readonly siteMetadata: Maybe<Pick<SiteSiteMetadata, "title">>
     }>
   }
 
@@ -3464,6 +3456,14 @@ declare namespace GatsbyTypes {
     readonly allSitePage: {
       readonly nodes: ReadonlyArray<Pick<SitePage, "path">>
     }
+  }
+
+  type NotFoundQueryVariables = Exact<{ [key: string]: never }>
+
+  type NotFoundQuery = {
+    readonly site: Maybe<{
+      readonly siteMetadata: Maybe<Pick<SiteSiteMetadata, "title">>
+    }>
   }
 
   type BioQueryVariables = Exact<{ [key: string]: never }>

@@ -42,7 +42,7 @@ https://arena.screeps.com/game/X4HP6J3I94 ScreepsArenaを所持していれば�
 
 ![capture the flag](./ctf.png)
 
-<blockquote class="twitter-tweet"><p lang="ja" dir="ltr">コードを改良せずに対戦し続けたところ、レートが1100くらいまで落ちた。。ので、改良して1200まで上げなおした。猛者には勝てぬ。。 <a href="https://t.co/PGXa6O001z">pic.twitter.com/PGXa6O001z</a></p>&mdash; .ごっち (@gggooottto) <a href="https://twitter.com/gggooottto/status/1522625363091677184?ref_src=twsrc%5Etfw">May 6, 2022</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+<blockquote class="twitter-tweet"><p lang="ja" dir="ltr">コードを改良せずに対戦し続けたところ、レートが1100くらいまで落ちた。。ので、改良して1200まで上げなおした。猛者には勝てぬ。。 <a href="https://t.co/PGXa6O001z">pic.twitter.com/PGXa6O001z</a></p>&mdash; .ごっち (@gggooottto) <a href="https://twitter.com/gggooottto/status/1522625363091677184?ref_src=twsrc%5Etfw">May 6, 2022</a></blockquote> 
 
 ### Spawn and Swamp (Basic Level)
 

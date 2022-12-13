@@ -3271,9 +3271,10 @@ declare namespace GatsbyTypes {
     }
   }
 
-  type Unnamed_1_QueryVariables = Exact<{ [key: string]: never }>
+  type staticHomeyougotoprojectsblogsrccomponentsseoTsx2137539840QueryVariables =
+    Exact<{ [key: string]: never }>
 
-  type Unnamed_1_Query = {
+  type staticHomeyougotoprojectsblogsrccomponentsseoTsx2137539840Query = {
     readonly site: Maybe<{
       readonly siteMetadata: Maybe<
         Pick<SiteSiteMetadata, "title" | "description"> & {
@@ -3282,6 +3283,14 @@ declare namespace GatsbyTypes {
           >
         }
       >
+    }>
+  }
+
+  type NotFoundQueryVariables = Exact<{ [key: string]: never }>
+
+  type NotFoundQuery = {
+    readonly site: Maybe<{
+      readonly siteMetadata: Maybe<Pick<SiteSiteMetadata, "title">>
     }>
   }
 
@@ -3456,14 +3465,6 @@ declare namespace GatsbyTypes {
     readonly allSitePage: {
       readonly nodes: ReadonlyArray<Pick<SitePage, "path">>
     }
-  }
-
-  type NotFoundQueryVariables = Exact<{ [key: string]: never }>
-
-  type NotFoundQuery = {
-    readonly site: Maybe<{
-      readonly siteMetadata: Maybe<Pick<SiteSiteMetadata, "title">>
-    }>
   }
 
   type BioQueryVariables = Exact<{ [key: string]: never }>

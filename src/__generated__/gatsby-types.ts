@@ -3261,10 +3261,9 @@ declare namespace GatsbyTypes {
     readonly order: Maybe<ReadonlyArray<Maybe<SortOrderEnum>>>
   }
 
-  type staticHomeyougotoprojectsblogsrccomponentsseoTsx2137539840QueryVariables =
-    Exact<{ [key: string]: never }>
+  type Unnamed_1_QueryVariables = Exact<{ [key: string]: never }>
 
-  type staticHomeyougotoprojectsblogsrccomponentsseoTsx2137539840Query = {
+  type Unnamed_1_Query = {
     readonly site: Maybe<{
       readonly siteMetadata: Maybe<
         Pick<SiteSiteMetadata, "title" | "description"> & {
@@ -3286,6 +3285,14 @@ declare namespace GatsbyTypes {
     }
   }
 
+  type NotFoundQueryVariables = Exact<{ [key: string]: never }>
+
+  type NotFoundQuery = {
+    readonly site: Maybe<{
+      readonly siteMetadata: Maybe<Pick<SiteSiteMetadata, "title">>
+    }>
+  }
+
   type BlogIndexQueryVariables = Exact<{ [key: string]: never }>
 
   type BlogIndexQuery = {
@@ -3300,27 +3307,6 @@ declare namespace GatsbyTypes {
             Pick<Frontmatter, "date" | "title" | "description" | "tags">
           >
         }
-      >
-    }
-  }
-
-  type NotFoundQueryVariables = Exact<{ [key: string]: never }>
-
-  type NotFoundQuery = {
-    readonly site: Maybe<{
-      readonly siteMetadata: Maybe<Pick<SiteSiteMetadata, "title">>
-    }>
-  }
-
-  type TagPageQueryVariables = Exact<{ [key: string]: never }>
-
-  type TagPageQuery = {
-    readonly site: Maybe<{
-      readonly siteMetadata: Maybe<Pick<SiteSiteMetadata, "title">>
-    }>
-    readonly allMarkdownRemark: {
-      readonly group: ReadonlyArray<
-        Pick<MarkdownRemarkGroupConnection, "fieldValue" | "totalCount">
       >
     }
   }
@@ -3370,6 +3356,30 @@ declare namespace GatsbyTypes {
           >
         }
       }>
+    }
+  }
+
+  type TagPageQueryVariables = Exact<{ [key: string]: never }>
+
+  type TagPageQuery = {
+    readonly site: Maybe<{
+      readonly siteMetadata: Maybe<Pick<SiteSiteMetadata, "title">>
+    }>
+    readonly allMarkdownRemark: {
+      readonly group: ReadonlyArray<
+        Pick<MarkdownRemarkGroupConnection, "fieldValue" | "totalCount">
+      >
+    }
+  }
+
+  type PagesQueryQueryVariables = Exact<{ [key: string]: never }>
+
+  type PagesQueryQuery = {
+    readonly allSiteFunction: {
+      readonly nodes: ReadonlyArray<Pick<SiteFunction, "functionRoute">>
+    }
+    readonly allSitePage: {
+      readonly nodes: ReadonlyArray<Pick<SitePage, "path">>
     }
   }
 
@@ -3455,17 +3465,6 @@ declare namespace GatsbyTypes {
     ImageSharpFluid,
     "aspectRatio" | "src" | "srcSet" | "srcWebp" | "srcSetWebp" | "sizes"
   >
-
-  type PagesQueryQueryVariables = Exact<{ [key: string]: never }>
-
-  type PagesQueryQuery = {
-    readonly allSiteFunction: {
-      readonly nodes: ReadonlyArray<Pick<SiteFunction, "functionRoute">>
-    }
-    readonly allSitePage: {
-      readonly nodes: ReadonlyArray<Pick<SitePage, "path">>
-    }
-  }
 
   type BioQueryVariables = Exact<{ [key: string]: never }>
 

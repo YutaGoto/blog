@@ -58,6 +58,7 @@ Twitter Spacesでの開催が主になっているので、それに合わせて
 - 杏奈ちゃんのコミュを見返したりして研究する
 - [im@s-palette](https://imas-palette.vercel.app/)
 - [idol-rdf-maker](https://github.com/arrow2nd/idol-rdf-maker)
+- [ShinyPoems](https://shiny-poems.vercel.app/)
 - Xcode 14から使用できるSwift ChartsをIM@Sparqlのデータで表示させてみる。
 
 <blockquote class="twitter-tweet"><p lang="ja" dir="ltr">Swift Charts + im@sparqlうごいた <a href="https://twitter.com/hashtag/imas_mokumoku?src=hash&amp;ref_src=twsrc%5Etfw">#imas_mokumoku</a> <a href="https://t.co/AEYRXnwP5h">pic.twitter.com/AEYRXnwP5h</a></p>&mdash; ばんじゅん🍓 (@banjun) <a href="https://twitter.com/banjun/status/1570394576720113669?ref_src=twsrc%5Etfw">September 15, 2022</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>

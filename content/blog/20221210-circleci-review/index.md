@@ -19,7 +19,7 @@ tags: ["CircleCI", "アドベントカレンダー"]
 
 ## コミュニティイベントの参加
 
-<blockquote class="twitter-tweet"><p lang="ja" dir="ltr"><a href="https://twitter.com/hashtag/CircleCIJp?src=hash&amp;ref_src=twsrc%5Etfw">#CircleCIJp</a> 来た。 <a href="https://t.co/7bAPzWgZFn">pic.twitter.com/7bAPzWgZFn</a></p>&mdash; .ごっち (@gggooottto) <a href="https://twitter.com/gggooottto/status/1517077741916819456?ref_src=twsrc%5Etfw">April 21, 2022</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+<blockquote class="twitter-tweet"><p lang="ja" dir="ltr"><a href="https://twitter.com/hashtag/CircleCIJp?src=hash&amp;ref_src=twsrc%5Etfw">#CircleCIJp</a> 来た。 <a href="https://t.co/7bAPzWgZFn">pic.twitter.com/7bAPzWgZFn</a></p>&mdash; .ごっち (@gggooottto) <a href="https://twitter.com/gggooottto/status/1517077741916819456?ref_src=twsrc%5Etfw">April 21, 2022</a></blockquote>
 
 https://circleci.connpass.com/event/242577/
 

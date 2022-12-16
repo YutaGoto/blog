@@ -19,7 +19,7 @@ tags: ["美術館", "博物館", "アドベントカレンダー"]
 
 ![chimpom](./chimpom.jpg)
 
-<blockquote class="twitter-tweet"><p lang="ja" dir="ltr">行ってきた。 <a href="https://t.co/XMkSMVarfK">pic.twitter.com/XMkSMVarfK</a></p>&mdash; .ごっち (@gggooottto) <a href="https://twitter.com/gggooottto/status/1510866835880947713?ref_src=twsrc%5Etfw">April 4, 2022</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+<blockquote class="twitter-tweet"><p lang="ja" dir="ltr">行ってきた。 <a href="https://t.co/XMkSMVarfK">pic.twitter.com/XMkSMVarfK</a></p>&mdash; .ごっち (@gggooottto) <a href="https://twitter.com/gggooottto/status/1510866835880947713?ref_src=twsrc%5Etfw">April 4, 2022</a></blockquote>
 
 https://www.mori.art.museum/jp/exhibitions/chimpom/
 

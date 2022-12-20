@@ -35,7 +35,6 @@ export const PureBio: FC<{ data: GatsbyTypes.BioQuery }> = ({ data }) => {
                 key={s?.name}
                 href={s?.url}
                 className="object-bottom"
-                area-label={s?.name}
                 target="_blank"
                 rel="noreferrer noopener"
               >

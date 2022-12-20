@@ -29,7 +29,6 @@ exports[`bio renders correctly 1`] = `
         className="flex flex-1 space-x-6"
       >
         <a
-          area-label="twitter"
           className="object-bottom"
           href="https://twitter.com/gggooottto"
           rel="noreferrer noopener"
@@ -45,7 +44,6 @@ exports[`bio renders correctly 1`] = `
           </span>
         </a>
         <a
-          area-label="github"
           className="object-bottom"
           href="https://github.com/YutaGoto"
           rel="noreferrer noopener"

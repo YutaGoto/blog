@@ -13,7 +13,7 @@ tags: ["game", "Jump King", "アドベントカレンダー"]
 
 今年はJump Kingで結構遊んだので、遊んだ内容のメモです。Jump Kingについてはほかのプレイヤーの記事をみてください。
 
-- Jump King - Neexile: https://nexile.se/jump-king/
+- Jump King - Nexile: https://nexile.se/jump-king/
 - これからJump Kingを始める方の為の基礎知識｜レツ:  https://note.com/retsu_teno/n/n4b3c3ec029da
 
 ## 記録、実績

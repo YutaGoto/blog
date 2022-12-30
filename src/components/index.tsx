@@ -1,8 +1,7 @@
 import { ArticleCard } from "./ArticleCard"
-import { Bio } from "./Bio"
 import { ButtonLink } from "./ButtonLink"
-import { Layout } from "./Layout"
+import { Bio } from "./Bio"
 import { Tag } from "./Tag"
 import { TagList } from "./TagList"
 
-export { ArticleCard, Bio, ButtonLink, Layout, Tag, TagList }
+export { ArticleCard, Bio, ButtonLink, Tag, TagList }

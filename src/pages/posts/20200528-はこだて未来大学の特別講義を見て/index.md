@@ -1,0 +1,26 @@
+---
+title: "はこだて未来大学の特別講義を見て！"
+date: "2020-05-28T09:00:00.000Z"
+description: "はこだて未来大学の特別講義を見て！"
+layout: "../../../components/PostLayout.astro"
+---
+
+こんにちは、.ごっちです。
+
+![](https://cdn-images-1.medium.com/max/2000/1*G6t5Pa5tWvTQa98xcK11_g.png)
+
+もろもろ自粛期間ということもあり休みの日も含めて家にいる時間が長くなっているので、なんとなく母校のとあるページを見てます。
+[**特別企画: 未来大の学びへの誘い～今だからこそ見てほしい未来大のコンテンツ**
+*本学学生のみなさん、高校生のみなさん…*www.fun.ac.jp](https://www.fun.ac.jp/news/5617)
+
+新年度が始まってからさまざまなコンテンツが提供されており、結構チェックしています。
+学外で行われたミニ講義の動画もあり興味深く見ています。
+[**公立はこだて未来大学の教員によるミニ講義**
+*脳科学 ...*yumenavi.info](https://yumenavi.info/lecture.aspx?GNKCD=g008534&OraSeq=6407959&ProId=WNA002&SerKbn=3&SearchMod=3&University=V&Page=1&KeyWord=%e5%85%ac%e7%ab%8b%e3%81%af%e3%81%93%e3%81%a0%e3%81%a6%e6%9c%aa%e6%9d%a5%e5%a4%a7%e5%ad%a6)
+[**公立はこだて未来大学の教員によるミニ講義**
+*人工知能学 ...*yumenavi.info](https://yumenavi.info/lecture.aspx?GNKCD=g007349&OraSeq=6407959&ProId=WNA002&SerKbn=3&SearchMod=3&University=V&Page=1&KeyWord=%e5%85%ac%e7%ab%8b%e3%81%af%e3%81%93%e3%81%a0%e3%81%a6%e6%9c%aa%e6%9d%a5%e5%a4%a7%e5%ad%a6)
+
+(自分は専門外ですが)こう見てみると興味のそそられる物が多いなぁと思いました。中高生並の感想ですみません。
+社会人になってから、基礎教養科目も含めて講義を受け直すと学生だったときとは全く違う角度から教養を受けられてとてもおもしろそうな気がしています。なんでこんなにも面白そうに思えてくるのかはうまいこと言語化できないですが、。。。。。。。。
+
+タイミングを見て、聴講生なり通信制なりでもう一度講義を受けたいと考えたお話しでした。

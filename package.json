@@ -67,7 +67,7 @@
     "lint": "eslint --ext .js,.ts,.tsx ./src --ignore-path .gitignore",
     "textlint": "textlint src/pages/posts/202[1-9]**/*.md",
     "deploy": "gatsby build --prefix-paths && gh-pages -d public",
-    "typecheck": "tsc",
+    "typecheck": "astro check && tsc --noEmit",
     "test": "playwright test"
   },
   "packageManager": "yarn@3.2.0"

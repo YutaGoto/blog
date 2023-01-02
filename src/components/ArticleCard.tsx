@@ -22,7 +22,7 @@ export const ArticleCard = ({ post }: ArticleCardProps) => {
             <div className="mb-2 text-2xl">{title}</div>
             <div className="mb-2 text-sm">{post.frontmatter?.date}</div>
             <div className="mb-2">
-              {tags?.map(tag => (
+              {tags?.map((tag: string) => (
                 <Tag key={tag} className="mr-1" tag={tag} withLink={false} />
               ))}
             </div>

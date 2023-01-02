@@ -1,5 +1,6 @@
 # YutaGoto / blog
 
+[![action](https://github.com/YutaGoto/blog/actions/workflows/playwright.yml/badge.svg)](https://github.com/YutaGoto/blog/actions)
 [![action](https://github.com/YutaGoto/blog/actions/workflows/pages.yml/badge.svg)](https://github.com/YutaGoto/blog/actions)
 [![action](https://github.com/YutaGoto/blog/actions/workflows/ci.yml/badge.svg)](https://github.com/YutaGoto/blog/actions)
 

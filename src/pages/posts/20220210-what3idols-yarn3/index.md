@@ -52,7 +52,7 @@ $ yarn -v
 
 `.yarnrc.yml` の`nodeLinker` を削除します。これで PnP モードを使用できるようになります。削除すると `yarnPath` だけが残っているはずです。
 
-```yml
+```yaml
 # .yarnrc.yml
 yarnPath: .yarn/releases/yarn-3.1.1.cjs
 ```
@@ -81,7 +81,7 @@ CI でも `yarn install` のステップを使用しないので書き換えま�
 
 https://circleci.com/developer/ja/orbs/orb/circleci/node#usage-yarn_berry_zero_install
 
-```yml
+```yaml
 # .circleci/config.yml
 # yarn install していた部分を書き換える
 - node/install-packages:
@@ -105,7 +105,7 @@ yarn のドキュメントを見ながら `.yarnrc.yml` に追記します。
 https://yarnpkg.com/getting-started/migration#fix-dependencies-with-packageextensions
 https://yarnpkg.com/configuration/yarnrc#packageExtensions
 
-```yml
+```yaml
 # .yarnrc.yml
 packageExtensions:
   "react-bulma-components@*":

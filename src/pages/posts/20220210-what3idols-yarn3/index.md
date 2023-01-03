@@ -6,7 +6,7 @@ tags: ["アイドルマスター", "What3Idols", "yarn"]
 layout: "../../../components/PostLayout.astro"
 ---
 
-![yarn](/assets/images/posts/20220210-what3idols-yarn3/yarn.png)
+![yarn](/blog/assets/images//posts/20220210-what3idols-yarn3/yarn.png)
 
 こんにちは、.ごっちです。
 

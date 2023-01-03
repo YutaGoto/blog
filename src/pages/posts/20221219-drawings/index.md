@@ -6,7 +6,7 @@ tags: ["お絵描き", "アドベントカレンダー"]
 layout: "../../../components/PostLayout.astro"
 ---
 
-![icon](/assets/images/posts/20221219-drawings/icon.png)
+![icon](/blog/assets/images//posts/20221219-drawings/icon.png)
 
 これは [.ごっ！のアドベントカレンダー](https://adventar.org/calendars/8199) の19日目の記事です。
 
@@ -64,7 +64,7 @@ https://www.twitch.tv/mageko
 
 アイマスもくもく会イベントのヘッダー画像を描きました。事務員のアイコンは過去のものを流用しています。
 
-![header](/assets/images/posts/20221219-drawings/header.V3.png)
+![header](/blog/assets/images//posts/20221219-drawings/header.V3.png)
 
 ---
 

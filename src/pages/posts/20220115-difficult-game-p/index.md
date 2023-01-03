@@ -18,11 +18,11 @@ layout: "../../../components/PostLayout.astro"
 
 かなり手こずったポイントもありましたが、最後のポイントに関しては一発で成功したのがかなり大きかったと思っています。
 
-![てこずり](/assets/images/posts/20220115-difficult-game-p/20211227225751_1.jpg)
+![てこずり](/blog/assets/images//posts/20220115-difficult-game-p/20211227225751_1.jpg)
 
 ↑ ミスって落ちていく図。
 
-![ゴール間近](/assets/images/posts/20220115-difficult-game-p/20211230124936_1.jpg)
+![ゴール間近](/blog/assets/images//posts/20220115-difficult-game-p/20211230124936_1.jpg)
 
 ↑ 最後のポイントを超えたところ。
 
@@ -34,8 +34,8 @@ https://store.steampowered.com/app/688130/Pogostuck_Rage_With_Your_Friends/
 
 <blockquote class="twitter-tweet"><p lang="ja" dir="ltr">ブログ素材撮影用にPogostuckをちょろっとやったら、Skiplessで15分切りを達成してしまった・。・ <a href="https://t.co/hnejgbZDzI">pic.twitter.com/hnejgbZDzI</a></p>&mdash; .ごっち (@gggooottto) <a href="https://twitter.com/gggooottto/status/1482339682260176896?ref_src=twsrc%5Etfw">January 15, 2022</a></blockquote>
 
-![わいわい](/assets/images/posts/20220115-difficult-game-p/20211219151809_1.jpg)
+![わいわい](/blog/assets/images//posts/20220115-difficult-game-p/20211219151809_1.jpg)
 
-![わいわい2](/assets/images/posts/20220115-difficult-game-p/20211230131242_1.jpg)
+![わいわい2](/blog/assets/images//posts/20220115-difficult-game-p/20211230131242_1.jpg)
 
 その場にいるプレイヤー達と遊んだり喜びを分かち合ったりできるのがとても好きです。

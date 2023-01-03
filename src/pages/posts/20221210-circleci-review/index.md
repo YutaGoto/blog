@@ -16,7 +16,7 @@ layout: "../../../components/PostLayout.astro"
 
 ## Slack連携
 
-先日の[記事](https://yutagoto.github.io/blog/20221206-personal-slack/)の最後のほうにも書きましたが、CronJob的な使い方もしています。サーバーを構築することもなく使えることに助かっております。
+先日の[記事](https://yutagoto.github.io/blog/posts/20221206-personal-slack/)の最後のほうにも書きましたが、CronJob的な使い方もしています。サーバーを構築することもなく使えることに助かっております。
 
 ## コミュニティイベントの参加
 
@@ -36,9 +36,9 @@ Hashicorpに[Vault](https://www.hashicorp.com/products/vault)というプロダ�
 
 Rubyの設定をするときにテンプレートからファイルを編集できるのですが、そのテンプレートが地味に古かったりするのでひと手間が必要だったりします。
 
-![select](/assets/images/posts/20221210-circleci-review/select.png)
+![select](/blog/assets/images//posts/20221210-circleci-review/select.png)
 
-![config](/assets/images/posts/20221210-circleci-review/config.png)
+![config](/blog/assets/images//posts/20221210-circleci-review/config.png)
 
 テンプレートを書くだけではエラーになってしまうので少し悲しい。12月7日時点ではrubyのorbが2.0.0なので惜しい。
 

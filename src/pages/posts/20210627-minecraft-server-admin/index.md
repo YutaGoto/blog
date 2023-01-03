@@ -6,7 +6,7 @@ tags: ["GCP", "Minecraft"]
 layout: "../../../components/PostLayout.astro"
 ---
 
-![minecraft](/assets/images/posts/20210627-minecraft-server-admin/minecraft.png)
+![minecraft](/blog/assets/images//posts/20210627-minecraft-server-admin/minecraft.png)
 
 こんにちは、.ごっちです。
 

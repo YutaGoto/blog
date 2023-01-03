@@ -7,13 +7,13 @@ layout: "../../../components/PostLayout.astro"
 ---
 
 といってもポスト時点では 1 日過ぎていますが、とてもめでたいです\\( ⁰⊖⁰)/。
-去年も同じようなことを書きました。 [esa 6th Anniversary とのこと](https://yutagoto.github.io/blog/20200511-esa-6th-anniversary-%E3%81%A8%E3%81%AE%E3%81%93%E3%81%A8/)
+去年も同じようなことを書きました。 [esa 6th Anniversary とのこと](https://yutagoto.github.io/blog/posts/20200511-esa-6th-anniversary-%E3%81%A8%E3%81%AE%E3%81%93%E3%81%A8/)
 
-esa が個人で使ったり [mitakarb](https://mitakarb.doorkeeper.jp/) で使ったりしています。esa 日記もちまちま続いています。 [esa で日記をつけている](https://yutagoto.github.io/blog/20190514-esa%E3%81%A7%E6%97%A5%E8%A8%98%E3%82%92%E3%81%A4%E3%81%91%E3%81%A6%E3%81%84%E3%82%8B/)
+esa が個人で使ったり [mitakarb](https://mitakarb.doorkeeper.jp/) で使ったりしています。esa 日記もちまちま続いています。 [esa で日記をつけている](https://yutagoto.github.io/blog/posts/20190514-esa%E3%81%A7%E6%97%A5%E8%A8%98%E3%82%92%E3%81%A4%E3%81%91%E3%81%A6%E3%81%84%E3%82%8B/)
 
 おかげさまで個人のポストも増えてきました。去年の倍くらいにですかね。esa 日記や日々解いている AtCoder の問題の振り返りを残しているだけあってめちゃくちゃ記事数が伸びています。
 
-![esa7th](/assets/images/posts/20210511-esa7th-tonokoto/esa7th.png)
+![esa7th](/blog/assets/images//posts/20210511-esa7th-tonokoto/esa7th.png)
 
 ↑ 画像: 地味に去年と UI が変わっていることに気がついた。
 

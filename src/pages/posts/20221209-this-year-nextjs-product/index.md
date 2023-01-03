@@ -6,7 +6,7 @@ tags: ["NextJS", "React", "JavaScript", "アドベントカレンダー"]
 layout: "../../../components/PostLayout.astro"
 ---
 
-![nextjs](/assets/images/posts/20221209-this-year-nextjs-product/next-logo.png)
+![nextjs](/blog/assets/images//posts/20221209-this-year-nextjs-product/next-logo.png)
 
 これは [.ごっ！のアドベントカレンダー](https://adventar.org/calendars/8199) の9日目の記事です。
 
@@ -16,7 +16,7 @@ layout: "../../../components/PostLayout.astro"
 
 ## What3Idols
 
-![What3Idols](/assets/images/posts/20221209-this-year-nextjs-product/what3idols-logo.png)
+![What3Idols](/blog/assets/images//posts/20221209-this-year-nextjs-product/what3idols-logo.png)
 
 https://what3idols.vercel.app/
 
@@ -33,8 +33,8 @@ https://github.com/YutaGoto/what3idols
 
 アイドルマスターに登場するアイドルやスタッフの順列で日本の唯一の位置を特定するアプリになってます。経緯は過去のポストを読んでください。
 
-- What3Idolsなるものを作った: https://yutagoto.github.io/blog/20201223-what3idols%E3%81%AA%E3%82%8B%E3%82%82%E3%81%AE%E3%82%92%E4%BD%9C%E3%81%A3%E3%81%9F/
-- What3IdolsプロジェクトをYarn v3へアップグレード: https://yutagoto.github.io/blog/20220210-what3idols-yarn3/
+- What3Idolsなるものを作った: https://yutagoto.github.io/blog/posts/20201223-what3idols%E3%81%AA%E3%82%8B%E3%82%82%E3%81%AE%E3%82%92%E4%BD%9C%E3%81%A3%E3%81%9F/
+- What3IdolsプロジェクトをYarn v3へアップグレード: https://yutagoto.github.io/blog/posts/20220210-what3idols-yarn3/
 
 2年前から手を付けていますが、このあたりの変遷は後日の記事に書こうと思います。
 

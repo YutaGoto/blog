@@ -6,7 +6,7 @@ tags: ["アイドルマスター", "imastudy", "imas_mokumoku", "アドベント
 layout: "../../../components/PostLayout.astro"
 ---
 
-![mokumoku](/assets/images/posts/20221216-imas-mokumoku/mokumoku-event.png)
+![mokumoku](/blog/assets/images//posts/20221216-imas-mokumoku/mokumoku-event.png)
 
 これは [.ごっ！のアドベントカレンダー](https://adventar.org/calendars/8199) の16日目の記事です。
 
@@ -14,7 +14,7 @@ layout: "../../../components/PostLayout.astro"
 
 3年前くらいからアイマスもくもく会を運営しているのですが、今年も月1回ずつ開催できました。2021年の成果は以下の記事を見てください。
 
-- アイマスもくもく会2021年まとめ: https://yutagoto.github.io/blog/20211223-imas-mokumoku/
+- アイマスもくもく会2021年まとめ: https://yutagoto.github.io/blog/posts/20211223-imas-mokumoku/
 
 ## 総括
 
@@ -22,9 +22,9 @@ layout: "../../../components/PostLayout.astro"
 
 https://imastudy-mokumoku.connpass.com
 
-![connpass events](/assets/images/posts/20221216-imas-mokumoku/connpass1.png)
+![connpass events](/blog/assets/images//posts/20221216-imas-mokumoku/connpass1.png)
 
-![connpass events](/assets/images/posts/20221216-imas-mokumoku/connpass2.png)
+![connpass events](/blog/assets/images//posts/20221216-imas-mokumoku/connpass2.png)
 
 2022年も相変わらずの情勢だったためオンライン開催です。
 

@@ -11,7 +11,7 @@ export const Bio = () => {
         <div className="flex-none">
           <img
             className="bio-avatar h-48 w-48 object-contain"
-            src="/assets/images/profile-pic.png"
+            src="/blog/assets/images/profile-pic.png"
             alt="ProfilePicture"
           />
         </div>

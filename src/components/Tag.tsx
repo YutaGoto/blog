@@ -11,7 +11,7 @@ export const Tag = ({ tag, className = "", withLink = true }: TagProps) => {
     <span
       className={`${className} rounded bg-emerald-800 py-1 px-2 text-sm text-gray-100`}
     >
-      {withLink ? <a href={`/tags/${tag}`}>{tag}</a> : tag}
+      {withLink ? <a href={`/blog/tags/${tag}`}>{tag}</a> : tag}
     </span>
   )
 }

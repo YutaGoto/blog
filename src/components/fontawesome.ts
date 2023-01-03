@@ -1,6 +1,10 @@
 import { dom, library } from "@fortawesome/fontawesome-svg-core"
-import { faGithub, faTwitter } from "@fortawesome/free-brands-svg-icons"
-import { faAngleLeft, faAngleRight } from "@fortawesome/free-solid-svg-icons"
+import { fab, faGithub, faTwitter } from "@fortawesome/free-brands-svg-icons"
+import {
+  fas,
+  faAngleLeft,
+  faAngleRight,
+} from "@fortawesome/free-solid-svg-icons"
 
-library.add(faGithub, faTwitter, faAngleRight, faAngleLeft)
+library.add(fab, fas, faGithub, faTwitter, faAngleRight, faAngleLeft)
 dom.watch()

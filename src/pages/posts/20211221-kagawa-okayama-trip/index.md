@@ -21,7 +21,7 @@ layout: "../../../components/PostLayout.astro"
 
 ソロなのでかなり狭いですが個室です。上段の部屋だったので天井半分くらいまで窓が広がっていたので、空を見上げることができました。
 
-![車窓](/assets/images/posts/20211221-kagawa-okayama-trip/sunrise.jpg)
+![車窓](/blog/assets/images//posts/20211221-kagawa-okayama-trip/sunrise.jpg)
 
 夜で走行中なのでブレていますが、深夜の街並みの中を眺めるのはなかなかないので新鮮です。寝転がれますし。
 
@@ -33,7 +33,7 @@ layout: "../../../components/PostLayout.astro"
 
 朝の瀬戸大橋からの景色を見られたのでよしとします！
 
-![朝日](/assets/images/posts/20211221-kagawa-okayama-trip/morning.jpg)
+![朝日](/blog/assets/images//posts/20211221-kagawa-okayama-trip/morning.jpg)
 
 ## 坂出
 
@@ -43,7 +43,7 @@ layout: "../../../components/PostLayout.astro"
 
 [讃岐うどん やなぎ屋 https://www.shikoku-np.co.jp/udon/shop/992](https://www.shikoku-np.co.jp/udon/shop/992)
 
-![肉うどん](/assets/images/posts/20211221-kagawa-okayama-trip/nikuudon.jpg)
+![肉うどん](/blog/assets/images//posts/20211221-kagawa-okayama-trip/nikuudon.jpg)
 
 ### 瀬戸大橋記念公園
 
@@ -57,9 +57,9 @@ layout: "../../../components/PostLayout.astro"
 
 公園近くの沙弥島の浜からもきれいな風景を見ることができます。
 
-![浜](/assets/images/posts/20211221-kagawa-okayama-trip/beach.jpg)
+![浜](/blog/assets/images//posts/20211221-kagawa-okayama-trip/beach.jpg)
 
-![ワーケーション](/assets/images/posts/20211221-kagawa-okayama-trip/workation.jpg)
+![ワーケーション](/blog/assets/images//posts/20211221-kagawa-okayama-trip/workation.jpg)
 
 ここでラップトップを開いて座ったらワーケーションの広告っぽいものを撮れそうです。
 
@@ -71,7 +71,7 @@ layout: "../../../components/PostLayout.astro"
 
 こちらでは釜玉うどんをおいしくいただきました。
 
-![釜玉うどん](/assets/images/posts/20211221-kagawa-okayama-trip/kamatamaudon.jpg)
+![釜玉うどん](/blog/assets/images//posts/20211221-kagawa-okayama-trip/kamatamaudon.jpg)
 
 ### 四国水族館
 
@@ -79,29 +79,29 @@ layout: "../../../components/PostLayout.astro"
 
 [四国水族館 https://shikoku-aquarium.jp/](https://shikoku-aquarium.jp/)
 
-![四国水族館](/assets/images/posts/20211221-kagawa-okayama-trip/shikokusuizokukan.jpg)
+![四国水族館](/blog/assets/images//posts/20211221-kagawa-okayama-trip/shikokusuizokukan.jpg)
 
 <blockquote class="twitter-tweet"><p lang="ja" dir="ltr">まーた 水族館に来ましたよ。 <a href="https://t.co/meh3uEUEB4">pic.twitter.com/meh3uEUEB4</a></p>&mdash; .ごっち (@gggooottto) <a href="https://twitter.com/gggooottto/status/1471001782516338693?ref_src=twsrc%5Etfw">December 15, 2021</a></blockquote>
 
 ただなんとなく見ているだけで癒されるので、海や魚に詳しくなくても行くだけで正解ですね。
 
-![クラゲ](/assets/images/posts/20211221-kagawa-okayama-trip/jelly.jpg)
+![クラゲ](/blog/assets/images//posts/20211221-kagawa-okayama-trip/jelly.jpg)
 
-![さかな](/assets/images/posts/20211221-kagawa-okayama-trip/fish.jpg)
+![さかな](/blog/assets/images//posts/20211221-kagawa-okayama-trip/fish.jpg)
 
-![いるか](/assets/images/posts/20211221-kagawa-okayama-trip/iruka.jpg)
+![いるか](/blog/assets/images//posts/20211221-kagawa-okayama-trip/iruka.jpg)
 
-![いるか](/assets/images/posts/20211221-kagawa-okayama-trip/iruka-show.gif)
+![いるか](/blog/assets/images//posts/20211221-kagawa-okayama-trip/iruka-show.gif)
 
 ## 岡山
 
 マリンライナーで岡山駅に向かったのですが、道中の瀬戸大橋からの夕日がかなりきれいでした。
 
-![夕日](/assets/images/posts/20211221-kagawa-okayama-trip/evening.jpg)
+![夕日](/blog/assets/images//posts/20211221-kagawa-okayama-trip/evening.jpg)
 
 帰りの新幹線の前に夜ご飯を食べておきたかったので途中下車しました。3 食うどんにする勇気はなかったです。
 
-![岡山駅](/assets/images/posts/20211221-kagawa-okayama-trip/momotarou.jpg)
+![岡山駅](/blog/assets/images//posts/20211221-kagawa-okayama-trip/momotarou.jpg)
 
 駅近くのショッピングモールのフードコートっぽいところでご飯をいただきました。
 
@@ -113,7 +113,7 @@ layout: "../../../components/PostLayout.astro"
 
 この旅をもって北海道・本州・四国・九州 4 島に訪れました。
 
-![日本](/assets/images/posts/20211221-kagawa-okayama-trip/japan.png)
-![都道府県](/assets/images/posts/20211221-kagawa-okayama-trip/japan2.png)
+![日本](/blog/assets/images//posts/20211221-kagawa-okayama-trip/japan.png)
+![都道府県](/blog/assets/images//posts/20211221-kagawa-okayama-trip/japan2.png)
 
 都道府県単位で見ると まだ訪れたことのない県がある（主に西側にある）ので、用事を作って行きたい所存です。

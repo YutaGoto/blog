@@ -6,7 +6,7 @@ tags: ["Google", "Google One", "アドベントカレンダー", "日常"]
 layout: "../../../components/PostLayout.astro"
 ---
 
-![](/assets/images/posts/20221203-google-one/google-one.png)
+![](/blog/assets/images//posts/20221203-google-one/google-one.png)
 
 これは [.ごっ！のアドベントカレンダー](https://adventar.org/calendars/8199) の3日目の記事です。
 

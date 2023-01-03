@@ -6,7 +6,7 @@ tags: ["美術館", "博物館", "アドベントカレンダー"]
 layout: "../../../components/PostLayout.astro"
 ---
 
-![kadokawa museum](/assets/images/posts/20221207-went-to-museums/kadokawa.jpg)
+![kadokawa museum](/blog/assets/images//posts/20221207-went-to-museums/kadokawa.jpg)
 
 これは [.ごっ！のアドベントカレンダー](https://adventar.org/calendars/8199) の7日目の記事です。
 
@@ -18,7 +18,7 @@ layout: "../../../components/PostLayout.astro"
 
 ## Chim↑Pom展：ハッピースプリング at 森美術館
 
-![chimpom](/assets/images/posts/20221207-went-to-museums/chimpom.jpg)
+![chimpom](/blog/assets/images//posts/20221207-went-to-museums/chimpom.jpg)
 
 <blockquote class="twitter-tweet"><p lang="ja" dir="ltr">行ってきた。 <a href="https://t.co/XMkSMVarfK">pic.twitter.com/XMkSMVarfK</a></p>&mdash; .ごっち (@gggooottto) <a href="https://twitter.com/gggooottto/status/1510866835880947713?ref_src=twsrc%5Etfw">April 4, 2022</a></blockquote>
 
@@ -28,7 +28,7 @@ https://www.mori.art.museum/jp/exhibitions/chimpom/
 
 ## 鈴木敏夫とジブリ展 at 天王洲　寺田倉庫B＆C HALL／E HALL
 
-![suzukitoshio-ghibli](/assets/images/posts/20221207-went-to-museums/toshioSuzuki.png)
+![suzukitoshio-ghibli](/blog/assets/images//posts/20221207-went-to-museums/toshioSuzuki.png)
 
 <blockquote class="twitter-tweet"><p lang="ja" dir="ltr">来た。 <a href="https://t.co/YKBzZMUP7b">pic.twitter.com/YKBzZMUP7b</a></p>&mdash; .ごっち (@gggooottto) <a href="https://twitter.com/gggooottto/status/1545259316219121664?ref_src=twsrc%5Etfw">July 8, 2022</a></blockquote>
 
@@ -38,11 +38,11 @@ https://suzukitoshio-ghibli.com/tokyo/
 
 展示方法も当時の作業風景の再現や作品の再現があり、心躍らせながら見て回っていました。
 
-![kaonashi](/assets/images/posts/20221207-went-to-museums/kaonashi.jpg)
+![kaonashi](/blog/assets/images//posts/20221207-went-to-museums/kaonashi.jpg)
 
 ## ファン・ゴッホ　ー僕には世界がこう見えるー at 角川武蔵野ミュージアム
 
-![van gogh](/assets/images/posts/20221207-went-to-museums/gogh.jpg)
+![van gogh](/blog/assets/images//posts/20221207-went-to-museums/gogh.jpg)
 
 <blockquote class="twitter-tweet"><p lang="ja" dir="ltr">来た。 <a href="https://t.co/pLzElxcKGP">pic.twitter.com/pLzElxcKGP</a></p>&mdash; .ごっち (@gggooottto) <a href="https://twitter.com/gggooottto/status/1547043227450355713?ref_src=twsrc%5Etfw">July 13, 2022</a></blockquote>
 
@@ -52,7 +52,7 @@ https://kadcul.com/event/77
 
 ## 運慶　鎌倉幕府と三浦一族 at 横須賀美術館
 
-![unkei](/assets/images/posts/20221207-went-to-museums/unkei.jpg)
+![unkei](/blog/assets/images//posts/20221207-went-to-museums/unkei.jpg)
 
 <blockquote class="twitter-tweet"><p lang="ja" dir="ltr">実物すげぇなぁという。。 <a href="https://t.co/Dt4LGSWO1x">pic.twitter.com/Dt4LGSWO1x</a></p>&mdash; .ごっち (@gggooottto) <a href="https://twitter.com/gggooottto/status/1556506551967715328?ref_src=twsrc%5Etfw">August 8, 2022</a></blockquote>
 
@@ -62,4 +62,4 @@ https://www.yokosuka-moa.jp/archive/exhibition/2022/20220706-696.html
 
 ついでに横須賀付近の散歩もしっかりしてきました。
 
-![yokosuka](/assets/images/posts/20221207-went-to-museums/yokosuka.jpg)
+![yokosuka](/blog/assets/images//posts/20221207-went-to-museums/yokosuka.jpg)

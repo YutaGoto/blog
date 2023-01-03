@@ -6,7 +6,7 @@ tags: ["Pixel Watch", "アドベントカレンダー"]
 layout: "../../../components/PostLayout.astro"
 ---
 
-![pixel watch](/assets/images/posts/20221224-pixel-watch/watch.png)
+![pixel watch](/blog/assets/images//posts/20221224-pixel-watch/watch.png)
 
 これは [.ごっ！のアドベントカレンダー](https://adventar.org/calendars/8199) の24日目の記事です。
 
@@ -37,4 +37,4 @@ layout: "../../../components/PostLayout.astro"
 
 そんなこんなで使いこなしている感じはあまりないです。そういった面では自力でアプリ開発できれば、また違った体験を得られるのかもしれません。
 
-![screenshot](/assets/images/posts/20221224-pixel-watch/screenshot.png)
+![screenshot](/blog/assets/images//posts/20221224-pixel-watch/screenshot.png)

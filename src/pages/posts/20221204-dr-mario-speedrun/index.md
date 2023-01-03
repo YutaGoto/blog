@@ -6,7 +6,7 @@ tags: ["game", "ドクターマリオ", "RTA", "アドベントカレンダー"]
 layout: "../../../components/PostLayout.astro"
 ---
 
-![dr. mario](/assets/images/posts/20221204-dr-mario-speedrun/logo.gif)
+![dr. mario](/blog/assets/images//posts/20221204-dr-mario-speedrun/logo.gif)
 
 これは [.ごっ！のアドベントカレンダー](https://adventar.org/calendars/8199) の4日目の記事です。
 

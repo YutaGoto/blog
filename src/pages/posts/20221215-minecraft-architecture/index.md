@@ -6,17 +6,17 @@ tags: ["GCP", "Minecraft", "アドベントカレンダー"]
 layout: "../../../components/PostLayout.astro"
 ---
 
-![cloud](/assets/images/posts/20221215-minecraft-architecture/cloud_generic.png)
+![cloud](/blog/assets/images//posts/20221215-minecraft-architecture/cloud_generic.png)
 
 これは [.ごっ！のアドベントカレンダー](https://adventar.org/calendars/8199) の15日目の記事です。
 
 こんにちは、.ごっちです。
 
-前回は[Minecraft関連の話](https://yutagoto.github.io/blog/20221214-playing-minecraft/)でしたが、今回はその周辺のインフラ関連の話です。たてた時の記事は https://yutagoto.github.io/blog/20210627-minecraft-server-admin/ にあります。
+前回は[Minecraft関連の話](https://yutagoto.github.io/blog/posts/20221214-playing-minecraft/)でしたが、今回はその周辺のインフラ関連の話です。たてた時の記事は https://yutagoto.github.io/blog/posts/20210627-minecraft-server-admin/ にあります。
 
 ## Minecraft関連のサービス群の図
 
-![architecture](/assets/images/posts/20221215-minecraft-architecture/Architectures.png)
+![architecture](/blog/assets/images//posts/20221215-minecraft-architecture/Architectures.png)
 
 気がつけばいろいろなサービスを使っています。
 

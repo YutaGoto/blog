@@ -6,7 +6,7 @@ tags: ["game", "Minecraft", "アドベントカレンダー"]
 layout: "../../../components/PostLayout.astro"
 ---
 
-![minecraft](/assets/images/posts/20221214-playing-minecraft/minecraft.png)
+![minecraft](/blog/assets/images//posts/20221214-playing-minecraft/minecraft.png)
 
 これは [.ごっ！のアドベントカレンダー](https://adventar.org/calendars/8199) の14日目の記事です。
 
@@ -18,7 +18,7 @@ layout: "../../../components/PostLayout.astro"
 
 運営し始めた記事は以下にあります。
 
-- GCPでMinecraft マルチサーバー管理している: https://yutagoto.github.io/blog/20210627-minecraft-server-admin/
+- GCPでMinecraft マルチサーバー管理している: https://yutagoto.github.io/blog/posts/20210627-minecraft-server-admin/
 
 ## 運営の話
 

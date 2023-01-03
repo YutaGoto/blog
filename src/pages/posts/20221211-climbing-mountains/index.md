@@ -6,7 +6,7 @@ tags: ["登山", "日常", "アドベントカレンダー"]
 layout: "../../../components/PostLayout.astro"
 ---
 
-![top](/assets/images/posts/20221211-climbing-mountains/top.jpg)
+![top](/blog/assets/images//posts/20221211-climbing-mountains/top.jpg)
 
 これは [.ごっ！のアドベントカレンダー](https://adventar.org/calendars/8199) の11日目の記事です。
 
@@ -22,7 +22,7 @@ layout: "../../../components/PostLayout.astro"
 
 初心者といえどケーブルカーやリフトを使わずとも登れるだろうと思い、1号路を最初から歩き始めました。
 
-![map](/assets/images/posts/20221211-climbing-mountains/map.jpg)
+![map](/blog/assets/images//posts/20221211-climbing-mountains/map.jpg)
 
 油断して登っていたところ1号路の前半（ケーブルカーの高尾山駅まで）は勾配が急できつく感じました。実際に2・3回小休憩しながら登っていました。
 
@@ -30,19 +30,19 @@ layout: "../../../components/PostLayout.astro"
 
 GoogleFitで活動の記録を取りながら登っていました。
 
-![hiking](/assets/images/posts/20221211-climbing-mountains/hiking3.png)
+![hiking](/blog/assets/images//posts/20221211-climbing-mountains/hiking3.png)
 
-![hiking](/assets/images/posts/20221211-climbing-mountains/hiking1.png)
+![hiking](/blog/assets/images//posts/20221211-climbing-mountains/hiking1.png)
 
 登りは2回に分けてしまいましたが、1時間半程度かけて登り切りました。
 
 下りは6号路を使いました。こちらも1時間半程度かけておりました。
 
-![hiking](/assets/images/posts/20221211-climbing-mountains/hiking2.png)
+![hiking](/blog/assets/images//posts/20221211-climbing-mountains/hiking2.png)
 
 道が1号路ほど整備されておらず途中小川を歩かなければならない箇所もあるので、歩くことが大変でありました。こちらのほうが登山道・獣道という感じがあって好きですが疲れます。
 
-![river](/assets/images/posts/20221211-climbing-mountains/river.jpg)
+![river](/blog/assets/images//posts/20221211-climbing-mountains/river.jpg)
 
 そして、下山後のお昼ご飯がうまい！
 
@@ -54,13 +54,13 @@ GoogleFitで活動の記録を取りながら登っていました。
 
 このときは紅葉シーズンで遠足にきていた小学生団体含め登山客がとても多かったです。
 
-![momiji](/assets/images/posts/20221211-climbing-mountains/momiji.jpg)
+![momiji](/blog/assets/images//posts/20221211-climbing-mountains/momiji.jpg)
 
 この回は途中まで1号路、途中からは4号路を歩きました。4号路は1号路ほど整備されているわけではないですが、湧水がでているなどなくとても歩きやすい道でした。
 
 途中吊り橋もあり雰囲気がとてもよいです。
 
-![bridge](/assets/images/posts/20221211-climbing-mountains/bridge.jpg)
+![bridge](/blog/assets/images//posts/20221211-climbing-mountains/bridge.jpg)
 
 山頂に到着して、自宅最寄り駅で買ったおにぎりを頂きながら景色も味わいました。山頂も混雑していたので長居ができませんでしたが充分に堪能できました。とても気分がよい！
 
@@ -68,7 +68,7 @@ GoogleFitで活動の記録を取りながら登っていました。
 
 帰りは3号路経由で下りました。こちらも土が踏み固められた程度の道で結構歩きやすかったです。一部勾配のきつい坂や階段があり、疲れている中おりるのでかなり慎重にならざるを得ない場面が多数ありました。
 
-![road2](/assets/images/posts/20221211-climbing-mountains/road2.jpg)
+![road2](/blog/assets/images//posts/20221211-climbing-mountains/road2.jpg)
 
 ## 来年以降
 

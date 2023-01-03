@@ -24,11 +24,11 @@ SlackSlashCommand を送信したら、ランダムに絵文字を返してく�
 
 https://api.slack.com/apps にアクセスして、 `Create New App` から `From Scratch` を選択して登録します。
 
-![slack app 1](/assets/images/posts/20211203-emoji-gacha/app1.png)
+![slack app 1](/blog/assets/images//posts/20211203-emoji-gacha/app1.png)
 
-![slack app 2](/assets/images/posts/20211203-emoji-gacha/app2.png)
+![slack app 2](/blog/assets/images//posts/20211203-emoji-gacha/app2.png)
 
-![slack app 3](/assets/images/posts/20211203-emoji-gacha/app3.png)
+![slack app 3](/blog/assets/images//posts/20211203-emoji-gacha/app3.png)
 
 登録し終えたら `App Manifest` を編集します。
 今回は `botの有効化`, `emojiの取得`, `slash commands`, `チャットの書き込み` ができるようにします。
@@ -106,6 +106,6 @@ https://ngrok.com/
 flask サーバーを起動して ngrok を起動して、その URL を manifest に書き込んだらテストをします。
 以下のように slack 上で slash コマンドを入力できて、BOT がワークスペースに登録された emoji を 1 つだけチャットされます。
 
-![slack gif](/assets/images/posts/20211203-emoji-gacha/slack.gif)
+![slack gif](/blog/assets/images//posts/20211203-emoji-gacha/slack.gif)
 
 AWS lambda などにデプロイすれば、いつでも emoji ガチャを回すことができます！

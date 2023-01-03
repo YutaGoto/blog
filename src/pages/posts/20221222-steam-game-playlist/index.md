@@ -12,14 +12,14 @@ layout: "../../../components/PostLayout.astro"
 
 Jump KingとScreepsArenaに関しては以前の投稿を見てください。
 
-- Screeps Arenaをやってた - .ごっちの日記 https://yutagoto.github.io/blog/20221205-screeps-arena-alpha/
-- Jump Kingで遊んだりJump Kingを改造したり - .ごっちの日記 https://yutagoto.github.io/blog/20221221-jumpking-maps/
+- Screeps Arenaをやってた - .ごっちの日記 https://yutagoto.github.io/blog/posts/20221205-screeps-arena-alpha/
+- Jump Kingで遊んだりJump Kingを改造したり - .ごっちの日記 https://yutagoto.github.io/blog/posts/20221221-jumpking-maps/
 
 ## Diamond Hands: To The Moon
 
 https://store.steampowered.com/app/1727810/Diamond_Hands_To_The_Moon/?l=japanese
 
-![moon](/assets/images/posts/20221222-steam-game-playlist/diamond_hands.png)
+![moon](/blog/assets/images//posts/20221222-steam-game-playlist/diamond_hands.png)
 
 ジャンプキングライクなゲームです。ジャンプキングとジャンプの性質が異なりますが、この手のゲームをやっていればできる程度の難易度・長さです。
 
@@ -35,7 +35,7 @@ https://store.steampowered.com/app/1727810/Diamond_Hands_To_The_Moon/?l=japanese
 
 https://store.steampowered.com/app/1559570/Hellstuck_Rage_With_Your_Friends/
 
-![hellstuck](/assets/images/posts/20221222-steam-game-playlist/hellstuck.png)
+![hellstuck](/blog/assets/images//posts/20221222-steam-game-playlist/hellstuck.png)
 
 `Diamond Hands: To The Moon`と同じ開発者がつくったジャンプキングライクなゲームです。`Diamond Hands: To The Moon`がクリアしていれば、難なくクリアできるはずです。こちらも同様にオンラインマルチプレイが可能です。
 
@@ -45,7 +45,7 @@ https://store.steampowered.com/app/1559570/Hellstuck_Rage_With_Your_Friends/
 
 https://store.steampowered.com/app/1492420/EQUALINE
 
-![equaline](/assets/images/posts/20221222-steam-game-playlist/equaline.png)
+![equaline](/blog/assets/images//posts/20221222-steam-game-playlist/equaline.png)
 
 > EQUALINEは、数字と記号を線でつなげて計算をこなす「一筆書き計算パズル」です。 たった9マスの組み合わせでも正解は一つだけ。
 
@@ -57,7 +57,7 @@ RTA in Japan Summer 2022でも話題となったゲームの1つです。わた�
 
 https://store.steampowered.com/app/1608270/FILMECHANISM/
 
-![filmchanism](/assets/images/posts/20221222-steam-game-playlist/filmechanism.png)
+![filmchanism](/blog/assets/images//posts/20221222-steam-game-playlist/filmechanism.png)
 
 > 「記録（レコード）」と「復元（リストア）」がカギ！パズル脳×アクション脳をフル活用してクリアを目指す2Dパズルアクション
 
@@ -69,7 +69,7 @@ https://store.steampowered.com/app/1608270/FILMECHANISM/
 
 https://store.steampowered.com/app/251630/The_Impossible_Game
 
-![impossible game](/assets/images/posts/20221222-steam-game-playlist/impossiblegame.png)
+![impossible game](/blog/assets/images//posts/20221222-steam-game-playlist/impossiblegame.png)
 
 近づいてくる三角形をタイミングよくジャンプでよけるゲームです。音ゲーに近いですが、リズムがよくわからない点もあるのでフィジカルで乗り切ります。`impossible`ということもあり、判定がかなりシビアでした。全コースクリアしていないので、こちらも気が向いたらやりたいところです。
 
@@ -79,7 +79,7 @@ https://store.steampowered.com/app/251630/The_Impossible_Game
 
 https://store.steampowered.com/app/1127500/Mini_Motorways/?l=japanese
 
-![mini](/assets/images/posts/20221222-steam-game-playlist/motorways.jpg)
+![mini](/blog/assets/images//posts/20221222-steam-game-playlist/motorways.jpg)
 
 > Mini Motorways は、成長を続ける都市の道路を作っていくゲームです。 1つずつ道路を作って道路網を建設し、活気にあふれた大都市を作りましょう。
 
@@ -93,7 +93,7 @@ https://store.steampowered.com/app/1127500/Mini_Motorways/?l=japanese
 
 https://store.steampowered.com/app/1260520/Patricks_Parabox/?l=japanese
 
-![patricks](/assets/images/posts/20221222-steam-game-playlist/patricks.png)
+![patricks](/blog/assets/images//posts/20221222-steam-game-playlist/patricks.png)
 
 > 箱の中で箱を運んだら、その箱の中でまた箱運び… 無限の繰り返しを利用しながら、洗練されたディープなシステムを楽しみましょう。常識をひっくり返す、めくるめくパズルゲームです。
 

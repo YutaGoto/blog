@@ -6,7 +6,7 @@ tags: ["game", "Jump King", "アドベントカレンダー"]
 layout: "../../../components/PostLayout.astro"
 ---
 
-![jump king](/assets/images/posts/20221221-jumpking-maps/Jump-King.jpg)
+![jump king](/blog/assets/images//posts/20221221-jumpking-maps/Jump-King.jpg)
 
 これは [.ごっ！のアドベントカレンダー](https://adventar.org/calendars/8199) の21日目の記事です。
 
@@ -35,7 +35,7 @@ Jump Kingには3ステージあるのですが、その3ステージとも2020�
 
 ## カスタムレベル
 
-![jumpkingplus](/assets/images/posts/20221221-jumpking-maps/JumpKingPlus.png)
+![jumpkingplus](/blog/assets/images//posts/20221221-jumpking-maps/JumpKingPlus.png)
 
 Jump Kingのmodをインストールすることによって、プレイヤーが製作したレベルで遊ぶことができます。
 
@@ -47,7 +47,7 @@ Speedrunなどやりこんでいるプレイヤーが製作するレベルなの
 
 ### カスタムレベル作り
 
-![Mountain Babe](/assets/images/posts/20221221-jumpking-maps/MountainBabe.png)
+![Mountain Babe](/blog/assets/images//posts/20221221-jumpking-maps/MountainBabe.png)
 
 - Mountain Babe - JumpKingPlus: https://jumpkingplus.github.io/workshop/10/
 

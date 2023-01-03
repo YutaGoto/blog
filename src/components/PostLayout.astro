@@ -10,7 +10,6 @@ import Layout from "./Layout.astro";
 import { Tag } from "./Tag";
 import { Bio } from "./Bio";
 import { ButtonLink } from "./ButtonLink";
-import { FacebookIcon, FacebookShareButton, TwitterIcon, TwitterShareButton } from "react-share";
 const { frontmatter } = Astro.props;
 ---
 
@@ -33,22 +32,6 @@ const { frontmatter } = Astro.props;
         <slot />
         </section>
       </article>
-      <div class="mt-5 mb-5">
-        <TwitterShareButton
-          url={`https://yutagoto.github.io/blog${frontmatter.url}`}
-          title={`${frontmatter?.title} - .ごっちの日記`}
-          className="m-2"
-        >
-          <TwitterIcon size="32" round />
-        </TwitterShareButton>
-        <FacebookShareButton
-          url={`https://yutagoto.github.io/blog${frontmatter.url}`}
-          title={`${frontmatter?.title} - .ごっちの日記`}
-          className="m-2"
-        >
-          <FacebookIcon size="32" round />
-        </FacebookShareButton>
-      </div>
     </div>
     <div class="lg:flex-none">
       <Bio />

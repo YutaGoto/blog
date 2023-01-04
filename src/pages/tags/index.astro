@@ -1,7 +1,9 @@
 ---
 const allPosts = await Astro.glob("../../pages/posts/*/index.md")
-const tags = [...new Set(allPosts.map((post) => post.frontmatter.tags).flat())].filter(e => Boolean(e));
-const pageTitle = "Tag Index";
+const tags = [
+  ...new Set(allPosts.map(post => post.frontmatter.tags).flat()),
+].filter(e => Boolean(e))
+const pageTitle = "Tag Index"
 import Layout from "../../components/Layout.astro"
 import { Tag } from "../../components"
 ---
@@ -9,23 +11,16 @@ import { Tag } from "../../components"
 <html>
   <head>
     <meta charset="utf-8" />
-    <link rel="icon" type ="image/svg+xml" href="/favicon.ico" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.ico" />
     <meta name="viewport" content="width=device-width" />
-    <meta name="generator" content = {Astro.generator} >
+    <meta name="generator" content={Astro.generator} />
     <title>.ごっちの日記</title>
   </head>
   <body>
     <Layout title={pageTitle}>
-      <h1 class="mb-2 text-4xl font-extrabold">
-        タグ一覧
-      </h1>
+      <h1 class="mb-2 text-4xl font-extrabold">タグ一覧</h1>
       <div class="my-2">
-        {tags.map(tag => (
-          <Tag
-            className="mr-1"
-            tag={tag}
-          />
-        ))}
+        {tags.map(tag => <Tag className="mr-1" tag={tag} />)}
       </div>
     </Layout>
   </body>

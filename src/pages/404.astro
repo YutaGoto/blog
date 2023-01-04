@@ -1,8 +1,8 @@
 ---
 import Layout from "../components/Layout.astro"
 
-const url = new URL(Astro.request.url);
-const post_slag = url.pathname.split("/").slice(-1)[0];
+const url = new URL(Astro.request.url)
+const post_slag = url.pathname.split("/").slice(-1)[0]
 ---
 
 <html>
@@ -18,7 +18,17 @@ const post_slag = url.pathname.split("/").slice(-1)[0];
       <div class="flex h-screen items-center justify-center text-center">
         <div>
           <h1 class="mb-2 text-4xl">404: Not Found</h1>
-          {post_slag.startsWith("202") ? <a href={`/blog/posts/${post_slag}`} class="underline">Go The Post</a> : <a href="/blog/" class="underline">Go To Home</a>}
+          {
+            post_slag.startsWith("202") ? (
+              <a href={`/blog/posts/${post_slag}`} class="underline">
+                Go The Post
+              </a>
+            ) : (
+              <a href="/blog/" class="underline">
+                Go To Home
+              </a>
+            )
+          }
         </div>
       </div>
     </Layout>

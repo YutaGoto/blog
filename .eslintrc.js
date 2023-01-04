@@ -5,8 +5,20 @@ module.exports = {
   },
   parserOptions: { ecmaVersion: 8, sourceType: "module" },
   ignorePatterns: ["node_modules/*"],
-  extends: ["eslint:recommended"],
+  extends: ["eslint:recommended", "plugin:astro/recommended"],
   overrides: [
+    {
+      files: ["*.astro"],
+      parser: "astro-eslint-parser",
+      parserOptions: {
+        parser: "@typescript-eslint/parser",
+        extraFileExtensions: [".astro"],
+      },
+      extends: ["plugin:astro/recommended"],
+      rules: {
+        "astro/no-unused-define-vars-in-style": "error",
+      },
+    },
     {
       files: ["*.ts", "*.tsx"],
       parser: "@typescript-eslint/parser",

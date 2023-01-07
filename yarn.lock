@@ -50,9 +50,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@astrojs/markdown-remark@npm:^1.1.3":
-  version: 1.1.3
-  resolution: "@astrojs/markdown-remark@npm:1.1.3"
+"@astrojs/markdown-remark@npm:^1.2.0":
+  version: 1.2.0
+  resolution: "@astrojs/markdown-remark@npm:1.2.0"
   dependencies:
     "@astrojs/micromark-extension-mdx-jsx": ^1.0.3
     "@astrojs/prism": ^1.0.0
@@ -78,7 +78,7 @@ __metadata:
     unist-util-map: ^3.1.1
     unist-util-visit: ^4.1.0
     vfile: ^5.3.2
-  checksum: 1d8aa5226f2b746e004fb18db0b50086a674b7e31da502dea6182925f48d14972879d5be3771614ea06cc9c8872bcd0b217a69676c6bf18d5b18d534ee151553
+  checksum: 4d09375281c045510f4132ec3498474d0ff89bfdd975efc53060c5700ce05e6639fd8cf0fa3269d11269b0c1866ce70eed3e8cc84221489e44a04e44bf2808ed
   languageName: node
   linkType: hard
 
@@ -1669,7 +1669,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"acorn@npm:^8.7.1":
+"acorn@npm:^8.7.1, acorn@npm:^8.8.1":
   version: 8.8.1
   resolution: "acorn@npm:8.8.1"
   bin:
@@ -2098,13 +2098,13 @@ __metadata:
   languageName: node
   linkType: hard
 
-"astro@npm:^1.7.2":
-  version: 1.7.2
-  resolution: "astro@npm:1.7.2"
+"astro@npm:^1.9.1":
+  version: 1.9.1
+  resolution: "astro@npm:1.9.1"
   dependencies:
     "@astrojs/compiler": ^0.31.0
     "@astrojs/language-server": ^0.28.3
-    "@astrojs/markdown-remark": ^1.1.3
+    "@astrojs/markdown-remark": ^1.2.0
     "@astrojs/telemetry": ^1.0.1
     "@astrojs/webapi": ^1.1.1
     "@babel/core": ^7.18.2
@@ -2118,6 +2118,7 @@ __metadata:
     "@types/babel__core": ^7.1.19
     "@types/html-escaper": ^3.0.0
     "@types/yargs-parser": ^21.0.0
+    acorn: ^8.8.1
     boxen: ^6.2.1
     ci-info: ^3.3.1
     common-ancestor-path: ^1.0.1
@@ -2127,9 +2128,10 @@ __metadata:
     devalue: ^4.2.0
     diff: ^5.1.0
     es-module-lexer: ^1.1.0
+    estree-walker: ^3.0.1
     execa: ^6.1.0
     fast-glob: ^3.2.11
-    github-slugger: ^1.4.0
+    github-slugger: ^2.0.0
     gray-matter: ^4.0.3
     html-entities: ^2.3.3
     html-escaper: ^3.0.3
@@ -2165,7 +2167,7 @@ __metadata:
     zod: ^3.17.3
   bin:
     astro: astro.js
-  checksum: c79502af52cb1713655cb11cd8823cf027479e81f4d6f205be710729c071f35e2a1a145d14f8e6ed491e47dc6dd58a7ffc9c32fab5df86adb26850e17c5e07fe
+  checksum: befc8ebff7ce3cfd772e73431190878546eb831b0748abe7dfa1924bb1c97dcc2902f179afdf899ec950830fb4b4030edbac048e70a60999c9585aa57369c978
   languageName: node
   linkType: hard
 
@@ -3960,6 +3962,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"estree-walker@npm:^3.0.1":
+  version: 3.0.2
+  resolution: "estree-walker@npm:3.0.2"
+  checksum: ecf457e8d4750cefb10b3e003df3bfceabe1e360695d0d71efdf00b45a4d625cb117e9a03d06331e989d5f1df2b4963b5c80df7f5d88c7ea3fe5586b5c783900
+  languageName: node
+  linkType: hard
+
 "esutils@npm:^2.0.2":
   version: 2.0.3
   resolution: "esutils@npm:2.0.3"
@@ -4438,6 +4447,13 @@ __metadata:
   version: 1.5.0
   resolution: "github-slugger@npm:1.5.0"
   checksum: c70988224578b3bdaa25df65973ffc8c24594a77a28550c3636e495e49d17aef5cdb04c04fa3f1744babef98c61eecc6a43299a13ea7f3cc33d680bf9053ffbe
+  languageName: node
+  linkType: hard
+
+"github-slugger@npm:^2.0.0":
+  version: 2.0.0
+  resolution: "github-slugger@npm:2.0.0"
+  checksum: 250375cde2058f21454872c2c79f72c4637340c30c51ff158ca4ec71cbc478f33d54477d787a662f9207aeb095a2060f155bc01f15329ba8a5fb6698e0fc81f8
   languageName: node
   linkType: hard
 
@@ -11212,7 +11228,7 @@ __metadata:
     "@types/react-dom": ^18.0.6
     "@typescript-eslint/eslint-plugin": ^5.47.0
     "@typescript-eslint/parser": ^5.48.0
-    astro: ^1.7.2
+    astro: ^1.9.1
     autoprefixer: ^10.4.2
     eslint: ^8.31.0
     eslint-config-prettier: ^8.5.0

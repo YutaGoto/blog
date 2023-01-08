@@ -1,5 +1,6 @@
 import React from "react"
 import { Tag } from "./Tag"
+import { cdate } from "cdate"
 import type { MarkdownInstance } from "astro"
 
 interface ArticleCardProps {
@@ -20,7 +21,9 @@ export const ArticleCard = ({ post }: ArticleCardProps) => {
         >
           <div className="">
             <div className="mb-2 text-2xl">{title}</div>
-            <div className="mb-2 text-sm">{post.frontmatter?.date}</div>
+            <div className="mb-2 text-sm">
+              {cdate(post.frontmatter?.date).format("YYYY年MM月DD日")}
+            </div>
             <div className="mb-2">
               {tags?.map((tag: string) => (
                 <Tag key={tag} className="mr-1" tag={tag} withLink={false} />

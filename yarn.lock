@@ -2467,6 +2467,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"cdate@npm:^0.0.4":
+  version: 0.0.4
+  resolution: "cdate@npm:0.0.4"
+  checksum: fdde94209015298d4e068f15b2a8582815b76e1cc1519922730a553f04fbf6f8aacdf46f6b3930f94eee999adb455d59477081326fd4bccd075a361d20422851
+  languageName: node
+  linkType: hard
+
 "chalk@npm:^2.0.0":
   version: 2.4.2
   resolution: "chalk@npm:2.4.2"
@@ -11194,6 +11201,7 @@ __metadata:
     "@typescript-eslint/parser": ^5.48.0
     astro: ^1.9.1
     autoprefixer: ^10.4.13
+    cdate: ^0.0.4
     eslint: ^8.31.0
     eslint-config-prettier: ^8.5.0
     eslint-import-resolver-typescript: ^3.5.2

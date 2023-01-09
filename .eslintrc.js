@@ -46,7 +46,7 @@ module.exports = {
       ],
       rules: {
         "linebreak-style": ["error", "unix"],
-        "inport/default": "off",
+        "import/default": "off",
         "@typescript-eslint/no-unused-vars": ["error"],
         "@typescript-eslint/explicit-function-return-type": ["off"],
         "@typescript-eslint/explicit-module-boundary-types": ["off"],

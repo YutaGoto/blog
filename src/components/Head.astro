@@ -1,0 +1,25 @@
+---
+interface Props {
+  title: string
+  ogImage?: string
+  ogTitle: string
+  ogDescription?: string
+}
+
+const { title, ogImage, ogTitle, ogDescription } = Astro.props as Props
+---
+
+<head>
+  <meta charset="utf-8" />
+  <link rel="icon" type="image/svg+xml" href="/blog/favicon.ico" />
+  <meta name="viewport" content="width=device-width" />
+  <meta name="generator" content={Astro.generator} />
+
+  {ogImage && <meta property="og:image" content={ogImage} />}
+  <meta property="og:site_name" content="YutaGoto Blog" />
+  <meta property="og:type" content="object" />
+  <meta property="og:title" content={`${ogTitle} - .ごっちの日記`} />
+  <meta property="og:url" content={Astro.url} />
+  <meta property="og:description" content={ogDescription} />
+  <title>{title} - .ごっちの日記</title>
+</head>

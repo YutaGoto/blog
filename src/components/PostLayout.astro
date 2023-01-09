@@ -11,17 +11,17 @@ import Layout from "./Layout.astro"
 import { Tag } from "./Tag"
 import { Bio } from "./Bio"
 import { ButtonLink } from "./ButtonLink"
+import Head from "./Head.astro"
 const { frontmatter } = Astro.props as Props
 ---
 
 <html>
-  <head>
-    <meta charset="utf-8" />
-    <link rel="icon" type="image/svg+xml" href="/blog/favicon.ico" />
-    <meta name="viewport" content="width=device-width" />
-    <meta name="generator" content={Astro.generator} />
-    <title>{frontmatter.title} - .ごっちの日記</title>
-  </head>
+  <Head
+    title={frontmatter.title}
+    ogTitle={frontmatter.title}
+    ogDescription={frontmatter.description}
+    ogImage={frontmatter?.image}
+  />
   <body>
     <Layout>
       <div class="xl:flex xl:space-x-2">

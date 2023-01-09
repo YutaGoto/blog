@@ -6,16 +6,15 @@ const tags = [
 const pageTitle = "Tag Index"
 import Layout from "../../components/Layout.astro"
 import { Tag } from "../../components"
+import Head from "../../components/Head.astro"
 ---
 
 <html>
-  <head>
-    <meta charset="utf-8" />
-    <link rel="icon" type="image/svg+xml" href="/favicon.ico" />
-    <meta name="viewport" content="width=device-width" />
-    <meta name="generator" content={Astro.generator} />
-    <title>.ごっちの日記</title>
-  </head>
+  <Head
+    title="タグ一覧"
+    ogTitle="タグ一覧"
+    ogDescription=".ごっちの日記のタグ一覧"
+  />
   <body>
     <Layout title={pageTitle}>
       <h1 class="mb-2 text-4xl font-extrabold">タグ一覧</h1>

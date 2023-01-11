@@ -24,5 +24,13 @@ const { title, ogImage, ogTitle, ogDescription } = Astro.props as Props
   />
   <meta property="og:url" content={Astro.url} />
   <meta property="og:description" content={ogDescription} />
+  {ogImage && <meta name="twitter:image:src" content={ogImage} />}
+  <meta name="twitter:creator" content="@gggooottto" />
+  <meta name="twitter:card" content="summary" />
+  <meta
+    name="twitter:title"
+    content={`${ogTitle && `${ogTitle} - `}.ごっちの日記`}
+  />
+  <meta name="twitter:description" content={ogDescription} />
   <title>{title && `${title} - `}.ごっちの日記</title>
 </head>

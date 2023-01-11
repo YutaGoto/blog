@@ -50,6 +50,16 @@ const { frontmatter } = Astro.props as Props
         </div>
       </div>
 
+      <div class="mb-4 mt-4">
+        <a
+          href="https://twitter.com/share?ref_src=twsrc%5Etfw"
+          class="twitter-share-button"
+          data-text={`${frontmatter?.title} - .ごっちの日記`}
+          data-via="gggooottto"
+          data-show-count="false">Tweet</a
+        >
+      </div>
+
       <div
         class="mb-4 mt-4 flex flex-col lg:flex-row lg:justify-between"
         role="navigation"

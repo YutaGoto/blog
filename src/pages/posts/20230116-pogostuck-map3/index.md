@@ -13,11 +13,11 @@ layout: "@/components/PostLayout.astro"
 2023年の1月初めにかなり難しいゲームの3つ目のマップをクリアしました。 2022年末でも話題になった `Pogostuck: Rage With Your Friends` です。マップ1は2021年末にクリアしています。
 
 - Steam：Pogostuck: Rage With Your Friends - https://store.steampowered.com/app/688130/Pogostuck_Rage_With_Your_Friends/?l=japanese
-- かなり難しいゲームの一つのマップをクリアしたメモ - .ごっちの日記 - https://yutagoto.github.io/blog/posts/20220115-difficult-game-p/
+- かなり難しいゲームの1つのマップをクリアしたメモ - .ごっちの日記 - https://yutagoto.github.io/blog/posts/20220115-difficult-game-p/
 
 <blockquote class="twitter-tweet"><p lang="ja" dir="ltr">＞ 俺 の 勝 ち ！！！！！！！＜ <a href="https://t.co/2ZagXvsg5b">pic.twitter.com/2ZagXvsg5b</a></p>&mdash; .ごっち (@gggooottto) <a href="https://twitter.com/gggooottto/status/1611306698211479552?ref_src=twsrc%5Etfw">January 6, 2023</a></blockquote>
 
-マップ1の次に難しいとされているマップ3ですが、これもマップ1と同じくらい時間(24時間くらい)かかりました。
+マップ1の次に難しいとされているマップ3ですが、これもマップ1と同じくらい時間(24時間)かかりました。
 全体の半分くらいまでは1時間かかるかかからないかの難易度でしたが、そこから先の難易度の上がり方と戻しの量がすごいので結局 時間がかかった次第です。
 
 - 50%付近まで: 1時間程度

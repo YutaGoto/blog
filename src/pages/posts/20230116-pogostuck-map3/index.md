@@ -3,7 +3,7 @@ title: かなり難しいゲームの1つのマップをまたクリアしたメ
 date: "2023-01-16T00:01:00.000Z"
 description: "ポゴの時間だ！"
 tags: ["Game", "Pogostuck Rage with your Friends"]
-layout: "../../../components/PostLayout.astro"
+layout: "@/components/PostLayout.astro"
 ---
 
 ![pogostuck](/blog/assets/images/posts/20230116-pogostuck-map3/pogostuck.jpg)

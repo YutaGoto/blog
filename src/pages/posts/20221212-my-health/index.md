@@ -3,7 +3,7 @@ title: 私と健康
 date: "2022-12-12T00:01:00.000Z"
 description: "健康第一"
 tags: ["健康", "運動", "アドベントカレンダー"]
-layout: "../../../components/PostLayout.astro"
+layout: "@/components/PostLayout.astro"
 ---
 
 これは [.ごっ！のアドベントカレンダー](https://adventar.org/calendars/8199) の12日目の記事です。

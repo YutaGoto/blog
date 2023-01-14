@@ -2,7 +2,7 @@
 title: "<-こいつを動かしてみた"
 date: "2018-11-17T09:00:00.000Z"
 description: "<-こいつを動かしてみた"
-layout: "../../../components/PostLayout.astro"
+layout: "@/components/PostLayout.astro"
 ---
 
 こんにちは、.ごっちです。

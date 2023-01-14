@@ -3,7 +3,7 @@ title: GitHub ActionsのStatus Badgeをよしなに作るコマンドを作っ�
 date: "2022-05-14T00:01:00.000Z"
 description: RustでCLIおためし
 tags: ["Rust", "Cli", "GitHub Actions"]
-layout: "../../../components/PostLayout.astro"
+layout: "@/components/PostLayout.astro"
 ---
 
 こんにちは、.ごっちです。

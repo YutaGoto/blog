@@ -2,7 +2,7 @@
 title: "超重要参考文献"
 date: "2014-11-06T09:00:00.000Z"
 description: "超重要参考文献"
-layout: "../../../components/PostLayout.astro"
+layout: "@/components/PostLayout.astro"
 ---
 
 ごとうです．

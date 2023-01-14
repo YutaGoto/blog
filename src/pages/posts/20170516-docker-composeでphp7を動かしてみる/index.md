@@ -2,7 +2,7 @@
 title: "Docker ComposeでPHP7を動かしてみる"
 date: "2017-05-16T09:00:00.000Z"
 description: "Docker ComposeでPHP7を動かしてみる"
-layout: "../../../components/PostLayout.astro"
+layout: "@/components/PostLayout.astro"
 ---
 
 どうも、こんにちは。ごっちです。

@@ -3,7 +3,7 @@ title: Rust履修中
 date: "2022-12-17T00:01:00.000Z"
 description: "理解していきたいRust"
 tags: ["Rust", "アドベントカレンダー"]
-layout: "../../../components/PostLayout.astro"
+layout: "@/components/PostLayout.astro"
 ---
 
 ![crrustean](/blog/assets/images//posts/20221217-studying-rust/rustacean-orig-noshadow.png)

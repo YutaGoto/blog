@@ -3,7 +3,7 @@ title: アイマスもくもく会2021年まとめ
 date: "2021-12-23T00:01:00.000Z"
 description: "2021年もアイマスもくもく会でしたよ！"
 tags: ["アイドルマスター", "imas_mokumoku"]
-layout: "../../../components/PostLayout.astro"
+layout: "@/components/PostLayout.astro"
 ---
 
 こんにちは、 .ごっちです。

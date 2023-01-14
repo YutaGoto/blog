@@ -2,7 +2,7 @@
 title: "hanami frameworks"
 date: "2017-10-09T09:00:00.000Z"
 description: "hanami frameworks"
-layout: "../../../components/PostLayout.astro"
+layout: "@/components/PostLayout.astro"
 ---
 
 どうも、こんにちはごっちです。

@@ -2,7 +2,7 @@
 title: "Jump Rope Challenge 100日やった"
 date: "2020-10-15T09:00:00.000Z"
 description: "Jump Rope Challenge 100日やった"
-layout: "../../../components/PostLayout.astro"
+layout: "@/components/PostLayout.astro"
 ---
 
 こんにちは、.ごっちです。

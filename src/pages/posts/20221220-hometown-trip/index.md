@@ -3,7 +3,7 @@ title: 帰省と旅行
 date: "2022-12-20T00:01:00.000Z"
 description: "帰省のついでに北海道旅行をするのが恒例になってきています"
 tags: ["北海道", "帰省", "旅行", "アドベントカレンダー"]
-layout: "../../../components/PostLayout.astro"
+layout: "@/components/PostLayout.astro"
 ---
 
 これは [.ごっ！のアドベントカレンダー](https://adventar.org/calendars/8199) の20日目の記事です。

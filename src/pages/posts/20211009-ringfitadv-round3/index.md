@@ -3,7 +3,7 @@ title: リングフィットアドベンチャー 3周目完走したので感�
 date: "2021-10-09T10:30:00.000Z"
 description: "リングフィットアドベンチャーマスターモードクリア"
 tags: ["game", "リングフィットアドベンチャー"]
-layout: "../../../components/PostLayout.astro"
+layout: "@/components/PostLayout.astro"
 ---
 
 こんにちは、.ごっちです。

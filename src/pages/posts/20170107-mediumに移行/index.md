@@ -2,7 +2,7 @@
 title: "Mediumに移行"
 date: "2017-01-07T09:00:00.000Z"
 description: "Mediumに移行"
-layout: "../../../components/PostLayout.astro"
+layout: "@/components/PostLayout.astro"
 ---
 
 どうもこんばんは、ごっちです。

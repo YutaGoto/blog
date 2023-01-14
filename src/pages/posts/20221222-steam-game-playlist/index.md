@@ -3,7 +3,7 @@ title: 今年プレイしたSteamゲーム一覧
 date: "2022-12-22T00:01:00.000Z"
 description: "思ってたよりも遊んだ気がする"
 tags: ["game", "アドベントカレンダー"]
-layout: "../../../components/PostLayout.astro"
+layout: "@/components/PostLayout.astro"
 ---
 
 これは [.ごっ！のアドベントカレンダー](https://adventar.org/calendars/8199) の22日目の記事です。

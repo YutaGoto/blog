@@ -2,7 +2,7 @@
 title: "esaで日記をつけている"
 date: "2019-05-14T09:00:00.000Z"
 description: "esaで日記をつけている"
-layout: "../../../components/PostLayout.astro"
+layout: "@/components/PostLayout.astro"
 ---
 
 こんにちは、.ごっちです。

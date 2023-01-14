@@ -3,7 +3,7 @@ title: 自転車のサドルが折れた話
 date: "2022-06-04T00:01:00.000Z"
 description: "長いこと走っているが初めてのできごと"
 tags: ["自転車"]
-layout: "../../../components/PostLayout.astro"
+layout: "@/components/PostLayout.astro"
 ---
 
 こんにちは、.ごっちです。

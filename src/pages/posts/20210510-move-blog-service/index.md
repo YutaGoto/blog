@@ -2,7 +2,7 @@
 title: ブログを移行しました
 date: "2021-05-10T01:00:00.000Z"
 description: "ブログをMediumから移行"
-layout: "../../../components/PostLayout.astro"
+layout: "@/components/PostLayout.astro"
 ---
 
 こんにちは、.ごっちです。

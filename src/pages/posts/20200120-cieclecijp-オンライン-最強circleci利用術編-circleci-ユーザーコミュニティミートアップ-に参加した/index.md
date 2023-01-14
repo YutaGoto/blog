@@ -2,7 +2,7 @@
 title: "#CiecleCIJP 【オンライン】【最強CircleCI利用術編】CircleCI ユーザーコミュニティミートアップ に参加した"
 date: "2020-01-20T09:00:00.000Z"
 description: "CircleCI ユーザーコミュニティミートアップ に参加した"
-layout: "../../../components/PostLayout.astro"
+layout: "@/components/PostLayout.astro"
 ---
 
 こんにちは、.ごっちです。

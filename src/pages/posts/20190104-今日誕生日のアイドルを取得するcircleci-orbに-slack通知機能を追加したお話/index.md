@@ -2,7 +2,7 @@
 title: "今日誕生日のアイドルを取得するCircleCI Orbに、Slack通知機能を追加したお話"
 date: "2019-01-04T09:00:00.000Z"
 description: "今日誕生日のアイドルを取得するCircleCI Orbに、Slack通知機能を追加したお話"
-layout: "../../../components/PostLayout.astro"
+layout: "@/components/PostLayout.astro"
 ---
 
 こんにちは、 .ごっちです。

@@ -2,7 +2,7 @@
 title: "誰も得しないRubyGemsを作る"
 date: "2020-09-05T09:00:00.000Z"
 description: "誰も得しないRubyGemsを作る"
-layout: "../../../components/PostLayout.astro"
+layout: "@/components/PostLayout.astro"
 ---
 
 こんにちは、.ごっちです。

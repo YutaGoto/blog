@@ -3,7 +3,7 @@ title: Splatoon3 所感
 date: "2022-12-18T00:01:00.000Z"
 description: "のんびりSplatoon3で遊んでいます"
 tags: ["game", "Splatoon3", "アドベントカレンダー"]
-layout: "../../../components/PostLayout.astro"
+layout: "@/components/PostLayout.astro"
 ---
 
 ![Splatoon3](/blog/assets/images//posts/20221218-playing-splatoon3/splatoon3.jpg)

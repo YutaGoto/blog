@@ -2,7 +2,7 @@
 title: "【 Surface Pro 4 発売記念 & アンバサダーキックオフイベント】に参加してきた"
 date: "2015-11-21T09:00:00.000Z"
 description: "【 Surface Pro 4 発売記念 & アンバサダーキックオフイベント】に参加してきた"
-layout: "../../../components/PostLayout.astro"
+layout: "@/components/PostLayout.astro"
 ---
 
 こんにちは。ごとうです。月一ぐらいで投稿したいところですが、まぁ気ままにやっております。

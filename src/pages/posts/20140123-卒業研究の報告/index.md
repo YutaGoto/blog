@@ -2,7 +2,7 @@
 title: "卒業研究の報告"
 date: "2014-01-23T09:00:00.000Z"
 description: "卒業研究の報告"
-layout: "../../../components/PostLayout.astro"
+layout: "@/components/PostLayout.astro"
 ---
 
 こんにちは。ごとうです。

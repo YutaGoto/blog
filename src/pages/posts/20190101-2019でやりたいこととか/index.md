@@ -2,7 +2,7 @@
 title: 2019でやりたいこととか
 date: "2019-01-01T09:00:00.000Z"
 description: "2019でやりたいこととか"
-layout: "../../../components/PostLayout.astro"
+layout: "@/components/PostLayout.astro"
 ---
 
 新年明けましておめでとうございます。 .ごっちです。

@@ -2,7 +2,7 @@
 title: "ひさびさScratchやってみた"
 date: "2018-02-16T09:00:00.000Z"
 description: "ひさびさScratchやってみた"
-layout: "../../../components/PostLayout.astro"
+layout: "@/components/PostLayout.astro"
 ---
 
 こんにちは、ごっちです。今年初投稿かもしれません。

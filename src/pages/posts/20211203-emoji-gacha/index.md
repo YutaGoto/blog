@@ -3,7 +3,7 @@ title: Slackに登録されているemojiでガチャする
 date: "2021-12-03T00:01:00.000Z"
 description: "えもじがちゃ"
 tags: ["Slack", "emoji"]
-layout: "../../../components/PostLayout.astro"
+layout: "@/components/PostLayout.astro"
 ---
 
 この記事は[雑談 Slack Advent Calendar 2021](https://adventar.org/calendars/6233) の 3 日目の記事です。

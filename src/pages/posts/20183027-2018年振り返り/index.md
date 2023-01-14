@@ -2,7 +2,7 @@
 title: 2018年振り返り
 date: "2018-30-27T09:00:00.000Z"
 description: "2018年振り返り"
-layout: "../../../components/PostLayout.astro"
+layout: "@/components/PostLayout.astro"
 ---
 
 どーも、こんばんは。.ごっちです。

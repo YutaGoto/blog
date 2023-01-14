@@ -2,7 +2,7 @@
 title: "LINEスタンプつくりました"
 date: "2019-03-30T09:00:00.000Z"
 description: "LINEスタンプつくりました"
-layout: "../../../components/PostLayout.astro"
+layout: "@/components/PostLayout.astro"
 ---
 
 こんにちは、.ごっちです。

@@ -2,7 +2,7 @@
 title: "お世話になってるツール/サービス紹介記事"
 date: "2019-02-26T09:00:00.000Z"
 description: "お世話になってるツール/サービス紹介記事"
-layout: "../../../components/PostLayout.astro"
+layout: "@/components/PostLayout.astro"
 ---
 
 こんにちは、 .ごっちです。

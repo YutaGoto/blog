@@ -3,7 +3,7 @@ title: What3IdolsプロジェクトをYarn v3へアップグレード
 date: "2022-02-10T00:01:00.000Z"
 description: "Yarn v1 -> Yarn v3"
 tags: ["アイドルマスター", "What3Idols", "yarn"]
-layout: "../../../components/PostLayout.astro"
+layout: "@/components/PostLayout.astro"
 ---
 
 ![yarn](/blog/assets/images//posts/20220210-what3idols-yarn3/yarn.png)

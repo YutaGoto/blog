@@ -2,7 +2,7 @@
 title: "B型インフルエンザ"
 date: "2017-01-23T09:00:00.000Z"
 description: "B型インフルエンザ"
-layout: "../../../components/PostLayout.astro"
+layout: "@/components/PostLayout.astro"
 ---
 
 こんにちは、ごっちです。

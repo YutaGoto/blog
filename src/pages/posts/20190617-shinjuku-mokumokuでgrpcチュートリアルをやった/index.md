@@ -2,7 +2,7 @@
 title: "Shinjuku mokumokuでgRPCチュートリアルをやった"
 date: "2019-06-17T09:00:00.000Z"
 description: "Shinjuku mokumokuでgRPCチュートリアルをやった"
-layout: "../../../components/PostLayout.astro"
+layout: "@/components/PostLayout.astro"
 ---
 
 こんにちは、.ごっちです。

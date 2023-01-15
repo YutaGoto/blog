@@ -2,7 +2,7 @@
 title: "windowsでmastodonを動かしてみようとした話（微妙に失敗）"
 date: "2017-05-11T09:00:00.000Z"
 description: "windowsでmastodonを動かしてみようとした話（微妙に失敗）"
-layout: "../../../components/PostLayout.astro"
+layout: "@/components/PostLayout.astro"
 ---
 
 こんにちは、ごっちです。

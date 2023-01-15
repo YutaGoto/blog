@@ -3,7 +3,7 @@ title: 星のカービィ ディスカバリーをプレイして
 date: "2022-12-08T00:01:00.000Z"
 description: "星のカービィ ディスカバリーめちゃくちゃ面白かった"
 tags: ["game", "星のカービィ", "星のカービィ ディスカバリー", "アドベントカレンダー"]
-layout: "../../../components/PostLayout.astro"
+layout: "@/components/PostLayout.astro"
 ---
 
 ![kirby](/blog/assets/images//posts/20221208-kirby-discovery/kirby.jpg)

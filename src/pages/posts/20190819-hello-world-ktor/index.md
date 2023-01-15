@@ -2,7 +2,7 @@
 title: "Hello World! Ktor"
 date: "2019-08-19T09:00:00.000Z"
 description: "Hello World! Ktor"
-layout: "../../../components/PostLayout.astro"
+layout: "@/components/PostLayout.astro"
 ---
 
 こんにちは、.ごっちです。

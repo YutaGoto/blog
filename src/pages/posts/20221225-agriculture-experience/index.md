@@ -3,7 +3,7 @@ title: 今年の農業での成果
 date: "2022-12-25T00:01:00.000Z"
 description: "Webディベロッパーと畑仕事"
 tags: ["農業", "アドベントカレンダー"]
-layout: "../../../components/PostLayout.astro"
+layout: "@/components/PostLayout.astro"
 ---
 
 これは [.ごっ！のアドベントカレンダー](https://adventar.org/calendars/8199) の22日目の記事です。

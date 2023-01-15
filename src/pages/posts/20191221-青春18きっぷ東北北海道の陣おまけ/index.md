@@ -2,7 +2,7 @@
 title: "青春18きっぷ東北北海道の陣 おまけ"
 date: "2019-12-21T09:00:00.000Z"
 description: "青春18きっぷ東北北海道の陣 おまけ"
-layout: "../../../components/PostLayout.astro"
+layout: "@/components/PostLayout.astro"
 ---
 
 この記事は、雑談 Slack Advent Calendar 2019 の 21 日目の記事です。

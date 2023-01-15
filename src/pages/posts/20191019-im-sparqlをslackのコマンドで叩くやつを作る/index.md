@@ -2,7 +2,7 @@
 title: "IM@SparqlをSlackのコマンドで叩くやつを作る"
 date: "2019-10-19T09:00:00.000Z"
 description: "IM@SparqlをSlackのコマンドで叩くやつを作る"
-layout: "../../../components/PostLayout.astro"
+layout: "@/components/PostLayout.astro"
 ---
 
 こんにちは、 .ごっちです。

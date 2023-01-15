@@ -3,7 +3,7 @@ title: "変なホテルとアイドルマスターに泊まってきた"
 date: "2021-03-19T09:00:00.000Z"
 description: "変なホテルとアイドルマスターに泊まってきた"
 tags: ["旅行", "アイドルマスター"]
-layout: "../../../components/PostLayout.astro"
+layout: "@/components/PostLayout.astro"
 ---
 
 こんにちは、.ごっちです。

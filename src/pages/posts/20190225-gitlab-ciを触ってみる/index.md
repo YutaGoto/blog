@@ -2,7 +2,7 @@
 title: "GitLab CIを触ってみる"
 date: "2019-02-25T09:00:00.000Z"
 description: "GitLab CIを触ってみる"
-layout: "../../../components/PostLayout.astro"
+layout: "@/components/PostLayout.astro"
 ---
 
 こんにちは、.ごっちです。

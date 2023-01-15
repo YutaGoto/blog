@@ -2,7 +2,7 @@
 title: "WakaTimeで自分のコーディングを数値化してみた"
 date: "2019-02-17T09:00:00.000Z"
 description: "WakaTimeで自分のコーディングを数値化してみた"
-layout: "../../../components/PostLayout.astro"
+layout: "@/components/PostLayout.astro"
 ---
 
 こんにちは、.ごっちです。

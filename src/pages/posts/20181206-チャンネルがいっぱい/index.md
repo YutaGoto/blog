@@ -2,7 +2,7 @@
 title: "チャンネルがいっぱい"
 date: "2018-12-06T09:00:00.000Z"
 description: "チャンネルがいっぱい"
-layout: "../../../components/PostLayout.astro"
+layout: "@/components/PostLayout.astro"
 ---
 
 この記事は 雑談 Slack Advent Calendar 2018 の 6 日目の記事です。

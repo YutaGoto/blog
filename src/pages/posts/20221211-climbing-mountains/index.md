@@ -3,7 +3,7 @@ title: 今年の登山ログ
 date: "2022-12-11T00:01:00.000Z"
 description: "山登り始めました"
 tags: ["登山", "日常", "アドベントカレンダー"]
-layout: "../../../components/PostLayout.astro"
+layout: "@/components/PostLayout.astro"
 ---
 
 ![top](/blog/assets/images//posts/20221211-climbing-mountains/top.jpg)

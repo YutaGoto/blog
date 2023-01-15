@@ -2,7 +2,7 @@
 title: "引越旅行@仙台&宇都宮"
 date: "2015-03-27T09:00:00.000Z"
 description: "引越旅行@仙台&宇都宮"
-layout: "../../../components/PostLayout.astro"
+layout: "@/components/PostLayout.astro"
 ---
 
 こんばんは。ごとうです。

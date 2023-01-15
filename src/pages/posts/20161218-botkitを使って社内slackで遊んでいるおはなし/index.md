@@ -2,7 +2,7 @@
 title: "Botkitを使って社内Slackで遊んでいるおはなし"
 date: "2016-12-18T09:00:00.000Z"
 description: "Botkitを使って社内Slackで遊んでいるおはなし"
-layout: "../../../components/PostLayout.astro"
+layout: "@/components/PostLayout.astro"
 ---
 
 こんにちは、ごっちです。ちょっとだけ元気です。

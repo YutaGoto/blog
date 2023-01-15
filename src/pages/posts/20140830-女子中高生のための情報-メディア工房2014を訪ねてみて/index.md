@@ -2,7 +2,7 @@
 title: "女子中高生のための情報・メディア工房2014を訪ねてみて"
 date: "2014-08-30T09:00:00.000Z"
 description: "女子中高生のための情報・メディア工房2014を訪ねてみて"
-layout: "../../../components/PostLayout.astro"
+layout: "@/components/PostLayout.astro"
 ---
 
 こんにちは。ごとうです。

@@ -2,7 +2,7 @@
 title: "CircleCI Orbs ミニハッカソンに行ってきた"
 date: "2018-12-16T09:00:00.000Z"
 description: "CircleCI Orbs ミニハッカソンに行ってきた"
-layout: "../../../components/PostLayout.astro"
+layout: "@/components/PostLayout.astro"
 ---
 
 こんにちは、 .ごっちです。 circlecijp

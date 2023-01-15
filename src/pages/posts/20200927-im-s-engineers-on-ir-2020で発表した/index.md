@@ -2,7 +2,7 @@
 title: "IM@S ENGINEERS ON@IR!!!! 2020で発表した!!!!"
 date: "2020-09-27T09:00:00.000Z"
 description: "IM@S ENGINEERS ON@IR!!!! 2020で発表した!!!!"
-layout: "../../../components/PostLayout.astro"
+layout: "@/components/PostLayout.astro"
 ---
 
 こんにちは、.ごっちです。

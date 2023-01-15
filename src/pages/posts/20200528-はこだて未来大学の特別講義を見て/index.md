@@ -2,7 +2,7 @@
 title: "はこだて未来大学の特別講義を見て！"
 date: "2020-05-28T09:00:00.000Z"
 description: "はこだて未来大学の特別講義を見て！"
-layout: "../../../components/PostLayout.astro"
+layout: "@/components/PostLayout.astro"
 ---
 
 こんにちは、.ごっちです。

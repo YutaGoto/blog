@@ -2,7 +2,7 @@
 title: "スケッチサイクリング2014Spring"
 date: "2014-05-03T09:00:00.000Z"
 description: "スケッチサイクリング2014Spring"
-layout: "../../../components/PostLayout.astro"
+layout: "@/components/PostLayout.astro"
 ---
 
 ゴールデンウィークごとうです。こんばんは！

@@ -2,7 +2,7 @@
 title: "技術書典6に寄稿しました"
 date: "2019-04-08T09:00:00.000Z"
 description: "技術書典6に寄稿しました"
-layout: "../../../components/PostLayout.astro"
+layout: "@/components/PostLayout.astro"
 ---
 
 こんにちは、.ごっちです。

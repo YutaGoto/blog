@@ -2,7 +2,7 @@
 title: "todays-idol-travis-ciを作ってみた"
 date: "2019-02-03T09:00:00.000Z"
 description: "todays-idol-travis-ciを作ってみた"
-layout: "../../../components/PostLayout.astro"
+layout: "@/components/PostLayout.astro"
 ---
 
 こんにちは、 .ごっちです。

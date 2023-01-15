@@ -2,7 +2,7 @@
 title: "ReactNativeのハンズオンに参加してきました"
 date: "2019-01-13T09:00:00.000Z"
 description: "ReactNativeのハンズオンに参加してきました"
-layout: "../../../components/PostLayout.astro"
+layout: "@/components/PostLayout.astro"
 ---
 
 こんにちは、 .ごっちです。

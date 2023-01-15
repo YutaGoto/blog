@@ -2,7 +2,7 @@
 title: 2015年をすごく簡単に振り返る
 date: "2015-12-30T09:00:00.000Z"
 description: "2015年をすごく簡単に振り返る"
-layout: "../../../components/PostLayout.astro"
+layout: "@/components/PostLayout.astro"
 ---
 
 こんにちは。ごっちです。

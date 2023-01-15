@@ -3,7 +3,7 @@ title: リングフィットアドベンチャー全称号獲得しました
 date: "2022-12-13T00:01:00.000Z"
 description: "リングフィットアドベンチャーをのんびりやってたら4年目突入しました"
 tags: ["game", "リングフィットアドベンチャー", "アドベントカレンダー"]
-layout: "../../../components/PostLayout.astro"
+layout: "@/components/PostLayout.astro"
 ---
 
 ![Ring Fit Adventure](/blog/assets/images//posts/20221213-ringfitadv-all-titles/rfa.png)

@@ -2,7 +2,7 @@
 title: 2020年にやったこと
 date: "2020-12-31T09:00:00.000Z"
 description: "2020年にやったこと"
-layout: "../../../components/PostLayout.astro"
+layout: "@/components/PostLayout.astro"
 ---
 
 年の瀬。今年やったことをまとめました。

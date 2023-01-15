@@ -2,7 +2,7 @@
 title: "そういえば，アカデミックリンク"
 date: "2014-11-16T09:00:00.000Z"
 description: "そういえば，アカデミックリンク"
-layout: "../../../components/PostLayout.astro"
+layout: "@/components/PostLayout.astro"
 ---
 
 ごとうです．

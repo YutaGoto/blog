@@ -2,7 +2,7 @@
 title: "ミリシタの封筒をWebで再現している話"
 date: "2020-01-17T09:00:00.000Z"
 description: "ミリシタの封筒をWebで再現している話"
-layout: "../../../components/PostLayout.astro"
+layout: "@/components/PostLayout.astro"
 ---
 
 こんにちは、.ごっちです。

@@ -2,7 +2,7 @@
 title: "アイマスハッカソン2018in京都を振り返り"
 date: "2018-12-06T09:00:00.000Z"
 description: "アイマスハッカソン2018in京都を振り返り"
-layout: "../../../components/PostLayout.astro"
+layout: "@/components/PostLayout.astro"
 ---
 
 この記事は アイドルマスター Advent Calendar 2018 の 6 日目の記事です。

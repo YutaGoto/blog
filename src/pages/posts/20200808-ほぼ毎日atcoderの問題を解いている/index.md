@@ -2,7 +2,7 @@
 title: "ほぼ毎日AtCoderの問題を解いている"
 date: "2020-08-08T09:00:00.000Z"
 description: "ほぼ毎日AtCoderの問題を解いている"
-layout: "../../../components/PostLayout.astro"
+layout: "@/components/PostLayout.astro"
 ---
 
 こんにちは、.ごっちです。

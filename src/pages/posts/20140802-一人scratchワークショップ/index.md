@@ -2,7 +2,7 @@
 title: "一人Scratchワークショップ"
 date: "2014-08-02T09:00:00.000Z"
 description: "一人Scratchワークショップ"
-layout: "../../../components/PostLayout.astro"
+layout: "@/components/PostLayout.astro"
 ---
 
 こんにちは。ごとうです。

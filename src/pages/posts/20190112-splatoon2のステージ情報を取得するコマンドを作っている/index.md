@@ -3,7 +3,7 @@ title: "Splatoon2のステージ情報を取得するコマンドを作ってい
 date: "2019-01-12T09:00:00.000Z"
 description: "Splatoon2のステージ情報を取得するコマンドを作っている"
 tags: ["Go", "Cli", "Splatoon2"]
-layout: "../../../components/PostLayout.astro"
+layout: "@/components/PostLayout.astro"
 ---
 
 こんにちは、.ごっちです。

@@ -2,7 +2,7 @@
 title: "アイマスハッカソンでミリシタのUIを作ったお話"
 date: "2019-12-08T09:00:00.000Z"
 description: "アイマスハッカソンでミリシタのUIを作ったお話"
-layout: "../../../components/PostLayout.astro"
+layout: "@/components/PostLayout.astro"
 ---
 
 この記事はアイドルマスター Advent Calendar 2019 の 8 日目の記事です。

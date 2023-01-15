@@ -5,6 +5,8 @@
     "jsxImportSource": "react",
     "skipLibCheck": true,
     "importsNotUsedAsValues": "error",
+    "types": ["cypress", "node"],
+    "lib": ["es5", "dom"],
     "baseUrl": ".",
     "paths": {
       "@/*": ["src/*"],

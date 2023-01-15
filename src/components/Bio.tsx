@@ -6,7 +6,10 @@ import profile from "../../public/profile.json"
 
 export const Bio = () => {
   return (
-    <div className="mb-2 bg-gray-50 p-5 shadow-lg dark:bg-gray-800 sm:rounded-xl ">
+    <div
+      id="bio"
+      className="mb-2 bg-gray-50 p-5 shadow-lg dark:bg-gray-800 sm:rounded-xl "
+    >
       <div className="flex space-x-4">
         <div className="flex-none">
           <img

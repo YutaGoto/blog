@@ -3,7 +3,7 @@ title: GCPでMinecraft マルチサーバー管理している
 date: "2021-06-27T20:30:00.000Z"
 description: "Minecraft サーバー管理始めました"
 tags: ["GCP", "Minecraft"]
-layout: "../../../components/PostLayout.astro"
+layout: "@/components/PostLayout.astro"
 ---
 
 ![minecraft](/blog/assets/images//posts/20210627-minecraft-server-admin/minecraft.png)

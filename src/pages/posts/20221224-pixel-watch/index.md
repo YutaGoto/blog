@@ -3,7 +3,7 @@ title: Pixel Watchを2カ月くらい使用した感想
 date: "2022-12-24T00:01:00.000Z"
 description: "一応欠かさず着けています"
 tags: ["Pixel Watch", "アドベントカレンダー"]
-layout: "../../../components/PostLayout.astro"
+layout: "@/components/PostLayout.astro"
 ---
 
 ![pixel watch](/blog/assets/images//posts/20221224-pixel-watch/watch.png)

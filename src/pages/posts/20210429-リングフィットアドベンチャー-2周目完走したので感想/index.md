@@ -3,7 +3,7 @@ title: リングフィットアドベンチャー 2周目完走したので感�
 date: "2021-04-29T12:03:00.000Z"
 description: "リングフィットアドベンチャー 2周目完走したので感想"
 tags: ["game", "リングフィットアドベンチャー"]
-layout: "../../../components/PostLayout.astro"
+layout: "@/components/PostLayout.astro"
 ---
 
 ![](https://cdn-images-1.medium.com/max/2000/0*M3ZJvLHN2sOmTNtK.png)

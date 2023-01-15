@@ -2,7 +2,7 @@
 title: "YouGoto #RubyKaigi 2019 Day2"
 date: "2019-04-20T09:00:00.000Z"
 description: "YouGoto #RubyKaigi 2019 Day2"
-layout: "../../../components/PostLayout.astro"
+layout: "@/components/PostLayout.astro"
 ---
 
 こんばんは、.ごっちです。

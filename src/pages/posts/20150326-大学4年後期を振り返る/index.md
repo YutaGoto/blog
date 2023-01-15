@@ -2,7 +2,7 @@
 title: "大学4年後期を振り返る"
 date: "2015-03-26T09:00:00.000Z"
 description: "大学4年後期を振り返る"
-layout: "../../../components/PostLayout.astro"
+layout: "@/components/PostLayout.astro"
 ---
 
 こんばんは、ごとうです。先日、卒業式も迎えてしまったので、学生最後となるであろう振り返りの投稿をします。

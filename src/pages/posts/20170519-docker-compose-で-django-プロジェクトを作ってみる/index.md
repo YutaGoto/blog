@@ -2,7 +2,7 @@
 title: "Docker Compose で Django プロジェクトを作ってみる"
 date: "2017-05-19T09:00:00.000Z"
 description: "Docker Compose で Django プロジェクトを作ってみる"
-layout: "../../../components/PostLayout.astro"
+layout: "@/components/PostLayout.astro"
 ---
 
 どうもこんにちは。ごっちです。

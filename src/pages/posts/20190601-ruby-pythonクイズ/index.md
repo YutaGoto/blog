@@ -2,7 +2,7 @@
 title: "Ruby, Pythonクイズ"
 date: "2019-06-01T09:00:00.000Z"
 description: "Ruby, Pythonクイズ"
-layout: "../../../components/PostLayout.astro"
+layout: "@/components/PostLayout.astro"
 ---
 
 こんにちは、 .ごっちです。

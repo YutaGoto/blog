@@ -2,7 +2,7 @@
 title: "高校時代を振り返る"
 date: "2015-01-06T09:00:00.000Z"
 description: "高校時代を振り返る"
-layout: "../../../components/PostLayout.astro"
+layout: "@/components/PostLayout.astro"
 ---
 
 こんにちは．ごとうです．

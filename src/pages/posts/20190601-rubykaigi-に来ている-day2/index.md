@@ -2,7 +2,7 @@
 title: "rubykaigi 2018 に来ている day2"
 date: "2019-06-01T21:00:00.000Z"
 description: "rubykaigi 2018 に来ている day2"
-layout: "../../../components/PostLayout.astro"
+layout: "@/components/PostLayout.astro"
 ---
 
 こんにちは、ごっちです。

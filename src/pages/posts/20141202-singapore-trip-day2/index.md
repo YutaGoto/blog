@@ -2,7 +2,7 @@
 title: "Singapore Trip Day2"
 date: "2014-12-02T21:00:00.000Z"
 description: "Singapore Trip Day2"
-layout: "../../../components/PostLayout.astro"
+layout: "@/components/PostLayout.astro"
 ---
 
 ごとうです．

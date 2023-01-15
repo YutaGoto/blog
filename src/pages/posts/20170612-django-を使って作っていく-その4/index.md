@@ -2,7 +2,7 @@
 title: "Django を使って作っていく その4"
 date: "2017-06-12T09:00:00.000Z"
 description: "Django を使って作っていく その4"
-layout: "../../../components/PostLayout.astro"
+layout: "@/components/PostLayout.astro"
 ---
 
 どうもこんにちは、ごっちです。久々の投稿になります。

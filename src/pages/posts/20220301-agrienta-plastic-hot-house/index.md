@@ -3,7 +3,7 @@ title: 農家さんの手伝いに行った
 date: "2022-03-01T00:01:00.000Z"
 description: "ハウスを建てたり野菜を収穫したり"
 tags: ["農業"]
-layout: "../../../components/PostLayout.astro"
+layout: "@/components/PostLayout.astro"
 ---
 
 こんにちは、.ごっちです。

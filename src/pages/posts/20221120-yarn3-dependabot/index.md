@@ -3,7 +3,7 @@ title: dependabotがyarn3に対応していたので有効にした
 date: "2022-11-20T00:01:00.000Z"
 description: "yarn3でもdependabot"
 tags: ["yarn", "dependabot"]
-layout: "../../../components/PostLayout.astro"
+layout: "@/components/PostLayout.astro"
 ---
 
 ![dependabot](dependabot.svg)

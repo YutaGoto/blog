@@ -2,7 +2,7 @@
 title: "im@sparqlをTypeScriptでたたいてみる"
 date: "2019-02-12T09:00:00.000Z"
 description: "im@sparqlをTypeScriptでたたいてみる"
-layout: "../../../components/PostLayout.astro"
+layout: "@/components/PostLayout.astro"
 ---
 
 こんにちは、.ごっちです。

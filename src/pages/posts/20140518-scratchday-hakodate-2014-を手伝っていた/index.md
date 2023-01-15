@@ -2,7 +2,7 @@
 title: "ScratchDay HAKODATE 2014 を手伝っていた"
 date: "2014-05-18T09:00:00.000Z"
 description: "ScratchDay HAKODATE 2014 を手伝っていた"
-layout: "../../../components/PostLayout.astro"
+layout: "@/components/PostLayout.astro"
 ---
 
 ごとうです。

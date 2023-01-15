@@ -3,7 +3,7 @@ title: 2022年にいった美術館・博物館記録
 date: "2022-12-07T00:01:00.000Z"
 description: "2022年は個人的に結構でかけた"
 tags: ["美術館", "博物館", "アドベントカレンダー"]
-layout: "../../../components/PostLayout.astro"
+layout: "@/components/PostLayout.astro"
 ---
 
 ![kadokawa museum](/blog/assets/images//posts/20221207-went-to-museums/kadokawa.jpg)

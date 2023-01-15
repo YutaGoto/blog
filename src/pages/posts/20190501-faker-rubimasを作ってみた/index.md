@@ -2,7 +2,7 @@
 title: "Faker::Rubimasを作ってみた"
 date: "2019-05-01T09:00:00.000Z"
 description: "Faker::Rubimasを作ってみた"
-layout: "../../../components/PostLayout.astro"
+layout: "@/components/PostLayout.astro"
 ---
 
 こんにちは、 .ごっちです。

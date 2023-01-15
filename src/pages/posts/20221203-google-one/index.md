@@ -3,7 +3,7 @@ title: Google One契約した
 date: "2022-12-03T00:01:00.000Z"
 description: "使い込むと便利かもしれないGoogleOne"
 tags: ["Google", "Google One", "アドベントカレンダー", "日常"]
-layout: "../../../components/PostLayout.astro"
+layout: "@/components/PostLayout.astro"
 ---
 
 ![](/blog/assets/images//posts/20221203-google-one/google-one.png)

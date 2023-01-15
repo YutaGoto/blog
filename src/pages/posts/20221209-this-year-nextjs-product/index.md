@@ -3,7 +3,7 @@ title: NextJSを使って最近つくったものまとめ
 date: "2022-12-09T00:01:00.000Z"
 description: "NextJSを使った趣味プロダクトです。"
 tags: ["NextJS", "React", "JavaScript", "アドベントカレンダー"]
-layout: "../../../components/PostLayout.astro"
+layout: "@/components/PostLayout.astro"
 ---
 
 ![nextjs](/blog/assets/images//posts/20221209-this-year-nextjs-product/next-logo.png)

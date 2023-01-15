@@ -2,7 +2,7 @@
 title: "リングフィットアドベンチャー Any%完走したので感想"
 date: "2020-06-20T09:00:00.000Z"
 description: "リングフィットアドベンチャー Any%完走したので感想"
-layout: "../../../components/PostLayout.astro"
+layout: "@/components/PostLayout.astro"
 ---
 
 こんにちは、.ごっちです。

@@ -2,7 +2,7 @@
 title: 2014を振り返る（振り返らない）
 date: "2015-01-02T09:00:00.000Z"
 description: "2014を振り返る"
-layout: "../../../components/PostLayout.astro"
+layout: "@/components/PostLayout.astro"
 ---
 
 ごとうです．

@@ -2,7 +2,7 @@
 title: "26 years old"
 date: "2018-09-05T09:00:00.000Z"
 description: "26 years old"
-layout: "../../../components/PostLayout.astro"
+layout: "@/components/PostLayout.astro"
 ---
 
 こんにちは、ごっちです。

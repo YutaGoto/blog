@@ -2,7 +2,7 @@
 title: "あつまれどうぶつの森の写真をまとめてみる"
 date: "2020-07-26T09:00:00.000Z"
 description: "あつまれどうぶつの森の写真をまとめてみる"
-layout: "../../../components/PostLayout.astro"
+layout: "@/components/PostLayout.astro"
 ---
 
 こんにちは、.ごっちです。

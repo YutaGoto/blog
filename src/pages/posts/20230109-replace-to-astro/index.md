@@ -3,7 +3,7 @@ title: Blogの静的サイトジェネレータをGatsbyからAstroに移行し�
 date: "2023-01-09T00:01:00.000Z"
 description: "開発体験が上がった気がします"
 tags: ["JavaScript", "Blog", "Astro"]
-layout: "../../../components/PostLayout.astro"
+layout: "@/components/PostLayout.astro"
 ---
 
 ![Astro](/blog/assets/images/posts/20230109-replace-to-astro/astro.png)

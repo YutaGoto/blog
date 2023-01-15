@@ -8,7 +8,6 @@ layout: "@/components/PostLayout.astro"
 
 ![Astro](/blog/assets/images/posts/20230109-replace-to-astro/astro.png)
 
-
 こんにちは、.ごっちです。
 
 表題のとおり、Blogの静的サイトジェネレータをGatsbyからAstroに移行しました。

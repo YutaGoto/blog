@@ -1,7 +1,4 @@
 ---
-import "./fontawesome"
-// import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
-// import {brands} from "@fortawesome/fontawesome-svg-core/import.macro"
 import profile from "../../public/profile.json"
 ---
 
@@ -23,7 +20,7 @@ import profile from "../../public/profile.json"
         <p class="mb-2 text-3xl">{profile.author.name}</p>
         <p class="text-xl">{profile.author.summary}</p>
       </div>
-      <div class="flex flex-1 space-x-6">
+      <div class="flex flex-1 space-x-2">
         {
           profile.social?.map(s => (
             <a
@@ -32,9 +29,7 @@ import profile from "../../public/profile.json"
               target="_blank"
               rel="noreferrer noopener"
             >
-              <span class="icon">
-                <i class={`fab fa-${s?.name} fa-lg`} />
-              </span>
+              <i class={`ri-${s?.name}-fill ri-3xl`} />
             </a>
           ))
         }

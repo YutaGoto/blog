@@ -1,0 +1,35 @@
+---
+interface Props {
+  post: MarkdownInstance<Record<string, any>>
+}
+
+import Tag from "./Tag.astro"
+import { cdate } from "cdate"
+import type { MarkdownInstance } from "astro"
+
+const { post } = Astro.props
+const title = post.frontmatter.title
+const tags = post.frontmatter.tags
+---
+
+<div
+  class="mb-2 bg-gray-50 px-4 py-10 shadow-lg dark:bg-gray-800 sm:rounded-xl sm:p-5"
+>
+  <a href={post.url} class="has-text-black">
+    <article class="media" itemtype="http://schema.org/Article">
+      <div class="">
+        <div class="mb-2 text-2xl">{title}</div>
+        <div class="mb-2 text-sm">
+          {cdate(post.frontmatter?.date).format("YYYY年MM月DD日")}
+        </div>
+        <div class="mb-2">
+          {
+            tags?.map((tag: string) => (
+              <Tag className="mr-1" tag={tag} withLink={false} />
+            ))
+          }
+        </div>
+      </div>
+    </article>
+  </a>
+</div>

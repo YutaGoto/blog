@@ -1,6 +1,8 @@
 ---
 import Layout from "@/components/Layout.astro"
-import { ArticleCard, TagList, Bio } from "@/components"
+import TagList from "@/components/TagList.astro"
+import Bio from "@/components/Bio.astro"
+import ArticleCard from "@/components/ArticleCard.astro"
 import Head from "@/components/Head.astro"
 const allPosts = await Astro.glob("../pages/posts/*/index.md")
 const tags = [

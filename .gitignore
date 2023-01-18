@@ -58,5 +58,5 @@ yarn-error.log
 dist/
 .output/
 /test-results/
-/playwright-report/
-/playwright/.cache/
+cypress/videos
+cypress/screenshots

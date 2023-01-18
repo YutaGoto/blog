@@ -1,0 +1,21 @@
+---
+import "./fontawesome"
+
+interface Props {
+  text: string
+  linkTo: string
+  iconName: string
+  isLeft?: boolean
+}
+
+const { text, linkTo, iconName, isLeft } = Astro.props
+---
+
+<a
+  class="mb-1 box-border border border-blue-400 p-2 text-blue-400 hover:bg-blue-400 hover:text-gray-900 dark:border-blue-700 dark:text-gray-100 dark:hover:bg-blue-700 dark:hover:text-gray-100 lg:mb-0"
+  href={linkTo}
+>
+  {isLeft && <i class={`fas fa-${iconName}`} aria-hidden="true" />}
+  <span>{text}</span>
+  {!isLeft && <i class={`fas fa-${iconName}`} aria-hidden="true" />}
+</a>

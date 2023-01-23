@@ -6,14 +6,11 @@
   "author": "Yuta Goto <you.goto.510@gmail.com>",
   "dependencies": {
     "@astrojs/tailwind": "^2.1.3",
-    "@fortawesome/fontawesome-svg-core": "^6.2.1",
-    "@fortawesome/free-brands-svg-icons": "^6.2.1",
-    "@fortawesome/free-regular-svg-icons": "^6.2.1",
-    "@fortawesome/free-solid-svg-icons": "^6.2.1",
     "astro": "^1.9.2",
     "cdate": "^0.0.4",
     "prism-themes": "^1.9.0",
-    "prismjs": "^1.29.0"
+    "prismjs": "^1.29.0",
+    "remixicon": "^2.5.0"
   },
   "devDependencies": {
     "@types/node": "^18.11.18",

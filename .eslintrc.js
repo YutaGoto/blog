@@ -5,6 +5,18 @@ module.exports = {
   },
   parserOptions: { ecmaVersion: 8, sourceType: "module" },
   ignorePatterns: ["node_modules/*"],
+  plugins: ["import", "unused-imports"],
+  rules: {
+    "@typescript-eslint/no-unused-vars": "off",
+    "unused-imports/no-unused-imports": "warn",
+    "import/order": [
+      "warn",
+      {
+        "newlines-between": "always",
+        alphabetize: { order: "asc", caseInsensitive: true },
+      },
+    ],
+  },
   overrides: [
     {
       files: ["*.astro"],

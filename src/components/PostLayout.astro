@@ -1,17 +1,19 @@
 ---
 import "prism-themes/themes/prism-atom-dark.css"
 import { cdate } from "cdate"
+
+import Bio from "./Bio.astro"
+import ButtonLink from "./ButtonLink.astro"
+import Head from "./Head.astro"
+import Layout from "./Layout.astro"
+import Tag from "./Tag.astro"
+
 import type { Frontmatter } from "@/types/Frontmatter"
 
 interface Props {
   frontmatter: Frontmatter
 }
 
-import Layout from "./Layout.astro"
-import Tag from "./Tag.astro"
-import Bio from "./Bio.astro"
-import ButtonLink from "./ButtonLink.astro"
-import Head from "./Head.astro"
 const { frontmatter } = Astro.props
 ---
 

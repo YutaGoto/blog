@@ -3,9 +3,10 @@ interface Props {
   post: MarkdownInstance<Record<string, any>>
 }
 
-import Tag from "./Tag.astro"
-import { cdate } from "cdate"
 import type { MarkdownInstance } from "astro"
+import { cdate } from "cdate"
+
+import Tag from "./Tag.astro"
 
 const { post } = Astro.props
 const title = post.frontmatter.title

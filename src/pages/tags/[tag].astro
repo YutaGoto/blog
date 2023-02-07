@@ -24,10 +24,10 @@ export const getStaticPaths = async () => {
 
 const { tag } = Astro.params
 const { posts } = Astro.props as Props
-import Layout from "@/components/Layout.astro"
 import ArticleCard from "@/components/ArticleCard.astro"
 import Bio from "@/components/Bio.astro"
 import Head from "@/components/Head.astro"
+import Layout from "@/components/Layout.astro"
 ---
 
 <html>

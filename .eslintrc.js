@@ -1,9 +1,14 @@
 module.exports = {
   env: {
     node: true,
-    es6: true,
+    es2022: true,
+    browser: true,
   },
-  parserOptions: { ecmaVersion: 8, sourceType: "module" },
+  extends: ["eslint:recommended", "plugin:astro/recommended"],
+  parserOptions: {
+    ecmaVersion: "latest",
+    sourceType: "module",
+  },
   ignorePatterns: ["node_modules/*"],
   plugins: ["import", "unused-imports"],
   rules: {
@@ -29,15 +34,26 @@ module.exports = {
     {
       files: ["*.ts"],
       parser: "@typescript-eslint/parser",
-      extends: [
-        "eslint:recommended",
-        "plugin:import/errors",
-        "plugin:import/warnings",
-        "plugin:import/typescript",
-        "plugin:@typescript-eslint/recommended",
-        "plugin:jsx-a11y/recommended",
-        "plugin:prettier/recommended",
-      ],
+      extends: ["plugin:@typescript-eslint/recommended"],
+      rules: {
+        "@typescript-eslint/no-unused-vars": [
+          "error",
+          { argsIgnorePattern: "^_", destructuredArrayIgnorePattern: "^_" },
+        ],
+        "@typescript-eslint/no-non-null-assertion": "off",
+      },
+    },
+    {
+      files: ["*.d.ts"],
+      rules: {
+        "@typescript-eslint/triple-slash-reference": "off",
+      },
+    },
+    {
+      // Define the configuration for `<script>` tag.
+      // Script in `<script>` is assigned a virtual file name with the `.js` extension.
+      files: ["**/*.astro/*.js", "*.astro/*.js"],
+      parser: "@typescript-eslint/parser",
     },
   ],
 }

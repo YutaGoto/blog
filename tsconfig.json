@@ -3,6 +3,7 @@
   "compilerOptions": {
     "skipLibCheck": true,
     "importsNotUsedAsValues": "error",
+    "strictNullChecks": true,
     "types": ["cypress", "node"],
     "lib": ["es5", "dom"],
     "baseUrl": ".",

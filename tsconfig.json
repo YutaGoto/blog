@@ -4,6 +4,7 @@
     "skipLibCheck": true,
     "importsNotUsedAsValues": "error",
     "strictNullChecks": true,
+    "allowJs": true,
     "types": ["cypress", "node"],
     "lib": ["es5", "dom"],
     "baseUrl": ".",

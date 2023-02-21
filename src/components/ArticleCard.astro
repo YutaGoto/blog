@@ -1,27 +1,27 @@
 ---
 interface Props {
-  post: MarkdownInstance<Record<string, any>>
+  post: CollectionEntry<"posts">
 }
 
-import type { MarkdownInstance } from "astro"
+import type { CollectionEntry } from "astro:content"
 import { cdate } from "cdate"
 
 import Tag from "./Tag.astro"
 
 const { post } = Astro.props
-const title = post.frontmatter.title
-const tags = post.frontmatter.tags
+const title = post.data.title
+const tags = post.data?.tags
 ---
 
 <div
   class="mb-2 bg-gray-50 px-4 py-10 shadow-lg dark:bg-gray-800 sm:rounded-xl sm:p-5"
 >
-  <a href={post.url} class="has-text-black">
+  <a href={`/blog/posts/${post.slug}`} class="has-text-black">
     <article class="media" itemtype="http://schema.org/Article">
       <div class="">
         <div class="mb-2 text-2xl">{title}</div>
         <div class="mb-2 text-sm">
-          {cdate(post.frontmatter?.date).format("YYYY年MM月DD日")}
+          {cdate(post.data.date).format("YYYY年MM月DD日")}
         </div>
         <div class="mb-2">
           {

@@ -57,6 +57,7 @@ yarn-error.log
 # build output
 dist/
 .output/
+.astro/
 /test-results/
 cypress/videos
 cypress/screenshots

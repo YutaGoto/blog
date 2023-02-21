@@ -21,7 +21,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@astrojs/compiler@npm:^0.31.0, @astrojs/compiler@npm:^0.31.3":
+"@astrojs/compiler@npm:^0.31.0":
   version: 0.31.3
   resolution: "@astrojs/compiler@npm:0.31.3"
   checksum: eada0d3b153919759a60ae8e83b8ed88945f3ea480199885d2f58e2095816c1026a15c9d30eb708f804d7c3eeebb9f3005e83613e56d57ea61f7922ced1a0e3c
@@ -32,6 +32,13 @@ __metadata:
   version: 1.0.1
   resolution: "@astrojs/compiler@npm:1.0.1"
   checksum: 1ccbe6258c03e74020e15ff654425a1d4fa97ec9763f357b9007bceffece6935c1fe2fd3e385550ede995e411be0b02140208eebd12f30a54ae6898d0f315182
+  languageName: node
+  linkType: hard
+
+"@astrojs/compiler@npm:^1.0.1":
+  version: 1.1.0
+  resolution: "@astrojs/compiler@npm:1.1.0"
+  checksum: f31ea14ff1ab9dc9021c6a37529caa9cb1bc34ce7c9904817db09afafc17c03910313f4c80692552a62c05c75845c01a1d0060a2c4e803e42e0253f3b3ac7b4a
   languageName: node
   linkType: hard
 
@@ -8658,15 +8665,15 @@ __metadata:
   languageName: node
   linkType: hard
 
-"prettier-plugin-astro@npm:^0.7.2":
-  version: 0.7.2
-  resolution: "prettier-plugin-astro@npm:0.7.2"
+"prettier-plugin-astro@npm:^0.8.0":
+  version: 0.8.0
+  resolution: "prettier-plugin-astro@npm:0.8.0"
   dependencies:
-    "@astrojs/compiler": ^0.31.3
-    prettier: ^2.7.1
+    "@astrojs/compiler": ^1.0.1
+    prettier: ^2.8.3
     sass-formatter: ^0.7.5
     synckit: ^0.8.4
-  checksum: b4b8515d1f31984d6856783eb0163020a26c106284f01b59870b09110f1310aa916328f1622a7a9cd87b229c482ff5cb283bcbdad1b6a8816fabea9e1341a808
+  checksum: 95551c59457cad020d74ea15830a06fb7ae51f7577f897127daae31e3d9b3f99081595ba1571925970f3d7a10d479b2ef37f2eef1c706c2569c590e64487c46e
   languageName: node
   linkType: hard
 
@@ -8737,6 +8744,15 @@ __metadata:
   bin:
     prettier: bin-prettier.js
   checksum: 4f21a0f1269f76fb36f54e9a8a1ea4c11e27478958bf860661fb4b6d7ac69aac1581f8724fa98ea3585e56d42a2ea317a17ff6e3324f40cb11ff9e20b73785cc
+  languageName: node
+  linkType: hard
+
+"prettier@npm:^2.8.3":
+  version: 2.8.4
+  resolution: "prettier@npm:2.8.4"
+  bin:
+    prettier: bin-prettier.js
+  checksum: c173064bf3df57b6d93d19aa98753b9b9dd7657212e33b41ada8e2e9f9884066bb9ca0b4005b89b3ab137efffdf8fbe0b462785aba20364798ff4303aadda57e
   languageName: node
   linkType: hard
 
@@ -12104,7 +12120,7 @@ __metadata:
     eslint-plugin-unused-imports: ^2.0.0
     gh-pages: ^4.0.0
     prettier: 2.8.3
-    prettier-plugin-astro: ^0.7.2
+    prettier-plugin-astro: ^0.8.0
     prettier-plugin-tailwindcss: ^0.2.2
     prism-themes: ^1.9.0
     prismjs: ^1.29.0

@@ -6,7 +6,7 @@
   "author": "Yuta Goto <you.goto.510@gmail.com>",
   "dependencies": {
     "@astrojs/tailwind": "^2.1.3",
-    "astro": "^1.9.2",
+    "astro": "^2.0.14",
     "cdate": "^0.0.4",
     "prism-themes": "^1.9.0",
     "prismjs": "^1.29.0",
@@ -56,7 +56,7 @@
     "astro": "astro",
     "format": "prettier --write \"**/*.{js,jsx,ts,tsx,json,scss,astro}\"",
     "lint": "eslint --ext .js,.ts,.tsx,.astro ./src --ignore-path .gitignore",
-    "textlint": "textlint src/pages/posts/202[1-9]**/*.md",
+    "textlint": "textlint src/content/posts/202[1-9]**/*.md",
     "deploy": "gatsby build --prefix-paths && gh-pages -d public",
     "typecheck": "astro check && tsc --noEmit",
     "open": "cypress open",

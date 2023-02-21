@@ -1,16 +1,12 @@
 {
-  "extends": "astro/tsconfigs/base",
+  "extends": "astro/tsconfigs/strict",
   "compilerOptions": {
     "skipLibCheck": true,
-    "importsNotUsedAsValues": "error",
-    "strictNullChecks": true,
+    "strict": true,
     "allowJs": true,
-    "types": ["cypress", "node"],
-    "lib": ["es5", "dom"],
     "baseUrl": ".",
     "paths": {
       "@/*": ["src/*"],
     }
-  },
-  "include": ["./src/**/*"]
+  }
 }

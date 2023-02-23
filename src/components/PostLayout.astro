@@ -8,10 +8,10 @@ import Head from "./Head.astro"
 import Layout from "./Layout.astro"
 import Tag from "./Tag.astro"
 
-import type { Frontmatter } from "@/types/Frontmatter"
+import type { PostEntry } from "@/content/config"
 
 interface Props {
-  frontmatter: Frontmatter
+  frontmatter: PostEntry["frontmatter"]
 }
 
 const { frontmatter } = Astro.props

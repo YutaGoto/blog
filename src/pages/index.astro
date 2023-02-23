@@ -1,13 +1,16 @@
 ---
+import { getCollection } from "astro:content"
+
 import ArticleCard from "@/components/ArticleCard.astro"
 import Bio from "@/components/Bio.astro"
 import Head from "@/components/Head.astro"
 import Layout from "@/components/Layout.astro"
 import TagList from "@/components/TagList.astro"
-const allPosts = await Astro.glob("../pages/posts/*/index.md")
-const tags = [
-  ...new Set(allPosts.map(post => post.frontmatter.tags).flat()),
-].filter(e => Boolean(e))
+
+const allPosts = await getCollection("posts")
+const tags = [...new Set(allPosts.map(post => post.data?.tags).flat())].filter(
+  e => Boolean(e)
+)
 allPosts.reverse()
 ---
 

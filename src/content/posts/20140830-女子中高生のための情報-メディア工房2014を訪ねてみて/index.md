@@ -4,7 +4,7 @@ date: "2014-08-30T09:00:00.000Z"
 description: "女子中高生のための情報・メディア工房2014を訪ねてみて"
 ---
 
-こんにちは。。ごとうです。
+こんにちは。ごとうです。
 
 ![](https://cdn-images-1.medium.com/max/2000/0*JeYWOm1Ed0K1wsdQ.jpg)
 

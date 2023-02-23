@@ -8,21 +8,21 @@ import Head from "./Head.astro"
 import Layout from "./Layout.astro"
 import Tag from "./Tag.astro"
 
-import type { BlogEntry } from "@/content/config"
+import type { PostEntry } from "@/content/config"
 
 interface Props {
-  content: BlogEntry["posts"]
+  frontmatter: PostEntry['frontmatter']
 }
 
-const { content } = Astro.props
+const { frontmatter } = Astro.props
 ---
 
 <html>
   <Head
-    title={content.title}
-    ogTitle={content.title}
-    ogDescription={content.description}
-    ogImage={content?.image}
+    title={frontmatter.title}
+    ogTitle={frontmatter.title}
+    ogDescription={frontmatter.description}
+    ogImage={frontmatter?.image}
   />
   <body>
     <Layout>
@@ -30,13 +30,13 @@ const { content } = Astro.props
         <div class="xl:flex-grow">
           <article class="blog-post">
             <h1 class="mb-2 text-4xl font-extrabold">
-              {content?.title}
+              {frontmatter?.title}
             </h1>
             <p class="text-md mb-2">
-              {cdate(content?.date).format("YYYY年MM月DD日")}
+              {cdate(frontmatter?.date).format("YYYY年MM月DD日")}
             </p>
             <div>
-              {content?.tags?.map(tag => <Tag className="mr-1" tag={tag} />)}
+              {frontmatter?.tags?.map(tag => <Tag className="mr-1" tag={tag} />)}
             </div>
             <section class="mt-3">
               <slot />
@@ -52,7 +52,7 @@ const { content } = Astro.props
         <a
           href="https://twitter.com/share?ref_src=twsrc%5Etfw"
           class="twitter-share-button"
-          data-text={`${content?.title} - .ごっちの日記`}
+          data-text={`${frontmatter?.title} - .ごっちの日記`}
           data-via="gggooottto"
           data-show-count="false">Tweet</a
         >

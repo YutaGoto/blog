@@ -5,14 +5,15 @@ export const blogSchema = z.object({
   description: z.string().optional(),
   date: z.string(),
   tags: z.array(z.string()).optional(),
+  image: z.string().optional(),
 })
 
 const blogCollection = defineCollection({
   schema: blogSchema,
 })
 
-export type postEntry = CollectionEntry<'posts'> & {
-	data: z.infer<typeof blogSchema>;
+export type PostEntry = CollectionEntry<'posts'> & {
+  frontmatter: z.infer<typeof blogSchema>;
 };
 
 export const collections = {

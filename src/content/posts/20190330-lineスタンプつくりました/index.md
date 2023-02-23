@@ -2,10 +2,9 @@
 title: "LINEスタンプつくりました"
 date: "2019-03-30T09:00:00.000Z"
 description: "LINEスタンプつくりました"
-
 ---
 
-こんにちは、.ごっちです。
+こんにちは。、.ごっちです。
 
 Twitter やら Slack やらいろいろな SNS サービスのアイコンを自分で描いているんですが、何かを思って LINE スタンプを作りました！
 [**.Gotch Sticker - LINE stickers | LINE STORE**

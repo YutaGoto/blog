@@ -3,7 +3,6 @@ title: "What3Idolsなるものを作った"
 date: "2020-12-23T09:00:00.000Z"
 description: "What3Idolsなるものを作った"
 tags: ["What3Idols"]
-
 ---
 
 この記事はアイドルマスター Advent Calendar 2020 の 23 日目の記事です。

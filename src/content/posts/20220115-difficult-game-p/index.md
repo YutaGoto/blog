@@ -3,10 +3,9 @@ title: かなり難しいゲームの一つのステージをクリアしたメ�
 date: "2022-01-15T23:01:00.000Z"
 description: "Pogostuck Rage with your Friends"
 tags: ["Game", "Pogostuck Rage with your Friends"]
-
 ---
 
-こんにちは、 .ごっちです。これはただのメモです。
+こんにちは。、 .ごっちです。これはただのメモです。
 
 2021 年末にかなり難しいゲームの1つのステージをクリアしました。
 

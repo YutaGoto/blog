@@ -3,10 +3,9 @@ title: リングフィットアドベンチャーを縛りプレイでクリア�
 date: "2022-06-27T00:01:00.000Z"
 description: "レベルを上げまくれば出来がするが"
 tags: ["game", "リングフィットアドベンチャー"]
-
 ---
 
-こんにちは、.ごっちです。
+こんにちは。、.ごっちです。
 
 ![rfa](/blog/assets/images//posts/20220627-ringfitadv-tied-up/rfa.png)
 

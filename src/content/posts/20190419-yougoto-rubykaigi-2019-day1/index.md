@@ -2,7 +2,6 @@
 title: "YouGoto #RubyKaigi 2019 Day1"
 date: "2019-04-19T09:00:00.000Z"
 description: "YouGoto #RubyKaigi 2019 Day1"
-
 ---
 
 こんばんは、.ごっちです。

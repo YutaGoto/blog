@@ -2,7 +2,6 @@
 title: "Docker Compose で Python を動かすの巻"
 date: "2017-05-21T09:00:00.000Z"
 description: "Docker Compose で Python を動かすの巻"
-
 ---
 
 どうもこんにちは、ごっちです。

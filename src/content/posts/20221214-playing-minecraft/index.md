@@ -3,7 +3,6 @@ title: 今年のMinecraft冒険・運営ログ
 date: "2022-12-14T00:01:00.000Z"
 description: "Minecraftの世界で冒険中"
 tags: ["game", "Minecraft", "アドベントカレンダー"]
-
 ---
 
 ![minecraft](/blog/assets/images//posts/20221214-playing-minecraft/minecraft.png)

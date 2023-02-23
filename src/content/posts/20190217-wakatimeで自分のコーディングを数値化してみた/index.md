@@ -2,10 +2,9 @@
 title: "WakaTimeで自分のコーディングを数値化してみた"
 date: "2019-02-17T09:00:00.000Z"
 description: "WakaTimeで自分のコーディングを数値化してみた"
-
 ---
 
-こんにちは、.ごっちです。
+こんにちは。、.ごっちです。
 
 ![](https://cdn-images-1.medium.com/max/3780/1*LI7DXpaZp8iUXK_WSVXPHA.png)
 [**Open source plugins, leaderboards, goals, and time tracking metrics for programmers**

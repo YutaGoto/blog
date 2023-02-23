@@ -2,10 +2,9 @@
 title: "rubykaigi 2018 に来ている day2"
 date: "2019-06-01T21:00:00.000Z"
 description: "rubykaigi 2018 に来ている day2"
-
 ---
 
-こんにちは、ごっちです。
+こんにちは。、ごっちです。
 
 機能に引き続き参加しております。
 [**rubykaigi に来ている day1**

@@ -2,10 +2,9 @@
 title: "im@sparqlをTypeScriptでたたいてみる"
 date: "2019-02-12T09:00:00.000Z"
 description: "im@sparqlをTypeScriptでたたいてみる"
-
 ---
 
-こんにちは、.ごっちです。
+こんにちは。、.ごっちです。
 
 去年末に CiecleCI(ほぼ bash)で im@sparql を curl でたたいてました。
 [**今日誕生日のアイドルを出力する CircleCI orb をつくったお話**

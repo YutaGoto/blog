@@ -2,10 +2,9 @@
 title: "Ruby, Pythonクイズ"
 date: "2019-06-01T09:00:00.000Z"
 description: "Ruby, Pythonクイズ"
-
 ---
 
-こんにちは、 .ごっちです。
+こんにちは。、 .ごっちです。
 
 RubyKaigi2019 のクックパッドのブースやそれに触発された okinawa.rb に触発されてクイズを作ってみました。
 [**RubyKaigi 2019 Cookpad Daily Ruby Puzzles の正解と解説 - クックパッド開発者ブログ**

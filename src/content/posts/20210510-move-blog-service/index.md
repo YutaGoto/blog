@@ -2,10 +2,9 @@
 title: ブログを移行しました
 date: "2021-05-10T01:00:00.000Z"
 description: "ブログをMediumから移行"
-
 ---
 
-こんにちは、.ごっちです。
+こんにちは。、.ごっちです。
 
 ブログを[Medium](https://medium.com/@gggooottto)からここに移動します。
 Medium もだいぶスッキリしていて好きでしたが、(個人的には)Markdown で書きたかったので移行したという感じです。

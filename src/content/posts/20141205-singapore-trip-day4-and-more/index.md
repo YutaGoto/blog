@@ -2,7 +2,6 @@
 title: "Singapore Trip Day4 and more.."
 date: "2014-12-05T09:00:00.000Z"
 description: "Singapore Trip Day4 and more.."
-
 ---
 
 ごとうです．

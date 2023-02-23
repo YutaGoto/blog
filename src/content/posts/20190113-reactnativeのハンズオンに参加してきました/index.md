@@ -2,10 +2,9 @@
 title: "ReactNativeのハンズオンに参加してきました"
 date: "2019-01-13T09:00:00.000Z"
 description: "ReactNativeのハンズオンに参加してきました"
-
 ---
 
-こんにちは、 .ごっちです。
+こんにちは。、 .ごっちです。
 
 [**Repro Tech Hands-on : ReactNative (2019/01/13 12:45〜)** *Repro Tech Hands-On 近年の技術の進歩は我々の吸収できる量を完全に上回っています。目まぐるしい発展のの流れについていくのは大変ですが、 私たちはそれでも、サービスを利用する誰かのために改善していくしかありません！…*repro-tech.connpass.com](https://repro-tech.connpass.com/event/113269/)
 

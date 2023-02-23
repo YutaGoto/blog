@@ -2,10 +2,9 @@
 title: "Shinjuku mokumokuでgRPCチュートリアルをやった"
 date: "2019-06-17T09:00:00.000Z"
 description: "Shinjuku mokumokuでgRPCチュートリアルをやった"
-
 ---
 
-こんにちは、.ごっちです。
+こんにちは。、.ごっちです。
 
 2019/06/15 土曜日に Repro 株式会社で Shinjuku mokumoku があったので参加してきました。
 [**Shinjuku Mokumoku Programming #52 (2019/06/15 11:00〜)**

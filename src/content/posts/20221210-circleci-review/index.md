@@ -3,7 +3,6 @@ title: 今年のCircleCIを使った活動
 date: "2022-12-10T00:01:00.000Z"
 description: "趣味プロダクトでお世話になっております"
 tags: ["CircleCI", "アドベントカレンダー"]
-
 ---
 
 ![circleci](circleci-logo.png)

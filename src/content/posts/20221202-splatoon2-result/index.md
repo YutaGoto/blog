@@ -3,7 +3,6 @@ title: Splatoon2の個人のリザルトまとめ
 date: "2022-12-02T00:01:00.000Z"
 description: "Splatoon2を本当にたくさん遊びました"
 tags: ["Game", "Splatoon2", "アドベントカレンダー"]
-
 ---
 
 ![Splatoon2](/blog/assets/images//posts/20221202-splatoon2-result/splatoon2.webp)

@@ -3,7 +3,6 @@ title: GCPでMinecraft マルチサーバー管理している(更新)
 date: "2022-12-15T00:01:00.000Z"
 description: "GCP素人ですが、なんとかやっている"
 tags: ["GCP", "Minecraft", "アドベントカレンダー"]
-
 ---
 
 ![cloud](/blog/assets/images//posts/20221215-minecraft-architecture/cloud_generic.png)

@@ -3,7 +3,6 @@ title: esa7th Anniversary とのこと
 date: "2021-05-11T01:00:00.000Z"
 description: "esa 7周年!!"
 tags: ["esa"]
-
 ---
 
 といってもポスト時点では 1 日過ぎていますが、とてもめでたいです\\( ⁰⊖⁰)/。

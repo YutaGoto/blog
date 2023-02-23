@@ -2,7 +2,6 @@
 title: "長年使用しているUSBメモリ"
 date: "2017-12-05T09:00:00.000Z"
 description: "長年使用しているUSBメモリ"
-
 ---
 
 この記事は 雑談 Slack Advent Calendar 2017 — Adventar 5 日目の記事です。

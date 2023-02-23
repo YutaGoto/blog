@@ -2,7 +2,6 @@
 title: "卒業研究の進捗"
 date: "2014-09-20T09:00:00.000Z"
 description: "卒業研究の進捗"
-
 ---
 
 ごとうです。現在進めようとしている卒業研究の概要をまとめてみました。There are English version.

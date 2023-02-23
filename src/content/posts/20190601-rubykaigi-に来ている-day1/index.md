@@ -2,10 +2,9 @@
 title: "rubykaigi 2018 に来ている day1"
 date: "2019-06-01T09:00:00.000Z"
 description: "rubykaigi 2018 に来ている day1"
-
 ---
 
-こんにちは、ごっちです。
+こんにちは。、ごっちです。
 
 #rubykaigi に来ております。初参加です。
 [**_RubyKaigi 2018, 5/31...6/2, Sendai, Miyagi, Japan_ #rubykaigi**

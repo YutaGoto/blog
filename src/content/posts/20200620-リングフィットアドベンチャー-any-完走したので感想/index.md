@@ -2,10 +2,9 @@
 title: "リングフィットアドベンチャー Any%完走したので感想"
 date: "2020-06-20T09:00:00.000Z"
 description: "リングフィットアドベンチャー Any%完走したので感想"
-
 ---
 
-こんにちは、.ごっちです。
+こんにちは。、.ごっちです。
 
 ![](https://cdn-images-1.medium.com/max/2000/0*_H5O1umi8-jo4hfo.png)
 

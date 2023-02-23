@@ -3,7 +3,6 @@ title: 2022年のお絵描きの記録
 date: "2022-12-19T00:01:00.000Z"
 description: "月に1つ以上のペースで描いています"
 tags: ["お絵描き", "アドベントカレンダー"]
-
 ---
 
 ![icon](/blog/assets/images//posts/20221219-drawings/icon.png)

@@ -2,10 +2,9 @@
 title: "Jump Rope Challenge 100日やった"
 date: "2020-10-15T09:00:00.000Z"
 description: "Jump Rope Challenge 100日やった"
-
 ---
 
-こんにちは、.ごっちです。
+こんにちは。、.ごっちです。
 
 Jump Rope Challenge という Nintendo からリリースされているソフトがあるのですが、チャレンジ回数が 2020–10–14 で 100 日目を迎えました！
 

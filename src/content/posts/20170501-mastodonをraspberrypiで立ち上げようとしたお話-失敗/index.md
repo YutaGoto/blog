@@ -2,7 +2,6 @@
 title: "MastodonをRaspberryPiで立ち上げようとしたお話（失敗）"
 date: "2017-05-01T09:00:00.000Z"
 description: "MastodonをRaspberryPiで立ち上げようとしたお話（失敗）"
-
 ---
 
 どうもこんにちは。ごっちです。

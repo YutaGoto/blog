@@ -2,10 +2,9 @@
 title: "CircleCI Orbs ミニハッカソンに行ってきた"
 date: "2018-12-16T09:00:00.000Z"
 description: "CircleCI Orbs ミニハッカソンに行ってきた"
-
 ---
 
-こんにちは、 .ごっちです。 circlecijp
+こんにちは。、 .ごっちです。 circlecijp
 [**CircleCI Orbs ミニハッカソン (2018/12/15 10:00〜)** _Orbs のリリースを記念して CircleCI としては初となる(ミニ)ハッカソンを開催します！ 今回はスタディサプリの開発で有名な Quipper 様に作業スペースを提供していただけることになりました。 # 開催概要 _ 開催日: 2018 年…\*circleci.connpass.com](https://circleci.connpass.com/event/109136/)
 
 2018/12/15 に参加してきました。

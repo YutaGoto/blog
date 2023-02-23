@@ -3,7 +3,6 @@ title: Jump Kingで遊んだりJump Kingを改造したり
 date: "2022-12-21T00:01:00.000Z"
 description: "JumpKingPlusってすごいよな"
 tags: ["game", "Jump King", "アドベントカレンダー"]
-
 ---
 
 ![jump king](/blog/assets/images//posts/20221221-jumpking-maps/Jump-King.jpg)

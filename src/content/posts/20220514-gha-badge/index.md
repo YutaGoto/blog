@@ -3,10 +3,9 @@ title: GitHub ActionsのStatus Badgeをよしなに作るコマンドを作っ�
 date: "2022-05-14T00:01:00.000Z"
 description: RustでCLIおためし
 tags: ["Rust", "Cli", "GitHub Actions"]
-
 ---
 
-こんにちは、.ごっちです。
+こんにちは。、.ごっちです。
 
 [GitHub Actions](https://docs.github.com/ja/actions)のステータスバッジをMarkDown形式で作るのに、ドキュメントを見ながら手動で書き換えるのは大変なので、よしなに生成してくれるコマンドを作りました。
 

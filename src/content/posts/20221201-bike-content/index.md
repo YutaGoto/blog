@@ -3,7 +3,6 @@ title: 2022年の自転車
 date: "2022-12-01T00:01:00.000Z"
 description: "2022年の自転車記"
 tags: ["自転車", "アドベントカレンダー"]
-
 ---
 
 ![bike](/blog/assets/images//posts/20221201-bike-content/IMG_20171105_133928.jpg)

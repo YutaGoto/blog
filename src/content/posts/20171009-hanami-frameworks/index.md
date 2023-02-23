@@ -2,14 +2,12 @@
 title: "hanami frameworks"
 date: "2017-10-09T09:00:00.000Z"
 description: "hanami frameworks"
-
 ---
 
 どうも、こんにちはごっちです。
 
 暇なので勉強がてら違う frameworks を触ってみるという。
-[**Hanami | The web, with simplicity**
-*Hanami - The web, with simplicity*hanamirb.org](http://hanamirb.org/)
+[**Hanami | The web, with simplicity** *Hanami - The web, with simplicity*hanamirb.org](http://hanamirb.org/)
 
 rails のような web サービスの Framework ですね。
 

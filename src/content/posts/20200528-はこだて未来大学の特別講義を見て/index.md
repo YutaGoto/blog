@@ -2,10 +2,9 @@
 title: "はこだて未来大学の特別講義を見て！"
 date: "2020-05-28T09:00:00.000Z"
 description: "はこだて未来大学の特別講義を見て！"
-
 ---
 
-こんにちは、.ごっちです。
+こんにちは。、.ごっちです。
 
 ![](https://cdn-images-1.medium.com/max/2000/1*G6t5Pa5tWvTQa98xcK11_g.png)
 

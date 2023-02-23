@@ -3,10 +3,9 @@ title: リングフィットアドベンチャー 3周目完走したので感�
 date: "2021-10-09T10:30:00.000Z"
 description: "リングフィットアドベンチャーマスターモードクリア"
 tags: ["game", "リングフィットアドベンチャー"]
-
 ---
 
-こんにちは、.ごっちです。
+こんにちは。、.ごっちです。
 
 ![rfa](/blog/assets/images//posts/20211009-ringfitadv-round3/rfa.png)
 

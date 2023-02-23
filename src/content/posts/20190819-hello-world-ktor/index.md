@@ -2,10 +2,9 @@
 title: "Hello World! Ktor"
 date: "2019-08-19T09:00:00.000Z"
 description: "Hello World! Ktor"
-
 ---
 
-こんにちは、.ごっちです。
+こんにちは。、.ごっちです。
 
 ちょっと前から気になっていた Kotlin をこの土日で触っていたので、備忘録で環境構築のことについて書きます。
 

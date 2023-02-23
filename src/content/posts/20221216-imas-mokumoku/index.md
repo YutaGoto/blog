@@ -3,7 +3,6 @@ title: アイマスもくもく会2022年まとめ
 date: "2022-12-16T00:01:00.000Z"
 description: "2022年もアイマスもくもく会でしたよ！"
 tags: ["アイドルマスター", "imastudy", "imas_mokumoku", "アドベントカレンダー"]
-
 ---
 
 ![mokumoku](/blog/assets/images//posts/20221216-imas-mokumoku/mokumoku-event.png)

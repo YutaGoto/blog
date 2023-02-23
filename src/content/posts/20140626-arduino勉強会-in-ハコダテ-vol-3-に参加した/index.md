@@ -2,7 +2,6 @@
 title: "Arduino勉強会 in ハコダテ vol.3　に参加した"
 date: "2014-06-26T09:00:00.000Z"
 description: "Arduino"
-
 ---
 
 ごとうです。

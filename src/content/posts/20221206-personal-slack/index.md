@@ -3,7 +3,6 @@ title: .ごっち個人Slackの活用
 date: "2022-12-06T00:01:00.000Z"
 description: "自分専用のSlackワークスペースを作ってあれこれ"
 tags: ["slack", "アドベントカレンダー"]
-
 ---
 
 ![Slack Logo](/blog/assets/images//posts/20221206-personal-slack/Slack-logo.png)

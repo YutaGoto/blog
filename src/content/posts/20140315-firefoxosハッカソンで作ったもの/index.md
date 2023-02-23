@@ -2,7 +2,6 @@
 title: "FirefoxOSハッカソンで作ったもの"
 date: "2014-03-15T09:00:00.000Z"
 description: "FirefoxOSハッカソンで作ったもの"
-
 ---
 
 firefoxOS 大喜利ハッカソンで作ったものを自分の tumblr 内で埋め込みました。

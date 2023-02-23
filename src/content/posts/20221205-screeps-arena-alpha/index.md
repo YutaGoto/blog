@@ -3,7 +3,6 @@ title: Screeps Arenaをやってた
 date: "2022-12-05T00:01:00.000Z"
 description: "趣味プログラミングの幅が広がる広がる"
 tags: ["Screeps Arena", "JavaScript", "アドベントカレンダー"]
-
 ---
 
 ![Screeps Arena](/blog/assets/images//posts/20221205-screeps-arena-alpha/steam-screepsarena.jpg)

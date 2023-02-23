@@ -3,7 +3,6 @@ title: .ごっちさん香川・岡山旅行記
 date: "2021-12-21T00:01:00.000Z"
 description: "実質日帰り旅行"
 tags: ["旅行", "香川", "岡山"]
-
 ---
 
 この記事は[雑談 Slack Advent Calendar 2021](https://adventar.org/calendars/6233) の 21 日目の記事です。

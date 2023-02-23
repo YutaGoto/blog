@@ -2,10 +2,9 @@
 title: "IM@S ENGINEERS ON@IR!!!! 2020で発表した!!!!"
 date: "2020-09-27T09:00:00.000Z"
 description: "IM@S ENGINEERS ON@IR!!!! 2020で発表した!!!!"
-
 ---
 
-こんにちは、.ごっちです。
+こんにちは。、.ごっちです。
 
 2020/09/26 土曜日に開かれた IM@S ENGINEERS ON@IR!!!! 2020 で登壇したので、いろいろ報告です。
 

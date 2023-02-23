@@ -2,10 +2,9 @@
 title: "todays-idol-travis-ciを作ってみた"
 date: "2019-02-03T09:00:00.000Z"
 description: "todays-idol-travis-ciを作ってみた"
-
 ---
 
-こんにちは、 .ごっちです。
+こんにちは。、 .ごっちです。
 
 以前 CircleCI の Orbs を使って、今日が誕生日のアイマスのアイドルを出力するやつを作ったのですが、それの travisci バージョンを作りました。
 

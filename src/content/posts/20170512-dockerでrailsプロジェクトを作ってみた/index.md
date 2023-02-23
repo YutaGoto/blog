@@ -2,7 +2,6 @@
 title: "DockerでRailsプロジェクトを作ってみた"
 date: "2017-05-12T09:00:00.000Z"
 description: "DockerでRailsプロジェクトを作ってみた"
-
 ---
 
 どうもこんにちは、ごっちです。

@@ -3,7 +3,6 @@ title: ドクターマリオのRTAしていた
 date: "2022-12-04T00:01:00.000Z"
 description: "ドクターマリオのRTAしたが、ものすごくいい順位というわけではない"
 tags: ["game", "ドクターマリオ", "RTA", "アドベントカレンダー"]
-
 ---
 
 ![dr. mario](/blog/assets/images//posts/20221204-dr-mario-speedrun/logo.gif)

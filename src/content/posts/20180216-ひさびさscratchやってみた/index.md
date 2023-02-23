@@ -2,10 +2,9 @@
 title: "ひさびさScratchやってみた"
 date: "2018-02-16T09:00:00.000Z"
 description: "ひさびさScratchやってみた"
-
 ---
 
-こんにちは、ごっちです。今年初投稿かもしれません。
+こんにちは。、ごっちです。今年初投稿かもしれません。
 
 Facebook のタイムラインを見ていたら ScratchDay2018 と ScratchConference2018 の投稿を見かけたので、久々に Scratch プロジェクトを作ってみたいという気分になりました。
 [**Scratch Day**

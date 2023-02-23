@@ -3034,9 +3034,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"cypress@npm:^12.3.0":
-  version: 12.3.0
-  resolution: "cypress@npm:12.3.0"
+"cypress@npm:^12.6.0":
+  version: 12.6.0
+  resolution: "cypress@npm:12.6.0"
   dependencies:
     "@cypress/request": ^2.88.10
     "@cypress/xvfb": ^1.2.4
@@ -3055,7 +3055,7 @@ __metadata:
     commander: ^5.1.0
     common-tags: ^1.8.0
     dayjs: ^1.10.4
-    debug: ^4.3.2
+    debug: ^4.3.4
     enquirer: ^2.3.6
     eventemitter2: 6.4.7
     execa: 4.1.0
@@ -3082,7 +3082,7 @@ __metadata:
     yauzl: ^2.10.0
   bin:
     cypress: bin/cypress
-  checksum: 00658996bcca918254348eb42bc03079ccf2d583e5c9c04190267edcbc542d4a22835d7399711c99f7aa7334412104b23cc5a1aa7f02b8b541c12298bf3f63f0
+  checksum: 716afdc7bd83d14d9ad31aba9f757a5dfccc1a693c57273a6b2281ddc1b201a432fae5c5ae8f049088384e3bcc3bda530910870ff8604a0233e1b96abc069850
   languageName: node
   linkType: hard
 
@@ -11676,7 +11676,7 @@ __metadata:
     astro-eslint-parser: ^0.11.0
     autoprefixer: ^10.4.13
     cdate: ^0.0.4
-    cypress: ^12.3.0
+    cypress: ^12.6.0
     eslint: ^8.34.0
     eslint-config-prettier: ^8.6.0
     eslint-import-resolver-typescript: ^3.5.3

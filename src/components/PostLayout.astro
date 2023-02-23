@@ -11,7 +11,7 @@ import Tag from "./Tag.astro"
 import type { PostEntry } from "@/content/config"
 
 interface Props {
-  frontmatter: PostEntry['frontmatter']
+  frontmatter: PostEntry["frontmatter"]
 }
 
 const { frontmatter } = Astro.props
@@ -36,7 +36,11 @@ const { frontmatter } = Astro.props
               {cdate(frontmatter?.date).format("YYYY年MM月DD日")}
             </p>
             <div>
-              {frontmatter?.tags?.map(tag => <Tag className="mr-1" tag={tag} />)}
+              {
+                frontmatter?.tags?.map(tag => (
+                  <Tag className="mr-1" tag={tag} />
+                ))
+              }
             </div>
             <section class="mt-3">
               <slot />

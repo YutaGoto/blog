@@ -1,4 +1,4 @@
-import { CollectionEntry, defineCollection, z } from 'astro:content';
+import { CollectionEntry, defineCollection, z } from "astro:content"
 
 export const blogSchema = z.object({
   title: z.string(),
@@ -12,9 +12,9 @@ const blogCollection = defineCollection({
   schema: blogSchema,
 })
 
-export type PostEntry = CollectionEntry<'posts'> & {
-  frontmatter: z.infer<typeof blogSchema>;
-};
+export type PostEntry = CollectionEntry<"posts"> & {
+  frontmatter: z.infer<typeof blogSchema>
+}
 
 export const collections = {
   posts: blogCollection,

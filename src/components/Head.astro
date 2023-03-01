@@ -1,4 +1,6 @@
 ---
+import { getOgImageUrl } from '@/utils/getOgImageUrl'
+
 interface Props {
   title: string
   ogImage?: string
@@ -7,6 +9,8 @@ interface Props {
 }
 
 const { title, ogImage, ogTitle, ogDescription } = Astro.props
+const ogImageUrl = ogImage || getOgImageUrl(Astro.url.pathname)
+console.log({ogImageUrl})
 ---
 
 <head>
@@ -15,7 +19,7 @@ const { title, ogImage, ogTitle, ogDescription } = Astro.props
   <meta name="viewport" content="width=device-width" />
   <meta name="generator" content={Astro.generator} />
 
-  {ogImage && <meta property="og:image" content={ogImage} />}
+  {ogImageUrl && <meta property="og:image" content={ogImageUrl} />}
   <meta property="og:site_name" content="YutaGoto Blog" />
   <meta property="og:type" content="object" />
   <meta
@@ -24,7 +28,7 @@ const { title, ogImage, ogTitle, ogDescription } = Astro.props
   />
   <meta property="og:url" content={Astro.url} />
   <meta property="og:description" content={ogDescription} />
-  {ogImage && <meta name="twitter:image:src" content={ogImage} />}
+  {ogImageUrl && <meta name="twitter:image:src" content={ogImageUrl} />}
   <meta name="twitter:creator" content="@gggooottto" />
   <meta name="twitter:card" content="summary" />
   <meta

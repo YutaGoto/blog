@@ -9,7 +9,10 @@ interface Props {
 }
 
 const { title, ogImage, ogTitle, ogDescription } = Astro.props
-const ogImageUrl = ogImage || getOgImageUrl(Astro.url.pathname)
+const ogImateSrc = ogImage || getOgImageUrl(Astro.url.pathname)
+const ogImageUrl = ogImateSrc
+  ? new URL(`/blog${ogImateSrc}`, Astro.site)
+  : undefined
 ---
 
 <head>

@@ -1,5 +1,5 @@
 ---
-import { getOgImageUrl } from '@/utils/getOgImageUrl'
+import { getOgImageUrl } from "@/utils/getOgImageUrl"
 
 interface Props {
   title: string
@@ -10,7 +10,6 @@ interface Props {
 
 const { title, ogImage, ogTitle, ogDescription } = Astro.props
 const ogImageUrl = ogImage || getOgImageUrl(Astro.url.pathname)
-console.log({ogImageUrl})
 ---
 
 <head>

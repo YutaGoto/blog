@@ -1,5 +1,6 @@
 ---
 import { getOgImageUrl } from "@/utils/getOgImageUrl"
+import config from "../../astro.config"
 
 interface Props {
   title: string
@@ -9,7 +10,10 @@ interface Props {
 }
 
 const { title, ogImage, ogTitle, ogDescription } = Astro.props
-const ogImageUrl = ogImage || getOgImageUrl(Astro.url.pathname)
+const ogImateSrc = ogImage || getOgImageUrl(Astro.url.pathname)
+const ogImageUrl = ogImateSrc
+  ? new URL(`${config.base}${ogImateSrc}`, Astro.site)
+  : undefined
 ---
 
 <head>

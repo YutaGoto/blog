@@ -2164,6 +2164,18 @@ __metadata:
   languageName: node
   linkType: hard
 
+"astro-og-canvas@npm:^0.1.6":
+  version: 0.1.6
+  resolution: "astro-og-canvas@npm:0.1.6"
+  dependencies:
+    canvaskit-wasm: ^0.37.0
+    entities: ^4.4.0
+  peerDependencies:
+    astro: ^1.0.0 || ^2.0.0-beta
+  checksum: 712e167ea0d2806987bc4d6dba2ede54187eae0a4d34b33f65cbed17fb3fe3d94d32abe1f8ad178157a545d9d85a71564749e291add510efb8b8553bd970343b
+  languageName: node
+  linkType: hard
+
 "astro@npm:^2.0.14":
   version: 2.0.14
   resolution: "astro@npm:2.0.14"
@@ -2611,6 +2623,13 @@ __metadata:
   version: 1.0.30001457
   resolution: "caniuse-lite@npm:1.0.30001457"
   checksum: f311a7c5098681962402a86a0a367014ee91c3135395ee68bbfaf45caf0e36d581e42d7c5b1526ce99484a228e6cf5cf0e400678292c65f5a21512a3fc7a5fb6
+  languageName: node
+  linkType: hard
+
+"canvaskit-wasm@npm:^0.37.0":
+  version: 0.37.2
+  resolution: "canvaskit-wasm@npm:0.37.2"
+  checksum: cc734df297fc72afbff90266ba70c94d9c4f65901836d0b766ff003b7d8b725205129e4f0af29b4d59cbed0dd236762785682fa19e7fe5acaeebb60db1be523c
   languageName: node
   linkType: hard
 
@@ -3540,6 +3559,13 @@ __metadata:
   dependencies:
     ansi-colors: ^4.1.1
   checksum: 1c0911e14a6f8d26721c91e01db06092a5f7675159f0261d69c403396a385afd13dd76825e7678f66daffa930cfaa8d45f506fb35f818a2788463d022af1b884
+  languageName: node
+  linkType: hard
+
+"entities@npm:^4.4.0":
+  version: 4.4.0
+  resolution: "entities@npm:4.4.0"
+  checksum: 84d250329f4b56b40fa93ed067b194db21e8815e4eb9b59f43a086f0ecd342814f6bc483de8a77da5d64e0f626033192b1b4f1792232a7ea6b970ebe0f3187c2
   languageName: node
   linkType: hard
 
@@ -11713,6 +11739,7 @@ __metadata:
     astro: ^2.0.14
     astro-auto-import: ^0.2.1
     astro-eslint-parser: ^0.11.0
+    astro-og-canvas: ^0.1.6
     autoprefixer: ^10.4.13
     cdate: ^0.0.4
     cypress: ^12.6.0

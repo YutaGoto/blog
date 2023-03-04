@@ -16,7 +16,7 @@
     "@types/node": "^18.11.18",
     "@typescript-eslint/eslint-plugin": "^5.53.0",
     "@typescript-eslint/parser": "^5.51.0",
-    "astro": "^2.0.14",
+    "astro": "^2.0.17",
     "astro-auto-import": "^0.2.1",
     "astro-eslint-parser": "^0.11.0",
     "autoprefixer": "^10.4.13",

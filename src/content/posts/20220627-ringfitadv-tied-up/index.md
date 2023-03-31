@@ -7,7 +7,7 @@ tags: ["game", "リングフィットアドベンチャー"]
 
 こんにちは。、.ごっちです。
 
-![rfa](/blog/assets/images//posts/20220627-ringfitadv-tied-up/rfa.png)
+![rfa](/blog/assets/images/posts/20220627-ringfitadv-tied-up/rfa.png)
 
 2021年10月にマスターモードをクリアして真の2周目を始めてたのですが、縛りを加えた状態でクリアしました。
 

@@ -8462,10 +8462,11 @@ __metadata:
   languageName: node
   linkType: hard
 
-"prettier-plugin-tailwindcss@npm:^0.2.2":
-  version: 0.2.2
-  resolution: "prettier-plugin-tailwindcss@npm:0.2.2"
+"prettier-plugin-tailwindcss@npm:^0.2.6":
+  version: 0.2.6
+  resolution: "prettier-plugin-tailwindcss@npm:0.2.6"
   peerDependencies:
+    "@ianvs/prettier-plugin-sort-imports": "*"
     "@prettier/plugin-php": "*"
     "@prettier/plugin-pug": "*"
     "@shopify/prettier-plugin-liquid": "*"
@@ -8482,6 +8483,8 @@ __metadata:
     prettier-plugin-svelte: "*"
     prettier-plugin-twig-melody: "*"
   peerDependenciesMeta:
+    "@ianvs/prettier-plugin-sort-imports":
+      optional: true
     "@prettier/plugin-php":
       optional: true
     "@prettier/plugin-pug":
@@ -8510,7 +8513,7 @@ __metadata:
       optional: true
     prettier-plugin-twig-melody:
       optional: true
-  checksum: dd4baa7b60d0cef36309a97bf884ec7beb61e29d7bf0c88036647985243535048968252f2f7159d88142695ae21fe305a6a1f96cceec36d41085cab63dbc4b25
+  checksum: 5cda3cee9657ca67708f348829b168932c89f099fb1bec821afcb9f6e2c3bfdac9bae31cd2a38ecbe5548182093dd4072a8ba9857a25675e8616b35e1eb14ed2
   languageName: node
   linkType: hard
 
@@ -11759,7 +11762,7 @@ __metadata:
     gh-pages: ^5.0.0
     prettier: 2.8.4
     prettier-plugin-astro: ^0.8.0
-    prettier-plugin-tailwindcss: ^0.2.2
+    prettier-plugin-tailwindcss: ^0.2.6
     prism-themes: ^1.9.0
     prismjs: ^1.29.0
     remixicon: ^2.5.0

@@ -58,6 +58,6 @@ yarn-error.log
 dist/
 .output/
 .astro/
-/test-results/
-cypress/videos
-cypress/screenshots
+
+# testing
+/playwright-report

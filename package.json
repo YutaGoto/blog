@@ -60,7 +60,6 @@
     "format": "prettier --write \"**/*.{js,jsx,ts,tsx,json,scss,astro}\"",
     "lint": "eslint --ext .js,.ts,.tsx,.astro ./src --ignore-path .gitignore",
     "textlint": "textlint src/content/posts/202[1-9]**/*.md",
-    "deploy": "gatsby build --prefix-paths && gh-pages -d public",
     "typecheck": "astro check && tsc --noEmit",
     "test": "playwright test"
   },

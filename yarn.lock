@@ -7789,7 +7789,16 @@ __metadata:
   languageName: node
   linkType: hard
 
-"prettier@npm:2.8.4, prettier@npm:^2.7.1, prettier@npm:^2.8.3":
+"prettier@npm:2.8.7":
+  version: 2.8.7
+  resolution: "prettier@npm:2.8.7"
+  bin:
+    prettier: bin-prettier.js
+  checksum: fdc8f2616f099f5f0d685907f4449a70595a0fc1d081a88919604375989e0d5e9168d6121d8cc6861f21990b31665828e00472544d785d5940ea08a17660c3a6
+  languageName: node
+  linkType: hard
+
+"prettier@npm:^2.7.1, prettier@npm:^2.8.3":
   version: 2.8.4
   resolution: "prettier@npm:2.8.4"
   bin:
@@ -10773,7 +10782,7 @@ __metadata:
     eslint-plugin-prettier: ^4.2.1
     eslint-plugin-unused-imports: ^2.0.0
     gh-pages: ^5.0.0
-    prettier: 2.8.4
+    prettier: 2.8.7
     prettier-plugin-astro: ^0.8.0
     prettier-plugin-tailwindcss: ^0.2.6
     prism-themes: ^1.9.0

@@ -12,6 +12,7 @@ permissions:
 
 jobs:
   build:
+    name: Build page
     runs-on: ubuntu-latest
     steps:
       - name: Checkout your repository using git
@@ -22,6 +23,7 @@ jobs:
           node-version: 18
 
   deploy:
+    name: deploy page
     needs: build
     runs-on: ubuntu-latest
     environment:

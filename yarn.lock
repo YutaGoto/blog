@@ -2006,21 +2006,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"astro-eslint-parser@npm:^0.11.0":
-  version: 0.11.0
-  resolution: "astro-eslint-parser@npm:0.11.0"
-  dependencies:
-    "@astrojs/compiler": ^1.0.0
-    "@typescript-eslint/scope-manager": ^5.48.2
-    "@typescript-eslint/types": ^5.25.0
-    astrojs-compiler-sync: ^0.3.0
-    debug: ^4.3.4
-    eslint-visitor-keys: ^3.0.0
-    espree: ^9.0.0
-  checksum: 30252a02f4fb10b61aa51b414fe7361a437f805287e0f976615abc53d10be150d6b76c6b3fe0bab5c5017d9a056d994d303a4a0cd7fda56f4161bb2c2f686c2d
-  languageName: node
-  linkType: hard
-
 "astro-eslint-parser@npm:^0.13.1":
   version: 0.13.2
   resolution: "astro-eslint-parser@npm:0.13.2"
@@ -2034,6 +2019,22 @@ __metadata:
     espree: ^9.0.0
     semver: ^7.3.8
   checksum: d52244f47e7ac1d331f4005f586fb1ac7b9a86e3ea14fecdf2de175990fa6852209b917726b8251b3bb5f8fcd63835493a448a3e03fe942479fe523ff5560997
+  languageName: node
+  linkType: hard
+
+"astro-eslint-parser@npm:^0.13.3":
+  version: 0.13.3
+  resolution: "astro-eslint-parser@npm:0.13.3"
+  dependencies:
+    "@astrojs/compiler": ^1.0.0
+    "@typescript-eslint/scope-manager": ^5.48.2
+    "@typescript-eslint/types": ^5.25.0
+    astrojs-compiler-sync: ^0.3.0
+    debug: ^4.3.4
+    eslint-visitor-keys: ^3.0.0
+    espree: ^9.0.0
+    semver: ^7.3.8
+  checksum: 5400c86f1bda5ea942ad200bbb6ce084496115dcdceb2df77630c00166a5181f459bcd39ab78f8953825be6ad97d572dd4fe5cc79a69ddda6a74f224442e0e43
   languageName: node
   linkType: hard
 
@@ -10821,7 +10822,7 @@ __metadata:
     "@typescript-eslint/parser": ^5.58.0
     astro: ^2.0.17
     astro-auto-import: ^0.2.1
-    astro-eslint-parser: ^0.11.0
+    astro-eslint-parser: ^0.13.3
     astro-og-canvas: ^0.1.6
     autoprefixer: ^10.4.14
     cdate: ^0.0.5

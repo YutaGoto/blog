@@ -2083,15 +2083,15 @@ __metadata:
   languageName: node
   linkType: hard
 
-"astro-og-canvas@npm:^0.1.6":
-  version: 0.1.6
-  resolution: "astro-og-canvas@npm:0.1.6"
+"astro-og-canvas@npm:^0.1.7":
+  version: 0.1.7
+  resolution: "astro-og-canvas@npm:0.1.7"
   dependencies:
     canvaskit-wasm: ^0.37.0
     entities: ^4.4.0
   peerDependencies:
     astro: ^1.0.0 || ^2.0.0-beta
-  checksum: 712e167ea0d2806987bc4d6dba2ede54187eae0a4d34b33f65cbed17fb3fe3d94d32abe1f8ad178157a545d9d85a71564749e291add510efb8b8553bd970343b
+  checksum: c0a63e30ae922bd08f928638c48e3b44c273d23675f85d67dd38df3822659bc0c95242efd112cec4cdb82b6da767f2445aa27dbd6809e5b0ffbf8f250c2ec9c1
   languageName: node
   linkType: hard
 
@@ -10886,7 +10886,7 @@ __metadata:
     astro: ^2.0.17
     astro-auto-import: ^0.2.1
     astro-eslint-parser: ^0.13.3
-    astro-og-canvas: ^0.1.6
+    astro-og-canvas: ^0.1.7
     autoprefixer: ^10.4.14
     cdate: ^0.0.5
     eslint: ^8.38.0

@@ -5,7 +5,7 @@
   "version": "0.1.0",
   "author": "Yuta Goto <you.goto.510@gmail.com>",
   "dependencies": {
-    "astro-og-canvas": "^0.1.6",
+    "astro-og-canvas": "^0.1.8",
     "cdate": "^0.0.5",
     "prism-themes": "^1.9.0",
     "prismjs": "^1.29.0",

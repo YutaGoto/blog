@@ -2045,15 +2045,15 @@ __metadata:
   languageName: node
   linkType: hard
 
-"astro-auto-import@npm:^0.2.1":
-  version: 0.2.1
-  resolution: "astro-auto-import@npm:0.2.1"
+"astro-auto-import@npm:^0.3.0":
+  version: 0.3.0
+  resolution: "astro-auto-import@npm:0.3.0"
   dependencies:
     "@types/node": ^18.0.0
     acorn: ^8.8.0
   peerDependencies:
-    astro: ^1.0.0 || ^2.0.0-beta
-  checksum: 4c6a688a0f9085ab0e207359e24d2f61bfbbf8757b0287d989dd3bf4e5c70b3d67a0302fc4907c7f65addb59ca62fc8a9daa702d11aea339fb4479606b01b8e5
+    astro: ^2.0.0
+  checksum: 8ea3fb32bb35d4dc02117cf0e32dae9b4b34dbae16e643e41f9d018a68e45307304476c70ee9808fc918f24aa922c86c67d3baf47f63b3c70215a33412ed5dad
   languageName: node
   linkType: hard
 
@@ -10915,7 +10915,7 @@ __metadata:
     "@typescript-eslint/eslint-plugin": ^5.59.1
     "@typescript-eslint/parser": ^5.58.0
     astro: ^2.3.2
-    astro-auto-import: ^0.2.1
+    astro-auto-import: ^0.3.0
     astro-eslint-parser: ^0.13.3
     astro-og-canvas: ^0.1.8
     autoprefixer: ^10.4.14

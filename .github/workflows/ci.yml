@@ -87,5 +87,7 @@ jobs:
           key: ${{ runner.os }}-dev-depends-${{ hashFiles('**/pnpm-lock.yaml') }}
           restore-keys: |
             ${{ runner.os }}-dev-depends-
+      - name: Install Playwright
+        run: npx playwright install --with-deps
       - name: Playwright Test
         run: pnpm test

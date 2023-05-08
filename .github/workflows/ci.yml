@@ -63,3 +63,29 @@ jobs:
         run: pnpm lint
       - name: TextLint
         run: pnpm textlint
+
+  tests_e2e:
+    needs: setup
+    name: Playwright Test
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - uses: pnpm/action-setup@v2
+        with:
+          version: 8
+      - name: Use Node.js
+        uses: actions/setup-node@v3
+        with:
+          cache: "pnpm"
+      - name: Cache Restore
+        id: cache-restore-dev-depends
+        uses: actions/cache/restore@v3
+        with:
+          path: |
+            ~/.pnpm-store
+            node_modules
+          key: ${{ runner.os }}-dev-depends-${{ hashFiles('**/pnpm-lock.yaml') }}
+          restore-keys: |
+            ${{ runner.os }}-dev-depends-
+      - name: Playwright Test
+        run: pnpm test

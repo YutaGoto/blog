@@ -61,7 +61,8 @@
     "lint": "eslint --ext .js,.ts,.tsx,.astro ./src --ignore-path .gitignore",
     "textlint": "textlint src/content/posts/202[1-9]**/*.md",
     "typecheck": "astro check && tsc --noEmit",
-    "test": "playwright test"
+    "test": "playwright test",
+    "preinstall": "npx only-allow pnpm"
   },
   "packageManager": "yarn@3.2.0"
 }

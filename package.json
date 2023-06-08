@@ -6,7 +6,7 @@
   "author": "Yuta Goto <you.goto.510@gmail.com>",
   "dependencies": {
     "astro-og-canvas": "^0.1.8",
-    "cdate": "^0.0.5",
+    "cdate": "^0.0.6",
     "prism-themes": "^1.9.0",
     "prismjs": "^1.29.0",
     "remixicon": "^3.3.0"

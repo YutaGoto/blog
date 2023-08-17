@@ -33,7 +33,7 @@
     "prettier": "3.0.1",
     "prettier-plugin-astro": "^0.9.0",
     "prettier-plugin-tailwindcss": "^0.3.0",
-    "sass": "^1.63.4",
+    "sass": "^1.65.1",
     "stylelint": "^15.6.2",
     "stylelint-config-prettier": "^9.0.4",
     "stylelint-config-standard": "^33.0.0",

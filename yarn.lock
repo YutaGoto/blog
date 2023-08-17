@@ -8689,16 +8689,16 @@ __metadata:
   languageName: node
   linkType: hard
 
-"sass@npm:^1.63.4":
-  version: 1.63.4
-  resolution: "sass@npm:1.63.4"
+"sass@npm:^1.65.1":
+  version: 1.65.1
+  resolution: "sass@npm:1.65.1"
   dependencies:
     chokidar: ">=3.0.0 <4.0.0"
     immutable: ^4.0.0
     source-map-js: ">=0.6.2 <2.0.0"
   bin:
     sass: sass.js
-  checksum: 12bde5beff85a7018157d90c8b9d5aec8b56832f89fcfeca146f10936eecf97e669d22fd41f812b3407ed259bbb114d69c9ecbfc7ee9b15308211fb910cdf5eb
+  checksum: 33e325fc80cd07489992e0814cd4929496f87493ffe78c423c2dbafa5746a574e6f3bde20c2a3e4ea47b16ee3d6bc5afcf1d36b405227b829d6c4c9ddcc7f8e2
   languageName: node
   linkType: hard
 
@@ -11088,7 +11088,7 @@ __metadata:
     prism-themes: ^1.9.0
     prismjs: ^1.29.0
     remixicon: ^3.3.0
-    sass: ^1.63.4
+    sass: ^1.65.1
     stylelint: ^15.6.2
     stylelint-config-prettier: ^9.0.4
     stylelint-config-standard: ^33.0.0

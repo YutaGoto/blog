@@ -8653,10 +8653,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"remixicon@npm:^3.3.0":
-  version: 3.3.0
-  resolution: "remixicon@npm:3.3.0"
-  checksum: 751fbf0b67efa85b7048c498eb80ac5f28cc8cae5668602940c8443c7e9449766093bfe7faba88216fb72d077f4a2cea575e5c5fa9b1f9bc0beec885f37fc870
+"remixicon@npm:^3.5.0":
+  version: 3.5.0
+  resolution: "remixicon@npm:3.5.0"
+  checksum: e03e2be2853453cea5a86f2c02c5fe2e8ed29fbe77ff18264507a0d085c58861887915b5eedd85ff95a003a0281a532f5f6c3b2900cf6db9a24a5fba21699bed
   languageName: node
   linkType: hard
 
@@ -11488,7 +11488,7 @@ __metadata:
     prettier-plugin-tailwindcss: ^0.3.0
     prism-themes: ^1.9.0
     prismjs: ^1.29.0
-    remixicon: ^3.3.0
+    remixicon: ^3.5.0
     sass: ^1.65.1
     stylelint: ^15.10.2
     stylelint-config-prettier: ^9.0.4

@@ -1370,13 +1370,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@textlint/module-interop@npm:^12.0.0":
-  version: 12.1.1
-  resolution: "@textlint/module-interop@npm:12.1.1"
-  checksum: c2ba352e0d8702cb456c6e76decbe639b0fc6873f86651e5d795bd8f582c0f1c77c708676c2eb559d4286cf04ec5f6e69d71bc1f4ef15c37ca646624d383e81c
-  languageName: node
-  linkType: hard
-
 "@textlint/module-interop@npm:^13.3.2":
   version: 13.3.2
   resolution: "@textlint/module-interop@npm:13.3.2"
@@ -9996,19 +9989,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"textlint-rule-max-ten@npm:^4.0.2":
-  version: 4.0.3
-  resolution: "textlint-rule-max-ten@npm:4.0.3"
-  dependencies:
-    kuromojin: ^3.0.0
-    sentence-splitter: ^3.2.0
-    structured-source: ^3.0.2
-    textlint-rule-helper: ^2.0.0
-    textlint-util-to-string: ^3.1.1
-  checksum: 602c25d38ad81f26a884989e41baafa0f7f6e9131e7a9bcc11d1a96f46faa8790f598b3e64bd145a89f9b5ac6a19a552c52646d34eb0f0c2116144190aa53867
-  languageName: node
-  linkType: hard
-
 "textlint-rule-max-ten@npm:^4.0.4":
   version: 4.0.4
   resolution: "textlint-rule-max-ten@npm:4.0.4"
@@ -10021,24 +10001,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"textlint-rule-no-double-negative-ja@npm:^2.0.0, textlint-rule-no-double-negative-ja@npm:^2.0.1":
+"textlint-rule-no-double-negative-ja@npm:^2.0.1":
   version: 2.0.1
   resolution: "textlint-rule-no-double-negative-ja@npm:2.0.1"
   dependencies:
     kuromojin: ^3.0.0
   checksum: b38eb3bbc0d2b0ac719e5033906b1c50f6937bef781a5b09ebf9cda97ca66a0a53f805ad570373edf6eb1ca5353642374c6097378fce07bf38d76bcbbbb1dadc
-  languageName: node
-  linkType: hard
-
-"textlint-rule-no-doubled-conjunction@npm:^2.0.1":
-  version: 2.0.2
-  resolution: "textlint-rule-no-doubled-conjunction@npm:2.0.2"
-  dependencies:
-    kuromojin: ^3.0.0
-    sentence-splitter: ^3.2.1
-    textlint-rule-helper: ^2.2.0
-    textlint-util-to-string: ^3.1.1
-  checksum: f0b4b2a768757b364a39cb5334cf0152a624441df0d29bf840e91d92adbdd5692db0f646931130d0e79e4f5c4a55ffdcfe9283749dbb8a6dfa7ecbbbce4b80c9
   languageName: node
   linkType: hard
 
@@ -10054,18 +10022,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"textlint-rule-no-doubled-conjunctive-particle-ga@npm:^2.0.1":
-  version: 2.0.4
-  resolution: "textlint-rule-no-doubled-conjunctive-particle-ga@npm:2.0.4"
-  dependencies:
-    kuromojin: ^3.0.0
-    sentence-splitter: ^3.2.1
-    textlint-rule-helper: ^2.2.0
-    textlint-util-to-string: ^3.1.1
-  checksum: 7906e8d700d071e8507ab2d16162fbe52c3f4cac944a3a60d27412e91ec5a763c1d7f7b346ae861c4cd55dc712d69b45799801e63af9a039b5c38bc8467042be
-  languageName: node
-  linkType: hard
-
 "textlint-rule-no-doubled-conjunctive-particle-ga@npm:^2.0.5":
   version: 2.0.5
   resolution: "textlint-rule-no-doubled-conjunctive-particle-ga@npm:2.0.5"
@@ -10075,18 +10031,6 @@ __metadata:
     textlint-rule-helper: ^2.2.0
     textlint-util-to-string: ^3.1.1
   checksum: 73212be16d6f2ddf570626957a024e47f499a187e384649a71c16d02ea94f652a35c9b0902dc8d2555fec06deeabbcd065e2b42713252d8dd6d727c56906de47
-  languageName: node
-  linkType: hard
-
-"textlint-rule-no-doubled-joshi@npm:^4.0.0":
-  version: 4.0.1
-  resolution: "textlint-rule-no-doubled-joshi@npm:4.0.1"
-  dependencies:
-    kuromojin: ^3.0.0
-    sentence-splitter: ^3.2.1
-    textlint-rule-helper: ^2.1.1
-    textlint-util-to-string: ^3.0.0
-  checksum: 0728c332926e9abdd47e61d262e8464d2b1a6aeffc2a07ed1a0856437cbbbad06339f54ab7edd8c8a4b382710336e968a6f52cf6bbbfe9391e61e40cf38c93c2
   languageName: node
   linkType: hard
 
@@ -10133,12 +10077,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"textlint-rule-no-kangxi-radicals@npm:^0.1.0":
-  version: 0.1.0
-  resolution: "textlint-rule-no-kangxi-radicals@npm:0.1.0"
+"textlint-rule-no-kangxi-radicals@npm:^0.2.0":
+  version: 0.2.2
+  resolution: "textlint-rule-no-kangxi-radicals@npm:0.2.2"
   dependencies:
     match-index: ^1.0.3
-  checksum: 2f3e0dbcc5d3f6e6506fcf35b3e6095c32f3a0e02a24d4f7d33f49fc7be5ea1a76fe9c594cad2b99ac75f50ab52bf7dcb7c5a55f17250e3a67f4dd48c3f8e2b0
+  checksum: d1aae97054a95bbb573186722a292a8097554562a4447f46a05b7f5ed63bf2095fbe889425c8fe17a6840be2a478c198b8778dcdf059bdd2c3b1d925a53b4c22
   languageName: node
   linkType: hard
 
@@ -10150,17 +10094,6 @@ __metadata:
     textlint-rule-helper: ^2.0.0
     unist-util-visit: ^3.0.0
   checksum: 4fed6beef3e949004dc5528130818442806574d12de1a5eb3d337040b13e76377e0ad8843111f75e919f048e41068609670da31df9c2bc90263881cc3509c8df
-  languageName: node
-  linkType: hard
-
-"textlint-rule-no-nfd@npm:^1.0.1":
-  version: 1.0.2
-  resolution: "textlint-rule-no-nfd@npm:1.0.2"
-  dependencies:
-    match-index: ^1.0.3
-    textlint-rule-helper: ^2.1.1
-    unorm: ^1.4.1
-  checksum: 112ae87fcec43bfaf406be26f85f681810fdb5c429224101542dd689213c291923768f17bae11b0bb0756d3074bda008effd9d183852d3591f09d61f79363648
   languageName: node
   linkType: hard
 
@@ -10228,25 +10161,25 @@ __metadata:
   languageName: node
   linkType: hard
 
-"textlint-rule-preset-japanese@npm:^7.0.0":
-  version: 7.0.0
-  resolution: "textlint-rule-preset-japanese@npm:7.0.0"
+"textlint-rule-preset-japanese@npm:^8.0.0":
+  version: 8.0.0
+  resolution: "textlint-rule-preset-japanese@npm:8.0.0"
   dependencies:
     "@textlint-rule/textlint-rule-no-invalid-control-character": ^2.0.0
-    "@textlint/module-interop": ^12.0.0
-    textlint-rule-max-ten: ^4.0.2
-    textlint-rule-no-double-negative-ja: ^2.0.0
-    textlint-rule-no-doubled-conjunction: ^2.0.1
-    textlint-rule-no-doubled-conjunctive-particle-ga: ^2.0.1
-    textlint-rule-no-doubled-joshi: ^4.0.0
+    "@textlint/module-interop": ^13.3.3
+    textlint-rule-max-ten: ^4.0.4
+    textlint-rule-no-double-negative-ja: ^2.0.1
+    textlint-rule-no-doubled-conjunction: ^2.0.4
+    textlint-rule-no-doubled-conjunctive-particle-ga: ^2.0.5
+    textlint-rule-no-doubled-joshi: ^4.0.3
     textlint-rule-no-dropping-the-ra: ^3.0.0
-    textlint-rule-no-kangxi-radicals: ^0.1.0
+    textlint-rule-no-kangxi-radicals: ^0.2.0
     textlint-rule-no-mix-dearu-desumasu: ^5.0.0
-    textlint-rule-no-nfd: ^1.0.1
+    textlint-rule-no-nfd: ^2.0.2
     textlint-rule-no-zero-width-spaces: ^1.0.1
     textlint-rule-prh: ^5.2.0
-    textlint-rule-sentence-length: ^3.0.0
-  checksum: 138885b6f721572b1fadbad13e73668fcc08f97e61ad0d4a10def6ec4a9c9a14e1f4ca5faecd1fdb6c84ed95c5c4a4efaab283c23aab709c7ad9f14cf6dfd35c
+    textlint-rule-sentence-length: ^4.0.0
+  checksum: 89d18ac44a3cdb4ab10c207bc47ec4a6bbbc83a2aee180f2fb9797dcf4166574684aa50fc7dcd5982def0ed8227189b9fbea94b7b5754d0df60b4f29eca0a292
   languageName: node
   linkType: hard
 
@@ -10281,19 +10214,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"textlint-rule-sentence-length@npm:^3.0.0":
-  version: 3.0.0
-  resolution: "textlint-rule-sentence-length@npm:3.0.0"
-  dependencies:
-    "@textlint/regexp-string-matcher": ^1.1.0
-    sentence-splitter: ^3.2.1
-    textlint-rule-helper: ^2.1.1
-    textlint-util-to-string: ^3.1.1
-  checksum: bd683ff5285dec0239841c23972ced6b47ac1e24f1f51d211e804510fe562e10b6927f1177290065d38e56fa59580c43091aa534347960fbe881eae4ad0e615c
-  languageName: node
-  linkType: hard
-
-"textlint-rule-sentence-length@npm:^4.0.2":
+"textlint-rule-sentence-length@npm:^4.0.0, textlint-rule-sentence-length@npm:^4.0.2":
   version: 4.0.2
   resolution: "textlint-rule-sentence-length@npm:4.0.2"
   dependencies:
@@ -10317,7 +10238,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"textlint-util-to-string@npm:^3.0.0, textlint-util-to-string@npm:^3.1.1":
+"textlint-util-to-string@npm:^3.1.1":
   version: 3.1.1
   resolution: "textlint-util-to-string@npm:3.1.1"
   dependencies:
@@ -10962,13 +10883,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"unorm@npm:^1.4.1":
-  version: 1.6.0
-  resolution: "unorm@npm:1.6.0"
-  checksum: 9a86546256a45f855b6cfe719086785d6aada94f63778cecdecece8d814ac26af76cb6da70130da0a08b8803bbf0986e56c7ec4249038198f3de02607fffd811
-  languageName: node
-  linkType: hard
-
 "untildify@npm:^3.0.3":
   version: 3.0.3
   resolution: "untildify@npm:3.0.3"
@@ -11515,7 +11429,7 @@ __metadata:
     textlint: ^13.3.2
     textlint-rule-preset-ja-spacing: ^2.3.0
     textlint-rule-preset-ja-technical-writing: ^8.0.0
-    textlint-rule-preset-japanese: ^7.0.0
+    textlint-rule-preset-japanese: ^8.0.0
     ts-node: ^10.9.1
     typescript: ^5.1.6
   languageName: unknown

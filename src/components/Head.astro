@@ -1,4 +1,6 @@
 ---
+import { ViewTransitions } from 'astro:transitions'
+
 import { getOgImageUrl } from "@/utils/getOgImageUrl"
 
 interface Props {
@@ -39,4 +41,5 @@ const ogImageUrl = ogImateSrc
   />
   <meta name="twitter:description" content={ogDescription} />
   <title>{title && `${title} - `}.ごっちの日記</title>
+  <ViewTransitions />
 </head>

@@ -15,7 +15,7 @@
     "@astrojs/tailwind": "^5.0.0",
     "@playwright/test": "^1.37.1",
     "@types/node": "^20.5.1",
-    "@typescript-eslint/eslint-plugin": "^6.4.1",
+    "@typescript-eslint/eslint-plugin": "^6.6.0",
     "@typescript-eslint/parser": "^6.5.0",
     "astro": "^2.10.9",
     "astro-auto-import": "^0.3.1",

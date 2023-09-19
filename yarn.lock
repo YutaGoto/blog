@@ -43,6 +43,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@astrojs/compiler@npm:^1.5.5":
+  version: 1.8.2
+  resolution: "@astrojs/compiler@npm:1.8.2"
+  checksum: 1d55879f8f7aadcad02f19353c085d4e74d5f9cd0d873c600e31ad58928e80d6ab7d6e80b997e2fecabd697f69b0ae166acac58178b833d2d8051a2e35800dc2
+  languageName: node
+  linkType: hard
+
 "@astrojs/compiler@npm:^1.8.0":
   version: 1.8.1
   resolution: "@astrojs/compiler@npm:1.8.1"
@@ -8166,6 +8173,17 @@ __metadata:
   languageName: node
   linkType: hard
 
+"prettier-plugin-astro@npm:^0.12.0":
+  version: 0.12.0
+  resolution: "prettier-plugin-astro@npm:0.12.0"
+  dependencies:
+    "@astrojs/compiler": ^1.5.5
+    prettier: ^3.0.0
+    sass-formatter: ^0.7.6
+  checksum: 7282c8fed999ff232136126eceb98fd316a25386dba8dbe70bdccf529146f53ad20da6bc71fc6ff56ad444e73719a2a561ceb9ee6a1c8808ea6180b62dd0c2e9
+  languageName: node
+  linkType: hard
+
 "prettier-plugin-astro@npm:^0.8.0":
   version: 0.8.0
   resolution: "prettier-plugin-astro@npm:0.8.0"
@@ -8175,18 +8193,6 @@ __metadata:
     sass-formatter: ^0.7.5
     synckit: ^0.8.4
   checksum: 95551c59457cad020d74ea15830a06fb7ae51f7577f897127daae31e3d9b3f99081595ba1571925970f3d7a10d479b2ef37f2eef1c706c2569c590e64487c46e
-  languageName: node
-  linkType: hard
-
-"prettier-plugin-astro@npm:^0.9.0":
-  version: 0.9.0
-  resolution: "prettier-plugin-astro@npm:0.9.0"
-  dependencies:
-    "@astrojs/compiler": ^1.0.1
-    prettier: ^2.8.3
-    sass-formatter: ^0.7.5
-    synckit: ^0.8.4
-  checksum: 789a59ad879b033abb8e5fdfcb42d8f2d7f8dbee5cb8289f79c6aaffab000abeea723f209127ef7b910bf4b5bfdbc47a112dc45e1c512e709c38a97a0e5e80c8
   languageName: node
   linkType: hard
 
@@ -8243,7 +8249,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"prettier@npm:3.0.3":
+"prettier@npm:3.0.3, prettier@npm:^3.0.0":
   version: 3.0.3
   resolution: "prettier@npm:3.0.3"
   bin:
@@ -8969,6 +8975,15 @@ __metadata:
   dependencies:
     suf-log: ^2.5.3
   checksum: 967d789635359cf829f029595789d5e095dd0bb3e57b62d2e3ba7e013c68a89587f8c843ffcdaba0302859c4d69f0a3258f6d2131caf661775dd31868e8ae830
+  languageName: node
+  linkType: hard
+
+"sass-formatter@npm:^0.7.6":
+  version: 0.7.8
+  resolution: "sass-formatter@npm:0.7.8"
+  dependencies:
+    suf-log: ^2.5.3
+  checksum: 8fe8be934878b486a7ad6bcb103e78e26b7dad5d44ad322bbe8a72c9823e90e98acb578a97917cd44d558ef51da50fbb6d59664be40e5062cb86db46c7df93a1
   languageName: node
   linkType: hard
 
@@ -11445,7 +11460,7 @@ __metadata:
     eslint-plugin-unused-imports: ^3.0.0
     gh-pages: ^6.0.0
     prettier: 3.0.3
-    prettier-plugin-astro: ^0.9.0
+    prettier-plugin-astro: ^0.12.0
     prettier-plugin-tailwindcss: ^0.5.3
     prism-themes: ^1.9.0
     prismjs: ^1.29.0

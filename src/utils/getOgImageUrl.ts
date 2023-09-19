@@ -3,7 +3,7 @@ import type { GetStaticPathsOptions, GetStaticPathsResult } from "astro"
 import { getStaticPaths } from "@/pages/open-graph/[...path]"
 
 const routes = (await getStaticPaths(
-  {} as GetStaticPathsOptions
+  {} as GetStaticPathsOptions,
 )) as GetStaticPathsResult
 
 const paths = new Set(routes.map(({ params }) => params.path))

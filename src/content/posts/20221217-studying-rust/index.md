@@ -5,7 +5,7 @@ description: "理解していきたいRust"
 tags: ["Rust", "アドベントカレンダー"]
 ---
 
-![crrustean](/blog/assets/images//posts/20221217-studying-rust/rustacean-orig-noshadow.png)
+![crrustean](/blog/assets/images/posts/20221217-studying-rust/rustacean-orig-noshadow.png)
 
 これは [.ごっ！のアドベントカレンダー](https://adventar.org/calendars/8199) の17日目の記事です。
 
@@ -25,7 +25,7 @@ tags: ["Rust", "アドベントカレンダー"]
 
 といいつつもあと3分の1くらい残っているのでまだかかりそうです。年内には読破したいと考えてます。
 
-![esa](/blog/assets/images//posts/20221217-studying-rust/esa.png)
+![esa](/blog/assets/images/posts/20221217-studying-rust/esa.png)
 
 具体的なコードの理解はOSSを見たほうがよさそうとは思っていますが、そもそもを理解していないと何もわからないので、本を読み切ることを優先しています。
 

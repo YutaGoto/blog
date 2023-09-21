@@ -7,7 +7,7 @@ tags: ["game", "リングフィットアドベンチャー"]
 
 こんにちは。、.ごっちです。
 
-![rfa](/blog/assets/images//posts/20211009-ringfitadv-round3/rfa.png)
+![rfa](/blog/assets/images/posts/20211009-ringfitadv-round3/rfa.png)
 
 2019 年の 10 月末に始めて 2020 年 6 月 17 日に 1 周目完走して、そして 2021 年 3 月 25 日に 2 周目（エクストラモード）を完走し、そして 2021 年 10 月 8 日に 3 周目（マスターモード）を完走したのでその感想です。
 
@@ -18,11 +18,11 @@ tags: ["game", "リングフィットアドベンチャー"]
 半分 意地みたいな感じで続けています。3 周目も用意されています！と宣言されたんでやり切るしかないでしょう！といったところです。
 相も変わらず柔軟体操ができていないので、身体は柔らかくなっていません。それ以外に関して 筋肉はごりごりでないですが、2 年前より圧倒的にあると感じてます。（2 年前の写真がなので比較できないですが）
 
-![profile](/blog/assets/images//posts/20211009-ringfitadv-round3/profile.jpg)
+![profile](/blog/assets/images/posts/20211009-ringfitadv-round3/profile.jpg)
 
 運動不足起因の体の不調がほとんどなくなったので運動って大事なんだなって。めっちゃおすすめです。
 
-![continue](/blog/assets/images//posts/20211009-ringfitadv-round3/continue.jpg)
+![continue](/blog/assets/images/posts/20211009-ringfitadv-round3/continue.jpg)
 
 称号を集めきれていないので、全部集めるまではリングフィットを続けるつもりです！
 

@@ -5,7 +5,7 @@ description: "Minecraftの世界で冒険中"
 tags: ["game", "Minecraft", "アドベントカレンダー"]
 ---
 
-![minecraft](/blog/assets/images//posts/20221214-playing-minecraft/minecraft.png)
+![minecraft](/blog/assets/images/posts/20221214-playing-minecraft/minecraft.png)
 
 これは [.ごっ！のアドベントカレンダー](https://adventar.org/calendars/8199) の14日目の記事です。
 

@@ -5,7 +5,7 @@ description: "一応欠かさず着けています"
 tags: ["Pixel Watch", "アドベントカレンダー"]
 ---
 
-![pixel watch](/blog/assets/images//posts/20221224-pixel-watch/watch.png)
+![pixel watch](/blog/assets/images/posts/20221224-pixel-watch/watch.png)
 
 これは [.ごっ！のアドベントカレンダー](https://adventar.org/calendars/8199) の24日目の記事です。
 
@@ -36,4 +36,4 @@ tags: ["Pixel Watch", "アドベントカレンダー"]
 
 そんなこんなで使いこなしている感じはあまりないです。そういった面では自力でアプリ開発できれば、また違った体験を得られるのかもしれません。
 
-![screenshot](/blog/assets/images//posts/20221224-pixel-watch/screenshot.png)
+![screenshot](/blog/assets/images/posts/20221224-pixel-watch/screenshot.png)

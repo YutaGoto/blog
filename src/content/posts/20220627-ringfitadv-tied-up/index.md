@@ -65,7 +65,7 @@ tags: ["game", "リングフィットアドベンチャー"]
 
 結構な数の称号を開放できました。とはいえ、すべて開放できていないので引き続きエクストラステージを同じ縛りプレイで攻略していく予定です。
 
-![profile](/blog/assets/images//posts/20220627-ringfitadv-tied-up/profile.jpg)
+![profile](/blog/assets/images/posts/20220627-ringfitadv-tied-up/profile.jpg)
 
 ## 記録など
 

@@ -5,7 +5,7 @@ description: "2022年もアイマスもくもく会でしたよ！"
 tags: ["アイドルマスター", "imastudy", "imas_mokumoku", "アドベントカレンダー"]
 ---
 
-![mokumoku](/blog/assets/images//posts/20221216-imas-mokumoku/mokumoku-event.png)
+![mokumoku](/blog/assets/images/posts/20221216-imas-mokumoku/mokumoku-event.png)
 
 これは [.ごっ！のアドベントカレンダー](https://adventar.org/calendars/8199) の16日目の記事です。
 
@@ -21,9 +21,9 @@ tags: ["アイドルマスター", "imastudy", "imas_mokumoku", "アドベント
 
 https://imastudy-mokumoku.connpass.com
 
-![connpass events](/blog/assets/images//posts/20221216-imas-mokumoku/connpass1.png)
+![connpass events](/blog/assets/images/posts/20221216-imas-mokumoku/connpass1.png)
 
-![connpass events](/blog/assets/images//posts/20221216-imas-mokumoku/connpass2.png)
+![connpass events](/blog/assets/images/posts/20221216-imas-mokumoku/connpass2.png)
 
 2022年も相変わらずの情勢だったためオンライン開催です。
 
@@ -31,7 +31,7 @@ https://imastudy-mokumoku.connpass.com
 
 Twitter Spacesでの開催が主になっているので、それに合わせて作りなおしました。
 
-![connpass header](header.V3.png)
+![connpass header](/blog/assets/images/posts/20221216-imas-mokumoku/header.V3.png)
 
 ### 運営
 

@@ -5,7 +5,7 @@ description: "yarn3でもdependabot"
 tags: ["yarn", "dependabot"]
 ---
 
-![dependabot](dependabot.svg)
+![dependabot](/blog/assets/images/posts/20221120-yarn3-dependabot/dependabot.svg)
 
 こんにちは、.ごっちです。
 
@@ -32,4 +32,4 @@ updates:
 
 このファイルをコミットすると dependabotが作動し、PullRequestsを作ってくれます。
 
-![github-pr](/blog/assets/images//posts/20221120-yarn3-dependabot/github-pr.png)
+![github-pr](/blog/assets/images/posts/20221120-yarn3-dependabot/github-pr.png)

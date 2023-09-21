@@ -5,7 +5,7 @@ description: "2022年の自転車記"
 tags: ["自転車", "アドベントカレンダー"]
 ---
 
-![bike](/blog/assets/images//posts/20221201-bike-content/IMG_20171105_133928.jpg)
+![bike](/blog/assets/images/posts/20221201-bike-content/IMG_20171105_133928.jpg)
 
 これは [.ごっ！のアドベントカレンダー](https://adventar.org/calendars/8199) の1日目の記事です。
 今年はひとりでアドベントカレンダーを埋めていきます。

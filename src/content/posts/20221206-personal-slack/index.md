@@ -5,7 +5,7 @@ description: "自分専用のSlackワークスペースを作ってあれこれ"
 tags: ["slack", "アドベントカレンダー"]
 ---
 
-![Slack Logo](/blog/assets/images//posts/20221206-personal-slack/Slack-logo.png)
+![Slack Logo](/blog/assets/images/posts/20221206-personal-slack/Slack-logo.png)
 
 これは [.ごっ！のアドベントカレンダー](https://adventar.org/calendars/8199) の6日目の記事です。
 
@@ -19,7 +19,7 @@ tags: ["slack", "アドベントカレンダー"]
 
 ## チャンネルリスト
 
-![channels](/blog/assets/images//posts/20221206-personal-slack/chs.png)
+![channels](/blog/assets/images/posts/20221206-personal-slack/chs.png)
 
 - #circleci: CircleCI の通知が来ます。
 - #dev: 開発系のちょっとしたメモを書きます。
@@ -37,7 +37,7 @@ Slackのフリープランの規約が変更されて過去90日のメッセー�
 
 ## アプリ・BOT
 
-![Apps](/blog/assets/images//posts/20221206-personal-slack/apps.png)
+![Apps](/blog/assets/images/posts/20221206-personal-slack/apps.png)
 
 フリープランだとSlackに登録できるアプリ数が10となっているので、便利そうなのをすべていれることはできないです。10個でも十分に活用できるのですが、。
 
@@ -60,13 +60,13 @@ Slackのフリープランの規約が変更されて過去90日のメッセー�
 
 ### Slackbot
 
-![bot](/blog/assets/images//posts/20221206-personal-slack/slackbot.jpg)
+![bot](/blog/assets/images/posts/20221206-personal-slack/slackbot.jpg)
 
 Workspaceに一人しかユーザがいないので、リマインダーにしか使っていません。今日明日中にやるレベルのタスクを登録してますし、月初の請求書送付のリマインダーもcronタスクを使って登録して通知しています。言語はPython、定期実行にCircleCIを使っています。
 
 - YutaGoto/office_work_reminder - GitHub: https://github.com/YutaGoto/office_work_reminder
 
-![reminder](/blog/assets/images//posts/20221206-personal-slack/reminder.png)
+![reminder](/blog/assets/images/posts/20221206-personal-slack/reminder.png)
 
 ---
 

@@ -5,7 +5,7 @@ description: "GCP素人ですが、なんとかやっている"
 tags: ["GCP", "Minecraft", "アドベントカレンダー"]
 ---
 
-![cloud](/blog/assets/images//posts/20221215-minecraft-architecture/cloud_generic.png)
+![cloud](/blog/assets/images/posts/20221215-minecraft-architecture/cloud_generic.png)
 
 これは [.ごっ！のアドベントカレンダー](https://adventar.org/calendars/8199) の15日目の記事です。
 
@@ -15,7 +15,7 @@ tags: ["GCP", "Minecraft", "アドベントカレンダー"]
 
 ## Minecraft関連のサービス群の図
 
-![architecture](/blog/assets/images//posts/20221215-minecraft-architecture/Architectures.png)
+![architecture](/blog/assets/images/posts/20221215-minecraft-architecture/Architectures.png)
 
 気がつけばいろいろなサービスを使っています。
 

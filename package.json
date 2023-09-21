@@ -5,7 +5,7 @@
   "version": "0.1.0",
   "author": "Yuta Goto <you.goto.510@gmail.com>",
   "dependencies": {
-    "astro-og-canvas": "^0.1.8",
+    "astro-og-canvas": "^0.2.1",
     "cdate": "^0.0.6",
     "prism-themes": "^1.9.0",
     "prismjs": "^1.29.0",
@@ -17,7 +17,7 @@
     "@types/node": "^20.6.0",
     "@typescript-eslint/eslint-plugin": "^6.7.0",
     "@typescript-eslint/parser": "^6.7.2",
-    "astro": "^2.10.9",
+    "astro": "^3.1.1",
     "astro-auto-import": "^0.3.1",
     "astro-eslint-parser": "^0.15.0",
     "autoprefixer": "^10.4.15",

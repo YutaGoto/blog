@@ -21,7 +21,7 @@ export default defineConfig({
 
   use: {
     // Base URL to use in actions like `await page.goto('/')`.
-    baseURL: "http://localhost:3000/blog/",
+    baseURL: "http://localhost:4321/blog/",
 
     // Collect trace when retrying the failed test.
     trace: "on-first-retry",
@@ -36,7 +36,7 @@ export default defineConfig({
   // Run your local dev server before starting the tests.
   webServer: {
     command: "yarn dev",
-    url: "http://localhost:3000/blog/",
+    url: "http://localhost:4321/blog/",
     reuseExistingServer: !process.env.CI,
   },
 })

@@ -16,7 +16,7 @@
     "@playwright/test": "^1.37.1",
     "@types/node": "^20.6.0",
     "@typescript-eslint/eslint-plugin": "^6.7.0",
-    "@typescript-eslint/parser": "^6.5.0",
+    "@typescript-eslint/parser": "^6.7.2",
     "astro": "^2.10.9",
     "astro-auto-import": "^0.3.1",
     "astro-eslint-parser": "^0.15.0",

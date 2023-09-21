@@ -3,7 +3,7 @@ import { OGImageRoute } from "astro-og-canvas"
 import { allPosts } from "@/content"
 
 const pages = Object.fromEntries(
-  allPosts.map(({ id, slug, data }) => [id, { data, slug }])
+  allPosts.map(({ id, slug, data }) => [id, { data, slug }]),
 )
 
 export const { getStaticPaths, get } = OGImageRoute({

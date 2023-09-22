@@ -5,7 +5,7 @@ description: "のんびりSplatoon3で遊んでいます"
 tags: ["game", "Splatoon3", "アドベントカレンダー"]
 ---
 
-![Splatoon3](/blog/assets/images//posts/20221218-playing-splatoon3/splatoon3.jpg)
+![Splatoon3](/blog/assets/images/posts/20221218-playing-splatoon3/splatoon3.jpg)
 
 これは [.ごっ！のアドベントカレンダー](https://adventar.org/calendars/8199) の18日目の記事です。
 

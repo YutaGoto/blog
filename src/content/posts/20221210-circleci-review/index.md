@@ -5,7 +5,7 @@ description: "趣味プロダクトでお世話になっております"
 tags: ["CircleCI", "アドベントカレンダー"]
 ---
 
-![circleci](circleci-logo.png)
+![circleci](/blog/assets/images/posts/20221210-circleci-review/circleci-logo.png)
 
 これは [.ごっ！のアドベントカレンダー](https://adventar.org/calendars/8199) の10日目の記事です。
 
@@ -35,9 +35,9 @@ Hashicorpに[Vault](https://www.hashicorp.com/products/vault)というプロダ�
 
 Rubyの設定をするときにテンプレートからファイルを編集できるのですが、そのテンプレートが地味に古かったりするのでひと手間が必要だったりします。
 
-![select](/blog/assets/images//posts/20221210-circleci-review/select.png)
+![select](/blog/assets/images/posts/20221210-circleci-review/select.png)
 
-![config](/blog/assets/images//posts/20221210-circleci-review/config.png)
+![config](/blog/assets/images/posts/20221210-circleci-review/config.png)
 
 テンプレートを書くだけではエラーになってしまうので少し悲しい。12月7日時点ではrubyのorbが2.0.0なので惜しい。
 

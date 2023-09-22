@@ -15,7 +15,7 @@ tags: ["Go", "Cli", "Splatoon2", "Salmon Run"]
 
 https://github.com/YutaGoto/ika2cli
 
-![](/blog/assets/images//posts/20190510-splatoon2のステージ情報を取得するコマンドを作っている-続き/splatoon2.gif)
+![](/blog/assets/images/posts/20190510-splatoon2のステージ情報を取得するコマンドを作っている-続き/splatoon2.gif)
 
 ## つかったもの
 

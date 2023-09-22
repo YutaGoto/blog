@@ -5,7 +5,7 @@ description: "NextJSを使った趣味プロダクトです。"
 tags: ["NextJS", "React", "JavaScript", "アドベントカレンダー"]
 ---
 
-![nextjs](/blog/assets/images//posts/20221209-this-year-nextjs-product/next-logo.png)
+![nextjs](/blog/assets/images/posts/20221209-this-year-nextjs-product/next-logo.png)
 
 これは [.ごっ！のアドベントカレンダー](https://adventar.org/calendars/8199) の9日目の記事です。
 
@@ -15,7 +15,7 @@ tags: ["NextJS", "React", "JavaScript", "アドベントカレンダー"]
 
 ## What3Idols
 
-![What3Idols](/blog/assets/images//posts/20221209-this-year-nextjs-product/what3idols-logo.png)
+![What3Idols](/blog/assets/images/posts/20221209-this-year-nextjs-product/what3idols-logo.png)
 
 https://what3idols.vercel.app/
 

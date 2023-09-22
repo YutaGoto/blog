@@ -35,7 +35,7 @@ Go 言語を使うとそういったものが使えることを聞いたこと�
 
 出来上がったものは ↓ です。
 
-![](/blog/assets/images//posts/20190112-Splatoon2のステージ情報を取得するコマンドを作っている/splatoon2.gif)
+![](/blog/assets/images/posts/20190112-Splatoon2のステージ情報を取得するコマンドを作っている/splatoon2.gif)
 
 https://github.com/YutaGoto/ika2cli
 

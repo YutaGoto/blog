@@ -12,7 +12,7 @@ esa が個人で使ったり [mitakarb](https://mitakarb.doorkeeper.jp/) で使�
 
 おかげさまで個人のポストも増えてきました。去年の倍くらいにですかね。esa 日記や日々解いている AtCoder の問題の振り返りを残しているだけあってめちゃくちゃ記事数が伸びています。
 
-![esa7th](/blog/assets/images//posts/20210511-esa7th-tonokoto/esa7th.png)
+![esa7th](/blog/assets/images/posts/20210511-esa7th-tonokoto/esa7th.png)
 
 ↑ 画像: 地味に去年と UI が変わっていることに気がついた。
 

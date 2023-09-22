@@ -5,7 +5,7 @@ description: "リングフィットアドベンチャーをのんびりやって
 tags: ["game", "リングフィットアドベンチャー", "アドベントカレンダー"]
 ---
 
-![Ring Fit Adventure](/blog/assets/images//posts/20221213-ringfitadv-all-titles/rfa.png)
+![Ring Fit Adventure](/blog/assets/images/posts/20221213-ringfitadv-all-titles/rfa.png)
 
 これは [.ごっ！のアドベントカレンダー](https://adventar.org/calendars/8199) の13日目の記事です。
 

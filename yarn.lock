@@ -2759,10 +2759,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"cdate@npm:^0.0.6":
-  version: 0.0.6
-  resolution: "cdate@npm:0.0.6"
-  checksum: 677b381dc8dc2338a93ff73fd2f514c7c7d5fc6142bdf3e6d4035611a54091a2cbd4d6c4c4525173971409a26141a68272b1e83dabeafeb9bd356743f2b359a3
+"cdate@npm:^0.0.7":
+  version: 0.0.7
+  resolution: "cdate@npm:0.0.7"
+  checksum: d4bbc224b06755af314fcbdb1b2b1a4190306046a4b7afd8a6fc261f427c4c7c4ce38407e23dfdb6539d731035641678f0964fba64cf55d5958763f758d935f2
   languageName: node
   linkType: hard
 
@@ -11816,7 +11816,7 @@ __metadata:
     astro-eslint-parser: ^0.15.0
     astro-og-canvas: ^0.2.1
     autoprefixer: ^10.4.15
-    cdate: ^0.0.6
+    cdate: ^0.0.7
     eslint: ^8.49.0
     eslint-config-prettier: ^9.0.0
     eslint-import-resolver-typescript: ^3.5.5

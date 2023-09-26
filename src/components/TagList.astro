@@ -1,7 +1,7 @@
 ---
 interface Props {
-  tags: (string | undefined)[]
-  activeTag?: string;
+  tags: string[]
+  activeTag?: string
 }
 
 import Tag from "./Tag.astro"
@@ -13,5 +13,13 @@ const { tags, activeTag } = Astro.props
   transition:name="tagList"
   transition:animate="fade"
 >
-  {tags.map(tag => tag ? <Tag className="float-left mb-2 mr-2" tag={tag} active={activeTag === tag} /> : <></>)}
+  {
+    tags.map(tag => (
+      <Tag
+        className="float-left mb-2 mr-2"
+        tag={tag}
+        active={activeTag === tag}
+      />
+    ))
+  }
 </div>

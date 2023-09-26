@@ -15,6 +15,8 @@ const tags = post.data?.tags
 
 <div
   class="mb-2 bg-gray-50 px-4 py-10 shadow-lg dark:bg-gray-800 sm:rounded-xl sm:p-5"
+  transition:name=`articleCard-${post.slug}`
+  transition:animate="fade"
 >
   <a href={`/blog/posts/${post.slug}`} class="has-text-black">
     <article class="media" itemtype="http://schema.org/Article">

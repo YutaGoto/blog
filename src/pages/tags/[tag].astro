@@ -6,6 +6,7 @@ import ArticleCard from "@/components/ArticleCard.astro"
 import Bio from "@/components/Bio.astro"
 import Head from "@/components/Head.astro"
 import Layout from "@/components/Layout.astro"
+import TagList from "@/components/TagList.astro"
 
 interface Props {
   posts: MarkdownInstance<Record<string, any>>[]
@@ -27,6 +28,11 @@ export const getStaticPaths = async () => {
     }
   })
 }
+
+const allPosts = await getCollection("posts")
+const tags = [...new Set(allPosts.map(post => post.data?.tags).flat())].filter(
+  e => Boolean(e),
+)
 
 const { tag } = Astro.params
 const { posts } = Astro.props as Props
@@ -53,6 +59,7 @@ const { posts } = Astro.props as Props
         </div>
         <div class="mb-2 lg:flex-none">
           <Bio />
+          <TagList tags={tags} activeTag={tag} />
         </div>
       </div>
     </Layout>

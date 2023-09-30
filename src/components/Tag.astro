@@ -3,13 +3,16 @@ interface Props {
   tag: string
   className?: string
   withLink?: boolean
+  active?: boolean
 }
 
-const { tag, className, withLink = true } = Astro.props
+const { tag, className, withLink = true, active = false } = Astro.props
 ---
 
 <span
-  class={`${className} rounded bg-emerald-800 py-1 px-2 text-sm text-gray-100`}
+  class={`${className} rounded ${
+    active ? "bg-emerald-600" : "bg-emerald-800"
+  } py-1 px-2 text-sm text-gray-100`}
 >
   {withLink ? <a href={`/blog/tags/${tag}`}>{tag}</a> : tag}
 </span>

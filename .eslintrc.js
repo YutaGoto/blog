@@ -4,6 +4,9 @@ module.exports = {
     es2022: true,
     browser: true,
   },
+  globals: {
+    dataLayer: "writable",
+  },
   extends: ["eslint:recommended", "plugin:astro/recommended"],
   parserOptions: {
     ecmaVersion: "latest",

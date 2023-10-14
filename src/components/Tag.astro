@@ -14,5 +14,13 @@ const { tag, className, withLink = true, active = false } = Astro.props
     active ? "bg-emerald-600" : "bg-emerald-800"
   } py-1 px-2 text-sm text-gray-100`}
 >
-  {withLink ? <a href={`/blog/tags/${tag}`}>{tag}</a> : tag}
+  {
+    withLink ? (
+      <a href={`/blog/tags/${tag}`} astro-data-history="push">
+        {tag}
+      </a>
+    ) : (
+      tag
+    )
+  }
 </span>

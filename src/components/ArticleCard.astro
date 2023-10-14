@@ -18,7 +18,11 @@ const tags = post.data?.tags
   transition:name=`articleCard-${post.slug}`
   transition:animate="fade"
 >
-  <a href={`/blog/posts/${post.slug}`} class="has-text-black">
+  <a
+    href={`/blog/posts/${post.slug}`}
+    class="has-text-black"
+    astro-data-history="push"
+  >
     <article class="media" itemtype="http://schema.org/Article">
       <div class="">
         <div class="mb-2 text-2xl">{title}</div>

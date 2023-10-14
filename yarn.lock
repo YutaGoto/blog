@@ -1617,10 +1617,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/node@npm:^20.8.0":
-  version: 20.8.0
-  resolution: "@types/node@npm:20.8.0"
-  checksum: ebad6342d54238a24bf980d7750117a5d67749c9b72cbb7a974a1e932c39034aa3a810d669e007e8a5071782a253aa069a187b614407a382403c9826e837c849
+"@types/node@npm:^20.8.6":
+  version: 20.8.6
+  resolution: "@types/node@npm:20.8.6"
+  dependencies:
+    undici-types: ~5.25.1
+  checksum: ccfb7ac482c5a96edeb239893c5c099f5257fcc2ed9ae62fefdfbc782b79e16dbc2af9a85b379665237bf759904b44ca2be68e75d239e0297882aad42f61905c
   languageName: node
   linkType: hard
 
@@ -2335,22 +2337,6 @@ __metadata:
   peerDependencies:
     astro: ^2.0.0 || ^3.0.0-beta
   checksum: 279e7a745a4d799cedc5b7dc9878686959eadf90a610685a82e1abc5ba6f1102772c43a17e5bd49269f9fb3b575e72a01df1b95d511ac18d0dc5de927a7d8f93
-  languageName: node
-  linkType: hard
-
-"astro-eslint-parser@npm:^0.15.0":
-  version: 0.15.0
-  resolution: "astro-eslint-parser@npm:0.15.0"
-  dependencies:
-    "@astrojs/compiler": ^2.0.0
-    "@typescript-eslint/scope-manager": ^5.0.0
-    "@typescript-eslint/types": ^5.0.0
-    astrojs-compiler-sync: ^0.3.0
-    debug: ^4.3.4
-    eslint-visitor-keys: ^3.0.0
-    espree: ^9.0.0
-    semver: ^7.3.8
-  checksum: 0745d8d581968cba04ec9a34e3f98a6b43af3815208ec98228efe91f74fbdcdb6e40005d808926df831f7cf2f70c58bd572ee53bbe63babd24df6f9b9202c50a
   languageName: node
   linkType: hard
 
@@ -11152,6 +11138,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"undici-types@npm:~5.25.1":
+  version: 5.25.3
+  resolution: "undici-types@npm:5.25.3"
+  checksum: ec9d2cc36520cbd9fbe3b3b6c682a87fe5be214699e1f57d1e3d9a2cb5be422e62735f06e0067dc325fd3dd7404c697e4d479f9147dc8a804e049e29f357f2ff
+  languageName: node
+  linkType: hard
+
 "undici@npm:^5.23.0":
   version: 5.25.1
   resolution: "undici@npm:5.25.1"
@@ -11862,7 +11855,7 @@ __metadata:
     "@astrojs/partytown": ^2.0.0
     "@astrojs/tailwind": ^5.0.0
     "@playwright/test": ^1.38.1
-    "@types/node": ^20.8.0
+    "@types/node": ^20.8.6
     "@typescript-eslint/eslint-plugin": ^6.7.5
     "@typescript-eslint/parser": ^6.7.3
     astro: ^3.2.0

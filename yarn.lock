@@ -2309,6 +2309,22 @@ __metadata:
   languageName: node
   linkType: hard
 
+"astro-eslint-parser@npm:^0.16.0":
+  version: 0.16.0
+  resolution: "astro-eslint-parser@npm:0.16.0"
+  dependencies:
+    "@astrojs/compiler": ^2.0.0
+    "@typescript-eslint/scope-manager": ^5.0.0
+    "@typescript-eslint/types": ^5.0.0
+    astrojs-compiler-sync: ^0.3.0
+    debug: ^4.3.4
+    eslint-visitor-keys: ^3.0.0
+    espree: ^9.0.0
+    semver: ^7.3.8
+  checksum: 1ce6250240d5400151b62f66d0239c2571ce11316d80aa1259bc04f78f73a2866c5017439a41d058a2fe43db6982b8eae8e151f806cdb8757045c16a94ed468c
+  languageName: node
+  linkType: hard
+
 "astro-og-canvas@npm:^0.2.1":
   version: 0.2.1
   resolution: "astro-og-canvas@npm:0.2.1"
@@ -11806,7 +11822,7 @@ __metadata:
     "@typescript-eslint/parser": ^6.7.3
     astro: ^3.2.0
     astro-auto-import: ^0.3.1
-    astro-eslint-parser: ^0.15.0
+    astro-eslint-parser: ^0.16.0
     astro-og-canvas: ^0.2.1
     autoprefixer: ^10.4.16
     cdate: ^0.0.7

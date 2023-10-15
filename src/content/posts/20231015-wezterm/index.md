@@ -1,6 +1,6 @@
 ---
 title: コマンドラインツールをHyperからWezTermに乗り換えた
-date: "2023-10-14T00:01:00.000Z"
+date: "2023-10-17T00:01:00.000Z"
 description: "Rust製に染まりたい"
 tags: ["Terminal", "Hyper", "WezTerm"]
 ---
@@ -71,3 +71,5 @@ config.background = {
 
 return config
 ```
+
+![my-wezterm](/blog/assets/images/posts/20231015-wezterm/my-wezterm.png)

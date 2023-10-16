@@ -13,7 +13,7 @@
     "remixicon": "^3.5.0"
   },
   "devDependencies": {
-    "@astrojs/tailwind": "^5.0.0",
+    "@astrojs/tailwind": "^5.0.2",
     "@playwright/test": "^1.38.1",
     "@types/node": "^20.8.6",
     "@typescript-eslint/eslint-plugin": "^6.7.5",

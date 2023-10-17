@@ -81,13 +81,13 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@astrojs/partytown@npm:^2.0.0":
-  version: 2.0.0
-  resolution: "@astrojs/partytown@npm:2.0.0"
+"@astrojs/partytown@npm:^2.0.1":
+  version: 2.0.1
+  resolution: "@astrojs/partytown@npm:2.0.1"
   dependencies:
     "@builder.io/partytown": ^0.8.0
     mrmime: ^1.0.1
-  checksum: 18e7c5fad4b4b0f8cc88c27024e70fd14a7bd7bfc567273ed31c10c1f6405f9575682ee2a651f36de0636473aa0f0f8e154637099659d910bc603267d1098988
+  checksum: 70f6c1b1d009c313546b34560b1469694301af7d014b5a71767fefa7bcf9928589e547fe9615f54021dfab21421a42943e1c3f92afac2e6f336a61d2687dc634
   languageName: node
   linkType: hard
 
@@ -12017,7 +12017,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "yutagoto-blog@workspace:."
   dependencies:
-    "@astrojs/partytown": ^2.0.0
+    "@astrojs/partytown": ^2.0.1
     "@astrojs/tailwind": ^5.0.2
     "@playwright/test": ^1.39.0
     "@types/node": ^20.8.6

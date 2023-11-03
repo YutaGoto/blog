@@ -2317,9 +2317,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"astro@npm:^3.3.4":
-  version: 3.3.4
-  resolution: "astro@npm:3.3.4"
+"astro@npm:^3.4.3":
+  version: 3.4.3
+  resolution: "astro@npm:3.4.3"
   dependencies:
     "@astrojs/compiler": ^2.1.0
     "@astrojs/internal-helpers": 0.2.1
@@ -2355,9 +2355,11 @@ __metadata:
     js-yaml: ^4.1.0
     kleur: ^4.1.4
     magic-string: ^0.30.3
+    mdast-util-to-hast: 12.3.0
     mime: ^3.0.0
     ora: ^7.0.1
     p-limit: ^4.0.0
+    p-queue: ^7.4.1
     path-to-regexp: ^6.2.1
     preferred-pm: ^3.1.2
     probe-image-size: ^7.2.3
@@ -2377,13 +2379,13 @@ __metadata:
     vitefu: ^0.2.4
     which-pm: ^2.1.1
     yargs-parser: ^21.1.1
-    zod: 3.21.1
+    zod: ^3.22.4
   dependenciesMeta:
     sharp:
       optional: true
   bin:
     astro: astro.js
-  checksum: 5ac495e24c59a63011b17a9475051e32100f13b15adfdc19310db21751e45f020800b962978a9bb80b7ffd8bb23db3c387792bb7bb45db2e37156afd4fd7800e
+  checksum: a3c957373a8058ab9c1e70152e2654dfcb388d2371b9edc70dca3fdbcca44a9750a3b7d5732b6d6e11aa8bed6e4a4ba6cf3e9e1845f263ff476ab01be53ebb12
   languageName: node
   linkType: hard
 
@@ -4249,6 +4251,13 @@ __metadata:
   version: 2.0.3
   resolution: "esutils@npm:2.0.3"
   checksum: 22b5b08f74737379a840b8ed2036a5fb35826c709ab000683b092d9054e5c2a82c27818f12604bfc2a9a76b90b6834ef081edbc1c7ae30d1627012e067c6ec87
+  languageName: node
+  linkType: hard
+
+"eventemitter3@npm:^5.0.1":
+  version: 5.0.1
+  resolution: "eventemitter3@npm:5.0.1"
+  checksum: 543d6c858ab699303c3c32e0f0f47fc64d360bf73c3daf0ac0b5079710e340d6fe9f15487f94e66c629f5f82cd1a8678d692f3dbb6f6fcd1190e1b97fcad36f8
   languageName: node
   linkType: hard
 
@@ -6844,7 +6853,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"mdast-util-to-hast@npm:^12.1.0":
+"mdast-util-to-hast@npm:12.3.0, mdast-util-to-hast@npm:^12.1.0":
   version: 12.3.0
   resolution: "mdast-util-to-hast@npm:12.3.0"
   dependencies:
@@ -8136,6 +8145,23 @@ __metadata:
   dependencies:
     aggregate-error: ^3.0.0
   checksum: cb0ab21ec0f32ddffd31dfc250e3afa61e103ef43d957cc45497afe37513634589316de4eb88abdfd969fe6410c22c0b93ab24328833b8eb1ccc087fc0442a1c
+  languageName: node
+  linkType: hard
+
+"p-queue@npm:^7.4.1":
+  version: 7.4.1
+  resolution: "p-queue@npm:7.4.1"
+  dependencies:
+    eventemitter3: ^5.0.1
+    p-timeout: ^5.0.2
+  checksum: 1c6888aa994d399262a9fbdd49c7066f8359732397f7a42ecf03f22875a1d65899797b46413f97e44acc18dddafbcc101eb135c284714c931dbbc83c3967f450
+  languageName: node
+  linkType: hard
+
+"p-timeout@npm:^5.0.2":
+  version: 5.1.0
+  resolution: "p-timeout@npm:5.1.0"
+  checksum: f5cd4e17301ff1ff1d8dbf2817df0ad88c6bba99349fc24d8d181827176ad4f8aca649190b8a5b1a428dfd6ddc091af4606835d3e0cb0656e04045da5c9e270c
   languageName: node
   linkType: hard
 
@@ -12029,7 +12055,7 @@ __metadata:
     "@types/node": ^20.8.9
     "@typescript-eslint/eslint-plugin": ^6.9.0
     "@typescript-eslint/parser": ^6.9.0
-    astro: ^3.3.4
+    astro: ^3.4.3
     astro-auto-import: ^0.3.1
     astro-eslint-parser: ^0.16.0
     astro-og-canvas: ^0.2.1
@@ -12071,10 +12097,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"zod@npm:3.21.1":
-  version: 3.21.1
-  resolution: "zod@npm:3.21.1"
-  checksum: e02ed16b26e171f244fb7592177bef21b67956683aaed57bc8f02dfa5ad307d5cf347e9557c84c0849d96305efaf7c90c909620eaade08cfdf35f62935d741d2
+"zod@npm:^3.22.4":
+  version: 3.22.4
+  resolution: "zod@npm:3.22.4"
+  checksum: 80bfd7f8039b24fddeb0718a2ec7c02aa9856e4838d6aa4864335a047b6b37a3273b191ef335bf0b2002e5c514ef261ffcda5a589fb084a48c336ffc4cdbab7f
   languageName: node
   linkType: hard
 

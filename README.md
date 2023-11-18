@@ -9,5 +9,5 @@
 ## dev
 
 ```sh
-yarn dev
+pnpm dev
 ```

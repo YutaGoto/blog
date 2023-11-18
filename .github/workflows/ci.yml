@@ -7,13 +7,16 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+      - uses: pnpm/action-setup@v2
+        with:
+          version: 8
       - name: Use Node.js
         uses: actions/setup-node@v4
         with:
           node-version-file: ".node-version"
       - name: Install dependencies
-        run: yarn
+        run: pnpm install
       - name: Lint
-        run: yarn lint
+        run: pnpm lint
       - name: TextLint
-        run: yarn textlint
+        run: pnpm textlint

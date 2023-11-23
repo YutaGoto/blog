@@ -7,14 +7,12 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      - uses: pnpm/action-setup@v2
-        with:
-          version: 8
+      - uses: oven-sh/setup-bun@v1
       - uses: actions/setup-node@v4
         with:
           node-version-file: ".node-version"
       - name: Install dependencies
-        run: pnpm install
+        run: bun install
       - name: Install playwright browsers
         run: npx playwright install --with-deps
       - name: Run tests

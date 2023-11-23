@@ -63,5 +63,6 @@
     "textlint": "textlint src/content/posts/202[1-9]**/*.md",
     "typecheck": "astro check && tsc --noEmit",
     "test": "playwright test"
-  }
+  },
+  "packageManager": "pnpm@8.10.5"
 }

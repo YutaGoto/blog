@@ -44,8 +44,8 @@ devDependencies:
     specifier: ^3.5.5
     version: 3.5.5(@types/node@20.8.9)(sass@1.69.5)(typescript@5.2.2)
   astro-auto-import:
-    specifier: ^0.3.1
-    version: 0.3.1(astro@3.5.5)
+    specifier: ^0.3.2
+    version: 0.3.2(astro@3.5.5)
   astro-eslint-parser:
     specifier: ^0.16.0
     version: 0.16.0
@@ -1702,8 +1702,8 @@ packages:
     engines: {node: '>=8'}
     dev: true
 
-  /astro-auto-import@0.3.1(astro@3.5.5):
-    resolution: {integrity: sha512-4kXZMlZFiq3dqT6fcfPbCjHTABQ279eKbIqZAb6qktBhGlmHwpHr1spOUFj/RQFilaWVgfjzOBmuZnoydZb5Vg==}
+  /astro-auto-import@0.3.2(astro@3.5.5):
+    resolution: {integrity: sha512-xnr56geVyqJTu5qicJzvxqSnkhktq7SulWIzme1Vs5mrrcMkH/N1s7TEYkgJCN2b5qSeltqqZ7UUSD3xXrXamA==}
     engines: {node: '>=16.0.0'}
     peerDependencies:
       astro: ^2.0.0 || ^3.0.0-beta

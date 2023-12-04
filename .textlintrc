@@ -10,6 +10,11 @@
       "no-mix-dearu-desumasu": false,
       "sentence-length": {
         "max": 180
+      },
+      "ja-no-successive-word": {
+        "allow": [
+          "ほど"
+        ]
       }
     },
     "preset-japanese": {

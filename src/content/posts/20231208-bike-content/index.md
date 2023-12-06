@@ -27,6 +27,8 @@ tags: ["自転車", "アドベントカレンダー"]
 
 郡山散策のブログでも書いた通り、1度だけ猪苗代湖周辺まで電車で行き自転車を借りて走っていました。
 
+- 郡山と周辺散歩 - .ごっちの日記: https://yutagoto.github.io/blog/posts/20231206-koriyama-neighborhood/
+
 ![inawashiro-lake](/blog/assets/images/posts/20231208-bike-content/inawashiro.jpg)
 
 来年はもうちょっと足を延ばして遠出したいものです。

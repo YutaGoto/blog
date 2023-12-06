@@ -6,7 +6,7 @@
   "author": "Yuta Goto <you.goto.510@gmail.com>",
   "dependencies": {
     "@astrojs/partytown": "^2.0.1",
-    "astro-og-canvas": "^0.3.2",
+    "astro-og-canvas": "^0.4.1",
     "cdate": "^0.0.7",
     "prism-themes": "^1.9.0",
     "prismjs": "^1.29.0",

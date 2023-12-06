@@ -2,7 +2,7 @@
 title: 2023年の自転車ログ
 date: "2023-12-08T00:01:00.000Z"
 description: "移住したあとも走っている"
-tags: ["自転車"]
+tags: ["自転車", "アドベントカレンダー"]
 ---
 
 ![top-image](/blog/assets/images/posts/20231208-bike-content/top.jpg)

@@ -2,7 +2,7 @@
 title: BABA IS YOUをカスタマイズ
 date: "2023-12-02T00:01:00.000Z"
 description: "いろいろ IS YOU"
-tags: ["BABA IS YOU", "Game", "アドベントカレンダー"]
+tags: ["BABA IS YOU", "game", "アドベントカレンダー"]
 ---
 
 ![baba-is-you](/blog/assets/images/posts/20231202-customize-babaisyou/logo.gif)

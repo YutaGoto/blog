@@ -15,11 +15,21 @@
         "allow": [
           "ほど"
         ]
+      },
+      "no-doubled-joshi": {
+        "allow": [
+          "も"
+        ]
       }
     },
     "preset-japanese": {
       "sentence-length": {
         "max": 180
+      },
+      "no-doubled-joshi": {
+        "allow": [
+          "も"
+        ]
       }
     }
   }

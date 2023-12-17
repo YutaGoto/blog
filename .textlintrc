@@ -4,6 +4,7 @@
     "preset-ja-spacing": false,
     "preset-ja-technical-writing": {
       "ja-no-weak-phrase": false,
+      "arabic-kanji-numbers": false,
       "max": 180,
       "max-kanji-continuous-len": false,
       "no-exclamation-question-mark": false,

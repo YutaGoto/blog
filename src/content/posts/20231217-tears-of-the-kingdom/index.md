@@ -5,7 +5,7 @@ description: "ブレスオブザワイルドにひきつづきとてもよかっ
 tags: ["ゼルダの伝説", "ゼルダの伝説 ティアーズオブザキングダム", "game", "アドベントカレンダー"]
 ---
 
-<img width="1060" alt="logo_totk.webp (165.9 kB)" src="https://img.esa.io/uploads/production/attachments/10836/2023/12/10/43446/a994e10a-3ea3-4599-b09d-68777a0c1937.webp">
+<img width="1060" alt="logo_totk.webp (165.9 kB)" src="/blog/assets/images/posts/20231217-tears-of-the-kingdom/logo_totk.webp">
 
 これは [.ごっ！のアドベントカレンダー](https://adventar.org/calendars/9122) の17日目の記事です。
 

@@ -10,7 +10,7 @@
     "cdate": "^0.0.7",
     "prism-themes": "^1.9.0",
     "prismjs": "^1.29.0",
-    "remixicon": "^3.5.0"
+    "remixicon": "^4.0.1"
   },
   "devDependencies": {
     "@astrojs/tailwind": "^5.0.2",

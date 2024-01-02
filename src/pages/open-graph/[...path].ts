@@ -10,6 +10,10 @@ export const { getStaticPaths, GET } = OGImageRoute({
   getImageOptions: async (_, { data }: (typeof pages)[string]) => ({
     title: data.title,
     description: data.description,
+    logo: {
+      path: "./src/pages/open-graph/icon.png",
+      size: [128],
+    },
 
     bgGradient: [
       [0, 0, 0],

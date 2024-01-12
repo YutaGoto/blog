@@ -13,6 +13,7 @@ const { tags, activeTag } = Astro.props
   transition:name="tagList"
   transition:animate="fade"
 >
+  <div class="mb-2 text-lg">Tags <i class="ri-price-tag-3-line"></i></div>
   {
     tags.map(tag => (
       <Tag

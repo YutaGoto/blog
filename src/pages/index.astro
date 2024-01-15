@@ -35,15 +35,18 @@ allPosts.reverse()
 
     <script
       type="text/partytown"
-      src="https://www.googletagmanager.com/gtag/js?id=G-WDXGRMPVMC"></script>
+      src=`https://www.googletagmanager.com/gtag/js?id=${import.meta.env.PROD ? "G-WDXGRMPVMC" : "G-4ZQZQZQZQZ"}`
+    ></script>
     <script type="text/partytown">
       window.dataLayer = window.dataLayer || []
       function gtag() {
         dataLayer.push(arguments)
       }
       gtag("js", new Date())
-
-      gtag("config", "G-WDXGRMPVMC")
+      gtag(
+        "config",
+        `${import.meta.env.PROD ? "G-WDXGRMPVMC" : "G-4ZQZQZQZQZ"}`,
+      )
     </script>
   </body>
 </html>

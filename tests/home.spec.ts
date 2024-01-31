@@ -47,3 +47,29 @@ test("work profile X link", async ({ page, context }) => {
   await newPage.waitForLoadState()
   expect(newPage.url()).toBe("https://twitter.com/gggooottto")
 })
+
+test("work profile Twitch link", async ({ page, context }) => {
+  const pagePromise = context.waitForEvent("page")
+
+  await page.goto("./")
+  const twitchIcon = page.locator("i.ri-twitch-fill").first()
+  await expect(twitchIcon).toBeVisible()
+
+  await twitchIcon.click()
+  const newPage = await pagePromise
+  await newPage.waitForLoadState()
+  expect(newPage.url()).toBe("https://www.twitch.tv/gggooottto")
+})
+
+test("work profile YouTube link", async ({ page, context }) => {
+  const pagePromise = context.waitForEvent("page")
+
+  await page.goto("./")
+  const youtubeIcon = page.locator("i.ri-youtube-fill").first()
+  await expect(youtubeIcon).toBeVisible()
+
+  await youtubeIcon.click()
+  const newPage = await pagePromise
+  await newPage.waitForLoadState()
+  expect(newPage.url()).toBe("https://www.youtube.com/channel/UCbr3rCkINeQX_0XMmPCgi1w")
+})

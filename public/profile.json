@@ -2,7 +2,7 @@
   "title": ".ごっちの日記",
   "author": {
     "name": "Yuta Goto",
-    "summary": "フリーランスのソフトウェアエンジニアです。 現在はReact.jsを使用したWebフロントエンドの開発やRuby on Railsを使用したサーバサイドの開発を行っています。"
+    "summary": "フリーランスのソフトウェアエンジニアです。現在はReact.jsを使用したWebフロントエンドの開発やRuby on Railsを使用したサーバサイドの開発を行っています。"
   },
   "description": ".ごっちのつれづれなる日記",
   "siteUrl": "https://yutagoto.github.io/",
@@ -14,6 +14,14 @@
     {
       "name": "github",
       "url": "https://github.com/YutaGoto"
+    },
+    {
+      "name": "twitch",
+      "url": "https://twitch.tv/gggooottto"
+    },
+    {
+      "name": "youtube",
+      "url": "https://www.youtube.com/channel/UCbr3rCkINeQX_0XMmPCgi1w"
     }
   ]
 }

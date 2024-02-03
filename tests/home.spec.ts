@@ -48,6 +48,19 @@ test("work profile X link", async ({ page, context }) => {
   expect(newPage.url()).toBe("https://twitter.com/gggooottto")
 })
 
+test("work profile Bluesky link", async ({ page, context }) => {
+  const pagePromise = context.waitForEvent("page")
+
+  await page.goto("./")
+  const twitchIcon = page.locator("i.ri-bluesky-fill").first()
+  await expect(twitchIcon).toBeVisible()
+
+  await twitchIcon.click()
+  const newPage = await pagePromise
+  await newPage.waitForLoadState()
+  expect(newPage.url()).toBe("https://bsky.app/profile/yougoto.bsky.social")
+})
+
 test("work profile Twitch link", async ({ page, context }) => {
   const pagePromise = context.waitForEvent("page")
 
@@ -71,5 +84,7 @@ test("work profile YouTube link", async ({ page, context }) => {
   await youtubeIcon.click()
   const newPage = await pagePromise
   await newPage.waitForLoadState()
-  expect(newPage.url()).toBe("https://www.youtube.com/channel/UCbr3rCkINeQX_0XMmPCgi1w")
+  expect(newPage.url()).toBe(
+    "https://www.youtube.com/channel/UCbr3rCkINeQX_0XMmPCgi1w",
+  )
 })

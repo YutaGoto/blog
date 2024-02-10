@@ -3,6 +3,7 @@ import { getCollection } from "astro:content"
 
 import ArticleCard from "@/components/ArticleCard.astro"
 import Bio from "@/components/Bio.astro"
+import Work from "@/components/Work.astro"
 import Head from "@/components/Head.astro"
 import Layout from "@/components/Layout.astro"
 import TagList from "@/components/TagList.astro"
@@ -10,7 +11,7 @@ import TagList from "@/components/TagList.astro"
 const allPosts = await getCollection("posts")
 const tags = [...new Set(allPosts.map(post => post.data?.tags).flat())].filter(
   e => Boolean(e),
-)
+) as string[]
 allPosts.reverse()
 ---
 
@@ -28,6 +29,7 @@ allPosts.reverse()
         </div>
         <div class="mb-2 lg:flex-1">
           <Bio />
+          <Work />
           <TagList tags={tags} />
         </div>
       </div>

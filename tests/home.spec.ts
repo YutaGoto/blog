@@ -1,3 +1,5 @@
+import { describe } from "node:test"
+
 import { expect, test } from "@playwright/test"
 
 test("go home", async ({ page }) => {
@@ -22,69 +24,135 @@ test("show tags", async ({ page }) => {
   ).toBeTruthy()
 })
 
-test("work profile GitHub link", async ({ page, context }) => {
-  const pagePromise = context.waitForEvent("page")
+describe("profile links", () => {
+  test("work profile GitHub link", async ({ page, context }) => {
+    const pagePromise = context.waitForEvent("page")
 
-  await page.goto("./")
-  const githubIcon = page.locator("i.ri-github-fill").first()
-  await expect(githubIcon).toBeVisible()
+    await page.goto("./")
+    const githubIcon = page.locator("i.ri-github-fill").first()
+    await expect(githubIcon).toBeVisible()
 
-  await githubIcon.click()
-  const newPage = await pagePromise
-  await newPage.waitForLoadState()
-  expect(newPage.url()).toBe("https://github.com/YutaGoto")
+    await githubIcon.click()
+    const newPage = await pagePromise
+    await newPage.waitForLoadState()
+    expect(newPage.url()).toBe("https://github.com/YutaGoto")
+  })
+
+  test("work profile X link", async ({ page, context }) => {
+    const pagePromise = context.waitForEvent("page")
+
+    await page.goto("./")
+    const xIcon = page.locator("i.ri-twitter-x-fill").first()
+    await expect(xIcon).toBeVisible()
+
+    await xIcon.click()
+    const newPage = await pagePromise
+    await newPage.waitForLoadState()
+    expect(newPage.url()).toBe("https://twitter.com/gggooottto")
+  })
+
+  test("work profile Bluesky link", async ({ page, context }) => {
+    const pagePromise = context.waitForEvent("page")
+
+    await page.goto("./")
+    const twitchIcon = page.locator("i.ri-bluesky-fill").first()
+    await expect(twitchIcon).toBeVisible()
+
+    await twitchIcon.click()
+    const newPage = await pagePromise
+    await newPage.waitForLoadState()
+    expect(newPage.url()).toBe("https://bsky.app/profile/yougoto.bsky.social")
+  })
+
+  test("work profile Twitch link", async ({ page, context }) => {
+    const pagePromise = context.waitForEvent("page")
+
+    await page.goto("./")
+    const twitchIcon = page.locator("i.ri-twitch-fill").first()
+    await expect(twitchIcon).toBeVisible()
+
+    await twitchIcon.click()
+    const newPage = await pagePromise
+    await newPage.waitForLoadState()
+    expect(newPage.url()).toBe("https://www.twitch.tv/gggooottto")
+  })
+
+  test("work profile YouTube link", async ({ page, context }) => {
+    const pagePromise = context.waitForEvent("page")
+
+    await page.goto("./")
+    const youtubeIcon = page.locator("i.ri-youtube-fill").first()
+    await expect(youtubeIcon).toBeVisible()
+
+    await youtubeIcon.click()
+    const newPage = await pagePromise
+    await newPage.waitForLoadState()
+    expect(newPage.url()).toBe(
+      "https://www.youtube.com/channel/UCbr3rCkINeQX_0XMmPCgi1w",
+    )
+  })
 })
 
-test("work profile X link", async ({ page, context }) => {
-  const pagePromise = context.waitForEvent("page")
+describe("my works link", () => {
+  test("show works section", async ({ page }) => {
+    await expect(page).toHaveTitle("製作物")
+  })
 
-  await page.goto("./")
-  const xIcon = page.locator("i.ri-twitter-x-fill").first()
-  await expect(xIcon).toBeVisible()
+  test("Zelda Bingo link", async ({ page, context }) => {
+    const pagePromise = context.waitForEvent("page")
 
-  await xIcon.click()
-  const newPage = await pagePromise
-  await newPage.waitForLoadState()
-  expect(newPage.url()).toBe("https://twitter.com/gggooottto")
-})
+    await page.goto("./")
+    const bingoLink = page
+      .locator("#work")
+      .getByText("初代ゼルダの伝説ビンゴ")
+      .first()
+    await expect(bingoLink).toBeVisible()
 
-test("work profile Bluesky link", async ({ page, context }) => {
-  const pagePromise = context.waitForEvent("page")
+    await bingoLink.click()
+    const newPage = await pagePromise
+    await newPage.waitForLoadState()
+    expect(newPage.url()).toBe("https://zelda1-bingo.vercel.app/")
+  })
 
-  await page.goto("./")
-  const twitchIcon = page.locator("i.ri-bluesky-fill").first()
-  await expect(twitchIcon).toBeVisible()
+  test("Selfy compendium link", async ({ page, context }) => {
+    const pagePromise = context.waitForEvent("page")
 
-  await twitchIcon.click()
-  const newPage = await pagePromise
-  await newPage.waitForLoadState()
-  expect(newPage.url()).toBe("https://bsky.app/profile/yougoto.bsky.social")
-})
+    await page.goto("./")
+    const selfyLink = page
+      .locator("#work")
+      .getByText("自撮りハイラル図鑑")
+      .first()
+    await expect(selfyLink).toBeVisible()
 
-test("work profile Twitch link", async ({ page, context }) => {
-  const pagePromise = context.waitForEvent("page")
+    await selfyLink.click()
+    const newPage = await pagePromise
+    await newPage.waitForLoadState()
+    expect(newPage.url()).toBe("https://hyrule-selfy-compendium.vercel.app/")
+  })
 
-  await page.goto("./")
-  const twitchIcon = page.locator("i.ri-twitch-fill").first()
-  await expect(twitchIcon).toBeVisible()
+  test("What3Idols link", async ({ page, context }) => {
+    const pagePromise = context.waitForEvent("page")
 
-  await twitchIcon.click()
-  const newPage = await pagePromise
-  await newPage.waitForLoadState()
-  expect(newPage.url()).toBe("https://www.twitch.tv/gggooottto")
-})
+    await page.goto("./")
+    const idolLink = page.locator("#work").getByText("What3Idols").first()
+    await expect(idolLink).toBeVisible()
 
-test("work profile YouTube link", async ({ page, context }) => {
-  const pagePromise = context.waitForEvent("page")
+    await idolLink.click()
+    const newPage = await pagePromise
+    await newPage.waitForLoadState()
+    expect(newPage.url()).toBe("https://what3idols.vercel.app/")
+  })
 
-  await page.goto("./")
-  const youtubeIcon = page.locator("i.ri-youtube-fill").first()
-  await expect(youtubeIcon).toBeVisible()
+  test("Ika3 link", async ({ page, context }) => {
+    const pagePromise = context.waitForEvent("page")
 
-  await youtubeIcon.click()
-  const newPage = await pagePromise
-  await newPage.waitForLoadState()
-  expect(newPage.url()).toBe(
-    "https://www.youtube.com/channel/UCbr3rCkINeQX_0XMmPCgi1w",
-  )
+    await page.goto("./")
+    const ika3Link = page.locator("#work").getByText("Ika3 rubygem").first()
+    await expect(ika3Link).toBeVisible()
+
+    await ika3Link.click()
+    const newPage = await pagePromise
+    await newPage.waitForLoadState()
+    expect(newPage.url()).toBe("https://rubygems.org/gems/ika3")
+  })
 })

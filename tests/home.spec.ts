@@ -95,7 +95,10 @@ describe("profile links", () => {
 
 describe("my works link", () => {
   test("show works section", async ({ page }) => {
-    await expect(page).toHaveTitle("製作物")
+    await page.goto("./")
+    await expect(
+      page.locator("#work").getByText("製作物").first(),
+    ).toBeVisible()
   })
 
   test("Zelda Bingo link", async ({ page, context }) => {

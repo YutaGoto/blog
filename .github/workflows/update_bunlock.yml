@@ -20,7 +20,7 @@ jobs:
         run: echo "::set-output name=current::$(date +'%Y%m%d')"
       - name: create Pull Request
         id: create_pr
-        uses: peter-evans/create-pull-request@v5
+        uses: peter-evans/create-pull-request@v6
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
           commit-message: ":arrow_up: Update Bun.lock"

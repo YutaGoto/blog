@@ -1,8 +1,8 @@
 ---
-title: JumpKing の Modをいじっている
+title: JumpKing の Mod を開発してみた
 date: "2024-02-29T15:01:00.000Z"
 description: "C#なにもわからない"
-tags: ["game", "Jump King", "C#", ".NET"]
+tags: ["game", "Jump King", "Mod", "C#", ".NET"]
 ---
 
 <img width="512" alt="Jump_King_Logo" src="/blog/assets/images/posts/20240229-jumpking-mod/Jump_King_Logo.png">

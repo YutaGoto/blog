@@ -2,7 +2,7 @@
 title: Blogシステムのnodeのバージョンを上げました
 date: "2022-08-08T00:01:00.000Z"
 description: "node v16 to v18"
-tags: ["javascript", "nodejs", "blog"]
+tags: ["JavaScript", "nodejs", "blog"]
 ---
 
 こんにちは。、.ごっちです。 あまり更新できていませんでしたが、ひとまずネタができたのでブログの生存報告もかねて書きます。

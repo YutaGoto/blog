@@ -1,6 +1,6 @@
 ---
 title: JumpKing の Mod を開発してみた
-date: "2024-02-29T15:01:00.000Z"
+date: "2024-02-29T09:01:00.000Z"
 description: "C#なにもわからない"
 tags: ["game", "Jump King", "Mod", "C#", ".NET"]
 ---

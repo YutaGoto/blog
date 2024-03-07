@@ -61,7 +61,7 @@ describe("profile links", () => {
     await twitchIcon.click()
     const newPage = await pagePromise
     await newPage.waitForLoadState()
-    expect(newPage.url()).toBe("https://bsky.app/profile/yougoto.bsky.social")
+    expect(newPage.url()).toBe("https://bsky.app/profile/yougoto.dev")
   })
 
   test("work profile Twitch link", async ({ page, context }) => {

@@ -13,7 +13,7 @@ tags: ["life", "アドベントカレンダー"]
 
 ## Adobe Creative Cloud コンプリートプラン
 
-<img width="255" alt="image.png (3.2 kB)" src="/blog/assets/images/posts/20231215-subscriptions/adobe-cc.png">
+<img width="255" alt="image.png (3.2 kB)" src="/assets/images/posts/20231215-subscriptions/adobe-cc.png">
 
 https://www.adobe.com/jp/creativecloud.html
 
@@ -22,29 +22,29 @@ IllustratorやPhotoshopなどの超有名クリエイティブソフト・ツー
 
 ## Google One
 
-![google one](/blog/assets/images/posts/20231215-subscriptions/google-one.png)
+![google one](/assets/images/posts/20231215-subscriptions/google-one.png)
 
 昨年末契約したサービスです。
 
-- Google One契約した - .ごっちの日記: https://yutagoto.github.io/blog/posts/20221203-google-one/
+- Google One契約した - .ごっちの日記: https://blog.yougoto.devposts/20221203-google-one/
 - クラウドストレージとスマホ自動バックアップ - Google One: https://one.google.com/about?hl=ja
 
 日々の写真のバックアップでよく使っています。
 
 ## esa
 
-![esa](/blog/assets/images/posts/20231215-subscriptions/esa.png)
+![esa](/assets/images/posts/20231215-subscriptions/esa.png)
 
 - esa - 自律的なチームのための情報共有サービス: https://esa.io/
 
 ドキュメントツールです。notionでもいいかと思っていますが、機能がもりもりすぎてつらいのでここに落ち着いています。
 日記や学んだこと、情報整理、ブログの下書きに使っています。
 
-- esaで日記をつけている - .ごっちの日記: https://yutagoto.github.io/blog/posts/20190514-esa%E3%81%A7%E6%97%A5%E8%A8%98%E3%82%92%E3%81%A4%E3%81%91%E3%81%A6%E3%81%84%E3%82%8B/
+- esaで日記をつけている - .ごっちの日記: https://blog.yougoto.devposts/20190514-esa%E3%81%A7%E6%97%A5%E8%A8%98%E3%82%92%E3%81%A4%E3%81%91%E3%81%A6%E3%81%84%E3%82%8B/
 
 ## マネーフォワード クラウド
 
-![mf Cloud](/blog/assets/images/posts/20231215-subscriptions/mf-cloud.svg)
+![mf Cloud](/assets/images/posts/20231215-subscriptions/mf-cloud.svg)
 
 - マネーフォワード クラウド - バックオフィスから経営を強くする: https://biz.moneyforward.com/
 
@@ -52,7 +52,7 @@ IllustratorやPhotoshopなどの超有名クリエイティブソフト・ツー
 
 ## GitHub Copilot
 
-![copilot](/blog/assets/images/posts/20231215-subscriptions/copilot.png)
+![copilot](/assets/images/posts/20231215-subscriptions/copilot.png)
 
 - GitHub Copilot · Your AI pair programmer: https://github.com/features/copilot
 
@@ -60,7 +60,7 @@ IllustratorやPhotoshopなどの超有名クリエイティブソフト・ツー
 
 ## 1Password
 
-![1password](/blog/assets/images/posts/20231215-subscriptions/1password.png)
+![1password](/assets/images/posts/20231215-subscriptions/1password.png)
 
 - 家族や大小のビジネスで使えるパスワードマネージャー | 1Password: https://1password.com/jp
 
@@ -80,7 +80,7 @@ IllustratorやPhotoshopなどの超有名クリエイティブソフト・ツー
 
 ## Nintendo Switch Online + 追加パック
 
-![NSOE](/blog/assets/images/posts/20231215-subscriptions/nso-expansion.png)
+![NSOE](/assets/images/posts/20231215-subscriptions/nso-expansion.png)
 
 - Nintendo Switch Online + 追加パック｜Nintendo Switch Online｜Nintendo Switch｜任天堂: https://www.nintendo.co.jp/hardware/switch/onlineservice/expansionpack/index.html
 

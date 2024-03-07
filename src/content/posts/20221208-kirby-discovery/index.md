@@ -5,7 +5,7 @@ description: "星のカービィ ディスカバリーめちゃくちゃ面白�
 tags: ["game", "星のカービィ", "星のカービィ ディスカバリー", "アドベントカレンダー"]
 ---
 
-![kirby](/blog/assets/images/posts/20221208-kirby-discovery/kirby.jpg)
+![kirby](/assets/images/posts/20221208-kirby-discovery/kirby.jpg)
 
 これは [.ごっ！のアドベントカレンダー](https://adventar.org/calendars/8199) の8日目の記事です。
 
@@ -17,19 +17,19 @@ tags: ["game", "星のカービィ", "星のカービィ ディスカバリー",
 
 ## とにかくかわいい
 
-![sleeping](/blog/assets/images/posts/20221208-kirby-discovery/sleep.jpg)
+![sleeping](/assets/images/posts/20221208-kirby-discovery/sleep.jpg)
 
-![onigiri](/blog/assets/images/posts/20221208-kirby-discovery/onigiri.jpg)
+![onigiri](/assets/images/posts/20221208-kirby-discovery/onigiri.jpg)
 
-![hamberger](/blog/assets/images/posts/20221208-kirby-discovery/hamberger.jpg)
+![hamberger](/assets/images/posts/20221208-kirby-discovery/hamberger.jpg)
 
 表情どれを切り取ってもカービィらしくとてもかわいいです。プレイしていて癒されるし、いくらでも見ていられます。とても好き。
 
 ## 操作性がいい
 
-![tower](/blog/assets/images/posts/20221208-kirby-discovery/tower.jpg)
+![tower](/assets/images/posts/20221208-kirby-discovery/tower.jpg)
 
-![desert](/blog/assets/images/posts/20221208-kirby-discovery/desert.jpg)
+![desert](/assets/images/posts/20221208-kirby-discovery/desert.jpg)
 
 今までのカービィにはない奥に行くことができるゲームなので、下入力で飲み込む（コピー能力を取得する）ことができなくなったことには違和感を感じましたが、自動飲み込みかボタンで飲み込みかを選択でき問題なく遊べました。
 
@@ -37,9 +37,9 @@ tags: ["game", "星のカービィ", "星のカービィ ディスカバリー",
 
 ## ストーリー
 
-![pupupu](/blog/assets/images/posts/20221208-kirby-discovery/pupupu.jpg)
+![pupupu](/assets/images/posts/20221208-kirby-discovery/pupupu.jpg)
 
-![discovery](/blog/assets/images/posts/20221208-kirby-discovery/discovery.jpg)
+![discovery](/assets/images/posts/20221208-kirby-discovery/discovery.jpg)
 
 プププランドから新世界にぶっ飛ばされたあと、捕らわれたワドルディを見つけては救い出す というストーリーでいたってシンプルでわかりやすいです。（新世界に飛ばされてしまう理由については覚えていません...）
 

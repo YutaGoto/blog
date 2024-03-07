@@ -5,7 +5,7 @@ description: "理解していきたいRust"
 tags: ["Rust", "アドベントカレンダー"]
 ---
 
-![crrustean](/blog/assets/images/posts/20221217-studying-rust/rustacean-orig-noshadow.png)
+![crrustean](/assets/images/posts/20221217-studying-rust/rustacean-orig-noshadow.png)
 
 これは [.ごっ！のアドベントカレンダー](https://adventar.org/calendars/8199) の17日目の記事です。
 
@@ -15,7 +15,7 @@ tags: ["Rust", "アドベントカレンダー"]
 
 以前にはCLIコマンドを作りましたが、本を読み終わるころにはそれなりなコードをかけると信じています。
 
-- GitHub ActionsのStatus Badgeをよしなに作るコマンドを作った: https://yutagoto.github.io/blog/posts/20220514-gha-badge/
+- GitHub ActionsのStatus Badgeをよしなに作るコマンドを作った: https://blog.yougoto.devposts/20220514-gha-badge/
 
 <blockquote class="twitter-tweet"><p lang="ja" dir="ltr">コンセプトから理解できるようになりたい <a href="https://t.co/9WlyQ4RKz1">pic.twitter.com/9WlyQ4RKz1</a></p>&mdash; .ごっち (@gggooottto) <a href="https://twitter.com/gggooottto/status/1519593752939364352?ref_src=twsrc%5Etfw">April 28, 2022</a></blockquote>
 
@@ -25,7 +25,7 @@ tags: ["Rust", "アドベントカレンダー"]
 
 といいつつもあと3分の1くらい残っているのでまだかかりそうです。年内には読破したいと考えてます。
 
-![esa](/blog/assets/images/posts/20221217-studying-rust/esa.png)
+![esa](/assets/images/posts/20221217-studying-rust/esa.png)
 
 具体的なコードの理解はOSSを見たほうがよさそうとは思っていますが、そもそもを理解していないと何もわからないので、本を読み切ることを優先しています。
 

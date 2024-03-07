@@ -23,7 +23,7 @@ tags: ["農業"]
 
 滞在期間中のほとんどが雪で一層寒かったり地面がぬかるんだりしてかなり大変ではありましたが、高さを調整して梁を通すとかなりきれいなハウスの骨組みとなり気持ちがいいものです。
 
-![ビニールハウスの骨](/blog/assets/images/posts/20220301-agrienta-plastic-hot-house/PXL_20220224_054555953.jpg)
+![ビニールハウスの骨](/assets/images/posts/20220301-agrienta-plastic-hot-house/PXL_20220224_054555953.jpg)
 
 ドア面を組み立てる作業やビニールをかぶせる作業までは期間がなくお手伝いできませんでしたが、雪が降る中完成手前までできたのはよかったかと思います。
 
@@ -31,7 +31,7 @@ tags: ["農業"]
 
 出荷する用の小松菜を収穫しました。
 
-![小松菜](/blog/assets/images/posts/20220301-agrienta-plastic-hot-house/PXL_20220220_054521692.jpg)
+![小松菜](/assets/images/posts/20220301-agrienta-plastic-hot-house/PXL_20220220_054521692.jpg)
 
 ひとつひとつ切って形を整えています。整えた結果スーパーでよく見るあの小松菜になります。
 
@@ -51,7 +51,7 @@ tags: ["農業"]
 
 <blockquote class="twitter-tweet"><p lang="ja" dir="ltr">レタスを収穫する人 <a href="https://t.co/hDIMv4E9I8">pic.twitter.com/hDIMv4E9I8</a></p>&mdash; .ごっち (@gggooottto) <a href="https://twitter.com/gggooottto/status/1495392762287378433?ref_src=twsrc%5Etfw">February 20, 2022</a></blockquote>
 
-![野菜](/blog/assets/images/posts/20220301-agrienta-plastic-hot-house/PXL_20220223_043924479.jpg)
+![野菜](/assets/images/posts/20220301-agrienta-plastic-hot-house/PXL_20220223_043924479.jpg)
 
 ### いつもの仕事
 

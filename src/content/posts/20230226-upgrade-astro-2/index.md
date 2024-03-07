@@ -5,7 +5,7 @@ description: "Astro 2.0めでたい"
 tags: ["JavaScript", "Astro"]
 ---
 
-![Astro2](/blog/assets/images/posts/20230226-upgrade-astro-2/astro2.png)
+![Astro2](/assets/images/posts/20230226-upgrade-astro-2/astro2.png)
 
 こんにちは、.ごっちです。
 
@@ -15,7 +15,7 @@ tags: ["JavaScript", "Astro"]
 
 ## 作業内容
 
-https://github.com/YutaGoto/blog/pull/720
+https://github.com/YutaGoto/pull/720
 
 アップグレードのドキュメントもありますが、このブログシステムについては何もしなくても一応動く状態ではあったので、新機能を取り入れる作業をしました。
 
@@ -116,7 +116,7 @@ const allPosts = await getCollection("posts")
 const { post } = Astro.props
 ---
 
-<a href={`/blog/posts/${post.slug}`} class="has-text-black">
+<a href={`/posts/${post.slug}`} class="has-text-black">
 (略)
 ```
 

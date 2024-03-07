@@ -85,7 +85,7 @@ Docker Image の sha を確認！
 <iframe src="https://medium.com/media/be7c87533aa08481b67f4f7483062179" frameborder=0></iframe>
 
 詳しくは以下も参考になるかも。
-[**Designing a package manager from the ground up: an inside look at CircleCI orbs** *A look back and share the key design decisions that went into creating and launching CircleCI orbs. If you're using…*circleci.com](https://circleci.com/blog/designing-a-package-manager-from-the-ground-up/)
+[**Designing a package manager from the ground up: an inside look at CircleCI orbs** *A look back and share the key design decisions that went into creating and launching CircleCI orbs. If you're using…*circleci.com](https://circleci.com/designing-a-package-manager-from-the-ground-up/)
 
 - 時々ビルドが失敗する
 

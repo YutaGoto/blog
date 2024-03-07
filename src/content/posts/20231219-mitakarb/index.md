@@ -5,7 +5,7 @@ description: "mitaka.rbに参加したログ"
 tags: ["ruby", "mitaka.rb", "アドベントカレンダー"]
 ---
 
-<img alt="mitakarb_icon" width="300" src="/blog/assets/images/posts/20231219-mitakarb/mitakarb_icon.png" />
+<img alt="mitakarb_icon" width="300" src="/assets/images/posts/20231219-mitakarb/mitakarb_icon.png" />
 
 これは [.ごっ！のアドベントカレンダー](https://adventar.org/calendars/9122) の9日目の記事です。
 
@@ -17,7 +17,7 @@ tags: ["ruby", "mitaka.rb", "アドベントカレンダー"]
 
 <blockquote class="twitter-tweet"><p lang="ja" dir="ltr"><a href="https://twitter.com/hashtag/mitakarb?src=hash&amp;ref_src=twsrc%5Etfw">#mitakarb</a> 来た! <a href="https://t.co/sz54gWeoJK">pic.twitter.com/sz54gWeoJK</a></p>&mdash; .ごっち📝 (@gggooottto) <a href="https://twitter.com/gggooottto/status/1735245866741731537?ref_src=twsrc%5Etfw">December 14, 2023</a></blockquote>
 
-<img width="350" alt="pc.jpg" src="/blog/assets/images/posts/20231219-mitakarb/pc.jpg">
+<img width="350" alt="pc.jpg" src="/assets/images/posts/20231219-mitakarb/pc.jpg">
 
 ## `mitaka.rb` でやっていること
 
@@ -28,4 +28,4 @@ tags: ["ruby", "mitaka.rb", "アドベントカレンダー"]
 
 --
 
-私自身は[郡山に引っ越した](https://yutagoto.github.io/blog/posts/20230817-moved-koriyama/)ので行きにくくなったのですが、外に出る・東京へ出る機会としてほぼ毎回参加しています。来年以降も参加していこうかと思っています！
+私自身は[郡山に引っ越した](https://blog.yougoto.devposts/20230817-moved-koriyama/)ので行きにくくなったのですが、外に出る・東京へ出る機会としてほぼ毎回参加しています。来年以降も参加していこうかと思っています！

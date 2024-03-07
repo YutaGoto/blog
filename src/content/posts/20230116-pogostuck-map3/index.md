@@ -5,14 +5,14 @@ description: "ポゴの時間だ！"
 tags: ["game", "Pogostuck Rage with your Friends"]
 ---
 
-![pogostuck](/blog/assets/images/posts/20230116-pogostuck-map3/pogostuck.jpg)
+![pogostuck](/assets/images/posts/20230116-pogostuck-map3/pogostuck.jpg)
 
 こんにちは、.ごっちです。これはメモです。
 
 2023年の1月初めにかなり難しいゲームの3つ目のマップをクリアしました。 2022年末でも話題になった `Pogostuck: Rage With Your Friends` です。マップ1は2021年末にクリアしています。
 
 - Steam：Pogostuck: Rage With Your Friends - https://store.steampowered.com/app/688130/Pogostuck_Rage_With_Your_Friends/?l=japanese
-- かなり難しいゲームの1つのマップをクリアしたメモ - .ごっちの日記 - https://yutagoto.github.io/blog/posts/20220115-difficult-game-p/
+- かなり難しいゲームの1つのマップをクリアしたメモ - .ごっちの日記 - https://blog.yougoto.devposts/20220115-difficult-game-p/
 
 <blockquote class="twitter-tweet"><p lang="ja" dir="ltr">＞ 俺 の 勝 ち ！！！！！！！＜ <a href="https://t.co/2ZagXvsg5b">pic.twitter.com/2ZagXvsg5b</a></p>&mdash; .ごっち (@gggooottto) <a href="https://twitter.com/gggooottto/status/1611306698211479552?ref_src=twsrc%5Etfw">January 6, 2023</a></blockquote>
 
@@ -23,7 +23,7 @@ tags: ["game", "Pogostuck Rage with your Friends"]
 - 70%付近: 14時間程度
 - 90%から: 6時間程度
 
-![Map3](/blog/assets/images/posts/20230116-pogostuck-map3/map3.jpg)
+![Map3](/assets/images/posts/20230116-pogostuck-map3/map3.jpg)
 
 攻略を始めてから半年くらいなにも手を付けていなかったというのもあって中盤とくに大変ではありましたが、為せば成るといった感想です。
 

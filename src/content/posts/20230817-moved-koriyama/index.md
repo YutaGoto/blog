@@ -16,7 +16,7 @@ tags: ["life", "引越し", "郡山"]
 
 今回はこのどちらでもない福島県郡山市というわけですが。
 
-![立川で住んでいた部屋](/blog/assets/images/posts/20230818-moved-koriyama/tachikawa.jpg)
+![立川で住んでいた部屋](/assets/images/posts/20230818-moved-koriyama/tachikawa.jpg)
 
 Goodbye 立川で住んでいた部屋。
 
@@ -33,6 +33,6 @@ Goodbye 立川で住んでいた部屋。
 
 ここ数カ月仕事がかなり忙しく疲れてしまったため、しばらく本業をお休みして郡山・福島県を散策したいと考えています。おすすめのスポットなどあれば共有してくださるととても喜びます！
 
-![郡山駅](/blog/assets/images/posts/20230818-moved-koriyama/koriyama.jpg)
+![郡山駅](/assets/images/posts/20230818-moved-koriyama/koriyama.jpg)
 
 Hello 郡山駅。

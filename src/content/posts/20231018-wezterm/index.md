@@ -5,7 +5,7 @@ description: "Rust製に染まりたい"
 tags: ["Terminal", "Hyper", "WezTerm"]
 ---
 
-![wezterm icon](/blog/assets/images/posts/20231018-wezterm/wezterm-icon.svg)
+![wezterm icon](/assets/images/posts/20231018-wezterm/wezterm-icon.svg)
 
 こんにちは、.ごっちです。
 仕事・趣味で使っているコマンドラインツールとして Hyper Terminalを使っていたのですが、最近 WezTermに乗り換えました。
@@ -23,7 +23,7 @@ WezさんがRustで開発したクロスプラットフォームのターミナ�
 
 Hyperも好きで（https://github.com/YutaGoto/hyper-tsumugu のようにカスタムテーマをTSで実装したくらいに）使っていたのですが、Rustそのものをやっていきたい気持ちがあり形からということで乗り換えです。
 
-- Rust履修中 - .ごっちの日記: https://yutagoto.github.io/blog/20221217-studying-rust/
+- Rust履修中 - .ごっちの日記: https://blog.yougoto.dev20221217-studying-rust/
 
 Hyperよりも気持ち高速に動作しているような気がしています。一旦このまま使い続ける予定です。
 
@@ -72,4 +72,4 @@ config.background = {
 return config
 ```
 
-![my-wezterm](/blog/assets/images/posts/20231018-wezterm/my-wezterm.png)
+![my-wezterm](/assets/images/posts/20231018-wezterm/my-wezterm.png)

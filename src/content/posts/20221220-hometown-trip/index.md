@@ -34,7 +34,7 @@ tags: ["北海道", "帰省", "旅行", "アドベントカレンダー"]
 
 白樺があると北海道気分になれます。
 
-![shirakaba](/blog/assets/images/posts/20221220-hometown-trip/shirakaba.jpg)
+![shirakaba](/assets/images/posts/20221220-hometown-trip/shirakaba.jpg)
 
 ## 石狩
 
@@ -44,7 +44,7 @@ tags: ["北海道", "帰省", "旅行", "アドベントカレンダー"]
 
 ### あいろーど厚田
 
-![Atsuta](/blog/assets/images/posts/20221220-hometown-trip/atsuta.jpg)
+![Atsuta](/assets/images/posts/20221220-hometown-trip/atsuta.jpg)
 
 道の駅です。2018年にオープンして以来、訪れる機会もなかったのでとくになにもしていなかったのですが、今回ちゃんと行ってきました。
 
@@ -62,9 +62,9 @@ tags: ["北海道", "帰省", "旅行", "アドベントカレンダー"]
 
 ### 夕張市 石炭博物館
 
-![Yubari](/blog/assets/images/posts/20221220-hometown-trip/yubari.jpg)
+![Yubari](/assets/images/posts/20221220-hometown-trip/yubari.jpg)
 
-![coal](/blog/assets/images/posts/20221220-hometown-trip/coal.jpg)
+![coal](/assets/images/posts/20221220-hometown-trip/coal.jpg)
 
 行く機会を作らないと行かないスポットシリーズ（失礼）です。夕張の炭鉱がどのように盛り上がりどのように衰退してしまったのかが生々しく展示・解説されていました。なんやかんや外国産のほうが安いし、石油や天然ガスのせいでそもそも石炭を使う場面が減っていったということで、国内の炭鉱がどんどん閉じていってしまったとのことでした。
 
@@ -74,19 +74,19 @@ tags: ["北海道", "帰省", "旅行", "アドベントカレンダー"]
 
 美瑛町に向かいました。青い池は完全に観光化されてしまい駐車場も駐車料金をとられてしまうので、もうすこし上流の白金温泉へ行き温泉に入りながら川を観察していました。水の表現で青色を使うことはありますが、ここまで青いと一周回ってめちゃくちゃきれいでずっと見ていられるような感じでした。寒かったので長居はしていませんが。
 
-![waterfall](/blog/assets/images/posts/20221220-hometown-trip/waterfall.jpg)
+![waterfall](/assets/images/posts/20221220-hometown-trip/waterfall.jpg)
 
-![blue river](/blog/assets/images/posts/20221220-hometown-trip/river.jpg)
+![blue river](/assets/images/posts/20221220-hometown-trip/river.jpg)
 
 ### パッチワークの丘
 
 美瑛の写真と言えばという場所ではありますが、畑の作業も終わっているのでちょっと物寂しい色になっています。収穫されたテンサイがめっちゃ積まれている様子は逆にこの時期ならではといったところでしょうか。
 
-![beats](/blog/assets/images/posts/20221220-hometown-trip/beat.jpg)
+![beats](/assets/images/posts/20221220-hometown-trip/beat.jpg)
 
-![trees](/blog/assets/images/posts/20221220-hometown-trip/trees.jpg)
+![trees](/assets/images/posts/20221220-hometown-trip/trees.jpg)
 
-![mountain](/blog/assets/images/posts/20221220-hometown-trip/mountain.jpg)
+![mountain](/assets/images/posts/20221220-hometown-trip/mountain.jpg)
 
 このあたりも完全に観光化されてしまい、一時期 外国人観光客が（写真撮影のために）畑に侵入することがあり、立入禁止看板がそこら中にたってしまっています。このせいで景観がかなり悪くなってしまっていました。私有地に無断で入るほうがだめなので仕方のない対処ではありますが残念です。
 
@@ -94,4 +94,4 @@ tags: ["北海道", "帰省", "旅行", "アドベントカレンダー"]
 
 北海道出身ですがまだ行ったことのない場所がまだまだあるので、帰省するしないにかかわらず旅行したいと考えてます。
 
-![love hokkaido](/blog/assets/images/posts/20221220-hometown-trip/love.jpg)
+![love hokkaido](/assets/images/posts/20221220-hometown-trip/love.jpg)

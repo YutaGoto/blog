@@ -23,9 +23,9 @@ tags: ["slack", "esa"]
 
 2018 年 12 月から使い始めています。記事数がようやく 50 を超えました・。・！
 
-![](/blog/assets/images/posts/20190201-おひとりesaとおひとりslackを運用して/posts.png)
+![](/assets/images/posts/20190201-おひとりesaとおひとりslackを運用して/posts.png)
 
-![](/blog/assets/images/posts/20190201-おひとりesaとおひとりslackを運用して/tree.png)
+![](/assets/images/posts/20190201-おひとりesaとおひとりslackを運用して/tree.png)
 
 分類は右の通りです。
 
@@ -79,7 +79,7 @@ https://gist.github.com/YutaGoto/b9a38c9b229752cce73f8784613fa516
 
 Slack は 2017 年 12 月くらいから使い始めています。総メッセージ数が 3000 になろうとしています。
 
-![](/blog/assets/images/posts/20190201-おひとりesaとおひとりslackを運用して/slack-chs.png)
+![](/assets/images/posts/20190201-おひとりesaとおひとりslackを運用して/slack-chs.png)
 
 - #circleci: CircleCI の通知が来ます。
 
@@ -107,13 +107,13 @@ Slack は 2017 年 12 月くらいから使い始めています。総メッセ�
 
 スマホも含めてさっとメモするのにかなり役立っています。esa にメモするときはもうちょっと体裁を整えたいとか思ってしまっているので、こういう使い方はありな気がしています。
 
-![](/blog/assets/images/posts/20190201-おひとりesaとおひとりslackを運用して/dev.png)
+![](/assets/images/posts/20190201-おひとりesaとおひとりslackを運用して/dev.png)
 
 リンクを貼ると勝手に展開してくれるので、そのあたりいいなぁ。。とか、Twitter にメモしても結局みなかったりするときが多いので、そのときは slack に投げてたりしています。
 
 /remind コマンドをかなり重宝していて、カレンダー登録や todo 管理に登録するまでもないリマインドを設定できるのすばらしいと思います。
 
-![](/blog/assets/images/posts/20190201-おひとりesaとおひとりslackを運用して/remind.png)
+![](/assets/images/posts/20190201-おひとりesaとおひとりslackを運用して/remind.png)
 
 rubykaigi の飛行機の予約くらいは todo でもいいような気がしてきましたが、もはや slackbot 君が todo 管理状態になっているのでどっちでもいいかなといった感じです。
 

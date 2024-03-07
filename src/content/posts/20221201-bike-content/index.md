@@ -5,7 +5,7 @@ description: "2022年の自転車記"
 tags: ["自転車", "アドベントカレンダー"]
 ---
 
-![bike](/blog/assets/images/posts/20221201-bike-content/IMG_20171105_133928.jpg)
+![bike](/assets/images/posts/20221201-bike-content/IMG_20171105_133928.jpg)
 
 これは [.ごっ！のアドベントカレンダー](https://adventar.org/calendars/8199) の1日目の記事です。
 今年はひとりでアドベントカレンダーを埋めていきます。
@@ -24,7 +24,7 @@ tags: ["自転車", "アドベントカレンダー"]
 
 とある日、サドルが折れました。これについては別記事があります。
 
-- 自転車のサドルが折れた話 - .ごっちの日記 https://yutagoto.github.io/blog/posts/20220604-bicycle-saddle/
+- 自転車のサドルが折れた話 - .ごっちの日記 https://blog.yougoto.devposts/20220604-bicycle-saddle/
 
 いまは自転車も良好でばっちり走っています。
 来年は輪行して走りたいなぁ :biking_man:。

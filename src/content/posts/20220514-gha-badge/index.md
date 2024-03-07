@@ -17,10 +17,10 @@ https://github.com/YutaGoto/gha-badge
 
 <blockquote class="twitter-tweet"><p lang="ja" dir="ltr">GitHub ActionのMarkdown用のBadge画像を表示してくれるコマンドを作ってた。ﾁｮｯﾄﾍﾞﾝﾘ <a href="https://t.co/jD5QSicuqV">pic.twitter.com/jD5QSicuqV</a></p>&mdash; .ごっち (@gggooottto) <a href="https://twitter.com/gggooottto/status/1517882035053887489?ref_src=twsrc%5Etfw">April 23, 2022</a></blockquote>
 
-[![action](https://github.com/YutaGoto/blog/actions/workflows/ci.yml/badge.svg)](https://github.com/YutaGoto/blog/actions)
+[![action](https://github.com/YutaGoto/actions/workflows/ci.yml/badge.svg)](https://github.com/YutaGoto/actions)
 
 ```md
-[![action](https://github.com/YutaGoto/blog/actions/workflows/ci.yml/badge.svg)](https://github.com/YutaGoto/blog/actions)
+[![action](https://github.com/YutaGoto/actions/workflows/ci.yml/badge.svg)](https://github.com/YutaGoto/actions)
 ```
 
 ↑を生成してくれるコマンドです。

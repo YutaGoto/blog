@@ -5,7 +5,7 @@ description: "とてもいいイス"
 tags: ["イス", "アーロンチェア", "アドベントカレンダー"]
 ---
 
-<img width="400" alt="aeron-chair" src="/blog/assets/images/posts/20231204-aeron-chair/aeron-chair.jpg">
+<img width="400" alt="aeron-chair" src="/assets/images/posts/20231204-aeron-chair/aeron-chair.jpg">
 
 これは [.ごっ！のアドベントカレンダー](https://adventar.org/calendars/9122) の4日目の記事です。
 

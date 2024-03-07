@@ -5,7 +5,7 @@ description: "Splatoon2を本当にたくさん遊びました"
 tags: ["game", "Splatoon2", "アドベントカレンダー"]
 ---
 
-![Splatoon2](/blog/assets/images/posts/20221202-splatoon2-result/splatoon2.webp)
+![Splatoon2](/assets/images/posts/20221202-splatoon2-result/splatoon2.webp)
 
 これは [.ごっ！のアドベントカレンダー](https://adventar.org/calendars/8199) の2日目の記事です。
 

@@ -19,7 +19,7 @@ Splatoon3が今年の9月に発売されてからかなり遊んでいて、す�
 
 Splatoon2の話は以前の記事に書きました。
 
-- Splatoon2の個人のリザルトまとめ: https://blog.yougoto.devposts/20221202-splatoon2-result/
+- Splatoon2の個人のリザルトまとめ: https://blog.yougoto.dev/posts/20221202-splatoon2-result/
 
 ## 対戦
 

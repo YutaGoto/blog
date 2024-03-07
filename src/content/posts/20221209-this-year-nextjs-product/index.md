@@ -32,8 +32,8 @@ https://github.com/YutaGoto/what3idols
 
 アイドルマスターに登場するアイドルやスタッフの順列で日本の唯一の位置を特定するアプリになってます。経緯は過去のポストを読んでください。
 
-- What3Idolsなるものを作った: https://blog.yougoto.devposts/20201223-what3idols%E3%81%AA%E3%82%8B%E3%82%82%E3%81%AE%E3%82%92%E4%BD%9C%E3%81%A3%E3%81%9F/
-- What3IdolsプロジェクトをYarn v3へアップグレード: https://blog.yougoto.devposts/20220210-what3idols-yarn3/
+- What3Idolsなるものを作った: https://blog.yougoto.dev/posts/20201223-what3idols%E3%81%AA%E3%82%8B%E3%82%82%E3%81%AE%E3%82%92%E4%BD%9C%E3%81%A3%E3%81%9F/
+- What3IdolsプロジェクトをYarn v3へアップグレード: https://blog.yougoto.dev/posts/20220210-what3idols-yarn3/
 
 2年前から手を付けていますが、このあたりの変遷は後日の記事に書こうと思います。
 

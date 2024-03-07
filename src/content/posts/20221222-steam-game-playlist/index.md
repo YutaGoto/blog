@@ -12,8 +12,8 @@ tags: ["game", "アドベントカレンダー"]
 
 Jump KingとScreepsArenaに関しては以前の投稿を見てください。
 
-- Screeps Arenaをやってた - .ごっちの日記 https://blog.yougoto.devposts/20221205-screeps-arena-alpha/
-- Jump Kingで遊んだりJump Kingを改造したり - .ごっちの日記 https://blog.yougoto.devposts/20221221-jumpking-maps/
+- Screeps Arenaをやってた - .ごっちの日記 https://blog.yougoto.dev/posts/20221205-screeps-arena-alpha/
+- Jump Kingで遊んだりJump Kingを改造したり - .ごっちの日記 https://blog.yougoto.dev/posts/20221221-jumpking-maps/
 
 ## Diamond Hands: To The Moon
 

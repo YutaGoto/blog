@@ -13,7 +13,7 @@ tags: ["農業", "IoT", "アドベントカレンダー"]
 
 去年にひきつづき農家さんの手伝いをたまにしています。
 
-- 今年の農業での成果 - .ごっちの日記: https://blog.yougoto.devposts/20221225-agriculture-experience/
+- 今年の農業での成果 - .ごっちの日記: https://blog.yougoto.dev/posts/20221225-agriculture-experience/
 
 ## きゅうり
 

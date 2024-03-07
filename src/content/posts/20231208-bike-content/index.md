@@ -13,7 +13,7 @@ tags: ["自転車", "アドベントカレンダー"]
 
 今乗っている自転車も8年が経過しそうです。今年は川沿いを中心に走っていました。去年と同じ感じです。
 
-- 2022年の自転車 - .ごっちの日記: https://blog.yougoto.devposts/20221201-bike-content/
+- 2022年の自転車 - .ごっちの日記: https://blog.yougoto.dev/posts/20221201-bike-content/
 
 立川にいた時は多摩川沿いを走っていました。
 
@@ -27,7 +27,7 @@ tags: ["自転車", "アドベントカレンダー"]
 
 郡山散策のブログでも書いた通り、1度だけ猪苗代湖周辺まで電車で行き自転車を借りて走っていました。
 
-- 郡山と周辺散歩 - .ごっちの日記: https://blog.yougoto.devposts/20231206-koriyama-neighborhood/
+- 郡山と周辺散歩 - .ごっちの日記: https://blog.yougoto.dev/posts/20231206-koriyama-neighborhood/
 
 ![inawashiro-lake](/assets/images/posts/20231208-bike-content/inawashiro.jpg)
 

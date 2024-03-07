@@ -13,7 +13,7 @@ tags: ["お絵描き", "アドベントカレンダー"]
 
 今年は去年と比べてあまりお絵描きできていませんが、それでもお絵描きしていました。
 
-- 2022年のお絵描きの記録 - .ごっちの日記: https://blog.yougoto.devposts/20221219-drawings/
+- 2022年のお絵描きの記録 - .ごっちの日記: https://blog.yougoto.dev/posts/20221219-drawings/
 
 ## X Icon
 

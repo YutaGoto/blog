@@ -15,7 +15,7 @@ tags: ["Rust", "アドベントカレンダー"]
 
 以前にはCLIコマンドを作りましたが、本を読み終わるころにはそれなりなコードをかけると信じています。
 
-- GitHub ActionsのStatus Badgeをよしなに作るコマンドを作った: https://blog.yougoto.devposts/20220514-gha-badge/
+- GitHub ActionsのStatus Badgeをよしなに作るコマンドを作った: https://blog.yougoto.dev/posts/20220514-gha-badge/
 
 <blockquote class="twitter-tweet"><p lang="ja" dir="ltr">コンセプトから理解できるようになりたい <a href="https://t.co/9WlyQ4RKz1">pic.twitter.com/9WlyQ4RKz1</a></p>&mdash; .ごっち (@gggooottto) <a href="https://twitter.com/gggooottto/status/1519593752939364352?ref_src=twsrc%5Etfw">April 28, 2022</a></blockquote>
 

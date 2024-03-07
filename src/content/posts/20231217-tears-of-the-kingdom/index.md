@@ -42,7 +42,7 @@ tags: ["ゼルダの伝説", "ゼルダの伝説 ティアーズオブザキン�
 
 今作も自撮りができる！うれしい！
 
-- ゼルダの伝説 ブレスオブザワイルドのハイラル図鑑を自撮りで埋めてみた - .ごっちの日記: https://blog.yougoto.devposts/20230525-botw-hyrule-selfy-compendium/
+- ゼルダの伝説 ブレスオブザワイルドのハイラル図鑑を自撮りで埋めてみた - .ごっちの日記: https://blog.yougoto.dev/posts/20230525-botw-hyrule-selfy-compendium/
 
 ![selfy](/assets/images/posts/20231217-tears-of-the-kingdom/selfy.jpg)
 

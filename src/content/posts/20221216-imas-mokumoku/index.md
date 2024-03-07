@@ -13,7 +13,7 @@ tags: ["アイドルマスター", "imastudy", "imas_mokumoku", "アドベント
 
 3年前くらいからアイマスもくもく会を運営しているのですが、今年も月1回ずつ開催できました。2021年の成果は以下の記事を見てください。
 
-- アイマスもくもく会2021年まとめ: https://blog.yougoto.devposts/20211223-imas-mokumoku/
+- アイマスもくもく会2021年まとめ: https://blog.yougoto.dev/posts/20211223-imas-mokumoku/
 
 ## 総括
 

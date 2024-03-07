@@ -11,7 +11,7 @@ tags: ["GCP", "Minecraft", "アドベントカレンダー"]
 
 こんにちは、.ごっちです。
 
-前回は[Minecraft関連の話](https://blog.yougoto.devposts/20221214-playing-minecraft/)でしたが、今回はその周辺のインフラ関連の話です。たてた時の記事は https://blog.yougoto.devposts/20210627-minecraft-server-admin/ にあります。
+前回は[Minecraft関連の話](https://blog.yougoto.dev/posts/20221214-playing-minecraft/)でしたが、今回はその周辺のインフラ関連の話です。たてた時の記事は https://blog.yougoto.dev/posts/20210627-minecraft-server-admin/ にあります。
 
 ## Minecraft関連のサービス群の図
 

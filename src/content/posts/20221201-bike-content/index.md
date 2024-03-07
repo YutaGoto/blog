@@ -24,7 +24,7 @@ tags: ["自転車", "アドベントカレンダー"]
 
 とある日、サドルが折れました。これについては別記事があります。
 
-- 自転車のサドルが折れた話 - .ごっちの日記 https://blog.yougoto.devposts/20220604-bicycle-saddle/
+- 自転車のサドルが折れた話 - .ごっちの日記 https://blog.yougoto.dev/posts/20220604-bicycle-saddle/
 
 いまは自転車も良好でばっちり走っています。
 来年は輪行して走りたいなぁ :biking_man:。

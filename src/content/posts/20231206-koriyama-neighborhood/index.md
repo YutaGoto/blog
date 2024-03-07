@@ -13,8 +13,8 @@ tags: ["郡山", "life", "アドベントカレンダー"]
 
 東京・立川から福島・郡山に引越しして半年経つか経たないかくらいになっています。
 
-- 引っ越してから2カ月くらい経ちました - .ごっちの日記: https://blog.yougoto.devposts/20230926-moved-koriyama-two-months/
-- 引越ししました - .ごっちの日記: https://blog.yougoto.devposts/20230817-moved-koriyama/
+- 引っ越してから2カ月くらい経ちました - .ごっちの日記: https://blog.yougoto.dev/posts/20230926-moved-koriyama-two-months/
+- 引越ししました - .ごっちの日記: https://blog.yougoto.dev/posts/20230817-moved-koriyama/
 
 市内の友人がだれ一人としていない状況ですが、わりと楽しく過ごしております。
 

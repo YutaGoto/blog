@@ -13,8 +13,8 @@ tags: ["imastudy", "imas_mokumoku", "アドベントカレンダー"]
 
 かれこれ4年くらい アイマスもくもく会を運営しているのですが、今年もやめずに開催できました。過年の成果は以下の記事を見てください。
 
-- アイマスもくもく会2022年まとめ - .ごっちの日記: https://blog.yougoto.devposts/20221216-imas-mokumoku/
-- アイマスもくもく会2021年まとめ - .ごっちの日記: https://blog.yougoto.devposts/20211223-imas-mokumoku/
+- アイマスもくもく会2022年まとめ - .ごっちの日記: https://blog.yougoto.dev/posts/20221216-imas-mokumoku/
+- アイマスもくもく会2021年まとめ - .ごっちの日記: https://blog.yougoto.dev/posts/20211223-imas-mokumoku/
 
 ## 総括
 

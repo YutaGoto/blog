@@ -15,7 +15,7 @@ tags: ["CircleCI", "アドベントカレンダー"]
 
 ## Slack連携
 
-先日の[記事](https://blog.yougoto.devposts/20221206-personal-slack/)の最後のほうにも書きましたが、CronJob的な使い方もしています。サーバーを構築することもなく使えることに助かっております。
+先日の[記事](https://blog.yougoto.dev/posts/20221206-personal-slack/)の最後のほうにも書きましたが、CronJob的な使い方もしています。サーバーを構築することもなく使えることに助かっております。
 
 ## コミュニティイベントの参加
 

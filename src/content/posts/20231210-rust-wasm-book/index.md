@@ -21,7 +21,7 @@ tags: ["Rust", "アドベントカレンダー"]
 
 過去にRustを履修していたこともあって、わりと理解できるようになっていて成長を感じます。
 
-- Rust履修中 - .ごっちの日記: https://blog.yougoto.devposts/20221217-studying-rust/
+- Rust履修中 - .ごっちの日記: https://blog.yougoto.dev/posts/20221217-studying-rust/
 
 早い段階で読み終えていろいろ作ってみたいものです。ワンチャン Rust.tokyoでしっかり理解できるようなくらいになっていたところ。
 

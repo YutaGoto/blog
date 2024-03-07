@@ -11,7 +11,7 @@ tags: ["life", "郡山"]
 
 東京都立川市から福島県郡山市へ引っ越してから2カ月がたちました。経緯は前回の記事を見てください。
 
-- [引越ししました - .ごっちの日記](https://blog.yougoto.devposts/20230817-moved-koriyama/)
+- [引越ししました - .ごっちの日記](https://blog.yougoto.dev/posts/20230817-moved-koriyama/)
 
 ## 所感
 

@@ -12,7 +12,7 @@ tags: ["game", "Jump King", "Mod", "C sharp", ".NET"]
 最近、ジャンプキングのプレイヤーとしては全く遊んでいませんが、それに関連するものづくりを結構やっています。一昨年から細々とやっていましたが、再熱したのでその話です。
 
 - Jump King - There is a Smoking Hot Babe at The Top!: https://www.jump-king.com/
-- Jump Kingで遊んだりJump Kingを改造したり - .ごっちの日記: https://blog.yougoto.devposts/20221221-jumpking-maps/
+- Jump Kingで遊んだりJump Kingを改造したり - .ごっちの日記: https://blog.yougoto.dev/posts/20221221-jumpking-maps/
 
 ## Workshop Update
 

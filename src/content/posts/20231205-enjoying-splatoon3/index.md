@@ -13,7 +13,7 @@ tags: ["Splatoon3", "game", "アドベントカレンダー"]
 
 去年にひきつづき今年もほどほどにSplatoon3で遊んでいました。ほどほどというのはXパワーやウデマエを上位を目指すことなく、その他コミュニティ大会などには参加せずに気軽に遊んでいるという意味です。
 
-- Splatoon3 所感 - .ごっちの日記: https://blog.yougoto.devposts/20221218-playing-splatoon3/
+- Splatoon3 所感 - .ごっちの日記: https://blog.yougoto.dev/posts/20221218-playing-splatoon3/
 
 ## 対戦結果
 

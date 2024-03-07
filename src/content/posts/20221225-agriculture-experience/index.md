@@ -14,7 +14,7 @@ tags: ["農業", "アドベントカレンダー"]
 
 2022年初頭にビニルハウス建ての手伝いに行っていました。
 
-- 農家さんの手伝いに行った - .ごっちの日記 https://blog.yougoto.devposts/20220301-agrienta-plastic-hot-house/
+- 農家さんの手伝いに行った - .ごっちの日記 https://blog.yougoto.dev/posts/20220301-agrienta-plastic-hot-house/
 
 この記事以降も数回お手伝いに行っています。
 

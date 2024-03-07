@@ -57,7 +57,7 @@ https://bookclub.kodansha.co.jp/product?item=0000380855
 
 https://www.oreilly.co.jp/books/9784814400393/
 
-- RustでWasmを学んでいる - .ごっちの日記: https://blog.yougoto.devposts/20231210-rust-wasm-book/
+- RustでWasmを学んでいる - .ごっちの日記: https://blog.yougoto.dev/posts/20231210-rust-wasm-book/
 
 ## メタバース進化論
 

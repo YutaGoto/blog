@@ -13,7 +13,7 @@ tags: ["アイドルマスター", "imas_mokumoku"]
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/vbxanH0neQU?start=2043" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-https://blog.yougoto.devposts/20200927-im-s-engineers-on-ir-2020%E3%81%A7%E7%99%BA%E8%A1%A8%E3%81%97%E3%81%9F/
+https://blog.yougoto.dev/posts/20200927-im-s-engineers-on-ir-2020%E3%81%A7%E7%99%BA%E8%A1%A8%E3%81%97%E3%81%9F/
 
 ## 2021 年もくもく会総括
 

@@ -21,15 +21,15 @@ MyNintendoでまとめる機能があったので、それも活用しました�
 
 ### スプラトゥーン3
 
-- 2023年のSplatoon3の成果 - .ごっちの日記: https://blog.yougoto.devposts/20231205-enjoying-splatoon3/
+- 2023年のSplatoon3の成果 - .ごっちの日記: https://blog.yougoto.dev/posts/20231205-enjoying-splatoon3/
 
 ### ゼルダの伝説　ティアーズ オブ ザ キングダム
 
-- ゼルダの伝説 ティアーズオブザキングダムを遊んだ - .ごっちの日記: https://blog.yougoto.devposts/20231217-tears-of-the-kingdom/
+- ゼルダの伝説 ティアーズオブザキングダムを遊んだ - .ごっちの日記: https://blog.yougoto.dev/posts/20231217-tears-of-the-kingdom/
 
 ### リングフィット アドベンチャー
 
-- リングフィットアドベンチャーを縛りプレイで2周目をクリアする - .ごっちの日記: https://blog.yougoto.devposts/20230402-ringfitadv-tied-up-2/
+- リングフィットアドベンチャーを縛りプレイで2周目をクリアする - .ごっちの日記: https://blog.yougoto.dev/posts/20230402-ringfitadv-tied-up-2/
 
 ずっと遊んでいるというよりも運動をしています。来年はフィットボクシング初音ミクが発売される予定なので、日々の運動にこれも追加されると思っています。
 
@@ -41,13 +41,13 @@ MyNintendoでまとめる機能があったので、それも活用しました�
 
 スピードランで遊んでいる配信をよく見ていたのですが遊んだことがなかったので遊びました。ついでにビンゴも作りました。
 
-- 初代ゼルダの伝説ビンゴを支える技術 - .ごっちの日記: https://blog.yougoto.devposts/20231216-zelda1-bingo/
+- 初代ゼルダの伝説ビンゴを支える技術 - .ごっちの日記: https://blog.yougoto.dev/posts/20231216-zelda1-bingo/
 
 ### ゼルダの伝説　ブレス オブ ザ ワイルド
 
 2周目の追加プレイで収集要素をなるべく集めていったという具合です。ついでにハイラル図鑑を自撮りで埋めていました。
 
-- ゼルダの伝説 ブレスオブザワイルドのハイラル図鑑を自撮りで埋めてみた - .ごっちの日記: https://blog.yougoto.devposts/20230525-botw-hyrule-selfy-compendium/
+- ゼルダの伝説 ブレスオブザワイルドのハイラル図鑑を自撮りで埋めてみた - .ごっちの日記: https://blog.yougoto.dev/posts/20230525-botw-hyrule-selfy-compendium/
 
 <blockquote class="twitter-tweet"><p lang="ja" dir="ltr">ゼルダの伝説 ブレスオブザワイルドの自撮りハイラル図鑑がいったん完成した！ <a href="https://t.co/07Xi6Mt8eu">https://t.co/07Xi6Mt8eu</a> <a href="https://t.co/Nc0AA141Zp">pic.twitter.com/Nc0AA141Zp</a></p>&mdash; .ごっち📝 (@gggooottto) <a href="https://twitter.com/gggooottto/status/1695436812410626397?ref_src=twsrc%5Etfw">August 26, 2023</a></blockquote>
 
@@ -97,11 +97,11 @@ https://store.steampowered.com/app/1909770/Aim_Climb/
 
 ### LUMINES REMASTERD
 
-- LUMINES REMASTEREDで遊んでいた - .ごっちの日記: https://blog.yougoto.devposts/20231209-lumines-remastered/
+- LUMINES REMASTEREDで遊んでいた - .ごっちの日記: https://blog.yougoto.dev/posts/20231209-lumines-remastered/
 
 ### Unrailed!
 
-- Unrailed! で線路を敷いている - .ごっちの日記: https://blog.yougoto.devposts/20231207-playing-unrailed/
+- Unrailed! で線路を敷いている - .ごっちの日記: https://blog.yougoto.dev/posts/20231207-playing-unrailed/
 
 ### WayOut
 

@@ -17,7 +17,7 @@ tags: ["game", "Minecraft", "アドベントカレンダー"]
 
 運営し始めた記事は以下にあります。
 
-- GCPでMinecraft マルチサーバー管理している: https://blog.yougoto.devposts/20210627-minecraft-server-admin/
+- GCPでMinecraft マルチサーバー管理している: https://blog.yougoto.dev/posts/20210627-minecraft-server-admin/
 
 ## 運営の話
 

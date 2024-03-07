@@ -13,9 +13,9 @@ tags: ["game", "リングフィットアドベンチャー"]
 
 過去のログは以下から。
 
-- [リングフィットアドベンチャー 3周目完走したので感想](https://blog.yougoto.devposts/20211009-ringfitadv-round3/)
-- [リングフィットアドベンチャー 2周目完走したので感想](https://blog.yougoto.devposts/20210429-%E3%83%AA%E3%83%B3%E3%82%B0%E3%83%95%E3%82%A3%E3%83%83%E3%83%88%E3%82%A2%E3%83%89%E3%83%99%E3%83%B3%E3%83%81%E3%83%A3%E3%83%BC-2%E5%91%A8%E7%9B%AE%E5%AE%8C%E8%B5%B0%E3%81%97%E3%81%9F%E3%81%AE%E3%81%A7%E6%84%9F%E6%83%B3/)
-- [リングフィットアドベンチャー Any%完走したので感想](https://blog.yougoto.devposts/20200620-%E3%83%AA%E3%83%B3%E3%82%B0%E3%83%95%E3%82%A3%E3%83%83%E3%83%88%E3%82%A2%E3%83%89%E3%83%99%E3%83%B3%E3%83%81%E3%83%A3%E3%83%BC-any-%E5%AE%8C%E8%B5%B0%E3%81%97%E3%81%9F%E3%81%AE%E3%81%A7%E6%84%9F%E6%83%B3/)
+- [リングフィットアドベンチャー 3周目完走したので感想](https://blog.yougoto.dev/posts/20211009-ringfitadv-round3/)
+- [リングフィットアドベンチャー 2周目完走したので感想](https://blog.yougoto.dev/posts/20210429-%E3%83%AA%E3%83%B3%E3%82%B0%E3%83%95%E3%82%A3%E3%83%83%E3%83%88%E3%82%A2%E3%83%89%E3%83%99%E3%83%B3%E3%83%81%E3%83%A3%E3%83%BC-2%E5%91%A8%E7%9B%AE%E5%AE%8C%E8%B5%B0%E3%81%97%E3%81%9F%E3%81%AE%E3%81%A7%E6%84%9F%E6%83%B3/)
+- [リングフィットアドベンチャー Any%完走したので感想](https://blog.yougoto.dev/posts/20200620-%E3%83%AA%E3%83%B3%E3%82%B0%E3%83%95%E3%82%A3%E3%83%83%E3%83%88%E3%82%A2%E3%83%89%E3%83%99%E3%83%B3%E3%83%81%E3%83%A3%E3%83%BC-any-%E5%AE%8C%E8%B5%B0%E3%81%97%E3%81%9F%E3%81%AE%E3%81%A7%E6%84%9F%E6%83%B3/)
 
 <blockquote class="twitter-tweet"><p lang="ja" dir="ltr">真の意味での2周目！！対戦よろしくお願いいたします。 <a href="https://twitter.com/hashtag/%E3%83%AA%E3%83%B3%E3%82%B0%E3%83%95%E3%82%A3%E3%83%83%E3%83%88%E3%82%A2%E3%83%89%E3%83%99%E3%83%B3%E3%83%81%E3%83%A3%E3%83%BC?src=hash&amp;ref_src=twsrc%5Etfw">#リングフィットアドベンチャー</a> <a href="https://twitter.com/hashtag/RingFitAdventure?src=hash&amp;ref_src=twsrc%5Etfw">#RingFitAdventure</a> <a href="https://twitter.com/hashtag/NintendoSwitch?src=hash&amp;ref_src=twsrc%5Etfw">#NintendoSwitch</a> <a href="https://t.co/5auF6YoeBw">pic.twitter.com/5auF6YoeBw</a></p>&mdash; .ごっち (@gggooottto) <a href="https://twitter.com/gggooottto/status/1448224445911351296?ref_src=twsrc%5Etfw">October 13, 2021</a></blockquote>
 

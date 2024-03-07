@@ -26,7 +26,7 @@ IllustratorやPhotoshopなどの超有名クリエイティブソフト・ツー
 
 昨年末契約したサービスです。
 
-- Google One契約した - .ごっちの日記: https://blog.yougoto.devposts/20221203-google-one/
+- Google One契約した - .ごっちの日記: https://blog.yougoto.dev/posts/20221203-google-one/
 - クラウドストレージとスマホ自動バックアップ - Google One: https://one.google.com/about?hl=ja
 
 日々の写真のバックアップでよく使っています。
@@ -40,7 +40,7 @@ IllustratorやPhotoshopなどの超有名クリエイティブソフト・ツー
 ドキュメントツールです。notionでもいいかと思っていますが、機能がもりもりすぎてつらいのでここに落ち着いています。
 日記や学んだこと、情報整理、ブログの下書きに使っています。
 
-- esaで日記をつけている - .ごっちの日記: https://blog.yougoto.devposts/20190514-esa%E3%81%A7%E6%97%A5%E8%A8%98%E3%82%92%E3%81%A4%E3%81%91%E3%81%A6%E3%81%84%E3%82%8B/
+- esaで日記をつけている - .ごっちの日記: https://blog.yougoto.dev/posts/20190514-esa%E3%81%A7%E6%97%A5%E8%A8%98%E3%82%92%E3%81%A4%E3%81%91%E3%81%A6%E3%81%84%E3%82%8B/
 
 ## マネーフォワード クラウド
 

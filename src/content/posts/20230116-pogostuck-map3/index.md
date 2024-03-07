@@ -12,7 +12,7 @@ tags: ["game", "Pogostuck Rage with your Friends"]
 2023年の1月初めにかなり難しいゲームの3つ目のマップをクリアしました。 2022年末でも話題になった `Pogostuck: Rage With Your Friends` です。マップ1は2021年末にクリアしています。
 
 - Steam：Pogostuck: Rage With Your Friends - https://store.steampowered.com/app/688130/Pogostuck_Rage_With_Your_Friends/?l=japanese
-- かなり難しいゲームの1つのマップをクリアしたメモ - .ごっちの日記 - https://blog.yougoto.devposts/20220115-difficult-game-p/
+- かなり難しいゲームの1つのマップをクリアしたメモ - .ごっちの日記 - https://blog.yougoto.dev/posts/20220115-difficult-game-p/
 
 <blockquote class="twitter-tweet"><p lang="ja" dir="ltr">＞ 俺 の 勝 ち ！！！！！！！＜ <a href="https://t.co/2ZagXvsg5b">pic.twitter.com/2ZagXvsg5b</a></p>&mdash; .ごっち (@gggooottto) <a href="https://twitter.com/gggooottto/status/1611306698211479552?ref_src=twsrc%5Etfw">January 6, 2023</a></blockquote>
 

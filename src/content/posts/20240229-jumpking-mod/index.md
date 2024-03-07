@@ -5,18 +5,18 @@ description: "C#なにもわからない"
 tags: ["game", "Jump King", "Mod", "C sharp", ".NET"]
 ---
 
-<img width="512" alt="Jump_King_Logo" src="/blog/assets/images/posts/20240229-jumpking-mod/Jump_King_Logo.png">
+<img width="512" alt="Jump_King_Logo" src="/assets/images/posts/20240229-jumpking-mod/Jump_King_Logo.png">
 
 こんにちは、.ごっちです。
 
 最近、ジャンプキングのプレイヤーとしては全く遊んでいませんが、それに関連するものづくりを結構やっています。一昨年から細々とやっていましたが、再熱したのでその話です。
 
 - Jump King - There is a Smoking Hot Babe at The Top!: https://www.jump-king.com/
-- Jump Kingで遊んだりJump Kingを改造したり - .ごっちの日記: https://yutagoto.github.io/blog/posts/20221221-jumpking-maps/
+- Jump Kingで遊んだりJump Kingを改造したり - .ごっちの日記: https://blog.yougoto.devposts/20221221-jumpking-maps/
 
 ## Workshop Update
 
-<img width="512" alt="workshop update banner" src="/blog/assets/images/posts/20240229-jumpking-mod/workshop_update.webp">
+<img width="512" alt="workshop update banner" src="/assets/images/posts/20240229-jumpking-mod/workshop_update.webp">
 
 > Leap into new heights with new looks in the Jump King Workshoppe Update!
 

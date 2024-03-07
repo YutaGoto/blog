@@ -5,7 +5,7 @@ description: "ブレスオブザワイルドにひきつづきとてもよかっ
 tags: ["ゼルダの伝説", "ゼルダの伝説 ティアーズオブザキングダム", "game", "アドベントカレンダー"]
 ---
 
-<img width="1060" alt="logo_totk.webp (165.9 kB)" src="/blog/assets/images/posts/20231217-tears-of-the-kingdom/logo_totk.webp">
+<img width="1060" alt="logo_totk.webp (165.9 kB)" src="/assets/images/posts/20231217-tears-of-the-kingdom/logo_totk.webp">
 
 これは [.ごっ！のアドベントカレンダー](https://adventar.org/calendars/9122) の17日目の記事です。
 
@@ -30,76 +30,76 @@ tags: ["ゼルダの伝説", "ゼルダの伝説 ティアーズオブザキン�
 
 オープニングめっちゃよい～！
 
-![opening](/blog/assets/images/posts/20231217-tears-of-the-kingdom/opening.jpg)
+![opening](/assets/images/posts/20231217-tears-of-the-kingdom/opening.jpg)
 
 プルアさん大きくなったね～。
 
-![purah](/blog/assets/images/posts/20231217-tears-of-the-kingdom/purah.jpg)
+![purah](/assets/images/posts/20231217-tears-of-the-kingdom/purah.jpg)
 
 勇ましくなったチューリかっこよい！
 
-![tulin](/blog/assets/images/posts/20231217-tears-of-the-kingdom/tulin.jpg)
+![tulin](/assets/images/posts/20231217-tears-of-the-kingdom/tulin.jpg)
 
 今作も自撮りができる！うれしい！
 
-- ゼルダの伝説 ブレスオブザワイルドのハイラル図鑑を自撮りで埋めてみた - .ごっちの日記: https://yutagoto.github.io/blog/posts/20230525-botw-hyrule-selfy-compendium/
+- ゼルダの伝説 ブレスオブザワイルドのハイラル図鑑を自撮りで埋めてみた - .ごっちの日記: https://blog.yougoto.devposts/20230525-botw-hyrule-selfy-compendium/
 
-![selfy](/blog/assets/images/posts/20231217-tears-of-the-kingdom/selfy.jpg)
+![selfy](/assets/images/posts/20231217-tears-of-the-kingdom/selfy.jpg)
 
-![umayado](/blog/assets/images/posts/20231217-tears-of-the-kingdom/umayado.jpg)
+![umayado](/assets/images/posts/20231217-tears-of-the-kingdom/umayado.jpg)
 
 ルージュかっこよか！見返したらルージュのスクショがかなりあった。
 
-![riju](/blog/assets/images/posts/20231217-tears-of-the-kingdom/riju.jpg)
+![riju](/assets/images/posts/20231217-tears-of-the-kingdom/riju.jpg)
 
 ピザうまそう。
 
-![pizza](/blog/assets/images/posts/20231217-tears-of-the-kingdom/pizza.jpg)
+![pizza](/assets/images/posts/20231217-tears-of-the-kingdom/pizza.jpg)
 
 なんやかんやあっていつものシド王子でいるのが一番すき。
 
-![sidon](/blog/assets/images/posts/20231217-tears-of-the-kingdom/sidon.jpg)
+![sidon](/assets/images/posts/20231217-tears-of-the-kingdom/sidon.jpg)
 
 コーガ様の演出がちょっとだけよくなっている。こういう細かいところ良い。
 
-![kohga](/blog/assets/images/posts/20231217-tears-of-the-kingdom/kohga.jpg)
+![kohga](/assets/images/posts/20231217-tears-of-the-kingdom/kohga.jpg)
 
 会社を興してたの！？
 
-![yunobo](/blog/assets/images/posts/20231217-tears-of-the-kingdom/yunobo.jpg)
+![yunobo](/assets/images/posts/20231217-tears-of-the-kingdom/yunobo.jpg)
 
 龍の泪をすべて見た。見覚えのない龍はそういうことだったのか。
 
-![tears](/blog/assets/images/posts/20231217-tears-of-the-kingdom/tears.jpg)
+![tears](/assets/images/posts/20231217-tears-of-the-kingdom/tears.jpg)
 
 サクラダさんファミリーが仲良すぎてまぶしい！
 
-![sakurada](/blog/assets/images/posts/20231217-tears-of-the-kingdom/sakurada.jpg)
+![sakurada](/assets/images/posts/20231217-tears-of-the-kingdom/sakurada.jpg)
 
 はじまりの台地から見る景色もすごいことになっているな。
 
-![hajimari](/blog/assets/images/posts/20231217-tears-of-the-kingdom/hajimari.jpg)
+![hajimari](/assets/images/posts/20231217-tears-of-the-kingdom/hajimari.jpg)
 
 デクの樹様(´・ω・｀)
 
-![deku](/blog/assets/images/posts/20231217-tears-of-the-kingdom/deku.jpg)
+![deku](/assets/images/posts/20231217-tears-of-the-kingdom/deku.jpg)
 
 めっちゃおいしそう。アルコールが実際に入っているやつを飲んでみたい。
 
-![vai-meets-voi](/blog/assets/images/posts/20231217-tears-of-the-kingdom/vai-meets-voi.jpg)
+![vai-meets-voi](/assets/images/posts/20231217-tears-of-the-kingdom/vai-meets-voi.jpg)
 
 こんな姿の造形でごめんな。
 
-![bokoblin](/blog/assets/images/posts/20231217-tears-of-the-kingdom/bokoblin.jpg)
+![bokoblin](/assets/images/posts/20231217-tears-of-the-kingdom/bokoblin.jpg)
 
 <blockquote class="twitter-tweet" data-conversation="none"><p lang="ja" dir="ltr">すごいなぁ。。こちらはこういう写真しかない。。 <a href="https://t.co/Nr4TCBCmoE">pic.twitter.com/Nr4TCBCmoE</a></p>&mdash; .ごっち📝 (@gggooottto) <a href="https://twitter.com/gggooottto/status/1717010638499950645?ref_src=twsrc%5Etfw">October 25, 2023</a></blockquote>
 
 ガノンドロフ様かっこいいな。
 
-![ganondorf1](/blog/assets/images/posts/20231217-tears-of-the-kingdom/ganondorf1.jpg)
+![ganondorf1](/assets/images/posts/20231217-tears-of-the-kingdom/ganondorf1.jpg)
 
-![ganondorf2](/blog/assets/images/posts/20231217-tears-of-the-kingdom/ganondorf2.jpg)
+![ganondorf2](/assets/images/posts/20231217-tears-of-the-kingdom/ganondorf2.jpg)
 
 また続きのストーリーが気になるやつじゃん。
 
-![zelda](/blog/assets/images/posts/20231217-tears-of-the-kingdom/zelda.jpg)
+![zelda](/assets/images/posts/20231217-tears-of-the-kingdom/zelda.jpg)

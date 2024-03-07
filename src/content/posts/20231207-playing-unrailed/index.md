@@ -5,7 +5,7 @@ description: "燃やさないように一人でがんばる"
 tags: ["Unrailed!", "game", "アドベントカレンダー"]
 ---
 
-![unrailed](/blog/assets/images/posts/20231207-playing-unrailed/unrailed.png)
+![unrailed](/assets/images/posts/20231207-playing-unrailed/unrailed.png)
 
 これは [.ごっ！のアドベントカレンダー](https://adventar.org/calendars/9122) の7日目の記事です。
 

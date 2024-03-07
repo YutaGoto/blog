@@ -245,7 +245,7 @@ nginx をインストールして、おれおれ証明書を発行して、起�
 
 - tootsuite/mastodon [https://github.com/tootsuite/mastodon](https://github.com/tootsuite/mastodon)
 
-- Docker comes to Raspberry Pi [https://www.raspberrypi.org/blog/docker-comes-to-raspberry-pi/](https://www.raspberrypi.org/blog/docker-comes-to-raspberry-pi/)
+- Docker comes to Raspberry Pi [https://www.raspberrypi.org/docker-comes-to-raspberry-pi/](https://www.raspberrypi.org/docker-comes-to-raspberry-pi/)
 
 _Originally published at [gist.github.com](https://gist.github.com/YutaGoto/5605e95137e05fce76c2641cad4bc74d)._
 

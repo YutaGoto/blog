@@ -5,7 +5,7 @@ description: "右手親指が忙しいパズルゲーム"
 tags: ["LUMINES REMASTERED", "game", "アドベントカレンダー"]
 ---
 
-![opening](/blog/assets/images/posts/20231209-lumines-remastered/opening.jpg)
+![opening](/assets/images/posts/20231209-lumines-remastered/opening.jpg)
 
 これは [.ごっ！のアドベントカレンダー](https://adventar.org/calendars/9122) の9日目の記事です。
 
@@ -29,4 +29,4 @@ tags: ["LUMINES REMASTERED", "game", "アドベントカレンダー"]
 
 - LUMINES REMASTERED - Speedrun: https://www.speedrun.com/lumines_remastered
 
-![pb](/blog/assets/images/posts/20231209-lumines-remastered/pb.jpg)
+![pb](/assets/images/posts/20231209-lumines-remastered/pb.jpg)

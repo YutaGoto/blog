@@ -5,7 +5,7 @@ description: "懐かしすぎて泣く"
 tags: ["スーパーマリオRPG", "game", "アドベントカレンダー"]
 ---
 
-<img alt="SM RPG Logo" width="350" src="/blog/assets/images/posts/20231223-super-mario-rpg/logo.png" />
+<img alt="SM RPG Logo" width="350" src="/assets/images/posts/20231223-super-mario-rpg/logo.png" />
 
 これは [.ごっ！のアドベントカレンダー](https://adventar.org/calendars/9122) の23日目の記事です。
 
@@ -23,6 +23,6 @@ tags: ["スーパーマリオRPG", "game", "アドベントカレンダー"]
 
 子どもだったころはスーパージャンプを30回も跳べなかった記憶がありますが、ここにきて30回跳ぶことができもうすこしで100回跳べるところまで来ています。30回を超えたあたりから緊張で心拍数があがりっぱなしになってしまいます。
 
-<img width="1280" alt="super-jump" src="/blog/assets/images/posts/20231223-super-mario-rpg/super-jump.jpg">
+<img width="1280" alt="super-jump" src="/assets/images/posts/20231223-super-mario-rpg/super-jump.jpg">
 
 また何周も遊びたいゲームだなーとか思いながら引き続き遊んでいきます。

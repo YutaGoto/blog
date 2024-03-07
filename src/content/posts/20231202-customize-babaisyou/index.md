@@ -5,7 +5,7 @@ description: "いろいろ IS YOU"
 tags: ["BABA IS YOU", "game", "アドベントカレンダー"]
 ---
 
-![baba-is-you](/blog/assets/images/posts/20231202-customize-babaisyou/logo.gif)
+![baba-is-you](/assets/images/posts/20231202-customize-babaisyou/logo.gif)
 
 これは [.ごっ！のアドベントカレンダー](https://adventar.org/calendars/9122) の2日目の記事です。
 

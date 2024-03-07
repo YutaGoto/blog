@@ -5,7 +5,7 @@ description: "2023年もアイマスもくもく会でしたよ！"
 tags: ["imastudy", "imas_mokumoku", "アドベントカレンダー"]
 ---
 
-![mokumoku header](/blog/assets/images/posts/20231224-imas-mokumoku/header.png)
+![mokumoku header](/assets/images/posts/20231224-imas-mokumoku/header.png)
 
 これは [.ごっ！のアドベントカレンダー](https://adventar.org/calendars/9122) の24日目の記事です。
 
@@ -13,8 +13,8 @@ tags: ["imastudy", "imas_mokumoku", "アドベントカレンダー"]
 
 かれこれ4年くらい アイマスもくもく会を運営しているのですが、今年もやめずに開催できました。過年の成果は以下の記事を見てください。
 
-- アイマスもくもく会2022年まとめ - .ごっちの日記: https://yutagoto.github.io/blog/posts/20221216-imas-mokumoku/
-- アイマスもくもく会2021年まとめ - .ごっちの日記: https://yutagoto.github.io/blog/posts/20211223-imas-mokumoku/
+- アイマスもくもく会2022年まとめ - .ごっちの日記: https://blog.yougoto.devposts/20221216-imas-mokumoku/
+- アイマスもくもく会2021年まとめ - .ごっちの日記: https://blog.yougoto.devposts/20211223-imas-mokumoku/
 
 ## 総括
 
@@ -22,7 +22,7 @@ tags: ["imastudy", "imas_mokumoku", "アドベントカレンダー"]
 
 https://imastudy-mokumoku.connpass.com
 
-<img width="589" alt="events list" src="/blog/assets/images/posts/20231224-imas-mokumoku/events-list.png">
+<img width="589" alt="events list" src="/assets/images/posts/20231224-imas-mokumoku/events-list.png">
 
 忙しい時期を除いて面倒だからスキップみたいなことをせず毎月開催できているのはすごいなぁと思っています。
 

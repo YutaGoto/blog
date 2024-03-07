@@ -27,7 +27,7 @@ sparql 自体ぼくも慣れていないこともあったので、今度こそ�
 [**YutaGoto/imasparql_form**
 *Contribute to YutaGoto/imasparql_form development by creating an account on GitHub.*github.com](https://github.com/YutaGoto/imasparql_form)
 [**ts**
-*Edit description*yutagoto.github.io](https://yutagoto.github.io/imasparql_form/)
+*Edit description*yutagoto.github.io](https://blog.yougoto.devimasparql_form/)
 
 ひとまず Web フォームにしました。
 

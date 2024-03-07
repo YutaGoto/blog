@@ -32,13 +32,13 @@ tags: ["life", "アドベントカレンダー"]
 以下のものはどれも収益化をする気がないものリストです。
 
 - What3Idols: https://what3idols.vercel.app/
-- What3Idolsなるものを作った - .ごっちの日記: https://yutagoto.github.io/blog/posts/20201223-what3idols%E3%81%AA%E3%82%8B%E3%82%82%E3%81%AE%E3%82%92%E4%BD%9C%E3%81%A3%E3%81%9F/
+- What3Idolsなるものを作った - .ごっちの日記: https://blog.yougoto.devposts/20201223-what3idols%E3%81%AA%E3%82%8B%E3%82%82%E3%81%AE%E3%82%92%E4%BD%9C%E3%81%A3%E3%81%9F/
 - 自撮りハイラル図鑑: https://hyrule-selfy-compendium.vercel.app/
-- ゼルダの伝説 ブレスオブザワイルドのハイラル図鑑を自撮りで埋めてみた - .ごっちの日記: https://yutagoto.github.io/blog/posts/20230525-botw-hyrule-selfy-compendium/
+- ゼルダの伝説 ブレスオブザワイルドのハイラル図鑑を自撮りで埋めてみた - .ごっちの日記: https://blog.yougoto.devposts/20230525-botw-hyrule-selfy-compendium/
 - The Legend of Zelda Bingo: https://zelda1-bingo.vercel.app/
 - 初代ゼルダの伝説ビンゴを支える技術 - .ごっちの日記:
 - ika3 | RubyGems.org | コミュニティのgemホスティングサービス: https://rubygems.org/gems/ika3
-- Jump Kingで遊んだりJump Kingを改造したり - .ごっちの日記: https://yutagoto.github.io/blog/posts/20221221-jumpking-maps/
+- Jump Kingで遊んだりJump Kingを改造したり - .ごっちの日記: https://blog.yougoto.devposts/20221221-jumpking-maps/
 
 こっそり[Buy Me a Coffee](https://www.buymeacoffee.com/)などのさくっとドネーションできるリンクを置くのもありかなーと思っています。
 

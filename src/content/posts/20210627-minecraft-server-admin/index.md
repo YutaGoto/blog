@@ -5,7 +5,7 @@ description: "Minecraft サーバー管理始めました"
 tags: ["GCP", "Minecraft"]
 ---
 
-![minecraft](/blog/assets/images/posts/20210627-minecraft-server-admin/minecraft.png)
+![minecraft](/assets/images/posts/20210627-minecraft-server-admin/minecraft.png)
 
 こんにちは、.ごっちです。
 

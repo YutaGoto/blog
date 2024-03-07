@@ -1,4 +1,4 @@
-import { CollectionEntry, defineCollection, z } from "astro:content"
+import { type CollectionEntry, defineCollection, z } from "astro:content"
 
 export const blogSchema = z.object({
   title: z.string(),
@@ -9,6 +9,7 @@ export const blogSchema = z.object({
 })
 
 const blogCollection = defineCollection({
+  type: 'content',
   schema: blogSchema,
 })
 

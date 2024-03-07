@@ -5,7 +5,7 @@ description: "あまりお絵描きできていない"
 tags: ["お絵描き", "アドベントカレンダー"]
 ---
 
-<img width="320" alt="2023Novごっち.png (491.9 kB)" src="/blog/assets/images/posts/20231220-drawings/2023Novごっち.png">
+<img width="320" alt="2023Novごっち.png (491.9 kB)" src="/assets/images/posts/20231220-drawings/2023Novごっち.png">
 
 これは [.ごっ！のアドベントカレンダー](https://adventar.org/calendars/9122) の20日目の記事です。
 
@@ -13,7 +13,7 @@ tags: ["お絵描き", "アドベントカレンダー"]
 
 今年は去年と比べてあまりお絵描きできていませんが、それでもお絵描きしていました。
 
-- 2022年のお絵描きの記録 - .ごっちの日記: https://yutagoto.github.io/blog/posts/20221219-drawings/
+- 2022年のお絵描きの記録 - .ごっちの日記: https://blog.yougoto.devposts/20221219-drawings/
 
 ## X Icon
 

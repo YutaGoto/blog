@@ -13,7 +13,7 @@ tags: ["アイドルマスター", "imas_mokumoku"]
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/vbxanH0neQU?start=2043" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-https://yutagoto.github.io/blog/posts/20200927-im-s-engineers-on-ir-2020%E3%81%A7%E7%99%BA%E8%A1%A8%E3%81%97%E3%81%9F/
+https://blog.yougoto.devposts/20200927-im-s-engineers-on-ir-2020%E3%81%A7%E7%99%BA%E8%A1%A8%E3%81%97%E3%81%9F/
 
 ## 2021 年もくもく会総括
 
@@ -23,9 +23,9 @@ https://yutagoto.github.io/blog/posts/20200927-im-s-engineers-on-ir-2020%E3%81%A
 
 https://imastudy-mokumoku.connpass.com
 
-![events1](/blog/assets/images/posts/20211223-imas-mokumoku/events1.png)
+![events1](/assets/images/posts/20211223-imas-mokumoku/events1.png)
 
-![events2](/blog/assets/images/posts/20211223-imas-mokumoku/events2.png)
+![events2](/assets/images/posts/20211223-imas-mokumoku/events2.png)
 
 2021 年も相変わらずの情勢なので、すべてオンライン開催となりました。9 月まで NeWork、10 月から Twitter Spaces でのもくもく会となりました。
 
@@ -43,11 +43,11 @@ https://github.com/imas/mokumoku/blob/main/meetups/kanto/024/kpt.md
 
 もともとの Connpass のヘッダー画像はオフラインを意識して、みんなで集まって大きいテーブルに向かってもくもくするをイメージしていましたが、オンライン開催に変わって物理的なテーブルに集まってすることがなくなってしまったので NeWork のデザインを意識して変更した次第です。
 
-![header V1](/blog/assets/images/posts/20211223-imas-mokumoku/header.png)
+![header V1](/assets/images/posts/20211223-imas-mokumoku/header.png)
 
 <center>↓</center>
 
-![header V2](/blog/assets/images/posts/20211223-imas-mokumoku/header.V2.png)
+![header V2](/assets/images/posts/20211223-imas-mokumoku/header.V2.png)
 
 ## 2021 年もくもく会成果
 

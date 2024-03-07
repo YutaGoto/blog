@@ -19,7 +19,7 @@ https://gihyo.jp/book/2022/978-4-297-12521-9
 
 この本にあるサンプルコードや模範解答のコードはC++やPythonですが、Rustの練習がてらRustで通しました。本編を終えましたが全問解いていないので、年末年始のうちにやろうかと考えてます。
 
-<img width="1091" alt="image.png (43.5 kB)" src="/blog/assets/images/posts/20231221-reading-books/atcoder-screenshot.png">
+<img width="1091" alt="image.png (43.5 kB)" src="/assets/images/posts/20231221-reading-books/atcoder-screenshot.png">
 
 ## Webアプリケーションアクセシビリティ
 
@@ -57,7 +57,7 @@ https://bookclub.kodansha.co.jp/product?item=0000380855
 
 https://www.oreilly.co.jp/books/9784814400393/
 
-- RustでWasmを学んでいる - .ごっちの日記: https://yutagoto.github.io/blog/posts/20231210-rust-wasm-book/
+- RustでWasmを学んでいる - .ごっちの日記: https://blog.yougoto.devposts/20231210-rust-wasm-book/
 
 ## メタバース進化論
 

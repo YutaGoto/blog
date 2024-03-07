@@ -5,7 +5,7 @@ description: "Webディベロッパーと畑仕事"
 tags: ["農業", "IoT", "アドベントカレンダー"]
 ---
 
-<img width="480" alt="cucumber" src="/blog/assets/images/posts/20231225-agriculture-experience/cucumber.jpg">
+<img width="480" alt="cucumber" src="/assets/images/posts/20231225-agriculture-experience/cucumber.jpg">
 
 これは [.ごっ！のアドベントカレンダー](https://adventar.org/calendars/9122) の25日目の記事です。
 
@@ -13,7 +13,7 @@ tags: ["農業", "IoT", "アドベントカレンダー"]
 
 去年にひきつづき農家さんの手伝いをたまにしています。
 
-- 今年の農業での成果 - .ごっちの日記: https://yutagoto.github.io/blog/posts/20221225-agriculture-experience/
+- 今年の農業での成果 - .ごっちの日記: https://blog.yougoto.devposts/20221225-agriculture-experience/
 
 ## きゅうり
 

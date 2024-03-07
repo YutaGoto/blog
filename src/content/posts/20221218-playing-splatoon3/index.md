@@ -5,7 +5,7 @@ description: "のんびりSplatoon3で遊んでいます"
 tags: ["game", "Splatoon3", "アドベントカレンダー"]
 ---
 
-![Splatoon3](/blog/assets/images/posts/20221218-playing-splatoon3/splatoon3.jpg)
+![Splatoon3](/assets/images/posts/20221218-playing-splatoon3/splatoon3.jpg)
 
 これは [.ごっ！のアドベントカレンダー](https://adventar.org/calendars/8199) の18日目の記事です。
 
@@ -19,7 +19,7 @@ Splatoon3が今年の9月に発売されてからかなり遊んでいて、す�
 
 Splatoon2の話は以前の記事に書きました。
 
-- Splatoon2の個人のリザルトまとめ: https://yutagoto.github.io/blog/posts/20221202-splatoon2-result/
+- Splatoon2の個人のリザルトまとめ: https://blog.yougoto.devposts/20221202-splatoon2-result/
 
 ## 対戦
 

@@ -5,7 +5,7 @@ description: "サクサク進めると気持ちよい"
 tags: ["Celeste", "game", "アドベントカレンダー"]
 ---
 
-![celeste](/blog/assets/images/posts/20231203-playing-Celeste/celeste.jpg)
+![celeste](/assets/images/posts/20231203-playing-Celeste/celeste.jpg)
 
 これは [.ごっ！のアドベントカレンダー](https://adventar.org/calendars/9122) の3日目の記事です。
 
@@ -19,11 +19,11 @@ tags: ["Celeste", "game", "アドベントカレンダー"]
 
 下の画像の通り、最初のクリア時点では赤いイチゴが68個残っています。
 
-![celeste ending](/blog/assets/images/posts/20231203-playing-Celeste/ending.jpg)
+![celeste ending](/assets/images/posts/20231203-playing-Celeste/ending.jpg)
 
 この記事を書いている時点でも残り26個となっていました。今はB-sideを進めているのですべての収集要素が集まるまでまだまだ時間がかかりそうです。
 
-![celeste menu](/blog/assets/images/posts/20231203-playing-Celeste/menu.jpg)
+![celeste menu](/assets/images/posts/20231203-playing-Celeste/menu.jpg)
 
 収集要素の1つである金色のイチゴ（スタートからチャプター完了までミスせずに進むともらえる）を集めることはないと思います。
 

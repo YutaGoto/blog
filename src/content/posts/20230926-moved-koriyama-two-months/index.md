@@ -5,13 +5,13 @@ description: "慣れてきたかもしれない"
 tags: ["life", "郡山"]
 ---
 
-![ouse-river](/blog/assets/images/posts/20230926-moved-koriyama-two-months/ouse-river.jpg)
+![ouse-river](/assets/images/posts/20230926-moved-koriyama-two-months/ouse-river.jpg)
 
 こんにちは、.ごっちです。
 
 東京都立川市から福島県郡山市へ引っ越してから2カ月がたちました。経緯は前回の記事を見てください。
 
-- [引越ししました - .ごっちの日記](https://yutagoto.github.io/blog/posts/20230817-moved-koriyama/)
+- [引越ししました - .ごっちの日記](https://blog.yougoto.devposts/20230817-moved-koriyama/)
 
 ## 所感
 

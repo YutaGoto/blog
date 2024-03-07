@@ -5,7 +5,7 @@ description: "趣味プロダクトでお世話になっております"
 tags: ["CircleCI", "アドベントカレンダー"]
 ---
 
-![circleci](/blog/assets/images/posts/20221210-circleci-review/circleci-logo.png)
+![circleci](/assets/images/posts/20221210-circleci-review/circleci-logo.png)
 
 これは [.ごっ！のアドベントカレンダー](https://adventar.org/calendars/8199) の10日目の記事です。
 
@@ -15,7 +15,7 @@ tags: ["CircleCI", "アドベントカレンダー"]
 
 ## Slack連携
 
-先日の[記事](https://yutagoto.github.io/blog/posts/20221206-personal-slack/)の最後のほうにも書きましたが、CronJob的な使い方もしています。サーバーを構築することもなく使えることに助かっております。
+先日の[記事](https://blog.yougoto.devposts/20221206-personal-slack/)の最後のほうにも書きましたが、CronJob的な使い方もしています。サーバーを構築することもなく使えることに助かっております。
 
 ## コミュニティイベントの参加
 
@@ -35,9 +35,9 @@ Hashicorpに[Vault](https://www.hashicorp.com/products/vault)というプロダ�
 
 Rubyの設定をするときにテンプレートからファイルを編集できるのですが、そのテンプレートが地味に古かったりするのでひと手間が必要だったりします。
 
-![select](/blog/assets/images/posts/20221210-circleci-review/select.png)
+![select](/assets/images/posts/20221210-circleci-review/select.png)
 
-![config](/blog/assets/images/posts/20221210-circleci-review/config.png)
+![config](/assets/images/posts/20221210-circleci-review/config.png)
 
 テンプレートを書くだけではエラーになってしまうので少し悲しい。12月7日時点ではrubyのorbが2.0.0なので惜しい。
 

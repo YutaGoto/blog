@@ -5,7 +5,7 @@ description: "NextJSを使った趣味プロダクトです。"
 tags: ["NextJS", "React", "JavaScript", "アドベントカレンダー"]
 ---
 
-![nextjs](/blog/assets/images/posts/20221209-this-year-nextjs-product/next-logo.png)
+![nextjs](/assets/images/posts/20221209-this-year-nextjs-product/next-logo.png)
 
 これは [.ごっ！のアドベントカレンダー](https://adventar.org/calendars/8199) の9日目の記事です。
 
@@ -15,7 +15,7 @@ tags: ["NextJS", "React", "JavaScript", "アドベントカレンダー"]
 
 ## What3Idols
 
-![What3Idols](/blog/assets/images/posts/20221209-this-year-nextjs-product/what3idols-logo.png)
+![What3Idols](/assets/images/posts/20221209-this-year-nextjs-product/what3idols-logo.png)
 
 https://what3idols.vercel.app/
 
@@ -32,8 +32,8 @@ https://github.com/YutaGoto/what3idols
 
 アイドルマスターに登場するアイドルやスタッフの順列で日本の唯一の位置を特定するアプリになってます。経緯は過去のポストを読んでください。
 
-- What3Idolsなるものを作った: https://yutagoto.github.io/blog/posts/20201223-what3idols%E3%81%AA%E3%82%8B%E3%82%82%E3%81%AE%E3%82%92%E4%BD%9C%E3%81%A3%E3%81%9F/
-- What3IdolsプロジェクトをYarn v3へアップグレード: https://yutagoto.github.io/blog/posts/20220210-what3idols-yarn3/
+- What3Idolsなるものを作った: https://blog.yougoto.devposts/20201223-what3idols%E3%81%AA%E3%82%8B%E3%82%82%E3%81%AE%E3%82%92%E4%BD%9C%E3%81%A3%E3%81%9F/
+- What3IdolsプロジェクトをYarn v3へアップグレード: https://blog.yougoto.devposts/20220210-what3idols-yarn3/
 
 2年前から手を付けていますが、このあたりの変遷は後日の記事に書こうと思います。
 
@@ -63,6 +63,6 @@ https://github.com/YutaGoto/beerkeeper-rails
 
 ## 今後
 
-[Nextjs v13](https://nextjs.org/blog/next-13)が公開されて `app`ディレクトリでの開発や [turbopack](https://vercel.com/blog/turbopack)の公開があり、すべてを追いきれていない状態にあります。What3Idolsに関しては新機能を早めに取り込んでみたいと考えてます。
+[Nextjs v13](https://nextjs.org/next-13)が公開されて `app`ディレクトリでの開発や [turbopack](https://vercel.com/turbopack)の公開があり、すべてを追いきれていない状態にあります。What3Idolsに関しては新機能を早めに取り込んでみたいと考えてます。
 
 来年以降はNextjsを仕事でも使えたらいいなぁと少しだけ考えてます。

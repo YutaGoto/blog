@@ -5,7 +5,7 @@ description: "Yarn v1 -> Yarn v3"
 tags: ["アイドルマスター", "What3Idols", "yarn"]
 ---
 
-![yarn](/blog/assets/images/posts/20220210-what3idols-yarn3/yarn.png)
+![yarn](/assets/images/posts/20220210-what3idols-yarn3/yarn.png)
 
 こんにちは、.ごっちです。
 

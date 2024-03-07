@@ -14,13 +14,13 @@ tags: ["農業", "アドベントカレンダー"]
 
 2022年初頭にビニルハウス建ての手伝いに行っていました。
 
-- 農家さんの手伝いに行った - .ごっちの日記 https://yutagoto.github.io/blog/posts/20220301-agrienta-plastic-hot-house/
+- 農家さんの手伝いに行った - .ごっちの日記 https://blog.yougoto.devposts/20220301-agrienta-plastic-hot-house/
 
 この記事以降も数回お手伝いに行っています。
 
 ## きゅうり
 
-![cucumber](/blog/assets/images/posts/20221225-agriculture-experience/cucumber.jpg)
+![cucumber](/assets/images/posts/20221225-agriculture-experience/cucumber.jpg)
 
 わたしの背中です。
 
@@ -36,11 +36,11 @@ tags: ["農業", "アドベントカレンダー"]
 
 10月にもいっていて、このときは秋冬野菜の種植えの手伝いをしました。
 
-![turnip](/blog/assets/images/posts/20221225-agriculture-experience/turnip.jpg)
+![turnip](/assets/images/posts/20221225-agriculture-experience/turnip.jpg)
 
 結構な長さがあるので、一粒ずつ手で置いたわけではなく転がすだけで種が落ちるような機構のある道具を使ったわけですが。
 
-<video controls width="480" alt="seed" src="/blog/assets/images/posts/20221225-agriculture-experience/seed.mp4"></video>
+<video controls width="480" alt="seed" src="/assets/images/posts/20221225-agriculture-experience/seed.mp4"></video>
 
 ---
 

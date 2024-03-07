@@ -7,7 +7,7 @@ tags: ["JavaScript", "nodejs", "blog"]
 
 こんにちは。、.ごっちです。 あまり更新できていませんでしたが、ひとまずネタができたのでブログの生存報告もかねて書きます。
 
-https://github.com/YutaGoto/blog/pull/527
+https://github.com/YutaGoto/pull/527
 
 作業内容は開発環境とCIのnodejsのバージョンを上げて問題なく動作するかどうかのチェックのみでした。
 不具合があれば相応の対応をするつもりでしたが、問題なく動作したのでこのままといったところでした。

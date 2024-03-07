@@ -5,7 +5,7 @@ description: "散歩だけではないけど"
 tags: ["郡山", "life", "アドベントカレンダー"]
 ---
 
-![Chansey Park](/blog/assets/images/posts/20231206-koriyama-neighborhood/park.jpg)
+![Chansey Park](/assets/images/posts/20231206-koriyama-neighborhood/park.jpg)
 
 これは [.ごっ！のアドベントカレンダー](https://adventar.org/calendars/9122) の6日目の記事です。
 
@@ -13,8 +13,8 @@ tags: ["郡山", "life", "アドベントカレンダー"]
 
 東京・立川から福島・郡山に引越しして半年経つか経たないかくらいになっています。
 
-- 引っ越してから2カ月くらい経ちました - .ごっちの日記: https://yutagoto.github.io/blog/posts/20230926-moved-koriyama-two-months/
-- 引越ししました - .ごっちの日記: https://yutagoto.github.io/blog/posts/20230817-moved-koriyama/
+- 引っ越してから2カ月くらい経ちました - .ごっちの日記: https://blog.yougoto.devposts/20230926-moved-koriyama-two-months/
+- 引越ししました - .ごっちの日記: https://blog.yougoto.devposts/20230817-moved-koriyama/
 
 市内の友人がだれ一人としていない状況ですが、わりと楽しく過ごしております。
 
@@ -58,6 +58,6 @@ tags: ["郡山", "life", "アドベントカレンダー"]
 
 猪苗代湖近郊（猪苗代湖1周や磐梯山）を観光とやっぱり車が欲しくなります。
 
-![bandai](/blog/assets/images/posts/20231206-koriyama-neighborhood/bandai.jpg)
+![bandai](/assets/images/posts/20231206-koriyama-neighborhood/bandai.jpg)
 
 他の地域は全然散策できていないので、来年は会津若松・只見方面やいわき方面にも足を延ばしたいところです。

@@ -5,7 +5,7 @@ description: "張り切りすぎず塗りたくる"
 tags: ["Splatoon3", "game", "アドベントカレンダー"]
 ---
 
-<img src="/blog/assets/images/posts/20231205-enjoying-splatoon3/top.jpg" />
+<img src="/assets/images/posts/20231205-enjoying-splatoon3/top.jpg" />
 
 これは [.ごっ！のアドベントカレンダー](https://adventar.org/calendars/9122) の5日目の記事です。
 
@@ -13,15 +13,15 @@ tags: ["Splatoon3", "game", "アドベントカレンダー"]
 
 去年にひきつづき今年もほどほどにSplatoon3で遊んでいました。ほどほどというのはXパワーやウデマエを上位を目指すことなく、その他コミュニティ大会などには参加せずに気軽に遊んでいるという意味です。
 
-- Splatoon3 所感 - .ごっちの日記: https://yutagoto.github.io/blog/posts/20221218-playing-splatoon3/
+- Splatoon3 所感 - .ごっちの日記: https://blog.yougoto.devposts/20221218-playing-splatoon3/
 
 ## 対戦結果
 
-<img src="/blog/assets/images/posts/20231205-enjoying-splatoon3/Turf-Result.jpg" width="400" />
+<img src="/assets/images/posts/20231205-enjoying-splatoon3/Turf-Result.jpg" width="400" />
 
 ほどほどかと思いきや、ウデマエS+まであがった後は毎シーズンS+10まで上げるみたいなことはしています。いろいろ試しながらやっています。
 
-<img src="/blog/assets/images/posts/20231205-enjoying-splatoon3/weapons.png" width="400" />
+<img src="/assets/images/posts/20231205-enjoying-splatoon3/weapons.png" width="400" />
 
 オーバーフロッシャーやN-ZAP'85など使い込んでいるブキはあるものの、星5達成しているブキがない状況です。2023 Chill Season でオーバーフロッシャーは星5達成するかとは思っています。S-Blastも楽しいブキなので、追加されるマイナーチェンジブキも併せてもうちょっと使い込んでみたいところです。
 
@@ -29,13 +29,13 @@ tags: ["Splatoon3", "game", "アドベントカレンダー"]
 
 ## サーモンランNextWave結果
 
-<img src="/blog/assets/images/posts/20231205-enjoying-splatoon3/salmonStages.png" width="400" />
+<img src="/assets/images/posts/20231205-enjoying-splatoon3/salmonStages.png" width="400" />
 
 何ステージかをレートカンストまでやりました。全然やりこんでいないステージもあるので、来年は残りのステージもカンスト達成したい所存です。時間を確保できるかどうかが怪しい感じではあります。最初からあるアラマキ砦を400まで進められていないというのもあります。
 
 <blockquote class="twitter-tweet"><p lang="ja" dir="ltr">すじこジャンクション跡 通常編成野良カウント。。完！ <a href="https://twitter.com/hashtag/%E3%82%B9%E3%83%97%E3%83%A9%E3%83%88%E3%82%A5%E3%83%BC%E3%83%B33?src=hash&amp;ref_src=twsrc%5Etfw">#スプラトゥーン3</a> <a href="https://twitter.com/hashtag/Splatoon3?src=hash&amp;ref_src=twsrc%5Etfw">#Splatoon3</a> <a href="https://twitter.com/hashtag/NintendoSwitch?src=hash&amp;ref_src=twsrc%5Etfw">#NintendoSwitch</a> <a href="https://t.co/pAeP7gtBh5">pic.twitter.com/pAeP7gtBh5</a></p>&mdash; .ごっち📝 (@gggooottto) <a href="https://twitter.com/gggooottto/status/1695429312303018359?ref_src=twsrc%5Etfw">August 26, 2023</a></blockquote>
 
-<img src="/blog/assets/images/posts/20231205-enjoying-splatoon3/salmon.png" width="400" />
+<img src="/assets/images/posts/20231205-enjoying-splatoon3/salmon.png" width="400" />
 
 ## その他
 

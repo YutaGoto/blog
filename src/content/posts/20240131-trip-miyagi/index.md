@@ -19,9 +19,9 @@ tags: ["旅行", "宮城"]
 
 今回は宮戸島内の民宿に泊まりました。漁師がやっているということもあり、料理の素材も新鮮で量も多く大変おいしかったです。
 
-<img width="480" alt="PXL_20240117_085036264.MP.jpg (950.8 kB)" src="/blog/assets/images/posts/20240131-trip-miyagi/PXL_20240117_085036264.MP.jpg">
+<img width="480" alt="PXL_20240117_085036264.MP.jpg (950.8 kB)" src="/assets/images/posts/20240131-trip-miyagi/PXL_20240117_085036264.MP.jpg">
 
-<img width="480" alt="PXL_20240117_075304130.jpg (492.9 kB)" src="/blog/assets/images/posts/20240131-trip-miyagi/PXL_20240117_075304130.jpg">
+<img width="480" alt="PXL_20240117_075304130.jpg (492.9 kB)" src="/assets/images/posts/20240131-trip-miyagi/PXL_20240117_075304130.jpg">
 
 ## 松島
 
@@ -33,17 +33,17 @@ tags: ["旅行", "宮城"]
 
 温泉むすめも発見できました。
 
-<img width="480" alt="PXL_20240118_004217749.jpg (1.2 MB)" src="/blog/assets/images/posts/20240131-trip-miyagi/PXL_20240118_004217749.jpg">
+<img width="480" alt="PXL_20240118_004217749.jpg (1.2 MB)" src="/assets/images/posts/20240131-trip-miyagi/PXL_20240118_004217749.jpg">
 
 ## 蔵王・角田
 
 2泊目は蔵王の別荘を借りてゆっくりしていました。少し仕事もはかどったかなとも思います。別荘はかなり大きく、夏場に来て合宿形式で何かやるというのも面白そうだと感じました。
 
-<img width="480" alt="PXL_20240118_062950226.jpg (1.2 MB)" src="/blog/assets/images/posts/20240131-trip-miyagi/PXL_20240118_062950226.jpg">
+<img width="480" alt="PXL_20240118_062950226.jpg (1.2 MB)" src="/assets/images/posts/20240131-trip-miyagi/PXL_20240118_062950226.jpg">
 
 日が変わって大河原のほうにJAXAの角田宇宙センターがあるということで行ってきました。
 
-<img width="480" alt="PXL_20240119_023331024.jpg (1.1 MB)" src="/blog/assets/images/posts/20240131-trip-miyagi/PXL_20240119_023331024.jpg">
+<img width="480" alt="PXL_20240119_023331024.jpg (1.1 MB)" src="/assets/images/posts/20240131-trip-miyagi/PXL_20240119_023331024.jpg">
 
 https://www.jaxa.jp/about/centers/kspc/index_j.html
 
@@ -51,7 +51,7 @@ https://www.jaxa.jp/about/centers/kspc/index_j.html
 
 レプリカや本物の展示があるだけでも十分興奮できますが、研究員の方に直接やりとりができるのはとても緊張しますね。
 
-<img width="480" alt="PXL_20240119_023915908.jpg (841.6 kB)" src="/blog/assets/images/posts/20240131-trip-miyagi/PXL_20240119_023915908.jpg">
+<img width="480" alt="PXL_20240119_023915908.jpg (841.6 kB)" src="/assets/images/posts/20240131-trip-miyagi/PXL_20240119_023915908.jpg">
 
 ---
 

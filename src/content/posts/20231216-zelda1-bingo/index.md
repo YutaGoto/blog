@@ -5,7 +5,7 @@ description: "もうちょいとがった技術選定したい"
 tags: ["ゼルダの伝説", "React", "アドベントカレンダー"]
 ---
 
-![Zelda1](/blog/assets/images/posts/20231216-zelda1-bingo/zelda1-logo.png)
+![Zelda1](/assets/images/posts/20231216-zelda1-bingo/zelda1-logo.png)
 
 これは [.ごっ！のアドベントカレンダー](https://adventar.org/calendars/9122) の16日目の記事です。
 
@@ -28,9 +28,9 @@ tags: ["ゼルダの伝説", "React", "アドベントカレンダー"]
 https://github.com/YutaGoto/zelda1-bingo
 https://zelda1-bingo.vercel.app/
 
-![og image](/blog/assets/images/posts/20231216-zelda1-bingo/og-image.png)
+![og image](/assets/images/posts/20231216-zelda1-bingo/og-image.png)
 
-![bingo page](/blog/assets/images/posts/20231216-zelda1-bingo/bingo-page.png)
+![bingo page](/assets/images/posts/20231216-zelda1-bingo/bingo-page.png)
 
 ## 技術スタック
 
@@ -58,7 +58,7 @@ https://zelda1-bingo.vercel.app/
 
 https://github.com/users/YutaGoto/projects/4
 
-![kanban](/blog/assets/images/posts/20231216-zelda1-bingo/kanban.png)
+![kanban](/assets/images/posts/20231216-zelda1-bingo/kanban.png)
 
 改善点としてはディレクトリ構成・コンポーネント設計がきれいではないように見えるので、置き換えるときに再設計しようかと思っています。
 日本語・英語ともにゲーム内文章やタスク説明のフィードバックを得られていないので、意図通りに伝わっているか不安があります。

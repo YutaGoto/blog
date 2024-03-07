@@ -20,11 +20,11 @@ const post_slag = url.pathname.split("/").slice(-1)[0]
           <h1 class="mb-2 text-4xl">404: Not Found</h1>
           {
             post_slag.startsWith("202") ? (
-              <a href={`/blog/posts/${post_slag}`} class="underline">
+              <a href={`/posts/${post_slag}`} class="underline">
                 Go The Post
               </a>
             ) : (
-              <a href="/blog/" class="underline">
+              <a href="/" class="underline">
                 Go To Home
               </a>
             )

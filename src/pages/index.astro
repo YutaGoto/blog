@@ -13,6 +13,8 @@ const tags = [...new Set(allPosts.map(post => post.data?.tags).flat())].filter(
   (e): e is string => typeof e === "string",
 )
 allPosts.reverse()
+
+const gTagId = import.meta.env.PROD ? "G-WDXGRMPVMC" : "G-4ZQZQZQZQZ"
 ---
 
 <html>
@@ -37,18 +39,14 @@ allPosts.reverse()
 
     <script
       type="text/partytown"
-      src=`https://www.googletagmanager.com/gtag/js?id=${import.meta.env.PROD ? "G-WDXGRMPVMC" : "G-4ZQZQZQZQZ"}`
-    ></script>
-    <script type="text/partytown">
+      src=`https://www.googletagmanager.com/gtag/js?id=${gTagId}`></script>
+    <script type="text/partytown" data-gtagid={gTagId}>
       window.dataLayer = window.dataLayer || []
       function gtag() {
         dataLayer.push(arguments)
       }
       gtag("js", new Date())
-      gtag(
-        "config",
-        `${import.meta.env.PROD ? "G-WDXGRMPVMC" : "G-4ZQZQZQZQZ"}`,
-      )
+      gtag("config", document.currentScript.dataset.gtagid)
     </script>
   </body>
 </html>

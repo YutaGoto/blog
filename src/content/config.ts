@@ -9,7 +9,7 @@ export const blogSchema = z.object({
 })
 
 const blogCollection = defineCollection({
-  type: 'content',
+  type: "content",
   schema: blogSchema,
 })
 

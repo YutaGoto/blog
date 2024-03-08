@@ -15,6 +15,7 @@ interface Props {
 }
 
 const { frontmatter } = Astro.props
+const gTagId = import.meta.env.PROD ? "G-WDXGRMPVMC" : "G-4ZQZQZQZQZ"
 ---
 
 <html>
@@ -82,18 +83,14 @@ const { frontmatter } = Astro.props
 
     <script
       type="text/partytown"
-      src=`https://www.googletagmanager.com/gtag/js?id=${import.meta.env.PROD ? "G-WDXGRMPVMC" : "G-4ZQZQZQZQZ"}`
-    ></script>
-    <script type="text/partytown">
+      src=`https://www.googletagmanager.com/gtag/js?id=${gTagId}`></script>
+    <script type="text/partytown" data-gtagid={gTagId}>
       window.dataLayer = window.dataLayer || []
       function gtag() {
         dataLayer.push(arguments)
       }
       gtag("js", new Date())
-      gtag(
-        "config",
-        `${import.meta.env.PROD ? "G-WDXGRMPVMC" : "G-4ZQZQZQZQZ"}`,
-      )
+      gtag("config", document.currentScript.dataset.gtagid)
     </script>
   </body>
 </html>

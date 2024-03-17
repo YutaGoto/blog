@@ -19,8 +19,9 @@ tags: ["blog"]
 
 まずはこのブログとちょっとした個人サービスのドメインを移管させました。
 
-- .ごっちの日記: https://blog.yougoto.dev/
-- 自撮りハイラル図鑑: https://hyrule-selfy-compendium.yougoto.dev/
+https://blog.yougoto.dev/
+
+https://hyrule-selfy-compendium.yougoto.dev/
 
 blueskyのアカウントにもドメイン登録させました。
 

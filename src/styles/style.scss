@@ -51,11 +51,6 @@ section {
   display: flex;
   align-items: stretch;
 
-  &:hover {
-    background-color: rgba(80, 80, 80, 0.1);
-    box-shadow: 0 4px 5px 2px rgba(80, 80, 80, 0.2);
-  }
-
   .rlc-info {
     overflow: hidden;
     padding: 0.5rem;
@@ -64,6 +59,14 @@ section {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+
+    &:hover {
+      @apply bg-gray-50;
+
+      @media (prefers-color-scheme: dark){
+        @apply bg-gray-800;
+      }
+    }
 
     .rlc-title {
       font-size: 1.25rem;

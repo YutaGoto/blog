@@ -25,6 +25,6 @@ https://hyrule-selfy-compendium.yougoto.dev/
 
 blueskyのアカウントにもドメイン登録させました。
 
-- .Gotch(ごっち) (@yougoto.dev) — Bluesky: https://bsky.app/profile/yougoto.dev
+https://bsky.app/profile/yougoto.dev
 
 ブログに関してはGitHub PagesでホストしていたものをCloud Runにサーバー移行させました。こちらに関してはまた別途書きます。

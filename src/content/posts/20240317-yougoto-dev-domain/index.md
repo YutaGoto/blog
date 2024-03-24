@@ -19,11 +19,12 @@ tags: ["blog"]
 
 まずはこのブログとちょっとした個人サービスのドメインを移管させました。
 
-- .ごっちの日記: https://blog.yougoto.dev/
-- 自撮りハイラル図鑑: https://hyrule-selfy-compendium.yougoto.dev/
+https://blog.yougoto.dev/
+
+https://hyrule-selfy-compendium.yougoto.dev/
 
 blueskyのアカウントにもドメイン登録させました。
 
-- .Gotch(ごっち) (@yougoto.dev) — Bluesky: https://bsky.app/profile/yougoto.dev
+https://bsky.app/profile/yougoto.dev
 
 ブログに関してはGitHub PagesでホストしていたものをCloud Runにサーバー移行させました。こちらに関してはまた別途書きます。

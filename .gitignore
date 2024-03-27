@@ -59,8 +59,5 @@ dist/
 .output/
 .astro/
 
-# link card image
-public/remark-link-card/*
-
 # testing
 /playwright-report

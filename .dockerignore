@@ -9,3 +9,5 @@ dist
 .dockerignore
 LICENSE
 .vscode
+test-results
+tests

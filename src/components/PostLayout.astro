@@ -12,9 +12,10 @@ import type { PostEntry } from "@/content/config"
 
 interface Props {
   frontmatter: PostEntry["frontmatter"]
+  slug: PostEntry["slug"]
 }
 
-const { frontmatter } = Astro.props
+const { frontmatter, slug } = Astro.props
 const gTagId = import.meta.env.PROD ? "G-WDXGRMPVMC" : "G-4ZQZQZQZQZ"
 ---
 
@@ -53,7 +54,7 @@ const gTagId = import.meta.env.PROD ? "G-WDXGRMPVMC" : "G-4ZQZQZQZQZ"
         </div>
       </div>
 
-      <div class="mb-4 mt-4">
+      <div class="mb-4 mt-4 flex justify-start gap-2">
         <a
           href="https://twitter.com/share?ref_src=twsrc%5Etfw"
           class="twitter-share-button"
@@ -61,6 +62,14 @@ const gTagId = import.meta.env.PROD ? "G-WDXGRMPVMC" : "G-4ZQZQZQZQZ"
           data-via="gggooottto"
           data-show-count="false">Tweet</a
         >
+        <a
+          href={`https://bsky.app/intent/compose?text=${frontmatter?.title} - .ごっちの日記 https://blog.yougoto.dev/posts/${slug}`}
+          class="box-border rounded-md border border-bluesky p-1 text-bluesky hover:bg-bluesky hover:text-gray-900 dark:hover:text-gray-100"
+          target="_blank"
+          rel="noreferrer noopener"
+        >
+          <i class="ri-bluesky-fill ri-3xl"></i> Share for Bluesky
+        </a>
       </div>
 
       <div

@@ -2,6 +2,7 @@
 title: "あつまれどうぶつの森の写真をまとめてみる"
 date: "2020-07-26T09:00:00.000Z"
 description: "あつまれどうぶつの森の写真をまとめてみる"
+tags: ["game", "あつまれ どうぶつの森"]
 ---
 
 こんにちは。、.ごっちです。
@@ -12,7 +13,7 @@ description: "あつまれどうぶつの森の写真をまとめてみる"
 
 このイベントは撮影専用の島にでかけて、結婚式や披露宴のように家具を設置して撮影をするというやつだったんですが、せっかく 30 枚撮影したので雑ではありますがペライチのサイトを作成しました。
 
-[**Reese(リサ) and Cyrus(カイゾー) Wedding Photos** *Edit description*yutagoto.github.io](https://blog.yougoto.devAnimalCrossingJuneBridePhotos2020/)
+[**Reese(リサ) and Cyrus(カイゾー) Wedding Photos** *Edit description*yutagoto.github.io](https://yutagoto.github.io/AnimalCrossingJuneBridePhotos2020/)
 
 ![](https://cdn-images-1.medium.com/max/2740/0*7SnfuetQ4kF4b8Nc.png)
 

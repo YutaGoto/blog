@@ -23,7 +23,7 @@
     "@typescript-eslint/parser": "^7.0.1",
     "astro-auto-import": "^0.4.1",
     "astro-eslint-parser": "^0.17.0",
-    "eslint": "^8.54.0",
+    "eslint": "^9.1.0",
     "eslint-config-prettier": "^9.0.0",
     "eslint-import-resolver-typescript": "^3.6.1",
     "eslint-plugin-astro": "^0.34.0",

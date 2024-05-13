@@ -4,14 +4,32 @@
     "enabled": true
   },
   "javascript": {
-    "globals": ["Astro"],
+    "globals": ["Astro", "json"],
     "formatter": {
       "semicolons": "asNeeded",
       "indentStyle": "space"
     }
   },
+  "formatter": {
+    "ignore": [
+      "node_modules",
+      "test-results",
+      "dist",
+      ".astro",
+      "playwright-report"
+    ],
+    "indentStyle": "space",
+    "indentWidth": 2
+  },
   "linter": {
     "enabled": true,
+    "ignore": [
+      "node_modules",
+      "test-results",
+      "dist",
+      ".astro",
+      "playwright-report"
+    ],
     "rules": {
       "recommended": true
     }

@@ -9,7 +9,8 @@ const routes = (await getStaticPaths(
 const paths = new Set(routes.map(({ params }) => params.path))
 
 export const getOgImageUrl = (path: string): string | undefined => {
-  const imagePath =
-    path.replace(/^\/blog\/posts\//, "").replace(/\/$/, "") + ".png"
-  if (paths.has(imagePath)) return "/open-graph/" + imagePath
+  const imagePath = `${path
+    .replace(/^\/blog\/posts\//, "")
+    .replace(/\/$/, "")}.png`
+  if (paths.has(imagePath)) return `/open-graph/${imagePath}`
 }

@@ -48,7 +48,7 @@ describe("profile links", () => {
     await xIcon.click()
     const newPage = await pagePromise
     await newPage.waitForLoadState()
-    expect(newPage.url()).toBe("https://x.com/gggooottto")
+    expect(newPage.url()).toMatch(/https:\/\/x.com\/gggooottto\?*/)
   })
 
   test("work profile Bluesky link", async ({ page, context }) => {

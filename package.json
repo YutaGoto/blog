@@ -45,7 +45,7 @@
     "preview": "astro preview",
     "astro": "astro",
     "lint": "biome check ./ && biome lint ./",
-    "format": "biome check --apply-unsafe ./ && biome format --write ./",
+    "format": "biome check --write --unsafe ./ && biome format --write ./",
     "textlint": "textlint src/content/posts/202[1-9]**/*.md",
     "typecheck": "astro check && tsc --noEmit",
     "test": "playwright test"

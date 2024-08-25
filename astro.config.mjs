@@ -1,6 +1,6 @@
 import partytown from "@astrojs/partytown"
-import tailwind from "@astrojs/tailwind"
 import { defineConfig } from "astro/config"
+import UnoCSS from "unocss/astro"
 
 // https://astro.build/config
 export default defineConfig({
@@ -10,7 +10,7 @@ export default defineConfig({
         forward: ["dataLayer.push"],
       },
     }),
-    tailwind(),
+    UnoCSS({ injectReset: true }),
   ],
   site: "https://blog.yougoto.dev",
 })

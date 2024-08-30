@@ -4,13 +4,13 @@ import "remixicon/fonts/remixicon.css"
 const year = new Date().getFullYear()
 ---
 
-<div class="bg-gray-200 text-gray-900 dark:bg-gray-700 dark:text-gray-100">
+<div class="bg-gray-200 text-gray-900 @dark:bg-gray-700 @dark:text-gray-100">
   <nav
-    class="sticky top-0 z-50 flex h-10 bg-blue-300 dark:bg-blue-900"
+    class="sticky top-0 z-50 flex h-10 bg-blue-300 @dark:bg-blue-900"
     role="navigation"
   >
     <div>
-      <a class="pl-2 text-3xl text-gray-900 dark:text-gray-100" href="/">
+      <a class="pl-2 text-3xl text-gray-900 @dark:text-gray-100" href="/">
         .ごっちの日記
       </a>
     </div>
@@ -18,8 +18,8 @@ const year = new Date().getFullYear()
   <main class="container mx-auto mt-1 w-11/12">
     <div><slot /></div>
   </main>
-  <footer class="flex h-10 bg-gray-300 dark:bg-gray-400">
-    <div class="flex-1 text-gray-900 dark:text-gray-100">
+  <footer class="flex h-10 bg-gray-300 @dark:bg-gray-400">
+    <div class="flex-1 text-gray-900 @dark:text-gray-100">
       © {year}, Yuta Goto
     </div>
   </footer>

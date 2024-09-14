@@ -87,13 +87,13 @@ const gTagId = import.meta.env.PROD ? "G-WDXGRMPVMC" : "G-4ZQZQZQZQZ"
       <script
         async
         src="https://platform.twitter.com/widgets.js"
-        charset="utf-8"></script>
+        charset="utf-8" is:inline></script>
     </Layout>
 
     <script
       type="text/partytown"
-      src=`https://www.googletagmanager.com/gtag/js?id=${gTagId}`></script>
-    <script type="text/partytown" data-gtagid={gTagId}>
+      src=`https://www.googletagmanager.com/gtag/js?id=${gTagId}` is:inline></script>
+    <script type="text/partytown" data-gtagid={gTagId} is:inline>
       window.dataLayer = window.dataLayer || []
       function gtag() {
         dataLayer.push(arguments)

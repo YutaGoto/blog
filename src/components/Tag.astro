@@ -1,4 +1,6 @@
 ---
+import Link from "@/components/global/Link.astro"
+
 interface Props {
   tag: string
   className?: string
@@ -16,9 +18,9 @@ const { tag, className, withLink = true, active = false } = Astro.props
 >
   {
     withLink ? (
-      <a href={`/tags/${tag}`} astro-data-history="push">
+      <Link href={`/tags/${tag}`} astro-data-history="push">
         {tag}
-      </a>
+      </Link>
     ) : (
       tag
     )

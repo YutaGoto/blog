@@ -1,4 +1,6 @@
 ---
+import Link from "@/components/global/Link.astro"
+
 interface Props {
   post: CollectionEntry<"posts">
 }
@@ -18,9 +20,9 @@ const tags = post.data?.tags
   transition:name=`articleCard-${post.slug}`
   transition:animate="fade"
 >
-  <a
+  <Link
     href={`/posts/${post.slug}`}
-    class="has-text-black"
+    className="has-text-black"
     astro-data-history="push"
   >
     <article class="media" itemtype="http://schema.org/Article">
@@ -38,5 +40,5 @@ const tags = post.data?.tags
         </div>
       </div>
     </article>
-  </a>
+  </Link>
 </div>

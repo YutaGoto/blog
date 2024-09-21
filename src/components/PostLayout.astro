@@ -2,12 +2,12 @@
 import "prism-themes/themes/prism-atom-dark.css"
 import { cdate } from "cdate"
 
-import Bio from "./Bio.astro"
-import ButtonLink from "./ButtonLink.astro"
-import Head from "./Head.astro"
-import Layout from "./Layout.astro"
-import Tag from "./Tag.astro"
-
+import Bio from "@/components/Bio.astro"
+import Head from "@/components/Head.astro"
+import Layout from "@/components/Layout.astro"
+import Tag from "@/components/Tag.astro"
+import ButtonLink from "@/components/global/ButtonLink.astro"
+import Link from "@/components/global/Link.astro"
 import type { PostEntry } from "@/content/config"
 
 interface Props {
@@ -55,21 +55,20 @@ const gTagId = import.meta.env.PROD ? "G-WDXGRMPVMC" : "G-4ZQZQZQZQZ"
       </div>
 
       <div class="mb-4 mt-4 flex justify-start gap-2">
-        <a
+        <Link
           href="https://twitter.com/share?ref_src=twsrc%5Etfw"
-          class="twitter-share-button"
+          className="twitter-share-button"
           data-text={`${frontmatter?.title} - .ごっちの日記`}
           data-via="gggooottto"
-          data-show-count="false">Tweet</a
+          data-show-count="false">Tweet</Link
         >
-        <a
+        <Link
           href={`https://bsky.app/intent/compose?text=${frontmatter?.title} - .ごっちの日記 https://blog.yougoto.dev/posts/${slug}`}
-          class="box-border rounded-md border border-bluesky p-1 text-bluesky hover:bg-bluesky hover:text-gray-900 @dark:hover:text-gray-100"
-          target="_blank"
-          rel="noreferrer noopener"
+          className="box-border rounded-md border border-bluesky p-1 text-bluesky hover:bg-bluesky hover:text-gray-900 @dark:hover:text-gray-100"
+          targetBlank
         >
           <i class="ri-bluesky-fill ri-3xl"></i> Share for Bluesky
-        </a>
+      </Link>
       </div>
 
       <div

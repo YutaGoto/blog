@@ -4,6 +4,7 @@ import { getCollection } from "astro:content"
 import Head from "@/components/Head.astro"
 import Layout from "@/components/Layout.astro"
 import Tag from "@/components/Tag.astro"
+import Heading from "@/components/global/Heading.astro"
 
 const allPosts = await getCollection("posts")
 const tags = [...new Set(allPosts.flatMap((post) => post.data?.tags))].filter(
@@ -20,7 +21,7 @@ const pageTitle = "Tag Index"
   />
   <body>
     <Layout title={pageTitle}>
-      <h1 class="mb-2 text-4xl font-extrabold">タグ一覧</h1>
+      <Heading level={1} className="mb-2 text-4xl font-extrabold">タグ一覧</Heading>
       <div class="my-2">
         {tags.map(tag => <Tag className="mr-1" tag={tag} />)}
       </div>

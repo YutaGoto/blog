@@ -1,5 +1,6 @@
 ---
 import Layout from "@/components/Layout.astro"
+import Link from "@/components/global/Link.astro"
 
 const url = new URL(Astro.request.url)
 const post_slag = url.pathname.split("/").slice(-1)[0]
@@ -20,13 +21,13 @@ const post_slag = url.pathname.split("/").slice(-1)[0]
           <h1 class="mb-2 text-4xl">404: Not Found</h1>
           {
             post_slag.startsWith("202") ? (
-              <a href={`/posts/${post_slag}`} class="underline">
+              <Link href={`/posts/${post_slag}`} className="underline">
                 Go The Post
-              </a>
+              </Link>
             ) : (
-              <a href="/" class="underline">
+              <Link href="/" className="underline">
                 Go To Home
-              </a>
+              </Link>
             )
           }
         </div>

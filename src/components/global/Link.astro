@@ -1,0 +1,20 @@
+---
+interface Props {
+  href: string
+  className?: string
+  targetBlank?: boolean
+}
+
+const { href, className, targetBlank = false } = Astro.props
+---
+
+<a
+  href={href}
+  astro-data-history="push"
+  class={className}
+  target={targetBlank ? "_blank" : undefined}
+  rel={targetBlank ? "noreferrer noopener" : undefined}
+>
+  <slot />
+</a>
+

@@ -6,6 +6,7 @@ import Bio from "@/components/Bio.astro"
 import Head from "@/components/Head.astro"
 import Layout from "@/components/Layout.astro"
 import TagList from "@/components/TagList.astro"
+import Heading from "@/components/global/Heading.astro"
 
 export const getStaticPaths = async () => {
   const allPosts = await getCollection("posts")
@@ -41,10 +42,10 @@ const { posts } = Astro.props
   />
   <body>
     <Layout title={tag}>
-      <h1 class="mb-2 text-4xl font-extrabold">
+      <Heading level={1} className="mb-2 text-4xl font-extrabold">
         <i class="ri-price-tag-3-line"></i>
         {tag} 記事一覧
-      </h1>
+      </Heading>
       <div class="lg:flex lg:space-x-2">
         <div class="max-w-screen-2xl lg:flex-grow">
           {

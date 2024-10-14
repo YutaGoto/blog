@@ -2,17 +2,18 @@
 title: "ミリシタの封筒をWebで再現している話"
 date: "2020-01-17T09:00:00.000Z"
 description: "ミリシタの封筒をWebで再現している話"
+tags: ["imastudy", "imas_hack", "アイドルマスター", "vuejs"]
 ---
 
 こんにちは。、.ごっちです。
 
 昨年のアイマスハッカソンで作ったミリシタ UI ですが、アイマスもくもく会でちょっとずつ開発を進めていっています。
-[**アイマスハッカソンでミリシタの UI を作ったお話**
-*この記事はアイドルマスター Advent Calendar 2019 の 8 日目の記事です。*medium.com](https://medium.com/@gggooottto/%E3%82%A2%E3%82%A4%E3%83%9E%E3%82%B9%E3%83%8F%E3%83%83%E3%82%AB%E3%82%BD%E3%83%B3%E3%81%A7%E3%83%9F%E3%83%AA%E3%82%B7%E3%82%BF%E3%81%AEui%E3%82%92%E4%BD%9C%E3%81%A3%E3%81%9F%E3%81%8A%E8%A9%B1-77d68d167155)
+
+[**アイマスハッカソンでミリシタの UI を作ったお話** *この記事はアイドルマスター Advent Calendar 2019 の 8 日目の記事です。*](https://blog.yougoto.dev/posts/20191208-%E3%82%A2%E3%82%A4%E3%83%9E%E3%82%B9%E3%83%8F%E3%83%83%E3%82%AB%E3%82%BD%E3%83%B3%E3%81%A7%E3%83%9F%E3%83%AA%E3%82%B7%E3%82%BF%E3%81%AEui%E3%82%92%E4%BD%9C%E3%81%A3%E3%81%9F%E3%81%8A%E8%A9%B1)
 
 2020/01/16 に開かれたアイマスもくもく会でガシャの結果表示で使われている封筒を CSS でだいたい再現したので、そのレポートです。
-[**アイマスもくもく会 006 回 in 東京 (2020/01/16 19:30〜)**
-*アイマスなプロデューサーさん、お疲れ様です！ みなさんが集まって、アイマスに関連した開発や制作する機会がハッカソンだけでは物足りないので、もくもく会を開きます！ アイマスに関連していればオール OK です！ template をもとに Pull…*imastudy-mokumoku.connpass.com](https://imastudy-mokumoku.connpass.com/event/162478/)
+
+[**アイマスもくもく会 006 回 in 東京 (2020/01/16 19:30〜)** *アイマスなプロデューサーさん、お疲れ様です！ みなさんが集まって、アイマスに関連した開発や制作する機会がハッカソンだけでは物足りないので、もくもく会を開きます！ アイマスに関連していればオール OK です！ template をもとに Pull…*imastudy-mokumoku.connpass.com](https://imastudy-mokumoku.connpass.com/event/162478/)
 
 ## できあがったもの
 
@@ -90,8 +91,7 @@ description: "ミリシタの封筒をWebで再現している話"
 ![](https://cdn-images-1.medium.com/max/3864/1*3iIEDeiLnltKJMWyGSRwSA.png)
 
 Qiita の記事を参考にしました( ˘ω˘)
-[**css で border を使わず三角形を描写する - Qiita**
-*More than 1 year has passed since last update.*qiita.com](https://qiita.com/kiwr/items/f3901744198640d2c4a0)
+[**css で border を使わず三角形を描写する - Qiita** *More than 1 year has passed since last update.*qiita.com](https://qiita.com/kiwr/items/f3901744198640d2c4a0)
 
 linear-gradient はグラデーションをつけるときに使用するのですが、グラデーションの境目くっきりさせて、余計な部分を透明にすることで三角形が表現できます。あとはシャドウを落とすとよりそれっぽくなります。
 
@@ -122,5 +122,4 @@ linear-gradient はグラデーションをつけるときに使用するので�
 —
 
 以下のリンクからアクセスできるのでぜひ試してください！
-[**spa_ml_theater**
-*Edit description*spamltheater.yougoto510.now.sh](https://spamltheater.yougoto510.now.sh/)
+[**spa_ml_theater** *Edit description*spamltheater.yougoto510.now.sh](https://spamltheater.yougoto510.now.sh/)

@@ -2,7 +2,7 @@
 title: "ミリシタの封筒をWebで再現している話"
 date: "2020-01-17T09:00:00.000Z"
 description: "ミリシタの封筒をWebで再現している話"
-tags: ["imastudy", "imas_hack", "アイドルマスター", "vue"]
+tags: ["imastudy", "imas_hack", "アイドルマスター", "vuejs"]
 ---
 
 こんにちは。、.ごっちです。

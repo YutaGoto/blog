@@ -2,29 +2,26 @@
 title: "今日誕生日のアイドルを出力するCircleCI orbをつくったお話"
 date: "2018-12-25T09:00:00.000Z"
 description: "今日誕生日のアイドルを出力するCircleCI orbをつくったお話"
+tags: ["Circle CI", "アイドルマスター"]
 ---
 
 こんにちは。、 .ごっちです。
 
 2018/12/23 に行われたアイマスハッカソンに行ってきました！
-[**【増枠】アイマスハッカソン 2018 (2018/12/23 10:00〜)**
-*今回のテーマ：We♡IDOLS きっとアイマスハッカソンに参加するプロデューサー全員に共通していること、 それは皆アイドルを愛でているということ。 そして、ものづくりが好きであるということ。…*imas.connpass.com](https://imas.connpass.com/event/110232/)
+[**【増枠】アイマスハッカソン 2018 (2018/12/23 10:00〜)** *今回のテーマ：We♡IDOLS きっとアイマスハッカソンに参加するプロデューサー全員に共通していること、 それは皆アイドルを愛でているということ。 そして、ものづくりが好きであるということ。…*imas.connpass.com](https://imas.connpass.com/event/110232/)
 
 なんか先月も京都でアイマスハッカソンしてきたんですが、細かいことは気にしません
-[**アイマスハッカソン 2018in 京都を振り返り**
-*この記事は アイドルマスター Advent Calendar 2018 の 6 日目の記事です。*medium.com](https://medium.com/@gggooottto/%E3%82%A2%E3%82%A4%E3%83%9E%E3%82%B9%E3%83%8F%E3%83%83%E3%82%AB%E3%82%BD%E3%83%B32018in%E4%BA%AC%E9%83%BD%E3%82%92%E6%8C%AF%E3%82%8A%E8%BF%94%E3%82%8A-9a050a98a4a2)
+[**アイマスハッカソン 2018in 京都を振り返り** *この記事は アイドルマスター Advent Calendar 2018 の 6 日目の記事です。*medium.com](https://medium.com/@gggooottto/%E3%82%A2%E3%82%A4%E3%83%9E%E3%82%B9%E3%83%8F%E3%83%83%E3%82%AB%E3%82%BD%E3%83%B32018in%E4%BA%AC%E9%83%BD%E3%82%92%E6%8C%AF%E3%82%8A%E8%BF%94%E3%82%8A-9a050a98a4a2)
 
 今回の東京でのハッカソンもスタッフとして参加してきましたが、プロダクトも作ったのでそのお話です。
 
 —
 
 2018/12/15 に CircleCI Japan のミニハッカソンに行ってきたことを思い出して、アイマスの Orb も作れないかなぁなんてアイマスハッカソン当日に思っていました。
-[**CircleCI Orbs ミニハッカソンに行ってきた**
-*こんにちは、 .ごっちです。 #circlecijp*medium.com](https://medium.com/@gggooottto/circleci-orbs-%E3%83%9F%E3%83%8B%E3%83%8F%E3%83%83%E3%82%AB%E3%82%BD%E3%83%B3%E3%81%AB%E8%A1%8C%E3%81%A3%E3%81%A6%E3%81%8D%E3%81%9F-180a7fb960dd)
+[**CircleCI Orbs ミニハッカソンに行ってきた** *こんにちは、 .ごっちです。 #circlecijp*medium.com](https://medium.com/@gggooottto/circleci-orbs-%E3%83%9F%E3%83%8B%E3%83%8F%E3%83%83%E3%82%AB%E3%82%BD%E3%83%B3%E3%81%AB%E8%A1%8C%E3%81%A3%E3%81%A6%E3%81%8D%E3%81%9F-180a7fb960dd)
 
 っで、im@sparql を使って今日誕生日のアイドルを出力させてみてみるかと思ってさっそく作ってみました。
-[**im@sparql**
-*広がるアイマスワールドをオープンデータ化 Web やアプリから SPARQL で検索・利用可能なエンドポイント*sparql.crssnky.xyz](https://sparql.crssnky.xyz/imas/)
+[**im@sparql** *広がるアイマスワールドをオープンデータ化 Web やアプリから SPARQL で検索・利用可能なエンドポイント*sparql.crssnky.xyz](https://sparql.crssnky.xyz/imas/)
 
 im@sparql とは、
 
@@ -38,8 +35,7 @@ im@sparql をよく調べてみると、curl の GET メソッドでアクセス
 —
 
 リポジトリ ↓
-[**YutaGoto/todays-imas-idol-orb**
-*Contribute to YutaGoto/todays-imas-idol-orb development by creating an account on GitHub.*github.com](https://github.com/YutaGoto/todays-imas-idol-orb)
+[**YutaGoto/todays-imas-idol-orb** *Contribute to YutaGoto/todays-imas-idol-orb development by creating an account on GitHub.*github.com](https://github.com/YutaGoto/todays-imas-idol-orb)
 
 CircleCI Orb に公開したもの ↓
 
@@ -111,8 +107,7 @@ YutaGoto/todays-imas-idol-orb のリポジトリにプッシュすると CircleC
 つくって公開はしたはいいものの、だれにも使われない状態なのは悲しいので、すくなくとも自分の練習プロジェクトでは使おうと思っています。
 
 その PR はすでに投げてはいます。。
-[**add todays idol by YutaGoto · Pull Request #223 · YutaGoto/salmon_run**
-*GitHub is home to over 28 million developers working together to host and review code, manage projects, and build…*github.com](https://github.com/YutaGoto/salmon_run/pull/223)
+[**add todays idol by YutaGoto · Pull Request #223 · YutaGoto/salmon_run** *GitHub is home to over 28 million developers working together to host and review code, manage projects, and build…*github.com](https://github.com/YutaGoto/salmon_run/pull/223)
 
 いろいろコミットがあるのは察してください。タイムゾーンが違っていて日付が変わっても出力がかわらないのはさすがに違和感があったので直したり、bash コマンドが使えるのかわからなかったりしてリリースするまで orb もかなりコミットしていたりしています。
 
@@ -141,8 +136,7 @@ YutaGoto/todays-imas-idol-orb のリポジトリにプッシュすると CircleC
 こうも簡単にできて公開してみんなが使える状態になっている orb の仕組みはすばらしいと思ったし(正しい使い方かどうかは置いておく)、im@sparql で比較的カンタンに情報をとってこれるのもすごい仕組みだなと改めて思ったのでした。
 
 あと、アイマスハッカソンの当日の Tweet の様子は Togetter にまとめられています。
-[**#imas_hack アイマスハッカソン 2018 in 東京 ツイートまとめ**
-*2018/12/23 に開催されたアイマスハッカソンのまとめです*togetter.com](https://togetter.com/li/1301655)
+[**#imas_hack アイマスハッカソン 2018 in 東京 ツイートまとめ** *2018/12/23 に開催されたアイマスハッカソンのまとめです*togetter.com](https://togetter.com/li/1301655)
 
 ほかの方の発表の様子は YoutubeLive でも配信されていて、そのアーカイブはいつでも見れる状態にあります。
 

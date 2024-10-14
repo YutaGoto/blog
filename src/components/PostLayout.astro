@@ -7,6 +7,7 @@ import Head from "@/components/Head.astro"
 import Layout from "@/components/Layout.astro"
 import Tag from "@/components/Tag.astro"
 import ButtonLink from "@/components/global/ButtonLink.astro"
+import Heading from "@/components/global/Heading.astro"
 import Link from "@/components/global/Link.astro"
 import type { PostEntry } from "@/content/config"
 
@@ -31,9 +32,9 @@ const gTagId = import.meta.env.PROD ? "G-WDXGRMPVMC" : "G-4ZQZQZQZQZ"
       <div class="xl:flex xl:space-x-2">
         <div class="xl:flex-grow">
           <article class="blog-post">
-            <h1 class="mb-2 text-4xl font-extrabold">
+            <Heading level={1} className="mb-2 text-4xl font-extrabold">
               {frontmatter?.title}
-            </h1>
+            </Heading>
             <p class="text-md mb-2">
               {cdate(frontmatter?.date).format("YYYY年MM月DD日")}
             </p>

@@ -4,27 +4,19 @@
 
 section {
   > h1 {
-    @apply text-4xl;
-    @apply font-bold;
-    margin: 0.67em 0;
+    @apply text-4xl font-bold py-2;
   }
 
   > h2 {
-    @apply text-3xl;
-    @apply font-bold;
-    margin: 0.67em 0;
+    @apply text-3xl font-bold py-2;
   }
 
   > h3 {
-    @apply text-2xl;
-    @apply font-medium;
-    margin: 0.67em 0;
+    @apply text-2xl font-medium py-2;
   }
 
   > p {
-    @apply text-lg;
-    @apply font-normal;
-    margin: 0.67em 0;
+    @apply text-lg font-normal py-2;
   }
 
   a {

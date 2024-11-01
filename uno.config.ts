@@ -1,4 +1,10 @@
-import { defineConfig, presetMini, presetUno, presetWind } from "unocss"
+import {
+  defineConfig,
+  presetMini,
+  presetUno,
+  presetWind,
+  transformerDirectives,
+} from "unocss"
 
 export default defineConfig({
   theme: {
@@ -6,5 +12,6 @@ export default defineConfig({
       bluesky: "#00B0FF",
     },
   },
+  transformers: [transformerDirectives()],
   presets: [presetUno(), presetWind(), presetMini()],
 })

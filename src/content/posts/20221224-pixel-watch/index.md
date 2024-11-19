@@ -18,6 +18,7 @@ tags: ["Pixel Watch", "アドベントカレンダー"]
 <blockquote class="twitter-tweet"><p lang="ja" dir="ltr">うおおおおお <a href="https://t.co/Xr1NRzl52r">pic.twitter.com/Xr1NRzl52r</a></p>&mdash; .ごっち (@gggooottto) <a href="https://twitter.com/gggooottto/status/1578038409137823744?ref_src=twsrc%5Etfw">October 6, 2022</a></blockquote>
 
 <blockquote class="twitter-tweet"><p lang="ja" dir="ltr">うおおおお <a href="https://t.co/6ElexHKLCQ">pic.twitter.com/6ElexHKLCQ</a></p>&mdash; .ごっち (@gggooottto) <a href="https://twitter.com/gggooottto/status/1580446087462412290?ref_src=twsrc%5Etfw">October 13, 2022</a></blockquote>
+
 ## 購入したモデル
 
 スマフォを持たずに外出する使い方をしないつもりだったので、`4G + LTE` なしモデルを選びました。

@@ -42,3 +42,7 @@ $
 ```
 
 これによって、`exit`や`quit` を大量入力せずとも処理を進める事ができます。
+
+## 参考
+
+- Ruby: IRBとRailsコンソールで強化された機能: 2024年上半期（翻訳）｜TechRacho by BPS株式会社: https://techracho.bpsinc.jp/hachi8833/2024_07_26/143639

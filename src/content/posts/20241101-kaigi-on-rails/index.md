@@ -2,7 +2,7 @@
 title: Kaigi on Rails 2024 参加記
 date: "2024-11-01T00:01:00.000Z"
 description: "カンファレンス系イベントへ久々に参加できた"
-tags: ["Ruby  on Rails", "Kaigi on Rails", "Conference"]
+tags: ["Ruby on Rails", "Kaigi on Rails", "Conference"]
 ---
 
 <img width="480" alt="会場入り口の写真" src="/assets/images/posts/20241101-kaigi-on-rails/kaigi_on_rails.jpg">

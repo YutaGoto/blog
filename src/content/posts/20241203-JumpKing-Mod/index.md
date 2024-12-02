@@ -5,7 +5,7 @@ description: "結局 C# なにもわからない"
 tags: ["game", "Jump King", "Mod", "C sharp", ".NET", "アドベントカレンダー"]
 ---
 
-これは [.ごっ！のアドベントカレンダー](https://adventar.org/calendars/10323) の2日目の記事です。
+これは [.ごっ！のアドベントカレンダー](https://adventar.org/calendars/10323) の3日目の記事です。
 
 <img width="512" alt="Jump_King_Logo" src="/assets/images/posts/20240229-jumpking-mod/Jump_King_Logo.png">
 

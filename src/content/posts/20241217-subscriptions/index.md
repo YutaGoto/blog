@@ -1,15 +1,17 @@
 ---
 title: サブスクライブしているもの・サービス
-date: "2023-12-15T00:01:00.000Z"
-description: "QoLを上げたい"
+date: "2024-12-17T00:01:00.000Z"
+description: "QoLをもっと上げたい"
 tags: ["life", "アドベントカレンダー"]
 ---
 
-これは [.ごっ！のアドベントカレンダー](https://adventar.org/calendars/9122) の15日目の記事です。
+これは [.ごっ！のアドベントカレンダー](https://adventar.org/calendars/10323) の17日目の記事です。
 
 こんにちは、.ごっちです。
 
-今サブスクライブしているものやサービスを羅列していきます。家賃やクレジットカードの年会費などは省きます。
+去年と大きく変わっていないですが、サブスクライブしているものやサービスを羅列していきます。家賃やクレジットカードの年会費などは省きます。
+
+- サブスクライブしているもの・サービス - .ごっちの日記: https://blog.yougoto.dev/posts/20231215-subscriptions
 
 ## Adobe Creative Cloud コンプリートプラン
 
@@ -18,22 +20,32 @@ tags: ["life", "アドベントカレンダー"]
 https://www.adobe.com/jp/creativecloud.html
 
 IllustratorやPhotoshopなどの超有名クリエイティブソフト・ツール一式です。毎週使うみたいなことをしていないですが、さっと何かするときに迷わなくていいと思っているので契約しています。
-[Firefly](https://firefly.adobe.com/)で画像を生成できるようになったのも大きいし、https://blog.adobe.com/jp/publish/2022/09/16/cc-intent-to-acquire-figma でプロトタイプ作成がよりよくなったりする（？）のも便利なので、使う頻度をもうちょっとあげたい使い倒したいところです。
+なんやかんやphotoshopをお絵描きツールにして使っているのですが、ほぼこれにしか使っていないところとAndroidタブレットでは使えないというのがあり、ほかのお絵描きツールにしようかと考え中です。
 
 ## Google One
 
-![google one](/assets/images/posts/20231215-subscriptions/google-one.png)
-
-昨年末契約したサービスです。
+<img width="480" alt="google one" src="/assets/images/posts/20231215-subscriptions/google-one.png">
 
 - Google One契約した - .ごっちの日記: https://blog.yougoto.dev/posts/20221203-google-one/
 - クラウドストレージとスマホ自動バックアップ - Google One: https://one.google.com/about?hl=ja
 
-日々の写真のバックアップでよく使っています。
+必要性を感じたら一人チームの Google Workspace に切り替えるかもしれません。
+
+## Squarespace
+
+<img width="480" alt="squarespace-logo-horizontal-black" src="/assets/images/posts/20241217-subscriptions/squarespace-logo.png">
+
+- 簡単・すぐにホームページ作成 — Squarespace (スクエアスペース): https://ja.squarespace.com/
+
+ホームページの作成ではなく、ドメインの契約に使っています。
+
+- ドメインを契約した - .ごっちの日記: https://blog.yougoto.dev/posts/20240317-yougoto-dev-domain
+
+ブログやBlueskyくらいにしか使っていないですが、こちらも必要性に感じたらメールにも使おうかと考えてます。
 
 ## esa
 
-![esa](/assets/images/posts/20231215-subscriptions/esa.png)
+<img width="480" alt="esa" src="/assets/images/posts/20231215-subscriptions/esa.png" >
 
 - esa - 自律的なチームのための情報共有サービス: https://esa.io/
 
@@ -44,7 +56,7 @@ IllustratorやPhotoshopなどの超有名クリエイティブソフト・ツー
 
 ## マネーフォワード クラウド
 
-![mf Cloud](/assets/images/posts/20231215-subscriptions/mf-cloud.svg)
+<img width="480" alt="mf Cloud" src="/assets/images/posts/20231215-subscriptions/mf-cloud.svg">
 
 - マネーフォワード クラウド - バックオフィスから経営を強くする: https://biz.moneyforward.com/
 
@@ -52,7 +64,7 @@ IllustratorやPhotoshopなどの超有名クリエイティブソフト・ツー
 
 ## GitHub Copilot
 
-![copilot](/assets/images/posts/20231215-subscriptions/copilot.png)
+<img width="480" alt="copilot" src="/assets/images/posts/20231215-subscriptions/copilot.png" >
 
 - GitHub Copilot · Your AI pair programmer: https://github.com/features/copilot
 
@@ -60,7 +72,7 @@ IllustratorやPhotoshopなどの超有名クリエイティブソフト・ツー
 
 ## 1Password
 
-![1password](/assets/images/posts/20231215-subscriptions/1password.png)
+<img width="480" alt="1password" src="/assets/images/posts/20231215-subscriptions/1password.png" >
 
 - 家族や大小のビジネスで使えるパスワードマネージャー | 1Password: https://1password.com/jp
 
@@ -70,21 +82,19 @@ IllustratorやPhotoshopなどの超有名クリエイティブソフト・ツー
 
 - 天然水ウォーターサーバーはプレミアムウォーター【公式】: https://premium-water.net/
 
-引越したタイミングで営業があったので契約しました。おいしい水を飲めるのはそうですが、やかんでお湯を沸かさずとも使いたいときに使えるのがかなり便利です。
-
-## アイドルマスターシンデレラガールズスターライトステージ プレミアムパス
-
-- もっとデレステを楽しめる月額有料サービス プレミアムパスが登場！ | バンダイナムコエンターテインメント公式サイト: https://cinderella.idolmaster.jp/sl-stage/premiumpass/
-
-唯一やりこんでいる（？）ソシャゲです。
+お湯がすぐに出てくるの便利。
 
 ## Nintendo Switch Online + 追加パック
 
-![NSOE](/assets/images/posts/20231215-subscriptions/nso-expansion.png)
+<img width="480" alt="NSOE" src="/assets/images/posts/20231215-subscriptions/nso-expansion.png" >
 
 - Nintendo Switch Online + 追加パック｜Nintendo Switch Online｜Nintendo Switch｜任天堂: https://www.nintendo.co.jp/hardware/switch/onlineservice/expansionpack/index.html
 
 Nintendo Switch Onlineはオンライン対戦するときに必須なので加入しているのと、64やゲームボーイアドバンスのソフトも遊べるということで加入している次第です。
+
+最近リリースされたNintendo Musicもめちゃくちゃありがたく使っています。
+
+- Nintendo Music | 任天堂: https://www.nintendo.com/jp/nintendo-music/index.html
 
 ## Youtube チャンネルメンバーシップ・Twitch チャンネルサブスクリプション
 
@@ -92,4 +102,4 @@ Nintendo Switch Onlineはオンライン対戦するときに必須なので加�
 
 ---
 
-OpenAIなどAI関連サービスもちゃんと使いこなしていきたいです。
+音楽配信サービスのサブスクをどうするかかなり悩んでいます。

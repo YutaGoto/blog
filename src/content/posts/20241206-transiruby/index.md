@@ -5,7 +5,7 @@ description: "結構大変だった"
 tags: ["game", "Transiruby", "アドベントカレンダー"]
 ---
 
-これは [.ごっ！のアドベントカレンダー](https://adventar.org/calendars/10323) の76日目の記事です。
+これは [.ごっ！のアドベントカレンダー](https://adventar.org/calendars/10323) の6日目の記事です。
 
 <img width="480" alt="top image" src="/assets/images/posts/20241206-transiruby/img_top.png" />
 

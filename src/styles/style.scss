@@ -17,6 +17,12 @@ section {
 
   > p {
     @apply text-lg font-normal py-2;
+
+    > code {
+      padding: 0.1em;
+      background-color: #24292e;
+      color: #e1e4e8;
+    }
   }
 
   a {

@@ -6,7 +6,7 @@
   "author": "Yuta Goto <you.goto.510@gmail.com>",
   "dependencies": {
     "@astrojs/check": "^0.9.0",
-    "@astrojs/node": "^8.2.3",
+    "@astrojs/node": "^9.0.0",
     "@astrojs/partytown": "^2.0.1",
     "astro": "^5.0.0",
     "astro-og-canvas": "^0.5.0",

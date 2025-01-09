@@ -3,6 +3,15 @@
   "organizeImports": {
     "enabled": true
   },
+  "files": {
+    "ignore": [
+      "node_modules",
+      "test-results",
+      "dist",
+      ".astro",
+      "playwright-report"
+    ]
+  },
   "javascript": {
     "globals": ["Astro", "json"],
     "formatter": {
@@ -11,25 +20,11 @@
     }
   },
   "formatter": {
-    "ignore": [
-      "node_modules",
-      "test-results",
-      "dist",
-      ".astro",
-      "playwright-report"
-    ],
     "indentStyle": "space",
     "indentWidth": 2
   },
   "linter": {
     "enabled": true,
-    "ignore": [
-      "node_modules",
-      "test-results",
-      "dist",
-      ".astro",
-      "playwright-report"
-    ],
     "rules": {
       "recommended": true
     }

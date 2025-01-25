@@ -61,3 +61,4 @@ dist/
 
 # testing
 /playwright-report
+/test-results

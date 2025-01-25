@@ -33,9 +33,5 @@ export const { getStaticPaths, GET } = OGImageRoute({
         weight: "Normal",
       },
     },
-    fonts: [
-      "https://api.fontsource.org/v1/fonts/noto-sans-jp/japanese-400-normal.ttf",
-      "https://api.fontsource.org/v1/fonts/noto-sans-jp/japanese-900-normal.ttf",
-    ],
   }),
 })

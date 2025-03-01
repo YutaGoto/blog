@@ -12,7 +12,9 @@ const allPosts = await getCollection("posts")
 const tags = [...new Set(allPosts.flatMap((post) => post.data?.tags))].filter(
   (e): e is string => typeof e === "string",
 )
-allPosts.reverse()
+allPosts.sort((a, b) => {
+  return new Date(b.data.date).getTime() - new Date(a.data.date).getTime()
+})
 
 const gTagId = import.meta.env.PROD ? "G-WDXGRMPVMC" : "G-4ZQZQZQZQZ"
 ---

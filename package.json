@@ -20,8 +20,8 @@
   "devDependencies": {
     "@biomejs/biome": "1.9.4",
     "@playwright/test": "^1.50.0",
-    "@unocss/preset-uno": "^65.0.0",
-    "@unocss/preset-wind": "^65.0.0",
+    "@unocss/preset-uno": "^66.0.0",
+    "@unocss/preset-wind": "^66.0.0",
     "astro-auto-import": "^0.4.1",
     "sass": "^1.71.1",
     "stylelint": "^16.0.2",
@@ -33,7 +33,7 @@
     "textlint-rule-preset-japanese": "^10.0.3",
     "ts-node": "^10.9.1",
     "typescript": "^5.2.2",
-    "unocss": "^65.0.0"
+    "unocss": "^66.0.0"
   },
   "homepage": "https://blog.yougoto.dev",
   "license": "0BSD",

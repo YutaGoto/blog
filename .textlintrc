@@ -14,7 +14,8 @@
       },
       "ja-no-successive-word": {
         "allow": [
-          "ほど"
+          "ほど",
+          "・"
         ]
       },
       "no-doubled-joshi": {

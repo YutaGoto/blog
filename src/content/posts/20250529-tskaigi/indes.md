@@ -1,11 +1,11 @@
 ---
 title: TSKaigi 2025 参加記
-date: "2025-05-26T00:01:00.000Z"
+date: "2025-05-29T00:01:00.000Z"
 description: "TypeScriptがもっと速く、もっと便利になるようで"
 tags: ["TypeScript", "TSKaigi", "Conference"]
 ---
 
-<img width="480" alt="TSKaigi 2025 ステージ" src="/assets/images/posts/20250526-tskaigi/front.jpg">
+<img width="480" alt="TSKaigi 2025 ステージ" src="/assets/images/posts/20250529-tskaigi/front.jpg">
 
 こんにちは、.ごっちです。
 
@@ -17,9 +17,9 @@ tags: ["TypeScript", "TSKaigi", "Conference"]
 
 <blockquote class="twitter-tweet"><p lang="ja" dir="ltr">しれっと TSKaigiの個人スポンサーになりました。 <a href="https://twitter.com/hashtag/TSKaigi2025?src=hash&amp;ref_src=twsrc%5Etfw">#TSKaigi2025</a> <a href="https://t.co/xf1BdzXdGu">pic.twitter.com/xf1BdzXdGu</a></p>&mdash; .ごっち (@gggooottto) <a href="https://twitter.com/gggooottto/status/1919339763317846160?ref_src=twsrc%5Etfw">May 5, 2025</a></blockquote>
 
-今回は個人スポンサーとして参加しました。これは、参加チケットを買おうとしてサイトをみたところ、個人スポンサー以外売り切れていて、「やったるか！」という気持ちで入手しました。
+今回は個人スポンサーとして参加しました。これは参加チケットを買おうとしてサイトをみたところ、個人スポンサー以外売り切れていて、「やったるか！」という気持ちで入手しました。
 
-購入後に再度見たらすべてが売り切れていたので、参加枠の最後の一席だったと思われます。
+購入後に再度 販売サイトを見たらすべてが売り切れていたので、参加枠の最後の一席だったと思われます。
 
 ## Day 1
 
@@ -104,7 +104,7 @@ https://talks.antfu.me/2025/tskaigi/1
 
 まとめてもいいような気もするし、  https://github.com/microsoft/TypeScript-Website にコントリビュートしてもいいかと思いました。
 
-### そのた
+### その他
 
 stmnさんのブースでクジを回して当たりました！
 
@@ -118,7 +118,7 @@ stmnさんのブースでクジを回して当たりました！
 
 座ってた席の後ろにあった、店独自のチンチロをプログラムすると・・みたいな話題でラスト盛り上がりました。優先順位が書かれていないので、仕様をもう少し詳しく書く必要があります。
 
-<img width="320" alt="俺魚流チンチロ" src="/assets/images/posts/20250526-tskaigi/oreno-sakana.jpg">
+<img width="320" alt="俺魚流チンチロ" src="/assets/images/posts/20250529-tskaigi/oreno-sakana.jpg">
 
 ## Day 2
 
@@ -206,7 +206,7 @@ https://azu.github.io/slide/2025/tskaigi/jsprimer.html
 
 福島県（もしくは郡山市）ベースでIT勉強会コミュニティを作る機運が少しだけわきました。もうちょっと参加見込人数を増やしたい。
 
-<img width="480" alt="懇親会" src="/assets/images/posts/20250526-tskaigi/party.jpg">
+<img width="480" alt="懇親会" src="/assets/images/posts/20250529-tskaigi/party.jpg">
 
 <blockquote class="twitter-tweet"><p lang="ja" dir="ltr">懇親会に参加してた🍻 <a href="https://twitter.com/hashtag/TSKaigi2025?src=hash&amp;ref_src=twsrc%5Etfw">#TSKaigi2025</a> <a href="https://t.co/ZLkCp2Y7M5">pic.twitter.com/ZLkCp2Y7M5</a></p>&mdash; .ごっち (@gggooottto) <a href="https://twitter.com/gggooottto/status/1926246167043506204?ref_src=twsrc%5Etfw">May 24, 2025</a></blockquote>
 

@@ -1,10 +1,9 @@
 ---
 import { getCollection } from "astro:content"
-
+import Heading from "@/components/global/Heading.astro"
 import Head from "@/components/Head.astro"
 import Layout from "@/components/Layout.astro"
 import Tag from "@/components/Tag.astro"
-import Heading from "@/components/global/Heading.astro"
 
 const allPosts = await getCollection("posts")
 const tags = [...new Set(allPosts.flatMap((post) => post.data?.tags))].filter(

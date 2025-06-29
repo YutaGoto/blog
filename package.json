@@ -18,7 +18,7 @@
     "remixicon": "^4.1.0"
   },
   "devDependencies": {
-    "@biomejs/biome": "2.0.4",
+    "@biomejs/biome": "2.0.6",
     "@playwright/test": "^1.50.0",
     "@unocss/preset-uno": "^66.0.0",
     "@unocss/preset-wind": "^66.0.0",

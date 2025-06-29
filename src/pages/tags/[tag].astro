@@ -3,10 +3,10 @@ import { getCollection } from "astro:content"
 
 import ArticleCard from "@/components/ArticleCard.astro"
 import Bio from "@/components/Bio.astro"
+import Heading from "@/components/global/Heading.astro"
 import Head from "@/components/Head.astro"
 import Layout from "@/components/Layout.astro"
 import TagList from "@/components/TagList.astro"
-import Heading from "@/components/global/Heading.astro"
 
 export const getStaticPaths = async () => {
   const allPosts = await getCollection("posts")

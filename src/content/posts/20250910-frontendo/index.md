@@ -2,7 +2,7 @@
 title: フロントエンドカンファレンス北海道 2025 参加記
 date: "2025-09-10T00:01:00.000Z"
 description: "地元での開催うれしい"
-tags: ["frontend", '北海道', "Conference"]
+tags: ["frontend", "北海道", "Conference"]
 ---
 
 こんにちは、.ごっちです。

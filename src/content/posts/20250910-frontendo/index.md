@@ -77,7 +77,7 @@ https://fortee.jp/frontend-conf-hokkaido-2025/proposal/34995dad-b5b6-4ced-bd07-1
 https://fortee.jp/frontend-conf-hokkaido-2025/proposal/7ff3a9e9-675f-411e-9481-442b87f6a546
 
 nextjs以外はほぼviteになった説あります。honox, atro, tanstack, nuxtなど。
-`vite.config.ts` にベタ書き。stackbrizでいろいろ試せる。
+`vite.config.ts` にベタ書き。StackBlitzでいろいろ試せる。
 reactのだけでなく svelteでもライブコーディングしていたのはかっこよかったです。
 
 ### 1から理解するWeb Push

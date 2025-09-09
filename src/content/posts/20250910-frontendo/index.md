@@ -115,3 +115,7 @@ Push APIはウェブアプリでpush通知を送ることができます。safar
 <blockquote class="twitter-tweet"><p lang="und" dir="ltr">2026.6.6 <a href="https://twitter.com/wayacon?ref_src=twsrc%5Etfw">@wayacon</a> <a href="https://twitter.com/hashtag/wayacon?src=hash&amp;ref_src=twsrc%5Etfw">#wayacon</a> <a href="https://t.co/OQmuVqdncb">pic.twitter.com/OQmuVqdncb</a></p>&mdash; wayacon (@wayacon) <a href="https://twitter.com/wayacon/status/1964282534763626802?ref_src=twsrc%5Etfw">September 6, 2025</a></blockquote>
 
 来年は3コミュニティ合同でカンファレンスをやるようなので、こちらも参加したいです。
+
+### おまけ
+
+<blockquote class="twitter-tweet"><p lang="ja" dir="ltr">札幌帰省と技術イベント参加のハイライト<br>セイコーマートのTシャツとティッシュケース <a href="https://t.co/ESrabKM5C2">pic.twitter.com/ESrabKM5C2</a></p>&mdash; .ごっち (@gggooottto) <a href="https://twitter.com/gggooottto/status/1964999027218669839?ref_src=twsrc%5Etfw">September 8, 2025</a></blockquote>

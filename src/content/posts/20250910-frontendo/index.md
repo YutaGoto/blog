@@ -27,7 +27,7 @@ tags: ["frontend", "北海道", "Conference"]
 
 https://fortee.jp/frontend-conf-hokkaido-2025/proposal/e4d66f12-5ab8-40ed-bc3b-ec30df268023
 
-改行に楔形文字の自体から歴史があるの知らなかったです。
+改行に楔形文字の時代から歴史があるの知らなかったです。
 
 #### txt
 

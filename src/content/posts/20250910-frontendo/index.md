@@ -51,7 +51,7 @@ https://developer.mozilla.org/ja/docs/Web/CSS/CSS_text/Wrapping_breaking_text
 
 https://fortee.jp/frontend-conf-hokkaido-2025/proposal/34995dad-b5b6-4ced-bd07-1e169829d50f
 
-- `eslint-plugin-jsx-a11y`: eslint-plugin-jsx-a11y
+- `eslint-plugin-jsx-a11y`
   - asでマッピングするとか
   - label-has-associated-control rule: labelを必須にするとか
 - Storybook Test runner + `axe-playwright`: https://www.npmjs.com/package/axe-playwright

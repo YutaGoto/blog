@@ -39,7 +39,7 @@ PostgreSQLは毎年メジャーバージョンアップされるため、ActiveR
 
 ### 入門 FormObject
 
-<iframe class="speakerdeck-iframe" style="border: 0px; background: rgba(0, 0, 0, 0.1) padding-box; margin: 0px; padding: 0px; border-radius: 6px; box-shadow: rgba(0, 0, 0, 0.2) 0px 5px 40px; width: 100%; height: auto; aspect-ratio: 560 / 315;" frameborder="0" src="https://speakerdeck.com/player/a8da84605a1041ba994fdb936860727e" title="入門 FormObject / An Introduction to FormObject #kaigionrails" allowfullscreen="true" data-ratio="1.7777777777777777"></iframe>
+<script defer class="speakerdeck-embed" data-id="a8da84605a1041ba994fdb936860727e" data-ratio="1.7777777777777777" src="//speakerdeck.com/assets/embed.js"></script>
 
 https://kaigionrails.org/2025/talks/expajp/
 

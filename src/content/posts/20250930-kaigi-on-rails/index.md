@@ -137,7 +137,7 @@ Rubyでつくられたゲームを遊んだら、2日目優勝しました！う
 
 おやつのドーナツ美味しかった！
 
-<blockquote class="twitter-tweet"><p lang="ja" dir="ltr">ドーナツ🍩 <a href="https://twitter.com/hashtag/kaigionrails?src=hash&amp;ref_src=twsrc%5Etfw">#kaigionrails</a> <a href="https://t.co/SiKLoAgCVz">pic.twitter.com/SiKLoAgCVz</a></p>&mdash; .ごっち (@gggooottto) <a href="https://twitter.com/gggooottto/status/1971791882364809384?ref_src=twsrc%5Etfw">September 27, 2025</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+<blockquote class="twitter-tweet"><p lang="ja" dir="ltr">ドーナツ🍩 <a href="https://twitter.com/hashtag/kaigionrails?src=hash&amp;ref_src=twsrc%5Etfw">#kaigionrails</a> <a href="https://t.co/SiKLoAgCVz">pic.twitter.com/SiKLoAgCVz</a></p>&mdash; .ごっち (@gggooottto) <a href="https://twitter.com/gggooottto/status/1971791882364809384?ref_src=twsrc%5Etfw">September 27, 2025</a></blockquote>
 
 本屋さんもあって買おうかと迷ったけど、積読がそれなりにあるのと持ち帰るときの荷物になってしまうな〜ということで見送ってしまった。
 ひとまずおすすめコメントを見てほしいものリストに追加しておきました。

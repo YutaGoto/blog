@@ -30,7 +30,7 @@ Command + R を押しながら起動しディスクユーティリティを起�
 
 [https://nixos.org/download/](https://nixos.org/download/) から GNOME 64-bits, Intel/AMD 用のisoファイルをダウンロードします。
 
-容量8GBあるUSBメモリに [Etcher](https://etcher.balena.io/) を使ってフラッシュさせる
+容量8GBあるUSBメモリに [Etcher](https://etcher.balena.io/) を使ってフラッシュさせます。
 
 Optionキーを押しながら起動し、USBブートする。
 

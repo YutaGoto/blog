@@ -28,7 +28,7 @@ Ubuntuといったメジャーなものでもよかったのですが、どこ�
 
 Command + R を押しながら起動しディスクユーティリティを起動させ、HDD/SSDのフォーマットをし、macOSをインストールします。
 
-https://nixos.org/download/ から GNOME 64-bits, Intel/AMD 用のisoファイルをダウンロードします。
+[https://nixos.org/download/](https://nixos.org/download/) から GNOME 64-bits, Intel/AMD 用のisoファイルをダウンロードします。
 
 容量8GBあるUSBメモリに Etcher を使ってフラッシュさせる https://etcher.balena.io/
 

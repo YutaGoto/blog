@@ -18,7 +18,7 @@ Ubuntuといったメジャーなものでもよかったのですが、どこ�
 
 ## NixOSとは
 
-https://nixos.org/
+[NixOS](https://nixos.org/)
 
 > Nixパッケージマネージャーをベースとした自由かつオープンソースのLinuxディストリビューションである。 ([wikipedia](https://ja.wikipedia.org/wiki/NixOS))
 

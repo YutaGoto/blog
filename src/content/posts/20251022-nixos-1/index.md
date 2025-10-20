@@ -45,4 +45,4 @@ Optionキーを押しながら起動し、USBブートする。
 
 最初、どのように設定していたかについては以下のgistを参照ください。ChatGPTの力を借りているのが丸わかりだと思います。
 
-<script src="https://gist.github.com/YutaGoto/c7f1a1ac9168237d30d2fad0df7cc948.js"></script>
+[Gist](https://gist.github.com/YutaGoto/c7f1a1ac9168237d30d2fad0df7cc948)

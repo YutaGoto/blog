@@ -7,6 +7,7 @@ import Head from "@/components/Head.astro"
 import Layout from "@/components/Layout.astro"
 import TagList from "@/components/TagList.astro"
 import Work from "@/components/Work.astro"
+import Years from "@/components/Years.astro"
 
 const allPosts = await getCollection("posts")
 const tags = [...new Set(allPosts.flatMap((post) => post.data?.tags))].filter(
@@ -34,6 +35,7 @@ const gTagId = import.meta.env.PROD ? "G-WDXGRMPVMC" : "G-4ZQZQZQZQZ"
         <div class="mb-2 lg:flex-1">
           <Bio />
           <Work />
+          <Years />
           <TagList tags={tags} />
         </div>
       </div>

@@ -32,11 +32,11 @@ tags: ["nixos", "linux", "学習ログ"]
 
 ## Git管理
 
-`/etc/nixos/configuration.nix` で以下の書き方のように読み込むだけでいいので、かなりよくなっていると思います。秘匿情報も gitの仕組みで解決できます。
+`/etc/nixos/configuration.nix` で以下の書き方のように読み込むだけでいいので、かなりよくなっていると思います。秘匿情報も `.gitignore`に書いておくことで解決できます。
 
 ```nix
 # /etc/nixos/configuration.nix
-{ config, lib, pkgs, ... };
+{ config, lib, pkgs, ... }:
 {
   imports = [ /home/[username]/nixos-settings ]
 }

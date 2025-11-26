@@ -2,10 +2,8 @@
 title: NixOSをおためし2
 date: "2025-12-01T00:01:00.000Z"
 description: "configuration.nixを分割してみる"
-tags: ["nixos", "linux", "学習ログ", "アドベントカレンダー"]
+tags: ["nixos", "linux", "学習ログ"]
 ---
-
-これは [.ごっ！のアドベントカレンダー](https://adventar.org/calendars/11888) の1日目の記事です。
 
 こんにちは、.ごっちです。
 

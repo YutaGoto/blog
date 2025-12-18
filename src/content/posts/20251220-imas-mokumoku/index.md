@@ -1,7 +1,7 @@
 ---
 title: アイマスもくもく会2025年まとめ
 date: "2025-12-20T00:01:00.000Z"
-description: "2024年もアイマスもくもく会でしたよ！"
+description: "2025年もアイマスもくもく会でしたよ！"
 tags: ["imastudy", "imas_mokumoku"]
 ---
 
@@ -21,7 +21,6 @@ tags: ["imastudy", "imas_mokumoku"]
 11回の開催でした。登録人数が0人の回が複数ありますが、主催は参加していたので実質開催です。
 
 - IM@Study-mokumoku - connpass: https://imastudy-mokumoku.connpass.com/
-- アイマスハッカソン2024 - connpass: https://imas.connpass.com/event/328557/
 
 <img width="1058" alt="image.png (255.6 kB)" src="https://img.esa.io/uploads/production/attachments/10836/2025/12/18/43446/a3bd70bf-ff2d-4254-9470-99d598901e4e.png">
 

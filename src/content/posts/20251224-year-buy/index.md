@@ -24,7 +24,7 @@ TSKaigiやKaigi on Railsに参加した際とても役に立って、準備し�
 
 <blockquote class="bluesky-embed" data-bluesky-uri="at://did:plc:n4wx32u4ea6giykkdga52ma7/app.bsky.feed.post/3lviwhjurcs2m" data-bluesky-cid="bafyreid26xv725vyi7hxysifgssmjdwjzry5hjrldrxtet4xgonm37owfy" data-bluesky-embed-color-mode="system"><p lang="ja">納車！運転！</p>&mdash; .Gotch(ごっち) (<a href="https://bsky.app/profile/did:plc:n4wx32u4ea6giykkdga52ma7?ref_src=embed">@yougoto.dev</a>) <a href="https://bsky.app/profile/did:plc:n4wx32u4ea6giykkdga52ma7/post/3lviwhjurcs2m?ref_src=embed">2025年8月3日 23:50</a></blockquote>
 
-福島県郡山市に住んでいるので、車が無くても生活できていました。ただ白河付近で農家をやっている人のところへ手伝いに行くとき、毎度駅まで迎えに来てもらっていたこともあり、さすがにということで中古車を購入しました。
+福島県郡山市に住んでいるので、車が無くても生活できていました。ただ白河付近で農家をやっている人のところへ手伝いに行くとき、毎度駅まで迎えに来てもらっていたこともあり、これを機に中古車を購入しました。
 初めてのマイカーなので安く買って、慣れるところからにしました。
 今では山道も走れるくらいにはなりました。
 

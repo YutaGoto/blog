@@ -16,7 +16,7 @@ tags: ["買ったもの"]
 <blockquote class="twitter-tweet"><p lang="ja" dir="ltr">お気に入りのデザインで購入した<br>デジタル名刺「プレーリーカード」が届きました！<a href="https://twitter.com/hashtag/%E3%83%97%E3%83%AC%E3%83%BC%E3%83%AA%E3%83%BC%E3%82%AB%E3%83%BC%E3%83%89?src=hash&amp;ref_src=twsrc%5Etfw">#プレーリーカード</a> <a href="https://twitter.com/prairie_card?ref_src=twsrc%5Etfw">@prairie_card</a> <a href="https://t.co/YSjvlXZQzL">pic.twitter.com/YSjvlXZQzL</a></p>&mdash; .ごっち (@gggooottto) <a href="https://twitter.com/gggooottto/status/1948955073549377679?ref_src=twsrc%5Etfw">July 26, 2025</a></blockquote>
 
 紙の名刺を用意しても配る機会が頻繁にないので購入しました。スマホをかざすだけで情報共有できるカードです。
-TSKaigiやKaigi on Railsに参加したさいとても役に立って、準備した甲斐がありました。
+TSKaigiやKaigi on Railsに参加した際とても役に立って、準備した甲斐がありました。
 
 <img width="360" alt="プレーリーカード使用回数" src="/assets/images/posts/20251224-year-buy/image.png">
 

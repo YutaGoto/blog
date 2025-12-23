@@ -41,7 +41,7 @@ iiyamaの24インチ フルHDのモニターを使っていたのですが作業
 
 [ZSA Moonlander: Next-gen Ergonomics | zsa.io](https://www.zsa.io/moonlander)
 
-Ergodox EZを10年弱使っていたのですが、チャタリングやキー入力漏れが多発しており、なおかつ簡単に分解修理ができない最初期モデルなため一新しました。
+Ergodox EZを10年弱使っていたのですが、チャタリングやキー入力漏れが多発しており、なおかつ簡単に分解修理ができない最初期モデルのため一新しました。
 
 [ErgoDox EZ: An incredible mechanical keyboard by Erez Zukerman - Indiegogo](https://www.indiegogo.com/en/projects/erezzukerman/ergodox-ez-an-incredible-mechanical-keyboard)
 

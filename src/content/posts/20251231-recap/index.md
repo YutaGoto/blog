@@ -5,6 +5,8 @@ description: "振り返り"
 tags: ["life", "Recap"]
 ---
 
+<img width="480" alt="PXL_20250907_054930097.jpg" src="/assets/images/posts/20251231-recap/PXL_20250907_054930097.jpg">
+
 こんにちは、.ごっちです。
 
 去年もやりましたが、今年も振り返りやります。箇条書きしていきます。
@@ -124,8 +126,6 @@ tags: ["life", "Recap"]
 <img width="360" alt="PXL_20250816_073004542.jpg" src="/assets/images/posts/20251231-recap/PXL_20250816_073004542.jpg">
 
 <img width="360" alt="PXL_20250824_034818725.jpg" src="/assets/images/posts/20251231-recap/PXL_20250824_034818725.jpg">
-
-<img width="360" alt="PXL_20250907_054930097.jpg" src="/assets/images/posts/20251231-recap/PXL_20250907_054930097.jpg">
 
 <img width="360" alt="PXL_20250923_045521581.jpg" src="/assets/images/posts/20251231-recap/PXL_20250923_045521581.jpg">
 

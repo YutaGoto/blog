@@ -22,7 +22,7 @@
     "@playwright/test": "^1.50.0",
     "@unocss/preset-uno": "^66.0.0",
     "@unocss/preset-wind": "^66.0.0",
-    "astro-auto-import": "^0.4.1",
+    "astro-auto-import": "^0.5.0",
     "sass": "^1.71.1",
     "stylelint": "^16.0.2",
     "stylelint-config-prettier": "^9.0.4",

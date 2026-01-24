@@ -13,7 +13,7 @@
 - Framework: Astro
 - Rendering: SSR (Server Side Rendering) <!-- または SSG (Static Site Generation) -->
 - Language: TypeScript / JavaScript
-- Styling: Tailwind CSS
+- Styling: UnoCSS
 - Testing: Playwright (E2E)
 - Deployment: Google Cloud Run
 

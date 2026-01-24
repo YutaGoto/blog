@@ -26,10 +26,9 @@
 ## 4. ディレクトリ構造のルール
 
 - `/src/pages`: ページルーティング
-- `/src/layouts`: 共通レイアウトコンポーネント
 - `/src/components`: 再利用可能なUIコンポーネント
 - `/src/utils`: ユーティリティ関数や定数
-- `/src/content`: 記事のMarkdownファイル（もしファイル管理なら）
+- `/src/content`: 記事のMarkdownファイル
 
 ## 5. AIアシスタントへの指示 (Meta Instructions)
 

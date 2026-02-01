@@ -1,4 +1,4 @@
-import Years from "@/components/Years.astro"
+import Years from "./Years.astro"
 
 export default {
   component: Years,

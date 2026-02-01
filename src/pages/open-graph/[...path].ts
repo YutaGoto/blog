@@ -23,7 +23,7 @@ export const { getStaticPaths, GET } = await OGImageRoute({
     font: {
       title: {
         size: 78,
-        families: ["Noto Sans JP Black"],
+        families: ["Noto Sans JP"],
         weight: "ExtraBold",
       },
       description: {
@@ -33,5 +33,8 @@ export const { getStaticPaths, GET } = await OGImageRoute({
         weight: "Normal",
       },
     },
+    fonts: [
+      "https://github.com/google/fonts/raw/main/ofl/notosansjp/NotoSansJP%5Bwght%5D.ttf",
+    ],
   }),
 })

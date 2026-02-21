@@ -12,5 +12,7 @@ export const getOgImageUrl = (path: string): string | undefined => {
   const imagePath = `${path
     .replace(/^\/blog\/posts\//, "")
     .replace(/\/$/, "")}.png`
-  if (paths.has(imagePath)) return `/open-graph/${imagePath}`
+  const imageName = imagePath.split("/").slice(-1)[0]
+
+  if (paths.has(imageName)) return `/open-graph/${imageName}`
 }

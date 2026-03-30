@@ -1,4 +1,4 @@
-import type { ComponentProps } from "astro/type"
+import type { ComponentProps } from "astro/types"
 import Tag from "./Tag.astro"
 
 type TagProps = ComponentProps<typeof Tag>

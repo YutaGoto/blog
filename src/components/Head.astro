@@ -1,5 +1,5 @@
 ---
-import { ViewTransitions } from "astro:transitions"
+import { ClientRouter } from "astro:transitions"
 
 import { getOgImageUrl } from "@/utils/getOgImageUrl"
 
@@ -39,5 +39,5 @@ const ogImageUrl = ogImageSrc ? new URL(`${ogImageSrc}`, Astro.site) : undefined
   />
   <meta name="twitter:description" content={ogDescription} />
   <title>{title ? `${title} - .ごっちの日記` : ".ごっちの日記"}</title>
-  <ViewTransitions />
+  <ClientRouter />
 </head>

@@ -17,11 +17,11 @@ const tags = post.data?.tags
 
 <div
   class="mb-2 bg-gray-50 px-4 py-10 shadow-lg sm:rounded-xl sm:p-5 @dark:bg-gray-800"
-  transition:name=`articleCard-${post.slug}`
+  transition:name=`articleCard-${post.id}`
   transition:animate="fade"
 >
   <Link
-    href={`/posts/${post.slug}`}
+    href={`/posts/${post.id.replace(/\/index$/, "")}`}
     className="has-text-black"
     astro-data-history="push"
   >

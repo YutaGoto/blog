@@ -11,7 +11,7 @@ export const GET = async (context: APIContext) => {
       title: post.data.title,
       description: post.data.description || post.data.title,
       pubDate: new Date(post.data.date),
-      link: `/posts/${post.slug}`,
+      link: `/posts/${post.id}`,
     }
   })
 

@@ -42,13 +42,7 @@ export default defineConfig({
           "padding-top": "0.5rem",
           "padding-bottom": "0.5rem",
         },
-        p: {
-          color: "inherit",
-          "font-size": "1.125rem",
-          "line-height": "1.75rem",
-          "font-weight": "400",
-        },
-        li: {
+        "p, li": {
           color: "inherit",
           "font-size": "1.125rem",
           "line-height": "1.75rem",

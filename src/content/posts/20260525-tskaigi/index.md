@@ -15,7 +15,7 @@ tags: ["TypeScript", "TSKaigi", "Conference"]
 
 ## 前段階
 
-<img width="480" alt="個人スポンサー" src="/assets/images/posts/20260525-tskaigi/sponser.png">
+<img width="480" alt="個人スポンサー" src="/assets/images/posts/20260525-tskaigi/sponsor.png">
 
 
 今回も個人スポンサーしました。
@@ -97,7 +97,7 @@ TSKaigi 2026 Drinkup - connpass | https://nealle.connpass.com/event/393092/
 
 ### いつテストを書くか？―ソフトウェア開発における安心と不安について考える（lacolaco）
 
-<img width="480" src="https://2026.tskaigi.org/talks/65.png" />
+<img width="480" src="https://2026.tskaigi.org/talks/63.png" />
 
 https://2026.tskaigi.org/talks/63
 
@@ -114,7 +114,7 @@ https://2026.tskaigi.org/talks/63
 
 ### 次世代リンターで探る、tsgo 時代における型認識カスタムルールの現実解（Yuta Takahashi）
 
-<img width="480" src="https://2026.tskaigi.org/talks/63.png" />
+<img width="480" src="https://2026.tskaigi.org/talks/65.png" />
 
 https://2026.tskaigi.org/talks/65
 

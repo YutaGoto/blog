@@ -6,11 +6,11 @@
   "author": "Yuta Goto <you.goto.510@gmail.com>",
   "dependencies": {
     "@astrojs/check": "^0.9.0",
-    "@astrojs/node": "^10.0.3",
+    "@astrojs/node": "^11.0.0",
     "@astrojs/partytown": "^2.0.1",
     "@astrojs/rss": "^4.0.18",
     "acorn": "^8.16.0",
-    "astro": "^6.0.0",
+    "astro": "^7.0.0",
     "astro-og-canvas": "^0.11.0",
     "astrobook": "^0.13.0",
     "cdate": "^0.0.7",

@@ -1,10 +1,10 @@
-import type { GetStaticPathsOptions, GetStaticPathsResult } from "astro"
+import type { GetStaticPathsOptions } from "astro"
 
 import { getStaticPaths } from "@/pages/open-graph/[...path]"
 
-const routes = (await getStaticPaths(
-  {} as GetStaticPathsOptions,
-)) as GetStaticPathsResult
+const routes = await getStaticPaths({
+  routePattern: "/og/[...path]",
+} as GetStaticPathsOptions)
 
 const paths = new Set(routes.map(({ params }) => params.path))
 

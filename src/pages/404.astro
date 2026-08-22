@@ -2,9 +2,10 @@
 import Heading from "@/components/global/Heading.astro"
 import Link from "@/components/global/Link.astro"
 import Layout from "@/components/Layout.astro"
+import { notFoundAction } from "@/utils/notFound"
 
 const url = new URL(Astro.request.url)
-const post_slag = url.pathname.split("/").slice(-1)[0]
+const action = notFoundAction(url.pathname)
 ---
 
 <html>
@@ -20,17 +21,9 @@ const post_slag = url.pathname.split("/").slice(-1)[0]
       <div class="flex h-screen items-center justify-center text-center">
         <div>
           <Heading level={1} className="mb-2 text-4xl">404: Not Found</Heading>
-          {
-            post_slag.startsWith("202") ? (
-              <Link href={`/posts/${post_slag}`} className="underline">
-                Go The Post
-              </Link>
-            ) : (
-              <Link href="/" className="underline">
-                Go To Home
-              </Link>
-            )
-          }
+          <Link href={action.href} className="underline">
+            {action.label}
+          </Link>
         </div>
       </div>
     </Layout>

@@ -1,4 +1,5 @@
 ---
+import { works } from "@/data/works"
 import Link from "./global/Link.astro"
 ---
 
@@ -10,38 +11,15 @@ import Link from "./global/Link.astro"
 
   <div class="max-w-fit">
     <div class="flex flex-col space-y-1 pt-3">
-      <div>
-        <Link
-          href="https://zelda1-bingo.vercel.app/"
-          targetBlank
-        >
-          初代ゼルダの伝説ビンゴ<i class="ri-external-link-line"></i>
-      </Link>
-      </div>
-      <div>
-        <Link
-          href="https://hyrule-selfy-compendium.vercel.app/"
-          targetBlank
-        >
-          自撮りハイラル図鑑<i class="ri-external-link-line"></i>
-      </Link>
-      </div>
-      <div>
-        <Link
-          href="https://what3idols.vercel.app/"
-          targetBlank
-        >
-          What3Idols<i class="ri-external-link-line"></i>
-      </Link>
-      </div>
-      <div>
-        <Link
-          href="https://rubygems.org/gems/ika3"
-          targetBlank
-        >
-          Ika3 rubygem<i class="ri-external-link-line"></i>
-      </Link>
-      </div>
+      {
+        works.map(work => (
+          <div>
+            <Link href={work.href} targetBlank>
+              {work.title}<i class="ri-external-link-line"></i>
+            </Link>
+          </div>
+        ))
+      }
     </div>
   </div>
 </div>

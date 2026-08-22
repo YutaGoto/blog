@@ -8,14 +8,10 @@ import Layout from "@/components/Layout.astro"
 import TagList from "@/components/TagList.astro"
 import Work from "@/components/Work.astro"
 import Years from "@/components/Years.astro"
+import { sortPostsByDateDesc, uniqueTags } from "@/utils/posts"
 
-const allPosts = await getCollection("posts")
-const tags = [...new Set(allPosts.flatMap((post) => post.data?.tags))].filter(
-  (e): e is string => typeof e === "string",
-)
-allPosts.sort((a, b) => {
-  return new Date(b.data.date).getTime() - new Date(a.data.date).getTime()
-})
+const allPosts = sortPostsByDateDesc(await getCollection("posts"))
+const tags = uniqueTags(allPosts)
 
 const gTagId = import.meta.env.PROD ? "G-WDXGRMPVMC" : "G-4ZQZQZQZQZ"
 ---

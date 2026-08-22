@@ -7,25 +7,17 @@ import Heading from "@/components/global/Heading.astro"
 import Head from "@/components/Head.astro"
 import Layout from "@/components/Layout.astro"
 import Years from "@/components/Years.astro"
+import { filterPostsByYear, yearStaticPaths } from "@/utils/posts"
 
 const { year } = Astro.params
 
 export const getStaticPaths = async () => {
   const allPosts = await getCollection("posts")
-
-  const years = Array.from(
-    new Set(allPosts.map((post) => new Date(post.data.date).getFullYear())),
-  )
-  return years.map((year) => ({ params: { year: year.toString() } }))
+  return yearStaticPaths(allPosts)
 }
 
 const allPosts = await getCollection("posts")
-const tags = [...new Set(allPosts.flatMap((post) => post.data?.tags))].filter(
-  (e): e is string => typeof e === "string",
-)
-const posts = allPosts.filter(
-  (post) => new Date(post.data.date).getFullYear().toString() === year,
-)
+const posts = filterPostsByYear(allPosts, year ?? "")
 ---
 
 <html>

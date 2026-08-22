@@ -2,11 +2,12 @@
 import { getCollection, render } from "astro:content"
 
 import PostLayout from "@/components/PostLayout.astro"
+import { postSlug } from "@/utils/posts"
 
 export async function getStaticPaths() {
   const blogEntries = await getCollection("posts")
   return blogEntries.map((entry) => {
-    const slug = entry.id.replace(/\/index$/, "")
+    const slug = postSlug(entry.id)
     return {
       params: { slug },
       props: { entry },
@@ -16,7 +17,7 @@ export async function getStaticPaths() {
 
 const { entry } = Astro.props
 const { Content } = await render(entry)
-const slug = entry.id.replace(/\/index$/, "")
+const slug = postSlug(entry.id)
 ---
 
 <PostLayout frontmatter={entry.data} slug={slug}>

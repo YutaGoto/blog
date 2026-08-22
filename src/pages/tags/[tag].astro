@@ -7,28 +7,15 @@ import Heading from "@/components/global/Heading.astro"
 import Head from "@/components/Head.astro"
 import Layout from "@/components/Layout.astro"
 import TagList from "@/components/TagList.astro"
+import { tagStaticPaths, uniqueTags } from "@/utils/posts"
 
 export const getStaticPaths = async () => {
   const allPosts = await getCollection("posts")
-  const uniqueTags = [
-    ...new Set(allPosts.flatMap((post) => post.data?.tags)),
-  ].filter((e) => Boolean(e))
-
-  return uniqueTags.map((tag) => {
-    const filteredPosts = allPosts.filter((post) =>
-      post.data?.tags?.includes(tag || ""),
-    )
-    return {
-      params: { tag },
-      props: { posts: filteredPosts },
-    }
-  })
+  return tagStaticPaths(allPosts)
 }
 
 const allPosts = await getCollection("posts")
-const tags = [...new Set(allPosts.flatMap((post) => post.data?.tags))].filter(
-  (e): e is string => typeof e === "string",
-)
+const tags = uniqueTags(allPosts)
 
 const { tag } = Astro.params
 const { posts } = Astro.props

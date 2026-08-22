@@ -1,4 +1,4 @@
-name: E2E test
+name: Test
 
 permissions:
   contents: read
@@ -13,8 +13,8 @@ on:
       - main
 
 jobs:
-  tests_e2e:
-    name: Run end-to-end tests
+  test:
+    name: Run tests
     runs-on: ubuntu-latest
     steps:
       - uses: Kesin11/actions-timeline@57fc93f20c6da7fbc14063c6d24a2a5627c799ad # v3.2.0
@@ -27,7 +27,5 @@ jobs:
           node-version-file: ".node-version"
       - name: Install dependencies
         run: bun install
-      - name: Install playwright browsers
-        run: npx playwright install --with-deps
       - name: Run tests
-        run: npx playwright test
+        run: bun run test

@@ -23,7 +23,6 @@
   },
   "devDependencies": {
     "@biomejs/biome": "2.5.10",
-    "@playwright/test": "^1.50.0",
     "@unocss/preset-mini": "^66.6.8",
     "@unocss/preset-typography": "^66.6.8",
     "@unocss/preset-wind4": "^66.6.8",
@@ -38,7 +37,9 @@
     "textlint-rule-preset-japanese": "^10.0.3",
     "ts-node": "^10.9.1",
     "typescript": "^7.0.0",
-    "unocss": "^66.0.0"
+    "unocss": "^66.0.0",
+    "vitest": "^4.1.11",
+    "yaml": "^2.9.0"
   },
   "homepage": "https://blog.yougoto.dev",
   "license": "0BSD",
@@ -56,6 +57,6 @@
     "format": "biome check --write --unsafe ./ && biome format --write ./",
     "textlint": "textlint src/content/posts/202[1-9]**/*.md",
     "typecheck": "astro check && tsc --noEmit",
-    "test": "playwright test"
+    "test": "vitest run"
   }
 }

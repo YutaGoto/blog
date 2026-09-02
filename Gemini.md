@@ -14,7 +14,7 @@
 - Rendering: SSR (Server Side Rendering) <!-- または SSG (Static Site Generation) -->
 - Language: TypeScript / JavaScript
 - Styling: UnoCSS
-- Testing: Playwright (E2E)
+- Testing: Vitest (関数テスト / コンテンツ検証 / 薄いコンポーネントテスト)
 - Deployment: Google Cloud Run
 
 ## 3. コーディング規約 & 設計思想

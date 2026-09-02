@@ -1,18 +1,17 @@
 import type { GetStaticPathsOptions } from "astro"
 
 import { getStaticPaths } from "@/pages/open-graph/[...path]"
+import { resolveOgImageUrl } from "@/utils/ogImage"
 
 const routes = await getStaticPaths({
   routePattern: "/og/[...path]",
 } as GetStaticPathsOptions)
 
-const paths = new Set(routes.map(({ params }) => params.path))
+const paths = new Set(
+  routes
+    .map(({ params }) => params.path)
+    .filter((imageName): imageName is string => Boolean(imageName)),
+)
 
-export const getOgImageUrl = (path: string): string | undefined => {
-  const imagePath = `${path
-    .replace(/^\/blog\/posts\//, "")
-    .replace(/\/$/, "")}.png`
-  const imageName = imagePath.split("/").slice(-1)[0]
-
-  if (paths.has(imageName)) return `/open-graph/${imageName}`
-}
+export const getOgImageUrl = (path: string): string | undefined =>
+  resolveOgImageUrl(path, paths)

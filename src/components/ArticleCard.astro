@@ -8,6 +8,7 @@ interface Props {
 import type { CollectionEntry } from "astro:content"
 import { cdate } from "cdate"
 
+import { postSlug } from "@/utils/posts"
 import Tag from "./Tag.astro"
 
 const { post } = Astro.props
@@ -21,7 +22,7 @@ const tags = post.data?.tags
   transition:animate="fade"
 >
   <Link
-    href={`/posts/${post.id.replace(/\/index$/, "")}`}
+    href={`/posts/${postSlug(post.id)}`}
     className="has-text-black"
     astro-data-history="push"
   >

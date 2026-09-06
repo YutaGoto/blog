@@ -9,7 +9,7 @@ tags: ["Slack"]
 
 こんにちは。
 
-Slackのコミュニティを眺めていたら、「開催します！」という案内を見かけたので、次の日のProduct Engineering Conferenceに参加するついでに現地参加してきました。
+Slackのコミュニティを眺めていたら、「開催します！」という案内を見かけたので、次の日のProduct Engineering Conferenceへ参加するついでに現地参加してきました。
 
 Slack Dev Day Japan | https://invite.salesforce.com/slackdevdayjapan
 

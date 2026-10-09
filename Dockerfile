@@ -1,4 +1,4 @@
-FROM node:26.10.0 as base
+FROM node:26.11.1 as base
 WORKDIR /app
 COPY package.json ./
 COPY bun.lockb ./

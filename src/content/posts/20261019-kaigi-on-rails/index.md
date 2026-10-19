@@ -24,7 +24,7 @@ tags: ["Kaigi on Rails", "Ruby on Rails", "Conference"]
 
 Keynote: Where the tracks go next | Kaigi on Rails 2026 | https://kaigionrails.org/2026/talks/dhh/
 
-DHHのキーノート。コンピュータにコードを書かせて人が読まないならRust言語がいいのかもしれない。実際にサービスをRustに置き換えている最中。ただ、人が読み書きする前提のものをつくるならRailsもまだまだ最高なのかもしれない。
+DHHのキーノート。コンピュータにコードを書かせて、人間が読むことを前提にしないなら、Rustを選ぶのもよさそう。実際にサービスをRustに置き換えている最中。ただ、人が読み書きする前提のものをつくるなら、Railsもまだまだ最高なのかもしれない。
 
 発表後、 `DHH = Array.new` に並んで写真を撮ってもらい、サインをいただきました。 Big Love..。
 

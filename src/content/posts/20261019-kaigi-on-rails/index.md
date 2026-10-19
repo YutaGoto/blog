@@ -17,8 +17,6 @@ tags: ["Kaigi on Rails", "Ruby on Rails", "Conference"]
 
 <blockquote class="twitter-tweet"><p lang="ja" dir="ltr">おはようございます。
 #kaigionrails https://t.co/tIkoqvpgMU</p>&mdash; .ごっち (@gggooottto) <a href="https://x.com/gggooottto/status/2110904875735466227?ref_src=twsrc%5Etfw">October 16, 2026</a></blockquote>
-<script async src="https://platform.x.com/widgets.js" charset="utf-8"></script>
-
 
 ##  Keynote: Where the tracks go next
 

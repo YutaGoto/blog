@@ -9,7 +9,7 @@ tags: ["Kaigi on Rails", "Ruby on Rails", "Conference"]
 
 こんにちは、.ごっちです。
 
-2025年10月16日 - 17日に開催されたKaigi on Rails 2026へ現地参加してきましたので、その自分用の記録です。
+2026年10月16日 - 17日に開催されたKaigi on Rails 2026へ現地参加してきましたので、その自分用の記録です。
 
 - Kaigi on Rails 2026: October 16-17, Shibuya, Tokyo Japan | https://kaigionrails.org/2026/
 

@@ -14,7 +14,8 @@
       "!**/test-results",
       "!**/dist",
       "!**/.astro",
-      "!**/playwright-report"
+      "!**/playwright-report",
+      "!src/content/posts/**/*.md"
     ]
   },
   "javascript": {
@@ -58,6 +59,16 @@
           "correctness": {
             "noUnusedVariables": "off",
             "noUnusedImports": "off"
+          }
+        }
+      }
+    },
+    {
+      "includes": ["src/styles/**/*.scss"],
+      "linter": {
+        "rules": {
+          "complexity": {
+            "noImportantStyles": "off"
           }
         }
       }

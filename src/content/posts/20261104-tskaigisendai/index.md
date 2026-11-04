@@ -1,6 +1,6 @@
 ---
 title: TSKaigi Sendai 2026 参加記
-date: "2026-11-05T00:01:00.000Z"
+date: "2026-11-04T10:01:00.000Z"
 description: "スタッフ参加しました"
 tags: ["TypeScript", "TSKaigi", "Conference"]
 ---
@@ -19,9 +19,9 @@ tags: ["TypeScript", "TSKaigi", "Conference"]
 Webまわり整備してました。2026年のTSKaigiをベースにしたため、凝ったデザインはしてないです。
 Webサイトのイースターエッグ的機能として、 `console.log` でTSを描画したりコナミコマンドでアニメーションしたりを実装しました。
 
-<img width="480" alt="console logでTS" src="/assets/images/posts/20261105-tskaigisendai/consolelog.png">
+<img width="480" alt="console logでTS" src="/assets/images/posts/20261104-tskaigisendai/consolelog.png">
 
-<img width="480" alt="コナミコマンド" src="/assets/images/posts/20261105-tskaigisendai/konami.png">
+<img width="480" alt="コナミコマンド" src="/assets/images/posts/20261104-tskaigisendai/konami.png">
 
 キービジュアルの吹き流しのアニメーションの実装は [kanke](https://x.com/kan_dai)さんがやってくださいました。
 
@@ -31,7 +31,7 @@ Webサイトのイースターエッグ的機能として、 `console.log` でTS
 
 ## 当日
 
-<img width="480" alt="opening" src="/assets/images/posts/20261105-tskaigisendai/opening.jpg" />
+<img width="480" alt="opening" src="/assets/images/posts/20261104-tskaigisendai/opening.jpg" />
 
 配信と受付まわりにいました。配信はすでに完成されているものがあったので、ミスしないよう映像を切り替えるという仕事ですね。
 

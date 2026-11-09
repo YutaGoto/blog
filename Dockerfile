@@ -4,16 +4,16 @@ COPY package.json ./
 COPY bun.lockb ./
 
 RUN npm i -g bun
-RUN apt-get update && apt-get install -y \
-  build-essential \
-  python3 \
-  python3-pip \
-  python3-setuptools \
-  python3-wheel \
-  make g++ \
+RUN apt-get update && apt-get install -y --no-install-recommends \
+  build-essential=12.12 \
+  python3=3.13.5-1 \
+  python3-pip=25.1.1+dfsg-1 \
+  python3-setuptools=78.1.1-0.1 \
+  python3-wheel=0.46.1-2 \
+  make=4.4.1-2 \
+  g++=4:14.2.0-1 \
   && rm -rf /var/lib/apt/lists/*
 
-RUN bun --version
 RUN bun install --frozen-lockfile
 COPY . .
 RUN bun run build

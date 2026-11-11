@@ -3,7 +3,7 @@ WORKDIR /app
 COPY package.json ./
 COPY bun.lockb ./
 
-RUN npm i -g bun
+RUN npm i -g bun@1.4.3
 RUN apt-get update && apt-get install -y --no-install-recommends \
   build-essential=12.12 \
   python3=3.13.5-1 \

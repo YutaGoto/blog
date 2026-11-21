@@ -5,7 +5,7 @@ description: "仕事中や運転中に聞き流しています。"
 tags: ["Podcast", "アドベントカレンダー"]
 ---
 
-これは [.ごっ！のアドベントカレンダー](https://adventar.org/calendars/13397) の1日目の記事です。
+これは [.ごっ！のアドベントカレンダー](https://adventar.org/calendars/13397) の2日目の記事です。
 
 こんにちは、.ごっちです。
 

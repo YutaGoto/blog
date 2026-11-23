@@ -31,7 +31,7 @@
     "stylelint": "^18.0.0",
     "stylelint-config-prettier": "^9.0.4",
     "stylelint-config-standard": "^41.0.0",
-    "textlint": "^15.0.0",
+    "textlint": "^16.0.0",
     "textlint-rule-preset-ja-spacing": "^3.0.0",
     "textlint-rule-preset-ja-technical-writing": "^12.0.0",
     "textlint-rule-preset-japanese": "^10.0.3",

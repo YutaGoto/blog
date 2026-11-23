@@ -67,3 +67,9 @@ tags: ["Podcast", "アドベントカレンダー"]
 知らない世界（界隈）について手軽に聞けるのが好きなのかと書きながら考えてました。
 
 静かすぎる場で仕事をしたり運転したりするのが苦手なので、ちょっとした雑談が聞こえてくるのは本当に助かります。無駄に相槌を打ったりもしています。
+
+## 追伸
+
+Spotifyで購読中の番組リストを取得できるAPIがありました。とても便利。
+
+- Web API Reference | Spotify for Developers | https://developer.spotify.com/documentation/web-api/reference/get-users-saved-shows
